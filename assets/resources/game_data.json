@@ -10,7 +10,7 @@
   },
   "questionData": [
     {
-      "questionText": "Letters and sounds Uu",
+      "questionText": "Letter Uu",
       "questionAudioName": "Choose the uppercase letter u.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -25,7 +25,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Letters and sounds Uu",
+      "questionText": "Letter Uu",
       "questionAudioName": "Tap on the lowercase letter u.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -40,7 +40,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Letters and sounds Uu",
+      "questionText": "Letter Uu",
       "questionAudioName": "Tap on the picture that begins with letter sound u.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -55,13 +55,13 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Letters and sounds Uu",
+      "questionText": "Letter Uu",
       "questionAudioName": "Tap on the picture that begins with letter sound u.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "options": [
         "Asset 573.png",
-        "Asset 575.png",
+        "Asset 572.png",
         "Asset 574.png"
       ],
       "correctAudios": [
@@ -70,14 +70,14 @@
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "Letters and sounds Uu",
+      "questionText": "Letter Uu",
       "questionAudioName": "Tap on the picture that begins with letter sound u.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "options": [
         "Asset 573.png",
         "Asset 570.png",
-        "Asset 575.png"
+        "Asset 573.png"
       ],
       "correctAudios": [
         "47370813_13_under.mp3"
@@ -85,7 +85,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Letters and sounds Uu",
+      "questionText": "Letter Uu",
       "questionAudioName": "Tap on the picture that begins with letter sound u.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,

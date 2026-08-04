@@ -130,6 +130,7 @@ export default class NewClass extends cc.Component {
     isDone: boolean[] = [];
     isLastTween: boolean = false;
     canPlay: boolean = false;
+    answerarraytext: string[] = ["U", "u", "Umbrella", "Umpire", "Under", "Up"];
 
     onLoad() {
         this.optionsNode.children.forEach((elem) => {
@@ -319,9 +320,9 @@ export default class NewClass extends cc.Component {
                 elem.children[2].opacity = 255;
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(elem.children[1])
-                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                    .to(0.5, { scale: 0.6 }, { easing: "sineInOut" }).start();
                 cc.tween(elem.children[2])
-                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                    .to(0.5, { scale: 0.6 }, { easing: "sineInOut" }).start();
             });
 
             this.scheduleOnce(() => {
@@ -441,6 +442,8 @@ export default class NewClass extends cc.Component {
             TVInputManager.Instance.isGameEnded = true;
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerarraytext[globalVariables.Instance.currentLevel - 1];
+
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveFeedback(_node);
         }

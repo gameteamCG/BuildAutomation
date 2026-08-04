@@ -93,6 +93,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.isDone = [];
         _this.isLastTween = false;
         _this.canPlay = false;
+        _this.answerarraytext = ["U", "u", "Umbrella", "Umpire", "Under", "Up"];
         return _this;
     }
     NewClass.prototype.onLoad = function () {
@@ -273,9 +274,9 @@ var NewClass = /** @class */ (function (_super) {
                 elem.children[2].opacity = 255;
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 cc.tween(elem.children[1])
-                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                    .to(0.5, { scale: 0.6 }, { easing: "sineInOut" }).start();
                 cc.tween(elem.children[2])
-                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                    .to(0.5, { scale: 0.6 }, { easing: "sineInOut" }).start();
             });
             _this.scheduleOnce(function () {
                 _this.setupTVFocus("Option");
@@ -389,6 +390,7 @@ var NewClass = /** @class */ (function (_super) {
             TVInputManager_1.default.Instance.isGameEnded = true;
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerarraytext[globalVariables_1.default.Instance.currentLevel - 1];
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveFeedback(_node);
         }
