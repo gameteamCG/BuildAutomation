@@ -730,7 +730,7 @@ export default class video extends cc.Component {
         ].filter(n => n);
 
         // setupTVFocus3
-        console.log("setupTVFocus3:", nodes.map(n => n.name));
+        //console.log("setupTVFocus3:", nodes.map(n => n.name));
 
         TVInputManager.Instance.init(nodes, -1);
         TVInputManager.Instance.setCanSelect(true);

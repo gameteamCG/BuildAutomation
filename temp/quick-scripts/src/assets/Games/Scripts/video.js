@@ -684,7 +684,7 @@ var video = /** @class */ (function (_super) {
             musicBtn
         ]).filter(function (n) { return n; });
         // setupTVFocus3
-        console.log("setupTVFocus3:", nodes.map(function (n) { return n.name; }));
+        //console.log("setupTVFocus3:", nodes.map(n => n.name));
         TVInputManager_1.default.Instance.init(nodes, -1);
         TVInputManager_1.default.Instance.setCanSelect(true);
     };
