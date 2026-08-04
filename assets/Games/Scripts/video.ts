@@ -100,11 +100,11 @@ export default class video extends cc.Component {
     private canTouch: boolean = false;
     private forwardBtn: cc.Node = null;
     private backwardBtn: cc.Node = null;
-    private correctAnim: string[] = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-    private wrongAnim: string[] = ["negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3"];
+    private correctAnim: string[] = ["positive_1", "positive_2", "positive_3"];
+    private wrongAnim: string[] = ["negative_1", "negative_2", "negative_1"];
 
-    private puzzleCorrectAnim: string[] = ["positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3"];
-    private puzzleNegativeAnim: string[] = ["negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1"];
+    private puzzleCorrectAnim: string[] = ["positive_1", "positive_2", "positive_3"];
+    private puzzleNegativeAnim: string[] = ["negative_1", "negative_2", "negative_1"];
 
     private supercubCorrectAnim: string[] = ["positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5"];
     private supercubNegativeAnim: string[] = ["negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4"];
