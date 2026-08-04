@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new deer s",
+    "texture": "24610d58-2210-48d4-9201-003c4f4e0507",
+    "atlas": "",
+    "rect": [
+      68,
+      31,
+      365,
+      456
+    ],
+    "offset": [
+      0,
+      -8.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

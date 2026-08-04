@@ -1,0 +1,138 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letters and sounds Dd_LKG_SB1_13",
+      "totalLevel": "5",
+      "TitleImageName": "new title'.png",
+      "introBgName": "bgmain.png",
+      "bgmMusicName": "bgm1.mp3",
+      "JockeyName": "cryon"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "1_new_tap-on-the-deer-with-t_xrs3nrJs.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "new deer d.png",
+          "new deer s.png",
+          "deer f.png"
+        ],
+        "correctAudioName": "L1correct.mp3",
+        "wrongAudioName": "no.mp3",
+        "reiterationAudioName": [
+          "new_6_d-says_3LGCmpXm.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "2.png",
+        "questionAudioName": "new_2tap-on-the-dress-with_dC2WQIHs.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "dress L.png",
+          "dress d.png",
+          "dress s.png"
+        ],
+        "correctAudioName": "L2Correct.mp3",
+        "wrongAudioName": "nu.mp3",
+        "reiterationAudioName": [
+          "new_6_d-says_3LGCmpXm.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "3.png",
+        "questionAudioName": "new_3tap-on-the-doll-with-t_03nYvDxt.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "doll d.png",
+          "doll u.png",
+          "doll L.png"
+        ],
+        "correctAudioName": "L3correct.mp3",
+        "wrongAudioName": "ns.mp3",
+        "reiterationAudioName": [
+          "new_6_d-says_3LGCmpXm.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "4.png",
+        "questionAudioName": "new_4-tap-on-the-duck-with-t_w4X1oUmP.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "duck n.png",
+          "duck b.png",
+          "duck d.png"
+        ],
+        "correctAudioName": "L5Correct.mp3",
+        "wrongAudioName": "ns.mp3",
+        "reiterationAudioName": [
+          "new_6_d-says_3LGCmpXm.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Asset 1.png",
+        "questionAudioName": "new5-tap-on-the-dolphin-wit_ITOQ9BHk.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "new_DP1.png",
+          "new_DP2.png",
+          "new_DP3.png"
+        ],
+        "correctAudioName": "L1correct.mp3",
+        "wrongAudioName": "ns.mp3",
+        "reiterationAudioName": [
+          "new_6_d-says_3LGCmpXm.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
