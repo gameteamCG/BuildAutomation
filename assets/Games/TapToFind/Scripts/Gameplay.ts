@@ -362,7 +362,9 @@ export default class Gameplay extends cc.Component {
 
         }
     }
-
+    playButton() {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    }
     onTouchStart_layout2(event: cc.Event.EventTouch) {
         if (!this.canTouch) {
             return;

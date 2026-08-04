@@ -8,18 +8,18 @@
       "x": 0,
       "y": 24,
       "width": 1440,
-      "height": 819,
+      "height": 820,
       "layout": {
         "type": "dock-h",
         "children": [
           {
             "width": 275.2749938964844,
-            "height": 701,
+            "height": 704.2000122070312,
             "type": "dock-v",
             "children": [
               {
                 "width": 275.2749938964844,
-                "height": 351.5,
+                "height": 353.1000061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -28,7 +28,7 @@
               },
               {
                 "width": 275.2749938964844,
-                "height": 346.5,
+                "height": 348.1000061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 734.7250366210938,
-            "height": 701,
+            "width": 742.7374877929688,
+            "height": 704.2000122070312,
             "type": "dock-v",
             "children": [
               {
-                "width": 734.7250366210938,
-                "height": 351.5,
+                "width": 742.7374877929688,
+                "height": 353.1000061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,10 +52,10 @@
                 ]
               },
               {
-                "width": 734.7250366210938,
-                "height": 346.5,
+                "width": 742.7374877929688,
+                "height": 348.1000061035156,
                 "type": "panel",
-                "active": 0,
+                "active": 2,
                 "children": [
                   "console",
                   "timeline",
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 410.3999938964844,
-            "height": 701,
+            "width": 402.3999938964844,
+            "height": 704.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [

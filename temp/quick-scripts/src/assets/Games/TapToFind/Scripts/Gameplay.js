@@ -379,6 +379,9 @@ var Gameplay = /** @class */ (function (_super) {
             }).start();
         }
     };
+    Gameplay.prototype.playButton = function () {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    };
     Gameplay.prototype.onTouchStart_layout2 = function (event) {
         var _this = this;
         if (!this.canTouch) {
