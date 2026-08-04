@@ -137,6 +137,13 @@ export default class video extends cc.Component {
         //     this.isOnSlider = true;
         //     this.SliderButton();
         // }, this);
+        if (this.forwardBtn) {
+            this.forwardBtn.active = true;
+        }
+
+        if (this.backwardBtn) {
+            this.backwardBtn.active = true;
+        }
 
         this.slider.children[2].on("touchmove", function () {
             this.isSliding = false;
@@ -316,7 +323,9 @@ export default class video extends cc.Component {
         }
     }
     SkipForward(_event?: cc.Event) {
-
+        // console.log("SkipForward called");
+        // console.log("_event:", _event);
+        // console.log("Current Time:", this.node.getComponent(cc.VideoPlayer).currentTime);
         if (_event) {
             _event.target.getComponent(cc.Button).interactable = false;
         }
@@ -346,7 +355,9 @@ export default class video extends cc.Component {
         }, 0.1);
     }
     SkipBackward(_event?: cc.Event) {
-
+        // console.log("SkipBackward called");
+        // console.log("_event:", _event);
+        // console.log("Current Time:", this.node.getComponent(cc.VideoPlayer).currentTime);
         if (_event) {
             _event.target.getComponent(cc.Button).interactable = false;
         }
@@ -378,18 +389,22 @@ export default class video extends cc.Component {
     }
     playVideo1() {
         this.node.on('completed', function () {
+
             if (this.gameStarted) {
                 this.checkOnMissingQuestions();
-                console.log("starsEarned--2");
                 console.log("video completed");
+
                 this.tools.active = false;
                 this.videoCompleted = true;
+
+                if (this.forwardBtn) this.forwardBtn.active = false;
+                if (this.backwardBtn) this.backwardBtn.active = false;
             }
-            // cc.director.loadScene("1");
-            // this.node.destroy();
+
         }, this);
 
         this.node.on('playing', function () {
+            console.log("aaaaaaggggggggggggggggggggggggggg")
             this.isPlay = true;
             this.isPause = false;
             // console.log("Duration = ", this.node.getComponent(cc.VideoPlayer).getDuration());
@@ -432,22 +447,15 @@ export default class video extends cc.Component {
             this.toolActivater.active = false;
             this.tools.opacity = 255;
 
-            const pauseVisible = this.tools.getChildByName("pause").active;
-
-            if (this.forwardBtn) {
-                this.forwardBtn.active = pauseVisible;
-            }
-
-            if (this.backwardBtn) {
-                this.backwardBtn.active = pauseVisible;
-            }
+            if (this.forwardBtn) this.forwardBtn.active = true;
+            if (this.backwardBtn) this.backwardBtn.active = true;
 
             // Existing timer code...
         }
         else {
 
-            if (this.forwardBtn) this.forwardBtn.active = false;
-            if (this.backwardBtn) this.backwardBtn.active = false;
+            // if (this.forwardBtn) this.forwardBtn.active = false;
+            // if (this.backwardBtn) this.backwardBtn.active = false;
 
             this.toolActivater.active = true;
             this.tools.opacity = 0;
@@ -504,8 +512,8 @@ export default class video extends cc.Component {
         this.tools.getChildByName("resume").active = true;
         this.tools.getChildByName("pause").active = false;
 
-        if (this.forwardBtn) this.forwardBtn.active = false;
-        if (this.backwardBtn) this.backwardBtn.active = false;
+        // if (this.forwardBtn) this.forwardBtn.active = false;
+        // if (this.backwardBtn) this.backwardBtn.active = false;
 
         this.ActivateTools();
 
@@ -769,6 +777,7 @@ export default class video extends cc.Component {
         }
     }
     private setupTVFocus2() {
+
         let backBtn = startGame.Instance.node.getChildByName("back");
         let musicBtn = startGame.Instance.node.getChildByName("music");
         let soundBtn = startGame.Instance.node.getChildByName("sound");
@@ -778,7 +787,7 @@ export default class video extends cc.Component {
         let forwardBtn = cc.find("Canvas/skipAhead");
         let backwardBtn = cc.find("Canvas/skipBack");
         //let sliderHandle = this.slider.getChildByName("Handle");
-
+        //console.log("Pause scale before init:", pauseBtn.scale);
         let nodes: cc.Node[] = [];
 
         if (pauseBtn && pauseBtn.active && pauseBtn.opacity > 0)
@@ -800,7 +809,14 @@ export default class video extends cc.Component {
 
         // setupTVFocus3
         console.log("setupTVFocus2:", nodes.map(n => n.name));
-        TVInputManager.Instance.init(nodes, 0);
+        if (pauseBtn) pauseBtn.scale = 1;
+        if (resumeBtn) resumeBtn.scale = 1;
+        if (forwardBtn) forwardBtn.scale = 1;
+        if (backwardBtn) backwardBtn.scale = 1;
+        if (backBtn) backBtn.scale = 1;
+        if (musicBtn) musicBtn.scale = 1;
+        if (soundBtn) soundBtn.scale = 1;
+        TVInputManager.Instance.init(nodes, -1);
         TVInputManager.Instance.setCanSelect(true);
     }
     questionSetup() {

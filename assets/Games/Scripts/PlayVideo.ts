@@ -99,7 +99,7 @@ export default class NewClass extends cc.Component {
 
         let nodes = [playBtn, backBtn, musicBtn].filter(n => !!n);
 
-        TVInputManager.Instance.init(nodes, 0);
+        TVInputManager.Instance.init(nodes, -1);
         TVInputManager.Instance.setCanSelect(true);
     }
     Play() {

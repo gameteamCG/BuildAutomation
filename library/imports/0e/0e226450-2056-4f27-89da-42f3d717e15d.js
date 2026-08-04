@@ -110,7 +110,7 @@ var NewClass = /** @class */ (function (_super) {
         //let soundBtn = this.node.getChildByName("panel").getChildByName("soundbutton");
         var playBtn = this.node.getChildByName("play");
         var nodes = [playBtn, backBtn, musicBtn].filter(function (n) { return !!n; });
-        TVInputManager_1.default.Instance.init(nodes, 0);
+        TVInputManager_1.default.Instance.init(nodes, -1);
         TVInputManager_1.default.Instance.setCanSelect(true);
     };
     NewClass.prototype.Play = function () {

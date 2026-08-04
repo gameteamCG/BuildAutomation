@@ -145,6 +145,12 @@ var video = /** @class */ (function (_super) {
         //     this.isOnSlider = true;
         //     this.SliderButton();
         // }, this);
+        if (this.forwardBtn) {
+            this.forwardBtn.active = true;
+        }
+        if (this.backwardBtn) {
+            this.backwardBtn.active = true;
+        }
         this.slider.children[2].on("touchmove", function () {
             this.isSliding = false;
             this.isOnSlider = true;
@@ -327,6 +333,9 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.SkipForward = function (_event) {
         var _this = this;
+        // console.log("SkipForward called");
+        // console.log("_event:", _event);
+        // console.log("Current Time:", this.node.getComponent(cc.VideoPlayer).currentTime);
         if (_event) {
             _event.target.getComponent(cc.Button).interactable = false;
         }
@@ -349,6 +358,9 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.SkipBackward = function (_event) {
         var _this = this;
+        // console.log("SkipBackward called");
+        // console.log("_event:", _event);
+        // console.log("Current Time:", this.node.getComponent(cc.VideoPlayer).currentTime);
         if (_event) {
             _event.target.getComponent(cc.Button).interactable = false;
         }
@@ -374,16 +386,18 @@ var video = /** @class */ (function (_super) {
         this.node.on('completed', function () {
             if (this.gameStarted) {
                 this.checkOnMissingQuestions();
-                console.log("starsEarned--2");
                 console.log("video completed");
                 this.tools.active = false;
                 this.videoCompleted = true;
+                if (this.forwardBtn)
+                    this.forwardBtn.active = false;
+                if (this.backwardBtn)
+                    this.backwardBtn.active = false;
             }
-            // cc.director.loadScene("1");
-            // this.node.destroy();
         }, this);
         this.node.on('playing', function () {
             var _this = this;
+            console.log("aaaaaaggggggggggggggggggggggggggg");
             this.isPlay = true;
             this.isPause = false;
             // console.log("Duration = ", this.node.getComponent(cc.VideoPlayer).getDuration());
@@ -422,20 +436,15 @@ var video = /** @class */ (function (_super) {
         if (_activate) {
             this.toolActivater.active = false;
             this.tools.opacity = 255;
-            var pauseVisible = this.tools.getChildByName("pause").active;
-            if (this.forwardBtn) {
-                this.forwardBtn.active = pauseVisible;
-            }
-            if (this.backwardBtn) {
-                this.backwardBtn.active = pauseVisible;
-            }
+            if (this.forwardBtn)
+                this.forwardBtn.active = true;
+            if (this.backwardBtn)
+                this.backwardBtn.active = true;
             // Existing timer code...
         }
         else {
-            if (this.forwardBtn)
-                this.forwardBtn.active = false;
-            if (this.backwardBtn)
-                this.backwardBtn.active = false;
+            // if (this.forwardBtn) this.forwardBtn.active = false;
+            // if (this.backwardBtn) this.backwardBtn.active = false;
             this.toolActivater.active = true;
             this.tools.opacity = 0;
         }
@@ -486,10 +495,8 @@ var video = /** @class */ (function (_super) {
         this.node.getComponent(cc.VideoPlayer).pause();
         this.tools.getChildByName("resume").active = true;
         this.tools.getChildByName("pause").active = false;
-        if (this.forwardBtn)
-            this.forwardBtn.active = false;
-        if (this.backwardBtn)
-            this.backwardBtn.active = false;
+        // if (this.forwardBtn) this.forwardBtn.active = false;
+        // if (this.backwardBtn) this.backwardBtn.active = false;
         this.ActivateTools();
         this.scheduleOnce(function () {
             if (!_this.questionNode.active) {
@@ -736,6 +743,7 @@ var video = /** @class */ (function (_super) {
         var forwardBtn = cc.find("Canvas/skipAhead");
         var backwardBtn = cc.find("Canvas/skipBack");
         //let sliderHandle = this.slider.getChildByName("Handle");
+        //console.log("Pause scale before init:", pauseBtn.scale);
         var nodes = [];
         if (pauseBtn && pauseBtn.active && pauseBtn.opacity > 0)
             nodes.push(pauseBtn);
@@ -754,7 +762,21 @@ var video = /** @class */ (function (_super) {
             nodes.push(musicBtn);
         // setupTVFocus3
         console.log("setupTVFocus2:", nodes.map(function (n) { return n.name; }));
-        TVInputManager_1.default.Instance.init(nodes, 0);
+        if (pauseBtn)
+            pauseBtn.scale = 1;
+        if (resumeBtn)
+            resumeBtn.scale = 1;
+        if (forwardBtn)
+            forwardBtn.scale = 1;
+        if (backwardBtn)
+            backwardBtn.scale = 1;
+        if (backBtn)
+            backBtn.scale = 1;
+        if (musicBtn)
+            musicBtn.scale = 1;
+        if (soundBtn)
+            soundBtn.scale = 1;
+        TVInputManager_1.default.Instance.init(nodes, -1);
         TVInputManager_1.default.Instance.setCanSelect(true);
     };
     video.prototype.questionSetup = function () {
