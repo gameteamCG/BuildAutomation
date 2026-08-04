@@ -207,10 +207,9 @@ var TVInputManager = /** @class */ (function (_super) {
     };
     TVInputManager.prototype.updateFocus = function () {
         var _this = this;
-        var _a;
-        console.log("Current Index:", this.currentIndex);
-        console.log("Current Node:", (_a = this.focusNodes[this.currentIndex]) === null || _a === void 0 ? void 0 : _a.name);
-        console.log("Focus Nodes:", this.focusNodes.map(function (n) { return n.name; }));
+        // console.log("Current Index:", this.currentIndex);
+        // console.log("Current Node:", this.focusNodes[this.currentIndex]?.name);
+        // console.log("Focus Nodes:", this.focusNodes.map(n => n.name));
         this.focusNodes.forEach(function (node, index) {
             var _a;
             if (!node || !node.isValid)

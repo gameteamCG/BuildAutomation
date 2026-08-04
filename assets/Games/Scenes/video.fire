@@ -2357,8 +2357,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 50,
-    "_lineHeight": 65,
+    "_fontSize": 100,
+    "_lineHeight": 105,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -2371,7 +2371,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "4dJuO4IsxGWKyLqgNAA5I0"
   },
@@ -2721,8 +2721,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 100,
+    "_lineHeight": 105,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -2735,7 +2735,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "c4FWyPnJdHkLyBTeyCl4db"
   },
@@ -3292,8 +3292,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 100,
+    "_lineHeight": 105,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -3306,7 +3306,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "65EQ/zQlpCBptJQnNxxHSj"
   },
@@ -3863,8 +3863,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 100,
+    "_lineHeight": 105,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -3877,7 +3877,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "d1EHtBD8JJ26pT0/mHwrp3"
   },
@@ -4434,8 +4434,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 100,
+    "_lineHeight": 105,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -4448,7 +4448,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "bf0SeWWkdO+YGv32ov5zZN"
   },

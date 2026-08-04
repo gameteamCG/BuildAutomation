@@ -402,7 +402,7 @@ var video = /** @class */ (function (_super) {
         }, this);
         this.node.on('playing', function () {
             var _this = this;
-            console.log("aaaaaaggggggggggggggggggggggggggg");
+            //console.log("aaaaaaggggggggggggggggggggggggggg")
             this.isPlay = true;
             this.isPause = false;
             // console.log("Duration = ", this.node.getComponent(cc.VideoPlayer).getDuration());
@@ -762,7 +762,7 @@ var video = /** @class */ (function (_super) {
         if (musicBtn)
             nodes.push(musicBtn);
         // setupTVFocus3
-        console.log("setupTVFocus2:", nodes.map(function (n) { return n.name; }));
+        //console.log("setupTVFocus2:", nodes.map(n => n.name));
         if (pauseBtn)
             pauseBtn.scale = 1;
         if (resumeBtn)

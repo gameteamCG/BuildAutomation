@@ -409,7 +409,7 @@ export default class video extends cc.Component {
         }, this);
 
         this.node.on('playing', function () {
-            console.log("aaaaaaggggggggggggggggggggggggggg")
+            //console.log("aaaaaaggggggggggggggggggggggggggg")
             this.isPlay = true;
             this.isPause = false;
             // console.log("Duration = ", this.node.getComponent(cc.VideoPlayer).getDuration());
@@ -813,7 +813,7 @@ export default class video extends cc.Component {
         if (musicBtn) nodes.push(musicBtn);
 
         // setupTVFocus3
-        console.log("setupTVFocus2:", nodes.map(n => n.name));
+        //console.log("setupTVFocus2:", nodes.map(n => n.name));
         if (pauseBtn) pauseBtn.scale = 1;
         if (resumeBtn) resumeBtn.scale = 1;
         if (forwardBtn) forwardBtn.scale = 1;
