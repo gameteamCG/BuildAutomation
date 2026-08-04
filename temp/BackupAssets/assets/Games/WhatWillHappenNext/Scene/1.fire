@@ -1288,8 +1288,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 330,
-      "height": 330
+      "width": 300,
+      "height": 300
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1540,7 +1540,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "e6DPmV/FNKZYPbJIKXH+9V"
   },
@@ -1973,8 +1973,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 3,
-    "transition": 3,
+    "_N$transition": 1,
+    "transition": 1,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,
@@ -2322,9 +2322,6 @@
       "__id__": 5
     },
     "_enabled": true,
-    "extraImg": {
-      "__uuid__": "fe7bee84-c27e-4e2c-bfe9-4452ad2d6dae"
-    },
     "podar_font": null,
     "jaipuria_font": null,
     "tlc_font": null,
@@ -2332,11 +2329,6 @@
     "popSound": [
       {
         "__uuid__": "34f9d273-9dff-4094-bcdb-4e79ee69dcbf"
-      }
-    ],
-    "popSound2": [
-      {
-        "__uuid__": "e6008246-c683-4a2e-98ed-55c5032d805c"
       }
     ],
     "questionSound": [
@@ -2409,21 +2401,6 @@
         "__uuid__": "6508ac3d-d101-47e5-8840-ab13b2369c9a"
       }
     ],
-    "stallionPositive": [],
-    "stallionNegative": [],
-    "bagPositive": [],
-    "bagNegative": [],
-    "cryonPositive": [],
-    "cryonNegative": [],
-    "tlcPositive": [],
-    "tlcNegative": [],
-    "supercubPositive": [],
-    "supercubNegative": [],
-    "tlc_birdFlying": null,
-    "supercub_Pos1": null,
-    "supercub_Pos2": null,
-    "supercub_Neg1": null,
-    "supercub_Neg2": null,
     "defaultMat": {
       "__uuid__": "08ffa63e-16c2-4ca0-8529-cbdbddf9d7f9"
     },
