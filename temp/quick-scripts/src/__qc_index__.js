@@ -1,4 +1,5 @@
 
+require('./assets/1_Jaipuria_Old/JaipuriaJockey');
 require('./assets/Framework/Jockeys/Scripts/Jockey');
 require('./assets/Framework/Prefabs/ProgressBar/Scripts/ProgressBar');
 require('./assets/Framework/Scripts/CustomWidget');
