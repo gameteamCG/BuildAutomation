@@ -3,12 +3,6 @@ cc._RF.push(module, '959f7A5jptMGpxTvBXeyZrl', 'video');
 // Games/Scripts/video.ts
 
 "use strict";
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -36,6 +30,13 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+// Learn TypeScript:
+//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
+// Learn Attribute:
+//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
+// Learn life-cycle callbacks:
+//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
+//uncomment lines having "this.forwardBtn.active = true;" for activating the frwrd / skip buttons
 var StartGame_1 = require("../../Framework/Scripts/StartGame");
 var TVInputManager_1 = require("./TVInputManager");
 cc.macro.ENABLE_TRANSPARENT_CANVAS = true;
@@ -145,11 +146,15 @@ var video = /** @class */ (function (_super) {
         //     this.isOnSlider = true;
         //     this.SliderButton();
         // }, this);
+        var video = this.node.getComponent(cc.VideoPlayer);
+        var duration = video.getDuration();
+        console.log("Duration:", this.node.getComponent(cc.VideoPlayer).getDuration());
+        var showSkipButtons = duration > 30;
         if (this.forwardBtn) {
-            this.forwardBtn.active = true;
+            this.forwardBtn.active = showSkipButtons;
         }
         if (this.backwardBtn) {
-            this.backwardBtn.active = true;
+            this.backwardBtn.active = showSkipButtons;
         }
         this.slider.children[2].on("touchmove", function () {
             this.isSliding = false;
@@ -436,10 +441,8 @@ var video = /** @class */ (function (_super) {
         if (_activate) {
             this.toolActivater.active = false;
             this.tools.opacity = 255;
-            if (this.forwardBtn)
-                this.forwardBtn.active = true;
-            if (this.backwardBtn)
-                this.backwardBtn.active = true;
+            // if (this.forwardBtn) this.forwardBtn.active = true;
+            // if (this.backwardBtn) this.backwardBtn.active = true;
             // Existing timer code...
         }
         else {
@@ -478,10 +481,8 @@ var video = /** @class */ (function (_super) {
         this.node.getComponent(cc.VideoPlayer).resume();
         this.tools.getChildByName("resume").active = false;
         this.tools.getChildByName("pause").active = true;
-        if (this.forwardBtn)
-            this.forwardBtn.active = true;
-        if (this.backwardBtn)
-            this.backwardBtn.active = true;
+        // if (this.forwardBtn) this.forwardBtn.active = true;
+        // if (this.backwardBtn) this.backwardBtn.active = true;
         this.scheduleOnce(function () {
             if (!_this.questionNode.active) {
                 _this.setupTVFocus2();

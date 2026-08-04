@@ -4,7 +4,7 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
-
+//uncomment lines having "this.forwardBtn.active = true;" for activating the frwrd / skip buttons
 import startGame from "../../Framework/Scripts/StartGame";
 import TVInputManager from "./TVInputManager";
 
@@ -137,12 +137,17 @@ export default class video extends cc.Component {
         //     this.isOnSlider = true;
         //     this.SliderButton();
         // }, this);
+        let video = this.node.getComponent(cc.VideoPlayer);
+        let duration = video.getDuration();
+        console.log("Duration:", this.node.getComponent(cc.VideoPlayer).getDuration());
+        let showSkipButtons = duration > 30;
+
         if (this.forwardBtn) {
-            this.forwardBtn.active = true;
+            this.forwardBtn.active = showSkipButtons;
         }
 
         if (this.backwardBtn) {
-            this.backwardBtn.active = true;
+            this.backwardBtn.active = showSkipButtons;
         }
 
         this.slider.children[2].on("touchmove", function () {
@@ -447,8 +452,8 @@ export default class video extends cc.Component {
             this.toolActivater.active = false;
             this.tools.opacity = 255;
 
-            if (this.forwardBtn) this.forwardBtn.active = true;
-            if (this.backwardBtn) this.backwardBtn.active = true;
+            // if (this.forwardBtn) this.forwardBtn.active = true;
+            // if (this.backwardBtn) this.backwardBtn.active = true;
 
             // Existing timer code...
         }
@@ -494,8 +499,8 @@ export default class video extends cc.Component {
         this.tools.getChildByName("resume").active = false;
         this.tools.getChildByName("pause").active = true;
 
-        if (this.forwardBtn) this.forwardBtn.active = true;
-        if (this.backwardBtn) this.backwardBtn.active = true;
+        // if (this.forwardBtn) this.forwardBtn.active = true;
+        // if (this.backwardBtn) this.backwardBtn.active = true;
 
         this.scheduleOnce(() => {
             if (!this.questionNode.active) {
