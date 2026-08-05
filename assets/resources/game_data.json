@@ -1,0 +1,133 @@
+{
+  "additionalData": {
+    "GameID": "null",
+    "totalLevel": "8",
+    "TitleImageName": "animalpatterns.png",
+    "introBgName": "s_kg.png",
+    "bgmMusicName": "bgmpattern.mp3",
+    "mainBgName": "newbg (16).png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "identify the animal pattern",
+      "questionImageName": "cheetahpattern.png",
+      "questionAudioName": "iap.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "newAsset 589.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "chetaah.png",
+        "turtle.png"
+      ],
+      "correctAudioName": "cheetah.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "identify the animal pattern",
+      "questionImageName": "cowpattern.png",
+      "questionAudioName": "iap.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "cow.png",
+        "snake.png"
+      ],
+      "correctAudioName": "cow.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "identify the animal pattern",
+      "questionImageName": "giraffe.png",
+      "questionAudioName": "iap.mp3",
+      "shouldPlayQuestionAudio": false,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "tiger.png",
+        "girafe.png"
+      ],
+      "correctAudioName": "giraffe.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "identify the animal pattern",
+      "questionImageName": "leopardpattern.png",
+      "questionAudioName": "leopard.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "leopad.png",
+        "turtle.png"
+      ],
+      "correctAudioName": "leopard.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "identify the animal pattern",
+      "questionImageName": "snakepattern.png",
+      "questionAudioName": "iap.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "cow.png",
+        "snake.png"
+      ],
+      "correctAudioName": "snake.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "identify the animal pattern",
+      "questionImageName": "tigerpattern.png",
+      "questionAudioName": "iap.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "tiger.png",
+        "chetaah.png"
+      ],
+      "correctAudioName": "Tiger.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "identify the animal pattern",
+      "questionImageName": "turtlepattern.png",
+      "questionAudioName": "iap.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "turtle.png",
+        "zebra.png"
+      ],
+      "correctAudioName": "turtle.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "identify the animal pattern",
+      "questionImageName": "zebrapattern.png",
+      "questionAudioName": "iap.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "girafe.png",
+        "zebra.png"
+      ],
+      "correctAudioName": "zebra.mp3",
+      "correctAnswerNum": "2"
+    }
+  ]
+}

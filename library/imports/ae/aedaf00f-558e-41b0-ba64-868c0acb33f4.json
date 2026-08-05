@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "leopad",
+    "texture": "21bedafd-88ba-4bdc-ade8-19863a268a00",
+    "atlas": "",
+    "rect": [
+      9,
+      93,
+      479,
+      313
+    ],
+    "offset": [
+      -1.5,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

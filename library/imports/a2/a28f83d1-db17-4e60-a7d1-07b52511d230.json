@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chetaah",
+    "texture": "a514ff50-b601-4be8-b0b7-896b16428c88",
+    "atlas": "",
+    "rect": [
+      2,
+      115,
+      496,
+      271
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

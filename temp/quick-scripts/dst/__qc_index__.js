@@ -11,7 +11,7 @@
                     function __define (exports, require, module) {
                         if (!nodeEnv) {__quick_compile_project__.registerModule(__filename, module);}
 require('./assets/Framework/Jockeys/Scripts/Jockey');
-require('./assets/Framework/Prefabs/ProgressBar/Scripts/ProgressBar');
+require('./assets/Framework/Prefabs/Progressbar/Scripts/ProgressBar');
 require('./assets/Framework/Scripts/CustomWidget');
 require('./assets/Framework/Scripts/CustomWidget2');
 require('./assets/Framework/Scripts/Progress');
@@ -25,6 +25,10 @@ require('./assets/Games/WhatWillHappenNext/Scripts/Title');
 require('./assets/Games/WhatWillHappenNext/Scripts/endScreen');
 require('./assets/Games/WhatWillHappenNext/Scripts/gameplay');
 require('./assets/Games/WhatWillHappenNext/Scripts/globalVariables');
+require('./assets/resources/1_Jaipuria (1)/1_Jaipuria/Script');
+require('./assets/resources/1_Jaipuria (1)/1_Jaipuria/scripts/graphics');
+require('./assets/resources/1_Jaipuria (1)/1_Jaipuria/scripts/introduction');
+require('./assets/resources/1_Jaipuria (1)/1_Jaipuria/scripts/roughArea');
 require('./assets/resources/empty');
 
                     }
