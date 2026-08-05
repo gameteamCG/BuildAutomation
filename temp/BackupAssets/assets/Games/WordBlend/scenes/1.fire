@@ -3239,8 +3239,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 120,
-    "_lineHeight": 125,
+    "_fontSize": 60,
+    "_lineHeight": 65,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "76a75812-cc05-483f-a8f7-4ccf842f4aa4"
@@ -3611,8 +3611,8 @@
     "_dstBlendFactor": 771,
     "_string": "f",
     "_N$string": "f",
-    "_fontSize": 100,
-    "_lineHeight": 100,
+    "_fontSize": 60,
+    "_lineHeight": 65,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "76a75812-cc05-483f-a8f7-4ccf842f4aa4"
@@ -3908,8 +3908,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 80,
-      "height": 80
+      "width": 50,
+      "height": 50
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3961,7 +3961,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "f9a736c2-432b-4801-8cc7-2e82db6061c5"
+      "__uuid__": "2fcb51f1-f8f6-4a89-bbde-9a672f18e4f3"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -4086,8 +4086,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 336.25,
-      "height": 50.4
+      "width": 216.08,
+      "height": 75.6
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4138,13 +4138,13 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Tens and ones 21 to 30",
-    "_N$string": "Tens and ones 21 to 30",
-    "_fontSize": 40,
-    "_lineHeight": 40,
+    "_string": "Blends - pl",
+    "_N$string": "Blends - pl",
+    "_fontSize": 55,
+    "_lineHeight": 60,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "e9b6b310-5e42-4213-a3f1-9ffa7547edbb"
+      "__uuid__": "18ac7d5c-6b2e-4def-845b-03f3c6a5a10d"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -4174,7 +4174,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "26be8fa5-04d3-4191-9a15-d6fa9d296db0"
+      "__uuid__": "7653aba3-4cdf-412f-ba44-d44ce3978df8"
     },
     "_type": 0,
     "_sizeMode": 2,

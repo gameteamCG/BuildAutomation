@@ -57,13 +57,13 @@ var NewClass = /** @class */ (function (_super) {
         _this.jockeyCorrect2 = null;
         _this.wrongAnswer = null;
         _this.questions = [
-            "2 tens and 1 one",
-            "2 tens and 3 ones",
-            "2 tens and 4 ones",
-            "2 tens and 2 ones",
-            "2 tens and 6 ones",
-            "2 tens and 5 ones",
-            "2 tens and 8 ones",
+            "plane",
+            "plug",
+            "plum",
+            "plant",
+            "planet",
+            "plate",
+            "plus",
             "2 tens and 9 ones",
             "2 tens and 7 ones",
         ];
@@ -193,7 +193,7 @@ var NewClass = /** @class */ (function (_super) {
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
         if (cc.director.getScene().name == "1") {
-            TVInputManager_1.default.Instance.init(nodes, 0);
+            TVInputManager_1.default.Instance.init(nodes, -1);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);
@@ -212,7 +212,7 @@ var NewClass = /** @class */ (function (_super) {
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
         if (cc.director.getScene().name == "1") {
-            TVInputManager_1.default.Instance.init(nodes, 0);
+            TVInputManager_1.default.Instance.init(nodes, -1);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);
@@ -700,7 +700,7 @@ var NewClass = /** @class */ (function (_super) {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+            anim = ["positive_1", "positive_2", "positive_3"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
@@ -774,7 +774,7 @@ var NewClass = /** @class */ (function (_super) {
                 anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+                anim = ["negative_1", "negative_2"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
