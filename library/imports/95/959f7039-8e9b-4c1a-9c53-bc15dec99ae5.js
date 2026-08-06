@@ -416,13 +416,10 @@ var video = /** @class */ (function (_super) {
         // this.node.getComponent(cc.VideoPlayer).pause();
         this.node.getComponent(cc.VideoPlayer).play();
         this.scheduleOnce(function () {
-            // this.ActivateTools(false);
             _this.node.getComponent(cc.VideoPlayer).volume = 1;
-            _this.UpdateSlider();
             _this.scheduleOnce(function () {
                 _this.gameStarted = true;
             }, 1);
-            // this.isSliding = true;
         }, 1);
         // this.scheduleOnce(() => {
         //     this.tools.active = true;
@@ -475,6 +472,7 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.ResumePlayButton = function (_event) {
         var _this = this;
+        console.trace("RESUME CALLED");
         cc.audioEngine.stopMusic();
         this.isPlay = true;
         this.isPause = false;
@@ -491,6 +489,7 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.PauseButton = function (_event) {
         var _this = this;
+        console.trace("PAUSE CALLED");
         this.isPlay = false;
         this.isPause = true;
         this.node.getComponent(cc.VideoPlayer).pause();
@@ -516,8 +515,6 @@ var video = /** @class */ (function (_super) {
         console.log("updateslider : ", Math.round(this.node.getComponent(cc.VideoPlayer).currentTime));
         this.scheduleOnce(function () {
             _this.isSliding = true;
-            _this.node.getComponent(cc.VideoPlayer).pause();
-            _this.node.getComponent(cc.VideoPlayer).resume();
             _this.tools.getChildByName("resume").active = false;
             _this.tools.getChildByName("pause").active = true;
             if (!_this.questionNode.active) {
@@ -546,31 +543,9 @@ var video = /** @class */ (function (_super) {
         // }, 0.1);
     };
     video.prototype.SliderButton = function () {
-        var _this = this;
         this.isOnSlider = true;
-        var video = this.node.getComponent(cc.VideoPlayer);
-        var duration = video.getDuration();
-        if (duration <= 0)
-            return;
-        // Current time
-        var currentTime = video.currentTime;
-        // Calculate new time (don't exceed duration)
-        var newTime = Math.min(currentTime + this.skipSeconds, duration);
-        // Update video
-        video.stop();
-        video.currentTime = newTime;
-        video.play();
-        // Update slider
-        var progress = newTime / duration;
-        this.slider.getComponent(cc.Slider).progress = progress;
-        // Update high bar
-        this.slider.getChildByName("high").width =
-            this.slider.getChildByName("Handle").getPosition().x + 472.5;
-        console.log("Skipped " + (newTime - currentTime) + "s | " + newTime.toFixed(2) + " / " + duration.toFixed(2));
-        this.scheduleOnce(function () {
-            video.resume();
-            _this.isOnSlider = false;
-        }, 0.2);
+        // console.log("is slider button working!!!!!!!");
+        this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
     };
     video.prototype.OnQuestionAnswered = function (_event) {
         var _this = this;

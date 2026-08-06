@@ -341,7 +341,6 @@ export default class video extends cc.Component {
         let newTime = Math.min(video.currentTime + this.skipSeconds, duration);
 
         video.currentTime = newTime;
-
         this.slider.getComponent(cc.Slider).progress = newTime / duration;
         this.slider.getChildByName("high").width =
             this.slider.getChildByName("Handle").getPosition().x + 472.5;
@@ -425,13 +424,11 @@ export default class video extends cc.Component {
         this.node.getComponent(cc.VideoPlayer).play();
 
         this.scheduleOnce(() => {
-            // this.ActivateTools(false);
             this.node.getComponent(cc.VideoPlayer).volume = 1;
-            this.UpdateSlider();
+
             this.scheduleOnce(() => {
                 this.gameStarted = true;
             }, 1);
-            // this.isSliding = true;
         }, 1);
         // this.scheduleOnce(() => {
         //     this.tools.active = true;
@@ -489,6 +486,8 @@ export default class video extends cc.Component {
     }
 
     ResumePlayButton(_event?: cc.Event) {
+        console.trace("RESUME CALLED");
+
         cc.audioEngine.stopMusic();
 
         this.isPlay = true;
@@ -509,6 +508,7 @@ export default class video extends cc.Component {
         }, 0);
     }
     PauseButton(_event?: cc.Event) {
+        console.trace("PAUSE CALLED");
         this.isPlay = false;
         this.isPause = true;
 
@@ -540,9 +540,6 @@ export default class video extends cc.Component {
         console.log("updateslider : ", Math.round(this.node.getComponent(cc.VideoPlayer).currentTime));
         this.scheduleOnce(() => {
             this.isSliding = true;
-
-            this.node.getComponent(cc.VideoPlayer).pause();
-            this.node.getComponent(cc.VideoPlayer).resume();
 
             this.tools.getChildByName("resume").active = false;
             this.tools.getChildByName("pause").active = true;
@@ -576,39 +573,8 @@ export default class video extends cc.Component {
 
     SliderButton() {
         this.isOnSlider = true;
-
-        let video = this.node.getComponent(cc.VideoPlayer);
-        let duration = video.getDuration();
-
-        if (duration <= 0) return;
-
-        // Current time
-        let currentTime = video.currentTime;
-
-        // Calculate new time (don't exceed duration)
-        let newTime = Math.min(currentTime + this.skipSeconds, duration);
-
-        // Update video
-        video.stop();
-        video.currentTime = newTime;
-        video.play();
-
-        // Update slider
-        let progress = newTime / duration;
-        this.slider.getComponent(cc.Slider).progress = progress;
-
-        // Update high bar
-        this.slider.getChildByName("high").width =
-            this.slider.getChildByName("Handle").getPosition().x + 472.5;
-
-        console.log(
-            `Skipped ${newTime - currentTime}s | ${newTime.toFixed(2)} / ${duration.toFixed(2)}`
-        );
-
-        this.scheduleOnce(() => {
-            video.resume();
-            this.isOnSlider = false;
-        }, 0.2);
+        // console.log("is slider button working!!!!!!!");
+        this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
     }
 
     OnQuestionAnswered(_event: cc.Event) {
