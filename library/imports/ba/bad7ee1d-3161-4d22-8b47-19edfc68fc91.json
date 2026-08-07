@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "drummerisplayingthedrum",
+    "texture": "bb0b407a-028d-4c71-9929-968087d31ce5",
+    "atlas": "",
+    "rect": [
+      19,
+      29,
+      477,
+      439
+    ],
+    "offset": [
+      7.5,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

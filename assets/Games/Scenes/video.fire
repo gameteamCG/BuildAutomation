@@ -2728,8 +2728,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 100,
-    "_lineHeight": 105,
+    "_fontSize": 80,
+    "_lineHeight": 85,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -3299,8 +3299,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 100,
-    "_lineHeight": 105,
+    "_fontSize": 80,
+    "_lineHeight": 85,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -3870,8 +3870,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 100,
-    "_lineHeight": 105,
+    "_fontSize": 80,
+    "_lineHeight": 85,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -4441,8 +4441,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 100,
-    "_lineHeight": 105,
+    "_fontSize": 80,
+    "_lineHeight": 85,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
