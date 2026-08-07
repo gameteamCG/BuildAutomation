@@ -100,11 +100,11 @@ export default class video extends cc.Component {
     private canTouch: boolean = false;
     private forwardBtn: cc.Node = null;
     private backwardBtn: cc.Node = null;
-    private correctAnim: string[] = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-    private wrongAnim: string[] = ["negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3"];
+    private correctAnim: string[] = ["positive_1", "positive_2", "positive_3", "positive_4"];
+    private wrongAnim: string[] = ["negative_1", "negative_2", "negative_1", "negative_2"];
 
-    private puzzleCorrectAnim: string[] = ["positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3"];
-    private puzzleNegativeAnim: string[] = ["negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1"];
+    private puzzleCorrectAnim: string[] = ["positive_1", "positive_2", "positive_3", "positive_4"];
+    private puzzleNegativeAnim: string[] = ["negative_1", "negative_2", "negative_1", "negative_2"];
 
     private supercubCorrectAnim: string[] = ["positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5"];
     private supercubNegativeAnim: string[] = ["negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4"];
@@ -486,7 +486,7 @@ export default class video extends cc.Component {
     }
 
     ResumePlayButton(_event?: cc.Event) {
-        console.trace("RESUME CALLED");
+        //console.trace("RESUME CALLED");
 
         cc.audioEngine.stopMusic();
 
@@ -508,7 +508,7 @@ export default class video extends cc.Component {
         }, 0);
     }
     PauseButton(_event?: cc.Event) {
-        console.trace("PAUSE CALLED");
+        //console.trace("PAUSE CALLED");
         this.isPlay = false;
         this.isPause = true;
 
@@ -696,7 +696,7 @@ export default class video extends cc.Component {
         ].filter(n => n);
 
         // setupTVFocus3
-        console.log("setupTVFocus3:", nodes.map(n => n.name));
+        //console.log("setupTVFocus3:", nodes.map(n => n.name));
 
         TVInputManager.Instance.init(nodes, -1);
         TVInputManager.Instance.setCanSelect(true);

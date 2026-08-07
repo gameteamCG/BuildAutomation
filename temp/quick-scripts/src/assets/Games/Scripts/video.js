@@ -111,10 +111,10 @@ var video = /** @class */ (function (_super) {
         _this.canTouch = false;
         _this.forwardBtn = null;
         _this.backwardBtn = null;
-        _this.correctAnim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-        _this.wrongAnim = ["negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3"];
-        _this.puzzleCorrectAnim = ["positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3"];
-        _this.puzzleNegativeAnim = ["negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1"];
+        _this.correctAnim = ["positive_1", "positive_2", "positive_3", "positive_4"];
+        _this.wrongAnim = ["negative_1", "negative_2", "negative_1", "negative_2"];
+        _this.puzzleCorrectAnim = ["positive_1", "positive_2", "positive_3", "positive_4"];
+        _this.puzzleNegativeAnim = ["negative_1", "negative_2", "negative_1", "negative_2"];
         _this.supercubCorrectAnim = ["positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5"];
         _this.supercubNegativeAnim = ["negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4"];
         _this.podarCorrectAnim = ["possitive1", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6", "possitive1", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
@@ -471,8 +471,8 @@ var video = /** @class */ (function (_super) {
         }
     };
     video.prototype.ResumePlayButton = function (_event) {
+        //console.trace("RESUME CALLED");
         var _this = this;
-        console.trace("RESUME CALLED");
         cc.audioEngine.stopMusic();
         this.isPlay = true;
         this.isPause = false;
@@ -489,7 +489,7 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.PauseButton = function (_event) {
         var _this = this;
-        console.trace("PAUSE CALLED");
+        //console.trace("PAUSE CALLED");
         this.isPlay = false;
         this.isPause = true;
         this.node.getComponent(cc.VideoPlayer).pause();
@@ -659,7 +659,7 @@ var video = /** @class */ (function (_super) {
             musicBtn
         ]).filter(function (n) { return n; });
         // setupTVFocus3
-        console.log("setupTVFocus3:", nodes.map(function (n) { return n.name; }));
+        //console.log("setupTVFocus3:", nodes.map(n => n.name));
         TVInputManager_1.default.Instance.init(nodes, -1);
         TVInputManager_1.default.Instance.setCanSelect(true);
     };
