@@ -488,7 +488,7 @@
     "podar_font": null,
     "tlc_font": null,
     "supercub_font": null,
-    "skipSeconds": 10,
+    "skipSeconds": 15,
     "positiveVO": [
       null,
       null,

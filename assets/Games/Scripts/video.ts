@@ -68,7 +68,7 @@ export default class video extends cc.Component {
     supercub_font: cc.Font = null;
 
     @property(Number)
-    skipSeconds: number = 4;
+    skipSeconds: number = 15;
     @property(cc.AudioClip)
     positiveVO: cc.AudioClip[] = [];
 
