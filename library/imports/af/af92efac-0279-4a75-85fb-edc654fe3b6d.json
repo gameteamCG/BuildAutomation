@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Blends - sk_UKG_SB3_24",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/63290839_SK_1714367659839.mp4",
+      "TitleImageName": "skblend.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "skirt",
+        "QuestionImageName": "",
+        "QuestionAudioName": "19952876_1_select_the_correct_pic.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "shirt.png",
+          "pant.png",
+          "dress.png",
+          "skirt.png"
+        ],
+        "ReiterationAudioName": "19952876_2_skirt.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "imageskater.png",
+        "QuestionAudioName": "19952876_3_who_is_she.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "skater.png",
+          "skipper.png",
+          "skier.png",
+          "skunk.png"
+        ],
+        "ReiterationAudioName": "19952876_4_skater.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "skies",
+        "QuestionImageName": "",
+        "QuestionAudioName": "19952876_1_select_the_correct_pic.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "skates.png",
+          "skies.png",
+          "skateboard.png",
+          "skirt.png"
+        ],
+        "ReiterationAudioName": "19952876_5_skies.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "skydive.png",
+        "QuestionAudioName": "19952876_7_click_on_the_missing_b.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "st.png",
+          "sp.png",
+          "sk.png",
+          "sl.png"
+        ],
+        "ReiterationAudioName": "19952876_8_skydive.mp3",
+        "CorrectAudioName": "positive_4.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}
