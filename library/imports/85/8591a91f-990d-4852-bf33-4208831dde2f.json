@@ -491,24 +491,12 @@
     "supercub_font": null,
     "skipSeconds": 10,
     "positiveVO": [
-      {
-        "__uuid__": "f26b62e9-ff08-4903-9c62-0e9547b0cd04"
-      },
-      {
-        "__uuid__": "c09c3205-699d-4cb6-9a24-0d46d141cab8"
-      },
-      {
-        "__uuid__": "358ddeac-6f65-4dc9-95ee-e1b709e48307"
-      },
-      {
-        "__uuid__": "ba2d363d-be85-407b-9ad5-48ddd537d9a3"
-      },
-      {
-        "__uuid__": "ce5c03cd-31bb-4c38-9d89-57401d5f19fa"
-      },
-      {
-        "__uuid__": "d1a6c1d9-a345-4e75-b0ed-bbb1730a14de"
-      }
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ],
     "slider": {
       "__id__": 13
