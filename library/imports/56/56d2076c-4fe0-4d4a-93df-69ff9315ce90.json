@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "smel",
+    "texture": "50b2dd04-053b-456a-b353-8b2a37abe1f6",
+    "atlas": "",
+    "rect": [
+      52,
+      95,
+      146,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
