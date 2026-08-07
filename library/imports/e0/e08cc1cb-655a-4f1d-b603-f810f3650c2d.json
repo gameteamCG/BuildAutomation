@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Blends - gr_UKG_SB3_18",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/66716035_GR_1714999035947.mp4",
+      "TitleImageName": "blendwordgr.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "green",
+        "QuestionImageName": "green2.png",
+        "QuestionAudioName": "pickcorrectcolourforword.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "250x250_0007_green.png",
+          "250x250_0005_blue.png",
+          "250x250_0001_yellow.png",
+          "250x250_0000_red.png"
+        ],
+        "ReiterationAudioName": "Green.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "grill",
+        "QuestionImageName": "grill.png",
+        "QuestionAudioName": "identify_the_word_for_the_picture.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "grab",
+          "green",
+          "grill",
+          "graph"
+        ],
+        "ReiterationAudioName": "grill.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "grey",
+        "QuestionImageName": "grey.png",
+        "QuestionAudioName": "choosecorrectcolourforword.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "black",
+          "white",
+          "brown",
+          "grey"
+        ],
+        "ReiterationAudioName": "gray.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "grepes.png",
+        "QuestionAudioName": "clickmissingblend.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "gr",
+          "tr",
+          "fr",
+          "pr"
+        ],
+        "ReiterationAudioName": "GR.mp3",
+        "CorrectAudioName": "positive_4.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
