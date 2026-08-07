@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "JUTTA",
+    "texture": "ac0d1eea-0e6e-46f4-bfbd-1c4dcec71d43",
+    "atlas": "",
+    "rect": [
+      7,
+      85,
+      287,
+      131
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

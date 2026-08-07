@@ -1,80 +1,103 @@
 {
     "additionalData": {
         "GameID": "First Letter_Nursery Practice Book 2_19",
-        "totalLevel": "3",
-        "TitleImageName": "Asset245.png",
+        "totalLevel": "4",
+        "TitleImageName": "title img.png",
         "introBgName": "Bg.png",
         "bgmMusicName": "BGM_1.mp3",
-        "mainBgName": "mainBG.png",
+        "mainBgName": "newbg.png",
         "JockeyName": "Puzzle"
     },
     "questionData": [
         {
-            "questionText": "अभ्यास  क - घ",
-            "questionAudioName": "Ques.mp3",
+            "questionText": "अभ्यास",
+            "questionAudioName": "q1.mp3",
             "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "Asset23.png",
-            "commonDropNodeImageName": "Asset22.png",
+            "commonOptionImageName": "optionasset.png",
+            "commonDropNodeImageName": "answer asset.png",
             "isDropAreaText": false,
             "dropAreas": [
-                "1.png",
-                "2.png"
+                "CH.png",
+                "cha.png"
             ],
             "reiterationAudios": [
-                "1.mp3",
-                "2.mp3"
+                "च से चमचम.mp3",
+                "छ से छिपकली.mp3"
             ],
             "numberOfOptions": 3,
             "isOptionText": false,
             "options": [
-                "c1.png",
-                "c2.png",
+                "chamcham.png",
+                "chipkali.png",
                 "w1.png"
             ]
         },
         {
-            "questionText": "अभ्यास  क - घ",
-            "questionAudioName": "Ques.mp3",
+            "questionText": "अभ्यास",
+            "questionAudioName": "q1.mp3",
             "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "Asset23.png",
-            "commonDropNodeImageName": "Asset22.png",
+            "commonOptionImageName": "optionasset.png",
+            "commonDropNodeImageName": "answer asset.png",
             "isDropAreaText": false,
             "dropAreas": [
-                "3.png",
-                "4.png"
+                "jj.png",
+                "zz.png"
             ],
             "reiterationAudios": [
-                "3.mp3",
-                "4.mp3"
+                "ज से जग.mp3",
+                "झ से झरना.mp3"
             ],
             "numberOfOptions": 3,
             "isOptionText": false,
             "options": [
-                "c3.png",
-                "c4.png",
+                "JUG.png",
+                "JHARNA.png",
                 "w2.png"
             ]
         },
         {
-            "questionText": "अभ्यास  क - घ",
-            "questionAudioName": "Ques.mp3",
+            "questionText": "अभ्यास",
+            "questionAudioName": "q1.mp3",
             "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "Asset23.png",
-            "commonDropNodeImageName": "Asset22.png",
+            "commonOptionImageName": "optionasset.png",
+            "commonDropNodeImageName": "answer asset.png",
             "isDropAreaText": false,
             "dropAreas": [
-                "5.png",
-                "6.png"
+                "CH.png",
+                "cha.png"
             ],
             "reiterationAudios": [
-                "5.png",
-                "6.mp3"
+                "च से चकला.png",
+                "छ से छत.mp3"
             ],
             "numberOfOptions": 3,
             "isOptionText": false,
             "options": [
-                "c5.png",
-                "c6.png",
+                "chakala.png",
+                "chat.png",
+                "w3.png"
+            ]
+        },
+        {
+            "questionText": "अभ्यास",
+            "questionAudioName": "q1.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "optionasset.png",
+            "commonDropNodeImageName": "answer asset.png",
+            "isDropAreaText": false,
+            "dropAreas": [
+                "jj.png",
+                "zz.png"
+            ],
+            "reiterationAudios": [
+                "ज से जूता.png",
+                "झ से झूला.mp3"
+            ],
+            "numberOfOptions": 3,
+            "isOptionText": false,
+            "options": [
+                "JUTTA.png",
+                "ZULA.png",
                 "w3.png"
             ]
         }

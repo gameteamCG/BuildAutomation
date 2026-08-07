@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ZULA",
+    "texture": "1aa23bc2-c0dd-43b2-87cc-0ae51c0e0788",
+    "atlas": "",
+    "rect": [
+      8,
+      33,
+      285,
+      234
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

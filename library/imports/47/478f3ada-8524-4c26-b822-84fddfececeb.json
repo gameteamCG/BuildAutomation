@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chipkali",
+    "texture": "7301ebcb-7d0d-4ab9-9473-ebcd362b6cb6",
+    "atlas": "",
+    "rect": [
+      5,
+      73,
+      292,
+      155
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

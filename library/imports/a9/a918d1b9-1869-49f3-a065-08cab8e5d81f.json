@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chamcham",
+    "texture": "80efc4d9-b4ac-41b9-8836-c2b625916cb0",
+    "atlas": "",
+    "rect": [
+      10,
+      43,
+      282,
+      214
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
