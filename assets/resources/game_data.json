@@ -25,8 +25,8 @@
                 "250x250_0002_crane.png"
             ],
             "ReiterationAudioName": "Crane.mp3",
-            "CorrectAudioName": "GREATWORK.mp3",
-            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAudioName": "positive_1.mp3",
+            "WrongAudioName": "negative_1.mp3",
             "CorrectAnswer": "4"
         },
         {
@@ -45,8 +45,8 @@
                 "crash"
             ],
             "ReiterationAudioName": "Crab.mp3",
-            "CorrectAudioName": "GOODJOB.mp3",
-            "WrongAudioName": "ohoh.mp3",
+            "CorrectAudioName": "positive_2.mp3",
+            "WrongAudioName": "negative_2.mp3",
             "CorrectAnswer": "3"
         },
         {
@@ -65,8 +65,8 @@
                 "crab"
             ],
             "ReiterationAudioName": "crib.mp3",
-            "CorrectAudioName": "FANTASTIC.mp3",
-            "WrongAudioName": "nevermindtryagain.mp3",
+            "CorrectAudioName": "positive_3.mp3",
+            "WrongAudioName": "negative_1.mp3",
             "CorrectAnswer": "2"
         },
         {
@@ -85,8 +85,8 @@
                 "tr"
             ],
             "ReiterationAudioName": "CR.mp3",
-            "CorrectAudioName": "EXCELLENTJOB.mp3",
-            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAudioName": "positive_4.mp3",
+            "WrongAudioName": "negative_2.mp3",
             "CorrectAnswer": "2"
         }
     ]
