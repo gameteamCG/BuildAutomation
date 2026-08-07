@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Blend Sound _sl_",
+    "texture": "f228472d-b59b-4320-a2a3-84dce2b6390f",
+    "atlas": "",
+    "rect": [
+      2,
+      7,
+      515,
+      97
+    ],
+    "offset": [
+      -0.5,
+      2
+    ],
+    "originalSize": [
+      520,
+      115
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
