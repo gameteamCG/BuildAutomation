@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0006_queen",
+    "texture": "661a6d27-da4a-433e-8902-400b601049da",
+    "atlas": "",
+    "rect": [
+      6,
+      23,
+      238,
+      207
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
