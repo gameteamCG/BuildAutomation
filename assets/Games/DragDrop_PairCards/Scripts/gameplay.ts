@@ -494,7 +494,7 @@ export default class NewClass extends cc.Component {
         // console.log("_node : ", _node.name);
         // console.log("parentNode : ", parentNode);
         _node.setParentWithSamePos(this.dropNode.getChildByName(parentNode.name).getChildByName("answer"));
-        this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].setPosition(0, 0);
+        this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].setPosition(0, -50);
         this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].scale = this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].scale + this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].scale * 0.2;
         this.scheduleOnce(() => {
             parentNode.destroy();
@@ -830,7 +830,7 @@ export default class NewClass extends cc.Component {
         let optionsLayout = _node;
         let optionNodes = optionsLayout.children;
 
-        const paddingBetweenOptions = 10;
+        const paddingBetweenOptions = 8;
 
         let totalWidth = 0;
         let maxHeight = 0;

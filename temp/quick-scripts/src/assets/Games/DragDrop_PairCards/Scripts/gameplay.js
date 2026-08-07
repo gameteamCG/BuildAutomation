@@ -482,7 +482,7 @@ var NewClass = /** @class */ (function (_super) {
         // console.log("_node : ", _node.name);
         // console.log("parentNode : ", parentNode);
         _node.setParentWithSamePos(this.dropNode.getChildByName(parentNode.name).getChildByName("answer"));
-        this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].setPosition(0, 0);
+        this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].setPosition(0, -50);
         this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].scale = this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].scale + this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].scale * 0.2;
         this.scheduleOnce(function () {
             parentNode.destroy();
@@ -783,7 +783,7 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.OptionsLayoutHorizontal = function (_node) {
         var optionsLayout = _node;
         var optionNodes = optionsLayout.children;
-        var paddingBetweenOptions = 10;
+        var paddingBetweenOptions = 8;
         var totalWidth = 0;
         var maxHeight = 0;
         for (var i = 0; i < optionNodes.length; i++) {
