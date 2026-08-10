@@ -59,10 +59,10 @@
             "isOptionText": true,
             "numberOfOptions": 2,
             "options": [
-                "plug",
-                "blocks"
+                "blocks",
+                "plug"
             ],
-            "correctAnswer": "1",
+            "correctAnswer": "2",
             "reiterationAudioName": "plug.mp3"
         },
         {
@@ -115,10 +115,10 @@
             "isOptionText": true,
             "numberOfOptions": 2,
             "options": [
-                "plant",
-                "gloves"
+                "gloves",
+                "plant"
             ],
-            "correctAnswer": "1",
+            "correctAnswer": "2",
             "reiterationAudioName": "plant_2.mp3"
         },
         {
@@ -171,10 +171,10 @@
             "isOptionText": true,
             "numberOfOptions": 2,
             "options": [
-                "plate",
-                "flag"
+                "flag",
+                "plate"
             ],
-            "correctAnswer": "1",
+            "correctAnswer": "2",
             "reiterationAudioName": "plate.mp3"
         },
         {

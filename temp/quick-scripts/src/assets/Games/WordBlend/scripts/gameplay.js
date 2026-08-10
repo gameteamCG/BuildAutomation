@@ -881,7 +881,8 @@ var NewClass = /** @class */ (function (_super) {
             cc.audioEngine.stopAllEffects();
             console.log("-----------hihihihi");
             cc.audioEngine.playEffect(this.wordVoIteration, false);
-            this.node.getChildByName("shortQBar").getChildByName("New Label").getComponent(cc.Label).string = this.questions[StartGame_1.default.Instance.currentLevel - 1];
+            this.node.getChildByName("shortQBar").getChildByName("New Label").active = false;
+            this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).string = this.questions[StartGame_1.default.Instance.currentLevel - 1];
             this.scheduleOnce(function () {
                 _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                 _this.CallJockey();
