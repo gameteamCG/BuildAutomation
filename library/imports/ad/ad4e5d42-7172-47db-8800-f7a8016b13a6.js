@@ -22,10 +22,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __spreadArrays = (this && this.__spreadArrays) || function () {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
+var TVInputManager_1 = require("./TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
@@ -60,6 +68,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.greyMat = null;
         _this.isFirstClick = false;
         _this.canTouch = false;
+        _this.canPlay = false;
         _this.answerArray = [];
         _this.maxLevel = 7;
         _this.wrongAnswerCount = 0;
@@ -284,14 +293,24 @@ var NewClass = /** @class */ (function (_super) {
                 cc.tween(_this.node.getChildByName("QuestionBox"))
                     .to(0.5, { x: posX }, { easing: "sineInOut" }).start();
                 _this.canTouch = true;
+                _this.canPlay = true;
+                if (TVInputManager_1.default.Instance)
+                    TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
                 _this.callOptionIn();
             }, 1);
         }, 1);
     };
     NewClass.prototype.OnVOButton = function () {
+        var _this = this;
         cc.audioEngine.stopAllEffects();
         if (this.questionSound[0])
             cc.audioEngine.playEffect(this.questionSound[0], false);
+        this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = true;
+            _this.node.getChildByName("questionPanel").getChildByName("sound").scale = 1;
+            _this.setupTVFocus("Option");
+        }, this.questionSound[0].duration + 0.1);
     };
     NewClass.prototype.callOptionIn = function () {
         var _this = this;
@@ -309,6 +328,7 @@ var NewClass = /** @class */ (function (_super) {
                 if (i == _this.node.getChildByName("Option").children.length) {
                     _this.scheduleOnce(function () {
                         _this.PlayQuestionAudio();
+                        _this.setupTVFocus("Option");
                     }, 0.5);
                 }
             }, delay);
@@ -421,6 +441,9 @@ var NewClass = /** @class */ (function (_super) {
             }, 0);
         }
         else {
+            this.canPlay = false;
+            if (TVInputManager_1.default.Instance)
+                TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
             this.wrongAnswerCount++;
             console.log("wrongAnswer--" + globalVariables_1.default.Instance.currentLevel);
             this.callNegativeRection(_node, _event);
@@ -681,6 +704,13 @@ var NewClass = /** @class */ (function (_super) {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                     cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
                     _this.scheduleOnce(function () {
+                        console.log("$$$$$$$$$$");
+                        _this.scheduleOnce(function () {
+                            _this.canPlay = true;
+                            if (TVInputManager_1.default.Instance)
+                                TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
+                            _this.setupTVFocus("Option");
+                        }, 0.5);
                         cc.tween(_this.currentJcokey).to(0.5, { x: 1200 }, { easing: "quartInOut" }).start();
                         if (StartGame_1.default.Instance.jockeyName != "stallion") {
                             if (StartGame_1.default.Instance.jockeyName != "Podar") {
@@ -834,6 +864,26 @@ var NewClass = /** @class */ (function (_super) {
         for (var i = 0; i < optionNodes.length; i++) {
             optionNodes[i].y = newPositions[i];
         }
+    };
+    NewClass.prototype.setupTVFocus = function (activeContainerName) {
+        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
+        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
+        var soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        var optionButtons = this.node.getChildByName(activeContainerName).children.filter(function (node) {
+            var btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+        var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
+        // pick a sensible default — e.g. first option, or correct answer index
+        if (cc.director.getScene().name == "1") {
+            TVInputManager_1.default.Instance.init(nodes, -1);
+        }
+        else {
+            TVInputManager_1.default.Instance.init(nodes, -1);
+        }
+        TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
     };
     __decorate([
         property(cc.Font)

@@ -1,6 +1,7 @@
 import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
+import TVInputManager from "./TVInputManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -84,6 +85,7 @@ export default class NewClass extends cc.Component {
 
     private isFirstClick: boolean = false;
     private canTouch: boolean = false;
+    canPlay: boolean = false;
     private answerArray: string[] = [];
     private maxLevel: number = 7;
     wrongAnswerCount: number = 0;
@@ -316,6 +318,8 @@ export default class NewClass extends cc.Component {
                 cc.tween(this.node.getChildByName("QuestionBox"))
                     .to(0.5, { x: posX }, { easing: "sineInOut" }).start();
                 this.canTouch = true;
+                this.canPlay = true;
+                if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                 this.callOptionIn();
             }, 1);
         }, 1);
@@ -325,6 +329,12 @@ export default class NewClass extends cc.Component {
         cc.audioEngine.stopAllEffects();
         if (this.questionSound[0])
             cc.audioEngine.playEffect(this.questionSound[0], false);
+        this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(() => {
+            this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = true;
+            this.node.getChildByName("questionPanel").getChildByName("sound").scale = 1;
+            this.setupTVFocus("Option");
+        }, this.questionSound[0].duration + 0.1);
     }
 
     callOptionIn() {
@@ -342,6 +352,7 @@ export default class NewClass extends cc.Component {
                 if (i == this.node.getChildByName("Option").children.length) {
                     this.scheduleOnce(() => {
                         this.PlayQuestionAudio();
+                        this.setupTVFocus("Option");
                     }, 0.5);
                 }
             }, delay);
@@ -452,6 +463,8 @@ export default class NewClass extends cc.Component {
             }, 0);
         }
         else {
+            this.canPlay = false;
+            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
             this.wrongAnswerCount++;
             console.log("wrongAnswer--" + globalVariables.Instance.currentLevel);
             this.callNegativeRection(_node, _event);
@@ -722,6 +735,12 @@ export default class NewClass extends cc.Component {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                     cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
                     this.scheduleOnce(() => {
+                        console.log("$$$$$$$$$$");
+                        this.scheduleOnce(() => {
+                            this.canPlay = true;
+                            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+                            this.setupTVFocus("Option");
+                        }, 0.5);
                         cc.tween(this.currentJcokey).to(0.5, { x: 1200 }, { easing: "quartInOut" }).start();
                         if (startGame.Instance.jockeyName != "stallion") {
                             if (startGame.Instance.jockeyName != "Podar") {
@@ -781,6 +800,7 @@ export default class NewClass extends cc.Component {
                         this.node.getChildByName("Option").children.forEach(elem => {
                             elem.getComponent(cc.Button).interactable = true;
                         });
+
                     }, this.negativeAudio[currentClipNum].duration);
                 }
 
@@ -898,6 +918,30 @@ export default class NewClass extends cc.Component {
             optionNodes[i].y = newPositions[i];
         }
     }
+    private setupTVFocus(activeContainerName: string) {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
 
+        let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
+            let btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+
+        let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
+
+        // pick a sensible default — e.g. first option, or correct answer index
+
+        if (cc.director.getScene().name == "1") {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+
+        TVInputManager.Instance.setCanSelect(this.canPlay);
+    }
 
 }

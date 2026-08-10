@@ -872,7 +872,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "06dd4157-4f14-44e1-8963-dfee4c243ec0"
+      "__uuid__": "59ce349a-48df-460c-95f9-af32ba365777"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -1151,7 +1151,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "06dd4157-4f14-44e1-8963-dfee4c243ec0"
+      "__uuid__": "59ce349a-48df-460c-95f9-af32ba365777"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -1455,7 +1455,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        20,
         0,
         0,
         0,
@@ -1973,8 +1973,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 3,
-    "transition": 3,
+    "_N$transition": 1,
+    "transition": 1,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,
