@@ -7,6 +7,7 @@
 
 import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
+import TVInputManager from "./TVInputManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -34,6 +35,7 @@ export default class Gameplay extends cc.Component {
     correctAnswer: number[] = [];
 
     private canTouch: boolean = true;
+    canPlay: boolean = false;
     correctCounter: number = 0;
     private numberofOptions: number = 5;
 
@@ -258,8 +260,26 @@ export default class Gameplay extends cc.Component {
                     delay += 0.25;
                 }
                 this.options.children.forEach(element => {
-                    element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout3, this);
+
+                    element.on(
+                        cc.Node.EventType.TOUCH_START,
+                        this.onTouchStart_layout3,
+                        this
+                    );
+
+                    element.on(
+                        "tv-select",
+                        this.onTouchStart_layout3,
+                        this
+                    );
+
                 });
+                this.scheduleOnce(() => {
+                    this.canTouch = true;
+                    this.canPlay = true;
+                    if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+                    this.setupTVFocus("layout3");
+                }, 2);
             }
             this.scheduleOnce(() => {
                 if (startGame.Instance.currentLevel == 1) {
@@ -307,6 +327,8 @@ export default class Gameplay extends cc.Component {
         }
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
+        this.canPlay = false;
+        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         let node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
@@ -338,6 +360,8 @@ export default class Gameplay extends cc.Component {
                     }
                     else {
                         this.canTouch = true;
+                        this.canPlay = true;
+                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                     }
                 }).start();
         }
@@ -364,6 +388,8 @@ export default class Gameplay extends cc.Component {
         }
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
+        this.canPlay = false;
+        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         let node: cc.Node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
@@ -408,6 +434,8 @@ export default class Gameplay extends cc.Component {
                 }
                 else {
                     this.canTouch = true;
+                    this.canPlay = true;
+                    if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                 }
             }, 1);
             // cc.tween(_clone)
@@ -438,11 +466,13 @@ export default class Gameplay extends cc.Component {
         }
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
+        this.canPlay = false;
+        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         let node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
         for (let i = 0; i < this.correctAnswer.length; i++) {
-            if (node.name == this.correctAnswer[i].toString()) {
+            if (node.name == this.correctAnswer[i].toString() && node.active) {
                 correct = true;
                 audioNum = i;
                 break;
@@ -458,6 +488,8 @@ export default class Gameplay extends cc.Component {
             _clone.setParentWithSamePos(this.node);
             _clone.children[0].active = true;
             _clone.children[0].opacity = 0;
+            _clone.children[0].scale = 1;
+            _clone.scale = 1;
             node.active = false;
             cc.tween(_clone.children[0])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
@@ -475,6 +507,8 @@ export default class Gameplay extends cc.Component {
                     }
                     else {
                         this.canTouch = true;
+                        this.canPlay = true;
+                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                     }
                 }).start();
         }
@@ -667,6 +701,8 @@ export default class Gameplay extends cc.Component {
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
                     this.canTouch = true;
+                    this.canPlay = true;
+                    if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                     if (this.questionAudio) {
                         cc.audioEngine.playEffect(this.questionAudio, false);
                     }
@@ -755,5 +791,30 @@ export default class Gameplay extends cc.Component {
             }
             callback(audioClip);
         });
+    }
+
+    private setupTVFocus(activeContainerName: string) {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+
+        let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
+            let btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+
+        let nodes = [...optionButtons, backBtn, musicBtn].filter(n => !!n);
+
+        // pick a sensible default — e.g. first option, or correct answer index
+
+        if (cc.director.getScene().name == "1") {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+
+        TVInputManager.Instance.setCanSelect(this.canPlay);
     }
 }
