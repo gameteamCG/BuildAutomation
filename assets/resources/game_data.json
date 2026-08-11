@@ -1,7 +1,7 @@
 {
   "AdditionalData": {
     "GameID": "Phonic reader - long vowel 'o'_UKG_SB2_21",
-    "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/long+vowel+'o'_+Indian.mp4",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/Phonic_reader_long_vowel_o.mp4",
     "TitleImageName": "Asset 39.png",
     "IntroAudio1Name": "",
     "IntroAudio2Name": "",
@@ -18,7 +18,12 @@
       "PlayQuestionAudio": true,
       "IsOptionText": true,
       "NumberOfOptions": 4,
-      "Options": ["coat", "hat", "ball", "axe"],
+      "Options": [
+        "coat",
+        "hat",
+        "ball",
+        "axe"
+      ],
       "ReiterationAudioName": "coat.mp3",
       "CorrectAudioName": "EXCELLENTJOB.mp3",
       "WrongAudioName": "nevermind,tryagain.mp3",
@@ -33,7 +38,12 @@
       "PlayQuestionAudio": true,
       "IsOptionText": true,
       "NumberOfOptions": 4,
-      "Options": ["cat", "ant", "dog", "toad"],
+      "Options": [
+        "cat",
+        "ant",
+        "dog",
+        "toad"
+      ],
       "ReiterationAudioName": "toad.mp3",
       "CorrectAudioName": "EXCEPTIONAL.mp3",
       "WrongAudioName": "nevermind,tryagain.mp3",
@@ -48,7 +58,12 @@
       "PlayQuestionAudio": true,
       "IsOptionText": true,
       "NumberOfOptions": 4,
-      "Options": ["hen", "ant", "goat", "cat"],
+      "Options": [
+        "hen",
+        "ant",
+        "goat",
+        "cat"
+      ],
       "ReiterationAudioName": "goat.mp3",
       "CorrectAudioName": "EXCEPTIONAL.mp3",
       "WrongAudioName": "nevermind,tryagain.mp3",
@@ -63,7 +78,12 @@
       "PlayQuestionAudio": true,
       "IsOptionText": true,
       "NumberOfOptions": 4,
-      "Options": ["coat", "boat", "ball", "apple"],
+      "Options": [
+        "coat",
+        "boat",
+        "ball",
+        "apple"
+      ],
       "ReiterationAudioName": "paper-boat.mp3",
       "CorrectAudioName": "EXCELLENTJOB.mp3",
       "WrongAudioName": "nevermind,tryagain.mp3",
@@ -78,7 +98,12 @@
       "PlayQuestionAudio": true,
       "IsOptionText": true,
       "NumberOfOptions": 4,
-      "Options": ["float", "fly", "swing", "jump"],
+      "Options": [
+        "float",
+        "fly",
+        "swing",
+        "jump"
+      ],
       "ReiterationAudioName": "float.mp3",
       "CorrectAudioName": "EXCEPTIONAL.mp3",
       "WrongAudioName": "nevermind,tryagain.mp3",
