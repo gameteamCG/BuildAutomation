@@ -447,6 +447,9 @@ var NewClass = /** @class */ (function (_super) {
         });
         this.options.scale = 0.8;
         this.options.opacity = 100;
+        this.node.getChildByName("hint").getChildByName("hint").children.forEach(function (elem) {
+            elem.removeComponent(cc.Button);
+        });
         this.node.getChildByName("hint").opacity = 100;
         this.node.getChildByName("hint").scale = 0;
         cc.tween(this.options)
