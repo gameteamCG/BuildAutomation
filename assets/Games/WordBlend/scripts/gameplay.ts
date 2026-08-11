@@ -1,5 +1,4 @@
-// import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -99,23 +98,6 @@ export default class NewClass extends cc.Component {
 
   private sheduleQuestionClip;
   onLoad() {
-    // if (startGame.Instance.jockeyName == "Podar") {
-    //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-    //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-    // }
-    // else if (startGame.Instance.jockeyName == "tlc") {
-    //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-    //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-    // }
-    // else if (startGame.Instance.jockeyName == "supercub") {
-    //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-    //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-    // }
-    // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-    //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-    //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-    // }
-
     this.isSecondInteraction =
       startGame.Instance.questions[
         startGame.Instance.currentLevel - 1
@@ -786,6 +768,9 @@ export default class NewClass extends cc.Component {
     });
     this.options.scale = 0.8;
     this.options.opacity = 100;
+    this.node.getChildByName("hint").getChildByName("hint").children.forEach(elem => {
+      elem.removeComponent(cc.Button);
+    })
     this.node.getChildByName("hint").opacity = 100;
     this.node.getChildByName("hint").scale = 0;
     cc.tween(this.options)
