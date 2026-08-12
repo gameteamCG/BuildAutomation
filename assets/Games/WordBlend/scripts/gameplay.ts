@@ -1,4 +1,4 @@
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -202,7 +202,7 @@ export default class NewClass extends cc.Component {
 
   onSoundButtonClick() {
     cc.audioEngine.stopAllEffects();
-    cc.audioEngine.playEffect(this.qvoMain,false);
+    cc.audioEngine.playEffect(this.qvoMain, false);
   }
 
   UpdateJsonData() {
@@ -784,7 +784,9 @@ export default class NewClass extends cc.Component {
       clone.setParent(this.node.getChildByName("hint").getChildByName("hint"));
       clone.setPosition(this.options.children[i].getPosition());
     }
-
+    this.node.getChildByName("hint").getChildByName("hint").children.forEach(elem => {
+      elem.removeComponent(cc.Button);
+    })
     let _randomNumber: number = 1;
     this.options.children.forEach((element) => {
       element.active = true;
@@ -810,7 +812,7 @@ export default class NewClass extends cc.Component {
             if (this.currScene <= 3) {
               handNode.active = true;
               handNode.getComponent(cc.Animation).play();
-              handNode.getComponent(cc.Animation).on("finished", () => {});
+              handNode.getComponent(cc.Animation).on("finished", () => { });
             }
             this.scheduleOnce(() => {
               this.scheduleOnce(() => {
