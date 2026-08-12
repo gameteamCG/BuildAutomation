@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Digraph - 'wh'_ukg_sb4_16",
+      "totalLevel": "7",
+      "TitleImageName": "wh' Sound.png",
+      "introBgName": "bgmain.png",
+      "bgmMusicName": "bgm3.mp3",
+      "mainBgName": "Asset 498.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "Digraph wh",
+        "questionAudioName": "match the picture with the correct word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset 505.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          ""
+        ],
+        "reiterations": [
+          "40987412_12_whale.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 506.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "whale",
+          "thumb"
+        ]
+      },
+      {
+        "questionText": "Digraph wh",
+        "questionAudioName": "match the picture with the correct word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset 504.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          ""
+        ],
+        "reiterations": [
+          "29885168_18_wheat.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 506.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "wheat",
+          "shirt"
+        ]
+      },
+      {
+        "questionText": "Digraph wh",
+        "questionAudioName": "match the picture with the correct word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset 503",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          ""
+        ],
+        "reiterations": [
+          "26506756_37_wheel.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 506.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "wheel",
+          "white"
+        ]
+      },
+      {
+        "questionText": "Digraph wh",
+        "questionAudioName": "match the picture with the correct word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "whistle",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          ""
+        ],
+        "reiterations": [
+          "whistle.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 506.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "whistle",
+          "phone"
+        ]
+      },
+      {
+        "questionText": "Digraph wh",
+        "questionAudioName": "match the picture with the correct word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset 501",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          ""
+        ],
+        "reiterations": [
+          "whirl.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 506.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "whirl",
+          "chair"
+        ]
+      },
+      {
+        "questionText": "Digraph wh",
+        "questionAudioName": "match the picture with the correct word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset 500",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          ""
+        ],
+        "reiterations": [
+          "whisk.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 506.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "whisk",
+          "shirt"
+        ]
+      },
+      {
+        "questionText": "Digraph wh",
+        "questionAudioName": "match the picture with the correct word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset 499",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          ""
+        ],
+        "reiterations": [
+          "42189324_3_white.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 506.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "white",
+          "cheese"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "whistle",
+    "texture": "751f7795-5e6d-49e9-9ffc-2bd2e65f5d1d",
+    "atlas": "",
+    "rect": [
+      18,
+      36,
+      480,
+      434
+    ],
+    "offset": [
+      7,
+      -2
+    ],
+    "originalSize": [
+      502,
+      502
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
