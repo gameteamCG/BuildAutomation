@@ -36,7 +36,15 @@ export default class Gameplay extends cc.Component {
     private canTouch: boolean = true;
     correctCounter: number = 0;
     private numberofOptions: number = 5;
-
+    private hindiAlphabets: string[] = [
+        "ख",   // kh
+        "च",   // ch
+        "र",   // r
+        "ल",   // l
+        "छ",   // chh
+        "झ",   // zh
+        "ट"    // t
+    ];
     @property(cc.AudioClip)
     pop_audio: cc.AudioClip = null;
     @property(cc.AudioClip)
@@ -90,7 +98,7 @@ export default class Gameplay extends cc.Component {
             cc.director.preloadScene("gameEnd");
         }
         console.log(`levelStarted--` + startGame.Instance.currentLevel);
-
+        this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).string = this.hindiAlphabets[startGame.Instance.currentLevel - 1]
         // this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
 
 
@@ -300,7 +308,16 @@ export default class Gameplay extends cc.Component {
 
 
     }
+    playQues(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+            _event.target.scale = 1;
 
+        }, this.questionAudio.duration)
+    }
     onTouchStart_layout1(event: cc.Event.EventTouch) {
         if (!this.canTouch) {
             return;
@@ -667,9 +684,9 @@ export default class Gameplay extends cc.Component {
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
                     this.canTouch = true;
-                    if (this.questionAudio) {
-                        cc.audioEngine.playEffect(this.questionAudio, false);
-                    }
+                    // if (this.questionAudio) {
+                    //     cc.audioEngine.playEffect(this.questionAudio, false);
+                    // }
                 }, this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration);
             }, 0.5);
         }, 0.7)

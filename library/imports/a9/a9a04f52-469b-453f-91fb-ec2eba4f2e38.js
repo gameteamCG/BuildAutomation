@@ -48,6 +48,15 @@ var Gameplay = /** @class */ (function (_super) {
         _this.canTouch = true;
         _this.correctCounter = 0;
         _this.numberofOptions = 5;
+        _this.hindiAlphabets = [
+            "ख",
+            "च",
+            "र",
+            "ल",
+            "छ",
+            "झ",
+            "ट" // t
+        ];
         _this.pop_audio = null;
         _this.positive_audio = null;
         _this.negative_audio = null;
@@ -97,6 +106,7 @@ var Gameplay = /** @class */ (function (_super) {
             cc.director.preloadScene("gameEnd");
         }
         console.log("levelStarted--" + StartGame_1.default.Instance.currentLevel);
+        this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).string = this.hindiAlphabets[StartGame_1.default.Instance.currentLevel - 1];
         // this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
         if (StartGame_1.default.Instance.isDemoGame) {
             cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionBgName, function (err, texture) {
@@ -318,6 +328,15 @@ var Gameplay = /** @class */ (function (_super) {
             }
         }
         _template.destroy();
+    };
+    Gameplay.prototype.playQues = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(function () {
+            _event.target.getComponent(cc.Button).interactable = true;
+            _event.target.scale = 1;
+        }, this.questionAudio.duration);
     };
     Gameplay.prototype.onTouchStart_layout1 = function (event) {
         var _this = this;
@@ -678,9 +697,9 @@ var Gameplay = /** @class */ (function (_super) {
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
                     _this.canTouch = true;
-                    if (_this.questionAudio) {
-                        cc.audioEngine.playEffect(_this.questionAudio, false);
-                    }
+                    // if (this.questionAudio) {
+                    //     cc.audioEngine.playEffect(this.questionAudio, false);
+                    // }
                 }, _this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration);
             }, 0.5);
         }, 0.7);
