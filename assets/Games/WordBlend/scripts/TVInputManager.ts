@@ -221,11 +221,10 @@ export default class TVInputManager extends cc.Component {
     }
 
     clearFocus() {
-        console.log("me ithe yetoyyyyyyyyyyyyyyyyy")
         this.focusNodes.forEach(node => {
             if (!node || !node.isValid) return;
             const baseScale = this.originalScales.get(node) ?? 1;
-            cc.Tween.stopAllByTarget(node);
+            // cc.Tween.stopAllByTarget(node);
             node.scale = baseScale;
             node.opacity = 255;
         });

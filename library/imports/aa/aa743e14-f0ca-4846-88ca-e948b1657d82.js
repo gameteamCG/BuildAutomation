@@ -239,13 +239,12 @@ var TVInputManager = /** @class */ (function (_super) {
     };
     TVInputManager.prototype.clearFocus = function () {
         var _this = this;
-        console.log("me ithe yetoyyyyyyyyyyyyyyyyy");
         this.focusNodes.forEach(function (node) {
             var _a;
             if (!node || !node.isValid)
                 return;
             var baseScale = (_a = _this.originalScales.get(node)) !== null && _a !== void 0 ? _a : 1;
-            cc.Tween.stopAllByTarget(node);
+            // cc.Tween.stopAllByTarget(node);
             node.scale = baseScale;
             node.opacity = 255;
         });

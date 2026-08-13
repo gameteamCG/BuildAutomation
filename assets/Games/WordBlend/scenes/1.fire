@@ -3859,7 +3859,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        375.076,
+        358.015,
         0,
         0,
         0,
@@ -4093,7 +4093,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 201.31,
+      "width": 217.31,
       "height": 75.6
     },
     "_anchorPoint": {
@@ -4167,7 +4167,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        43.411,
+        25.632,
         -0.05,
         0,
         0,
@@ -4242,8 +4242,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Blend   pl'",
-    "_N$string": "Blend   pl'",
+    "_string": "Blend   pl '",
+    "_N$string": "Blend   pl '",
     "_fontSize": 55,
     "_lineHeight": 60,
     "_enableWrapText": true,

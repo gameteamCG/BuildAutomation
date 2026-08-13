@@ -273,7 +273,7 @@ export default class NewClass extends cc.Component {
                         return;
                     }
                     const spriteFrame = new cc.SpriteFrame(texture);
-                    this.node.getChildByName("frame").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // this.node.getChildByName("frame").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
 
@@ -363,7 +363,7 @@ export default class NewClass extends cc.Component {
             });
             if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].commonPuzzleImageName != "") {
                 this.loadSpriteFrame(startGame.Instance.questions[startGame.Instance.currentLevel - 1].commonPuzzleImageName, (spriteFrame) => {
-                    this.node.getChildByName("frame").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // this.node.getChildByName("frame").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
             for (let i = 0; i < startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfPuzzles; i++) {
@@ -613,6 +613,9 @@ export default class NewClass extends cc.Component {
             clone.setParent(this.node.getChildByName("hint").getChildByName("hint"));
             clone.setPosition(this.options.children[i].getPosition());
         }
+        this.node.getChildByName("hint").getChildByName("hint").children.forEach(elem => {
+            elem.removeComponent(cc.Button);
+        })
 
         let _randomNumber: number = 1;
         this.options.children.forEach(element => {
@@ -637,23 +640,22 @@ export default class NewClass extends cc.Component {
                             cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
                         }
                         let handNode = this.node.getChildByName("handClick");
-                        if (this.currScene <= 3) {
-                            handNode.active = true;
-                            handNode.getComponent(cc.Animation).play();
-                            handNode.getComponent(cc.Animation).on("finished", () => {
-
-                            })
-
-                        }
                         this.scheduleOnce(() => {
-                            this.scheduleOnce(() => {
+                            this.scheduleOnce(this.sheduleQuestionClip, 10);
+                            this.resetInteraction();
+                            if (this.currScene == 1) {
+                                this.rotatePuzzleImage(this.options.getChildByName("1"));
+                                handNode.active = true;
+                                handNode.getComponent(cc.Animation).play();
+                                this.scheduleOnce(() => {
+                                    this.canTouch = true;
+                                    TVInputManager.Instance.setCanSelect(this.canTouch)
+                                }, 0.5)
+                            }
+                            else {
                                 this.canTouch = true;
                                 TVInputManager.Instance.setCanSelect(this.canTouch)
-                                this.scheduleOnce(this.sheduleQuestionClip, 10);
-                                this.resetInteraction();
-                                if (this.currScene < 2)
-                                    this.rotatePuzzleImage(this.options.getChildByName("1"));
-                            }, 0.2)
+                            }
                         }, duration);
                     })
                     .start();
@@ -662,12 +664,12 @@ export default class NewClass extends cc.Component {
     }
 
     optionClicked(_event: cc.Event) {
+        console.log("touchStarttttttt")
         if (!this.canTouch) {
             return;
         }
         this.canTouch = false;
         TVInputManager.Instance.setCanSelect(this.canTouch)
-
         this.resetInteraction();
         let handNode = this.node.getChildByName("handClick");
         handNode.active = false;
@@ -696,21 +698,17 @@ export default class NewClass extends cc.Component {
     }
     rotatePuzzleImage(_node: cc.Node) {
         let child = _node;
-
         const angle = child.angle;
+        console.log("rotateeeeeeeeeeeeeeee")
         cc.audioEngine.playEffect(this.rotateAction, false);
         this.scheduleOnce(() => {
             cc.tween(child)
-                .to(0.2, { angle: angle - 90 })
-                .call(() => {
-                    console.log("-------")
-
-                    this.optionsAligned()
-                })
+                .to(0.1, { angle: angle - 90 })
                 .start()
-        }, 0.1)
-        this.canTouch = false;
-        TVInputManager.Instance.setCanSelect(this.canTouch)
+            this.scheduleOnce(() => {
+                this.optionsAligned()
+            }, 0.3)
+        }, 0.2)
     }
     optionsAligned() {
 
@@ -718,16 +716,9 @@ export default class NewClass extends cc.Component {
         this.options.children.forEach((_child) => {
             if (_child.angle % 360 != 0) {
                 levelPassed = false;
-                console.log("yooooooooooooo")
-
             }
         })
         if (levelPassed) {
-
-            // if (!this.canTouch) { return; }
-
-
-            //if the items have been aligned 
             this.options.color = cc.Color.GREEN;
             this.canTouch = false;
             TVInputManager.Instance.setCanSelect(this.canTouch)
@@ -738,13 +729,10 @@ export default class NewClass extends cc.Component {
             })
             cc.audioEngine.playEffect(this.correctAction, false);
             this.scheduleOnce(() => {
-                // cc.audioEngine.playEffect(this.jockeyCorrect2, false);
             }, this.correctAction.duration - 1);
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            //cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
-
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
                 cc.audioEngine.playEffect(this.puzzleVoIteration, false);

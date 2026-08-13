@@ -237,7 +237,7 @@ var NewClass = /** @class */ (function (_super) {
                         return;
                     }
                     var spriteFrame = new cc.SpriteFrame(texture);
-                    _this.node.getChildByName("frame").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // this.node.getChildByName("frame").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
             var _loop_1 = function (i) {
@@ -329,7 +329,7 @@ var NewClass = /** @class */ (function (_super) {
             });
             if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].commonPuzzleImageName != "") {
                 this.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].commonPuzzleImageName, function (spriteFrame) {
-                    _this.node.getChildByName("frame").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // this.node.getChildByName("frame").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
             var _loop_3 = function (i) {
@@ -548,6 +548,9 @@ var NewClass = /** @class */ (function (_super) {
             clone.setParent(this.node.getChildByName("hint").getChildByName("hint"));
             clone.setPosition(this.options.children[i].getPosition());
         }
+        this.node.getChildByName("hint").getChildByName("hint").children.forEach(function (elem) {
+            elem.removeComponent(cc.Button);
+        });
         var _randomNumber = 1;
         this.options.children.forEach(function (element) {
             element.active = true;
@@ -570,21 +573,22 @@ var NewClass = /** @class */ (function (_super) {
                     cc.audioEngine.playEffect(_this.puzzleQuestionVo, false);
                 }
                 var handNode = _this.node.getChildByName("handClick");
-                if (_this.currScene <= 3) {
-                    handNode.active = true;
-                    handNode.getComponent(cc.Animation).play();
-                    handNode.getComponent(cc.Animation).on("finished", function () {
-                    });
-                }
                 _this.scheduleOnce(function () {
-                    _this.scheduleOnce(function () {
+                    _this.scheduleOnce(_this.sheduleQuestionClip, 10);
+                    _this.resetInteraction();
+                    if (_this.currScene == 1) {
+                        _this.rotatePuzzleImage(_this.options.getChildByName("1"));
+                        handNode.active = true;
+                        handNode.getComponent(cc.Animation).play();
+                        _this.scheduleOnce(function () {
+                            _this.canTouch = true;
+                            TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
+                        }, 0.5);
+                    }
+                    else {
                         _this.canTouch = true;
                         TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
-                        _this.scheduleOnce(_this.sheduleQuestionClip, 10);
-                        _this.resetInteraction();
-                        if (_this.currScene < 2)
-                            _this.rotatePuzzleImage(_this.options.getChildByName("1"));
-                    }, 0.2);
+                    }
                 }, duration);
             })
                 .start();
@@ -592,6 +596,7 @@ var NewClass = /** @class */ (function (_super) {
             .start();
     };
     NewClass.prototype.optionClicked = function (_event) {
+        console.log("touchStarttttttt");
         if (!this.canTouch) {
             return;
         }
@@ -628,18 +633,16 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         var child = _node;
         var angle = child.angle;
+        console.log("rotateeeeeeeeeeeeeeee");
         cc.audioEngine.playEffect(this.rotateAction, false);
         this.scheduleOnce(function () {
             cc.tween(child)
-                .to(0.2, { angle: angle - 90 })
-                .call(function () {
-                console.log("-------");
-                _this.optionsAligned();
-            })
+                .to(0.1, { angle: angle - 90 })
                 .start();
-        }, 0.1);
-        this.canTouch = false;
-        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
+            _this.scheduleOnce(function () {
+                _this.optionsAligned();
+            }, 0.3);
+        }, 0.2);
     };
     NewClass.prototype.optionsAligned = function () {
         var _this = this;
@@ -647,12 +650,9 @@ var NewClass = /** @class */ (function (_super) {
         this.options.children.forEach(function (_child) {
             if (_child.angle % 360 != 0) {
                 levelPassed = false;
-                console.log("yooooooooooooo");
             }
         });
         if (levelPassed) {
-            // if (!this.canTouch) { return; }
-            //if the items have been aligned 
             this.options.color = cc.Color.GREEN;
             this.canTouch = false;
             TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
@@ -663,12 +663,10 @@ var NewClass = /** @class */ (function (_super) {
             });
             cc.audioEngine.playEffect(this.correctAction, false);
             this.scheduleOnce(function () {
-                // cc.audioEngine.playEffect(this.jockeyCorrect2, false);
             }, this.correctAction.duration - 1);
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            //cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();
                 cc.audioEngine.playEffect(_this.puzzleVoIteration, false);
