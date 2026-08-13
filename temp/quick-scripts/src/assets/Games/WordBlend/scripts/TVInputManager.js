@@ -206,7 +206,8 @@ var TVInputManager = /** @class */ (function (_super) {
             if (!node || !node.isValid)
                 return;
             var baseScale = (_a = _this.originalScales.get(node)) !== null && _a !== void 0 ? _a : 1;
-            cc.Tween.stopAllByTarget(node);
+            console.log("adakloooo");
+            //cc.Tween.stopAllByTarget(node);
             if (index === _this.currentIndex) {
                 cc.audioEngine.playEffect(_this.hoverSFX, false);
                 cc.tween(node)
@@ -226,7 +227,8 @@ var TVInputManager = /** @class */ (function (_super) {
     TVInputManager.prototype.playPressEffect = function (node, callback) {
         var _a;
         var baseScale = (_a = this.originalScales.get(node)) !== null && _a !== void 0 ? _a : node.scale; // 🔥 important
-        cc.Tween.stopAllByTarget(node);
+        console.log("aaaaaaaagggggg");
+        //cc.Tween.stopAllByTarget(node);
         // cc.tween(node)
         //     .to(0.05, { scale: baseScale * 0.85, opacity: 255 })
         //     .to(0.1, { scale: baseScale, opacity: 255 })
