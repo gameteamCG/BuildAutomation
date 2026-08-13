@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 219.8625030517578,
+            "width": 354,
             "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 219.8625030517578,
-                "height": 359.375,
+                "width": 354,
+                "height": 359.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 219.8625030517578,
-                "height": 352.2250061035156,
+                "width": 354,
+                "height": 352.2875061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 868.375,
+            "width": 734,
             "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 868.375,
-                "height": 359.375,
+                "width": 734,
+                "height": 359.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 868.375,
-                "height": 352.2250061035156,
+                "width": 734,
+                "height": 352.2875061035156,
                 "type": "panel",
                 "active": 2,
                 "children": [
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 441.75,
+            "width": 442,
             "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1786605908154": {}
+    "window-1786616284258": {}
   },
   "panels": {
     "project-settings": {

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "abfbcc85-b956-462d-911f-c0968dd5ffa9",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 685,
+  "height": 114,
+  "platformSettings": {},
+  "subMetas": {
+    "police officer": {
+      "ver": "1.0.6",
+      "uuid": "49c08104-3057-48c8-b6f1-deab8d827b83",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "abfbcc85-b956-462d-911f-c0968dd5ffa9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 1.5,
+      "trimX": 2,
+      "trimY": 7,
+      "width": 680,
+      "height": 97,
+      "rawWidth": 685,
+      "rawHeight": 114,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
