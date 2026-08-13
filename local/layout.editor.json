@@ -53,9 +53,9 @@
               },
               {
                 "width": 806.2250366210938,
-                "height": 344.1000061035156,
+                "height": 344.0874938964844,
                 "type": "panel",
-                "active": 0,
+                "active": 2,
                 "children": [
                   "console",
                   "timeline",
@@ -104,10 +104,10 @@
       "height": 900
     },
     "builder": {
-      "x": 0,
-      "y": 25,
+      "x": 40,
+      "y": 28,
       "width": 1440,
-      "height": 814
+      "height": 816
     }
   },
   "panelLabelWidth": {}
