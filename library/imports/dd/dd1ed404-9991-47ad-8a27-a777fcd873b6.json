@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "Blends - cl",
+        "questionText": "Blend 'cl'",
         "questionImageName": "cl2.png",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
@@ -30,7 +30,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Blends - cl",
+        "questionText": "Blend 'cl'",
         "questionImageName": "cl2.png",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
@@ -45,7 +45,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Blends - cl",
+        "questionText": "Blend 'cl'",
         "questionImageName": "cl2.png",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
@@ -60,7 +60,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Blends - cl",
+        "questionText": "Blend 'cl'",
         "questionImageName": "cl2.png",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
@@ -75,7 +75,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Blends - cl",
+        "questionText": "Blend 'cl'",
         "questionImageName": "cl2.png",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
@@ -90,7 +90,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Blends - cl",
+        "questionText": "Blend 'cl'",
         "questionImageName": "cl2.png",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
@@ -105,7 +105,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Blends - cl",
+        "questionText": "Blend 'cl'",
         "questionImageName": "cl2.png",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
