@@ -49,7 +49,7 @@ export default class NewClass extends cc.Component {
         //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
         // }
 
-        // this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
+        this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
     }
 
     start() {

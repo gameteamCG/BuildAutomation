@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "carpenter",
+    "texture": "47194c3e-57a3-45b7-ba6d-afbaf3a70d79",
+    "atlas": "",
+    "rect": [
+      3,
+      73,
+      494,
+      354
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
