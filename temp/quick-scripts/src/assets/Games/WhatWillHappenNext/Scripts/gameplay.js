@@ -30,7 +30,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var TVInputManager_1 = require("./TVInputManager");
@@ -220,7 +220,21 @@ var NewClass = /** @class */ (function (_super) {
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
         if (globalVariables_1.default.Instance.currentLevel == 1) {
-            TVInputManager_1.default.Instance.init(nodes, 0);
+            TVInputManager_1.default.Instance.init(nodes, 1);
+        }
+        else {
+            TVInputManager_1.default.Instance.init(nodes, -1);
+        }
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
+    };
+    NewClass.prototype.setupTVFocus2 = function () {
+        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
+        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        var nodes = [backBtn, musicBtn].filter(function (n) { return !!n; });
+        if (globalVariables_1.default.Instance.currentLevel == 1) {
+            TVInputManager_1.default.Instance.init(nodes, 1);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);
@@ -247,7 +261,6 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
-        // this.node.getChildByName("questionPanel").opacity = 255;
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
         this.OptionsLayoutVertical();
@@ -386,6 +399,7 @@ var NewClass = /** @class */ (function (_super) {
         }
         var _node = _event.target;
         if (_node.name == this.answerArray[0]) {
+            this.setupTVFocus2();
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
@@ -394,7 +408,7 @@ var NewClass = /** @class */ (function (_super) {
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.scheduleOnce(function () {
                 _this.callPositiveRection(_node);
-            }, 0);
+            }, 0.3);
         }
         else {
             this.wrongAnswerCount++;

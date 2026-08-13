@@ -1,6 +1,4 @@
-
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 import TVInputManager from "./TVInputManager";
@@ -216,7 +214,22 @@ export default class NewClass extends cc.Component {
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
         if (globalVariables.Instance.currentLevel == 1) {
-            TVInputManager.Instance.init(nodes, 0);
+            TVInputManager.Instance.init(nodes, 1);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+        TVInputManager.Instance.setCanSelect(this.canTouch);
+    }
+
+    private setupTVFocus2() {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        let nodes = [backBtn, musicBtn].filter(n => !!n);
+        if (globalVariables.Instance.currentLevel == 1) {
+            TVInputManager.Instance.init(nodes, 1);
         }
         else {
             TVInputManager.Instance.init(nodes, -1);
@@ -245,7 +258,6 @@ export default class NewClass extends cc.Component {
     callThirdObjectIn() {
         this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
-        // this.node.getChildByName("questionPanel").opacity = 255;
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
 
@@ -383,6 +395,7 @@ export default class NewClass extends cc.Component {
         }
         let _node = _event.target;
         if (_node.name == this.answerArray[0]) {
+            this.setupTVFocus2();
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
@@ -391,7 +404,7 @@ export default class NewClass extends cc.Component {
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.scheduleOnce(() => {
                 this.callPositiveRection(_node);
-            }, 0);
+            }, 0.3);
         }
         else {
             this.wrongAnswerCount++;

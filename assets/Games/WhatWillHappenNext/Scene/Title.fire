@@ -394,9 +394,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": {
-      "__uuid__": "efe4d8a4-481a-431a-bcbd-37d0b456546d"
-    },
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -451,8 +449,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        21.874,
-        -94.993,
+        0,
+        -63.476,
         0,
         0,
         0,
@@ -866,9 +864,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": {
-      "__uuid__": "2f16e0bf-82f3-4443-a50f-19f399fcad81"
-    },
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -2856,7 +2852,7 @@
     "BGM_audio": {
       "__uuid__": "c5492fd5-ca57-4057-8ad3-32cbfecb06ab"
     },
-    "volume": 0.2,
+    "volume": 0.1,
     "NextSceneName": "1",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [],
