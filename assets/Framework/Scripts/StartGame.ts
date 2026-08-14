@@ -6,6 +6,7 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
 import globalVariables from "../../Games/MemoryCard/Scripts/globalVariables";
+import TVInputManager from "../../Games/MemoryCard/Scripts/TVInputManager";
 
 
 interface AdditionalData {
@@ -120,6 +121,22 @@ export default class startGame extends cc.Component {
                 this.JockeyNode = element;
             }
         });
+
+        this.scheduleOnce(() => {
+            let backBtn = this.node.getChildByName("back");
+            // :fire: music button
+            let musicBtn = this.node.getChildByName("music");
+            backBtn.scale = 1;
+            musicBtn.scale = 1;
+            let nodes = [
+
+                backBtn,
+                musicBtn,
+            ];
+            TVInputManager.Instance.setCanSelect(true);
+
+            TVInputManager.Instance.init(nodes);
+        }, 0.5);
         // const storedJSONData = cc.sys.localStorage.getItem('gameData');
 
         // if (storedJSONData) {

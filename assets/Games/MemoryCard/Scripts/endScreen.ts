@@ -1,6 +1,7 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
+import TVInputManager from "./TVInputManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -25,26 +26,40 @@ export default class NewClass extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
-            this.scheduleOnce(() => {
-                this.node.getChildByName("end").active = true;
-            }, 2);
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
-        }
+        // if (startGame.Instance.jockeyName == "Podar") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
+        // }
+        // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
+        //     this.scheduleOnce(() => {
+        //         // this.node.getChildByName("end").active = true;
+        //     }, 2);
+        // }
+        // else if (startGame.Instance.jockeyName == "tlc") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
+        // }
+        // else if (startGame.Instance.jockeyName == "supercub") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
+        // }
 
         this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
     }
 
     start() {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+
+        // :fire: music button
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        let nodes = [
+
+            backBtn,
+            musicBtn,
+        ];
+        TVInputManager.Instance.setCanSelect(true);
+
+        TVInputManager.Instance.init(nodes);
         console.log("showedScreen--Congratulations");
         startGame.Instance.node.getChildByName("progress").opacity = 0;
         this.scheduleOnce(() => {
@@ -55,21 +70,21 @@ export default class NewClass extends cc.Component {
             this.node.getComponent(cc.AudioSource).clip = this.star[0];
             this.node.getComponent(cc.AudioSource).play();
             cc.tween(this.node.getChildByName("star1"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.6 }, { easing: "sineInOut" }).start();
         }, 0.8);
 
         this.scheduleOnce(() => {
             this.node.getComponent(cc.AudioSource).clip = this.star[0];
             this.node.getComponent(cc.AudioSource).play();
             cc.tween(this.node.getChildByName("star2"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.8 }, { easing: "sineInOut" }).start();
         }, 1.3);
 
         this.scheduleOnce(() => {
             this.node.getComponent(cc.AudioSource).clip = this.star[0];
             this.node.getComponent(cc.AudioSource).play();
             cc.tween(this.node.getChildByName("star3"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.8 }, { easing: "sineInOut" }).start();
         }, 1.8);
 
         this.scheduleOnce(() => {

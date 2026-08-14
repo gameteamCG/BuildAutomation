@@ -1,9 +1,10 @@
 
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 // import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
+import TVInputManager from "./TVInputManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -93,6 +94,7 @@ export default class NewClass extends cc.Component {
 
     private isFirstClick: boolean = false;
     private canTouch: boolean = false;
+    canPlay: boolean = false;
     private answerArray: string[] = [];
     private maxLevel: number = 7;
     wrongAnswerCount: number = 0;
@@ -335,7 +337,8 @@ export default class NewClass extends cc.Component {
 
         this.canTouch = false;
 
-
+        this.canPlay = false;
+        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         this.callOptionIn();
 
         if (startGame.Instance.jockeyName == "bag") {
@@ -471,6 +474,12 @@ export default class NewClass extends cc.Component {
         cc.audioEngine.stopAllEffects();
         if (this.questionSound[0])
             cc.audioEngine.playEffect(this.questionSound[0], false);
+        this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(() => {
+            this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = true;
+            this.node.getChildByName("questionPanel").getChildByName("sound").scale = 1;
+            this.setupTVFocus("Option");
+        }, this.questionSound[0].duration + 0.1);
     }
 
     callOptionIn() {
@@ -485,6 +494,7 @@ export default class NewClass extends cc.Component {
         this.scheduleOnce(() => {
             // this.moveCards();
             this.PlayQuestionAudio();
+
         }, 0.5);
     }
 
@@ -498,6 +508,7 @@ export default class NewClass extends cc.Component {
                 .to(0.3, { x: this.positionArray[this.arr[i]].x, y: this.positionArray[this.arr[i]].y }).start();
         }
         this.scheduleOnce(() => {
+            this.setupTVFocus("Option");
             // if (globalVariables.Instance.currentLevel == 1) {
             //     let hand = this.node.getChildByName("hand");
             //     console.log("answer array num = ", this.answerArray[0]);
@@ -511,6 +522,8 @@ export default class NewClass extends cc.Component {
 
     PlayQuestionAudio() {
         this.canTouch = true;
+        this.canPlay = true;
+        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         this.node.getChildByName("Option").children.forEach(element => {
             element.getComponent(cc.Button).interactable = false;
         });
@@ -612,6 +625,8 @@ export default class NewClass extends cc.Component {
             if (this.card1.children[3].name == this.card2.children[3].name && this.card1 != this.card2) {
                 cc.audioEngine.playEffect(this.SFXs[2], false);
                 this.canTouch = false;
+                this.canPlay = false;
+                if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                 this.node.getChildByName("Option").children.forEach(elem => {
                     elem.getComponent(cc.Button).interactable = false;
                 });
@@ -621,12 +636,12 @@ export default class NewClass extends cc.Component {
                 this.scheduleOnce(() => {
                     this.card1.setParent(this.node.getChildByName("Panel"));
                     this.card2.setParent(this.node.getChildByName("Panel"));
-                    this.node.getChildByName("Panel").getChildByName(card1Name).setPosition(-150, 0);
-                    this.node.getChildByName("Panel").getChildByName(card2Name).setPosition(150, 0);
+                    this.node.getChildByName("Panel").getChildByName(card1Name).setPosition(150, 0);
+                    this.node.getChildByName("Panel").getChildByName(card2Name).setPosition(-150, 0);
                     this.node.getChildByName("Panel").getChildByName(card1Name).scale = 0;
                     this.node.getChildByName("Panel").getChildByName(card2Name).scale = 0;
-                    cc.tween(this.node.getChildByName("Panel").getChildByName(card1Name)).to(0.5, { scale: 1.3 }).start();
-                    cc.tween(this.node.getChildByName("Panel").getChildByName(card2Name)).to(0.5, { scale: 1.3 }).start();
+                    cc.tween(this.node.getChildByName("Panel").getChildByName(card1Name)).to(0.5, { scale: 1.1 }).start();
+                    cc.tween(this.node.getChildByName("Panel").getChildByName(card2Name)).to(0.5, { scale: 1.1 }).start();
                     this.scheduleOnce(() => {
                         let audioIndex: number = 0;
                         if (parseInt(card1Name) < parseInt(card2Name)) {
@@ -641,11 +656,19 @@ export default class NewClass extends cc.Component {
                             this.node.getChildByName("Panel").getChildByName(card1Name).destroy();
                             this.node.getChildByName("Panel").getChildByName(card2Name).destroy();
                             this.canTouch = true;
+                            this.canPlay = true;
+                            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                             this.node.getChildByName("Option").children.forEach(elem => {
                                 elem.getComponent(cc.Button).interactable = true;
+                                this.canTouch = true;
+                                this.canPlay = true;
+                                if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+                                this.setupTVFocus("Option");
                             });
                             if (this.correctAnswerCount == this.TotalOptions / 2) {
                                 this.canTouch = false;
+                                this.canPlay = false;
+                                if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                                 this.node.getChildByName("Option").children.forEach(elem => {
                                     elem.getComponent(cc.Button).interactable = false;
                                 });
@@ -664,6 +687,8 @@ export default class NewClass extends cc.Component {
                     delay = 0;
                 }
                 this.canTouch = false;
+                this.canPlay = false;
+                if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                 this.node.getChildByName("Option").children.forEach(elem => {
                     elem.getComponent(cc.Button).interactable = false;
                 });
@@ -675,8 +700,15 @@ export default class NewClass extends cc.Component {
                     this.card2 = null;
                     cc.audioEngine.playEffect(this.SFXs[1], false);
                     this.canTouch = true;
+                    this.canPlay = true;
+                    if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+                    this.setupTVFocus("Option");
                     this.node.getChildByName("Option").children.forEach(elem => {
                         elem.getComponent(cc.Button).interactable = true;
+                        this.canTouch = true;
+                        this.canPlay = true;
+                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+                        this.setupTVFocus("Option");
                     });
                 }, delay);
             }
@@ -844,7 +876,7 @@ export default class NewClass extends cc.Component {
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
                     this.callNextLevel();
-                }, this.positiveAudio[currentClipNum].duration);
+                }, this.positiveAudio[currentClipNum].duration - 2);
             }, 0.5);
         }
         else if (startGame.Instance.jockeyName == "tlc") {
@@ -858,7 +890,7 @@ export default class NewClass extends cc.Component {
                     this.currentJcokey.active = false;
                     this.callNextLevel();
                 }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_out").duration);
-            }, this.positiveAudio[currentClipNum].duration);
+            }, this.positiveAudio[currentClipNum].duration - 2);
         }
         else if (startGame.Instance.jockeyName == "supercub") {
             if (anim[currentClipNum] == "positive_1" || anim[currentClipNum] == "positive_2") {
@@ -875,12 +907,12 @@ export default class NewClass extends cc.Component {
                         }
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                         this.scheduleOnce(() => {
-                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
+                            // this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", false);
                             cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
                             //console.log("characterDisappear--Podar_Jumbo");
                             this.callNextLevel();
                         }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration)
-                    }, this.positiveAudio[currentClipNum].duration);
+                    }, this.positiveAudio[currentClipNum].duration - 2);
 
                 }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_start").duration);
             }
@@ -888,11 +920,11 @@ export default class NewClass extends cc.Component {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                 cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
                 this.scheduleOnce(() => {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
+                    // this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", false);
                     cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
-                    //console.log("characterDisappear--Podar_Jumbo");
+                    // console.log("characterDisappear--Podar_Jumbo");
                     this.callNextLevel();
-                }, this.positiveAudio[currentClipNum].duration);
+                }, this.positiveAudio[currentClipNum].duration - 2);
             }
 
         }
@@ -1135,6 +1167,30 @@ export default class NewClass extends cc.Component {
         }
     }
 
+    private setupTVFocus(activeContainerName: string) {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
 
+        let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
+            let btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+
+        let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
+
+        // pick a sensible default — e.g. first option, or correct answer index
+
+        if (cc.director.getScene().name == "1") {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+
+        TVInputManager.Instance.setCanSelect(this.canPlay);
+    }
 
 }
