@@ -2248,8 +2248,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 3,
-    "transition": 3,
+    "_N$transition": 1,
+    "transition": 1,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,
@@ -2310,7 +2310,7 @@
     },
     "component": "",
     "_componentId": "ad4e51CcXJH24gA96gBaxOm",
-    "handler": "OnVOButton",
+    "handler": "playButtonSound",
     "customEventData": ""
   },
   {

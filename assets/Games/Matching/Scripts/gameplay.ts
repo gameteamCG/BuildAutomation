@@ -1,8 +1,9 @@
-
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
+import TVInputManager from "./TVInputManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -96,6 +97,7 @@ export default class gameplay extends cc.Component {
     star2Log: boolean = false;
     star3Log: boolean = false;
     currentJcokey: cc.Node = null;
+    canPlay: boolean = false;
 
     correctAudio: cc.AudioClip[] = [];
 
@@ -115,6 +117,11 @@ export default class gameplay extends cc.Component {
 
     private answeredCount: number = 0;
     private totalAnswers: number = 0;
+
+    // --- TAP-TO-MATCH additions ---
+    private touchStartPos: cc.Vec2 = null;
+    private readonly TAP_MOVE_THRESHOLD: number = 15;
+    // --------------------------------
 
 
     // LIFE-CYCLE CALLBACKS:
@@ -316,13 +323,71 @@ export default class gameplay extends cc.Component {
 
     }
 
+    // SubscribeEvents() {
+
+    //     this.collider = this.node.getChildByName("collider");
+
+    //     for (let i = 0; i < this.dropZones.children.length; i++) {
+    //         this.droppedBool[i] = false;
+    //     }
+
+    // --- Old click-based tap handler (kept for reference, no longer used) ---
+    // TapOption(_node: cc.Node) {
+    //     if (!this.canMove) {
+    //         return;
+    //     }
+    //     this.node.getChildByName("hand").opacity = 0;
+    //     this.Feedback(
+    //         _node,
+    //         this.dropZones.getChildByName(_node.name),
+    //         parseInt(_node.name) - 1
+    //     );
+    // }
+
+    /**
+     * Tap-to-match handler for the RIGHT side ("optionsNode") only.
+     * Tapping an option looks up the dropZone with the same name:
+     *  - if it exists -> this is the correct pairing, run Feedback() as usual
+     *    (this is exactly what the drag flow does when you drop an option
+     *    onto its matching zone, so all existing correct-answer tweens/audio
+     *    keep working unchanged).
+     *  - if it does NOT exist -> this option is a decoy/wrong answer with no
+     *    left-side target, so go straight to the wrong reaction.
+     * Works off touchstart/touchend (see TouchEnd), NOT the cc.Node "click"
+     * event, because "click" only fires automatically for nodes with a
+     * cc.Button component (which these option nodes don't have).
+     */
+    OnTap(_node: cc.Node) {
+        if (!this.canMove) {
+            return;
+        }
+
+        this.node.getChildByName("hand").opacity = 0;
+
+        let dropNode = this.dropZones.getChildByName(_node.name);
+
+        if (dropNode) {
+            this.Feedback(_node, dropNode, parseInt(_node.name) - 1);
+        }
+        else {
+            // decoy / wrong option -> no matching left-side target at all
+            this.canMove = false;
+            this.canPlay = false;
+            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+            this.wrongAnswerCount++;
+            console.log("wrongAnswer--" + globalVariables.Instance.currentLevel);
+            this.callNegativeRection(_node);
+            this.canMove = true;
+            this.canPlay = true;
+            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+        }
+    }
+
     SubscribeEvents() {
 
-        this.collider = this.node.getChildByName("collider");
-
-        for (let i = 0; i < this.dropZones.children.length; i++) {
-            this.droppedBool[i] = false;
-        }
+        // NOTE: removed the "click" binding here on purpose — it never fired
+        // because these nodes have no cc.Button component. Tap is now handled
+        // via touchstart/touchend below (see OnTap / TouchEnd).
 
         this.optionsNode.children.forEach(element => {
             element.getChildByName("line").getComponent(cc.Graphics).strokeColor = element.color;
@@ -334,6 +399,11 @@ export default class gameplay extends cc.Component {
 
             element.on('touchstart', function (event) {
                 this.TouchStart(element, event);
+            }, this);
+            element.on('tv-select', function (event) {
+                this.TouchStart(element);
+                // this.TouchEnd(element, event);
+
             }, this);
             element.on('touchmove', function (event) {
                 this.TouchMove(element, event);
@@ -357,6 +427,11 @@ export default class gameplay extends cc.Component {
 
             element.on('touchstart', function (event) {
                 this.TouchStart1(element, event);
+            }, this);
+            element.on('tv-select', function (event) {
+                this.TouchStart(element);
+                // this.TouchEnd(element, event);
+
             }, this);
             element.on('touchmove', function (event) {
                 this.TouchMove1(element, event);
@@ -435,10 +510,21 @@ export default class gameplay extends cc.Component {
         }, 1);
     }
 
-    OnVOButton() {
+    // OnVOButton() {
+    // cc.audioEngine.stopAllEffects();
+    // if (this.questionSound[0])
+    //     cc.audioEngine.playEffect(this.questionSound[0], false);
+    // this.setupTVFocus("Option");
+    // }
+    playButtonSound(_event: cc.Event) {
         cc.audioEngine.stopAllEffects();
-        if (this.questionSound[0])
-            cc.audioEngine.playEffect(this.questionSound[0], false);
+        cc.audioEngine.playEffect(this.questionSound[0], false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+            _event.target.scale = 1;
+            this.setupTVFocus("Option");
+        }, this.questionSound[0].duration)
     }
 
     callOptionIn() {
@@ -464,6 +550,8 @@ export default class gameplay extends cc.Component {
             }, delay);
             delay += 0.3
         }
+        this.setupTVFocus("Option");
+
     }
 
     PlayHandAnimation() {
@@ -483,12 +571,16 @@ export default class gameplay extends cc.Component {
 
     PlayQuestionAudio() {
         this.canMove = false;
+        this.canPlay = false;
+        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         this.currentJcokey.active = true;
         if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
             if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
             }
             this.canMove = true;
+            this.canPlay = true;
+            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
             if (globalVariables.Instance.currentLevel == 1) {
                 // PLAY CONNECT HAND ANIMATION
                 this.PlayHandAnimation();
@@ -508,6 +600,8 @@ export default class gameplay extends cc.Component {
             this.scheduleOnce(() => {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     this.canMove = true;
+                    this.canPlay = true;
+                    if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                     if (globalVariables.Instance.currentLevel == 1) {
                         // PLAY CONNECT HAND ANIMATION
@@ -522,6 +616,8 @@ export default class gameplay extends cc.Component {
                         this.scheduleOnce(() => {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                             this.canMove = true;
+                            this.canPlay = true;
+                            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                             if (globalVariables.Instance.currentLevel == 1) {
                                 // PLAY CONNECT HAND ANIMATION
                                 this.PlayHandAnimation();
@@ -565,6 +661,8 @@ export default class gameplay extends cc.Component {
                 }
             });
             this.canMove = true;
+            this.canPlay = true;
+            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
 
         }
     }
@@ -587,6 +685,8 @@ export default class gameplay extends cc.Component {
     callPositiveRection(_node1: cc.Node, _node2: cc.Node) {
         let _clone1: cc.Node = cc.instantiate(_node1);
         let _clone2: cc.Node = cc.instantiate(_node2);
+        _clone1.scale = 1;
+        _clone2.scale = 1;
         this.node.getChildByName("overlay").active = true;
         _clone1.setParent(this.node.getChildByName("overlay"));
         _clone2.setParent(this.node.getChildByName("overlay"));
@@ -817,6 +917,8 @@ export default class gameplay extends cc.Component {
                         }
                         //console.log("characterDisappear--Podar_Jumbo");
                         this.canMove = true;
+                        this.canPlay = true;
+                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                     }, this.negativeAudio[currentClipNum].duration);
                 }, 0.5);
             }
@@ -826,6 +928,8 @@ export default class gameplay extends cc.Component {
                 this.scheduleOnce(() => {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                     this.canMove = true;
+                    this.canPlay = true;
+                    if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                 }, this.negativeAudio[currentClipNum].duration);
             }
             else if (startGame.Instance.jockeyName == "supercub") {
@@ -844,6 +948,8 @@ export default class gameplay extends cc.Component {
                             }
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                             this.canMove = true;
+                            this.canPlay = true;
+                            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                             this.scheduleOnce(() => {
                                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                             }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration);
@@ -857,6 +963,8 @@ export default class gameplay extends cc.Component {
                     this.scheduleOnce(() => {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         this.canMove = true;
+                        this.canPlay = true;
+                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                     }, this.negativeAudio[currentClipNum].duration);
                 }
 
@@ -1023,67 +1131,106 @@ export default class gameplay extends cc.Component {
             this.isFirstClick = true;
             console.log("firstClick--" + globalVariables.Instance.currentLevel);
         }
-        var deltax = _event.touch.getLocationX();
-        var deltay = _event.touch.getLocationY();
-        this.collider.setPosition(deltax - 640, deltay - 400);
-        this.touches.length = 0;
-        this.touches.push(_event.touch.getLocation());
+
+        // record start position for tap detection
+        // this.touchStartPos = _event.touch.getLocation();
+        // record start position for tap detection
+        // if (_event && _event.touch) {
+        //     this.touchStartPos = _event.touch.getLocation();
+        // }
+        // else {
+        //     // TV / keyboard selection
+        //     this.OnTap(_node);
+        //     return;
+        // } 
+        if (_event && _event.touch) {
+            this.touchStartPos = _event.touch.getLocation();
+        }
+        else {
+            // TV / Keyboard selection
+            if (_node.getParent() == this.optionsNode) {
+                this.OnTap(_node);
+            }
+            return;
+        }
+
+        // var deltax = _event.touch.getLocationX();
+        // var deltay = _event.touch.getLocationY();
+        // this.collider.setPosition(deltax - 640, deltay - 400);
+        // this.touches.length = 0;
+        // this.touches.push(_event.touch.getLocation());
         if (_node.getParent() == this.optionsNode) {
             this.canMove = true;
+            this.canPlay = true;
+            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         }
         else {
             this.canMove = false;
+            this.canPlay = false;
+            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         }
     }
 
     TouchMove(_node: cc.Node, _event: any) {
-        this.node.getChildByName("hand").active = false;
-        //console.log("Touch move : ");
-        if (this.canMove) {
-            var delta = _event.touch.getDelta();
+        // this.node.getChildByName("hand").active = false;
+        // //console.log("Touch move : ");
+        // if (this.canMove) {
+        //     var delta = _event.touch.getDelta();
 
-            this.collider.x += delta.x;
-            this.collider.y += delta.y;
+        //     this.collider.x += delta.x;
+        //     this.collider.y += delta.y;
 
-            let touches = this.touches;
-            touches.push(_event.touch.getLocation());
+        //     let touches = this.touches;
+        //     touches.push(_event.touch.getLocation());
 
-            const MIN_POINT_DISTANCE = 2;
-            let graphics = _node.getChildByName("line").getComponent(cc.Graphics);
-            graphics.clear();
-            let worldPos = this.node.convertToWorldSpaceAR(cc.v2(_node.getPosition().x, _node.getPosition().y));
-            graphics.moveTo(touches[0].x - worldPos.x, touches[0].y - worldPos.y);
-            let lastIndex = 0;
-            for (let i = 1, l = touches.length; i < l; i++) {
-                if (touches[i].sub(touches[lastIndex]).mag() < MIN_POINT_DISTANCE) {
-                    continue;
-                }
-                lastIndex = i;
-            }
-            graphics.lineTo(touches[lastIndex].x - worldPos.x, touches[lastIndex].y - worldPos.y);
+        //     const MIN_POINT_DISTANCE = 2;
+        //     let graphics = _node.getChildByName("line").getComponent(cc.Graphics);
+        //     graphics.clear();
+        //     let worldPos = this.node.convertToWorldSpaceAR(cc.v2(_node.getPosition().x, _node.getPosition().y));
+        //     graphics.moveTo(touches[0].x - worldPos.x, touches[0].y - worldPos.y);
+        //     let lastIndex = 0;
+        //     for (let i = 1, l = touches.length; i < l; i++) {
+        //         if (touches[i].sub(touches[lastIndex]).mag() < MIN_POINT_DISTANCE) {
+        //             continue;
+        //         }
+        //         lastIndex = i;
+        //     }
+        //     graphics.lineTo(touches[lastIndex].x - worldPos.x, touches[lastIndex].y - worldPos.y);
 
-            graphics.stroke();
+        //     graphics.stroke();
 
-            for (let i = 0; i < this.dropZones.children.length; i++) {
-                var _nodeWorldSpacePos = _node.parent.convertToWorldSpaceAR(this.collider.getPosition());
-                var _actualPosition = this.dropZones.children[i].convertToNodeSpaceAR(_nodeWorldSpacePos);
-                if ((cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.dropZones.children[i].getComponent(cc.PolygonCollider).points)) && (!this.droppedBool[i] || _node.name == this.dropZones.children[i].name)) {
-                    //console.log("inside touch move @@@@@@@")
-                    this.Feedback(_node, this.dropZones.children[i], i);
-                    this.canMove = false;
-                    break;
-                }
-                // if (this.collider.getBoundingBox().contains(this.dropZones.children[i].getPosition())) {
-                //     this.Feedback(_node, this.dropZones.children[i], i);
-                //     this.canMove = false;
-                //     break;
-                // }
-            }
-        }
+        //     for (let i = 0; i < this.dropZones.children.length; i++) {
+        //         var _nodeWorldSpacePos = _node.parent.convertToWorldSpaceAR(this.collider.getPosition());
+        //         var _actualPosition = this.dropZones.children[i].convertToNodeSpaceAR(_nodeWorldSpacePos);
+        //         if ((cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.dropZones.children[i].getComponent(cc.PolygonCollider).points)) && (!this.droppedBool[i] || _node.name == this.dropZones.children[i].name)) {
+        //             //console.log("inside touch move @@@@@@@")
+        //             this.Feedback(_node, this.dropZones.children[i], i);
+        //             this.canMove = false;
+        //             break;
+        //         }
+        //         // if (this.collider.getBoundingBox().contains(this.dropZones.children[i].getPosition())) {
+        //         //     this.Feedback(_node, this.dropZones.children[i], i);
+        //         //     this.canMove = false;
+        //         //     break;
+        //         // }
+        //     }
+        // }
     }
 
     TouchEnd(_node: cc.Node, _event: any) {
         _node.getChildByName("line").getComponent(cc.Graphics).clear();
+
+        // --- TAP DETECTION ---
+        // If the touch barely moved between start and end, treat it as a tap
+        // instead of a drag, and resolve it via OnTap().
+        if (this.touchStartPos) {
+            let endPos = _event.touch.getLocation();
+            let movedDistance = endPos.sub(this.touchStartPos).mag();
+            if (movedDistance < this.TAP_MOVE_THRESHOLD && _node.getParent() == this.optionsNode) {
+                this.OnTap(_node);
+            }
+        }
+        this.touchStartPos = null;
     }
 
     TouchStart1(_node: cc.Node, _event: any) {
@@ -1095,65 +1242,75 @@ export default class gameplay extends cc.Component {
             console.log("firstClick--" + globalVariables.Instance.currentLevel);
         }
         this.node.getChildByName("hand").opacity = 0;
-        var deltax = _event.touch.getLocationX();
-        var deltay = _event.touch.getLocationY();
-        this.collider.setPosition(deltax - 640, deltay - 400);
-        this.touches.length = 0;
-        this.touches.push(_event.touch.getLocation());
+
+        // record start position for tap detection
+        this.touchStartPos = _event.touch.getLocation();
+
+        // var deltax = _event.touch.getLocationX();
+        // var deltay = _event.touch.getLocationY();
+        // this.collider.setPosition(deltax - 640, deltay - 400);
+        // this.touches.length = 0;
+        // this.touches.push(_event.touch.getLocation());
         if (_node.getParent() == this.dropZones) {
             this.canMove = true;
+            this.canPlay = true;
+            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         }
         else {
             this.canMove = false;
+            this.canPlay = false;
+            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         }
 
     }
 
     TouchMove1(_node: cc.Node, _event: any) {
-        if (this.canMove) {
-            var delta = _event.touch.getDelta();
+        // if (this.canMove) {
+        //     var delta = _event.touch.getDelta();
 
-            this.collider.x += delta.x;
-            this.collider.y += delta.y;
+        //     this.collider.x += delta.x;
+        //     this.collider.y += delta.y;
 
-            let touches = this.touches;
-            touches.push(_event.touch.getLocation());
+        //     let touches = this.touches;
+        //     touches.push(_event.touch.getLocation());
 
-            const MIN_POINT_DISTANCE = 2;
-            let graphics = _node.getChildByName("line").getComponent(cc.Graphics);
-            graphics.clear();
-            let worldPos = this.node.convertToWorldSpaceAR(cc.v2(_node.getPosition().x, _node.getPosition().y));
-            graphics.moveTo(touches[0].x - worldPos.x, touches[0].y - worldPos.y);
-            let lastIndex = 0;
-            for (let i = 1, l = touches.length; i < l; i++) {
-                if (touches[i].sub(touches[lastIndex]).mag() < MIN_POINT_DISTANCE) {
-                    continue;
-                }
-                lastIndex = i;
-            }
-            graphics.lineTo(touches[lastIndex].x - worldPos.x, touches[lastIndex].y - worldPos.y);
+        //     const MIN_POINT_DISTANCE = 2;
+        //     let graphics = _node.getChildByName("line").getComponent(cc.Graphics);
+        //     graphics.clear();
+        //     let worldPos = this.node.convertToWorldSpaceAR(cc.v2(_node.getPosition().x, _node.getPosition().y));
+        //     graphics.moveTo(touches[0].x - worldPos.x, touches[0].y - worldPos.y);
+        //     let lastIndex = 0;
+        //     for (let i = 1, l = touches.length; i < l; i++) {
+        //         if (touches[i].sub(touches[lastIndex]).mag() < MIN_POINT_DISTANCE) {
+        //             continue;
+        //         }
+        //         lastIndex = i;
+        //     }
+        //     graphics.lineTo(touches[lastIndex].x - worldPos.x, touches[lastIndex].y - worldPos.y);
 
-            graphics.stroke();
-            for (let i = 0; i < this.optionsNode.children.length; i++) {
-                var _nodeWorldSpacePos = _node.parent.convertToWorldSpaceAR(this.collider.getPosition());
-                var _actualPosition = this.optionsNode.children[i].convertToNodeSpaceAR(_nodeWorldSpacePos);
-                if ((cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.optionsNode.children[i].getComponent(cc.PolygonCollider).points)) && (!this.droppedBool[i] || _node.name == this.dropZones.children[i].name)) {
-                    this.Feedback(this.optionsNode.children[i], _node, i);
-                    this.canMove = false;
-                    break;
-                }
-                // if (this.collider.getBoundingBox().contains(this.optionsNode.children[i].getPosition())) {
-                //     this.Feedback(this.optionsNode.children[i], _node, i);
-                //     this.canMove = false;
-                //     break;
-                // }
-            }
-        }
+        //     graphics.stroke();
+        //     for (let i = 0; i < this.optionsNode.children.length; i++) {
+        //         var _nodeWorldSpacePos = _node.parent.convertToWorldSpaceAR(this.collider.getPosition());
+        //         var _actualPosition = this.optionsNode.children[i].convertToNodeSpaceAR(_nodeWorldSpacePos);
+        //         if ((cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.optionsNode.children[i].getComponent(cc.PolygonCollider).points)) && (!this.droppedBool[i] || _node.name == this.dropZones.children[i].name)) {
+        //             this.Feedback(this.optionsNode.children[i], _node, i);
+        //             this.canMove = false;
+        //             break;
+        //         }
+        //         // if (this.collider.getBoundingBox().contains(this.optionsNode.children[i].getPosition())) {
+        //         //     this.Feedback(this.optionsNode.children[i], _node, i);
+        //         //     this.canMove = false;
+        //         //     break;
+        //         // }
+        //     }
+        // }
     }
 
     Feedback(_node: cc.Node, _dropNode: cc.Node, number: number) {
         console.log("feedback called!!!!!");
         this.canMove = false;
+        this.canPlay = false;
+        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         if (_node.name == _dropNode.name) {
             this.answeredCount++;
             cc.audioEngine.stopAllEffects();
@@ -1167,8 +1324,36 @@ export default class gameplay extends cc.Component {
             this.wrongAnswerCount++;
             console.log("wrongAnswer--" + globalVariables.Instance.currentLevel);
             this.callNegativeRection(_node);
+            // re-enable movement so the user can try tapping again
+            this.canMove = true;
+            this.canPlay = true;
+            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         }
     }
+    private setupTVFocus(activeContainerName: string) {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
 
+        let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
+            let btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+
+        let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
+
+        // pick a sensible default — e.g. first option, or correct answer index
+
+        if (cc.director.getScene().name == "1") {
+            TVInputManager.Instance.init(nodes, 1);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+
+        TVInputManager.Instance.setCanSelect(this.canPlay);
+    }
 
 }

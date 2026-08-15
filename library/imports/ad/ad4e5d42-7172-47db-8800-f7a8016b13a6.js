@@ -22,10 +22,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __spreadArrays = (this && this.__spreadArrays) || function () {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
+var TVInputManager_1 = require("./TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var gameplay = /** @class */ (function (_super) {
     __extends(gameplay, _super);
@@ -68,6 +77,7 @@ var gameplay = /** @class */ (function (_super) {
         _this.star2Log = false;
         _this.star3Log = false;
         _this.currentJcokey = null;
+        _this.canPlay = false;
         _this.correctAudio = [];
         _this.optionsNode = null;
         _this.dropZones = null;
@@ -78,8 +88,12 @@ var gameplay = /** @class */ (function (_super) {
         _this.droppedBool = [];
         _this.answeredCount = 0;
         _this.totalAnswers = 0;
+        // --- TAP-TO-MATCH additions ---
+        _this.touchStartPos = null;
+        _this.TAP_MOVE_THRESHOLD = 15;
         return _this;
     }
+    // --------------------------------
     // LIFE-CYCLE CALLBACKS:
     gameplay.prototype.onLoad = function () {
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
@@ -287,12 +301,65 @@ var gameplay = /** @class */ (function (_super) {
             this.negativeAudio = this.supercubNegative;
         }
     };
-    gameplay.prototype.SubscribeEvents = function () {
-        var _this = this;
-        this.collider = this.node.getChildByName("collider");
-        for (var i = 0; i < this.dropZones.children.length; i++) {
-            this.droppedBool[i] = false;
+    // SubscribeEvents() {
+    //     this.collider = this.node.getChildByName("collider");
+    //     for (let i = 0; i < this.dropZones.children.length; i++) {
+    //         this.droppedBool[i] = false;
+    //     }
+    // --- Old click-based tap handler (kept for reference, no longer used) ---
+    // TapOption(_node: cc.Node) {
+    //     if (!this.canMove) {
+    //         return;
+    //     }
+    //     this.node.getChildByName("hand").opacity = 0;
+    //     this.Feedback(
+    //         _node,
+    //         this.dropZones.getChildByName(_node.name),
+    //         parseInt(_node.name) - 1
+    //     );
+    // }
+    /**
+     * Tap-to-match handler for the RIGHT side ("optionsNode") only.
+     * Tapping an option looks up the dropZone with the same name:
+     *  - if it exists -> this is the correct pairing, run Feedback() as usual
+     *    (this is exactly what the drag flow does when you drop an option
+     *    onto its matching zone, so all existing correct-answer tweens/audio
+     *    keep working unchanged).
+     *  - if it does NOT exist -> this option is a decoy/wrong answer with no
+     *    left-side target, so go straight to the wrong reaction.
+     * Works off touchstart/touchend (see TouchEnd), NOT the cc.Node "click"
+     * event, because "click" only fires automatically for nodes with a
+     * cc.Button component (which these option nodes don't have).
+     */
+    gameplay.prototype.OnTap = function (_node) {
+        if (!this.canMove) {
+            return;
         }
+        this.node.getChildByName("hand").opacity = 0;
+        var dropNode = this.dropZones.getChildByName(_node.name);
+        if (dropNode) {
+            this.Feedback(_node, dropNode, parseInt(_node.name) - 1);
+        }
+        else {
+            // decoy / wrong option -> no matching left-side target at all
+            this.canMove = false;
+            this.canPlay = false;
+            if (TVInputManager_1.default.Instance)
+                TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
+            this.wrongAnswerCount++;
+            console.log("wrongAnswer--" + globalVariables_1.default.Instance.currentLevel);
+            this.callNegativeRection(_node);
+            this.canMove = true;
+            this.canPlay = true;
+            if (TVInputManager_1.default.Instance)
+                TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
+        }
+    };
+    gameplay.prototype.SubscribeEvents = function () {
+        // NOTE: removed the "click" binding here on purpose — it never fired
+        // because these nodes have no cc.Button component. Tap is now handled
+        // via touchstart/touchend below (see OnTap / TouchEnd).
+        var _this = this;
         this.optionsNode.children.forEach(function (element) {
             element.getChildByName("line").getComponent(cc.Graphics).strokeColor = element.color;
             element.getChildByName("line").getComponent(cc.Graphics).moveTo(0, 0);
@@ -302,6 +369,10 @@ var gameplay = /** @class */ (function (_super) {
             element.getChildByName("line").getComponent(cc.Graphics).lineWidth = 10;
             element.on('touchstart', function (event) {
                 this.TouchStart(element, event);
+            }, _this);
+            element.on('tv-select', function (event) {
+                this.TouchStart(element);
+                // this.TouchEnd(element, event);
             }, _this);
             element.on('touchmove', function (event) {
                 this.TouchMove(element, event);
@@ -322,6 +393,10 @@ var gameplay = /** @class */ (function (_super) {
             element.getChildByName("line").getComponent(cc.Graphics).lineWidth = 10;
             element.on('touchstart', function (event) {
                 this.TouchStart1(element, event);
+            }, _this);
+            element.on('tv-select', function (event) {
+                this.TouchStart(element);
+                // this.TouchEnd(element, event);
             }, _this);
             element.on('touchmove', function (event) {
                 this.TouchMove1(element, event);
@@ -396,10 +471,22 @@ var gameplay = /** @class */ (function (_super) {
             }
         }, 1);
     };
-    gameplay.prototype.OnVOButton = function () {
+    // OnVOButton() {
+    // cc.audioEngine.stopAllEffects();
+    // if (this.questionSound[0])
+    //     cc.audioEngine.playEffect(this.questionSound[0], false);
+    // this.setupTVFocus("Option");
+    // }
+    gameplay.prototype.playButtonSound = function (_event) {
+        var _this = this;
         cc.audioEngine.stopAllEffects();
-        if (this.questionSound[0])
-            cc.audioEngine.playEffect(this.questionSound[0], false);
+        cc.audioEngine.playEffect(this.questionSound[0], false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(function () {
+            _event.target.getComponent(cc.Button).interactable = true;
+            _event.target.scale = 1;
+            _this.setupTVFocus("Option");
+        }, this.questionSound[0].duration);
     };
     gameplay.prototype.callOptionIn = function () {
         var _this = this;
@@ -429,6 +516,7 @@ var gameplay = /** @class */ (function (_super) {
         for (var i = 1; i <= this.optionsNode.children.length; i++) {
             _loop_8(i);
         }
+        this.setupTVFocus("Option");
     };
     gameplay.prototype.PlayHandAnimation = function () {
         var _this = this;
@@ -448,12 +536,18 @@ var gameplay = /** @class */ (function (_super) {
     gameplay.prototype.PlayQuestionAudio = function () {
         var _this = this;
         this.canMove = false;
+        this.canPlay = false;
+        if (TVInputManager_1.default.Instance)
+            TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
         this.currentJcokey.active = true;
         if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
             if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
             }
             this.canMove = true;
+            this.canPlay = true;
+            if (TVInputManager_1.default.Instance)
+                TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
             if (globalVariables_1.default.Instance.currentLevel == 1) {
                 // PLAY CONNECT HAND ANIMATION
                 this.PlayHandAnimation();
@@ -473,6 +567,9 @@ var gameplay = /** @class */ (function (_super) {
             this.scheduleOnce(function () {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     _this.canMove = true;
+                    _this.canPlay = true;
+                    if (TVInputManager_1.default.Instance)
+                        TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                     if (globalVariables_1.default.Instance.currentLevel == 1) {
                         // PLAY CONNECT HAND ANIMATION
@@ -487,6 +584,9 @@ var gameplay = /** @class */ (function (_super) {
                         _this.scheduleOnce(function () {
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                             _this.canMove = true;
+                            _this.canPlay = true;
+                            if (TVInputManager_1.default.Instance)
+                                TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
                             if (globalVariables_1.default.Instance.currentLevel == 1) {
                                 // PLAY CONNECT HAND ANIMATION
                                 _this.PlayHandAnimation();
@@ -528,6 +628,9 @@ var gameplay = /** @class */ (function (_super) {
                 }
             });
             this.canMove = true;
+            this.canPlay = true;
+            if (TVInputManager_1.default.Instance)
+                TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
         }
     };
     gameplay.prototype.callStarsEared = function () {
@@ -548,6 +651,8 @@ var gameplay = /** @class */ (function (_super) {
         var _this = this;
         var _clone1 = cc.instantiate(_node1);
         var _clone2 = cc.instantiate(_node2);
+        _clone1.scale = 1;
+        _clone2.scale = 1;
         this.node.getChildByName("overlay").active = true;
         _clone1.setParent(this.node.getChildByName("overlay"));
         _clone2.setParent(this.node.getChildByName("overlay"));
@@ -769,6 +874,9 @@ var gameplay = /** @class */ (function (_super) {
                         }
                         //console.log("characterDisappear--Podar_Jumbo");
                         _this.canMove = true;
+                        _this.canPlay = true;
+                        if (TVInputManager_1.default.Instance)
+                            TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
                     }, _this.negativeAudio[currentClipNum].duration);
                 }, 0.5);
             }
@@ -778,6 +886,9 @@ var gameplay = /** @class */ (function (_super) {
                 _this.scheduleOnce(function () {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                     _this.canMove = true;
+                    _this.canPlay = true;
+                    if (TVInputManager_1.default.Instance)
+                        TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
                 }, _this.negativeAudio[currentClipNum].duration);
             }
             else if (StartGame_1.default.Instance.jockeyName == "supercub") {
@@ -796,6 +907,9 @@ var gameplay = /** @class */ (function (_super) {
                             }
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                             _this.canMove = true;
+                            _this.canPlay = true;
+                            if (TVInputManager_1.default.Instance)
+                                TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
                             _this.scheduleOnce(function () {
                                 _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                             }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration);
@@ -808,6 +922,9 @@ var gameplay = /** @class */ (function (_super) {
                     _this.scheduleOnce(function () {
                         _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         _this.canMove = true;
+                        _this.canPlay = true;
+                        if (TVInputManager_1.default.Instance)
+                            TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
                     }, _this.negativeAudio[currentClipNum].duration);
                 }
             }
@@ -945,60 +1062,98 @@ var gameplay = /** @class */ (function (_super) {
             this.isFirstClick = true;
             console.log("firstClick--" + globalVariables_1.default.Instance.currentLevel);
         }
-        var deltax = _event.touch.getLocationX();
-        var deltay = _event.touch.getLocationY();
-        this.collider.setPosition(deltax - 640, deltay - 400);
-        this.touches.length = 0;
-        this.touches.push(_event.touch.getLocation());
+        // record start position for tap detection
+        // this.touchStartPos = _event.touch.getLocation();
+        // record start position for tap detection
+        // if (_event && _event.touch) {
+        //     this.touchStartPos = _event.touch.getLocation();
+        // }
+        // else {
+        //     // TV / keyboard selection
+        //     this.OnTap(_node);
+        //     return;
+        // } 
+        if (_event && _event.touch) {
+            this.touchStartPos = _event.touch.getLocation();
+        }
+        else {
+            // TV / Keyboard selection
+            if (_node.getParent() == this.optionsNode) {
+                this.OnTap(_node);
+            }
+            return;
+        }
+        // var deltax = _event.touch.getLocationX();
+        // var deltay = _event.touch.getLocationY();
+        // this.collider.setPosition(deltax - 640, deltay - 400);
+        // this.touches.length = 0;
+        // this.touches.push(_event.touch.getLocation());
         if (_node.getParent() == this.optionsNode) {
             this.canMove = true;
+            this.canPlay = true;
+            if (TVInputManager_1.default.Instance)
+                TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
         }
         else {
             this.canMove = false;
+            this.canPlay = false;
+            if (TVInputManager_1.default.Instance)
+                TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
         }
     };
     gameplay.prototype.TouchMove = function (_node, _event) {
-        this.node.getChildByName("hand").active = false;
-        //console.log("Touch move : ");
-        if (this.canMove) {
-            var delta = _event.touch.getDelta();
-            this.collider.x += delta.x;
-            this.collider.y += delta.y;
-            var touches = this.touches;
-            touches.push(_event.touch.getLocation());
-            var MIN_POINT_DISTANCE = 2;
-            var graphics = _node.getChildByName("line").getComponent(cc.Graphics);
-            graphics.clear();
-            var worldPos = this.node.convertToWorldSpaceAR(cc.v2(_node.getPosition().x, _node.getPosition().y));
-            graphics.moveTo(touches[0].x - worldPos.x, touches[0].y - worldPos.y);
-            var lastIndex = 0;
-            for (var i = 1, l = touches.length; i < l; i++) {
-                if (touches[i].sub(touches[lastIndex]).mag() < MIN_POINT_DISTANCE) {
-                    continue;
-                }
-                lastIndex = i;
-            }
-            graphics.lineTo(touches[lastIndex].x - worldPos.x, touches[lastIndex].y - worldPos.y);
-            graphics.stroke();
-            for (var i = 0; i < this.dropZones.children.length; i++) {
-                var _nodeWorldSpacePos = _node.parent.convertToWorldSpaceAR(this.collider.getPosition());
-                var _actualPosition = this.dropZones.children[i].convertToNodeSpaceAR(_nodeWorldSpacePos);
-                if ((cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.dropZones.children[i].getComponent(cc.PolygonCollider).points)) && (!this.droppedBool[i] || _node.name == this.dropZones.children[i].name)) {
-                    //console.log("inside touch move @@@@@@@")
-                    this.Feedback(_node, this.dropZones.children[i], i);
-                    this.canMove = false;
-                    break;
-                }
-                // if (this.collider.getBoundingBox().contains(this.dropZones.children[i].getPosition())) {
-                //     this.Feedback(_node, this.dropZones.children[i], i);
-                //     this.canMove = false;
-                //     break;
-                // }
-            }
-        }
+        // this.node.getChildByName("hand").active = false;
+        // //console.log("Touch move : ");
+        // if (this.canMove) {
+        //     var delta = _event.touch.getDelta();
+        //     this.collider.x += delta.x;
+        //     this.collider.y += delta.y;
+        //     let touches = this.touches;
+        //     touches.push(_event.touch.getLocation());
+        //     const MIN_POINT_DISTANCE = 2;
+        //     let graphics = _node.getChildByName("line").getComponent(cc.Graphics);
+        //     graphics.clear();
+        //     let worldPos = this.node.convertToWorldSpaceAR(cc.v2(_node.getPosition().x, _node.getPosition().y));
+        //     graphics.moveTo(touches[0].x - worldPos.x, touches[0].y - worldPos.y);
+        //     let lastIndex = 0;
+        //     for (let i = 1, l = touches.length; i < l; i++) {
+        //         if (touches[i].sub(touches[lastIndex]).mag() < MIN_POINT_DISTANCE) {
+        //             continue;
+        //         }
+        //         lastIndex = i;
+        //     }
+        //     graphics.lineTo(touches[lastIndex].x - worldPos.x, touches[lastIndex].y - worldPos.y);
+        //     graphics.stroke();
+        //     for (let i = 0; i < this.dropZones.children.length; i++) {
+        //         var _nodeWorldSpacePos = _node.parent.convertToWorldSpaceAR(this.collider.getPosition());
+        //         var _actualPosition = this.dropZones.children[i].convertToNodeSpaceAR(_nodeWorldSpacePos);
+        //         if ((cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.dropZones.children[i].getComponent(cc.PolygonCollider).points)) && (!this.droppedBool[i] || _node.name == this.dropZones.children[i].name)) {
+        //             //console.log("inside touch move @@@@@@@")
+        //             this.Feedback(_node, this.dropZones.children[i], i);
+        //             this.canMove = false;
+        //             break;
+        //         }
+        //         // if (this.collider.getBoundingBox().contains(this.dropZones.children[i].getPosition())) {
+        //         //     this.Feedback(_node, this.dropZones.children[i], i);
+        //         //     this.canMove = false;
+        //         //     break;
+        //         // }
+        //     }
+        // }
     };
     gameplay.prototype.TouchEnd = function (_node, _event) {
         _node.getChildByName("line").getComponent(cc.Graphics).clear();
+        // --- TAP DETECTION ---
+        // If the touch barely moved between start and end, treat it as a tap
+        // instead of a drag, and resolve it via OnTap().
+        if (this.touchStartPos) {
+            var endPos = _event.touch.getLocation();
+            var movedDistance = endPos.sub(this.touchStartPos).mag();
+            if (movedDistance < this.TAP_MOVE_THRESHOLD && _node.getParent() == this.optionsNode) {
+                this.OnTap(_node);
+            }
+        }
+        this.touchStartPos = null;
     };
     gameplay.prototype.TouchStart1 = function (_node, _event) {
         if (!this.canMove) {
@@ -1009,58 +1164,69 @@ var gameplay = /** @class */ (function (_super) {
             console.log("firstClick--" + globalVariables_1.default.Instance.currentLevel);
         }
         this.node.getChildByName("hand").opacity = 0;
-        var deltax = _event.touch.getLocationX();
-        var deltay = _event.touch.getLocationY();
-        this.collider.setPosition(deltax - 640, deltay - 400);
-        this.touches.length = 0;
-        this.touches.push(_event.touch.getLocation());
+        // record start position for tap detection
+        this.touchStartPos = _event.touch.getLocation();
+        // var deltax = _event.touch.getLocationX();
+        // var deltay = _event.touch.getLocationY();
+        // this.collider.setPosition(deltax - 640, deltay - 400);
+        // this.touches.length = 0;
+        // this.touches.push(_event.touch.getLocation());
         if (_node.getParent() == this.dropZones) {
             this.canMove = true;
+            this.canPlay = true;
+            if (TVInputManager_1.default.Instance)
+                TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
         }
         else {
             this.canMove = false;
+            this.canPlay = false;
+            if (TVInputManager_1.default.Instance)
+                TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
         }
     };
     gameplay.prototype.TouchMove1 = function (_node, _event) {
-        if (this.canMove) {
-            var delta = _event.touch.getDelta();
-            this.collider.x += delta.x;
-            this.collider.y += delta.y;
-            var touches = this.touches;
-            touches.push(_event.touch.getLocation());
-            var MIN_POINT_DISTANCE = 2;
-            var graphics = _node.getChildByName("line").getComponent(cc.Graphics);
-            graphics.clear();
-            var worldPos = this.node.convertToWorldSpaceAR(cc.v2(_node.getPosition().x, _node.getPosition().y));
-            graphics.moveTo(touches[0].x - worldPos.x, touches[0].y - worldPos.y);
-            var lastIndex = 0;
-            for (var i = 1, l = touches.length; i < l; i++) {
-                if (touches[i].sub(touches[lastIndex]).mag() < MIN_POINT_DISTANCE) {
-                    continue;
-                }
-                lastIndex = i;
-            }
-            graphics.lineTo(touches[lastIndex].x - worldPos.x, touches[lastIndex].y - worldPos.y);
-            graphics.stroke();
-            for (var i = 0; i < this.optionsNode.children.length; i++) {
-                var _nodeWorldSpacePos = _node.parent.convertToWorldSpaceAR(this.collider.getPosition());
-                var _actualPosition = this.optionsNode.children[i].convertToNodeSpaceAR(_nodeWorldSpacePos);
-                if ((cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.optionsNode.children[i].getComponent(cc.PolygonCollider).points)) && (!this.droppedBool[i] || _node.name == this.dropZones.children[i].name)) {
-                    this.Feedback(this.optionsNode.children[i], _node, i);
-                    this.canMove = false;
-                    break;
-                }
-                // if (this.collider.getBoundingBox().contains(this.optionsNode.children[i].getPosition())) {
-                //     this.Feedback(this.optionsNode.children[i], _node, i);
-                //     this.canMove = false;
-                //     break;
-                // }
-            }
-        }
+        // if (this.canMove) {
+        //     var delta = _event.touch.getDelta();
+        //     this.collider.x += delta.x;
+        //     this.collider.y += delta.y;
+        //     let touches = this.touches;
+        //     touches.push(_event.touch.getLocation());
+        //     const MIN_POINT_DISTANCE = 2;
+        //     let graphics = _node.getChildByName("line").getComponent(cc.Graphics);
+        //     graphics.clear();
+        //     let worldPos = this.node.convertToWorldSpaceAR(cc.v2(_node.getPosition().x, _node.getPosition().y));
+        //     graphics.moveTo(touches[0].x - worldPos.x, touches[0].y - worldPos.y);
+        //     let lastIndex = 0;
+        //     for (let i = 1, l = touches.length; i < l; i++) {
+        //         if (touches[i].sub(touches[lastIndex]).mag() < MIN_POINT_DISTANCE) {
+        //             continue;
+        //         }
+        //         lastIndex = i;
+        //     }
+        //     graphics.lineTo(touches[lastIndex].x - worldPos.x, touches[lastIndex].y - worldPos.y);
+        //     graphics.stroke();
+        //     for (let i = 0; i < this.optionsNode.children.length; i++) {
+        //         var _nodeWorldSpacePos = _node.parent.convertToWorldSpaceAR(this.collider.getPosition());
+        //         var _actualPosition = this.optionsNode.children[i].convertToNodeSpaceAR(_nodeWorldSpacePos);
+        //         if ((cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.optionsNode.children[i].getComponent(cc.PolygonCollider).points)) && (!this.droppedBool[i] || _node.name == this.dropZones.children[i].name)) {
+        //             this.Feedback(this.optionsNode.children[i], _node, i);
+        //             this.canMove = false;
+        //             break;
+        //         }
+        //         // if (this.collider.getBoundingBox().contains(this.optionsNode.children[i].getPosition())) {
+        //         //     this.Feedback(this.optionsNode.children[i], _node, i);
+        //         //     this.canMove = false;
+        //         //     break;
+        //         // }
+        //     }
+        // }
     };
     gameplay.prototype.Feedback = function (_node, _dropNode, number) {
         console.log("feedback called!!!!!");
         this.canMove = false;
+        this.canPlay = false;
+        if (TVInputManager_1.default.Instance)
+            TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
         if (_node.name == _dropNode.name) {
             this.answeredCount++;
             cc.audioEngine.stopAllEffects();
@@ -1074,7 +1240,32 @@ var gameplay = /** @class */ (function (_super) {
             this.wrongAnswerCount++;
             console.log("wrongAnswer--" + globalVariables_1.default.Instance.currentLevel);
             this.callNegativeRection(_node);
+            // re-enable movement so the user can try tapping again
+            this.canMove = true;
+            this.canPlay = true;
+            if (TVInputManager_1.default.Instance)
+                TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
         }
+    };
+    gameplay.prototype.setupTVFocus = function (activeContainerName) {
+        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
+        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
+        var soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        var optionButtons = this.node.getChildByName(activeContainerName).children.filter(function (node) {
+            var btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+        var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
+        // pick a sensible default — e.g. first option, or correct answer index
+        if (cc.director.getScene().name == "1") {
+            TVInputManager_1.default.Instance.init(nodes, 1);
+        }
+        else {
+            TVInputManager_1.default.Instance.init(nodes, -1);
+        }
+        TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
     };
     __decorate([
         property(cc.Font)
