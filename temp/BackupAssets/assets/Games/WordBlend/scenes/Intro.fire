@@ -2419,7 +2419,7 @@
     },
     "_enabled": true,
     "BGM_audio": null,
-    "volume": 0.14,
+    "volume": 0.3,
     "NextSceneName": "1",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [],

@@ -4416,6 +4416,9 @@
     "correctAction": {
       "__uuid__": "78ea7baa-3895-4313-b442-0081329059ff"
     },
+    "hint": {
+      "__uuid__": "4201b47b-f38e-47d8-9cc1-2c8f84b3225d"
+    },
     "incorrectButton": [
       {
         "__uuid__": "22b5f6b5-8d05-43a2-98b7-f925231e8ad8"

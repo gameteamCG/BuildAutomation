@@ -47,6 +47,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.myOptions = null;
         _this.correctAnswer = "1";
         _this.correctAction = null;
+        _this.hint = null;
         _this.incorrectButton = [];
         _this.rotateAction = null;
         _this.swipeAction = null;
@@ -161,9 +162,6 @@ var NewClass = /** @class */ (function (_super) {
         console.log("levelStarted--" + this.currScene);
         if (this.currScene >= StartGame_1.default.Instance.totalLevels) {
             cc.director.preloadScene("GameEnd");
-        }
-        else {
-            cc.director.preloadScene((this.currScene + 1).toString());
         }
         StartGame_1.default.Instance.clickEvent = false;
         this.canTouch = false;
@@ -421,6 +419,7 @@ var NewClass = /** @class */ (function (_super) {
             if (_this.canTouch) {
                 //cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
             }
+            cc.audioEngine.playEffect(_this.hint, false);
             _this.options.children.forEach(function (_child) {
                 if (_child.angle % 360 != 0) {
                     cc.tween(_child)
@@ -495,9 +494,6 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.SetFrameOptions = function () {
         var _this = this;
         this.options.active = true;
-        if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].isHintRequired) {
-            this.node.getChildByName("hint").active = true;
-        }
         if (this.options.childrenCount == 4) {
             this.options.children[0].setPosition(-this.options.children[0].width / 2, this.options.children[0].height / 2);
             this.options.children[1].setPosition(this.options.children[1].width / 2, this.options.children[1].height / 2);
@@ -543,14 +539,20 @@ var NewClass = /** @class */ (function (_super) {
             this.options.children[14].setPosition((this.options.children[14].width / 2), -this.options.children[14].height - threshHold);
             this.options.children[15].setPosition((this.options.children[15].width + threshHold), -this.options.children[15].height - threshHold);
         }
-        for (var i = 0; i < this.options.childrenCount; i++) {
-            var clone = cc.instantiate(this.options.children[i]);
-            clone.setParent(this.node.getChildByName("hint").getChildByName("hint"));
-            clone.setPosition(this.options.children[i].getPosition());
-        }
-        this.node.getChildByName("hint").getChildByName("hint").children.forEach(function (elem) {
-            elem.removeComponent(cc.Button);
-        });
+        this.scheduleOnce(function () {
+            for (var i = 0; i < _this.options.childrenCount; i++) {
+                var clone = cc.instantiate(_this.options.children[i]);
+                clone.setParent(_this.node.getChildByName("hint").getChildByName("hint"));
+                clone.setPosition(_this.options.children[i].getPosition());
+            }
+            _this.node.getChildByName("hint").getChildByName("hint").children.forEach(function (elem) {
+                elem.removeComponent(cc.Button);
+                elem.angle = 0;
+            });
+            if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].isHintRequired) {
+                _this.node.getChildByName("hint").active = true;
+            }
+        }, 3);
         var _randomNumber = 1;
         this.options.children.forEach(function (element) {
             element.active = true;
@@ -667,6 +669,7 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
+            this.unschedule(this.sheduleQuestionClip);
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();
                 cc.audioEngine.playEffect(_this.puzzleVoIteration, false);
@@ -1241,6 +1244,9 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "correctAction", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], NewClass.prototype, "hint", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "incorrectButton", void 0);

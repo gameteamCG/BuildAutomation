@@ -30,6 +30,8 @@ export default class NewClass extends cc.Component {
     @property(cc.AudioClip)
     correctAction: cc.AudioClip = null;
     @property(cc.AudioClip)
+    hint: cc.AudioClip = null;
+    @property(cc.AudioClip)
     incorrectButton: cc.AudioClip[] = [];
     @property(cc.AudioClip)
     rotateAction: cc.AudioClip = null;
@@ -190,9 +192,7 @@ export default class NewClass extends cc.Component {
         if (this.currScene >= startGame.Instance.totalLevels) {
             cc.director.preloadScene("GameEnd");
         }
-        else {
-            cc.director.preloadScene((this.currScene + 1).toString());
-        }
+
         startGame.Instance.clickEvent = false;
         this.canTouch = false;
         TVInputManager.Instance.setCanSelect(this.canTouch)
@@ -452,6 +452,7 @@ export default class NewClass extends cc.Component {
             if (this.canTouch) {
                 //cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
             }
+            cc.audioEngine.playEffect(this.hint, false);
             this.options.children.forEach((_child) => {
                 if (_child.angle % 360 != 0) {
                     cc.tween(_child)
@@ -535,9 +536,7 @@ export default class NewClass extends cc.Component {
     }
     SetFrameOptions() {
         this.options.active = true;
-        if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].isHintRequired) {
-            this.node.getChildByName("hint").active = true;
-        }
+
         if (this.options.childrenCount == 4) {
             this.options.children[0].setPosition(-this.options.children[0].width / 2, this.options.children[0].height / 2);
             this.options.children[1].setPosition(this.options.children[1].width / 2, this.options.children[1].height / 2);
@@ -607,15 +606,22 @@ export default class NewClass extends cc.Component {
             this.options.children[15].setPosition((this.options.children[15].width + threshHold), -this.options.children[15].height - threshHold);
 
         }
+        this.scheduleOnce(() => {
 
-        for (let i = 0; i < this.options.childrenCount; i++) {
-            let clone = cc.instantiate(this.options.children[i]);
-            clone.setParent(this.node.getChildByName("hint").getChildByName("hint"));
-            clone.setPosition(this.options.children[i].getPosition());
-        }
-        this.node.getChildByName("hint").getChildByName("hint").children.forEach(elem => {
-            elem.removeComponent(cc.Button);
-        })
+            for (let i = 0; i < this.options.childrenCount; i++) {
+                let clone = cc.instantiate(this.options.children[i]);
+                clone.setParent(this.node.getChildByName("hint").getChildByName("hint"));
+                clone.setPosition(this.options.children[i].getPosition());
+            }
+            this.node.getChildByName("hint").getChildByName("hint").children.forEach(elem => {
+                elem.removeComponent(cc.Button);
+                elem.angle = 0;
+            })
+            if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].isHintRequired) {
+                this.node.getChildByName("hint").active = true;
+            }
+        }, 3)
+
 
         let _randomNumber: number = 1;
         this.options.children.forEach(element => {
@@ -624,6 +630,7 @@ export default class NewClass extends cc.Component {
             element.angle = -(90 * _randomNumber);
 
         });
+
         this.options.scale = 0.8;
         this.options.opacity = 100;
         this.node.getChildByName("hint").opacity = 100;
@@ -733,6 +740,8 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
+            this.unschedule(this.sheduleQuestionClip);
+
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
                 cc.audioEngine.playEffect(this.puzzleVoIteration, false);
