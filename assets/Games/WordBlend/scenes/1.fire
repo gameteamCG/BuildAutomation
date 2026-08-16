@@ -3964,7 +3964,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "2fcb51f1-f8f6-4a89-bbde-9a672f18e4f3"
+      "__uuid__": "212b1d50-4e1b-4f12-b22f-ed721087084b"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -4093,7 +4093,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 217.31,
+      "width": 82.53,
       "height": 75.6
     },
     "_anchorPoint": {
@@ -4138,7 +4138,7 @@
       "__id__": 87
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 89
@@ -4155,7 +4155,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 12.73,
+      "width": 10.5,
       "height": 75.6
     },
     "_anchorPoint": {
@@ -4212,9 +4212,7 @@
     "_fontSize": 55,
     "_lineHeight": 60,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "18ac7d5c-6b2e-4def-845b-03f3c6a5a10d"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -4242,14 +4240,12 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Blend   pl '",
-    "_N$string": "Blend   pl '",
+    "_string": "स्वर",
+    "_N$string": "स्वर",
     "_fontSize": 55,
     "_lineHeight": 60,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "18ac7d5c-6b2e-4def-845b-03f3c6a5a10d"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -4344,9 +4340,7 @@
     "_fontSize": 55,
     "_lineHeight": 60,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "18ac7d5c-6b2e-4def-845b-03f3c6a5a10d"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -4375,7 +4369,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "7653aba3-4cdf-412f-ba44-d44ce3978df8"
+      "__uuid__": "7aa93b5e-38b5-41f2-a8c2-82f5fd18c1cc"
     },
     "_type": 0,
     "_sizeMode": 2,
@@ -4416,7 +4410,7 @@
       "__uuid__": "78ea7baa-3895-4313-b442-0081329059ff"
     },
     "hint": {
-      "__uuid__": "4201b47b-f38e-47d8-9cc1-2c8f84b3225d"
+      "__uuid__": "9d325ea1-f207-4836-b2a3-ba177dd0db47"
     },
     "incorrectButton": [
       {

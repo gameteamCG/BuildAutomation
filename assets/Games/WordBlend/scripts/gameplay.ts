@@ -47,15 +47,13 @@ export default class NewClass extends cc.Component {
     @property(cc.AudioClip)
     wrongAnswer: cc.AudioClip = null;
     private questions: string[] = [
-        "plane", // 21
-        "plug", // 23
-        "plum", // 24
-        "plant", // 22
-        "planet", // 26
-        "plate", // 25
-        "plus", // 28
-        "2 tens and 9 ones", // 29
-        "2 tens and 7 ones", // 27
+        "अखरोट",
+        "उपहार",
+        "इस्त्री",
+        "ऊँट",
+        "आलू",
+        "ऋतु",
+        "ईद"
     ];
     // @property(cc.SpriteFrame)
     temporarySprites: cc.SpriteFrame[] = [];
@@ -744,7 +742,7 @@ export default class NewClass extends cc.Component {
 
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
-                cc.audioEngine.playEffect(this.puzzleVoIteration, false);
+                //cc.audioEngine.playEffect(this.puzzleVoIteration, false);
                 this.scheduleOnce(() => {
                     this.options.color = cc.Color.WHITE;
                     // this.wordAppear();

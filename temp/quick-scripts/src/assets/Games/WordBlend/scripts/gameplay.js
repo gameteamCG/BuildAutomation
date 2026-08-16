@@ -58,15 +58,13 @@ var NewClass = /** @class */ (function (_super) {
         _this.jockeyCorrect2 = null;
         _this.wrongAnswer = null;
         _this.questions = [
-            "plane",
-            "plug",
-            "plum",
-            "plant",
-            "planet",
-            "plate",
-            "plus",
-            "2 tens and 9 ones",
-            "2 tens and 7 ones",
+            "अखरोट",
+            "उपहार",
+            "इस्त्री",
+            "ऊँट",
+            "आलू",
+            "ऋतु",
+            "ईद"
         ];
         // @property(cc.SpriteFrame)
         _this.temporarySprites = [];
@@ -672,7 +670,7 @@ var NewClass = /** @class */ (function (_super) {
             this.unschedule(this.sheduleQuestionClip);
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();
-                cc.audioEngine.playEffect(_this.puzzleVoIteration, false);
+                //cc.audioEngine.playEffect(this.puzzleVoIteration, false);
                 _this.scheduleOnce(function () {
                     _this.options.color = cc.Color.WHITE;
                     // this.wordAppear();
