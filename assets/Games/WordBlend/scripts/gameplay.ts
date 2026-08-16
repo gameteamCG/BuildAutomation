@@ -970,8 +970,8 @@ export default class NewClass extends cc.Component {
             cc.audioEngine.stopAllEffects();
             console.log("-----------hihihihi")
             cc.audioEngine.playEffect(this.wordVoIteration, false);
-            this.node.getChildByName("shortQBar").getChildByName("New Label").active = false;
-            this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).string = this.questions[startGame.Instance.currentLevel - 1];
+            //this.node.getChildByName("shortQBar").getChildByName("New Label").active = false;
+            //this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).string = this.questions[startGame.Instance.currentLevel - 1];
             this.scheduleOnce(() => {
                 this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                 this.CallJockey();

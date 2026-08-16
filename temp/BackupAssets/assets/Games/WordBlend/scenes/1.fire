@@ -361,7 +361,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 1920,
-      "height": 1081
+      "height": 1080
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -412,7 +412,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "1bc7b2d2-883c-40d8-97a8-4b22f6b9cbc7"
+    },
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -3178,8 +3180,8 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 0,
+      "r": 255,
+      "g": 255,
       "b": 255,
       "a": 255
     },
@@ -3550,8 +3552,8 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 0,
+      "r": 255,
+      "g": 255,
       "b": 255,
       "a": 255
     },
@@ -3963,7 +3965,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "4ccb2348-ed8d-4d25-ab86-bf201865be18"
+    },
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,
@@ -4091,7 +4095,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 255.1,
+      "width": 241.05,
       "height": 75.6
     },
     "_anchorPoint": {
@@ -4136,7 +4140,7 @@
       "__id__": 87
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 89
@@ -4238,12 +4242,14 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Blend   pl '",
-    "_N$string": "Blend   pl '",
+    "_string": "ऋ की मात्रा",
+    "_N$string": "ऋ की मात्रा",
     "_fontSize": 55,
     "_lineHeight": 60,
     "_enableWrapText": true,
-    "_N$file": null,
+    "_N$file": {
+      "__uuid__": "885492f9-f29e-485c-9c02-d9d8300055c2"
+    },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -4338,7 +4344,9 @@
     "_fontSize": 55,
     "_lineHeight": 60,
     "_enableWrapText": true,
-    "_N$file": null,
+    "_N$file": {
+      "__uuid__": "885492f9-f29e-485c-9c02-d9d8300055c2"
+    },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -4366,7 +4374,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "cf785844-df31-4ad1-b1d4-2cc2b58fc556"
+    },
     "_type": 0,
     "_sizeMode": 2,
     "_fillType": 0,
@@ -4405,7 +4415,9 @@
     "correctAction": {
       "__uuid__": "78ea7baa-3895-4313-b442-0081329059ff"
     },
-    "hint": null,
+    "hint": {
+      "__uuid__": "92cedae3-a800-4461-88b3-fe326aa1db1f"
+    },
     "incorrectButton": [
       {
         "__uuid__": "22b5f6b5-8d05-43a2-98b7-f925231e8ad8"
