@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "prithvi",
+    "texture": "7fdacddf-941d-403a-abef-512427c7065b",
+    "atlas": "",
+    "rect": [
+      78,
+      116,
+      346,
+      232
+    ],
+    "offset": [
+      0.5,
+      18.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

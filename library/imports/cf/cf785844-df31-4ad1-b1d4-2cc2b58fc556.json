@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shortQBar",
+    "texture": "0308b190-c656-4553-b719-6810124ab20f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      399,
+      250
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      399,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

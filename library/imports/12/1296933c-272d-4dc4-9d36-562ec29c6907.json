@@ -3965,7 +3965,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "2fcb51f1-f8f6-4a89-bbde-9a672f18e4f3"
+      "__uuid__": "4ccb2348-ed8d-4d25-ab86-bf201865be18"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -4094,7 +4094,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 217.31,
+      "width": 241.05,
       "height": 75.6
     },
     "_anchorPoint": {
@@ -4139,7 +4139,7 @@
       "__id__": 87
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 89
@@ -4156,7 +4156,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 12.73,
+      "width": 10.5,
       "height": 75.6
     },
     "_anchorPoint": {
@@ -4213,9 +4213,7 @@
     "_fontSize": 55,
     "_lineHeight": 60,
     "_enableWrapText": true,
-    "_N$file": {
-      "__uuid__": "18ac7d5c-6b2e-4def-845b-03f3c6a5a10d"
-    },
+    "_N$file": null,
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
@@ -4243,13 +4241,13 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Blend   pl '",
-    "_N$string": "Blend   pl '",
+    "_string": "ऋ की मात्रा",
+    "_N$string": "ऋ की मात्रा",
     "_fontSize": 55,
     "_lineHeight": 60,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "18ac7d5c-6b2e-4def-845b-03f3c6a5a10d"
+      "__uuid__": "885492f9-f29e-485c-9c02-d9d8300055c2"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -4346,7 +4344,7 @@
     "_lineHeight": 60,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "18ac7d5c-6b2e-4def-845b-03f3c6a5a10d"
+      "__uuid__": "885492f9-f29e-485c-9c02-d9d8300055c2"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -4376,7 +4374,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "7653aba3-4cdf-412f-ba44-d44ce3978df8"
+      "__uuid__": "cf785844-df31-4ad1-b1d4-2cc2b58fc556"
     },
     "_type": 0,
     "_sizeMode": 2,
@@ -4416,9 +4414,7 @@
     "correctAction": {
       "__uuid__": "78ea7baa-3895-4313-b442-0081329059ff"
     },
-    "hint": {
-      "__uuid__": "4201b47b-f38e-47d8-9cc1-2c8f84b3225d"
-    },
+    "hint": null,
     "incorrectButton": [
       {
         "__uuid__": "22b5f6b5-8d05-43a2-98b7-f925231e8ad8"

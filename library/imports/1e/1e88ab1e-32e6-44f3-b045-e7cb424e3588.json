@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "krishak",
+    "texture": "b5dd84b9-efc7-466a-ad62-d508e406a60f",
+    "atlas": "",
+    "rect": [
+      47,
+      170,
+      409,
+      184
+    ],
+    "offset": [
+      1,
+      -11.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nrip",
+    "texture": "f58394db-bd9c-42eb-bdf2-8965e674801d",
+    "atlas": "",
+    "rect": [
+      137,
+      170,
+      228,
+      184
+    ],
+    "offset": [
+      0.5,
+      -11.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
