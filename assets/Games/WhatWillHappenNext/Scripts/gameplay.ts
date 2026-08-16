@@ -1,5 +1,4 @@
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 import TVInputManager from "./TVInputManager";
@@ -22,9 +21,6 @@ export default class NewClass extends cc.Component {
     private popSound: cc.AudioClip[] = [];
 
     @property(cc.AudioClip)
-    private popSound2: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
     private questionSound: cc.AudioClip[] = [];
 
     @property(cc.AudioClip)
@@ -38,62 +34,14 @@ export default class NewClass extends cc.Component {
 
     @property(cc.AudioClip)
     private negativeAudio: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private stallionPositive: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private stallionNegative: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private bagPositive: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private bagNegative: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private cryonPositive: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private cryonNegative: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private tlcPositive: cc.AudioClip[] = [];
-    @property(cc.AudioClip)
-    private tlcNegative: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private supercubPositive: cc.AudioClip[] = [];
-    @property(cc.AudioClip)
-    private supercubNegative: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private tlc_birdFlying: cc.AudioClip = null;
-
-    @property(cc.AudioClip)
-    private supercub_Pos1: cc.AudioClip = null;
-    @property(cc.AudioClip)
-    private supercub_Pos2: cc.AudioClip = null;
-    @property(cc.AudioClip)
-    private supercub_Neg1: cc.AudioClip = null;
-    @property(cc.AudioClip)
-    private supercub_Neg2: cc.AudioClip = null;
+    @property(cc.SpriteFrame)
+    private QuesImg: cc.SpriteFrame[] = []
 
     @property(cc.Material)
     defaultMat: cc.Material = null;
 
     @property(cc.Material)
     greyMat: cc.Material = null;
-
-    @property(cc.Font)
-    private podar_font: cc.Font = null;
-    @property(cc.Font)
-    private jaipuria_font: cc.Font = null;
-
-    @property(cc.Font)
-    private tlc_font: cc.Font = null;
-    @property(cc.Font)
-    private supercub_font: cc.Font = null;
 
     private isFirstClick: boolean = false;
     private canTouch: boolean = false;
@@ -108,7 +56,7 @@ export default class NewClass extends cc.Component {
     correctAudio: cc.AudioClip[] = [];
 
     private optionsNode: cc.Node = null;
-    private ans = ["Mango", "Nest", "Orange", "Parrot", "Queen", "Rose"]
+    private ans = ["Mango", "Nest", "Orange", "Parrot", "Queen", "Rose", "quee"]
     private questionBoxPosY: number = 0;
 
     totalAnswers: number = 0;
@@ -120,43 +68,8 @@ export default class NewClass extends cc.Component {
     isLastTween: boolean = false;
 
     onLoad() {
-
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
-
-
         this.TotalOptions = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions;
-
-
-        //if (startGame.Instance.optionLayout == "horizontal") {
-        //let optionsLayoutNode = cc.instantiate(this.HorizntalOptionNode);
-        // optionsLayoutNode.setParent(this.node);
-        // optionsLayoutNode.name = "Option"
-        // optionsLayoutNode.setSiblingIndex(5);
-        // optionsLayoutNode.setPosition(cc.v2(0, 0));
-        //}
-        // else if (startGame.Instance.optionLayout == "vertical") {
-        //     let optionsLayoutNode = cc.instantiate(this.VerticalOptionNode);
-        //     optionsLayoutNode.setParent(this.node);
-        //     optionsLayoutNode.name = "Option"
-        //     optionsLayoutNode.setSiblingIndex(5);
-        // }
         this.optionsNode = this.node.getChildByName("Option");
-        //console.log("optionsNode--" + this.optionsNode);
         this.node.getChildByName("QuestionBox").zIndex = 1;
         if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionBG) {
             this.isOptionBG = true;
@@ -193,18 +106,6 @@ export default class NewClass extends cc.Component {
                     this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
-            // for (let i = 0; i < this.TotalOptions; i++) {
-            //     if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
-            //         cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (err, texture) => {
-            //             if (err) {
-            //                 console.error("Failed to load image:", err);
-            //                 return;
-            //             }
-            //             const spriteFrame = new cc.SpriteFrame(texture);
-            //             this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            //         });
-            //     }
-            // }
             if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName != "") {
                 cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName, (err, texture) => {
                     if (err) {
@@ -323,27 +224,6 @@ export default class NewClass extends cc.Component {
             this.setOptionsLayout("horizontal");
             this.callThirdObjectIn();
         }
-
-        if (startGame.Instance.jockeyName == "bag") {
-            this.positiveAudio = this.bagPositive;
-            this.negativeAudio = this.bagNegative;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.positiveAudio = this.tlcPositive;
-            this.negativeAudio = this.tlcNegative;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.positiveAudio = this.supercubPositive;
-            this.negativeAudio = this.supercubNegative;
-        }
-        else if (startGame.Instance.jockeyName == "cryon") {
-            this.positiveAudio = this.cryonPositive;
-            this.negativeAudio = this.cryonNegative;
-        }
-        else if (startGame.Instance.jockeyName == "stallion") {
-            this.positiveAudio = this.stallionPositive;
-            this.negativeAudio = this.stallionNegative;
-        }
     }
 
     private getRandomNumber(min: number, max: number): number {
@@ -377,8 +257,9 @@ export default class NewClass extends cc.Component {
     callQuestionBar() {
         this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
-        cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
+        cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 350 }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
+        this.node.getChildByName("questionPanel").getChildByName("img").getComponent(cc.Sprite).spriteFrame = this.QuesImg[globalVariables.Instance.currentLevel - 1];
     }
 
     setOptionsLayout(type: string) {
@@ -555,9 +436,6 @@ export default class NewClass extends cc.Component {
                 intoAnim = "intro_1";
                 this.currentJcokey.setPosition(870, -370);
             }
-            if (startGame.Instance.jockeyName == "tlc") {
-                cc.audioEngine.playEffect(this.tlc_birdFlying, false);
-            }
             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
             this.scheduleOnce(() => {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
@@ -694,9 +572,6 @@ export default class NewClass extends cc.Component {
         _node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.extraImg;
         //console.log("correctAudio--" + this.correctAudio.name);
         cc.audioEngine.playEffect(this.correctAudio[parseInt(_node.name) - 1], false);
-        console.log("---------------")
-
-        // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
@@ -934,7 +809,6 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 //bird flying out sound
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_out", false);
-                cc.audioEngine.playEffect(this.tlc_birdFlying, false);
                 this.scheduleOnce(() => {
                     this.currentJcokey.active = false;
                     this.callNextLevel();
@@ -948,12 +822,6 @@ export default class NewClass extends cc.Component {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
                     cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
                     this.scheduleOnce(() => {
-                        if (anim[currentClipNum] == "positive_1") {
-                            cc.audioEngine.playEffect(this.supercub_Pos1, false);
-                        }
-                        else if (anim[currentClipNum] == "positive_2") {
-                            cc.audioEngine.playEffect(this.supercub_Pos2, false);
-                        }
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                         this.scheduleOnce(() => {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
@@ -1061,12 +929,6 @@ export default class NewClass extends cc.Component {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
                         cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
                         this.scheduleOnce(() => {
-                            if (anim[currentClipNum] == "negative_1") {
-                                cc.audioEngine.playEffect(this.supercub_Neg1, false);
-                            }
-                            else if (anim[currentClipNum] == "negative_2") {
-                                cc.audioEngine.playEffect(this.supercub_Neg2, false);
-                            }
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                             this.canTouch = true;
                             TVInputManager.Instance.setCanSelect(this.canTouch)

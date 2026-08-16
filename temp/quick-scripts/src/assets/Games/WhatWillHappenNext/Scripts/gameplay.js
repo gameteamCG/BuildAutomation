@@ -30,7 +30,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var TVInputManager_1 = require("./TVInputManager");
@@ -43,33 +43,14 @@ var NewClass = /** @class */ (function (_super) {
         _this.VerticalOptionNode = null;
         _this.extraImg = null;
         _this.popSound = [];
-        _this.popSound2 = [];
         _this.questionSound = [];
         _this.positiveSound = [];
         _this.negativeSound = [];
         _this.positiveAudio = [];
         _this.negativeAudio = [];
-        _this.stallionPositive = [];
-        _this.stallionNegative = [];
-        _this.bagPositive = [];
-        _this.bagNegative = [];
-        _this.cryonPositive = [];
-        _this.cryonNegative = [];
-        _this.tlcPositive = [];
-        _this.tlcNegative = [];
-        _this.supercubPositive = [];
-        _this.supercubNegative = [];
-        _this.tlc_birdFlying = null;
-        _this.supercub_Pos1 = null;
-        _this.supercub_Pos2 = null;
-        _this.supercub_Neg1 = null;
-        _this.supercub_Neg2 = null;
+        _this.QuesImg = [];
         _this.defaultMat = null;
         _this.greyMat = null;
-        _this.podar_font = null;
-        _this.jaipuria_font = null;
-        _this.tlc_font = null;
-        _this.supercub_font = null;
         _this.isFirstClick = false;
         _this.canTouch = false;
         _this.answerArray = [];
@@ -81,7 +62,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.currentJcokey = null;
         _this.correctAudio = [];
         _this.optionsNode = null;
-        _this.ans = ["Mango", "Nest", "Orange", "Parrot", "Queen", "Rose"];
+        _this.ans = ["Mango", "Nest", "Orange", "Parrot", "Queen", "Rose", "quee"];
         _this.questionBoxPosY = 0;
         _this.totalAnswers = 0;
         _this.correctAnswerCount = 0;
@@ -94,38 +75,8 @@ var NewClass = /** @class */ (function (_super) {
     }
     NewClass.prototype.onLoad = function () {
         var _this = this;
-        if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
         this.TotalOptions = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions;
-        //if (startGame.Instance.optionLayout == "horizontal") {
-        //let optionsLayoutNode = cc.instantiate(this.HorizntalOptionNode);
-        // optionsLayoutNode.setParent(this.node);
-        // optionsLayoutNode.name = "Option"
-        // optionsLayoutNode.setSiblingIndex(5);
-        // optionsLayoutNode.setPosition(cc.v2(0, 0));
-        //}
-        // else if (startGame.Instance.optionLayout == "vertical") {
-        //     let optionsLayoutNode = cc.instantiate(this.VerticalOptionNode);
-        //     optionsLayoutNode.setParent(this.node);
-        //     optionsLayoutNode.name = "Option"
-        //     optionsLayoutNode.setSiblingIndex(5);
-        // }
         this.optionsNode = this.node.getChildByName("Option");
-        //console.log("optionsNode--" + this.optionsNode);
         this.node.getChildByName("QuestionBox").zIndex = 1;
         if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionBG) {
             this.isOptionBG = true;
@@ -158,18 +109,6 @@ var NewClass = /** @class */ (function (_super) {
                     _this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
-            // for (let i = 0; i < this.TotalOptions; i++) {
-            //     if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
-            //         cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (err, texture) => {
-            //             if (err) {
-            //                 console.error("Failed to load image:", err);
-            //                 return;
-            //             }
-            //             const spriteFrame = new cc.SpriteFrame(texture);
-            //             this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            //         });
-            //     }
-            // }
             if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonOptionImageName != "") {
                 cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonOptionImageName, function (err, texture) {
                     if (err) {
@@ -287,26 +226,6 @@ var NewClass = /** @class */ (function (_super) {
             this.setOptionsLayout("horizontal");
             this.callThirdObjectIn();
         }
-        if (StartGame_1.default.Instance.jockeyName == "bag") {
-            this.positiveAudio = this.bagPositive;
-            this.negativeAudio = this.bagNegative;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.positiveAudio = this.tlcPositive;
-            this.negativeAudio = this.tlcNegative;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.positiveAudio = this.supercubPositive;
-            this.negativeAudio = this.supercubNegative;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "cryon") {
-            this.positiveAudio = this.cryonPositive;
-            this.negativeAudio = this.cryonNegative;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "stallion") {
-            this.positiveAudio = this.stallionPositive;
-            this.negativeAudio = this.stallionNegative;
-        }
     };
     NewClass.prototype.getRandomNumber = function (min, max) {
         var _number = Math.random();
@@ -337,8 +256,9 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.callQuestionBar = function () {
         this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
-        cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
+        cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 350 }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
+        this.node.getChildByName("questionPanel").getChildByName("img").getComponent(cc.Sprite).spriteFrame = this.QuesImg[globalVariables_1.default.Instance.currentLevel - 1];
     };
     NewClass.prototype.setOptionsLayout = function (type) {
         if (type == "horizontal") {
@@ -515,9 +435,6 @@ var NewClass = /** @class */ (function (_super) {
                 intoAnim = "intro_1";
                 this.currentJcokey.setPosition(870, -370);
             }
-            if (StartGame_1.default.Instance.jockeyName == "tlc") {
-                cc.audioEngine.playEffect(this.tlc_birdFlying, false);
-            }
             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
             this.scheduleOnce(function () {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
@@ -651,8 +568,6 @@ var NewClass = /** @class */ (function (_super) {
         _node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.extraImg;
         //console.log("correctAudio--" + this.correctAudio.name);
         cc.audioEngine.playEffect(this.correctAudio[parseInt(_node.name) - 1], false);
-        console.log("---------------");
-        // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
@@ -888,7 +803,6 @@ var NewClass = /** @class */ (function (_super) {
             this.scheduleOnce(function () {
                 //bird flying out sound
                 _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_out", false);
-                cc.audioEngine.playEffect(_this.tlc_birdFlying, false);
                 _this.scheduleOnce(function () {
                     _this.currentJcokey.active = false;
                     _this.callNextLevel();
@@ -902,12 +816,6 @@ var NewClass = /** @class */ (function (_super) {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
                     cc.audioEngine.playEffect(_this.positiveAudio[currentClipNum], false);
                     _this.scheduleOnce(function () {
-                        if (anim[currentClipNum] == "positive_1") {
-                            cc.audioEngine.playEffect(_this.supercub_Pos1, false);
-                        }
-                        else if (anim[currentClipNum] == "positive_2") {
-                            cc.audioEngine.playEffect(_this.supercub_Pos2, false);
-                        }
                         _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                         _this.scheduleOnce(function () {
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
@@ -1011,12 +919,6 @@ var NewClass = /** @class */ (function (_super) {
                         _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
                         cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
                         _this.scheduleOnce(function () {
-                            if (anim[currentClipNum] == "negative_1") {
-                                cc.audioEngine.playEffect(_this.supercub_Neg1, false);
-                            }
-                            else if (anim[currentClipNum] == "negative_2") {
-                                cc.audioEngine.playEffect(_this.supercub_Neg2, false);
-                            }
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                             _this.canTouch = true;
                             TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
@@ -1327,9 +1229,6 @@ var NewClass = /** @class */ (function (_super) {
     ], NewClass.prototype, "popSound", void 0);
     __decorate([
         property(cc.AudioClip)
-    ], NewClass.prototype, "popSound2", void 0);
-    __decorate([
-        property(cc.AudioClip)
     ], NewClass.prototype, "questionSound", void 0);
     __decorate([
         property(cc.AudioClip)
@@ -1344,68 +1243,14 @@ var NewClass = /** @class */ (function (_super) {
         property(cc.AudioClip)
     ], NewClass.prototype, "negativeAudio", void 0);
     __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "stallionPositive", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "stallionNegative", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "bagPositive", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "bagNegative", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "cryonPositive", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "cryonNegative", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "tlcPositive", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "tlcNegative", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "supercubPositive", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "supercubNegative", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "tlc_birdFlying", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "supercub_Pos1", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "supercub_Pos2", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "supercub_Neg1", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "supercub_Neg2", void 0);
+        property(cc.SpriteFrame)
+    ], NewClass.prototype, "QuesImg", void 0);
     __decorate([
         property(cc.Material)
     ], NewClass.prototype, "defaultMat", void 0);
     __decorate([
         property(cc.Material)
     ], NewClass.prototype, "greyMat", void 0);
-    __decorate([
-        property(cc.Font)
-    ], NewClass.prototype, "podar_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], NewClass.prototype, "jaipuria_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], NewClass.prototype, "tlc_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], NewClass.prototype, "supercub_font", void 0);
     NewClass = __decorate([
         ccclass
     ], NewClass);
