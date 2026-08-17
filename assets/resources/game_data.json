@@ -11,7 +11,7 @@
     "questionData": [
         {
             "questionText": "Rectangle",
-            "questionImageName": "newRectangle.png",
+            "questionImageName": "updated rectangle.png",
             "questionAudioName": "q1.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "Box.png",
@@ -26,7 +26,7 @@
         },
         {
             "questionText": "Rectangle",
-            "questionImageName": "newRectangle.png",
+            "questionImageName": "updated rectangle.png",
             "questionAudioName": "q2.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "Box.png",
@@ -41,7 +41,7 @@
         },
         {
             "questionText": "Rectangle",
-            "questionImageName": "newRectangle.png",
+            "questionImageName": "updated rectangle.png",
             "questionAudioName": "q3.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "Box.png",
@@ -49,7 +49,7 @@
             "numberOfOptions": 2,
             "options": [
                 "door.png",
-                "clock.png"
+                "new clock.png"
             ],
             "correctAudioName": "rectangledoor.mp3",
             "correctAnswerNum": "1"
