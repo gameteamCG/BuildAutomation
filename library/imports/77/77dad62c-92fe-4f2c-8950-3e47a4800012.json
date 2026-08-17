@@ -25,7 +25,7 @@
         "numberOfOptions": 2,
         "options": [
           "गृह",
-          "किताब"
+          "ग्रुह"
         ],
         "correctAudios": [
           "1.mp3"
@@ -41,7 +41,7 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "दीप",
+          "व्रीक्ष",
           "वृक्ष"
         ],
         "correctAudios": [
@@ -59,7 +59,7 @@
         "numberOfOptions": 2,
         "options": [
           "तृण",
-          "झूला"
+          "त्रुण"
         ],
         "correctAudios": [
           "3.mp3"
@@ -75,7 +75,7 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "कौआ",
+          "म्रीग",
           "मृग"
         ],
         "correctAudios": [
@@ -93,7 +93,7 @@
         "numberOfOptions": 2,
         "options": [
           "पितृ",
-          "पतंग"
+          "पित्रि"
         ],
         "correctAudios": [
           "5.mp3"
@@ -109,7 +109,7 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "मोर",
+          "मात्रु",
           "मातृ"
         ],
         "correctAudios": [
@@ -126,7 +126,7 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "गुड़िया",
+          "क्रुपण",
           "कृपाण"
         ],
         "correctAudios": [
