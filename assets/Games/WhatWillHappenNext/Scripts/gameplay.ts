@@ -588,34 +588,9 @@ export default class NewClass extends cc.Component {
         }
         this.scheduleOnce(() => {
             let anim: string[] = [];
-            if (startGame.Instance.jockeyName == "Podar") {
-                anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
+            if (startGame.Instance.jockeyName == "Puzzle") {
+                anim = ["negative_3", "negative_4", "negative_5"];
             }
-            else if (startGame.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
-            }
-            else if (startGame.Instance.jockeyName == "tlc") {
-                anim = ["negative_1", "negative_2", "negative_3"];
-            }
-            else if (startGame.Instance.jockeyName == "supercub") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
-            }
-            else if (startGame.Instance.jockeyName == "bag") {
-                anim = ["negative_1", "negative_2", "negative_3"];
-            }
-            else if (startGame.Instance.jockeyName == "cryon") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
-            }
-            else if (startGame.Instance.jockeyName == "Singham") {
-                anim = ["no"];
-            }
-            else if (startGame.Instance.jockeyName == "Mighty_Raju") {
-                anim = ["try_again"];
-            }
-            else if (startGame.Instance.jockeyName == "stallion") {
-                anim = ["negative_1", "negative_2"];
-            }
-
             let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
             //console.log("characterAppear--Podar_Jumbo");
             if (startGame.Instance.jockeyName == "stallion") {

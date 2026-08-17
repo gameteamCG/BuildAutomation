@@ -584,32 +584,8 @@ var NewClass = /** @class */ (function (_super) {
         }
         this.scheduleOnce(function () {
             var anim = [];
-            if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-                anim = ["negative_1", "negative_2", "negative_3"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "bag") {
-                anim = ["negative_1", "negative_2", "negative_3"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "cryon") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "Singham") {
-                anim = ["no"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "Mighty_Raju") {
-                anim = ["try_again"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "stallion") {
-                anim = ["negative_1", "negative_2"];
+            if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
+                anim = ["negative_3", "negative_4", "negative_5"];
             }
             var currentClipNum = _this.getRandomNumber(0, anim.length - 1);
             //console.log("characterAppear--Podar_Jumbo");
