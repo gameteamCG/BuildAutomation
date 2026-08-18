@@ -66,6 +66,8 @@ var Gameplay = /** @class */ (function (_super) {
         _this.reiterationAudio = [];
         _this.currentJockey = null;
         _this.maxLevel = 0;
+        _this.counter = 0;
+        _this.counterboolean = false;
         return _this;
     }
     // LIFE-CYCLE CALLBACKS:
@@ -231,6 +233,7 @@ var Gameplay = /** @class */ (function (_super) {
             if (_this.questionAudio) {
                 if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     cc.audioEngine.playEffect(_this.questionAudio, false);
+                    _this.counterboolean = true;
                 }
             }
             if (_this.optionsLayout == "layout1") {
@@ -360,6 +363,7 @@ var Gameplay = /** @class */ (function (_super) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
             this.correctCounter++;
+            this.counter = 0;
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
                 .call(function () {
@@ -384,6 +388,7 @@ var Gameplay = /** @class */ (function (_super) {
             }).start();
         }
         else {
+            this.counter = 0;
             //play negative audio
             // cc.audioEngine.playEffect(this.negative_audio, false);
             this.callNegativeRection();
@@ -396,6 +401,9 @@ var Gameplay = /** @class */ (function (_super) {
                 .to(0.1, { x: posX }).call(function () {
                 // this.canTouch = true;
             }).start();
+            this.scheduleOnce(function () {
+                node.color = cc.Color.WHITE;
+            }, 0.8);
         }
     };
     Gameplay.prototype.onTouchStart_layout2 = function (event) {
@@ -474,6 +482,9 @@ var Gameplay = /** @class */ (function (_super) {
                 .to(0.1, { x: posX }).call(function () {
                 // this.canTouch = true;
             }).start();
+            this.scheduleOnce(function () {
+                node.color = cc.Color.WHITE;
+            }, 0.8);
         }
     };
     Gameplay.prototype.onTouchStart_layout3 = function (event) {
@@ -544,10 +555,15 @@ var Gameplay = /** @class */ (function (_super) {
                 .to(0.1, { x: posX }).call(function () {
                 // this.canTouch = true;
             }).start();
+            this.scheduleOnce(function () {
+                node.color = cc.Color.WHITE;
+            }, 0.8);
         }
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
+        this.counter = 0;
+        this.counterboolean = false;
         this.node.getChildByName("confetti").active = true;
         ProgressBar_1.default.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(function () {
@@ -642,6 +658,13 @@ var Gameplay = /** @class */ (function (_super) {
                 _this.callNextLevel();
             }, _this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration);
         }, 0.5);
+    };
+    Gameplay.prototype.update = function (dt) {
+        // this.counter++;
+        // if (this.questionAudio && this.counter >= 300 && this.counterboolean) {
+        //     cc.audioEngine.playEffect(this.questionAudio, false);
+        //     this.counter = 0;
+        // }
     };
     Gameplay.prototype.callNegativeRection = function () {
         var _this = this;

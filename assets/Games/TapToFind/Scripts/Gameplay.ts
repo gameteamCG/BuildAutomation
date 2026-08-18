@@ -53,6 +53,8 @@ export default class Gameplay extends cc.Component {
 
     currentJockey: cc.Node = null;
     maxLevel: number = 0;
+    counter = 0;
+    counterboolean: boolean = false;
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
@@ -210,6 +212,7 @@ export default class Gameplay extends cc.Component {
             if (this.questionAudio) {
                 if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     cc.audioEngine.playEffect(this.questionAudio, false);
+                    this.counterboolean = true;
                 }
             }
             if (this.optionsLayout == "layout1") {
@@ -343,6 +346,7 @@ export default class Gameplay extends cc.Component {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
             this.correctCounter++;
+            this.counter = 0;
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
                 .call(() => {
@@ -366,6 +370,7 @@ export default class Gameplay extends cc.Component {
                 }).start();
         }
         else {
+            this.counter = 0;
             //play negative audio
             // cc.audioEngine.playEffect(this.negative_audio, false);
             this.callNegativeRection();
@@ -378,6 +383,9 @@ export default class Gameplay extends cc.Component {
                 .to(0.1, { x: posX }).call(() => {
                     // this.canTouch = true;
                 }).start();
+            this.scheduleOnce(() => {
+                node.color = cc.Color.WHITE;
+            }, 0.8);
 
         }
     }
@@ -457,6 +465,9 @@ export default class Gameplay extends cc.Component {
                 .to(0.1, { x: posX }).call(() => {
                     // this.canTouch = true;
                 }).start();
+            this.scheduleOnce(() => {
+                node.color = cc.Color.WHITE;
+            }, 0.8);
 
         }
     }
@@ -525,12 +536,17 @@ export default class Gameplay extends cc.Component {
                 .to(0.1, { x: posX }).call(() => {
                     // this.canTouch = true;
                 }).start();
+            this.scheduleOnce(() => {
+                node.color = cc.Color.WHITE;
+            }, 0.8);
 
         }
     }
 
 
     LoadNextQuestion() {
+        this.counter = 0;
+        this.counterboolean = false;
         this.node.getChildByName("confetti").active = true;
         ProgressBar.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(() => {
@@ -628,7 +644,14 @@ export default class Gameplay extends cc.Component {
         }, 0.5);
     }
 
+    protected update(dt: number): void {
+        // this.counter++;
+        // if (this.questionAudio && this.counter >= 300 && this.counterboolean) {
+        //     cc.audioEngine.playEffect(this.questionAudio, false);
 
+        //     this.counter = 0;
+        // }
+    }
     callNegativeRection() {
         cc.audioEngine.playEffect(this.negative_audio, false);
         // if (this.wrongAnswerCount >= 6) {
