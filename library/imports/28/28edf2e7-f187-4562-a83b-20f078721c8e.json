@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sunlight",
+    "texture": "e3aaec52-255f-4351-9b1d-898932e2c72a",
+    "atlas": "",
+    "rect": [
+      72,
+      211,
+      358,
+      94
+    ],
+    "offset": [
+      0.5,
+      -7.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

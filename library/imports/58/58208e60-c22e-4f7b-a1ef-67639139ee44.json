@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "soil (1)",
+    "texture": "506b408f-f2d9-4486-85e5-f0c94eb5a44e",
+    "atlas": "",
+    "rect": [
+      171,
+      210,
+      162,
+      67
+    ],
+    "offset": [
+      1.5,
+      7
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

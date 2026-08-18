@@ -1,0 +1,160 @@
+{
+  "additionalData": {
+    "GameID": "my school_fs1_r155",
+    "totalLevel": "7",
+    "TitleImageName": "new title.png",
+    "introBgName": "bgmain.png",
+    "bgmMusicName": "newbgm.mp3",
+    "mainBgName": "gameBG.png",
+    "JockeyName": "bag"
+  },
+  "questionData": [
+    {
+      "questionText": "Needs of plant",
+      "questionAudioName": "Q1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Left.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "sunlight.png"
+      ],
+      "reiterations": [
+        "L1.mp3"
+      ],
+      "commonRightOptionImageName": "Right.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "2.png",
+        "8.png"
+      ]
+    },
+    {
+      "questionText": "Needs of plant",
+      "questionAudioName": "Q1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Left.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "water 4.png"
+      ],
+      "reiterations": [
+        "L2.mp3"
+      ],
+      "commonRightOptionImageName": "Right.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "4.png",
+        "10.png"
+      ]
+    },
+    {
+      "questionText": "Needs of plant",
+      "questionAudioName": "Q1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Left.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "soil (1).png"
+      ],
+      "reiterations": [
+        "L3.mp3"
+      ],
+      "commonRightOptionImageName": "Right.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "6.png",
+        "12.png"
+      ]
+    },
+    {
+      "questionText": "Needs of plant",
+      "questionAudioName": "Q1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Left.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "air 2.png"
+      ],
+      "reiterations": [
+        "L4.mp3"
+      ],
+      "commonRightOptionImageName": "Right.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "8.png",
+        "2.png"
+      ]
+    },
+    {
+      "questionText": "Needs of plant",
+      "questionAudioName": "Q1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Left.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "seeds 2.png"
+      ],
+      "reiterations": [
+        "L5.mp3"
+      ],
+      "commonRightOptionImageName": "Right.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "10.png",
+        "4.png"
+      ]
+    },
+    {
+      "questionText": "Needs of plant",
+      "questionAudioName": "Q1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Left.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "pot 2.png"
+      ],
+      "reiterations": [
+        "L6.mp3"
+      ],
+      "commonRightOptionImageName": "Right.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "12.png",
+        "2.png"
+      ]
+    },
+    {
+      "questionText": "Needs of plant",
+      "questionAudioName": "Q1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Left.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "roots 2.png"
+      ],
+      "reiterations": [
+        "L7.mp3"
+      ],
+      "commonRightOptionImageName": "Right.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "14.png",
+        "8.png"
+      ]
+    }
+  ]
+}
