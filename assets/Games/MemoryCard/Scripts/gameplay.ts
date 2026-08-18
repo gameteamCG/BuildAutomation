@@ -402,8 +402,8 @@ export default class NewClass extends cc.Component {
         let parentNode: cc.Node = this.node.getChildByName("Option");
         let rows = 2;
         let columns: number = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options.length;
-        let offsetX: number = 50;
-        let offsetY: number = 50;
+        let offsetX: number = 100;
+        let offsetY: number = 100;
         let objWidth: number = 195;
         let objHeight: number = 295;
         let totalWidth: number = columns * (objHeight + offsetX);
