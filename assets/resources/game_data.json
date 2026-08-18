@@ -12,7 +12,7 @@
         {
             "QuestionAppearTime": "2000",
             "IsQuestionText": true,
-            "QuestionText": "Snail",
+            "QuestionText": "snail",
             "QuestionImageName": "",
             "QuestionAudioName": "19953559_2_choose_the_correct_pic.mp3",
             "PlayQuestionAudio": true,
