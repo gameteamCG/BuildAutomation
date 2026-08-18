@@ -610,21 +610,12 @@ var video = /** @class */ (function (_super) {
         }
         else {
             console.log("wrongAnswer--" + this.currentQuestion);
-            // console.log("levelComplete--" + this.currentQuestion);
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].wrongAudio, false);
-            // this.character.getComponent(cc.Animation).play("wrong");
-            // let num: number = this.getRandomNumber(0, this.wrongAnim.length - 1);
-            var num = this.currentQuestion - 1;
-            if (num > this.wrongAnim.length - 1) {
-                num -= (this.wrongAnim.length - 1);
-            }
-            this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
-            // this.character.getChildByName("anim").getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
+            this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.questions[this.currentQuestion - 1].wrongAudio.name, false);
             this.scheduleOnce(function () {
-                // this.character.getComponent(cc.Animation).play("Idle");
                 _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-            }, this.getAnimDuration(this.wrongAnim[num]));
+            }, this.getAnimDuration(this.questions[this.currentQuestion - 1].wrongAudio.name));
             _event.target.getChildByName("red").active = true;
             _event.target.getComponent(cc.Button).interactable = false;
         }

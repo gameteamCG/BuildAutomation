@@ -24,7 +24,7 @@
             ],
             "ReiterationAudioName": "R1.mp3",
             "CorrectAudioName": "BRILLIANT.mp3",
-            "WrongAudioName": "ohoh.mp3",
+            "WrongAudioName": "negative_1.mp3",
             "CorrectAnswer": "1"
         },
         {
@@ -42,7 +42,7 @@
             ],
             "ReiterationAudioName": "R2.mp3",
             "CorrectAudioName": "GREATWORK.mp3",
-            "WrongAudioName": "nevermindtryagain.mp3",
+            "WrongAudioName": "negative_2.mp3",
             "CorrectAnswer": "2"
         },
         {
@@ -60,7 +60,7 @@
             ],
             "ReiterationAudioName": "R3.mp3",
             "CorrectAudioName": "INCREDIBLE.mp3",
-            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "WrongAudioName": "negative_1.mp3",
             "CorrectAnswer": "2"
         },
         {
@@ -78,7 +78,7 @@
             ],
             "ReiterationAudioName": "R4.mp3",
             "CorrectAudioName": "MAGNIFICENT.mp3",
-            "WrongAudioName": "ohoh.mp3",
+            "WrongAudioName": "negative_2.mp3",
             "CorrectAnswer": "1"
         },
         {
@@ -96,7 +96,7 @@
             ],
             "ReiterationAudioName": "R5.mp3",
             "CorrectAudioName": "FANTASTIC.mp3",
-            "WrongAudioName": "nevermindtryagain.mp3",
+            "WrongAudioName": "negative_2.mp3",
             "CorrectAnswer": "2"
         },
         {
@@ -114,7 +114,7 @@
             ],
             "ReiterationAudioName": "R6.mp3",
             "CorrectAudioName": "EXCEPTIONAL.mp3",
-            "WrongAudioName": "ohoh.mp3",
+            "WrongAudioName": "negative_1.mp3",
             "CorrectAnswer": "1"
         },
         {
@@ -132,7 +132,7 @@
             ],
             "ReiterationAudioName": "R7.mp3",
             "CorrectAudioName": "BRILLIANT.mp3",
-            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "WrongAudioName": "negative_2.mp3",
             "CorrectAnswer": "1"
         }
     ]
