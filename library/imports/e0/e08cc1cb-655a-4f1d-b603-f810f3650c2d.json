@@ -41,13 +41,13 @@
         "QuestionImageName": "grill.png",
         "QuestionAudioName": "identify_the_word_for_the_picture.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": true,
+        "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "grab",
-          "green",
-          "grill",
-          "graph"
+          "l2a.png",
+          "l2c.png",
+          "l2d.png",
+          "l2b.png"
         ],
         "ReiterationAudioName": "grill.mp3",
         "CorrectAudioName": "positive_2.mp3",
@@ -61,13 +61,13 @@
         "QuestionImageName": "grey.png",
         "QuestionAudioName": "choosecorrectcolourforword.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": true,
+        "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "black",
-          "white",
-          "brown",
-          "grey"
+          "black.png",
+          "white.png",
+          "brown.png",
+          "grey_2.png"
         ],
         "ReiterationAudioName": "gray.mp3",
         "CorrectAudioName": "positive_3.mp3",
