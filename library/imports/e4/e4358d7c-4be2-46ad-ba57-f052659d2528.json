@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "vyanjan - ट_LKG_38",
-      "totalLevel": "7",
+      "totalLevel": "6",
       "TitleImageName": "vyanjan1.png",
       "introBgName": "d.png",
       "bgmMusicName": "bgm.mp3",
@@ -22,7 +22,7 @@
         "commonOptionImageName": "common.png",
         "isOptionText": false,
         "isOptionBG": true,
-        "numberOfOptions": 4,
+        "numberOfOptions": 3,
         "options": [
           "wheel.png",
           "baan.png",
@@ -41,7 +41,7 @@
         "commonOptionImageName": "common.png",
         "isOptionText": false,
         "isOptionBG": true,
-        "numberOfOptions": 4,
+        "numberOfOptions": 3,
         "options": [
           "egg.png",
           "basket.png",
@@ -60,7 +60,7 @@
         "commonOptionImageName": "common.png",
         "isOptionText": false,
         "isOptionBG": true,
-        "numberOfOptions": 4,
+        "numberOfOptions": 3,
         "options": [
           "rath.png",
           "scene.png",
@@ -79,17 +79,16 @@
         "commonOptionImageName": "common.png",
         "isOptionText": false,
         "isOptionBG": true,
-        "numberOfOptions": 4,
+        "numberOfOptions": 3,
         "options": [
           "turtle.png",
           "kiye.png",
-          "rath.png",
           "leg.png"
         ],
         "correctAudios": [
           "टांग .mp3"
         ],
-        "correctAnswerNum": "4"
+        "correctAnswerNum": "3"
       },
       {
         "questionText": "ट",
@@ -98,26 +97,7 @@
         "commonOptionImageName": "common.png",
         "isOptionText": false,
         "isOptionBG": true,
-        "numberOfOptions": 4,
-        "options": [
-          "takkar.png",
-          "egg.png",
-          "jalebi.png",
-          "truck.png"
-        ],
-        "correctAudios": [
-          "टक्कर.mp3"
-        ],
-        "correctAnswerNum": "1"
-      },
-      {
-        "questionText": "ट",
-        "questionAudioName": "qvo.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "common.png",
-        "isOptionText": false,
-        "isOptionBG": true,
-        "numberOfOptions": 4,
+        "numberOfOptions": 3,
         "options": [
           "jalebi.png",
           "pot.png",
@@ -136,7 +116,7 @@
         "commonOptionImageName": "common.png",
         "isOptionText": false,
         "isOptionBG": true,
-        "numberOfOptions": 4,
+        "numberOfOptions": 3,
         "options": [
           "egg.png",
           "tomato.png",
