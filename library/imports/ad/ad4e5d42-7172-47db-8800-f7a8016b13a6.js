@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -31,6 +31,7 @@ var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
     function NewClass() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.Qvo = null;
         _this.HorizntalOptionNode = null;
         _this.VerticalOptionNode = null;
         _this.extraImg = null;
@@ -410,7 +411,10 @@ var NewClass = /** @class */ (function (_super) {
                     .to(0.5, { scale: objScale }, { easing: "sineInOut" }).start();
                 if (i == _this.node.getChildByName("Option").children.length) {
                     _this.scheduleOnce(function () {
-                        _this.PlayQuestionAudio();
+                        cc.audioEngine.playEffect(_this.Qvo, false);
+                        _this.scheduleOnce(function () {
+                            _this.PlayQuestionAudio();
+                        }, _this.Qvo.duration + 0.1);
                     }, 0.5);
                 }
             }, delay);
@@ -1248,6 +1252,9 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.update = function () {
     };
+    __decorate([
+        property(cc.AudioClip)
+    ], NewClass.prototype, "Qvo", void 0);
     __decorate([
         property(cc.Prefab)
     ], NewClass.prototype, "HorizntalOptionNode", void 0);
