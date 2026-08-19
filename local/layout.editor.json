@@ -5,21 +5,21 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -8,
-      "y": -8,
-      "width": 1382,
-      "height": 736,
+      "x": 0,
+      "y": 0,
+      "width": 1366,
+      "height": 720,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 489,
-            "height": 618,
+            "width": 479.859375,
+            "height": 602,
             "type": "dock-v",
             "children": [
               {
-                "width": 489,
-                "height": 310,
+                "width": 479.859375,
+                "height": 301.9375,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 489,
-                "height": 305,
+                "width": 479.859375,
+                "height": 297.0625,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -39,12 +39,12 @@
           },
           {
             "width": 504,
-            "height": 618,
+            "height": 602,
             "type": "dock-v",
             "children": [
               {
                 "width": 504,
-                "height": 310,
+                "height": 301.9375,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -53,7 +53,7 @@
               },
               {
                 "width": 504,
-                "height": 305,
+                "height": 297.0625,
                 "type": "panel",
                 "active": 2,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 367,
-            "height": 618,
+            "width": 360.140625,
+            "height": 602,
             "type": "panel",
             "active": 0,
             "children": [
@@ -88,8 +88,7 @@
         "cocos-services",
         "node-library"
       ]
-    },
-    " common-asset-worker-worker": {}
+    }
   },
   "panels": {
     "project-settings": {
