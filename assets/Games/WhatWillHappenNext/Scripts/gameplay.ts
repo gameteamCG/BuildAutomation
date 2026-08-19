@@ -1,5 +1,5 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
@@ -8,7 +8,8 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class NewClass extends cc.Component {
-
+    @property(cc.AudioClip)
+    private Qvo: cc.AudioClip = null;
     @property(cc.Prefab)
     HorizntalOptionNode: cc.Prefab = null;
 
@@ -462,7 +463,11 @@ export default class NewClass extends cc.Component {
                     .to(0.5, { scale: objScale }, { easing: "sineInOut" }).start();
                 if (i == this.node.getChildByName("Option").children.length) {
                     this.scheduleOnce(() => {
-                        this.PlayQuestionAudio();
+                        cc.audioEngine.playEffect(this.Qvo, false);
+                        this.scheduleOnce(() => {
+                            this.PlayQuestionAudio();
+                        }, this.Qvo.duration + 0.1);
+
                     }, 0.5);
                 }
             }, delay);
