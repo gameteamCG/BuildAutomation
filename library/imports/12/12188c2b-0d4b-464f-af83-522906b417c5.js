@@ -78,7 +78,7 @@ var NewClass = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.yeah[0];
             _this.node.getComponent(cc.AudioSource).play();
-            _this.node.getChildByName("end").active = true;
+            // this.node.getChildByName("end").active = true;
         }, 2.3);
     };
     NewClass.prototype.EndButton = function () {

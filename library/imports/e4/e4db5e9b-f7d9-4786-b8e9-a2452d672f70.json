@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "अभ्यास  क - घ",
+        "questionText": "पहला अक्षर",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset23.png",
@@ -38,7 +38,7 @@
         ]
       },
       {
-        "questionText": "अभ्यास  क - घ",
+        "questionText": "पहला अक्षर",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset23.png",
@@ -61,7 +61,7 @@
         ]
       },
       {
-        "questionText": "अभ्यास  क - घ",
+        "questionText": "पहला अक्षर",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset23.png",

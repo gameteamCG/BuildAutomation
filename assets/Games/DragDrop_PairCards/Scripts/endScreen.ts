@@ -65,7 +65,7 @@ export default class NewClass extends cc.Component {
         this.scheduleOnce(() => {
             this.node.getComponent(cc.AudioSource).clip = this.yeah[0];
             this.node.getComponent(cc.AudioSource).play();
-            this.node.getChildByName("end").active = true;
+            // this.node.getChildByName("end").active = true;
         }, 2.3);
 
 

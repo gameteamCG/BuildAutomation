@@ -482,7 +482,7 @@ var NewClass = /** @class */ (function (_super) {
         // console.log("_node : ", _node.name);
         // console.log("parentNode : ", parentNode);
         _node.setParentWithSamePos(this.dropNode.getChildByName(parentNode.name).getChildByName("answer"));
-        this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].setPosition(0, 0);
+        this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].setPosition(0, -40);
         this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].scale = this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].scale + this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].scale * 0.2;
         this.scheduleOnce(function () {
             parentNode.destroy();
@@ -606,7 +606,7 @@ var NewClass = /** @class */ (function (_super) {
                 anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3"];
+                anim = ["negative_4", "negative_5", "negative_3"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
