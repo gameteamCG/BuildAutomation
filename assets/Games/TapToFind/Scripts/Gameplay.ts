@@ -7,6 +7,7 @@
 
 import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
+import TVInputManager from "./TVInputManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -228,7 +229,14 @@ export default class Gameplay extends cc.Component {
                 }
                 this.options.children.forEach(element => {
                     element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout1, this);
+                    // A remote "select" doesn't come with a real EventTouch
+                    // carrying `.target`, so build one explicitly from the
+                    // node itself instead of reusing the raw handler directly.
+                    element.on('tv-select', () => this.onTouchStart_layout1({ target: element } as any), this);
                 });
+                this.scheduleOnce(() => {
+                    this.setupTVFocus(); // NEW
+                }, delay + 0.3);
             }
 
             else if (this.optionsLayout == "layout2") {
@@ -246,7 +254,11 @@ export default class Gameplay extends cc.Component {
                 }
                 this.options.children.forEach(element => {
                     element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout2, this);
+                    element.on('tv-select', () => this.onTouchStart_layout2({ target: element } as any), this);
                 });
+                this.scheduleOnce(() => {
+                    this.setupTVFocus(); // NEW
+                }, delay + 0.25);
             }
             else if (this.optionsLayout == "layout3") {
                 let delay = 0;
@@ -259,7 +271,11 @@ export default class Gameplay extends cc.Component {
                 }
                 this.options.children.forEach(element => {
                     element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout3, this);
+                    element.on('tv-select', () => this.onTouchStart_layout3({ target: element } as any), this);
                 });
+                this.scheduleOnce(() => {
+                    this.setupTVFocus(); // NEW
+                }, delay + 0.25);
             }
             this.scheduleOnce(() => {
                 if (startGame.Instance.currentLevel == 1) {
@@ -275,7 +291,15 @@ export default class Gameplay extends cc.Component {
         }, 1);
     }
     playButtonSound() {
+        cc.audioEngine.stopAllEffects();
         cc.audioEngine.playEffect(this.questionAudio, false);
+
+        this.node.getChildByName("shortQBar").getChildByName("SoundButton").getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(() => {
+            this.node.getChildByName("shortQBar").getChildByName("SoundButton").getComponent(cc.Button).interactable = true;
+            this.node.getChildByName("shortQBar").getChildByName("SoundButton").scale = 1;
+        }, this.questionAudio.duration + 0.1);
+
     }
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
         for (let i = 0; i < _optionCount; i++) {
@@ -318,6 +342,7 @@ export default class Gameplay extends cc.Component {
         }
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
+        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canTouch); // NEW
         let node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
@@ -349,6 +374,8 @@ export default class Gameplay extends cc.Component {
                     }
                     else {
                         this.canTouch = true;
+                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canTouch); // NEW
+                        this.setupTVFocus(); // NEW
                     }
                 }).start();
         }
@@ -375,6 +402,7 @@ export default class Gameplay extends cc.Component {
         }
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
+        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canTouch); // NEW
         let node: cc.Node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
@@ -419,6 +447,8 @@ export default class Gameplay extends cc.Component {
                 }
                 else {
                     this.canTouch = true;
+                    if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canTouch); // NEW
+                    this.setupTVFocus(); // NEW
                 }
             }, 1);
             // cc.tween(_clone)
@@ -449,6 +479,7 @@ export default class Gameplay extends cc.Component {
         }
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
+        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canTouch); // NEW
         let node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
@@ -486,6 +517,8 @@ export default class Gameplay extends cc.Component {
                     }
                     else {
                         this.canTouch = true;
+                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canTouch); // NEW
+                        this.setupTVFocus(); // NEW
                     }
                 }).start();
         }
@@ -678,6 +711,8 @@ export default class Gameplay extends cc.Component {
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
                     this.canTouch = true;
+                    if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canTouch); // NEW
+                    this.setupTVFocus(); // NEW
                     if (this.questionAudio) {
                         cc.audioEngine.playEffect(this.questionAudio, false);
                     }
@@ -766,5 +801,27 @@ export default class Gameplay extends cc.Component {
             }
             callback(audioClip);
         });
+    }
+
+    // Mirrors the setupTVFocus pattern used elsewhere. This game has no
+    // cc.Button anywhere (all raw touchstart), so tv-select is forwarded manually
+    // on every option in start(), and this just needs to track which options are
+    // still active/visible across whichever of the 3 layouts is currently live.
+    private setupTVFocus() {
+        if (!TVInputManager.Instance) return;
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("shortQBar").getChildByName("SoundButton");
+        if (backBtn) backBtn.scale = 1;
+        if (musicBtn) musicBtn.scale = 1;
+        if (soundBtn) soundBtn.scale = 1;
+
+        let optionButtons = this.options ? this.options.children.filter(node => {
+            return node.active && node.opacity > 0;
+        }) : [];
+
+        let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
+        TVInputManager.Instance.init(nodes, -1);
+        TVInputManager.Instance.setCanSelect(this.canTouch);
     }
 }

@@ -2735,8 +2735,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 134,
-      "height": 133
+      "width": 70,
+      "height": 70
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2754,8 +2754,8 @@
         0,
         0,
         1,
-        0.4,
-        0.4,
+        1,
+        1,
         1
       ]
     },
@@ -2791,7 +2791,7 @@
       "__uuid__": "e71c5ded-a0a3-464a-b826-0684d08cbf98"
     },
     "_type": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -2823,8 +2823,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 0,
-    "transition": 0,
+    "_N$transition": 1,
+    "transition": 1,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,

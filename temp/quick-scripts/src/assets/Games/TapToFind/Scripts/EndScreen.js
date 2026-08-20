@@ -24,6 +24,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
+var TVInputManager_1 = require("./TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
@@ -61,6 +62,17 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.start = function () {
         var _this = this;
         console.log("showedScreen--Congratulations");
+        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
+        // :fire: music button
+        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        var nodes = [
+            backBtn,
+            musicBtn,
+        ];
+        TVInputManager_1.default.Instance.setCanSelect(true);
+        TVInputManager_1.default.Instance.init(nodes);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 0;
         this.scheduleOnce(function () {
             _this.node.getChildByName("awesome").getComponent(cc.Animation).play();

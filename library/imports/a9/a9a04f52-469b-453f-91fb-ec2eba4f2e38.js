@@ -28,9 +28,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __spreadArrays = (this && this.__spreadArrays) || function () {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
+var TVInputManager_1 = require("./TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
     __extends(Gameplay, _super);
@@ -245,7 +253,14 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout1, _this);
+                    // A remote "select" doesn't come with a real EventTouch
+                    // carrying `.target`, so build one explicitly from the
+                    // node itself instead of reusing the raw handler directly.
+                    element.on('tv-select', function () { return _this.onTouchStart_layout1({ target: element }); }, _this);
                 });
+                _this.scheduleOnce(function () {
+                    _this.setupTVFocus(); // NEW
+                }, delay + 0.3);
             }
             else if (_this.optionsLayout == "layout2") {
                 // this.OptionsLayout();
@@ -265,7 +280,11 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout2, _this);
+                    element.on('tv-select', function () { return _this.onTouchStart_layout2({ target: element }); }, _this);
                 });
+                _this.scheduleOnce(function () {
+                    _this.setupTVFocus(); // NEW
+                }, delay + 0.25);
             }
             else if (_this.optionsLayout == "layout3") {
                 var delay = 0;
@@ -281,7 +300,11 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout3, _this);
+                    element.on('tv-select', function () { return _this.onTouchStart_layout3({ target: element }); }, _this);
                 });
+                _this.scheduleOnce(function () {
+                    _this.setupTVFocus(); // NEW
+                }, delay + 0.25);
             }
             _this.scheduleOnce(function () {
                 if (StartGame_1.default.Instance.currentLevel == 1) {
@@ -297,7 +320,14 @@ var Gameplay = /** @class */ (function (_super) {
         }, 1);
     };
     Gameplay.prototype.playButtonSound = function () {
+        var _this = this;
+        cc.audioEngine.stopAllEffects();
         cc.audioEngine.playEffect(this.questionAudio, false);
+        this.node.getChildByName("shortQBar").getChildByName("SoundButton").getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("shortQBar").getChildByName("SoundButton").getComponent(cc.Button).interactable = true;
+            _this.node.getChildByName("shortQBar").getChildByName("SoundButton").scale = 1;
+        }, this.questionAudio.duration + 0.1);
     };
     Gameplay.prototype.generateOptions = function (_template, _optionParent, _optionCount) {
         for (var i = 0; i < _optionCount; i++) {
@@ -333,6 +363,8 @@ var Gameplay = /** @class */ (function (_super) {
         }
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
+        if (TVInputManager_1.default.Instance)
+            TVInputManager_1.default.Instance.setCanSelect(this.canTouch); // NEW
         var node = event.target;
         var correct = false;
         var audioNum = 0;
@@ -364,6 +396,9 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 else {
                     _this.canTouch = true;
+                    if (TVInputManager_1.default.Instance)
+                        TVInputManager_1.default.Instance.setCanSelect(_this.canTouch); // NEW
+                    _this.setupTVFocus(); // NEW
                 }
             }).start();
         }
@@ -389,6 +424,8 @@ var Gameplay = /** @class */ (function (_super) {
         }
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
+        if (TVInputManager_1.default.Instance)
+            TVInputManager_1.default.Instance.setCanSelect(this.canTouch); // NEW
         var node = event.target;
         var correct = false;
         var audioNum = 0;
@@ -432,6 +469,9 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 else {
                     _this.canTouch = true;
+                    if (TVInputManager_1.default.Instance)
+                        TVInputManager_1.default.Instance.setCanSelect(_this.canTouch); // NEW
+                    _this.setupTVFocus(); // NEW
                 }
             }, 1);
             // cc.tween(_clone)
@@ -461,6 +501,8 @@ var Gameplay = /** @class */ (function (_super) {
         }
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
+        if (TVInputManager_1.default.Instance)
+            TVInputManager_1.default.Instance.setCanSelect(this.canTouch); // NEW
         var node = event.target;
         var correct = false;
         var audioNum = 0;
@@ -498,6 +540,9 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 else {
                     _this.canTouch = true;
+                    if (TVInputManager_1.default.Instance)
+                        TVInputManager_1.default.Instance.setCanSelect(_this.canTouch); // NEW
+                    _this.setupTVFocus(); // NEW
                 }
             }).start();
         }
@@ -685,6 +730,9 @@ var Gameplay = /** @class */ (function (_super) {
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
                     _this.canTouch = true;
+                    if (TVInputManager_1.default.Instance)
+                        TVInputManager_1.default.Instance.setCanSelect(_this.canTouch); // NEW
+                    _this.setupTVFocus(); // NEW
                     if (_this.questionAudio) {
                         cc.audioEngine.playEffect(_this.questionAudio, false);
                     }
@@ -760,6 +808,29 @@ var Gameplay = /** @class */ (function (_super) {
             }
             callback(audioClip);
         });
+    };
+    // Mirrors the setupTVFocus pattern used elsewhere. This game has no
+    // cc.Button anywhere (all raw touchstart), so tv-select is forwarded manually
+    // on every option in start(), and this just needs to track which options are
+    // still active/visible across whichever of the 3 layouts is currently live.
+    Gameplay.prototype.setupTVFocus = function () {
+        if (!TVInputManager_1.default.Instance)
+            return;
+        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
+        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
+        var soundBtn = this.node.getChildByName("shortQBar").getChildByName("SoundButton");
+        if (backBtn)
+            backBtn.scale = 1;
+        if (musicBtn)
+            musicBtn.scale = 1;
+        if (soundBtn)
+            soundBtn.scale = 1;
+        var optionButtons = this.options ? this.options.children.filter(function (node) {
+            return node.active && node.opacity > 0;
+        }) : [];
+        var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
+        TVInputManager_1.default.Instance.init(nodes, -1);
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
     };
     __decorate([
         property(cc.Font)
