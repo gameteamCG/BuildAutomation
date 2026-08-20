@@ -212,18 +212,18 @@ var Gameplay = /** @class */ (function (_super) {
         }
         this.currentJockey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
         this.currentJockey.active = true;
-        this.scheduleOnce(function () {
-            var optionNodes = _this.options.children;
-            optionNodes.forEach(function (element, idx) {
-                var t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
-                if (idx === optionNodes.length - 1) {
-                    t = t.call(function () {
-                        _this.setupTVFocus(_this.optionsLayout);
-                    });
-                }
-                t.start();
-            });
-        }, 2);
+        // this.scheduleOnce(() => {
+        //     let optionNodes = this.options.children;
+        //     optionNodes.forEach((element, idx) => {
+        //         let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
+        //         if (idx === optionNodes.length - 1) {
+        //             t = t.call(() => {
+        //                 this.setupTVFocus(this.optionsLayout);
+        //             });
+        //         }
+        //         t.start();
+        //     });
+        // }, 2)
     };
     Gameplay.prototype.start = function () {
         var _this = this;
@@ -257,6 +257,9 @@ var Gameplay = /** @class */ (function (_super) {
                 for (var i = 0; i < _this.options.children.length; i++) {
                     _loop_5(i);
                 }
+                _this.scheduleOnce(function () {
+                    _this.setupFocusAfterOptionsAppear();
+                }, delay + 0.1);
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout1, _this);
                     element.on("tv-select", _this.onTouchStart_layout1, _this);
@@ -276,9 +279,12 @@ var Gameplay = /** @class */ (function (_super) {
                 for (var i = 0; i < _this.options.children.length; i++) {
                     _loop_6(i);
                 }
+                _this.scheduleOnce(function () {
+                    _this.setupFocusAfterOptionsAppear();
+                }, delay + 0.1);
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout2, _this);
-                    element.on("tv-select", _this.onTouchStart_layout3, _this);
+                    element.on("tv-select", _this.onTouchStart_layout2, _this);
                 });
             }
             else if (_this.optionsLayout == "layout3") {
@@ -293,6 +299,9 @@ var Gameplay = /** @class */ (function (_super) {
                 for (var i = 0; i < _this.options.children.length; i++) {
                     _loop_7(i);
                 }
+                _this.scheduleOnce(function () {
+                    _this.setupFocusAfterOptionsAppear();
+                }, delay + 0.1);
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout3, _this);
                     element.on("tv-select", _this.onTouchStart_layout3, _this);
@@ -321,6 +330,15 @@ var Gameplay = /** @class */ (function (_super) {
             _event.target.scale = 1;
             _this.setupTVFocus(_this.optionsLayout);
         }, this.questionAudio.duration);
+    };
+    Gameplay.prototype.setupFocusAfterOptionsAppear = function () {
+        var _this = this;
+        this.scheduleOnce(function () {
+            if (!_this.canTouch) {
+                return;
+            }
+            _this.setupTVFocus(_this.optionsLayout);
+        }, 0.1);
     };
     Gameplay.prototype.setupTVFocus = function (activeContainerName) {
         var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
@@ -406,39 +424,124 @@ var Gameplay = /** @class */ (function (_super) {
                 break;
             }
         }
+        // if (correct) {
+        //     this.canTouch = false;
+        //     TVInputManager.Instance.setCanSelect(false);
+        //     // this.setupTVFocus2();
+        //     this.correctCounter++;
+        //     cc.audioEngine.playEffect(this.positive_audio, false);
+        //     cc.tween(node)
+        //         .to(0.8, { y: 1200 }, { easing: "sineInOut" })
+        //         .call(() => {
+        //             node.active = false;
+        //             // this.setupTVFocus(this.optionsLayout);
+        //             // Re-enable touch immediately after tween
+        //             if (this.correctCounter != this.correctAnswer.length) {
+        //                 let clip = this.reiterationAudio[audioNum] || this.reiterationAudio[0];
+        //                 this.scheduleOnce(() => {
+        //                     this.canTouch = true;
+        //                     TVInputManager.Instance.setCanSelect(true);
+        //                 }, 0.5)
+        //             }
+        //             // Play reiteration
+        //             let clip = this.reiterationAudio[audioNum] || this.reiterationAudio[0];
+        //             if (clip) {
+        //                 cc.audioEngine.playEffect(clip, false);
+        //             }
+        //             this.scheduleOnce(() => {
+        //                 this.canTouch = true;
+        //                 TVInputManager.Instance.setCanSelect(true);
+        //                 this.setupTVFocus(this.optionsLayout);
+        //             }, 0.5);
+        //             // Last answer
+        //             if (this.correctCounter == this.correctAnswer.length) {
+        //                 cc.tween(this.options)
+        //                     .bezierTo(
+        //                         1,
+        //                         cc.v2(-100, 300),
+        //                         cc.v2(0, 0),
+        //                         cc.v2(100, -1200)
+        //                     )
+        //                     .call(() => {
+        //                         this.LoadNextQuestion();
+        //                     })
+        //                     .start();
+        //             }
+        //         })
+        //         .start();
+        // }
         if (correct) {
+            // =================================
+            // CORRECT ANSWER
+            // =================================
             this.canTouch = false;
             TVInputManager_1.default.Instance.setCanSelect(false);
-            this.setupTVFocus2();
             this.correctCounter++;
+            console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            // Positive audio
             cc.audioEngine.playEffect(this.positive_audio, false);
             cc.tween(node)
                 .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(function () {
                 node.active = false;
-                _this.setupTVFocus(_this.optionsLayout);
-                // Re-enable touch immediately after tween
-                if (_this.correctCounter != _this.correctAnswer.length) {
-                    var clip_1 = _this.reiterationAudio[audioNum] || _this.reiterationAudio[0];
+                // =================================
+                // MORE CORRECT ANSWERS REMAIN
+                // =================================
+                if (_this.correctCounter < _this.correctAnswer.length) {
+                    var clip = _this.reiterationAudio[audioNum] ||
+                        _this.reiterationAudio[0];
+                    if (clip) {
+                        cc.audioEngine.playEffect(clip, false);
+                    }
+                    // Only now enable input again
                     _this.scheduleOnce(function () {
                         _this.canTouch = true;
                         TVInputManager_1.default.Instance.setCanSelect(true);
+                        _this.setupTVFocus(_this.optionsLayout);
                     }, 0.5);
                 }
-                // Play reiteration
-                var clip = _this.reiterationAudio[audioNum] || _this.reiterationAudio[0];
-                if (clip) {
-                    cc.audioEngine.playEffect(clip, false);
-                }
-                // Last answer
-                if (_this.correctCounter == _this.correctAnswer.length) {
+                // =================================
+                // ALL CORRECT ANSWERS COMPLETED
+                // =================================
+                else {
+                    console.log("All correct answers completed");
+                    // DO NOT SET canTouch TRUE HERE
                     cc.tween(_this.options)
                         .bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
                         .call(function () {
+                        // Still false here
+                        _this.canTouch = false;
+                        TVInputManager_1.default.Instance.setCanSelect(false);
                         _this.LoadNextQuestion();
                     })
                         .start();
                 }
+            })
+                .start();
+        }
+        else {
+            // =========================
+            // WRONG ANSWER
+            // =========================
+            console.log("WRONG ANSWER");
+            this.callNegativeRection();
+            var posX = node.getPosition().x;
+            // cc.tween(node)
+            //     .to(0.1, { color: cc.Color.RED })
+            //     .to(0.1, { color: cc.Color.WHITE })
+            //     .to(0.1, { color: cc.Color.RED })
+            //     .to(0.1, { x: posX - 20 })
+            //     .to(0.1, { x: posX })
+            //     .to(0.1, { x: posX + 20 })
+            //     .to(0.1, { x: posX })
+            //     .start();
+            var originalColor_1 = node.color.clone();
+            cc.tween(node)
+                .to(0.1, { color: cc.Color.RED })
+                .delay(0.15)
+                .to(0.1, { color: originalColor_1 })
+                .call(function () {
+                node.color = originalColor_1;
             })
                 .start();
         }
@@ -510,6 +613,11 @@ var Gameplay = /** @class */ (function (_super) {
                 .to(0.1, { x: posX }).call(function () {
             }).start();
         }
+        this.scheduleOnce(function () {
+            _this.canTouch = true;
+            TVInputManager_1.default.Instance.setCanSelect(true);
+            _this.setupTVFocus(_this.optionsLayout);
+        }, 1);
     };
     Gameplay.prototype.onTouchStart_layout3 = function (event) {
         var _this = this;
@@ -571,6 +679,11 @@ var Gameplay = /** @class */ (function (_super) {
                 .to(0.1, { x: posX }).call(function () {
             }).start();
         }
+        this.scheduleOnce(function () {
+            _this.canTouch = true;
+            TVInputManager_1.default.Instance.setCanSelect(true);
+            _this.setupTVFocus(_this.optionsLayout);
+        }, 1);
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
@@ -808,6 +921,15 @@ var Gameplay = /** @class */ (function (_super) {
             callback(spriteFrame);
         });
     };
+    // loadSpriteFrame(imageName: string, callback: (spriteFrame: cc.SpriteFrame) => void) {
+    //     cc.loader.loadRes(imageName, cc.SpriteFrame, (err, spriteFrame) => {
+    //         if (err) {
+    //             cc.error("Failed to load sprite:", imageName, err);
+    //             return;
+    //         }
+    //         callback(spriteFrame);
+    //     });
+    // }
     Gameplay.prototype.loadAudioClip = function (audioName, callback) {
         cc.loader.loadRes("audios/" + audioName, cc.AudioClip, function (err, audioClip) {
             if (err) {
