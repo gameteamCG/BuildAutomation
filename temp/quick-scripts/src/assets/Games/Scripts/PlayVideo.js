@@ -116,6 +116,8 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.Play = function () {
         var _this = this;
         this.videoPlayerNode.getComponent(cc.VideoPlayer).remoteURL = StartGame_1.default.Instance.videoLink;
+        this.node.parent.getChildByName("skipBack").active = true;
+        this.node.parent.getChildByName("skipAhead").active = true;
         this.jockeyName = StartGame_1.default.Instance.jockeyName;
         if (StartGame_1.default.Instance.jockeyName == "tlc") {
             this.node.getChildByName("tlc").active = false;
@@ -137,6 +139,8 @@ var NewClass = /** @class */ (function (_super) {
                 _this.videoPlayerNode.active = true;
                 _this.videoPlayerTools.active = true;
                 _this.node.active = false;
+                _this.node.parent.getChildByName("skipBack").active = true;
+                _this.node.parent.getChildByName("skipAhead").active = true;
             }, 0.5);
         }
     };

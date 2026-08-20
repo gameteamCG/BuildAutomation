@@ -104,6 +104,9 @@ export default class NewClass extends cc.Component {
     }
     Play() {
         this.videoPlayerNode.getComponent(cc.VideoPlayer).remoteURL = startGame.Instance.videoLink;
+        this.node.parent.getChildByName("skipBack").active = true;
+        this.node.parent.getChildByName("skipAhead").active = true;
+
         this.jockeyName = startGame.Instance.jockeyName;
         if (startGame.Instance.jockeyName == "tlc") {
             this.node.getChildByName("tlc").active = false;
@@ -127,6 +130,8 @@ export default class NewClass extends cc.Component {
                 this.videoPlayerNode.active = true;
                 this.videoPlayerTools.active = true;
                 this.node.active = false;
+                this.node.parent.getChildByName("skipBack").active = true;
+                this.node.parent.getChildByName("skipAhead").active = true;
             }, 0.5);
         }
     }
