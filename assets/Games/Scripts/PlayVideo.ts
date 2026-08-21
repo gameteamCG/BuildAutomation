@@ -127,6 +127,8 @@ export default class NewClass extends cc.Component {
                 this.videoPlayerNode.active = true;
                 this.videoPlayerTools.active = true;
                 this.node.active = false;
+                this.node.parent.getChildByName("skipBack").active = true;
+                this.node.parent.getChildByName("skipAhead").active = true;
             }, 0.5);
         }
     }

@@ -137,6 +137,8 @@ var NewClass = /** @class */ (function (_super) {
                 _this.videoPlayerNode.active = true;
                 _this.videoPlayerTools.active = true;
                 _this.node.active = false;
+                _this.node.parent.getChildByName("skipBack").active = true;
+                _this.node.parent.getChildByName("skipAhead").active = true;
             }, 0.5);
         }
     };
