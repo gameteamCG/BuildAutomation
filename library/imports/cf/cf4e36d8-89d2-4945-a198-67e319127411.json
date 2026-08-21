@@ -1704,7 +1704,7 @@
     },
     "component": "",
     "_componentId": "ad4e51CcXJH24gA96gBaxOm",
-    "handler": "OnVOButton",
+    "handler": "playButtonSound",
     "customEventData": ""
   },
   {
