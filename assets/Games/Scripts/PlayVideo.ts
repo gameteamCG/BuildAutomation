@@ -56,6 +56,7 @@ export default class NewClass extends cc.Component {
         cc.tween(this.node.children[0]).to(0.5, { x: 0 }, { easing: "backInOut" }).start();
         let jockeyNode: cc.Node = this.node.children[0].getChildByName(this.jockeyName);
         jockeyNode.active = true;
+
         this.scheduleOnce(() => {
             jockeyNode.getComponent(sp.Skeleton).setAnimation(0, this.anim1Name, false);
             cc.audioEngine.playEffect(startGame.Instance.introAudio1, false);
@@ -110,6 +111,7 @@ export default class NewClass extends cc.Component {
         }
         cc.audioEngine.playEffect(this.btnClick, false);
         this.node.getChildByName("play").getComponent(cc.Button).interactable = false;
+
         this.canTouch = false;
         TVInputManager.Instance.setCanSelect(false);
 
@@ -127,6 +129,8 @@ export default class NewClass extends cc.Component {
                 this.videoPlayerNode.active = true;
                 this.videoPlayerTools.active = true;
                 this.node.active = false;
+                this.node.parent.getChildByName("skipBack").active = true;
+                this.node.parent.getChildByName("skipAhead").active = true;
             }, 0.5);
         }
     }
