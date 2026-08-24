@@ -30,7 +30,6 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var TVInputManager_1 = require("./TVInputManager");
@@ -39,10 +38,6 @@ var Gameplay = /** @class */ (function (_super) {
     __extends(Gameplay, _super);
     function Gameplay() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.podar_font = null;
-        _this.jaipuria_font = null;
-        _this.supercub_font = null;
-        _this.tlc_font = null;
         _this.postive_VO = [];
         _this.negative_VO = [];
         _this.pop_audio = null;
@@ -66,26 +61,6 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.LoadQuestion = function () {
         var _this = this;
-        if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
         var str = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].correctAnswerNum;
         this.correctAnswer = str.split('').map(function (char) { return parseInt(char); });
         this.optionsLayout = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionLayout;
@@ -97,7 +72,6 @@ var Gameplay = /** @class */ (function (_super) {
             cc.director.preloadScene("gameEnd");
         }
         console.log("levelStarted--" + StartGame_1.default.Instance.currentLevel);
-        // this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
         if (StartGame_1.default.Instance.isDemoGame) {
             cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionBgName, function (err, texture) {
                 if (err) {
@@ -212,23 +186,9 @@ var Gameplay = /** @class */ (function (_super) {
         }
         this.currentJockey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
         this.currentJockey.active = true;
-        // this.scheduleOnce(() => {
-        //     let optionNodes = this.options.children;
-        //     optionNodes.forEach((element, idx) => {
-        //         let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
-        //         if (idx === optionNodes.length - 1) {
-        //             t = t.call(() => {
-        //                 this.setupTVFocus(this.optionsLayout);
-        //             });
-        //         }
-        //         t.start();
-        //     });
-        // }, 2)
     };
     Gameplay.prototype.start = function () {
         var _this = this;
-        this.canTouch = true;
-        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
         this.LoadQuestion();
         ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
@@ -258,7 +218,7 @@ var Gameplay = /** @class */ (function (_super) {
                     _loop_5(i);
                 }
                 _this.scheduleOnce(function () {
-                    _this.setupFocusAfterOptionsAppear();
+                    _this.setupTVFocus(_this.optionsLayout);
                 }, delay + 0.1);
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout1, _this);
@@ -280,7 +240,7 @@ var Gameplay = /** @class */ (function (_super) {
                     _loop_6(i);
                 }
                 _this.scheduleOnce(function () {
-                    _this.setupFocusAfterOptionsAppear();
+                    _this.setupTVFocus(_this.optionsLayout);
                 }, delay + 0.1);
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout2, _this);
@@ -300,7 +260,7 @@ var Gameplay = /** @class */ (function (_super) {
                     _loop_7(i);
                 }
                 _this.scheduleOnce(function () {
-                    _this.setupFocusAfterOptionsAppear();
+                    _this.setupTVFocus(_this.optionsLayout);
                 }, delay + 0.1);
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout3, _this);
@@ -331,15 +291,6 @@ var Gameplay = /** @class */ (function (_super) {
             _this.setupTVFocus(_this.optionsLayout);
         }, this.questionAudio.duration);
     };
-    Gameplay.prototype.setupFocusAfterOptionsAppear = function () {
-        var _this = this;
-        this.scheduleOnce(function () {
-            if (!_this.canTouch) {
-                return;
-            }
-            _this.setupTVFocus(_this.optionsLayout);
-        }, 0.1);
-    };
     Gameplay.prototype.setupTVFocus = function (activeContainerName) {
         var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
         var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
@@ -351,27 +302,13 @@ var Gameplay = /** @class */ (function (_super) {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
-        if (cc.director.getScene().name == "1") {
-            TVInputManager_1.default.Instance.init(nodes, 0);
+        if (StartGame_1.default.Instance.currentLevel == 1) {
+            TVInputManager_1.default.Instance.init(nodes, 2);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);
         }
-        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
-    };
-    Gameplay.prototype.setupTVFocus2 = function () {
-        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
-        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
-        var soundBtn = this.node.getChildByName("questionPanel").getChildByName("purple sound");
-        backBtn.scale = 1;
-        musicBtn.scale = 1;
-        var nodes = [backBtn, soundBtn, musicBtn].filter(function (n) { return !!n; });
-        if (cc.director.getScene().name == "1") {
-            TVInputManager_1.default.Instance.init(nodes, 0);
-        }
-        else {
-            TVInputManager_1.default.Instance.init(nodes, -1);
-        }
+        this.canTouch = true;
         TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
     };
     Gameplay.prototype.generateOptions = function (_template, _optionParent, _optionCount) {
@@ -387,7 +324,6 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         else {
-            // this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
             var _laypout1posX = [-750, -285, 257, 754];
@@ -396,7 +332,7 @@ var Gameplay = /** @class */ (function (_super) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
             if (StartGame_1.default.Instance.currentLevel == 5) {
-                var _laypout1posY_1 = [-150, -160, -80, -120];
+                var _laypout1posY_1 = [-200, -200, -80, -50];
                 for (var i = 0; i < _optionParent.children.length; i++) {
                     _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY_1[i]);
                 }
@@ -411,7 +347,6 @@ var Gameplay = /** @class */ (function (_super) {
         }
         this.canTouch = false;
         TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
-        console.log("-----------me aloyyyyyyyyyyyy");
         cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
         var node = event.target;
@@ -424,94 +359,27 @@ var Gameplay = /** @class */ (function (_super) {
                 break;
             }
         }
-        // if (correct) {
-        //     this.canTouch = false;
-        //     TVInputManager.Instance.setCanSelect(false);
-        //     // this.setupTVFocus2();
-        //     this.correctCounter++;
-        //     cc.audioEngine.playEffect(this.positive_audio, false);
-        //     cc.tween(node)
-        //         .to(0.8, { y: 1200 }, { easing: "sineInOut" })
-        //         .call(() => {
-        //             node.active = false;
-        //             // this.setupTVFocus(this.optionsLayout);
-        //             // Re-enable touch immediately after tween
-        //             if (this.correctCounter != this.correctAnswer.length) {
-        //                 let clip = this.reiterationAudio[audioNum] || this.reiterationAudio[0];
-        //                 this.scheduleOnce(() => {
-        //                     this.canTouch = true;
-        //                     TVInputManager.Instance.setCanSelect(true);
-        //                 }, 0.5)
-        //             }
-        //             // Play reiteration
-        //             let clip = this.reiterationAudio[audioNum] || this.reiterationAudio[0];
-        //             if (clip) {
-        //                 cc.audioEngine.playEffect(clip, false);
-        //             }
-        //             this.scheduleOnce(() => {
-        //                 this.canTouch = true;
-        //                 TVInputManager.Instance.setCanSelect(true);
-        //                 this.setupTVFocus(this.optionsLayout);
-        //             }, 0.5);
-        //             // Last answer
-        //             if (this.correctCounter == this.correctAnswer.length) {
-        //                 cc.tween(this.options)
-        //                     .bezierTo(
-        //                         1,
-        //                         cc.v2(-100, 300),
-        //                         cc.v2(0, 0),
-        //                         cc.v2(100, -1200)
-        //                     )
-        //                     .call(() => {
-        //                         this.LoadNextQuestion();
-        //                     })
-        //                     .start();
-        //             }
-        //         })
-        //         .start();
-        // }
         if (correct) {
-            // =================================
-            // CORRECT ANSWER
-            // =================================
             this.canTouch = false;
             TVInputManager_1.default.Instance.setCanSelect(false);
             this.correctCounter++;
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
-            // Positive audio
             cc.audioEngine.playEffect(this.positive_audio, false);
             cc.tween(node)
                 .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(function () {
                 node.active = false;
-                // =================================
-                // MORE CORRECT ANSWERS REMAIN
-                // =================================
                 if (_this.correctCounter < _this.correctAnswer.length) {
-                    var clip = _this.reiterationAudio[audioNum] ||
-                        _this.reiterationAudio[0];
-                    if (clip) {
-                        cc.audioEngine.playEffect(clip, false);
-                    }
-                    // Only now enable input again
+                    var clip = _this.reiterationAudio[audioNum] || _this.reiterationAudio[0];
+                    cc.audioEngine.playEffect(clip, false);
                     _this.scheduleOnce(function () {
                         _this.canTouch = true;
                         TVInputManager_1.default.Instance.setCanSelect(true);
-                        _this.setupTVFocus(_this.optionsLayout);
                     }, 0.5);
                 }
-                // =================================
-                // ALL CORRECT ANSWERS COMPLETED
-                // =================================
                 else {
-                    console.log("All correct answers completed");
-                    // DO NOT SET canTouch TRUE HERE
-                    cc.tween(_this.options)
-                        .bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
+                    cc.tween(_this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
                         .call(function () {
-                        // Still false here
-                        _this.canTouch = false;
-                        TVInputManager_1.default.Instance.setCanSelect(false);
                         _this.LoadNextQuestion();
                     })
                         .start();
@@ -520,21 +388,7 @@ var Gameplay = /** @class */ (function (_super) {
                 .start();
         }
         else {
-            // =========================
-            // WRONG ANSWER
-            // =========================
-            console.log("WRONG ANSWER");
             this.callNegativeRection();
-            var posX = node.getPosition().x;
-            // cc.tween(node)
-            //     .to(0.1, { color: cc.Color.RED })
-            //     .to(0.1, { color: cc.Color.WHITE })
-            //     .to(0.1, { color: cc.Color.RED })
-            //     .to(0.1, { x: posX - 20 })
-            //     .to(0.1, { x: posX })
-            //     .to(0.1, { x: posX + 20 })
-            //     .to(0.1, { x: posX })
-            //     .start();
             var originalColor_1 = node.color.clone();
             cc.tween(node)
                 .to(0.1, { color: cc.Color.RED })
@@ -613,11 +467,6 @@ var Gameplay = /** @class */ (function (_super) {
                 .to(0.1, { x: posX }).call(function () {
             }).start();
         }
-        this.scheduleOnce(function () {
-            _this.canTouch = true;
-            TVInputManager_1.default.Instance.setCanSelect(true);
-            _this.setupTVFocus(_this.optionsLayout);
-        }, 1);
     };
     Gameplay.prototype.onTouchStart_layout3 = function (event) {
         var _this = this;
@@ -662,10 +511,6 @@ var Gameplay = /** @class */ (function (_super) {
                     console.log("all the options are answered correctly");
                     _this.LoadNextQuestion();
                 }
-                else {
-                    _this.canTouch = true;
-                    TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
-                }
             }).start();
         }
         else {
@@ -679,11 +524,6 @@ var Gameplay = /** @class */ (function (_super) {
                 .to(0.1, { x: posX }).call(function () {
             }).start();
         }
-        this.scheduleOnce(function () {
-            _this.canTouch = true;
-            TVInputManager_1.default.Instance.setCanSelect(true);
-            _this.setupTVFocus(_this.optionsLayout);
-        }, 1);
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
@@ -785,78 +625,24 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.callNegativeRection = function () {
         var _this = this;
         cc.audioEngine.playEffect(this.negative_audio, false);
-        // if (this.wrongAnswerCount >= 6) {
-        //     this.wrongAnswerCount = 1;
-        // }
         this.scheduleOnce(function () {
             var anim = [];
-            if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-                anim = ["negative_1", "negative_2", "negative_3"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-                anim = ["negative_3", "negative_4", "negative_3", "negative_4"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "bag") {
-                anim = ["negative_1", "negative_2", "negative_3"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "cryon") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "Singham") {
-                anim = ["no"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "Mighty_Raju") {
-                anim = ["try_again"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "stallion") {
-                anim = ["negative_1", "negative_2"];
-            }
+            anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
             var currentClipNum = _this.getRandomNumber(0, anim.length - 1);
-            //console.log("characterAppear--Podar_Jumbo");
             _this.currentJockey.setPosition(1600, _this.currentJockey.y);
             var posX = 350;
             var posX_init = 1600;
-            if (StartGame_1.default.Instance.jockeyName == "supercub") {
-                _this.currentJockey.setPosition(1900, _this.currentJockey.y);
-                posX = 870;
-                posX_init = 1900;
-            }
-            if (StartGame_1.default.Instance.jockeyName == "stallion") {
-                _this.currentJockey.scaleX = 0.65;
-                _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
-            }
-            else {
-                _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-            }
             cc.tween(_this.currentJockey).to(0.5, { x: posX }, { easing: "quartInOut" }).start();
             _this.scheduleOnce(function () {
                 _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                // cc.audioEngine.playEffect(this.wrongAudio, false);
                 cc.audioEngine.playEffect(_this.negative_VO[currentClipNum], false);
                 _this.scheduleOnce(function () {
                     cc.tween(_this.currentJockey).to(0.5, { x: posX_init }, { easing: "quartInOut" }).start();
-                    if (StartGame_1.default.Instance.jockeyName != "stallion") {
-                        if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                            _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
-                        }
-                        else {
-                            _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                        }
-                    }
-                    _this.canTouch = true;
-                    TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
-                    if (_this.questionAudio) {
-                        cc.audioEngine.playEffect(_this.questionAudio, false);
-                    }
+                    _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                    _this.scheduleOnce(function () {
+                        _this.canTouch = true;
+                        TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
+                    }, 0.5);
                 }, _this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration);
             }, 0.5);
         }, 0.7);
@@ -939,18 +725,6 @@ var Gameplay = /** @class */ (function (_super) {
             callback(audioClip);
         });
     };
-    __decorate([
-        property(cc.Font)
-    ], Gameplay.prototype, "podar_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], Gameplay.prototype, "jaipuria_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], Gameplay.prototype, "supercub_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], Gameplay.prototype, "tlc_font", void 0);
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "postive_VO", void 0);
