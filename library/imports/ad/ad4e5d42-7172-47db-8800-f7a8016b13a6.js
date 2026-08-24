@@ -30,7 +30,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var TVInputManager_1 = require("./TVInputManager");
@@ -39,18 +39,12 @@ var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
     function NewClass() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.podar_font = null;
-        _this.jaipuria_font = null;
-        _this.tlc_font = null;
-        _this.supercub_font = null;
-        _this.popSound = [];
+        _this.popSound = null;
+        _this.positiveSound = null;
+        _this.negativeSound = null;
         _this.questionSound = [];
-        _this.positiveSound = [];
-        _this.negativeSound = [];
         _this.positiveAudio = [];
         _this.negativeAudio = [];
-        _this.defaultMat = null;
-        _this.greyMat = null;
         _this.isFirstClick = false;
         _this.canTouch = false;
         _this.answerArray = [];
@@ -68,22 +62,6 @@ var NewClass = /** @class */ (function (_super) {
     // LIFE-CYCLE CALLBACKS:
     NewClass.prototype.onLoad = function () {
         var _this = this;
-        if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
         this.optionsNode = this.node.getChildByName("Option");
         this.GenerateOptions();
         this.maxLevel = StartGame_1.default.Instance.totalLevels;
@@ -130,7 +108,6 @@ var NewClass = /** @class */ (function (_super) {
             });
             var _loop_1 = function (i) {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionText) {
-                    // console.log("option img = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i], function (err, texture) {
                         if (err) {
                             console.error("Failed to load image:", err);
@@ -141,7 +118,6 @@ var NewClass = /** @class */ (function (_super) {
                     });
                 }
                 else {
-                    // console.log("option text = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     this_1.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i];
                 }
             };
@@ -149,22 +125,6 @@ var NewClass = /** @class */ (function (_super) {
             for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
                 _loop_1(i);
             }
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option1ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("1").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option2ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("2").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
         }
         else {
             this.loadAudioClip(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionAudioName, function (AudioClip) {
@@ -199,7 +159,6 @@ var NewClass = /** @class */ (function (_super) {
                 _loop_2(i);
             }
         }
-        //startGame.Instance.jockeyName = "Podar";
         this.currentJcokey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
     };
     NewClass.prototype.start = function () {
@@ -247,7 +206,6 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
-        // this.node.getChildByName("questionPanel").opacity = 255;
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
         this.OptionsLayoutVertical();
@@ -258,7 +216,7 @@ var NewClass = /** @class */ (function (_super) {
         }
         this.scheduleOnce(function () {
             _this.scheduleOnce(function () {
-                cc.audioEngine.playEffect(_this.popSound[0], false);
+                cc.audioEngine.playEffect(_this.popSound, false);
                 cc.tween(_this.node.getChildByName("QuestionBox"))
                     .to(1, { scale: 1 }, { easing: "sineInOut" }).start();
             }, 0.1);
@@ -290,7 +248,7 @@ var NewClass = /** @class */ (function (_super) {
             this_3.node.getChildByName("Option").children[i - 1].scale = 0;
             this_3.node.getChildByName("Option").children[i - 1].opacity = 255;
             this_3.scheduleOnce(function () {
-                cc.audioEngine.playEffect(_this.popSound[0], false);
+                cc.audioEngine.playEffect(_this.popSound, false);
                 cc.tween(_this.node.getChildByName("Option").getChildByName(i.toString()))
                     .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
                 if (i == _this.node.getChildByName("Option").children.length) {
@@ -391,7 +349,7 @@ var NewClass = /** @class */ (function (_super) {
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             this.destroyOption();
-            cc.audioEngine.playEffect(this.popSound[0], false);
+            cc.audioEngine.playEffect(this.popSound, false);
             this.scheduleOnce(function () {
                 _this.callPositiveRection(_node);
             }, 0);
@@ -457,9 +415,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callPositiveRection = function (_node) {
         var _this = this;
-        // _node.getComponent(cc.Sprite).spriteFrame = this.extraImg;
         cc.audioEngine.playEffect(this.correctAudio, false);
-        // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
@@ -467,7 +423,7 @@ var NewClass = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
-            cc.audioEngine.playEffect(_this.positiveSound[0], false);
+            cc.audioEngine.playEffect(_this.positiveSound, false);
             _this.scheduleOnce(function () {
                 ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
                 _this.scheduleOnce(function () {
@@ -476,8 +432,8 @@ var NewClass = /** @class */ (function (_super) {
                         _this.callJockey();
                     }, 1);
                 }, 1.5);
-            }, 0.7);
-        }, 0.5);
+            }, _this.positiveSound.duration - 1.5);
+        }, this.correctAudio.duration);
     };
     NewClass.prototype.callJockey = function () {
         var _this = this;
@@ -592,54 +548,15 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callNegativeRection = function (_node, _event) {
         var _this = this;
-        _node.children[0].getComponent(cc.Sprite).setMaterial(0, this.greyMat);
-        cc.audioEngine.playEffect(this.negativeSound[0], false);
+        _node.children[0].color = cc.Color.GRAY;
+        cc.audioEngine.playEffect(this.negativeSound, false);
         if (this.wrongAnswerCount >= 6) {
             this.wrongAnswerCount = 1;
         }
         this.scheduleOnce(function () {
             var anim = [];
-            if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-                anim = ["negative_1", "negative_2", "negative_3"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "bag") {
-                anim = ["negative_1", "negative_2", "negative_3"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "cryon") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "Singham") {
-                anim = ["no"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "Mighty_Raju") {
-                anim = ["try_again"];
-            }
-            else if (StartGame_1.default.Instance.jockeyName == "stallion") {
-                anim = ["negative_1", "negative_2"];
-            }
+            anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
             var currentClipNum = _this.getRandomNumber(0, anim.length - 1);
-            //console.log("characterAppear--Podar_Jumbo");
-            if (StartGame_1.default.Instance.jockeyName == "stallion") {
-                _this.currentJcokey.scaleX = 0.65;
-                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-            }
-            else if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
-                if (StartGame_1.default.Instance.jockeyName != "Podar") {
-                    _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                }
-                else {
-                    _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
-                }
-            }
             if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
                 _this.currentJcokey.setPosition(1200, -350);
                 cc.tween(_this.currentJcokey).to(0.5, { x: 350 }, { easing: "quartInOut" }).start();
@@ -698,7 +615,7 @@ var NewClass = /** @class */ (function (_super) {
             .to(0.2, { x: _node.x - 10 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x + 10 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x }, { easing: "sineInOut" }).call(function () {
-            _node.children[0].getComponent(cc.Sprite).setMaterial(0, _this.defaultMat);
+            _node.children[0].color = cc.Color.WHITE;
         })
             .start();
     };
@@ -785,23 +702,8 @@ var NewClass = /** @class */ (function (_super) {
         }
     };
     __decorate([
-        property(cc.Font)
-    ], NewClass.prototype, "podar_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], NewClass.prototype, "jaipuria_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], NewClass.prototype, "tlc_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], NewClass.prototype, "supercub_font", void 0);
-    __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "popSound", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "questionSound", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "positiveSound", void 0);
@@ -810,16 +712,13 @@ var NewClass = /** @class */ (function (_super) {
     ], NewClass.prototype, "negativeSound", void 0);
     __decorate([
         property(cc.AudioClip)
+    ], NewClass.prototype, "questionSound", void 0);
+    __decorate([
+        property(cc.AudioClip)
     ], NewClass.prototype, "positiveAudio", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "negativeAudio", void 0);
-    __decorate([
-        property(cc.Material)
-    ], NewClass.prototype, "defaultMat", void 0);
-    __decorate([
-        property(cc.Material)
-    ], NewClass.prototype, "greyMat", void 0);
     NewClass = __decorate([
         ccclass
     ], NewClass);

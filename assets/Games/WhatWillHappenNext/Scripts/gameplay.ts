@@ -1,6 +1,4 @@
-
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 import TVInputManager from "./TVInputManager";
@@ -10,37 +8,18 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class NewClass extends cc.Component {
 
-    @property(cc.Font)
-    private podar_font: cc.Font = null;
-    @property(cc.Font)
-    private jaipuria_font: cc.Font = null;
-    @property(cc.Font)
-    private tlc_font: cc.Font = null;
-    @property(cc.Font)
-    private supercub_font: cc.Font = null;
     @property(cc.AudioClip)
-    private popSound: cc.AudioClip[] = [];
+    private popSound: cc.AudioClip = null;
+    @property(cc.AudioClip)
+    private positiveSound: cc.AudioClip = null;
+    @property(cc.AudioClip)
+    private negativeSound: cc.AudioClip = null;
     @property(cc.AudioClip)
     private questionSound: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private positiveSound: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private negativeSound: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private positiveAudio: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private negativeAudio: cc.AudioClip[] = [];
-
-
-    @property(cc.Material)
-    defaultMat: cc.Material = null;
-
-    @property(cc.Material)
-    greyMat: cc.Material = null;
 
     private isFirstClick: boolean = false;
     private canTouch: boolean = false;
@@ -62,22 +41,6 @@ export default class NewClass extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
         this.optionsNode = this.node.getChildByName("Option");
         this.GenerateOptions();
         this.maxLevel = startGame.Instance.totalLevels;
@@ -85,11 +48,7 @@ export default class NewClass extends cc.Component {
             cc.director.preloadScene("endScreen");
         }
         console.log(`levelStarted--` + globalVariables.Instance.currentLevel);
-
         this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
-
-
-
         if (startGame.Instance.isDemoGame) {
             cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (err, audioClip) => {
                 if (err) {
@@ -129,7 +88,6 @@ export default class NewClass extends cc.Component {
             });
             for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
-                    // console.log("option img = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (err, texture) => {
                         if (err) {
                             console.error("Failed to load image:", err);
@@ -140,26 +98,9 @@ export default class NewClass extends cc.Component {
                     });
                 }
                 else {
-                    // console.log("option text = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i];
                 }
             }
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option1ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("1").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option2ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("2").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
         }
         else {
             this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (AudioClip) => {
@@ -193,7 +134,6 @@ export default class NewClass extends cc.Component {
                 }
             }
         }
-        //startGame.Instance.jockeyName = "Podar";
         this.currentJcokey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
     }
 
@@ -245,10 +185,8 @@ export default class NewClass extends cc.Component {
     callThirdObjectIn() {
         this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
-        // this.node.getChildByName("questionPanel").opacity = 255;
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
-
         this.OptionsLayoutVertical();
         this.reverseOptionsLayout();
         let posX = -237;
@@ -257,7 +195,7 @@ export default class NewClass extends cc.Component {
         }
         this.scheduleOnce(() => {
             this.scheduleOnce(() => {
-                cc.audioEngine.playEffect(this.popSound[0], false);
+                cc.audioEngine.playEffect(this.popSound, false);
                 cc.tween(this.node.getChildByName("QuestionBox"))
                     .to(1, { scale: 1 }, { easing: "sineInOut" }).start();
             }, 0.1);
@@ -289,7 +227,7 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("Option").children[i - 1].scale = 0;
             this.node.getChildByName("Option").children[i - 1].opacity = 255;
             this.scheduleOnce(() => {
-                cc.audioEngine.playEffect(this.popSound[0], false);
+                cc.audioEngine.playEffect(this.popSound, false);
                 cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
                     .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
                 if (i == this.node.getChildByName("Option").children.length) {
@@ -388,7 +326,7 @@ export default class NewClass extends cc.Component {
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             this.destroyOption();
-            cc.audioEngine.playEffect(this.popSound[0], false);
+            cc.audioEngine.playEffect(this.popSound, false);
             this.scheduleOnce(() => {
                 this.callPositiveRection(_node);
             }, 0);
@@ -457,9 +395,7 @@ export default class NewClass extends cc.Component {
     }
 
     callPositiveRection(_node: cc.Node) {
-        // _node.getComponent(cc.Sprite).spriteFrame = this.extraImg;
         cc.audioEngine.playEffect(this.correctAudio, false);
-        // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
@@ -467,7 +403,7 @@ export default class NewClass extends cc.Component {
         this.scheduleOnce(() => {
             this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
-            cc.audioEngine.playEffect(this.positiveSound[0], false);
+            cc.audioEngine.playEffect(this.positiveSound, false);
             this.scheduleOnce(() => {
                 ProgressBar.Instance.createStarTrails(6, this.node);
                 this.scheduleOnce(() => {
@@ -476,8 +412,8 @@ export default class NewClass extends cc.Component {
                         this.callJockey();
                     }, 1);
                 }, 1.5);
-            }, 0.7);
-        }, 0.5);
+            }, this.positiveSound.duration - 1.5);
+        }, this.correctAudio.duration);
     }
 
 
@@ -598,55 +534,15 @@ export default class NewClass extends cc.Component {
 
 
     callNegativeRection(_node: cc.Node, _event) {
-        _node.children[0].getComponent(cc.Sprite).setMaterial(0, this.greyMat);
-        cc.audioEngine.playEffect(this.negativeSound[0], false);
+        _node.children[0].color = cc.Color.GRAY;
+        cc.audioEngine.playEffect(this.negativeSound, false);
         if (this.wrongAnswerCount >= 6) {
             this.wrongAnswerCount = 1;
         }
         this.scheduleOnce(() => {
             let anim: string[] = [];
-            if (startGame.Instance.jockeyName == "Podar") {
-                anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
-            }
-            else if (startGame.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
-            }
-            else if (startGame.Instance.jockeyName == "tlc") {
-                anim = ["negative_1", "negative_2", "negative_3"];
-            }
-            else if (startGame.Instance.jockeyName == "supercub") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
-            }
-            else if (startGame.Instance.jockeyName == "bag") {
-                anim = ["negative_1", "negative_2", "negative_3"];
-            }
-            else if (startGame.Instance.jockeyName == "cryon") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
-            }
-            else if (startGame.Instance.jockeyName == "Singham") {
-                anim = ["no"];
-            }
-            else if (startGame.Instance.jockeyName == "Mighty_Raju") {
-                anim = ["try_again"];
-            }
-            else if (startGame.Instance.jockeyName == "stallion") {
-                anim = ["negative_1", "negative_2"];
-            }
-
+            anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
             let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
-            //console.log("characterAppear--Podar_Jumbo");
-            if (startGame.Instance.jockeyName == "stallion") {
-                this.currentJcokey.scaleX = 0.65;
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-            }
-            else if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
-                if (startGame.Instance.jockeyName != "Podar") {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                }
-                else {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
-                }
-            }
             if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
                 this.currentJcokey.setPosition(1200, -350);
                 cc.tween(this.currentJcokey).to(0.5, { x: 350 }, { easing: "quartInOut" }).start();
@@ -708,7 +604,7 @@ export default class NewClass extends cc.Component {
             .to(0.2, { x: _node.x - 10 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x + 10 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x }, { easing: "sineInOut" }).call(() => {
-                _node.children[0].getComponent(cc.Sprite).setMaterial(0, this.defaultMat);
+                _node.children[0].color = cc.Color.WHITE;
             })
             .start();
     }

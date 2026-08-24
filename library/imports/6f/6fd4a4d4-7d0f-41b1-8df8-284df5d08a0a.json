@@ -605,9 +605,7 @@
     "_dstBlendFactor": 771,
     "_custom": true,
     "_file": null,
-    "_spriteFrame": {
-      "__uuid__": "13b5d392-e897-4f00-ab60-e1b11723a6e7"
-    },
+    "_spriteFrame": null,
     "_texture": null,
     "_stopped": true,
     "playOnLoad": true,
@@ -768,9 +766,7 @@
     "_dstBlendFactor": 771,
     "_custom": true,
     "_file": null,
-    "_spriteFrame": {
-      "__uuid__": "3c25c41b-ed29-4f3c-945d-1d1ffbd41197"
-    },
+    "_spriteFrame": null,
     "_texture": null,
     "_stopped": true,
     "playOnLoad": true,
@@ -2861,9 +2857,7 @@
     "NextSceneName": "1",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [],
-    "playBtn_audio": {
-      "__uuid__": "1b2d7472-275a-4955-a286-f66f90599ebe"
-    },
+    "playBtn_audio": null,
     "isPremiumGame": false,
     "isMobileNumberPriority": false,
     "premiumLevel": 0,
