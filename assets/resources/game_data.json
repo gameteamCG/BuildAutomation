@@ -46,7 +46,7 @@
     },
     {
       "questionText": "Identify the sound",
-      "questionAudioName": " dog.mp3",
+      "questionAudioName": "Dog bark.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "commonpanel.png",
       "isOptionText": false,
