@@ -3,7 +3,7 @@
   "_name": "hand",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 0.4,
+  "_duration": 0.275,
   "sample": 40,
   "speed": 0.7,
   "wrapMode": 2,
@@ -14,25 +14,19 @@
           {
             "frame": 0,
             "value": {
-              "__uuid__": "662c7da7-cfcf-4792-a1a9-79d46d7a656f"
+              "__uuid__": "1ac859d6-ffcf-4882-b5dd-aac9c9a32f70"
             }
           },
           {
             "frame": 0.125,
             "value": {
-              "__uuid__": "70903258-2fc5-4caa-be30-ade61d150e25"
+              "__uuid__": "5d7c673e-6337-4625-921f-eac960771d5e"
             }
           },
           {
             "frame": 0.25,
             "value": {
-              "__uuid__": "7b01d87c-d2a5-4ed0-bb38-9c5743075e8e"
-            }
-          },
-          {
-            "frame": 0.375,
-            "value": {
-              "__uuid__": "662c7da7-cfcf-4792-a1a9-79d46d7a656f"
+              "__uuid__": "1ac859d6-ffcf-4882-b5dd-aac9c9a32f70"
             }
           }
         ]

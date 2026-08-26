@@ -117,44 +117,14 @@ export default class startGame extends cc.Component {
             }
         });
     }
-
-    logData() {
-        // console.log("Game ID:", this.gameID);
-        console.log("Total Levels:", this.TotalLevels);
-        // console.log("BGM audio name:", this.BGM_audio.name);
-        console.log("Title Image Name:", this.titleImageName);
-        console.log("Jockey Name:", this.jockeyName);
-
-        // Log question data
-        this.questions.forEach((question, index) => {
-            console.log(`Question ${index + 1}:`);
-            console.log("Question Image Name:", question.questionBgName);
-            console.log("Question Audio Name:", question.questionAudioName);
-            // console.log("Option 1 Image Name:", question.option1ImageName);
-            // console.log("Option 2 Image Name:", question.option2ImageName);
-            console.log("Correct Answer Number:", question.correctAnswerNum);
-        });
-    }
     removeExtension(imageName: string): string {
-        // Remove .png extension
         return imageName.replace(/\.png$/g, '');
     }
     removeAudioExtension(audioName: string): string {
-        // Remove .png extension
         return audioName.replace(/\.mp3$/g, '');
     }
 
     updateJSONdata() {
-        // this.scheduleOnce(() => {
-        //     cc.loader.load("https://s3.ap-south-1.amazonaws.com/cgv2-prod-images.creativegalileo.com/HybridLZAssets/BTN-bg-orange.png", (err, texture) => {
-        //         if (err) {
-        //             console.error("Failed to load image:", err);
-        //             return;
-        //         }
-        //         const spriteFrame = new cc.SpriteFrame(texture);
-        //         cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-        //     });
-        // }, 1);
         if (this.isDemoGame) {
             const urlParams = new URLSearchParams(window.location.search);
 
@@ -175,12 +145,8 @@ export default class startGame extends cc.Component {
 
             // Assign question data to the variable
             this.questions = jsonData.questionData;
-
-            console.log("BGM music name = ", jsonData.additionalData.bgmMusicName);
-
             cc.loader.load(this.titleImageName, (err, texture) => {
                 if (err) {
-                    console.error("Failed to load image:", err);
                     return;
                 }
                 const spriteFrame = new cc.SpriteFrame(texture);
@@ -188,7 +154,6 @@ export default class startGame extends cc.Component {
             });
             cc.loader.load(jsonData.additionalData.bgmMusicName, (err, audioClip) => {
                 if (err) {
-                    console.error("Failed to load audio clip:", err);
                     return;
                 }
                 this.BGM_audio = audioClip;
@@ -197,30 +162,12 @@ export default class startGame extends cc.Component {
             });
             cc.loader.load(jsonData.additionalData.introBgName, (err, texture) => {
                 if (err) {
-                    console.error("Failed to load image:", err);
                     return;
                 }
                 const spriteFrame = new cc.SpriteFrame(texture);
                 cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 this.introBG = spriteFrame;
             });
-            // cc.loader.load(jsonData.additionalData.mainBgName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.mainBg = spriteFrame;
-            // });
-
-            this.questions.forEach(question => {
-                // question.questionBgName = question.questionBgName;
-                // question.questionBgName = question.questionBgName;
-                // question.option1ImageName = question.option1ImageName
-                // question.option2ImageName = question.option2ImageName
-            });
-            // Now you can use these variables within this script
-            this.logData();
         }
         else {
             cc.loader.loadRes('game_data', cc.JsonAsset, (err, jsonAsset) => {
@@ -266,8 +213,6 @@ export default class startGame extends cc.Component {
                     // question.reiterationAudioName = this.removeAudioExtension(question.reiterationAudioName);
                     question.reiterationAudioName = question.reiterationAudioName.map(reiterationAudioName => this.removeAudioExtension(reiterationAudioName));
                 });
-                // Now you can use these variables within this script
-                this.logData(); // You can call a function to log the data or use it in other functions
             });
 
         }
@@ -287,7 +232,6 @@ export default class startGame extends cc.Component {
         var demo = url.searchParams.get("isdemo");
         if (demo == "true") {
             this.isDemoGame = true;
-            console.log("It is a demo game");
         }
 
         this.updateJSONdata();
@@ -373,8 +317,6 @@ export default class startGame extends cc.Component {
 
         cc.director.preloadScene(this.NextSceneName);
         this.scheduleOnce(() => {
-            console.log("jockey name = ", this.jockeyName);
-
             if (this.jockeyName == "Podar") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;
             }

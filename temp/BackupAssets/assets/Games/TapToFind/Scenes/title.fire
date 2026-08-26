@@ -2586,9 +2586,7 @@
     "jockey": {
       "__id__": 53
     },
-    "playBtn_audio": {
-      "__uuid__": "1b2d7472-275a-4955-a286-f66f90599ebe"
-    },
+    "playBtn_audio": null,
     "_id": "99RrSSOzZAqra2zJ3jM5OB"
   },
   {

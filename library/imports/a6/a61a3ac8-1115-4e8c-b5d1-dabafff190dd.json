@@ -729,7 +729,7 @@
     "_lineHeight": 140,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "f0931e3b-e8b2-453d-b813-284e1f7ba936"
+      "__uuid__": "cd11a407-6fd2-41d1-9981-0bf5a75768b7"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -1039,7 +1039,7 @@
     "_lineHeight": 100,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "f0931e3b-e8b2-453d-b813-284e1f7ba936"
+      "__uuid__": "cd11a407-6fd2-41d1-9981-0bf5a75768b7"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -1441,7 +1441,7 @@
     "_lineHeight": 100,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "f0931e3b-e8b2-453d-b813-284e1f7ba936"
+      "__uuid__": "cd11a407-6fd2-41d1-9981-0bf5a75768b7"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -2528,7 +2528,7 @@
       "__id__": 5
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 54
@@ -2560,7 +2560,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        -3588.57,
         0,
         0,
         0,
@@ -3079,7 +3079,7 @@
       }
     ],
     "pop_audio": {
-      "__uuid__": "a5db067a-1f92-46e4-9867-4a5f9d270d07"
+      "__uuid__": "5eaa2b37-5189-47fe-83ed-8b4335af8867"
     },
     "positive_audio": {
       "__uuid__": "25d7ff14-8869-4775-96d0-81851734d9e3"

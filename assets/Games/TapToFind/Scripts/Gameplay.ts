@@ -49,7 +49,6 @@ export default class Gameplay extends cc.Component {
         if (startGame.Instance.isDemoGame) {
             cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionBgName, (err, texture) => {
                 if (err) {
-                    console.error("Failed to load image:", err);
                     return;
                 }
                 const spriteFrame = new cc.SpriteFrame(texture);
@@ -57,21 +56,18 @@ export default class Gameplay extends cc.Component {
             });
             cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionAudioName, (err, audioClip) => {
                 if (err) {
-                    console.error("Failed to load audio clip:", err);
                     return;
                 }
                 this.questionAudio = audioClip;
             });
             cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].correctAudioName, (err, audioClip) => {
                 if (err) {
-                    console.error("Failed to load audio clip:", err);
                     return;
                 }
                 this.correctAudio = audioClip;
             });
             cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].wrongAudioName, (err, audioClip) => {
                 if (err) {
-                    console.error("Failed to load audio clip:", err);
                     return;
                 }
                 this.wrongAudio = audioClip;
@@ -79,7 +75,6 @@ export default class Gameplay extends cc.Component {
             for (let i = 0; i < startGame.Instance.questions[startGame.Instance.currentLevel - 1].reiterationAudioName.length; i++) {
                 cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].reiterationAudioName[i], (err, audioClip) => {
                     if (err) {
-                        console.error("Failed to load audio clip:", err);
                         return;
                     }
                     this.reiterationAudio[i] = audioClip;
@@ -87,10 +82,8 @@ export default class Gameplay extends cc.Component {
             }
             for (let i = 0; i < startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions; i++) {
                 if (!startGame.Instance.questions[startGame.Instance.currentLevel - 1].isOptionText) {
-                    // console.log("option img = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].options[i], (err, texture) => {
                         if (err) {
-                            console.error("Failed to load image:", err);
                             return;
                         }
                         const spriteFrame = new cc.SpriteFrame(texture);
@@ -98,12 +91,10 @@ export default class Gameplay extends cc.Component {
                     });
                 }
                 else {
-                    // console.log("option text = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     this.options.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[startGame.Instance.currentLevel - 1].options[i];
                 }
                 cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].optionsBg[i], (err, texture) => {
                     if (err) {
-                        console.error("Failed to load image:", err);
                         return;
                     }
                     const spriteFrame = new cc.SpriteFrame(texture);
@@ -222,13 +213,16 @@ export default class Gameplay extends cc.Component {
             }
             this.scheduleOnce(() => {
                 if (startGame.Instance.currentLevel == 1) {
+                    console.log(this.options.getChildByName(this.correctAnswer[0].toString()).name)
                     let hand = this.node.getChildByName("hand");
                     hand.setParent(this.options.getChildByName(this.correctAnswer[0].toString()));
-                    hand.setPosition(50, -100);
+                    hand.setPosition(50, -50);
                     hand.angle = 40;
-                    hand.setParentWithSamePos(this.node);
                     hand.active = true;
                     hand.getComponent(cc.Animation).play();
+                    this.scheduleOnce(() => {
+                        hand.setParentWithSamePos(this.node)
+                    }, 0.3)
                 }
             }, 1);
         }, 1);
@@ -401,7 +395,6 @@ export default class Gameplay extends cc.Component {
                     cc.audioEngine.playEffect(this.reiterationAudio[0], false);
                 }
                 if (this.correctCounter == this.correctAnswer.length) {
-                    console.log("all the options are answered correctly");
                     cc.tween(this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
                     this.LoadNextQuestion();
                 }
@@ -462,7 +455,6 @@ export default class Gameplay extends cc.Component {
                         cc.audioEngine.playEffect(this.reiterationAudio[0], false);
                     }
                     if (this.correctCounter == this.correctAnswer.length) {
-                        console.log("all the options are answered correctly");
                         this.LoadNextQuestion();
                     }
                 }).start();
@@ -495,8 +487,6 @@ export default class Gameplay extends cc.Component {
 
     callNextLevel() {
         console.log("levelComplete--" + startGame.Instance.currentLevel);
-        //playjockey
-        // after jockey call below animation
         if (startGame.Instance.currentLevel >= startGame.Instance.TotalLevels) {
             cc.director.loadScene("gameEnd");
         }
@@ -535,16 +525,13 @@ export default class Gameplay extends cc.Component {
         else if (startGame.Instance.jockeyName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
         }
-        // console.log("anim length = ", anim.length);
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
-        // console.log("currentClipNum = ", currentClipNum);
         let pos: number[] = [-1600, 1600];
         let jockeytween: number[] = [-350, 350];
         if (startGame.Instance.jockeyName == "supercub") {
             pos = [1900, 1900];
             jockeytween = [870, 870];
         }
-        //console.log("characterAppear--Podar_Jumbo");
         this.currentJockey.setPosition(pos[startGame.Instance.currentLevel % 2], this.currentJockey.y);
         if (startGame.Instance.currentLevel % 2 == 0 && startGame.Instance.jockeyName == "stallion") {
             this.currentJockey.scaleX = -0.65;
@@ -574,7 +561,6 @@ export default class Gameplay extends cc.Component {
                         this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                     }
                 }
-                //console.log("characterDisappear--Podar_Jumbo");
                 this.callNextLevel();
             }, this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration);
         }, 0.5);
