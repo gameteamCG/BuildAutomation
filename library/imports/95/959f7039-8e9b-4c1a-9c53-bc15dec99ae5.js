@@ -93,6 +93,7 @@ var video = /** @class */ (function (_super) {
         _this.slider = null;
         _this.toolActivater = null;
         _this.questions = [];
+        _this.questionsLoaded = false;
         _this.isSliding = false;
         _this.hideToolsCallback = null;
         _this.currentTime = 0;
@@ -101,6 +102,7 @@ var video = /** @class */ (function (_super) {
         _this.questionAppeared = [];
         _this.currentQuestion = 0;
         _this.answeredQuestion = [];
+        _this.optionImagesLoaded = false;
         _this.isPause = false;
         _this.isPlay = true;
         _this.isOnSlider = false;
@@ -123,20 +125,17 @@ var video = /** @class */ (function (_super) {
     }
     // LIFE-CYCLE CALLBACKS:
     video.prototype.onLoad = function () {
-        var _this = this;
         // this.forwardBtn = cc.find("Canvas/skipAhead");
         // this.backwardBtn = cc.find("Canvas/skipBack");
         this.UpdateQuestions();
         this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).active = true;
-        this.scheduleOnce(function () {
-            for (var i = 0; i < _this.questions.length; i++) {
-                _this.timers[i] = _this.questions[i].questionTime;
-                console.log("question timer = ", _this.timers[i]);
-                _this.totalQuestions++;
-                _this.questionAppeared[i] = false;
-                _this.answeredQuestion[i] = false;
-            }
-        }, 1);
+        for (var i = 0; i < this.questions.length; i++) {
+            this.timers[i] = this.questions[i].questionTime;
+            console.log("question timer =", this.timers[i]);
+            this.totalQuestions++;
+            this.questionAppeared[i] = false;
+            this.answeredQuestion[i] = false;
+        }
         this.slider.children[2].on("touchstart", function () {
             this.isSliding = false;
             this.isOnSlider = true;
@@ -183,6 +182,8 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.UpdateQuestions = function () {
         var _this = this;
+        var totalAssetsToLoad = 0;
+        var loadedAssets = 0;
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
             this.questionNode.getChildByName("options1").children.forEach(function (element) {
@@ -207,9 +208,12 @@ var video = /** @class */ (function (_super) {
                 element.getChildByName("text").getComponent(cc.Label).font = _this.jaipuria_font;
             });
         }
+        console.log("========== QUESTION DEBUG ==========");
+        console.log("TotalLevels:", StartGame_1.default.Instance.TotalLevels);
+        console.log("Questions from StartGame:", StartGame_1.default.Instance.questions);
         var _loop_1 = function (i) {
+            console.log("Question", i, "AppearTime:", StartGame_1.default.Instance.questions[i].QuestionAppearTime, "Text:", StartGame_1.default.Instance.questions[i].QuestionText, "Correct:", StartGame_1.default.Instance.questions[i].CorrectAnswer);
             this_1.questions[i] = new QuestionData();
-            this_1.questions[i].questionTime = parseInt(StartGame_1.default.Instance.questions[i].QuestionAppearTime);
             this_1.questions[i].isoptionText = StartGame_1.default.Instance.questions[i].IsOptionText;
             this_1.questions[i].isquestionText = StartGame_1.default.Instance.questions[i].IsQuestionText;
             this_1.questions[i].correctAnswer = parseInt(StartGame_1.default.Instance.questions[i].CorrectAnswer);
@@ -236,23 +240,25 @@ var video = /** @class */ (function (_super) {
             }
             if (!this_1.questions[i].isoptionText) {
                 var _loop_2 = function (j) {
+                    var questionIndex = i;
+                    var optionIndex = j;
                     if (StartGame_1.default.Instance.isDemoGame) {
-                        cc.loader.load(StartGame_1.default.Instance.questions[i].Options[j], function (err, texture) {
+                        cc.loader.load(StartGame_1.default.Instance.questions[questionIndex].Options[optionIndex], function (err, texture) {
                             if (err) {
-                                console.error("Failed to load image:", err);
+                                console.error("Failed to load option image:", err);
                                 return;
                             }
-                            var spriteFrame = new cc.SpriteFrame(texture);
-                            _this.questions[i].optionImgs[j] = spriteFrame;
+                            _this.questions[questionIndex].optionImgs[optionIndex] =
+                                new cc.SpriteFrame(texture);
                         });
                     }
                     else {
-                        this_1.loadSpriteFrame(StartGame_1.default.Instance.questions[i].Options[j], function (spriteFrame) {
-                            _this.questions[i].optionImgs[j] = spriteFrame;
+                        this_1.loadSpriteFrame(StartGame_1.default.Instance.questions[questionIndex].Options[optionIndex], function (spriteFrame) {
+                            _this.questions[questionIndex].optionImgs[optionIndex] =
+                                spriteFrame;
                         });
                     }
                 };
-                //load the option images
                 for (var j = 0; j < StartGame_1.default.Instance.questions[i].Options.length; j++) {
                     _loop_2(j);
                 }
@@ -334,7 +340,7 @@ var video = /** @class */ (function (_super) {
             this.correctAnim = this.podarCorrectAnim;
             this.wrongAnim = this.podarNegativeAnim;
         }
-        // Show first question directly
+        // Start directly with Question 1
         this.checkOnMissingQuestions();
     };
     video.prototype.SkipForward = function (_event) {
@@ -764,28 +770,7 @@ var video = /** @class */ (function (_super) {
         }, 0.5);
     };
     video.prototype.update = function () {
-        if (this.isSliding) {
-            var currentTime = this.node.getComponent(cc.VideoPlayer).currentTime;
-            var duration = this.node.getComponent(cc.VideoPlayer).getDuration();
-            var value = currentTime / duration;
-            this.slider.getComponent(cc.Slider).progress = value;
-            this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
-        }
-        for (var i = 0; i < this.questions.length; i++) {
-            if (Math.round(this.node.getComponent(cc.VideoPlayer).currentTime) == this.timers[i] && !this.questionAppeared[i]
-                && this.canNextQuestion && this.gameStarted) {
-                this.currentQuestion = i;
-                console.log("activate the question");
-                this.canNextQuestion = false;
-                this.questionAppeared[this.currentQuestion] = true;
-                this.PauseButton();
-                this.questionSetup();
-                this.currentQuestion++;
-                this.questionNode.active = true;
-                this.forwardBtn.active = false;
-                this.backwardBtn.active = false;
-            }
-        }
+        // Nothing needed here for question progression.
     };
     // Show loading animation.
     video.prototype.getAnimDuration = function (animName) {

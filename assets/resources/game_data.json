@@ -10,7 +10,7 @@
     },
     "QuestionData": [
         {
-            "QuestionAppearTime": "2000",
+            "QuestionAppearTime": "0",
             "IsQuestionText": true,
             "QuestionText": "stove",
             "QuestionImageName": "",
@@ -30,7 +30,7 @@
             "CorrectAnswer": "4"
         },
         {
-            "QuestionAppearTime": "2000",
+            "QuestionAppearTime": "0",
             "IsQuestionText": true,
             "QuestionText": "star",
             "QuestionImageName": "",
@@ -50,7 +50,7 @@
             "CorrectAnswer": "2"
         },
         {
-            "QuestionAppearTime": "2000",
+            "QuestionAppearTime": "0",
             "IsQuestionText": false,
             "QuestionText": "",
             "QuestionImageName": "starfish.png",
@@ -70,7 +70,7 @@
             "CorrectAnswer": "3"
         },
         {
-            "QuestionAppearTime": "2000",
+            "QuestionAppearTime": "0",
             "IsQuestionText": false,
             "QuestionText": "",
             "QuestionImageName": "stairs.png",

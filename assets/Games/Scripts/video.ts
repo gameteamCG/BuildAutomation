@@ -80,7 +80,7 @@ export default class video extends cc.Component {
 
     @property(QuestionData)
     questions: QuestionData[] = [];
-
+    private questionsLoaded: boolean = false;
     private isSliding: boolean = false;
     private hideToolsCallback: Function = null;
     private currentTime: number = 0;
@@ -89,7 +89,7 @@ export default class video extends cc.Component {
     private questionAppeared: boolean[] = [];
     private currentQuestion: number = 0;
     private answeredQuestion: boolean[] = [];
-
+    private optionImagesLoaded: boolean = false;
     private isPause: boolean = false;
     private isPlay: boolean = true;
     private isOnSlider: boolean = false;
@@ -119,15 +119,15 @@ export default class video extends cc.Component {
         // this.backwardBtn = cc.find("Canvas/skipBack");
         this.UpdateQuestions();
         this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).active = true;
-        this.scheduleOnce(() => {
-            for (let i = 0; i < this.questions.length; i++) {
-                this.timers[i] = this.questions[i].questionTime;
-                console.log("question timer = ", this.timers[i]);
-                this.totalQuestions++;
-                this.questionAppeared[i] = false;
-                this.answeredQuestion[i] = false;
-            }
-        }, 1);
+        for (let i = 0; i < this.questions.length; i++) {
+            this.timers[i] = this.questions[i].questionTime;
+
+            console.log("question timer =", this.timers[i]);
+
+            this.totalQuestions++;
+            this.questionAppeared[i] = false;
+            this.answeredQuestion[i] = false;
+        }
         this.slider.children[2].on("touchstart", function () {
             this.isSliding = false;
             this.isOnSlider = true;
@@ -178,6 +178,8 @@ export default class video extends cc.Component {
     }
 
     UpdateQuestions() {
+        let totalAssetsToLoad = 0;
+        let loadedAssets = 0;
         if (startGame.Instance.jockeyName == "Podar") {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
             this.questionNode.getChildByName("options1").children.forEach(element => {
@@ -202,9 +204,18 @@ export default class video extends cc.Component {
                 element.getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
             });
         }
+        console.log("========== QUESTION DEBUG ==========");
+        console.log("TotalLevels:", startGame.Instance.TotalLevels);
+        console.log("Questions from StartGame:", startGame.Instance.questions);
         for (let i = 0; i < startGame.Instance.TotalLevels; i++) {
+            console.log(
+                "Question", i,
+                "AppearTime:", startGame.Instance.questions[i].QuestionAppearTime,
+                "Text:", startGame.Instance.questions[i].QuestionText,
+                "Correct:", startGame.Instance.questions[i].CorrectAnswer
+            );
             this.questions[i] = new QuestionData();
-            this.questions[i].questionTime = parseInt(startGame.Instance.questions[i].QuestionAppearTime);
+
             this.questions[i].isoptionText = startGame.Instance.questions[i].IsOptionText;
             this.questions[i].isquestionText = startGame.Instance.questions[i].IsQuestionText;
             this.questions[i].correctAnswer = parseInt(startGame.Instance.questions[i].CorrectAnswer);
@@ -231,23 +242,38 @@ export default class video extends cc.Component {
                 this.questions[i].questionText = startGame.Instance.questions[i].QuestionText;
             }
             if (!this.questions[i].isoptionText) {
-                //load the option images
-                for (let j = 0; j < startGame.Instance.questions[i].Options.length; j++) {
-                    if (startGame.Instance.isDemoGame) {
-                        cc.loader.load(startGame.Instance.questions[i].Options[j], (err, texture) => {
-                            if (err) {
-                                console.error("Failed to load image:", err);
-                                return;
-                            }
-                            const spriteFrame = new cc.SpriteFrame(texture);
-                            this.questions[i].optionImgs[j] = spriteFrame;
-                        });
 
-                    }
-                    else {
-                        this.loadSpriteFrame(startGame.Instance.questions[i].Options[j], (spriteFrame) => {
-                            this.questions[i].optionImgs[j] = spriteFrame;
-                        });
+                for (let j = 0; j < startGame.Instance.questions[i].Options.length; j++) {
+
+                    const questionIndex = i;
+                    const optionIndex = j;
+
+                    if (startGame.Instance.isDemoGame) {
+
+                        cc.loader.load(
+                            startGame.Instance.questions[questionIndex].Options[optionIndex],
+                            (err, texture) => {
+
+                                if (err) {
+                                    console.error("Failed to load option image:", err);
+                                    return;
+                                }
+
+                                this.questions[questionIndex].optionImgs[optionIndex] =
+                                    new cc.SpriteFrame(texture);
+                            }
+                        );
+
+                    } else {
+
+                        this.loadSpriteFrame(
+                            startGame.Instance.questions[questionIndex].Options[optionIndex],
+                            (spriteFrame) => {
+
+                                this.questions[questionIndex].optionImgs[optionIndex] =
+                                    spriteFrame;
+                            }
+                        );
                     }
                 }
             }
@@ -302,6 +328,7 @@ export default class video extends cc.Component {
                 });
             }
         }
+
     }
 
     start() {
@@ -330,7 +357,7 @@ export default class video extends cc.Component {
             this.wrongAnim = this.podarNegativeAnim;
         }
 
-        // Show first question directly
+        // Start directly with Question 1
         this.checkOnMissingQuestions();
     }
     SkipForward(_event?: cc.Event) {
@@ -816,31 +843,7 @@ export default class video extends cc.Component {
     }
 
     update() {
-        if (this.isSliding) {
-            let currentTime = this.node.getComponent(cc.VideoPlayer).currentTime;
-            let duration = this.node.getComponent(cc.VideoPlayer).getDuration();
-            let value = currentTime / duration;
-            this.slider.getComponent(cc.Slider).progress = value;
-            this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
-        }
-        for (let i = 0; i < this.questions.length; i++) {
-            if (Math.round(this.node.getComponent(cc.VideoPlayer).currentTime) == this.timers[i] && !this.questionAppeared[i]
-                && this.canNextQuestion && this.gameStarted) {
-                this.currentQuestion = i;
-                console.log("activate the question");
-                this.canNextQuestion = false;
-                this.questionAppeared[this.currentQuestion] = true;
-                this.PauseButton();
-                this.questionSetup();
-                this.currentQuestion++;
-                this.questionNode.active = true;
-                this.forwardBtn.active = false;
-                this.backwardBtn.active = false;
-
-
-
-            }
-        }
+        // Nothing needed here for question progression.
     }
 
 
