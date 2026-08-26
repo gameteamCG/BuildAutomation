@@ -80,6 +80,9 @@ export default class video extends cc.Component {
 
     @property(QuestionData)
     questions: QuestionData[] = [];
+    private questionAssetsLoaded: boolean = false;
+    private pendingQuestionAssets: number = 0;
+    private questionsStarted: boolean = false;
     private questionsLoaded: boolean = false;
     private isSliding: boolean = false;
     private hideToolsCallback: Function = null;
@@ -207,6 +210,7 @@ export default class video extends cc.Component {
         console.log("========== QUESTION DEBUG ==========");
         console.log("TotalLevels:", startGame.Instance.TotalLevels);
         console.log("Questions from StartGame:", startGame.Instance.questions);
+        this.pendingQuestionAssets = 0;
         for (let i = 0; i < startGame.Instance.TotalLevels; i++) {
             console.log(
                 "Question", i,
@@ -220,6 +224,7 @@ export default class video extends cc.Component {
             this.questions[i].isquestionText = startGame.Instance.questions[i].IsQuestionText;
             this.questions[i].correctAnswer = parseInt(startGame.Instance.questions[i].CorrectAnswer);
             if (!this.questions[i].isquestionText) {
+                this.pendingQuestionAssets++;
                 //load the question image
                 if (startGame.Instance.isDemoGame) {
                     cc.loader.load(startGame.Instance.questions[i].QuestionImageName, (err, texture) => {
@@ -244,6 +249,7 @@ export default class video extends cc.Component {
             if (!this.questions[i].isoptionText) {
 
                 for (let j = 0; j < startGame.Instance.questions[i].Options.length; j++) {
+                    this.pendingQuestionAssets++;
 
                     const questionIndex = i;
                     const optionIndex = j;
@@ -358,81 +364,81 @@ export default class video extends cc.Component {
         }
 
         // Start directly with Question 1
-        this.checkOnMissingQuestions();
+        // this.checkOnMissingQuestions();
     }
-    SkipForward(_event?: cc.Event) {
-        // console.log("SkipForward called");
-        // console.log("_event:", _event);
-        // console.log("Current Time:", this.node.getComponent(cc.VideoPlayer).currentTime);
-        if (_event) {
-            _event.target.getComponent(cc.Button).interactable = false;
-        }
+    // SkipForward(_event?: cc.Event) {
+    //     // console.log("SkipForward called");
+    //     // console.log("_event:", _event);
+    //     // console.log("Current Time:", this.node.getComponent(cc.VideoPlayer).currentTime);
+    //     if (_event) {
+    //         _event.target.getComponent(cc.Button).interactable = false;
+    //     }
 
-        let video = this.node.getComponent(cc.VideoPlayer);
+    //     let video = this.node.getComponent(cc.VideoPlayer);
 
-        let duration = video.getDuration();
-        let newTime = Math.min(video.currentTime + this.skipSeconds, duration);
+    //     let duration = video.getDuration();
+    //     let newTime = Math.min(video.currentTime + this.skipSeconds, duration);
 
-        video.currentTime = newTime;
-        this.slider.getComponent(cc.Slider).progress = newTime / duration;
-        this.slider.getChildByName("high").width =
-            this.slider.getChildByName("Handle").getPosition().x + 472.5;
+    //     video.currentTime = newTime;
+    //     this.slider.getComponent(cc.Slider).progress = newTime / duration;
+    //     this.slider.getChildByName("high").width =
+    //         this.slider.getChildByName("Handle").getPosition().x + 472.5;
 
-        this.scheduleOnce(() => {
+    //     this.scheduleOnce(() => {
 
-            if (_event) {
-                _event.target.getComponent(cc.Button).interactable = true;
-                _event.target.scale = 1;
-            }
+    //         if (_event) {
+    //             _event.target.getComponent(cc.Button).interactable = true;
+    //             _event.target.scale = 1;
+    //         }
 
-            if (!this.questionNode.active) {
-                this.setupTVFocus2();
-            }
+    //         if (!this.questionNode.active) {
+    //             this.setupTVFocus2();
+    //         }
 
-        }, 0.1);
-    }
-    SkipBackward(_event?: cc.Event) {
-        // console.log("SkipBackward called");
-        // console.log("_event:", _event);
-        // console.log("Current Time:", this.node.getComponent(cc.VideoPlayer).currentTime);
-        if (_event) {
-            _event.target.getComponent(cc.Button).interactable = false;
-        }
+    //     }, 0.1);
+    // }
+    // SkipBackward(_event?: cc.Event) {
+    //     // console.log("SkipBackward called");
+    //     // console.log("_event:", _event);
+    //     // console.log("Current Time:", this.node.getComponent(cc.VideoPlayer).currentTime);
+    //     if (_event) {
+    //         _event.target.getComponent(cc.Button).interactable = false;
+    //     }
 
-        let video = this.node.getComponent(cc.VideoPlayer);
+    //     let video = this.node.getComponent(cc.VideoPlayer);
 
-        let newTime = Math.max(video.currentTime - this.skipSeconds, 0);
+    //     let newTime = Math.max(video.currentTime - this.skipSeconds, 0);
 
-        video.currentTime = newTime;
+    //     video.currentTime = newTime;
 
-        this.slider.getComponent(cc.Slider).progress =
-            newTime / video.getDuration();
+    //     this.slider.getComponent(cc.Slider).progress =
+    //         newTime / video.getDuration();
 
-        this.slider.getChildByName("high").width =
-            this.slider.getChildByName("Handle").getPosition().x + 472.5;
+    //     this.slider.getChildByName("high").width =
+    //         this.slider.getChildByName("Handle").getPosition().x + 472.5;
 
-        this.scheduleOnce(() => {
+    //     this.scheduleOnce(() => {
 
-            if (_event) {
-                _event.target.getComponent(cc.Button).interactable = true;
-                _event.target.scale = 1;
-            }
+    //         if (_event) {
+    //             _event.target.getComponent(cc.Button).interactable = true;
+    //             _event.target.scale = 1;
+    //         }
 
-            if (!this.questionNode.active) {
-                this.setupTVFocus2();
-            }
+    //         if (!this.questionNode.active) {
+    //             this.setupTVFocus2();
+    //         }
 
-        }, 0.1);
-    }
+    //     }, 0.1);
+    // }
 
-    public OnTVNavigation() {
-        if (this.tools.opacity == 0) {
-            this.ActivateTools(true);
-            if (!this.questionNode.active) {
-                this.setupTVFocus2();
-            }
-        }
-    }
+    // public OnTVNavigation() {
+    //     if (this.tools.opacity == 0) {
+    //         this.ActivateTools(true);
+    //         if (!this.questionNode.active) {
+    //             this.setupTVFocus2();
+    //         }
+    //     }
+    // }
     ActivateTools(_activate: boolean = true) {
 
         if (_activate) {
@@ -476,71 +482,71 @@ export default class video extends cc.Component {
 
     }
 
-    ResumePlayButton(_event?: cc.Event) {
-        //console.trace("RESUME CALLED");
+    // ResumePlayButton(_event?: cc.Event) {
+    //     //console.trace("RESUME CALLED");
 
-        cc.audioEngine.stopMusic();
+    //     cc.audioEngine.stopMusic();
 
-        this.isPlay = true;
-        this.isPause = false;
+    //     this.isPlay = true;
+    //     this.isPause = false;
 
-        this.node.getComponent(cc.VideoPlayer).resume();
+    //     this.node.getComponent(cc.VideoPlayer).resume();
 
-        this.tools.getChildByName("resume").active = false;
-        this.tools.getChildByName("pause").active = true;
+    //     this.tools.getChildByName("resume").active = false;
+    //     this.tools.getChildByName("pause").active = true;
 
-        // if (this.forwardBtn) this.forwardBtn.active = true;
-        // if (this.backwardBtn) this.backwardBtn.active = true;
+    //     // if (this.forwardBtn) this.forwardBtn.active = true;
+    //     // if (this.backwardBtn) this.backwardBtn.active = true;
 
-        this.scheduleOnce(() => {
-            if (!this.questionNode.active) {
-                this.setupTVFocus2();
-            }
-        }, 0);
-    }
-    PauseButton(_event?: cc.Event) {
-        //console.trace("PAUSE CALLED");
-        this.isPlay = false;
-        this.isPause = true;
+    //     this.scheduleOnce(() => {
+    //         if (!this.questionNode.active) {
+    //             this.setupTVFocus2();
+    //         }
+    //     }, 0);
+    // }
+    // PauseButton(_event?: cc.Event) {
+    //     //console.trace("PAUSE CALLED");
+    //     this.isPlay = false;
+    //     this.isPause = true;
 
-        //this.node.getComponent(cc.VideoPlayer).pause();
+    //     //this.node.getComponent(cc.VideoPlayer).pause();
 
-        this.tools.getChildByName("resume").active = true;
-        this.tools.getChildByName("pause").active = false;
+    //     this.tools.getChildByName("resume").active = true;
+    //     this.tools.getChildByName("pause").active = false;
 
-        // if (this.forwardBtn) this.forwardBtn.active = false;
-        // if (this.backwardBtn) this.backwardBtn.active = false;
+    //     // if (this.forwardBtn) this.forwardBtn.active = false;
+    //     // if (this.backwardBtn) this.backwardBtn.active = false;
 
-        this.ActivateTools();
+    //     this.ActivateTools();
 
-        this.scheduleOnce(() => {
-            if (!this.questionNode.active) {
-                this.setupTVFocus2();
-            }
-        }, 0);
-    }
+    //     this.scheduleOnce(() => {
+    //         if (!this.questionNode.active) {
+    //             this.setupTVFocus2();
+    //         }
+    //     }, 0);
+    // }
 
 
-    UpdateSlider() {
-        this.isSliding = false;
-        this.currentTime = this.node.getComponent(cc.VideoPlayer).getDuration() * this.slider.getComponent(cc.Slider).progress;
-        this.node.getComponent(cc.VideoPlayer).stop();
-        this.node.getComponent(cc.VideoPlayer).currentTime = this.currentTime;
-        this.node.getComponent(cc.VideoPlayer).play();
-        this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
-        console.log("updateslider : ", Math.round(this.node.getComponent(cc.VideoPlayer).currentTime));
-        this.scheduleOnce(() => {
-            this.isSliding = true;
+    // UpdateSlider() {
+    //     this.isSliding = false;
+    //     this.currentTime = this.node.getComponent(cc.VideoPlayer).getDuration() * this.slider.getComponent(cc.Slider).progress;
+    //     this.node.getComponent(cc.VideoPlayer).stop();
+    //     this.node.getComponent(cc.VideoPlayer).currentTime = this.currentTime;
+    //     this.node.getComponent(cc.VideoPlayer).play();
+    //     this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
+    //     console.log("updateslider : ", Math.round(this.node.getComponent(cc.VideoPlayer).currentTime));
+    //     this.scheduleOnce(() => {
+    //         this.isSliding = true;
 
-            this.tools.getChildByName("resume").active = false;
-            this.tools.getChildByName("pause").active = true;
+    //         this.tools.getChildByName("resume").active = false;
+    //         this.tools.getChildByName("pause").active = true;
 
-            if (!this.questionNode.active) {
-                this.setupTVFocus2();
-            }
-        }, 0.2);
+    //         if (!this.questionNode.active) {
+    //             this.setupTVFocus2();
+    //         }
+    //     }, 0.2);
 
-    }
+    // }
 
     UpdateSlider2() {
         // console.log("updateslider : ");
@@ -661,14 +667,18 @@ export default class video extends cc.Component {
         }, this.questions[this.currentQuestion - 1].questionAudio.duration)
     }
     private setupTVFocus3() {
+
         let backBtn = startGame.Instance.node.getChildByName("back");
+
         let musicBtn = startGame.Instance.node.getChildByName("music");
+
         let soundBtn = this.questionNode.getChildByName("sound");
 
         let optionButtons = this.questionNode
             .getChildByName("options1")
             .children.filter(node => {
                 let btn = node.getComponent(cc.Button);
+
                 return node.active &&
                     node.opacity > 0 &&
                     btn &&
@@ -682,8 +692,15 @@ export default class video extends cc.Component {
             musicBtn
         ].filter(n => n);
 
-        // setupTVFocus3
-        //console.log("setupTVFocus3:", nodes.map(n => n.name));
+        // Reset option scales
+        optionButtons.forEach(option => {
+            option.scale = 1;
+        });
+
+        // Reset other button scales
+        if (soundBtn) soundBtn.scale = 1;
+        if (backBtn) backBtn.scale = 1;
+        if (musicBtn) musicBtn.scale = 1;
 
         TVInputManager.Instance.init(nodes, -1);
         TVInputManager.Instance.setCanSelect(true);
@@ -834,6 +851,7 @@ export default class video extends cc.Component {
 
 
         this.scheduleOnce(() => {
+            console.log("meowwwwwwwwww")
             cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
             this.character.getComponent(cc.Animation).play("Idle");
             this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
@@ -923,14 +941,49 @@ export default class video extends cc.Component {
         optionsLayout.height = maxHeight * scaleFactor;
     }
 
-    loadSpriteFrame(imageName: string, callback: (spriteFrame: cc.SpriteFrame) => void) {
-        cc.loader.loadRes("images/" + imageName, cc.SpriteFrame, (err, spriteFrame) => {
-            if (err) {
-                cc.error(err.message || err);
-                return;
+    loadSpriteFrame(
+        imageName: string,
+        callback: (spriteFrame: cc.SpriteFrame) => void
+    ) {
+        console.log("Loading image:", imageName);
+
+        cc.loader.loadRes(
+            "images/" + imageName,
+            cc.SpriteFrame,
+            (err, spriteFrame) => {
+
+                if (err) {
+                    console.error(
+                        "FAILED TO LOAD IMAGE:",
+                        imageName,
+                        err
+                    );
+                    return;
+                }
+
+                console.log("IMAGE LOADED:", imageName);
+
+                callback(spriteFrame);
+
+                this.pendingQuestionAssets--;
+
+                console.log(
+                    "Remaining question assets:",
+                    this.pendingQuestionAssets
+                );
+
+                if (this.pendingQuestionAssets === 0) {
+                    this.questionAssetsLoaded = true;
+
+                    console.log("ALL QUESTION IMAGES LOADED");
+
+                    if (!this.questionsStarted) {
+                        this.questionsStarted = true;
+                        this.checkOnMissingQuestions();
+                    }
+                }
             }
-            callback(spriteFrame);
-        });
+        );
     }
     loadAudioClip(audioName: string, callback: (spriteFrame: cc.AudioClip) => void) {
         cc.loader.loadRes("audios/" + audioName, cc.AudioClip, (err, audioClip) => {

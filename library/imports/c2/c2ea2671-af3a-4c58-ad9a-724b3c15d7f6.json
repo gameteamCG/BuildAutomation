@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Nursery_GeneralAwareness_58 : Wild Animals",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/1_1739794642598.mp4",
+      "TitleImageName": "Asset 31.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": false,
+        "QuestionText": "L1",
+        "QuestionImageName": "L1.png",
+        "QuestionAudioName": "L1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Sunlight",
+          "Soil"
+        ],
+        "ReiterationAudioName": "R1.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": false,
+        "QuestionText": "L2.png",
+        "QuestionImageName": "L2.png",
+        "QuestionAudioName": "L2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Fertilizer",
+          "Air"
+        ],
+        "ReiterationAudioName": "R2.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": false,
+        "QuestionText": "Lion",
+        "QuestionImageName": "L3.png",
+        "QuestionAudioName": "L3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Sunlight.png",
+          "Water.png"
+        ],
+        "ReiterationAudioName": "R3.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

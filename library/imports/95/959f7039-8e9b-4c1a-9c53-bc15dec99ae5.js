@@ -93,6 +93,9 @@ var video = /** @class */ (function (_super) {
         _this.slider = null;
         _this.toolActivater = null;
         _this.questions = [];
+        _this.questionAssetsLoaded = false;
+        _this.pendingQuestionAssets = 0;
+        _this.questionsStarted = false;
         _this.questionsLoaded = false;
         _this.isSliding = false;
         _this.hideToolsCallback = null;
@@ -211,6 +214,7 @@ var video = /** @class */ (function (_super) {
         console.log("========== QUESTION DEBUG ==========");
         console.log("TotalLevels:", StartGame_1.default.Instance.TotalLevels);
         console.log("Questions from StartGame:", StartGame_1.default.Instance.questions);
+        this.pendingQuestionAssets = 0;
         var _loop_1 = function (i) {
             console.log("Question", i, "AppearTime:", StartGame_1.default.Instance.questions[i].QuestionAppearTime, "Text:", StartGame_1.default.Instance.questions[i].QuestionText, "Correct:", StartGame_1.default.Instance.questions[i].CorrectAnswer);
             this_1.questions[i] = new QuestionData();
@@ -218,6 +222,7 @@ var video = /** @class */ (function (_super) {
             this_1.questions[i].isquestionText = StartGame_1.default.Instance.questions[i].IsQuestionText;
             this_1.questions[i].correctAnswer = parseInt(StartGame_1.default.Instance.questions[i].CorrectAnswer);
             if (!this_1.questions[i].isquestionText) {
+                this_1.pendingQuestionAssets++;
                 //load the question image
                 if (StartGame_1.default.Instance.isDemoGame) {
                     cc.loader.load(StartGame_1.default.Instance.questions[i].QuestionImageName, function (err, texture) {
@@ -240,6 +245,7 @@ var video = /** @class */ (function (_super) {
             }
             if (!this_1.questions[i].isoptionText) {
                 var _loop_2 = function (j) {
+                    this_1.pendingQuestionAssets++;
                     var questionIndex = i;
                     var optionIndex = j;
                     if (StartGame_1.default.Instance.isDemoGame) {
@@ -341,66 +347,64 @@ var video = /** @class */ (function (_super) {
             this.wrongAnim = this.podarNegativeAnim;
         }
         // Start directly with Question 1
-        this.checkOnMissingQuestions();
+        // this.checkOnMissingQuestions();
     };
-    video.prototype.SkipForward = function (_event) {
-        var _this = this;
-        // console.log("SkipForward called");
-        // console.log("_event:", _event);
-        // console.log("Current Time:", this.node.getComponent(cc.VideoPlayer).currentTime);
-        if (_event) {
-            _event.target.getComponent(cc.Button).interactable = false;
-        }
-        var video = this.node.getComponent(cc.VideoPlayer);
-        var duration = video.getDuration();
-        var newTime = Math.min(video.currentTime + this.skipSeconds, duration);
-        video.currentTime = newTime;
-        this.slider.getComponent(cc.Slider).progress = newTime / duration;
-        this.slider.getChildByName("high").width =
-            this.slider.getChildByName("Handle").getPosition().x + 472.5;
-        this.scheduleOnce(function () {
-            if (_event) {
-                _event.target.getComponent(cc.Button).interactable = true;
-                _event.target.scale = 1;
-            }
-            if (!_this.questionNode.active) {
-                _this.setupTVFocus2();
-            }
-        }, 0.1);
-    };
-    video.prototype.SkipBackward = function (_event) {
-        var _this = this;
-        // console.log("SkipBackward called");
-        // console.log("_event:", _event);
-        // console.log("Current Time:", this.node.getComponent(cc.VideoPlayer).currentTime);
-        if (_event) {
-            _event.target.getComponent(cc.Button).interactable = false;
-        }
-        var video = this.node.getComponent(cc.VideoPlayer);
-        var newTime = Math.max(video.currentTime - this.skipSeconds, 0);
-        video.currentTime = newTime;
-        this.slider.getComponent(cc.Slider).progress =
-            newTime / video.getDuration();
-        this.slider.getChildByName("high").width =
-            this.slider.getChildByName("Handle").getPosition().x + 472.5;
-        this.scheduleOnce(function () {
-            if (_event) {
-                _event.target.getComponent(cc.Button).interactable = true;
-                _event.target.scale = 1;
-            }
-            if (!_this.questionNode.active) {
-                _this.setupTVFocus2();
-            }
-        }, 0.1);
-    };
-    video.prototype.OnTVNavigation = function () {
-        if (this.tools.opacity == 0) {
-            this.ActivateTools(true);
-            if (!this.questionNode.active) {
-                this.setupTVFocus2();
-            }
-        }
-    };
+    // SkipForward(_event?: cc.Event) {
+    //     // console.log("SkipForward called");
+    //     // console.log("_event:", _event);
+    //     // console.log("Current Time:", this.node.getComponent(cc.VideoPlayer).currentTime);
+    //     if (_event) {
+    //         _event.target.getComponent(cc.Button).interactable = false;
+    //     }
+    //     let video = this.node.getComponent(cc.VideoPlayer);
+    //     let duration = video.getDuration();
+    //     let newTime = Math.min(video.currentTime + this.skipSeconds, duration);
+    //     video.currentTime = newTime;
+    //     this.slider.getComponent(cc.Slider).progress = newTime / duration;
+    //     this.slider.getChildByName("high").width =
+    //         this.slider.getChildByName("Handle").getPosition().x + 472.5;
+    //     this.scheduleOnce(() => {
+    //         if (_event) {
+    //             _event.target.getComponent(cc.Button).interactable = true;
+    //             _event.target.scale = 1;
+    //         }
+    //         if (!this.questionNode.active) {
+    //             this.setupTVFocus2();
+    //         }
+    //     }, 0.1);
+    // }
+    // SkipBackward(_event?: cc.Event) {
+    //     // console.log("SkipBackward called");
+    //     // console.log("_event:", _event);
+    //     // console.log("Current Time:", this.node.getComponent(cc.VideoPlayer).currentTime);
+    //     if (_event) {
+    //         _event.target.getComponent(cc.Button).interactable = false;
+    //     }
+    //     let video = this.node.getComponent(cc.VideoPlayer);
+    //     let newTime = Math.max(video.currentTime - this.skipSeconds, 0);
+    //     video.currentTime = newTime;
+    //     this.slider.getComponent(cc.Slider).progress =
+    //         newTime / video.getDuration();
+    //     this.slider.getChildByName("high").width =
+    //         this.slider.getChildByName("Handle").getPosition().x + 472.5;
+    //     this.scheduleOnce(() => {
+    //         if (_event) {
+    //             _event.target.getComponent(cc.Button).interactable = true;
+    //             _event.target.scale = 1;
+    //         }
+    //         if (!this.questionNode.active) {
+    //             this.setupTVFocus2();
+    //         }
+    //     }, 0.1);
+    // }
+    // public OnTVNavigation() {
+    //     if (this.tools.opacity == 0) {
+    //         this.ActivateTools(true);
+    //         if (!this.questionNode.active) {
+    //             this.setupTVFocus2();
+    //         }
+    //     }
+    // }
     video.prototype.ActivateTools = function (_activate) {
         if (_activate === void 0) { _activate = true; }
         if (_activate) {
@@ -438,58 +442,55 @@ var video = /** @class */ (function (_super) {
             }
         }
     };
-    video.prototype.ResumePlayButton = function (_event) {
-        //console.trace("RESUME CALLED");
-        var _this = this;
-        cc.audioEngine.stopMusic();
-        this.isPlay = true;
-        this.isPause = false;
-        this.node.getComponent(cc.VideoPlayer).resume();
-        this.tools.getChildByName("resume").active = false;
-        this.tools.getChildByName("pause").active = true;
-        // if (this.forwardBtn) this.forwardBtn.active = true;
-        // if (this.backwardBtn) this.backwardBtn.active = true;
-        this.scheduleOnce(function () {
-            if (!_this.questionNode.active) {
-                _this.setupTVFocus2();
-            }
-        }, 0);
-    };
-    video.prototype.PauseButton = function (_event) {
-        var _this = this;
-        //console.trace("PAUSE CALLED");
-        this.isPlay = false;
-        this.isPause = true;
-        //this.node.getComponent(cc.VideoPlayer).pause();
-        this.tools.getChildByName("resume").active = true;
-        this.tools.getChildByName("pause").active = false;
-        // if (this.forwardBtn) this.forwardBtn.active = false;
-        // if (this.backwardBtn) this.backwardBtn.active = false;
-        this.ActivateTools();
-        this.scheduleOnce(function () {
-            if (!_this.questionNode.active) {
-                _this.setupTVFocus2();
-            }
-        }, 0);
-    };
-    video.prototype.UpdateSlider = function () {
-        var _this = this;
-        this.isSliding = false;
-        this.currentTime = this.node.getComponent(cc.VideoPlayer).getDuration() * this.slider.getComponent(cc.Slider).progress;
-        this.node.getComponent(cc.VideoPlayer).stop();
-        this.node.getComponent(cc.VideoPlayer).currentTime = this.currentTime;
-        this.node.getComponent(cc.VideoPlayer).play();
-        this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
-        console.log("updateslider : ", Math.round(this.node.getComponent(cc.VideoPlayer).currentTime));
-        this.scheduleOnce(function () {
-            _this.isSliding = true;
-            _this.tools.getChildByName("resume").active = false;
-            _this.tools.getChildByName("pause").active = true;
-            if (!_this.questionNode.active) {
-                _this.setupTVFocus2();
-            }
-        }, 0.2);
-    };
+    // ResumePlayButton(_event?: cc.Event) {
+    //     //console.trace("RESUME CALLED");
+    //     cc.audioEngine.stopMusic();
+    //     this.isPlay = true;
+    //     this.isPause = false;
+    //     this.node.getComponent(cc.VideoPlayer).resume();
+    //     this.tools.getChildByName("resume").active = false;
+    //     this.tools.getChildByName("pause").active = true;
+    //     // if (this.forwardBtn) this.forwardBtn.active = true;
+    //     // if (this.backwardBtn) this.backwardBtn.active = true;
+    //     this.scheduleOnce(() => {
+    //         if (!this.questionNode.active) {
+    //             this.setupTVFocus2();
+    //         }
+    //     }, 0);
+    // }
+    // PauseButton(_event?: cc.Event) {
+    //     //console.trace("PAUSE CALLED");
+    //     this.isPlay = false;
+    //     this.isPause = true;
+    //     //this.node.getComponent(cc.VideoPlayer).pause();
+    //     this.tools.getChildByName("resume").active = true;
+    //     this.tools.getChildByName("pause").active = false;
+    //     // if (this.forwardBtn) this.forwardBtn.active = false;
+    //     // if (this.backwardBtn) this.backwardBtn.active = false;
+    //     this.ActivateTools();
+    //     this.scheduleOnce(() => {
+    //         if (!this.questionNode.active) {
+    //             this.setupTVFocus2();
+    //         }
+    //     }, 0);
+    // }
+    // UpdateSlider() {
+    //     this.isSliding = false;
+    //     this.currentTime = this.node.getComponent(cc.VideoPlayer).getDuration() * this.slider.getComponent(cc.Slider).progress;
+    //     this.node.getComponent(cc.VideoPlayer).stop();
+    //     this.node.getComponent(cc.VideoPlayer).currentTime = this.currentTime;
+    //     this.node.getComponent(cc.VideoPlayer).play();
+    //     this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
+    //     console.log("updateslider : ", Math.round(this.node.getComponent(cc.VideoPlayer).currentTime));
+    //     this.scheduleOnce(() => {
+    //         this.isSliding = true;
+    //         this.tools.getChildByName("resume").active = false;
+    //         this.tools.getChildByName("pause").active = true;
+    //         if (!this.questionNode.active) {
+    //             this.setupTVFocus2();
+    //         }
+    //     }, 0.2);
+    // }
     video.prototype.UpdateSlider2 = function () {
         var _this = this;
         // console.log("updateslider : ");
@@ -621,8 +622,17 @@ var video = /** @class */ (function (_super) {
             backBtn,
             musicBtn
         ]).filter(function (n) { return n; });
-        // setupTVFocus3
-        //console.log("setupTVFocus3:", nodes.map(n => n.name));
+        // Reset option scales
+        optionButtons.forEach(function (option) {
+            option.scale = 1;
+        });
+        // Reset other button scales
+        if (soundBtn)
+            soundBtn.scale = 1;
+        if (backBtn)
+            backBtn.scale = 1;
+        if (musicBtn)
+            musicBtn.scale = 1;
         TVInputManager_1.default.Instance.init(nodes, -1);
         TVInputManager_1.default.Instance.setCanSelect(true);
     };
@@ -762,6 +772,7 @@ var video = /** @class */ (function (_super) {
             });
         }
         this.scheduleOnce(function () {
+            console.log("meowwwwwwwwww");
             cc.audioEngine.playEffect(_this.questions[current].questionAudio, false);
             _this.character.getComponent(cc.Animation).play("Idle");
             _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
@@ -829,12 +840,25 @@ var video = /** @class */ (function (_super) {
         optionsLayout.height = maxHeight * scaleFactor;
     };
     video.prototype.loadSpriteFrame = function (imageName, callback) {
+        var _this = this;
+        console.log("Loading image:", imageName);
         cc.loader.loadRes("images/" + imageName, cc.SpriteFrame, function (err, spriteFrame) {
             if (err) {
-                cc.error(err.message || err);
+                console.error("FAILED TO LOAD IMAGE:", imageName, err);
                 return;
             }
+            console.log("IMAGE LOADED:", imageName);
             callback(spriteFrame);
+            _this.pendingQuestionAssets--;
+            console.log("Remaining question assets:", _this.pendingQuestionAssets);
+            if (_this.pendingQuestionAssets === 0) {
+                _this.questionAssetsLoaded = true;
+                console.log("ALL QUESTION IMAGES LOADED");
+                if (!_this.questionsStarted) {
+                    _this.questionsStarted = true;
+                    _this.checkOnMissingQuestions();
+                }
+            }
         });
     };
     video.prototype.loadAudioClip = function (audioName, callback) {
