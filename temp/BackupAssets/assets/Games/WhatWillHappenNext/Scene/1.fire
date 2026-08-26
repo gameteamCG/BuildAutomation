@@ -2322,9 +2322,6 @@
       "__id__": 5
     },
     "_enabled": true,
-    "extraImg": {
-      "__uuid__": "fe7bee84-c27e-4e2c-bfe9-4452ad2d6dae"
-    },
     "podar_font": null,
     "jaipuria_font": null,
     "tlc_font": null,
@@ -2332,11 +2329,6 @@
     "popSound": [
       {
         "__uuid__": "34f9d273-9dff-4094-bcdb-4e79ee69dcbf"
-      }
-    ],
-    "popSound2": [
-      {
-        "__uuid__": "e6008246-c683-4a2e-98ed-55c5032d805c"
       }
     ],
     "questionSound": [

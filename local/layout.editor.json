@@ -5,21 +5,21 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 0,
-      "y": 26,
-      "width": 1440,
-      "height": 809,
+      "x": -8,
+      "y": -8,
+      "width": 1552,
+      "height": 832,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 378,
-            "height": 722,
+            "width": 403.3000183105469,
+            "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 378,
-                "height": 362,
+                "width": 403.3000183105469,
+                "height": 357.7749938964844,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 378,
-                "height": 357,
+                "width": 403.3000183105469,
+                "height": 353.8125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 642,
-            "height": 722,
+            "width": 684.9750366210938,
+            "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 642,
-                "height": 362,
+                "width": 684.9750366210938,
+                "height": 357.7749938964844,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 642,
-                "height": 357,
+                "width": 684.9750366210938,
+                "height": 353.8125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 414,
-            "height": 722,
+            "width": 441.7124938964844,
+            "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
             "children": [
@@ -89,7 +89,8 @@
         "node-library"
       ]
     },
-    " common-asset-worker-worker": {}
+    " common-asset-worker-worker": {},
+    "window-1787743957143": {}
   },
   "panels": {
     "project-settings": {
@@ -105,10 +106,10 @@
       "height": 900
     },
     "builder": {
-      "x": 0,
+      "x": 48,
       "y": 0,
       "width": 1440,
-      "height": 900
+      "height": 816
     }
   },
   "panelLabelWidth": {}
