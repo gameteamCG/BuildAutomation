@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "D:\\buildfiles\\UKG_SB3_feedback_Smarttv\\Types_of_plants_UKG_GA_46_SmartTV",
+  "buildPath": "D:\\Builds\\SmartTV\\UKG\\Types_of_plants_UKG_GA_46_SmartTV",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
