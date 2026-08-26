@@ -297,7 +297,7 @@ var Gameplay = /** @class */ (function (_super) {
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
         if (StartGame_1.default.Instance.currentLevel == 1) {
-            TVInputManager_1.default.Instance.init(nodes, 2);
+            TVInputManager_1.default.Instance.init(nodes, 1);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);
@@ -317,19 +317,24 @@ var Gameplay = /** @class */ (function (_super) {
         if (this.optionsLayout == "layout3") {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
-        else {
-        }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posX = [-750, -285, 257, 754];
-            var _laypout1posY = [-150, 100, -100, 0];
+            var _laypout1posX = [-700, -200, 300, 800];
+            var _laypout1posY = [-150, 100, -150, 250];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
             if (StartGame_1.default.Instance.currentLevel == 5) {
-                var _laypout1posY_1 = [-200, -200, -80, -50];
+                var _laypout1posY_1 = [-150, 100, -100, 150];
                 for (var i = 0; i < _optionParent.children.length; i++) {
                     _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY_1[i]);
                 }
+            }
+        }
+        if (this.optionsLayout == "layout2") {
+            var _laypout1posX = [-380, 0, 450, 0];
+            var _laypout1posY = [-20, -30, -20, 0];
+            for (var i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
         }
         _template.destroy();
