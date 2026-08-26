@@ -96,7 +96,7 @@ export default class video extends cc.Component {
     private canNextQuestion: boolean = true;
     private attemps: number = 0;
     private videoCompleted: boolean = false;
-    private gameStarted: boolean = false;
+    private gameStarted: boolean = true;
     private canTouch: boolean = false;
     private forwardBtn: cc.Node = null;
     private backwardBtn: cc.Node = null;
@@ -115,8 +115,8 @@ export default class video extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
-        this.forwardBtn = cc.find("Canvas/skipAhead");
-        this.backwardBtn = cc.find("Canvas/skipBack");
+        // this.forwardBtn = cc.find("Canvas/skipAhead");
+        // this.backwardBtn = cc.find("Canvas/skipBack");
         this.UpdateQuestions();
         this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).active = true;
         this.scheduleOnce(() => {
@@ -137,18 +137,18 @@ export default class video extends cc.Component {
         //     this.isOnSlider = true;
         //     this.SliderButton();
         // }, this);
-        let video = this.node.getComponent(cc.VideoPlayer);
-        let duration = video.getDuration();
-        console.log("Duration:", this.node.getComponent(cc.VideoPlayer).getDuration());
-        let showSkipButtons = duration > 30;
+        // let video = this.node.getComponent(cc.VideoPlayer);
+        // let duration = video.getDuration();
+        // console.log("Duration:", this.node.getComponent(cc.VideoPlayer).getDuration());
+        // let showSkipButtons = duration > 30;
 
-        if (this.forwardBtn) {
-            this.forwardBtn.active = showSkipButtons;
-        }
+        // if (this.forwardBtn) {
+        //     this.forwardBtn.active = showSkipButtons;
+        // }
 
-        if (this.backwardBtn) {
-            this.backwardBtn.active = showSkipButtons;
-        }
+        // if (this.backwardBtn) {
+        //     this.backwardBtn.active = showSkipButtons;
+        // }
 
         this.slider.children[2].on("touchmove", function () {
             this.isSliding = false;
@@ -305,15 +305,18 @@ export default class video extends cc.Component {
     }
 
     start() {
-        this.playVideo1();
+
         console.log("starsEarned--1");
+
         for (let i = 2; i <= startGame.Instance.questions.length; i++) {
             let star = cc.instantiate(this.starsPanel.children[0]);
             star.parent = this.starsPanel;
             star.name = i.toString();
             star.setPosition(0, 0);
         }
+
         this.OptionsLayout();
+
         if (startGame.Instance.jockeyName == "puzzle") {
             this.correctAnim = this.puzzleCorrectAnim;
             this.wrongAnim = this.puzzleNegativeAnim;
@@ -326,6 +329,9 @@ export default class video extends cc.Component {
             this.correctAnim = this.podarCorrectAnim;
             this.wrongAnim = this.podarNegativeAnim;
         }
+
+        // Show first question directly
+        this.checkOnMissingQuestions();
     }
     SkipForward(_event?: cc.Event) {
         // console.log("SkipForward called");
@@ -391,49 +397,7 @@ export default class video extends cc.Component {
 
         }, 0.1);
     }
-    playVideo1() {
-        this.node.on('completed', function () {
 
-            if (this.gameStarted) {
-                this.checkOnMissingQuestions();
-                console.log("video completed");
-
-                this.tools.active = false;
-                this.videoCompleted = true;
-
-                if (this.forwardBtn) this.forwardBtn.active = false;
-                if (this.backwardBtn) this.backwardBtn.active = false;
-            }
-
-        }, this);
-
-        this.node.on('playing', function () {
-            //console.log("aaaaaaggggggggggggggggggggggggggg")
-            this.isPlay = true;
-            this.isPause = false;
-            // console.log("Duration = ", this.node.getComponent(cc.VideoPlayer).getDuration());
-            this.scheduleOnce(() => {
-                this.ActivateTools(false);
-            }, 2);
-        }, this);
-        // this.node.getComponent(cc.VideoPlayer).pause();
-        this.node.getComponent(cc.VideoPlayer).volume = 0;
-        // this.node.getComponent(cc.VideoPlayer).resume();
-        // this.node.getComponent(cc.VideoPlayer).pause();
-
-        this.node.getComponent(cc.VideoPlayer).play();
-
-        this.scheduleOnce(() => {
-            this.node.getComponent(cc.VideoPlayer).volume = 1;
-
-            this.scheduleOnce(() => {
-                this.gameStarted = true;
-            }, 1);
-        }, 1);
-        // this.scheduleOnce(() => {
-        //     this.tools.active = true;
-        // }, 5);
-    }
     public OnTVNavigation() {
         if (this.tools.opacity == 0) {
             this.ActivateTools(true);
@@ -512,7 +476,7 @@ export default class video extends cc.Component {
         this.isPlay = false;
         this.isPause = true;
 
-        this.node.getComponent(cc.VideoPlayer).pause();
+        //this.node.getComponent(cc.VideoPlayer).pause();
 
         this.tools.getChildByName("resume").active = true;
         this.tools.getChildByName("pause").active = false;
@@ -628,12 +592,8 @@ export default class video extends cc.Component {
                         element.getComponent(cc.Button).interactable = true;
                     });
                     this.canNextQuestion = true;
-                    if (this.videoCompleted) {
-                        this.checkOnMissingQuestions();
-                    }
-                    else {
-                        this.ResumePlayButton();
-                    }
+
+                    this.checkOnMissingQuestions();
                 }, this.getAnimDuration(this.correctAnim[num]));
 
             }, this.questions[this.currentQuestion - 1].reiterationAudio.duration + 0.5);
@@ -705,22 +665,29 @@ export default class video extends cc.Component {
         let isEnd: boolean = true;
         for (let i = 0; i < this.questionAppeared.length; i++) {
             if (!this.questionAppeared[i]) {
+
                 isEnd = false;
+
                 this.currentQuestion = i;
+
                 console.log("activate the question");
+
                 this.canNextQuestion = false;
+
                 this.questionAppeared[this.currentQuestion] = true;
-                this.PauseButton();
+
                 this.questionSetup();
+
                 this.currentQuestion++;
+
                 console.log("levelStarted--" + this.currentQuestion);
-                this.PauseButton();
+
                 this.questionNode.active = true;
-                this.forwardBtn.active = false;
-                this.backwardBtn.active = false;
+
                 this.scheduleOnce(() => {
                     this.setupTVFocus3();
                 }, 1);
+
                 break;
             }
         }

@@ -107,7 +107,7 @@ var video = /** @class */ (function (_super) {
         _this.canNextQuestion = true;
         _this.attemps = 0;
         _this.videoCompleted = false;
-        _this.gameStarted = false;
+        _this.gameStarted = true;
         _this.canTouch = false;
         _this.forwardBtn = null;
         _this.backwardBtn = null;
@@ -124,8 +124,8 @@ var video = /** @class */ (function (_super) {
     // LIFE-CYCLE CALLBACKS:
     video.prototype.onLoad = function () {
         var _this = this;
-        this.forwardBtn = cc.find("Canvas/skipAhead");
-        this.backwardBtn = cc.find("Canvas/skipBack");
+        // this.forwardBtn = cc.find("Canvas/skipAhead");
+        // this.backwardBtn = cc.find("Canvas/skipBack");
         this.UpdateQuestions();
         this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).active = true;
         this.scheduleOnce(function () {
@@ -146,16 +146,16 @@ var video = /** @class */ (function (_super) {
         //     this.isOnSlider = true;
         //     this.SliderButton();
         // }, this);
-        var video = this.node.getComponent(cc.VideoPlayer);
-        var duration = video.getDuration();
-        console.log("Duration:", this.node.getComponent(cc.VideoPlayer).getDuration());
-        var showSkipButtons = duration > 30;
-        if (this.forwardBtn) {
-            this.forwardBtn.active = showSkipButtons;
-        }
-        if (this.backwardBtn) {
-            this.backwardBtn.active = showSkipButtons;
-        }
+        // let video = this.node.getComponent(cc.VideoPlayer);
+        // let duration = video.getDuration();
+        // console.log("Duration:", this.node.getComponent(cc.VideoPlayer).getDuration());
+        // let showSkipButtons = duration > 30;
+        // if (this.forwardBtn) {
+        //     this.forwardBtn.active = showSkipButtons;
+        // }
+        // if (this.backwardBtn) {
+        //     this.backwardBtn.active = showSkipButtons;
+        // }
         this.slider.children[2].on("touchmove", function () {
             this.isSliding = false;
             this.isOnSlider = true;
@@ -314,7 +314,6 @@ var video = /** @class */ (function (_super) {
         }
     };
     video.prototype.start = function () {
-        this.playVideo1();
         console.log("starsEarned--1");
         for (var i = 2; i <= StartGame_1.default.Instance.questions.length; i++) {
             var star = cc.instantiate(this.starsPanel.children[0]);
@@ -335,6 +334,8 @@ var video = /** @class */ (function (_super) {
             this.correctAnim = this.podarCorrectAnim;
             this.wrongAnim = this.podarNegativeAnim;
         }
+        // Show first question directly
+        this.checkOnMissingQuestions();
     };
     video.prototype.SkipForward = function (_event) {
         var _this = this;
@@ -385,45 +386,6 @@ var video = /** @class */ (function (_super) {
                 _this.setupTVFocus2();
             }
         }, 0.1);
-    };
-    video.prototype.playVideo1 = function () {
-        var _this = this;
-        this.node.on('completed', function () {
-            if (this.gameStarted) {
-                this.checkOnMissingQuestions();
-                console.log("video completed");
-                this.tools.active = false;
-                this.videoCompleted = true;
-                if (this.forwardBtn)
-                    this.forwardBtn.active = false;
-                if (this.backwardBtn)
-                    this.backwardBtn.active = false;
-            }
-        }, this);
-        this.node.on('playing', function () {
-            var _this = this;
-            //console.log("aaaaaaggggggggggggggggggggggggggg")
-            this.isPlay = true;
-            this.isPause = false;
-            // console.log("Duration = ", this.node.getComponent(cc.VideoPlayer).getDuration());
-            this.scheduleOnce(function () {
-                _this.ActivateTools(false);
-            }, 2);
-        }, this);
-        // this.node.getComponent(cc.VideoPlayer).pause();
-        this.node.getComponent(cc.VideoPlayer).volume = 0;
-        // this.node.getComponent(cc.VideoPlayer).resume();
-        // this.node.getComponent(cc.VideoPlayer).pause();
-        this.node.getComponent(cc.VideoPlayer).play();
-        this.scheduleOnce(function () {
-            _this.node.getComponent(cc.VideoPlayer).volume = 1;
-            _this.scheduleOnce(function () {
-                _this.gameStarted = true;
-            }, 1);
-        }, 1);
-        // this.scheduleOnce(() => {
-        //     this.tools.active = true;
-        // }, 5);
     };
     video.prototype.OnTVNavigation = function () {
         if (this.tools.opacity == 0) {
@@ -492,7 +454,7 @@ var video = /** @class */ (function (_super) {
         //console.trace("PAUSE CALLED");
         this.isPlay = false;
         this.isPause = true;
-        this.node.getComponent(cc.VideoPlayer).pause();
+        //this.node.getComponent(cc.VideoPlayer).pause();
         this.tools.getChildByName("resume").active = true;
         this.tools.getChildByName("pause").active = false;
         // if (this.forwardBtn) this.forwardBtn.active = false;
@@ -599,12 +561,7 @@ var video = /** @class */ (function (_super) {
                         element.getComponent(cc.Button).interactable = true;
                     });
                     _this.canNextQuestion = true;
-                    if (_this.videoCompleted) {
-                        _this.checkOnMissingQuestions();
-                    }
-                    else {
-                        _this.ResumePlayButton();
-                    }
+                    _this.checkOnMissingQuestions();
                 }, _this.getAnimDuration(_this.correctAnim[num_1]));
             }, this.questions[this.currentQuestion - 1].reiterationAudio.duration + 0.5);
         }
@@ -673,14 +630,10 @@ var video = /** @class */ (function (_super) {
                 console.log("activate the question");
                 this.canNextQuestion = false;
                 this.questionAppeared[this.currentQuestion] = true;
-                this.PauseButton();
                 this.questionSetup();
                 this.currentQuestion++;
                 console.log("levelStarted--" + this.currentQuestion);
-                this.PauseButton();
                 this.questionNode.active = true;
-                this.forwardBtn.active = false;
-                this.backwardBtn.active = false;
                 this.scheduleOnce(function () {
                     _this.setupTVFocus3();
                 }, 1);
