@@ -92,22 +92,6 @@ var startGame = /** @class */ (function (_super) {
             }
         });
     };
-    startGame.prototype.logData = function () {
-        // console.log("Game ID:", this.gameID);
-        console.log("Total Levels:", this.TotalLevels);
-        // console.log("BGM audio name:", this.BGM_audio.name);
-        console.log("Title Image Name:", this.titleImageName);
-        console.log("Jockey Name:", this.jockeyName);
-        // Log question data
-        this.questions.forEach(function (question, index) {
-            console.log("Question " + (index + 1) + ":");
-            console.log("Question Image Name:", question.questionBgName);
-            console.log("Question Audio Name:", question.questionAudioName);
-            // console.log("Option 1 Image Name:", question.option1ImageName);
-            // console.log("Option 2 Image Name:", question.option2ImageName);
-            console.log("Correct Answer Number:", question.correctAnswerNum);
-        });
-    };
     startGame.prototype.removeExtension = function (imageName) {
         // Remove .png extension
         return imageName.replace(/\.png$/g, '');
@@ -118,16 +102,6 @@ var startGame = /** @class */ (function (_super) {
     };
     startGame.prototype.updateJSONdata = function () {
         var _this = this;
-        // this.scheduleOnce(() => {
-        //     cc.loader.load("https://s3.ap-south-1.amazonaws.com/cgv2-prod-images.creativegalileo.com/HybridLZAssets/BTN-bg-orange.png", (err, texture) => {
-        //         if (err) {
-        //             console.error("Failed to load image:", err);
-        //             return;
-        //         }
-        //         const spriteFrame = new cc.SpriteFrame(texture);
-        //         cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-        //     });
-        // }, 1);
         if (this.isDemoGame) {
             var urlParams = new URLSearchParams(window.location.search);
             // Get the 'json' parameter value from the URL
@@ -144,10 +118,8 @@ var startGame = /** @class */ (function (_super) {
             this.jockeyName = jsonData.additionalData.JockeyName;
             // Assign question data to the variable
             this.questions = jsonData.questionData;
-            console.log("BGM music name = ", jsonData.additionalData.bgmMusicName);
             cc.loader.load(this.titleImageName, function (err, texture) {
                 if (err) {
-                    console.error("Failed to load image:", err);
                     return;
                 }
                 var spriteFrame = new cc.SpriteFrame(texture);
@@ -155,7 +127,6 @@ var startGame = /** @class */ (function (_super) {
             });
             cc.loader.load(jsonData.additionalData.bgmMusicName, function (err, audioClip) {
                 if (err) {
-                    console.error("Failed to load audio clip:", err);
                     return;
                 }
                 _this.BGM_audio = audioClip;
@@ -164,29 +135,14 @@ var startGame = /** @class */ (function (_super) {
             });
             cc.loader.load(jsonData.additionalData.introBgName, function (err, texture) {
                 if (err) {
-                    console.error("Failed to load image:", err);
                     return;
                 }
                 var spriteFrame = new cc.SpriteFrame(texture);
                 cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 _this.introBG = spriteFrame;
             });
-            // cc.loader.load(jsonData.additionalData.mainBgName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.mainBg = spriteFrame;
-            // });
             this.questions.forEach(function (question) {
-                // question.questionBgName = question.questionBgName;
-                // question.questionBgName = question.questionBgName;
-                // question.option1ImageName = question.option1ImageName
-                // question.option2ImageName = question.option2ImageName
             });
-            // Now you can use these variables within this script
-            this.logData();
         }
         else {
             cc.loader.loadRes('game_data', cc.JsonAsset, function (err, jsonAsset) {
@@ -230,7 +186,6 @@ var startGame = /** @class */ (function (_super) {
                     question.reiterationAudioName = question.reiterationAudioName.map(function (reiterationAudioName) { return _this.removeAudioExtension(reiterationAudioName); });
                 });
                 // Now you can use these variables within this script
-                _this.logData(); // You can call a function to log the data or use it in other functions
             });
         }
     };
@@ -248,7 +203,6 @@ var startGame = /** @class */ (function (_super) {
         var demo = url.searchParams.get("isdemo");
         if (demo == "true") {
             this.isDemoGame = true;
-            console.log("It is a demo game");
         }
         this.updateJSONdata();
         if (premium != null) {
@@ -323,7 +277,6 @@ var startGame = /** @class */ (function (_super) {
         }
         cc.director.preloadScene(this.NextSceneName);
         this.scheduleOnce(function () {
-            console.log("jockey name = ", _this.jockeyName);
             if (_this.jockeyName == "Podar") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;
             }
