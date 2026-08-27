@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Animal sounds_LKG Course Book 2_101",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/12469Animalsounds_1719985439934.mp4",
+      "TitleImageName": "AnimalSounds.png",
+      "IntroAudio1Name": "bgm1.mp3",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the animal",
+        "QuestionImageName": "",
+        "QuestionAudioName": "chicken1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "chicken.png",
+          "pig.png",
+          "goat.png",
+          "horse.png"
+        ],
+        "ReiterationAudioName": "chicken.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the animal",
+        "QuestionImageName": "",
+        "QuestionAudioName": "horse1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "elephant.png",
+          "girrafe.png",
+          "horse.png",
+          "bird.png"
+        ],
+        "ReiterationAudioName": "horse.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the animal",
+        "QuestionImageName": "",
+        "QuestionAudioName": "duck1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "chicken.png",
+          "duck.png",
+          "Asset178.png",
+          "fox.png"
+        ],
+        "ReiterationAudioName": "duck.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the animal",
+        "QuestionImageName": "",
+        "QuestionAudioName": "wolf1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "bear.png",
+          "lion.png",
+          "deer.png",
+          "fox.png"
+        ],
+        "ReiterationAudioName": "wolf.mp3",
+        "CorrectAudioName": "positive_4.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the animal",
+        "QuestionImageName": "",
+        "QuestionAudioName": "tiger1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "tiger.png",
+          "goat.png",
+          "bird.png",
+          "sheep.png"
+        ],
+        "ReiterationAudioName": "tiger.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the animal",
+        "QuestionImageName": "",
+        "QuestionAudioName": "elephant1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset178.png",
+          "elephant.png",
+          "cow.png",
+          "horse.png"
+        ],
+        "ReiterationAudioName": "elephant.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

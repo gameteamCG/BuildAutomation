@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "AnimalSounds",
+    "texture": "0368ff13-c8c9-40c0-badc-6e692e52455b",
+    "atlas": "",
+    "rect": [
+      3,
+      8,
+      356,
+      190
+    ],
+    "offset": [
+      -0.5,
+      1.5
+    ],
+    "originalSize": [
+      363,
+      209
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
