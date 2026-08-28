@@ -1,5 +1,6 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
 import startGame from "../../../Framework/Scripts/StartGame";
+import TVInputManager from "./TVInputManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -24,6 +25,20 @@ export default class NewClass extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+
+        // :fire: music button
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        let nodes = [
+
+            backBtn,
+            musicBtn,
+        ];
+        TVInputManager.Instance.setCanSelect(true);
+
+        TVInputManager.Instance.init(nodes);
         if (startGame.Instance.jockeyName == "Podar") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
         }

@@ -1,3 +1,5 @@
+import TVInputManager from "../../Games/TapToFind/Scripts/TVInputManager";
+
 interface AdditionalData {
     GameID: string;
     totalLevel: string;
@@ -108,6 +110,21 @@ export default class startGame extends cc.Component {
                 this.JockeyNode = element;
             }
         });
+        this.scheduleOnce(() => {
+            let backBtn = this.node.getChildByName("back");
+            // :fire: music button
+            let musicBtn = this.node.getChildByName("music");
+            backBtn.scale = 1;
+            musicBtn.scale = 1;
+            let nodes = [
+
+                backBtn,
+                musicBtn,
+            ];
+            TVInputManager.Instance.setCanSelect(true);
+
+            TVInputManager.Instance.init(nodes);
+        }, 0.5);
     }
 
     logData() {
