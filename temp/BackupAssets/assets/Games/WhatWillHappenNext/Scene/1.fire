@@ -1925,8 +1925,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 3,
-    "transition": 3,
+    "_N$transition": 1,
+    "transition": 1,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,
@@ -1987,7 +1987,7 @@
     },
     "component": "",
     "_componentId": "ad4e51CcXJH24gA96gBaxOm",
-    "handler": "OnVOButton",
+    "handler": "playButtonSound",
     "customEventData": ""
   },
   {
@@ -2261,9 +2261,6 @@
     "_clips": [
       {
         "__uuid__": "86935948-a2ff-4d0e-bdeb-a5bb68f0941a"
-      },
-      {
-        "__uuid__": "de2b2d38-2a01-4843-8a4c-78d681054fff"
       }
     ],
     "playOnLoad": false,
