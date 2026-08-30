@@ -223,6 +223,100 @@ var Gameplay = /** @class */ (function (_super) {
         this.currentJockey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
         this.currentJockey.active = true;
     };
+    // start() {
+    //     this.LoadQuestion();
+    //     ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel - 1);
+    //     startGame.Instance.node.getChildByName("progress").opacity = 255;
+    //     this.scheduleOnce(() => {
+    //         if (this.questionAudio) {
+    //             if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
+    //                 cc.audioEngine.playEffect(this.questionAudio, false);
+    //             }
+    //         }
+    //         if (this.optionsLayout == "layout1") {
+    //             let delay = 0;
+    //             for (let i = 0; i < this.options.children.length; i++) {
+    //                 this.options.children[i].active = false;
+    //                 this.options.children[i].opacity = 255;
+    //                 this.options.setPosition(0, 0);
+    //                 this.scheduleOnce(() => {
+    //                     let element = this.options.children[i];
+    //                     let pos = element.getPosition();
+    //                     element.setPosition(pos.x, pos.y - 850);
+    //                     element.active = true;
+    //                     cc.audioEngine.playEffect(this.pop_audio, false);
+    //                     cc.tween(element).to(0.65, { y: pos.y }, { easing: "sineInOut" }).start();
+    //                 }, delay);
+    //                 delay += 0.35;
+    //             }
+    //             this.options.children.forEach(element => {
+    //                 element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout1, this);
+    //                 element.on(cc.Node.EventType.TOUCH_END, this.onTouchStart_layout1, this);
+    //             });
+    //             this.scheduleOnce(() => {
+    //                 this.canPlay = true;
+    //                 this.setupTVFocus("layout1");
+    //             }, delay + 0.65); // शेवटच्या option च्या tween ची duration
+    //         }
+    //         else if (this.optionsLayout == "layout2") {
+    //             // this.OptionsLayout();
+    //             if (startGame.Instance.currentLevel == 6) {
+    //                 this.node.getChildByName("layout2").setPosition(-2.282, 110)
+    //                 this.node.getChildByName("plate").active = true;
+    //             }
+    //             else {
+    //                 this.node.getChildByName("basket").active = true;
+    //             }
+    //             //this.node.getChildByName("rope").active = true;
+    //             this.arrangeChildren(this.options, 20); // 10 is an example spacing value
+    //             let delay = 0;
+    //             for (let i = 0; i < this.options.children.length; i++) {
+    //                 this.scheduleOnce(() => {
+    //                     cc.audioEngine.playEffect(this.pop_audio, false);
+    //                     cc.tween(this.options.children[i]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
+    //                 }, delay);
+    //                 delay += 0.25;
+    //             }
+    //             this.options.children.forEach(element => {
+    //                 element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout2, this);
+    //                 element.on(cc.Node.EventType.TOUCH_END, this.onTouchStart_layout2, this);
+    //             });
+    //             this.scheduleOnce(() => {
+    //                 this.canPlay = true;
+    //                 this.setupTVFocus("layout2");
+    //             }, delay + 0.5);
+    //         }
+    //         else if (this.optionsLayout == "layout3") {
+    //             let delay = 0;
+    //             for (let i = 0; i < this.options.children.length; i++) {
+    //                 this.scheduleOnce(() => {
+    //                     cc.audioEngine.playEffect(this.pop_audio, false);
+    //                     cc.tween(this.options.children[i]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
+    //                 }, delay);
+    //                 delay += 0.25;
+    //             }
+    //             this.options.children.forEach(element => {
+    //                 element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout3, this);
+    //                 element.on(cc.Node.EventType.TOUCH_END, this.onTouchStart_layout3, this);
+    //             });
+    //             this.scheduleOnce(() => {
+    //                 this.canPlay = true;
+    //                 this.setupTVFocus("layout3");
+    //             }, delay + 0.5);
+    //         }
+    //         this.scheduleOnce(() => {
+    //             if (startGame.Instance.currentLevel == 1) {
+    //                 let hand = this.node.getChildByName("hand");
+    //                 hand.setParent(this.options.getChildByName(this.correctAnswer[0].toString()));
+    //                 hand.setPosition(50, -100);
+    //                 hand.angle = 40;
+    //                 hand.setParentWithSamePos(this.node);
+    //                 hand.active = true;
+    //                 hand.getComponent(cc.Animation).play();
+    //             }
+    //         }, 1);
+    //     }, 1);
+    // }
     Gameplay.prototype.start = function () {
         var _this = this;
         this.LoadQuestion();
@@ -256,6 +350,11 @@ var Gameplay = /** @class */ (function (_super) {
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout1, _this);
                     element.on(cc.Node.EventType.TOUCH_END, _this.onTouchStart_layout1, _this);
+                    // TV remote / keyboard support
+                    element.off("tv-select");
+                    element.on("tv-select", function () {
+                        _this.onTouchStart_layout1({ target: element });
+                    }, _this);
                 });
                 _this.scheduleOnce(function () {
                     _this.canPlay = true;
@@ -287,6 +386,11 @@ var Gameplay = /** @class */ (function (_super) {
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout2, _this);
                     element.on(cc.Node.EventType.TOUCH_END, _this.onTouchStart_layout2, _this);
+                    // TV remote / keyboard support
+                    element.off("tv-select");
+                    element.on("tv-select", function () {
+                        _this.onTouchStart_layout2({ target: element });
+                    }, _this);
                 });
                 _this.scheduleOnce(function () {
                     _this.canPlay = true;
@@ -308,6 +412,11 @@ var Gameplay = /** @class */ (function (_super) {
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout3, _this);
                     element.on(cc.Node.EventType.TOUCH_END, _this.onTouchStart_layout3, _this);
+                    // TV remote / keyboard support
+                    element.off("tv-select");
+                    element.on("tv-select", function () {
+                        _this.onTouchStart_layout3({ target: element });
+                    }, _this);
                 });
                 _this.scheduleOnce(function () {
                     _this.canPlay = true;
@@ -370,6 +479,7 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.onTouchStart_layout1 = function (event) {
         var _this = this;
+        console.log("LAYOUT1 TOUCH:", event.target.name, "canTouch:", this.canTouch);
         if (!this.canTouch) {
             return;
         }
@@ -432,6 +542,7 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.onTouchStart_layout2 = function (event) {
         var _this = this;
+        console.log("LAYOUT2 TOUCH:", event.target.name, "canTouch:", this.canTouch);
         if (!this.canTouch) {
             return;
         }

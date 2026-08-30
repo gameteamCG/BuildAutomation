@@ -367,7 +367,7 @@ exports.default = TVInputManager;
 
 
         -------------------------------- EndScreen-----------------------------------------
-         onload :
+        onload :
                 let backBtn = startGame.Instance.node.getChildByName("back");
                 let musicBtn = startGame.Instance.node.getChildByName("music");
                 backBtn.scale = 1;
