@@ -433,62 +433,92 @@ var NewClass = /** @class */ (function (_super) {
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 cc.tween(_this.node.getChildByName("Option").getChildByName(i.toString()))
                     .to(0.5, { scale: ObjScale }, { easing: "sineInOut" }).start();
+                // if (i == this.node.getChildByName("Option").children.length) {
+                //     this.scheduleOnce(() => {
+                //         if (globalVariables.Instance.currentLevel == 1) {
+                //             let hand = this.node.getChildByName("hand");
+                //             console.log("answer array num = ", this.answerArray[0]);
+                //             hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
+                //             hand.setPosition(0, -30);
+                //             hand.setParentWithSamePos(this.node);
+                //             let handPosition: cc.Vec2 = hand.getPosition();
+                //             let ThirdObject: cc.Node = this.node.getChildByName("QuestionBox").getChildByName("ThirdObject");
+                //             let distanceX: number = 0;
+                //             if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tlc") {
+                //                 distanceX = 420;
+                //             }
+                //             else {
+                //                 distanceX = 300;
+                //             }
+                //             let waitTime: number = 0;
+                //             if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
+                //                 waitTime = 2;
+                //             }
+                //             //     this.scheduleOnce(() => {
+                //             //         hand.getComponent(cc.Animation).play("handAnimation");
+                //             //         this.scheduleOnce(() => {
+                //             //             cc.tween(hand).to(1, { x: ThirdObject.x - distanceX, y: ThirdObject.y - 200 }).call(() => {
+                //             //                 hand.getComponent(cc.Animation).play("handAnimation");
+                //             //                 this.scheduleOnce(() => {
+                //             //                     hand.setPosition(handPosition.x, handPosition.y);
+                //             //                     hand.getComponent(cc.Animation).play("handAnimation");
+                //             //                     this.scheduleOnce(() => {
+                //             //                         cc.tween(hand).to(1, { x: ThirdObject.x - distanceX, y: ThirdObject.y - 200 }).call(() => {
+                //             //                             hand.getComponent(cc.Animation).play("handAnimation");
+                //             //                             this.scheduleOnce(() => {
+                //             //                                 hand.active = false;
+                //             //                             }, 1);
+                //             //                         }).start();
+                //             //                     }, 1);
+                //             //                 }, 1);
+                //             //             }).start();
+                //             //         }, 1);
+                //             //     }, waitTime);
+                //             // }
+                //             this.scheduleOnce(() => {
+                //                 hand.getComponent(cc.Animation).play("handAnimation");
+                //                 this.scheduleOnce(() => {
+                //                     hand.getComponent(cc.Animation).play("handAnimation");
+                //                     this.scheduleOnce(() => {
+                //                         hand.getComponent(cc.Animation).play("handAnimation");
+                //                         this.scheduleOnce(() => {
+                //                             hand.getComponent(cc.Animation).play("handAnimation");
+                //                             this.scheduleOnce(() => {
+                //                                 hand.active = false;
+                //                             }, 1);
+                //                         }, 1);
+                //                     }, 1);
+                //                 }, 1);
+                //             }, waitTime);
+                //             this.PlayQuestionAudio();
+                //             this.canTouch = true;
+                //             this.canPlay = true;
+                //             if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+                //         }, 0.5);
+                //     this.setupTVFocus("Option");
+                // }
                 if (i == _this.node.getChildByName("Option").children.length) {
                     _this.scheduleOnce(function () {
                         if (globalVariables_1.default.Instance.currentLevel == 1) {
                             var hand_1 = _this.node.getChildByName("hand");
-                            console.log("answer array num = ", _this.answerArray[0]);
-                            hand_1.setParent(_this.node.getChildByName("Option").getChildByName(_this.answerArray[0]));
+                            hand_1.setParent(_this.node.getChildByName("Option")
+                                .getChildByName(_this.answerArray[0]));
                             hand_1.setPosition(0, -30);
                             hand_1.setParentWithSamePos(_this.node);
-                            var handPosition = hand_1.getPosition();
-                            var ThirdObject = _this.node.getChildByName("QuestionBox").getChildByName("ThirdObject");
-                            var distanceX = 0;
-                            if (StartGame_1.default.Instance.jockeyName == "supercub" || StartGame_1.default.Instance.jockeyName == "tlc") {
-                                distanceX = 420;
-                            }
-                            else {
-                                distanceX = 300;
-                            }
                             var waitTime = 0;
-                            if (StartGame_1.default.Instance.jockeyName == "tlc" || StartGame_1.default.Instance.jockeyName == "supercub") {
+                            if (StartGame_1.default.Instance.jockeyName == "tlc" ||
+                                StartGame_1.default.Instance.jockeyName == "supercub") {
                                 waitTime = 2;
                             }
-                            //     this.scheduleOnce(() => {
-                            //         hand.getComponent(cc.Animation).play("handAnimation");
-                            //         this.scheduleOnce(() => {
-                            //             cc.tween(hand).to(1, { x: ThirdObject.x - distanceX, y: ThirdObject.y - 200 }).call(() => {
-                            //                 hand.getComponent(cc.Animation).play("handAnimation");
-                            //                 this.scheduleOnce(() => {
-                            //                     hand.setPosition(handPosition.x, handPosition.y);
-                            //                     hand.getComponent(cc.Animation).play("handAnimation");
-                            //                     this.scheduleOnce(() => {
-                            //                         cc.tween(hand).to(1, { x: ThirdObject.x - distanceX, y: ThirdObject.y - 200 }).call(() => {
-                            //                             hand.getComponent(cc.Animation).play("handAnimation");
-                            //                             this.scheduleOnce(() => {
-                            //                                 hand.active = false;
-                            //                             }, 1);
-                            //                         }).start();
-                            //                     }, 1);
-                            //                 }, 1);
-                            //             }).start();
-                            //         }, 1);
-                            //     }, waitTime);
-                            // }
+                            // Hand position अजिबात बदलणार नाही
                             _this.scheduleOnce(function () {
                                 hand_1.getComponent(cc.Animation).play("handAnimation");
                                 _this.scheduleOnce(function () {
-                                    // Hand initial position वरच आहे
                                     hand_1.getComponent(cc.Animation).play("handAnimation");
                                     _this.scheduleOnce(function () {
-                                        // Hand ची position change नाही
                                         hand_1.getComponent(cc.Animation).play("handAnimation");
                                         _this.scheduleOnce(function () {
-                                            // Hand initial position वरच आहे
-                                            hand_1.getComponent(cc.Animation).play("handAnimation");
-                                            _this.scheduleOnce(function () {
-                                                hand_1.active = false;
-                                            }, 1);
+                                            hand_1.active = false;
                                         }, 1);
                                     }, 1);
                                 }, 1);
@@ -496,12 +526,13 @@ var NewClass = /** @class */ (function (_super) {
                             _this.PlayQuestionAudio();
                             _this.canTouch = true;
                             _this.canPlay = true;
-                            if (TVInputManager_1.default.Instance)
+                            if (TVInputManager_1.default.Instance) {
                                 TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
+                            }
                         }
-                        0.5;
-                    });
-                    _this.setupTVFocus("Option");
+                        // Setup TV Focus
+                        _this.setupTVFocus("Option");
+                    }, 0.5);
                 }
             }, delay);
             delay += 0.5;
