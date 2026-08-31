@@ -1,93 +1,67 @@
 {
-    "AdditionalData": {
-        "GameID": "Blends - st_UKG_SB3_28",
-        "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/66015802_ST_1714048086186.mp4",
-        "TitleImageName": "stblend.png",
-        "IntroAudio1Name": "",
-        "IntroAudio2Name": "",
-        "JockeyName": "puzzle",
-        "TotalLevel": "4"
+  "AdditionalData": {
+    "GameID": "Letters and sounds Ii",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/I_Song_1738237511252.mp4",
+    "TitleImageName": "Asset 231 (1).png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "identify_new1.png",
+      "QuestionAudioName": "letterwithlettersoundII.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "z_new1.png",
+        "i_new1.png"
+      ],
+      "ReiterationAudioName": "535341-8-i-says_rNuLCgy6.mp3",
+      "CorrectAudioName": "positive_1.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "2"
     },
-    "QuestionData": [
-        {
-            "QuestionAppearTime": "2000",
-            "IsQuestionText": true,
-            "QuestionText": "stove",
-            "QuestionImageName": "",
-            "QuestionAudioName": "19959227_1_identify_the_picture_f.mp3",
-            "PlayQuestionAudio": true,
-            "IsOptionText": false,
-            "NumberOfOptions": 4,
-            "Options": [
-                "washing.png",
-                "fridge.png",
-                "micro.png",
-                "stove.png"
-            ],
-            "ReiterationAudioName": "stove.mp3",
-            "CorrectAudioName": "positive_1.mp3",
-            "WrongAudioName": "negative_1.mp3",
-            "CorrectAnswer": "4"
-        },
-        {
-            "QuestionAppearTime": "2000",
-            "IsQuestionText": true,
-            "QuestionText": "star",
-            "QuestionImageName": "",
-            "QuestionAudioName": "Identify_the_star_shape.mp3",
-            "PlayQuestionAudio": true,
-            "IsOptionText": false,
-            "NumberOfOptions": 4,
-            "Options": [
-                "circle.png",
-                "star2.png",
-                "square.png",
-                "heart.png"
-            ],
-            "ReiterationAudioName": "star.mp3",
-            "CorrectAudioName": "positive_2.mp3",
-            "WrongAudioName": "negative_2.mp3",
-            "CorrectAnswer": "2"
-        },
-        {
-            "QuestionAppearTime": "2000",
-            "IsQuestionText": false,
-            "QuestionText": "",
-            "QuestionImageName": "starfish.png",
-            "QuestionAudioName": "19959227_7_click_on_the_missing_b.mp3",
-            "PlayQuestionAudio": true,
-            "IsOptionText": false,
-            "NumberOfOptions": 4,
-            "Options": [
-                "sn.png",
-                "sp.png",
-                "st.png",
-                "sl.png"
-            ],
-            "ReiterationAudioName": "17605948_18_starfish.mp3",
-            "CorrectAudioName": "positive_3.mp3",
-            "WrongAudioName": "negative_1.mp3",
-            "CorrectAnswer": "3"
-        },
-        {
-            "QuestionAppearTime": "2000",
-            "IsQuestionText": false,
-            "QuestionText": "",
-            "QuestionImageName": "stairs.png",
-            "QuestionAudioName": "19959227_7_click_on_the_missing_b.mp3",
-            "PlayQuestionAudio": true,
-            "IsOptionText": false,
-            "NumberOfOptions": 4,
-            "Options": [
-                "st.png",
-                "sn.png",
-                "sp.png",
-                "sl.png"
-            ],
-            "ReiterationAudioName": "stairs.mp3",
-            "CorrectAudioName": "positive_4.mp3",
-            "WrongAudioName": "negative_2.mp3",
-            "CorrectAnswer": "1"
-        }
-    ]
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "i_new2.png",
+      "QuestionAudioName": "tapon.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "igloo.png",
+        "jacket.png"
+      ],
+      "ReiterationAudioName": "igloo.mp3",
+      "CorrectAudioName": "positive_2.mp3",
+      "WrongAudioName": "negative_2.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "ink_new1.png",
+      "QuestionAudioName": "identifyforgivenpicture.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "r_new1.png",
+        "i_new1.png"
+      ],
+      "ReiterationAudioName": "sound-of-i_CBjXpseP.mp3",
+      "CorrectAudioName": "positive_3.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
 }
