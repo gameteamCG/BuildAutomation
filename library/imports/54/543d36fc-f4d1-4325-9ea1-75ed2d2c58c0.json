@@ -29,7 +29,7 @@
         ],
         "ReiterationAudioName": "british_535341-18-s-says_gQUWvbIw.mp3",
         "CorrectAudioName": "GREATWORK.mp3",
-        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "2"
       },
       {
@@ -47,7 +47,7 @@
         ],
         "ReiterationAudioName": "10473398_7_sea.mp3",
         "CorrectAudioName": "GOODJOB.mp3",
-        "WrongAudioName": "ohoh.mp3",
+        "WrongAudioName": "negative_2.mp3",
         "CorrectAnswer": "1"
       },
       {
@@ -65,7 +65,7 @@
         ],
         "ReiterationAudioName": "british_11219349_7_sun.mp3",
         "CorrectAudioName": "FANTASTIC.mp3",
-        "WrongAudioName": "nevermindtryagain.mp3",
+        "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "1"
       },
       {
@@ -83,7 +83,7 @@
         ],
         "ReiterationAudioName": "british_8844058_18_sandwich.mp3",
         "CorrectAudioName": "EXCELLENTJOB.mp3",
-        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "WrongAudioName": "negative_2.mp3",
         "CorrectAnswer": "2"
       },
       {
@@ -101,7 +101,7 @@
         ],
         "ReiterationAudioName": "british_8346392_6_sock.mp3",
         "CorrectAudioName": "BRILLIANT.mp3",
-        "WrongAudioName": "ohoh.mp3",
+        "WrongAudioName": "negative_2.mp3",
         "CorrectAnswer": "2"
       }
     ]
