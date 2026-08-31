@@ -514,33 +514,65 @@ export default class NewClass extends cc.Component {
                             if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
                                 waitTime = 2;
                             }
+                            //     this.scheduleOnce(() => {
+                            //         hand.getComponent(cc.Animation).play("handAnimation");
+                            //         this.scheduleOnce(() => {
+                            //             cc.tween(hand).to(1, { x: ThirdObject.x - distanceX, y: ThirdObject.y - 200 }).call(() => {
+                            //                 hand.getComponent(cc.Animation).play("handAnimation");
+                            //                 this.scheduleOnce(() => {
+                            //                     hand.setPosition(handPosition.x, handPosition.y);
+                            //                     hand.getComponent(cc.Animation).play("handAnimation");
+                            //                     this.scheduleOnce(() => {
+                            //                         cc.tween(hand).to(1, { x: ThirdObject.x - distanceX, y: ThirdObject.y - 200 }).call(() => {
+                            //                             hand.getComponent(cc.Animation).play("handAnimation");
+                            //                             this.scheduleOnce(() => {
+                            //                                 hand.active = false;
+                            //                             }, 1);
+                            //                         }).start();
+                            //                     }, 1);
+                            //                 }, 1);
+                            //             }).start();
+                            //         }, 1);
+
+                            //     }, waitTime);
+                            // }
                             this.scheduleOnce(() => {
-                                hand.getComponent(cc.Animation).play("handDrag");
+
+                                hand.getComponent(cc.Animation).play("handAnimation");
+
                                 this.scheduleOnce(() => {
-                                    cc.tween(hand).to(1, { x: ThirdObject.x - distanceX, y: ThirdObject.y - 200 }).call(() => {
-                                        hand.getComponent(cc.Animation).play("handDrop");
+
+                                    // Hand initial position वरच आहे
+                                    hand.getComponent(cc.Animation).play("handAnimation");
+
+                                    this.scheduleOnce(() => {
+
+                                        // Hand ची position change नाही
+                                        hand.getComponent(cc.Animation).play("handAnimation");
+
                                         this.scheduleOnce(() => {
-                                            hand.setPosition(handPosition.x, handPosition.y);
-                                            hand.getComponent(cc.Animation).play("handDrag");
+
+                                            // Hand initial position वरच आहे
+                                            hand.getComponent(cc.Animation).play("handAnimation");
+
                                             this.scheduleOnce(() => {
-                                                cc.tween(hand).to(1, { x: ThirdObject.x - distanceX, y: ThirdObject.y - 200 }).call(() => {
-                                                    hand.getComponent(cc.Animation).play("handDrop");
-                                                    this.scheduleOnce(() => {
-                                                        hand.active = false;
-                                                    }, 1);
-                                                }).start();
+
+                                                hand.active = false;
+
                                             }, 1);
+
                                         }, 1);
-                                    }).start();
+
+                                    }, 1);
+
                                 }, 1);
 
                             }, waitTime);
-                        }
-                        this.PlayQuestionAudio();
-                        this.canTouch = true;
-                        this.canPlay = true;
-                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
-                    }, 0.5);
+                            this.PlayQuestionAudio();
+                            this.canTouch = true;
+                            this.canPlay = true;
+                            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+                        }, 0.5);
                     this.setupTVFocus("Option");
                 }
             }, delay);

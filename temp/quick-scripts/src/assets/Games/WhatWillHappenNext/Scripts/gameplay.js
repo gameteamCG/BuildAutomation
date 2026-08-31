@@ -441,46 +441,66 @@ var NewClass = /** @class */ (function (_super) {
                             hand_1.setParent(_this.node.getChildByName("Option").getChildByName(_this.answerArray[0]));
                             hand_1.setPosition(0, -30);
                             hand_1.setParentWithSamePos(_this.node);
-                            var handPosition_1 = hand_1.getPosition();
-                            var ThirdObject_1 = _this.node.getChildByName("QuestionBox").getChildByName("ThirdObject");
-                            var distanceX_1 = 0;
+                            var handPosition = hand_1.getPosition();
+                            var ThirdObject = _this.node.getChildByName("QuestionBox").getChildByName("ThirdObject");
+                            var distanceX = 0;
                             if (StartGame_1.default.Instance.jockeyName == "supercub" || StartGame_1.default.Instance.jockeyName == "tlc") {
-                                distanceX_1 = 420;
+                                distanceX = 420;
                             }
                             else {
-                                distanceX_1 = 300;
+                                distanceX = 300;
                             }
                             var waitTime = 0;
                             if (StartGame_1.default.Instance.jockeyName == "tlc" || StartGame_1.default.Instance.jockeyName == "supercub") {
                                 waitTime = 2;
                             }
+                            //     this.scheduleOnce(() => {
+                            //         hand.getComponent(cc.Animation).play("handAnimation");
+                            //         this.scheduleOnce(() => {
+                            //             cc.tween(hand).to(1, { x: ThirdObject.x - distanceX, y: ThirdObject.y - 200 }).call(() => {
+                            //                 hand.getComponent(cc.Animation).play("handAnimation");
+                            //                 this.scheduleOnce(() => {
+                            //                     hand.setPosition(handPosition.x, handPosition.y);
+                            //                     hand.getComponent(cc.Animation).play("handAnimation");
+                            //                     this.scheduleOnce(() => {
+                            //                         cc.tween(hand).to(1, { x: ThirdObject.x - distanceX, y: ThirdObject.y - 200 }).call(() => {
+                            //                             hand.getComponent(cc.Animation).play("handAnimation");
+                            //                             this.scheduleOnce(() => {
+                            //                                 hand.active = false;
+                            //                             }, 1);
+                            //                         }).start();
+                            //                     }, 1);
+                            //                 }, 1);
+                            //             }).start();
+                            //         }, 1);
+                            //     }, waitTime);
+                            // }
                             _this.scheduleOnce(function () {
-                                hand_1.getComponent(cc.Animation).play("handDrag");
+                                hand_1.getComponent(cc.Animation).play("handAnimation");
                                 _this.scheduleOnce(function () {
-                                    cc.tween(hand_1).to(1, { x: ThirdObject_1.x - distanceX_1, y: ThirdObject_1.y - 200 }).call(function () {
-                                        hand_1.getComponent(cc.Animation).play("handDrop");
+                                    // Hand initial position वरच आहे
+                                    hand_1.getComponent(cc.Animation).play("handAnimation");
+                                    _this.scheduleOnce(function () {
+                                        // Hand ची position change नाही
+                                        hand_1.getComponent(cc.Animation).play("handAnimation");
                                         _this.scheduleOnce(function () {
-                                            hand_1.setPosition(handPosition_1.x, handPosition_1.y);
-                                            hand_1.getComponent(cc.Animation).play("handDrag");
+                                            // Hand initial position वरच आहे
+                                            hand_1.getComponent(cc.Animation).play("handAnimation");
                                             _this.scheduleOnce(function () {
-                                                cc.tween(hand_1).to(1, { x: ThirdObject_1.x - distanceX_1, y: ThirdObject_1.y - 200 }).call(function () {
-                                                    hand_1.getComponent(cc.Animation).play("handDrop");
-                                                    _this.scheduleOnce(function () {
-                                                        hand_1.active = false;
-                                                    }, 1);
-                                                }).start();
+                                                hand_1.active = false;
                                             }, 1);
                                         }, 1);
-                                    }).start();
+                                    }, 1);
                                 }, 1);
                             }, waitTime);
+                            _this.PlayQuestionAudio();
+                            _this.canTouch = true;
+                            _this.canPlay = true;
+                            if (TVInputManager_1.default.Instance)
+                                TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
                         }
-                        _this.PlayQuestionAudio();
-                        _this.canTouch = true;
-                        _this.canPlay = true;
-                        if (TVInputManager_1.default.Instance)
-                            TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
-                    }, 0.5);
+                        0.5;
+                    });
                     _this.setupTVFocus("Option");
                 }
             }, delay);
