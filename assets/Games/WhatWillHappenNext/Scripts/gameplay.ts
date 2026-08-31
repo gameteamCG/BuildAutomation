@@ -1,4 +1,5 @@
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 import TVInputManager from "./TVInputManager";
@@ -476,6 +477,7 @@ export default class NewClass extends cc.Component {
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+        cc.tween(_node.children[1]).to(0.5, { scale: 2 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
             this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
