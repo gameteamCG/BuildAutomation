@@ -168,7 +168,7 @@ export default class Gameplay extends cc.Component {
                 }
                 this.scheduleOnce(() => {
                     this.setupTVFocus(this.optionsLayout);
-                }, delay + 0.1);
+                }, delay + 0.5);
                 this.options.children.forEach(element => {
                     element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout1, this);
                     element.on("tv-select", this.onTouchStart_layout1, this);
@@ -251,7 +251,7 @@ export default class Gameplay extends cc.Component {
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
         if (startGame.Instance.currentLevel == 1) {
-            TVInputManager.Instance.init(nodes, 1);
+            TVInputManager.Instance.init(nodes, 2);
         }
         else {
             TVInputManager.Instance.init(nodes, -1);
@@ -271,26 +271,22 @@ export default class Gameplay extends cc.Component {
         if (this.optionsLayout == "layout3") {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
+        else {
+        }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posX: number[] = [-700, -200, 300, 800];
-            let _laypout1posY: number[] = [-150, 100, -150, 250];
+            let _laypout1posX: number[] = [-750, -285, 257, 754];
+            let _laypout1posY: number[] = [-150, 100, -100, 0];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
             if (startGame.Instance.currentLevel == 5) {
-                let _laypout1posY: number[] = [-150, 100, -100, 150];
+                let _laypout1posY: number[] = [-200, -200, -80, -50];
                 for (let i = 0; i < _optionParent.children.length; i++) {
                     _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
                 }
             }
         }
-        if (this.optionsLayout == "layout2") {
-            let _laypout1posX: number[] = [-380, 0, 450, 0];
-            let _laypout1posY: number[] = [-20, -30, -20, 0];
-            for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
-            }
-        } _template.destroy();
+        _template.destroy();
 
     }
 
