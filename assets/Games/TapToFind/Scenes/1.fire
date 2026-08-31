@@ -1576,8 +1576,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
+      "width": 300,
+      "height": 200
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1595,8 +1595,8 @@
         0,
         0,
         1,
-        0.9,
-        0.9,
+        0.7,
+        0.7,
         1
       ]
     },
@@ -2686,8 +2686,8 @@
         0,
         0,
         1,
-        0.8,
-        0.8,
+        0.7,
+        0.7,
         1
       ]
     },
@@ -2910,7 +2910,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 270.22,
+      "width": 260.65,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -2962,8 +2962,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": " Letter Pp",
-    "_N$string": " Letter Pp",
+    "_string": " Letter p ",
+    "_N$string": " Letter p ",
     "_fontSize": 70,
     "_lineHeight": 80,
     "_enableWrapText": true,

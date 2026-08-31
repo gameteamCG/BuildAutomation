@@ -168,7 +168,7 @@ export default class Gameplay extends cc.Component {
                 }
                 this.scheduleOnce(() => {
                     this.setupTVFocus(this.optionsLayout);
-                }, delay + 0.1);
+                }, delay + 0.5);
                 this.options.children.forEach(element => {
                     element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout1, this);
                     element.on("tv-select", this.onTouchStart_layout1, this);
@@ -188,7 +188,7 @@ export default class Gameplay extends cc.Component {
                 }
                 this.scheduleOnce(() => {
                     this.setupTVFocus(this.optionsLayout);
-                }, delay + 0.1);
+                }, delay + 0.5);
                 this.options.children.forEach(element => {
                     element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout2, this);
                     element.on("tv-select", this.onTouchStart_layout2, this);
@@ -205,7 +205,7 @@ export default class Gameplay extends cc.Component {
                 }
                 this.scheduleOnce(() => {
                     this.setupTVFocus(this.optionsLayout);
-                }, delay + 0.1);
+                }, delay + 0.5);
                 this.options.children.forEach(element => {
                     element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout3, this);
                     element.on("tv-select", this.onTouchStart_layout3, this);
@@ -251,7 +251,7 @@ export default class Gameplay extends cc.Component {
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
         if (startGame.Instance.currentLevel == 1) {
-            TVInputManager.Instance.init(nodes, 1);
+            TVInputManager.Instance.init(nodes, 0);
         }
         else {
             TVInputManager.Instance.init(nodes, -1);
@@ -277,10 +277,11 @@ export default class Gameplay extends cc.Component {
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
-            if (startGame.Instance.currentLevel == 5) {
-                let _laypout1posY: number[] = [-150, 100, -100, 150];
+            if (startGame.Instance.currentLevel == 3) {
+                _laypout1posX = [-665, -230, 204, 639];
+                _laypout1posY = [-160, -160, -160, -160, -160];
                 for (let i = 0; i < _optionParent.children.length; i++) {
-                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                    _optionParent.children[i].setPosition(_laypout1posX[i], -220);
                 }
             }
         }
@@ -290,7 +291,8 @@ export default class Gameplay extends cc.Component {
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
-        } _template.destroy();
+        }
+        _template.destroy();
 
     }
 
@@ -446,6 +448,7 @@ export default class Gameplay extends cc.Component {
             _clone.parent = node;
             _clone.setPosition(0, 0);
             _clone.setParentWithSamePos(this.node);
+            _clone.scale = 0.7;
             _clone.children[0].active = true;
             _clone.children[0].opacity = 0;
             node.active = false;
@@ -460,6 +463,10 @@ export default class Gameplay extends cc.Component {
                     }
                     if (this.correctCounter == this.correctAnswer.length) {
                         this.LoadNextQuestion();
+                    }
+                    else {
+                        this.canTouch = true;
+                        TVInputManager.Instance.setCanSelect(this.canTouch)
                     }
                 }).start();
         }

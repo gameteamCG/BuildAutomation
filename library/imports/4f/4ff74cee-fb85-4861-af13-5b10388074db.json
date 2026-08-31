@@ -1,0 +1,129 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letters and sounds Pp_LKG_SB2_24",
+      "totalLevel": "4",
+      "TitleImageName": "TITLE.png",
+      "introBgName": "Bg(8).png",
+      "bgmMusicName": "bgm12.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg1.png",
+        "questionAudioName": "pineapple.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png"
+        ],
+        "optionsBg": [
+          "L1(1).png",
+          "L1(2).png",
+          "L1(3).png",
+          "L1(4).png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "psaysp.mp3",
+          "psaysp.mp3",
+          "psaysp.mp3",
+          "psaysp.mp3"
+        ],
+        "correctAnswerNum": "1234"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "l2QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png"
+        ],
+        "optionsBg": [
+          "L2(1).png",
+          "L2(3).png",
+          "L2(5).png",
+          "L2(2).png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "psaysp.mp3",
+          "psaysp.mp3",
+          "psaysp.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "L3(5).png",
+        "questionAudioName": "l3QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png"
+        ],
+        "optionsBg": [
+          "L3(1).png",
+          "L3(3).png",
+          "L3(2).png",
+          "L3(4).png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "psaysp.mp3",
+          "psaysp.mp3"
+        ],
+        "correctAnswerNum": "34"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg4.png",
+        "questionAudioName": "q4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "blank.png",
+          "blank.png",
+          "panc.png",
+          "parrotc.png"
+        ],
+        "optionsBg": [
+          "ballw.png",
+          "catw.png",
+          "panw.png",
+          "parrotw.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "pan.mp3",
+          "parrot.mp3"
+        ],
+        "correctAnswerNum": "34"
+      }
+    ]
+  }
+}

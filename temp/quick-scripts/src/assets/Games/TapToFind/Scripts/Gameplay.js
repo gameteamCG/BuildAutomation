@@ -210,7 +210,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 _this.scheduleOnce(function () {
                     _this.setupTVFocus(_this.optionsLayout);
-                }, delay + 0.1);
+                }, delay + 0.5);
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout1, _this);
                     element.on("tv-select", _this.onTouchStart_layout1, _this);
@@ -232,7 +232,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 _this.scheduleOnce(function () {
                     _this.setupTVFocus(_this.optionsLayout);
-                }, delay + 0.1);
+                }, delay + 0.5);
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout2, _this);
                     element.on("tv-select", _this.onTouchStart_layout2, _this);
@@ -252,7 +252,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 _this.scheduleOnce(function () {
                     _this.setupTVFocus(_this.optionsLayout);
-                }, delay + 0.1);
+                }, delay + 0.5);
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout3, _this);
                     element.on("tv-select", _this.onTouchStart_layout3, _this);
@@ -297,7 +297,7 @@ var Gameplay = /** @class */ (function (_super) {
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
         if (StartGame_1.default.Instance.currentLevel == 1) {
-            TVInputManager_1.default.Instance.init(nodes, 1);
+            TVInputManager_1.default.Instance.init(nodes, 0);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);
@@ -323,10 +323,11 @@ var Gameplay = /** @class */ (function (_super) {
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
-            if (StartGame_1.default.Instance.currentLevel == 5) {
-                var _laypout1posY_1 = [-150, 100, -100, 150];
+            if (StartGame_1.default.Instance.currentLevel == 3) {
+                _laypout1posX = [-665, -230, 204, 639];
+                _laypout1posY = [-160, -160, -160, -160, -160];
                 for (var i = 0; i < _optionParent.children.length; i++) {
-                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY_1[i]);
+                    _optionParent.children[i].setPosition(_laypout1posX[i], -220);
                 }
             }
         }
@@ -493,6 +494,7 @@ var Gameplay = /** @class */ (function (_super) {
             _clone.parent = node;
             _clone.setPosition(0, 0);
             _clone.setParentWithSamePos(this.node);
+            _clone.scale = 0.7;
             _clone.children[0].active = true;
             _clone.children[0].opacity = 0;
             node.active = false;
@@ -507,6 +509,10 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 if (_this.correctCounter == _this.correctAnswer.length) {
                     _this.LoadNextQuestion();
+                }
+                else {
+                    _this.canTouch = true;
+                    TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
                 }
             }).start();
         }
