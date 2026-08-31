@@ -1,0 +1,198 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "\"Letter Cc_119 Letters and sounds\"",
+      "totalLevel": "7",
+      "TitleImageName": "letterc.png",
+      "introBgName": "bgtitlemain.png",
+      "bgmMusicName": "BGM1.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg1.png",
+        "questionAudioName": "tap_cups.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png"
+        ],
+        "optionsBg": [
+          "cup-a.png",
+          "cup-w.png",
+          "cup-w.png",
+          "cup-a.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "c_sound.mp3",
+          "c_sound.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "tap_carrots.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png"
+        ],
+        "optionsBg": [
+          "carrot-w1.png",
+          "carrot-a.png",
+          "carrot-w2.png",
+          "carrot-a.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "c_sound.mp3",
+          "c_sound.mp3"
+        ],
+        "correctAnswerNum": "24"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg3.png",
+        "questionAudioName": "tap_cats.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png"
+        ],
+        "optionsBg": [
+          "cat-a.png",
+          "cat-w.png",
+          "cat-a.png",
+          "cat-w.png"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "wrongAudioName": "nevermindryagain.mp3",
+        "reiterationAudioName": [
+          "c_sound.mp3",
+          "c_sound.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg1.png",
+        "questionAudioName": "tap_cupcakes.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png"
+        ],
+        "optionsBg": [
+          "cupcake-a.png",
+          "cupcake-w1.png",
+          "cupcake-a.png",
+          "cupcake-w1.png"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "wrongAudioName": "nevermindryagain.mp3",
+        "reiterationAudioName": [
+          "c_sound.mp3",
+          "c_sound.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg4.png",
+        "questionAudioName": "identify_picture_with_letter_sound.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "umbrella-un.png",
+          "jelly-un.png",
+          "cake-c.png"
+        ],
+        "optionsBg": [
+          "umbrella-un.png",
+          "jelly-un.png",
+          "cake-un.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "cake.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg5.png",
+        "questionAudioName": "identify_picture_with_letter_sound.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "cat-c.png",
+          "ball-un.png",
+          "drum-un.png"
+        ],
+        "optionsBg": [
+          "cat-un.png",
+          "ball-un.png",
+          "drum-un.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "cat.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "identify_picture_with_letter_sound.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "inkpot-un.png",
+          "car-c.png",
+          "ant-un.png"
+        ],
+        "optionsBg": [
+          "inkpot-un.png",
+          "car-un.png",
+          "ant-un.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "car.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

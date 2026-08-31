@@ -319,24 +319,13 @@ var Gameplay = /** @class */ (function (_super) {
         }
         if (this.optionsLayout == "layout1") {
             var _laypout1posX = [-700, -200, 300, 800];
-            var _laypout1posY = [-150, 100, -150, 250];
+            var _laypout1posY = [-150, 100, -150, 100];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
-            }
-            if (StartGame_1.default.Instance.currentLevel == 3) {
-                _laypout1posX = [-665, -230, 204, 639];
-                _laypout1posY = [-160, -160, -160, -160, -160];
-                for (var i = 0; i < _optionParent.children.length; i++) {
-                    _optionParent.children[i].setPosition(_laypout1posX[i], -220);
-                }
             }
         }
         if (this.optionsLayout == "layout2") {
-            var _laypout1posX = [-380, 0, 450, 0];
-            var _laypout1posY = [-20, -30, -20, 0];
-            for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
-            }
+            this.arrangeChildren(this.options, 80);
         }
         _template.destroy();
     };

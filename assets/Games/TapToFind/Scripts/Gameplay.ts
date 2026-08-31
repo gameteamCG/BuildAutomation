@@ -273,27 +273,15 @@ export default class Gameplay extends cc.Component {
         }
         if (this.optionsLayout == "layout1") {
             let _laypout1posX: number[] = [-700, -200, 300, 800];
-            let _laypout1posY: number[] = [-150, 100, -150, 250];
+            let _laypout1posY: number[] = [-150, 100, -150, 100];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
-            }
-            if (startGame.Instance.currentLevel == 3) {
-                _laypout1posX = [-665, -230, 204, 639];
-                _laypout1posY = [-160, -160, -160, -160, -160];
-                for (let i = 0; i < _optionParent.children.length; i++) {
-                    _optionParent.children[i].setPosition(_laypout1posX[i], -220);
-                }
             }
         }
         if (this.optionsLayout == "layout2") {
-            let _laypout1posX: number[] = [-380, 0, 450, 0];
-            let _laypout1posY: number[] = [-20, -30, -20, 0];
-            for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
-            }
+            this.arrangeChildren(this.options, 80);
         }
         _template.destroy();
-
     }
 
     onTouchStart_layout1(event: cc.Event.EventTouch) {

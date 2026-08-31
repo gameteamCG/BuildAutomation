@@ -517,7 +517,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        250,
+        202.666,
         0,
         0,
         0,
@@ -548,7 +548,7 @@
     "node": {
       "__id__": 9
     },
-    "_enabled": false,
+    "_enabled": true,
     "_materials": [
       {
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
@@ -918,8 +918,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 250,
-      "height": 250
+      "width": 350,
+      "height": 350
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1077,8 +1077,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 250,
-      "height": 250
+      "width": 350,
+      "height": 350
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1228,8 +1228,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 400,
-      "height": 400
+      "width": 500,
+      "height": 500
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2070,7 +2070,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        -57.852,
         -147.475,
         0,
         0,
@@ -2162,7 +2162,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        84.149,
         -147.475,
         0,
         0,
@@ -2910,7 +2910,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 260.65,
+      "width": 259.08,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -2962,8 +2962,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": " Letter p ",
-    "_N$string": " Letter p ",
+    "_string": " Letter c ",
+    "_N$string": " Letter c ",
     "_fontSize": 70,
     "_lineHeight": 80,
     "_enableWrapText": true,
