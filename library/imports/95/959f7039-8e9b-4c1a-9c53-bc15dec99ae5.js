@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '959f7A5jptMGpxTvBXeyZrl', 'video');
-// Games/Scripts/video.ts
+// Games/VideoQuiz/Scripts/video.ts
 
 "use strict";
 var __extends = (this && this.__extends) || (function () {
@@ -30,41 +30,23 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
-//uncomment lines having "this.forwardBtn.active = true;" for activating the frwrd / skip buttons
-var StartGame_1 = require("../../Framework/Scripts/StartGame");
+var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var TVInputManager_1 = require("./TVInputManager");
 cc.macro.ENABLE_TRANSPARENT_CANVAS = true;
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var QuestionData = /** @class */ (function () {
     function QuestionData() {
-        // @property(Number)
         this.questionTime = 0;
-        // @property(Boolean)
         this.isoptionText = false;
-        // @property(Boolean)
         this.isquestionText = false;
-        // @property(cc.SpriteFrame)
         this.questionImg = null;
-        // @property(cc.AudioClip)
         this.questionAudio = null;
-        // @property(String)
         this.questionText = "";
-        // @property(cc.SpriteFrame)
         this.optionImgs = [];
-        // @property(String)
         this.optionTexts = [];
-        // @property(cc.AudioClip)
         this.reiterationAudio = null;
         this.correctAudio = null;
-        // @property(cc.AudioClip)
         this.wrongAudio = null;
-        // @property(Number)
         this.correctAnswer = 1;
     }
     QuestionData = __decorate([
@@ -83,13 +65,9 @@ var video = /** @class */ (function (_super) {
         _this.bgMusic = null;
         _this.correctSound = null;
         _this.starSprites = [];
-        _this.jaipuria_font = null;
-        _this.podar_font = null;
-        _this.tlc_font = null;
-        _this.supercub_font = null;
         _this.skipSeconds = 15;
         _this.positiveVO = [];
-        _this.duration = 0;
+        _this.negativeVO = [];
         _this.slider = null;
         _this.toolActivater = null;
         _this.questions = [];
@@ -104,6 +82,7 @@ var video = /** @class */ (function (_super) {
         _this.isPause = false;
         _this.isPlay = true;
         _this.isOnSlider = false;
+        _this.duration = 0;
         _this.canNextQuestion = true;
         _this.attemps = 0;
         _this.videoCompleted = false;
@@ -111,14 +90,6 @@ var video = /** @class */ (function (_super) {
         _this.canTouch = false;
         _this.forwardBtn = null;
         _this.backwardBtn = null;
-        _this.correctAnim = ["positive_1", "positive_2", "positive_3", "positive_4"];
-        _this.wrongAnim = ["negative_1", "negative_2", "negative_1", "negative_2"];
-        _this.puzzleCorrectAnim = ["positive_1", "positive_2", "positive_3", "positive_4"];
-        _this.puzzleNegativeAnim = ["negative_1", "negative_2", "negative_1", "negative_2"];
-        _this.supercubCorrectAnim = ["positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5"];
-        _this.supercubNegativeAnim = ["negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4"];
-        _this.podarCorrectAnim = ["possitive1", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6", "possitive1", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
-        _this.podarNegativeAnim = ["negetive1", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6", "negetive1", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
         return _this;
     }
     // LIFE-CYCLE CALLBACKS:
@@ -131,7 +102,6 @@ var video = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             for (var i = 0; i < _this.questions.length; i++) {
                 _this.timers[i] = _this.questions[i].questionTime;
-                console.log("question timer = ", _this.timers[i]);
                 _this.totalQuestions++;
                 _this.questionAppeared[i] = false;
                 _this.answeredQuestion[i] = false;
@@ -148,7 +118,6 @@ var video = /** @class */ (function (_super) {
         // }, this);
         var video = this.node.getComponent(cc.VideoPlayer);
         var duration = video.getDuration();
-        console.log("Duration:", this.node.getComponent(cc.VideoPlayer).getDuration());
         var showSkipButtons = duration > 30;
         if (this.forwardBtn) {
             this.forwardBtn.active = showSkipButtons;
@@ -183,30 +152,6 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.UpdateQuestions = function () {
         var _this = this;
-        if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.questionNode.getChildByName("options1").children.forEach(function (element) {
-                element.getChildByName("text").getComponent(cc.Label).font = _this.podar_font;
-            });
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.questionNode.getChildByName("options1").children.forEach(function (element) {
-                element.getChildByName("text").getComponent(cc.Label).font = _this.tlc_font;
-            });
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.questionNode.getChildByName("options1").children.forEach(function (element) {
-                element.getChildByName("text").getComponent(cc.Label).font = _this.supercub_font;
-            });
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
-            this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.questionNode.getChildByName("options1").children.forEach(function (element) {
-                element.getChildByName("text").getComponent(cc.Label).font = _this.jaipuria_font;
-            });
-        }
         var _loop_1 = function (i) {
             this_1.questions[i] = new QuestionData();
             this_1.questions[i].questionTime = parseInt(StartGame_1.default.Instance.questions[i].QuestionAppearTime);
@@ -278,20 +223,20 @@ var video = /** @class */ (function (_super) {
                     }
                     _this.questions[i].reiterationAudio = audioClip;
                 });
-                cc.loader.load(StartGame_1.default.Instance.questions[i].CorrectAudioName, function (err, audioClip) {
-                    if (err) {
-                        console.error("Failed to load audio:", err);
-                        return;
-                    }
-                    _this.questions[i].correctAudio = audioClip;
-                });
-                cc.loader.load(StartGame_1.default.Instance.questions[i].WrongAudioName, function (err, audioClip) {
-                    if (err) {
-                        console.error("Failed to load audio:", err);
-                        return;
-                    }
-                    _this.questions[i].wrongAudio = audioClip;
-                });
+                // cc.loader.load(startGame.Instance.questions[i].CorrectAudioName, (err, audioClip) => {
+                //     if (err) {
+                //         console.error("Failed to load audio:", err);
+                //         return;
+                //     }
+                //     this.questions[i].correctAudio = audioClip;
+                // });
+                // cc.loader.load(startGame.Instance.questions[i].WrongAudioName, (err, audioClip) => {
+                //     if (err) {
+                //         console.error("Failed to load audio:", err);
+                //         return;
+                //     }
+                //     this.questions[i].wrongAudio = audioClip;
+                // });
             }
             else {
                 this_1.loadAudioClip(StartGame_1.default.Instance.questions[i].QuestionAudioName, function (audioClip) {
@@ -300,12 +245,12 @@ var video = /** @class */ (function (_super) {
                 this_1.loadAudioClip(StartGame_1.default.Instance.questions[i].ReiterationAudioName, function (audioClip) {
                     _this.questions[i].reiterationAudio = audioClip;
                 });
-                this_1.loadAudioClip(StartGame_1.default.Instance.questions[i].CorrectAudioName, function (audioClip) {
-                    _this.questions[i].correctAudio = audioClip;
-                });
-                this_1.loadAudioClip(StartGame_1.default.Instance.questions[i].WrongAudioName, function (audioClip) {
-                    _this.questions[i].wrongAudio = audioClip;
-                });
+                // this.loadAudioClip(startGame.Instance.questions[i].CorrectAudioName, (audioClip) => {
+                //     this.questions[i].correctAudio = audioClip;
+                // });
+                // this.loadAudioClip(startGame.Instance.questions[i].WrongAudioName, (audioClip) => {
+                //     this.questions[i].wrongAudio = audioClip;
+                // });
             }
         };
         var this_1 = this;
@@ -323,24 +268,9 @@ var video = /** @class */ (function (_super) {
             star.setPosition(0, 0);
         }
         this.OptionsLayout();
-        if (StartGame_1.default.Instance.jockeyName == "puzzle") {
-            this.correctAnim = this.puzzleCorrectAnim;
-            this.wrongAnim = this.puzzleNegativeAnim;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.correctAnim = this.supercubCorrectAnim;
-            this.wrongAnim = this.supercubNegativeAnim;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.correctAnim = this.podarCorrectAnim;
-            this.wrongAnim = this.podarNegativeAnim;
-        }
     };
     video.prototype.SkipForward = function (_event) {
         var _this = this;
-        // console.log("SkipForward called");
-        // console.log("_event:", _event);
-        // console.log("Current Time:", this.node.getComponent(cc.VideoPlayer).currentTime);
         if (_event) {
             _event.target.getComponent(cc.Button).interactable = false;
         }
@@ -363,9 +293,6 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.SkipBackward = function (_event) {
         var _this = this;
-        // console.log("SkipBackward called");
-        // console.log("_event:", _event);
-        // console.log("Current Time:", this.node.getComponent(cc.VideoPlayer).currentTime);
         if (_event) {
             _event.target.getComponent(cc.Button).interactable = false;
         }
@@ -391,7 +318,6 @@ var video = /** @class */ (function (_super) {
         this.node.on('completed', function () {
             if (this.gameStarted) {
                 this.checkOnMissingQuestions();
-                console.log("video completed");
                 this.tools.active = false;
                 this.videoCompleted = true;
                 if (this.forwardBtn)
@@ -402,18 +328,13 @@ var video = /** @class */ (function (_super) {
         }, this);
         this.node.on('playing', function () {
             var _this = this;
-            //console.log("aaaaaaggggggggggggggggggggggggggg")
             this.isPlay = true;
             this.isPause = false;
-            // console.log("Duration = ", this.node.getComponent(cc.VideoPlayer).getDuration());
             this.scheduleOnce(function () {
                 _this.ActivateTools(false);
             }, 2);
         }, this);
-        // this.node.getComponent(cc.VideoPlayer).pause();
         this.node.getComponent(cc.VideoPlayer).volume = 0;
-        // this.node.getComponent(cc.VideoPlayer).resume();
-        // this.node.getComponent(cc.VideoPlayer).pause();
         this.node.getComponent(cc.VideoPlayer).play();
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.VideoPlayer).volume = 1;
@@ -471,7 +392,6 @@ var video = /** @class */ (function (_super) {
         }
     };
     video.prototype.ResumePlayButton = function (_event) {
-        //console.trace("RESUME CALLED");
         var _this = this;
         cc.audioEngine.stopMusic();
         this.isPlay = true;
@@ -489,7 +409,6 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.PauseButton = function (_event) {
         var _this = this;
-        //console.trace("PAUSE CALLED");
         this.isPlay = false;
         this.isPause = true;
         this.node.getComponent(cc.VideoPlayer).pause();
@@ -512,7 +431,6 @@ var video = /** @class */ (function (_super) {
         this.node.getComponent(cc.VideoPlayer).currentTime = this.currentTime;
         this.node.getComponent(cc.VideoPlayer).play();
         this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
-        console.log("updateslider : ", Math.round(this.node.getComponent(cc.VideoPlayer).currentTime));
         this.scheduleOnce(function () {
             _this.isSliding = true;
             _this.tools.getChildByName("resume").active = false;
@@ -524,7 +442,6 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.UpdateSlider2 = function () {
         var _this = this;
-        // console.log("updateslider : ");
         this.isSliding = false;
         this.currentTime = this.node.getComponent(cc.VideoPlayer).getDuration() * this.slider.getComponent(cc.Slider).progress;
         this.node.getComponent(cc.VideoPlayer).stop();
@@ -544,7 +461,6 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.SliderButton = function () {
         this.isOnSlider = true;
-        // console.log("is slider button working!!!!!!!");
         this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
     };
     video.prototype.OnQuestionAnswered = function (_event) {
@@ -554,7 +470,6 @@ var video = /** @class */ (function (_super) {
         var input = _event.target.name;
         this.attemps++;
         if (parseInt(input) == this.questions[this.currentQuestion - 1].correctAnswer) {
-            // this.character.getComponent(cc.Animation).play("correct");
             console.log("correctAnswer--" + this.currentQuestion);
             console.log("levelComplete--" + this.currentQuestion);
             _event.target.getChildByName("green").active = true;
@@ -568,20 +483,9 @@ var video = /** @class */ (function (_super) {
             _event.target.getParent().children.forEach(function (element) {
                 element.getComponent(cc.Button).interactable = false;
             });
-            // let num: number = this.getRandomNumber(0, this.correctAnim.length - 1)
-            var num_1 = this.currentQuestion - 1;
-            if (num_1 > this.correctAnim.length - 1) {
-                num_1 -= (this.correctAnim.length - 1);
-                if (num_1 > this.correctAnim.length - 1) {
-                    num_1 -= (this.correctAnim.length - 1);
-                    if (num_1 > this.correctAnim.length - 1) {
-                        num_1 -= (this.correctAnim.length - 1);
-                    }
-                }
-            }
             this.scheduleOnce(function () {
-                cc.audioEngine.playEffect(_this.questions[_this.currentQuestion - 1].correctAudio, false);
-                _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, _this.correctAnim[num_1], false);
+                cc.audioEngine.playEffect(_this.positiveVO[_this.currentQuestion % 5], false);
+                _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, _this.positiveVO[_this.currentQuestion % 5].name, false);
                 if (_this.attemps <= 1) {
                     _this.starUpdate(_this.currentQuestion - 1, true, true);
                 }
@@ -605,26 +509,18 @@ var video = /** @class */ (function (_super) {
                     else {
                         _this.ResumePlayButton();
                     }
-                }, _this.getAnimDuration(_this.correctAnim[num_1]));
+                }, _this.getAnimDuration(_this.positiveVO[_this.currentQuestion % 5].name));
             }, this.questions[this.currentQuestion - 1].reiterationAudio.duration + 0.5);
         }
         else {
             console.log("wrongAnswer--" + this.currentQuestion);
-            // console.log("levelComplete--" + this.currentQuestion);
             cc.audioEngine.stopAllEffects();
-            cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].wrongAudio, false);
-            // this.character.getComponent(cc.Animation).play("wrong");
-            // let num: number = this.getRandomNumber(0, this.wrongAnim.length - 1);
+            cc.audioEngine.playEffect(this.negativeVO[this.currentQuestion % 2], false);
             var num = this.currentQuestion - 1;
-            if (num > this.wrongAnim.length - 1) {
-                num -= (this.wrongAnim.length - 1);
-            }
-            this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
-            // this.character.getChildByName("anim").getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
+            this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.negativeVO[this.currentQuestion % 2].name, false);
             this.scheduleOnce(function () {
-                // this.character.getComponent(cc.Animation).play("Idle");
                 _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-            }, this.getAnimDuration(this.wrongAnim[num]));
+            }, this.getAnimDuration(this.negativeVO[this.currentQuestion % 2].name));
             _event.target.getChildByName("red").active = true;
             _event.target.getComponent(cc.Button).interactable = false;
         }
@@ -658,8 +554,6 @@ var video = /** @class */ (function (_super) {
             backBtn,
             musicBtn
         ]).filter(function (n) { return n; });
-        // setupTVFocus3
-        //console.log("setupTVFocus3:", nodes.map(n => n.name));
         TVInputManager_1.default.Instance.init(nodes, -1);
         TVInputManager_1.default.Instance.setCanSelect(true);
     };
@@ -670,7 +564,6 @@ var video = /** @class */ (function (_super) {
             if (!this.questionAppeared[i]) {
                 isEnd = false;
                 this.currentQuestion = i;
-                console.log("activate the question");
                 this.canNextQuestion = false;
                 this.questionAppeared[this.currentQuestion] = true;
                 this.PauseButton();
@@ -718,8 +611,6 @@ var video = /** @class */ (function (_super) {
         var resumeBtn = this.tools.getChildByName("resume");
         var forwardBtn = cc.find("Canvas/skipAhead");
         var backwardBtn = cc.find("Canvas/skipBack");
-        //let sliderHandle = this.slider.getChildByName("Handle");
-        //console.log("Pause scale before init:", pauseBtn.scale);
         var nodes = [];
         if (pauseBtn && pauseBtn.active && pauseBtn.opacity > 0)
             nodes.push(pauseBtn);
@@ -736,8 +627,6 @@ var video = /** @class */ (function (_super) {
             nodes.push(soundBtn);
         if (musicBtn)
             nodes.push(musicBtn);
-        // setupTVFocus3
-        //console.log("setupTVFocus2:", nodes.map(n => n.name));
         if (pauseBtn)
             pauseBtn.scale = 1;
         if (resumeBtn)
@@ -822,7 +711,6 @@ var video = /** @class */ (function (_super) {
             if (Math.round(this.node.getComponent(cc.VideoPlayer).currentTime) == this.timers[i] && !this.questionAppeared[i]
                 && this.canNextQuestion && this.gameStarted) {
                 this.currentQuestion = i;
-                console.log("activate the question");
                 this.canNextQuestion = false;
                 this.questionAppeared[this.currentQuestion] = true;
                 this.PauseButton();
@@ -834,17 +722,9 @@ var video = /** @class */ (function (_super) {
             }
         }
     };
-    // Show loading animation.
     video.prototype.getAnimDuration = function (animName) {
-        console.log("animation name = ", animName);
         var num = this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).findAnimation(animName).duration;
         return num;
-    };
-    video.prototype.getRandomNumber = function (min, max) {
-        var _number = Math.random();
-        _number = cc.misc.lerp(min, max, _number);
-        _number = Math.round(_number);
-        return _number;
     };
     video.prototype.OnEnd = function () {
         window.close();
@@ -930,23 +810,14 @@ var video = /** @class */ (function (_super) {
         property(cc.SpriteFrame)
     ], video.prototype, "starSprites", void 0);
     __decorate([
-        property(cc.Font)
-    ], video.prototype, "jaipuria_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], video.prototype, "podar_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], video.prototype, "tlc_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], video.prototype, "supercub_font", void 0);
-    __decorate([
         property(Number)
     ], video.prototype, "skipSeconds", void 0);
     __decorate([
         property(cc.AudioClip)
     ], video.prototype, "positiveVO", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], video.prototype, "negativeVO", void 0);
     __decorate([
         property(cc.Node)
     ], video.prototype, "slider", void 0);

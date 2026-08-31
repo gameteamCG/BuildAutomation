@@ -1,22 +1,22 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "sound bar-min",
+    "name": "sound bar-min1",
     "texture": "c1db6747-2658-4c28-ab45-76f7f6d43e18",
     "atlas": "",
     "rect": [
-      4,
-      4,
-      110,
-      108
+      0,
+      0,
+      74,
+      75
     ],
     "offset": [
       0,
       0
     ],
     "originalSize": [
-      118,
-      116
+      74,
+      75
     ],
     "capInsets": [
       0,

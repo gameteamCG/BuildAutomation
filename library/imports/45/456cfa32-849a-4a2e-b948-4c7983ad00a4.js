@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '456cfoyhJpKLrlITHmDrQCk', 'CustomWidget0');
-// Games/Scripts/CustomWidget0.ts
+// Games/VideoQuiz/Scripts/CustomWidget0.ts
 
 "use strict";
 var __extends = (this && this.__extends) || (function () {
@@ -23,7 +23,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var CustomPositioningUI = /** @class */ (function (_super) {
     __extends(CustomPositioningUI, _super);
@@ -55,8 +54,8 @@ var CustomPositioningUI = /** @class */ (function (_super) {
             - cc.view.getViewportRect().x * this.canvas.getContentSize().width / cc.view.getViewportRect().width + _offSet;
         _position.y = this.canvas.getContentSize().height / 2 - this.node.height / 2
             + cc.view.getViewportRect().y * this.canvas.getContentSize().height / cc.view.getViewportRect().height - _offSet;
-        globalVariables_1.default.Instance.canvasTopY = _position.y;
-        globalVariables_1.default.Instance.canvasLeftX = _position.x;
+        // globalVariables.Instance.canvasTopY = _position.y;
+        // globalVariables.Instance.canvasLeftX = _position.x;
         //console.log("Position is "+_position)
         // console.log("cc.view.getViewportRect() is "+cc.view.getViewportRect())
         this.node.setPosition(_position);

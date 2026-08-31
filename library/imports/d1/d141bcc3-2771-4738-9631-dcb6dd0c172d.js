@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'd141bzDJ3FHOJYx3LbdDBct', 'TVInputManager');
-// Games/Scripts/TVInputManager.ts
+// Games/VideoQuiz/Scripts/TVInputManager.ts
 
 "use strict";
 var __extends = (this && this.__extends) || (function () {

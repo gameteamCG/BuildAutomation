@@ -1,4 +1,4 @@
-import TVInputManager from "../../Games/Scripts/TVInputManager";
+import TVInputManager from "../../Games/VideoQuiz/Scripts/TVInputManager";
 
 interface AdditionalData {
     GameID: string;
