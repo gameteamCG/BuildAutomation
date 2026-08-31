@@ -30,7 +30,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var TVInputManager_1 = require("./TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -318,22 +318,22 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posX = [-700, -200, 300, 800];
+            var _laypout1posX = [-400, 100, 600, 800];
             var _laypout1posY = [-150, 100, -150, 250];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
             if (StartGame_1.default.Instance.currentLevel == 3) {
-                _laypout1posX = [-665, -230, 204, 639];
-                _laypout1posY = [-160, -160, -160, -160, -160];
+                _laypout1posX = [-450, 100, 600, 639];
+                _laypout1posY = [-120, -120, -120, -120, -160];
                 for (var i = 0; i < _optionParent.children.length; i++) {
                     _optionParent.children[i].setPosition(_laypout1posX[i], -220);
                 }
             }
         }
         if (this.optionsLayout == "layout2") {
-            var _laypout1posX = [-380, 0, 450, 0];
-            var _laypout1posY = [-20, -30, -20, 0];
+            var _laypout1posX = [-380, -100, 450, 200];
+            var _laypout1posY = [-20, -20, -20, -20];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }

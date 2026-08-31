@@ -517,7 +517,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        250,
+        154.865,
         0,
         0,
         0,
@@ -548,7 +548,7 @@
     "node": {
       "__id__": 9
     },
-    "_enabled": false,
+    "_enabled": true,
     "_materials": [
       {
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
@@ -871,7 +871,7 @@
     "node": {
       "__id__": 11
     },
-    "_enabled": true,
+    "_enabled": false,
     "_defaultClip": {
       "__uuid__": "f6784b52-a5aa-4a58-b8fc-0de61058bcce"
     },
@@ -2910,8 +2910,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 260.65,
-      "height": 100.8
+      "width": 288.2,
+      "height": 113.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2962,10 +2962,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": " Letter p ",
-    "_N$string": " Letter p ",
-    "_fontSize": 70,
-    "_lineHeight": 80,
+    "_string": " Letter k",
+    "_N$string": " Letter k",
+    "_fontSize": 85,
+    "_lineHeight": 90,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "cd11a407-6fd2-41d1-9981-0bf5a75768b7"
