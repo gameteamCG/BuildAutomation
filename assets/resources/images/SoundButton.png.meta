@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "0f1bfb64-de60-4b24-9a22-624d44f937fc",
+  "uuid": "b873fba4-076c-4d31-ba32-b3c915f8773f",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "SoundButton": {
       "ver": "1.0.6",
-      "uuid": "ea29e88e-c3dc-4331-940c-6a019efc4e85",
+      "uuid": "9ded77a0-e28d-4918-8b71-8c4d1281015a",
       "importer": "sprite-frame",
-      "rawTextureUuid": "0f1bfb64-de60-4b24-9a22-624d44f937fc",
+      "rawTextureUuid": "b873fba4-076c-4d31-ba32-b3c915f8773f",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

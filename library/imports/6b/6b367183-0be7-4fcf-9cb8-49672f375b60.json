@@ -1,0 +1,168 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letters and sounds Nn_Nur_SB3_Language_6",
+      "totalLevel": "6",
+      "TitleImageName": "Asset25.png",
+      "introBgName": "NUR.png",
+      "bgmMusicName": "BGM.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bgn1.png",
+        "questionAudioName": "Q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "nw.png",
+          "nc.png",
+          "nc.png"
+        ],
+        "correctAudioName": "positive_1.mp3",
+        "wrongAudioName": "negative_1.mp3",
+        "reiterationAudioName": [
+          "A1.mp3",
+          "A1.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bgn2.png",
+        "questionAudioName": "Q2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "nursen.png",
+          "nursee.png",
+          "nursen.png"
+        ],
+        "correctAudioName": "positive_2.mp3",
+        "wrongAudioName": "negative_2.mp3",
+        "reiterationAudioName": [
+          "A1.mp3",
+          "A1.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bgn3.png",
+        "questionAudioName": "Q3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "nestc.png",
+          "nestc.png",
+          "nestw.png"
+        ],
+        "correctAudioName": "positive_1.mp3",
+        "wrongAudioName": "negative_1.mp3",
+        "reiterationAudioName": [
+          "A1.mp3",
+          "A1.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset23.png",
+        "questionAudioName": "taponthepicturethatbeginswithlettersoundn.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset11.png",
+          "Asset19.png",
+          "Asset21.png"
+        ],
+        "optionsBg": [
+          "Asset11.png",
+          "Asset19.png",
+          "Asset18.png"
+        ],
+        "correctAudioName": "positive_4.mp3",
+        "wrongAudioName": "negative_2.mp3",
+        "reiterationAudioName": [
+          "nest.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset23.png",
+        "questionAudioName": "taponthepicturethatbeginswithlettersoundn.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset11.png",
+          "Asset10.png",
+          "Asset12.png"
+        ],
+        "optionsBg": [
+          "Asset11.png",
+          "Asset9.png",
+          "Asset12.png"
+        ],
+        "correctAudioName": "positive_5.mp3",
+        "wrongAudioName": "negative_1.mp3",
+        "reiterationAudioName": [
+          "nut.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset23.png",
+        "questionAudioName": "taponthepicturethatbeginswithlettersoundn.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset16.png",
+          "Asset6.png",
+          "Asset5.png"
+        ],
+        "optionsBg": [
+          "Asset13.png",
+          "Asset6.png",
+          "Asset5.png"
+        ],
+        "correctAudioName": "positive_6.mp3",
+        "wrongAudioName": "negative_2.mp3",
+        "reiterationAudioName": [
+          "net.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

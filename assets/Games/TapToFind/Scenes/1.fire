@@ -2910,7 +2910,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 260.65,
+      "width": 238.23,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -2962,8 +2962,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": " Letter p ",
-    "_N$string": " Letter p ",
+    "_string": " Letter n",
+    "_N$string": " Letter n",
     "_fontSize": 70,
     "_lineHeight": 80,
     "_enableWrapText": true,

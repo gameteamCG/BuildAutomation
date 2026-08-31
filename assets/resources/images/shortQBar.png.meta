@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "649197e9-1444-4d06-b1d6-099349dce41c",
+  "uuid": "2788e8e4-6f6e-4f55-9d10-e0000d1b1602",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "shortQBar": {
       "ver": "1.0.6",
-      "uuid": "beb5ff1d-3181-4c24-a63a-b9e7b546c6d1",
+      "uuid": "b27a905e-4b43-46b2-949a-dc8b14b1d17d",
       "importer": "sprite-frame",
-      "rawTextureUuid": "649197e9-1444-4d06-b1d6-099349dce41c",
+      "rawTextureUuid": "2788e8e4-6f6e-4f55-9d10-e0000d1b1602",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

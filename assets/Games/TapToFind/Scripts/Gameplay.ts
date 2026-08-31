@@ -1,4 +1,5 @@
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import TVInputManager from "./TVInputManager";
 
@@ -272,16 +273,16 @@ export default class Gameplay extends cc.Component {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posX: number[] = [-700, -200, 300, 800];
+            let _laypout1posX: number[] = [-700, 50, 800, 800];
             let _laypout1posY: number[] = [-150, 100, -150, 250];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
-            if (startGame.Instance.currentLevel == 3) {
-                _laypout1posX = [-665, -230, 204, 639];
+            if (startGame.Instance.currentLevel == 2) {
+                _laypout1posX = [-700, 50, 800, 639];
                 _laypout1posY = [-160, -160, -160, -160, -160];
                 for (let i = 0; i < _optionParent.children.length; i++) {
-                    _optionParent.children[i].setPosition(_laypout1posX[i], -220);
+                    _optionParent.children[i].setPosition(_laypout1posX[i], -350);
                 }
             }
         }
