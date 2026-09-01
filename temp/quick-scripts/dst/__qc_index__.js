@@ -24,6 +24,7 @@ require('./assets/Framework/WebView/Scripts/CheckForInitWebView');
 require('./assets/Framework/WebView/Scripts/WebView');
 require('./assets/Games/SwipeToForm/Scripts/GameEnd');
 require('./assets/Games/SwipeToForm/Scripts/Gameplay');
+require('./assets/Games/SwipeToForm/Scripts/TVInputManager');
 require('./assets/Games/SwipeToForm/Scripts/globalVariables');
 require('./assets/resources/empty');
 

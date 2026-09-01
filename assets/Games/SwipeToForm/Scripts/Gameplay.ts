@@ -3,6 +3,7 @@
 import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
+import TVInputManager from "./TVInputManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -31,6 +32,9 @@ export default class Gameplay extends cc.Component {
 
     @property(cc.AudioClip)
     private positiveAudio: cc.AudioClip[] = [];
+
+    @property(cc.AudioClip)
+    private negativeAudio: cc.AudioClip[] = [];
 
     @property(cc.AudioClip)
     private stallionPositive: cc.AudioClip[] = [];
@@ -67,7 +71,10 @@ export default class Gameplay extends cc.Component {
     private questionBoxPosY: number = 0;
 
     currentJockey: cc.Node = null;
-
+    selectedorder: string = "";
+    tappingcount: number = 0;
+    letter = "";
+    canPlay: boolean = false;
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
@@ -118,9 +125,9 @@ export default class Gameplay extends cc.Component {
             let x1: number = this.optionsNode.children[0].x;
             let x2: number = this.optionsNode.children[1].x;
             hand.setParent(this.optionsNode.children[0]);
-            hand.setPosition(0, 0);
+            // hand.setPosition(0, 0);
             hand.setParentWithSamePos(this.node);
-            this.playTween(hand, x1, x2);
+            // this.playTween(hand, x1, x2);
             hand.getComponent(cc.Animation).play();
         }
     }
@@ -159,6 +166,19 @@ export default class Gameplay extends cc.Component {
             element.on('touchcancel', function (event) {
                 this.TouchEnd(element);
             }, this);
+
+            element.on('tv-select', function (event) {
+                this.TouchStart(element);
+            }, this);
+            element.on('tv-select', function (event) {
+                this.TouchMove(element, event);
+            }, this);
+            element.on('tv-select', function (event) {
+                this.TouchEnd(element);
+            }, this);
+            element.on('tv-select', function (event) {
+                this.TouchEnd(element);
+            }, this);
         });
 
 
@@ -183,10 +203,13 @@ export default class Gameplay extends cc.Component {
                 this.optionsNode.children[i].opacity = 255;
                 this.scheduleOnce(() => {
                     cc.audioEngine.playEffect(this.pop_sound, false);
-                    cc.tween(this.optionsNode.children[i]).to(0.3, { scale: 1 }, { easing: 'backInOut' }).start();
+                    cc.tween(this.optionsNode.children[i]).to(0.3, { scale: 0.8 }, { easing: 'backInOut' }).start();
                     if (i == this.optionsNode.children.length - 1) {
                         this.scheduleOnce(() => {
                             this.SubcribeEvents();
+                            this.canPlay = true;
+                            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+                            this.setupTVFocus("options");
                         }, 0.3);
                     }
                 }, delay);
@@ -382,41 +405,69 @@ export default class Gameplay extends cc.Component {
         if (this.isAnswered) {
             return;
         }
+
         this.node.getChildByName("hand").active = false;
+
         if (!this.currentDraggingObject) {
             this.canTouch = true;
+            this.canPlay = true;
+            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
             this.currentDraggingObject = _node.name;
             this.startPosX = _node.getPosition().x;
+
             _node.zIndex = 1;
+            this.attemptSwap(_node);
+
+            console.log("_node:", _node.name);
+
+            // Convert node name to letter
+            if (globalVariables.Instance.currentLevel == 1 || globalVariables.Instance.currentLevel == 3)
+                this.letter = this.nodeNameToLetter[_node.name];
+            else
+                this.letter = this.nodeNameToLetter1[_node.name];
+            if (this.letter) {
+                this.selectedorder += this.letter;
+            }
+
+            console.log("Letter:", this.letter);
+            console.log("this.selectedorder:", this.selectedorder);
+
             if (!this.isFirstClick) {
                 this.isFirstClick = true;
                 console.log("firstClick--" + startGame.Instance.currentLevel);
             }
         }
     }
+    private nodeNameToLetter: { [key: string]: string } = {
 
+        "1": "h", "2": "t", "3": "e"
+    };
+    private nodeNameToLetter1: { [key: string]: string } = {
+
+        "1": "e", "2": "h", "3": "t"
+    };
     TouchMove(_node: cc.Node, _event: any) {
-        if (!this.canTouch || this.currentDraggingObject !== _node.name || this.isAnswered) {
-            return;
-        }
-        let delta = _event.touch.getDelta();
-        _node.x += delta.x;
-        this.attemptSwap(_node);
+        // if (!this.canTouch || this.currentDraggingObject !== _node.name || this.isAnswered) {
+        //     return;
+        // }
+        // let delta = _event.touch.getDelta();
+        // _node.x += delta.x;
+        // this.attemptSwap(_node);
     }
 
     attemptSwap(_node) {
         let deltaX = _node.x - this.startPosX;
-        if (Math.abs(deltaX) > 50) {
-            for (let otherNode of this.optionsNode.children) {
-                if (otherNode !== _node) {
-                    let distance = this.calculateDistance(_node.position, otherNode.position);
-                    if (this.shouldSwap(deltaX, _node, otherNode, distance)) {
-                        this.performSwap(_node, otherNode);
-                        break;
-                    }
-                }
-            }
+        // if (Math.abs(deltaX) > 50) {
+        for (let otherNode of this.optionsNode.children) {
+            // if (otherNode !== _node) {
+            let distance = this.calculateDistance(_node.position, otherNode.position);
+            // if (this.shouldSwap(deltaX, _node, otherNode, distance)) {
+            this.performSwap(_node, otherNode);
+            break;
+            // }
+            // }
         }
+        // }
     }
 
     shouldSwap(deltaX, _node, otherNode, distance) {
@@ -424,14 +475,16 @@ export default class Gameplay extends cc.Component {
     }
 
     performSwap(_node, otherNode) {
-        cc.audioEngine.playEffect(this.swipe_sound, false);
-        cc.tween(_node).to(0.15, { x: otherNode.x }, { easing: 'backInOut' }).start();
-        cc.tween(otherNode).to(0.15, { x: this.startPosX }, { easing: 'backInOut' }).start();
+        // cc.audioEngine.playEffect(this.swipe_sound, false);
+        // cc.tween(_node).to(0.15, { x: otherNode.x }, { easing: 'backInOut' }).start();
+        // cc.tween(otherNode).to(0.15, { x: this.startPosX }, { easing: 'backInOut' }).start();
         this.scheduleOnce(() => {
             this.currentDraggingObject = null;
             this.checkOrder(); // Check if the current order is correct
         }, 0.15);
         this.canTouch = false;
+        this.canPlay = false;
+        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         this.isDropped = true;
     }
 
@@ -444,31 +497,53 @@ export default class Gameplay extends cc.Component {
             this.isDropped = false;
             return;
         }
-        cc.tween(_node).to(0.15, { x: this.startPosX }, { easing: 'backInOut' }).start();
+        // cc.tween(_node).to(0.15, { x: this.startPosX }, { easing: 'backInOut' }).start();
         this.scheduleOnce(() => {
             this.currentDraggingObject = null;
         }, 0.2);
     }
     checkOrder() {
-        let currentWord = this.getCurrentWord();
-        // console.log("current word =", currentWord);
+        let currentWord = this.selectedorder;
+        // let currentWord = this.getCurrentWord();
+        console.log("current word =", currentWord);
         let targetWord = this.correctAnswer; // Define your target word here
+        console.log("correctAnswer : =", this.correctAnswer);
+        this.tappingcount++;
+        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.selectedorder;
+        this.canPlay = true;
+        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+        if (this.tappingcount == 3) {
+            if (currentWord === targetWord) {
+                console.log("correctAnswer--" + startGame.Instance.currentLevel);
+                this.isAnswered = true;
+                this.node.getChildByName("questionPanel").getChildByName("sound").active = false;
+                // Additional logic for when the order is correct
+                // console.log("need iteration--" + this.needReiteration);
+                cc.audioEngine.playEffect(this.correctSound, false);
+                if (this.needReiteration) {
+                    // this.optionsNode.active = false;
+                    this.node.getChildByName("reiteration").active = true;
+                    this.node.getChildByName("reiteration").scale = 0;
+                    // cc.tween(this.optionsNode).to(0.25, { scaleX: 0 }, { easing: 'backInOut' }).start();
+                    //  cc.tween(this.node.getChildByName("reiteration")).to(0.5, { scale: 1 }, { easing: 'sineInOut' }).start();
 
-        if (currentWord === targetWord) {
-            console.log("correctAnswer--" + startGame.Instance.currentLevel);
-            this.isAnswered = true;
-            this.node.getChildByName("questionPanel").getChildByName("sound").active = false;
-            // Additional logic for when the order is correct
-            // console.log("need iteration--" + this.needReiteration);
-            cc.audioEngine.playEffect(this.correctSound, false);
-            if (this.needReiteration) {
-                // this.optionsNode.active = false;
-                this.node.getChildByName("reiteration").active = true;
-                this.node.getChildByName("reiteration").scale = 0;
-                cc.tween(this.optionsNode).to(0.25, { scaleX: 0 }, { easing: 'backInOut' }).start();
-                cc.tween(this.node.getChildByName("reiteration")).to(0.5, { scale: 1 }, { easing: 'sineInOut' }).start();
-                this.scheduleOnce(() => {
-                    this.optionsNode.active = false;
+                    this.scheduleOnce(() => {
+                        this.optionsNode.active = false;
+                        this.node.getChildByName("confetti").active = true;
+                        this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                        let VOduration = 0;
+                        if (this.correctVO) {
+                            VOduration = this.correctVO.duration;
+                        }
+                        this.scheduleOnce(() => {
+                            cc.audioEngine.playEffect(this.correctVO, false);
+                            this.scheduleOnce(() => {
+                                this.callJockey();
+                            }, VOduration);
+                        }, 0.25);
+                    }, 0.5);
+                }
+                else {
                     this.node.getChildByName("confetti").active = true;
                     this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                     let VOduration = 0;
@@ -477,32 +552,23 @@ export default class Gameplay extends cc.Component {
                     }
                     this.scheduleOnce(() => {
                         cc.audioEngine.playEffect(this.correctVO, false);
+                        // this.callJockey();
                         this.scheduleOnce(() => {
+                            // this.LoadNextQuestion();
                             this.callJockey();
                         }, VOduration);
-                    }, 0.25);
-                }, 0.5);
-            }
-            else {
-                this.node.getChildByName("confetti").active = true;
-                this.node.getChildByName("confetti").getComponent(cc.Animation).play();
-                let VOduration = 0;
-                if (this.correctVO) {
-                    VOduration = this.correctVO.duration;
+                    }, 0.75);
                 }
-                this.scheduleOnce(() => {
-                    cc.audioEngine.playEffect(this.correctVO, false);
-                    // this.callJockey();
-                    this.scheduleOnce(() => {
-                        // this.LoadNextQuestion();
-                        this.callJockey();
-                    }, VOduration);
-                }, 0.75);
+            } else {
+                this.selectedorder = "";
+                this.tappingcount = 0;
+                this.letter = "";
+                this.callnegJockey();
+                // console.log("Incorrect order.");
+                // Additional logic for when the order is incorrect
             }
-        } else {
-            // console.log("Incorrect order.");
-            // Additional logic for when the order is incorrect
         }
+
     }
 
     getCurrentWord() {
@@ -698,6 +764,54 @@ export default class Gameplay extends cc.Component {
         }, 0.5);
     }
 
+
+    callnegJockey() {
+        let anim: string[] = [];
+        anim = ["negative_1", "negative_2"];
+        // console.log("anim length = ", anim.length);
+        let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
+        // console.log("currentClipNum = ", currentClipNum);
+        let pos: number[] = [-1600, 1600];
+        let jockeytween: number[] = [-450, 450];
+        if (startGame.Instance.jockeyName == "supercub") {
+            pos = [1900, 1900];
+            jockeytween = [870, 870];
+        }
+        //console.log("characterAppear--Podar_Jumbo");
+        this.currentJockey.setPosition(pos[globalVariables.Instance.currentLevel % 2], this.currentJockey.y);
+        if (globalVariables.Instance.currentLevel % 2 == 0 && startGame.Instance.jockeyName == "stallion") {
+            this.currentJockey.scaleX = -0.65;
+        }
+        else if (startGame.Instance.jockeyName == "stallion") {
+            this.currentJockey.scaleX = 0.65;
+            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+        }
+        else if (startGame.Instance.jockeyName == "Podar") {
+            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+        }
+        else {
+            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+        }
+        cc.tween(this.currentJockey).to(0.5, { x: jockeytween[globalVariables.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
+        this.scheduleOnce(() => {
+            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+            cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
+            this.scheduleOnce(() => {
+                cc.tween(this.currentJockey).to(0.5, { x: pos[globalVariables.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
+                if (startGame.Instance.jockeyName != "stallion") {
+                    if (startGame.Instance.jockeyName == "Podar") {
+                        this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                    }
+                    else {
+                        this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                    }
+                }
+                //console.log("characterDisappear--Podar_Jumbo");
+                // this.LoadNextQuestion();
+            }, this.negativeAudio[currentClipNum].duration);
+        }, 0.5);
+    }
+
     loadSpriteFrame(imageName: string, callback: (spriteFrame: cc.SpriteFrame) => void) {
         cc.loader.loadRes("images/" + imageName, cc.SpriteFrame, (err, spriteFrame) => {
             if (err) {
@@ -727,7 +841,39 @@ export default class Gameplay extends cc.Component {
     OnSound() {
         cc.audioEngine.stopAllEffects();
         cc.audioEngine.playEffect(this.questionVO, false);
+        this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(() => {
+            this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = true;
+            this.node.getChildByName("questionPanel").getChildByName("sound").scale = 1;
+            this.canPlay = true;
+            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+            this.setupTVFocus("options");
+        }, this.questionVO.duration + 0.1);
     }
+    private setupTVFocus(activeContainerName: string) {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
 
+        let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
+            let btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+
+        let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
+
+        // pick a sensible default — e.g. first option, or correct answer index
+
+        if (cc.director.getScene().name == "1") {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+
+        TVInputManager.Instance.setCanSelect(this.canPlay);
+    }
     // update (dt) {}
 }

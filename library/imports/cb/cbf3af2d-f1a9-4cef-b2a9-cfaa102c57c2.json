@@ -1792,8 +1792,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        379.817,
+        -125.505,
         0,
         0,
         0,
@@ -1927,6 +1927,14 @@
       },
       {
         "__uuid__": "23c6311d-448a-4a60-a912-b3188f8b503d"
+      }
+    ],
+    "negativeAudio": [
+      {
+        "__uuid__": "e6e865ee-cbcf-49fb-aa96-43c85a2bd095"
+      },
+      {
+        "__uuid__": "b024bef8-99b4-4d58-8a4a-10f203bf3f4b"
       }
     ],
     "stallionPositive": [],

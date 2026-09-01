@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var TVInputManager_1 = require("../../Games/SwipeToForm/Scripts/TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var startGame = /** @class */ (function (_super) {
     __extends(startGame, _super);
@@ -94,6 +95,19 @@ var startGame = /** @class */ (function (_super) {
                 _this.JockeyNode = element;
             }
         });
+        this.scheduleOnce(function () {
+            var backBtn = _this.node.getChildByName("back");
+            // :fire: music button
+            var musicBtn = _this.node.getChildByName("music");
+            backBtn.scale = 1;
+            musicBtn.scale = 1;
+            var nodes = [
+                backBtn,
+                musicBtn,
+            ];
+            TVInputManager_1.default.Instance.setCanSelect(true);
+            TVInputManager_1.default.Instance.init(nodes);
+        }, 0.5);
     };
     startGame.prototype.logData = function () {
         console.log("Total Levels:", this.TotalLevels);

@@ -38,9 +38,9 @@
       "numberOfOptions": 3,
       "optionOffset": 0,
       "options": [
+        "e",
         "h",
-        "t",
-        "e"
+        "t"
       ],
       "correctAnswer": "the",
       "correctAudioName": "the.mp3",
@@ -76,9 +76,9 @@
       "numberOfOptions": 3,
       "optionOffset": 0,
       "options": [
+        "e",
         "h",
-        "t",
-        "e"
+        "t"
       ],
       "correctAnswer": "the",
       "correctAudioName": "the.mp3",
