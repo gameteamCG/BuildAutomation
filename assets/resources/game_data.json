@@ -1,8 +1,8 @@
 {
   "AdditionalData": {
-    "GameID": "Letters and sounds Pp",
-    "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/video_LetterAndSoundPp_JollyPhonics.mp4",
-    "TitleImageName": "GameTitleNew.png",
+    "GameID": "Letters and Sounds Kk",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Ksong_1738583853963.mp4",
+    "TitleImageName": "k.png",
     "IntroAudio1Name": "",
     "IntroAudio2Name": "",
     "JockeyName": "puzzle",
@@ -13,55 +13,55 @@
       "QuestionAppearTime": "99999",
       "IsQuestionText": false,
       "QuestionText": "",
-      "QuestionImageName": "Q1.png",
+      "QuestionImageName": "identify.png",
       "QuestionAudioName": "Q1.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": false,
+      "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "Dd.png",
-        "Pp.png"
+        "k",
+        "u"
       ],
-      "ReiterationAudioName": "p_vo.mp3",
-      "CorrectAudioName": "positive_3.mp3",
-      "WrongAudioName": "negative_5.mp3",
-      "CorrectAnswer": "2"
+      "ReiterationAudioName": "k.mp3",
+      "CorrectAudioName": "positive_1.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "1"
     },
     {
       "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "Pp",
-      "QuestionImageName": "Q2.png",
+      "IsQuestionText": true,
+      "QuestionText": "k",
+      "QuestionImageName": "",
       "QuestionAudioName": "Q2.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "rabbit.png",
-        "panda.png"
+        "Kite.png",
+        "pegion.png"
       ],
-      "ReiterationAudioName": "panda_vo.mp3",
-      "CorrectAudioName": "positive_8.mp3",
-      "WrongAudioName": "negative_5.mp3",
-      "CorrectAnswer": "2"
+      "ReiterationAudioName": "kite.mp3",
+      "CorrectAudioName": "positive_2.mp3",
+      "WrongAudioName": "negative_2.mp3",
+      "CorrectAnswer": "1"
     },
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": false,
-      "QuestionText": "Pp",
-      "QuestionImageName": "Q2.png",
+      "QuestionText": "",
+      "QuestionImageName": "koala.png",
       "QuestionAudioName": "Q3.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": false,
+      "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "pumpkin.png",
-        "onion.png"
+        "p",
+        "k"
       ],
-      "ReiterationAudioName": "pumpkin_vo.mp3",
-      "CorrectAudioName": "positive_10.mp3",
-      "WrongAudioName": "negative_3.mp3",
-      "CorrectAnswer": "1"
+      "ReiterationAudioName": "R3.mp3",
+      "CorrectAudioName": "positive_3.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "2"
     }
   ]
 }
