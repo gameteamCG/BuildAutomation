@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Letter N_PreNursery Alphabet book_14",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/letterN.mp4",
+      "TitleImageName": "letterNtitle.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the letter ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifyletterN.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "n",
+          "a"
+        ],
+        "ReiterationAudioName": "Sound_of_n.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘n’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbeginsletterN.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0003_500x500_0003_nut.png",
+          "250x250_0003_gorilla.png"
+        ],
+        "ReiterationAudioName": "Nut.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘n’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbeginsletterN.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0001_dog.png",
+          "250x250_0002_500x500_0000_9.png"
+        ],
+        "ReiterationAudioName": "Nine.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘n’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbeginsletterN.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0001_500x500_0001_net.png",
+          "250x250_0002_dinosaur.png"
+        ],
+        "ReiterationAudioName": "Net.mp3",
+        "CorrectAudioName": "positive_4.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘n’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbeginsletterN.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0003_fox.png",
+          "250x250_0000_500x500_0002_nest.png"
+        ],
+        "ReiterationAudioName": "Nest.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
