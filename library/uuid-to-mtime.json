@@ -1605,8 +1605,8 @@
     "relativePath": "Games\\Podar_ Day 111 - Video Quiz (solar system)\\L5 (2).mp3"
   },
   "8591a91f-990d-4852-bf33-4208831dde2f": {
-    "asset": 1788239760022,
-    "meta": 1788239760042,
+    "asset": 1788240168043,
+    "meta": 1788240168056,
     "relativePath": "Games\\Scenes\\video.fire"
   },
   "456cfa32-849a-4a2e-b948-4c7983ad00a4": {
@@ -4683,5 +4683,10 @@
     "asset": 1788239322431,
     "meta": 1788239324489,
     "relativePath": "resources\\game_data.json"
+  },
+  "d8ccad54-7ab9-4398-89db-c5dee6a426e5": {
+    "asset": 1788240147405,
+    "meta": 1788240147420,
+    "relativePath": "resources\\jaipuria4.ttf"
   }
 }
