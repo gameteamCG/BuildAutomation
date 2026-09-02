@@ -36,11 +36,11 @@
         "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "plane",
-          "clown"
+          "62",
+          "55"
         ],
         "correctAnswer": "1",
-        "reiterationAudioName": "plane_2.mp3"
+        "reiterationAudioName": "62.mp3"
       },
       {
         "questionText": "solve puzzle",
@@ -64,11 +64,11 @@
         "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "blocks",
-          "plug"
+          "62",
+          "64"
         ],
         "correctAnswer": "2",
-        "reiterationAudioName": "plug.mp3"
+        "reiterationAudioName": "64.mp3"
       },
       {
         "questionText": "solve quiz",
@@ -92,11 +92,11 @@
         "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "plum",
-          "slice"
+          "66",
+          "69"
         ],
         "correctAnswer": "1",
-        "reiterationAudioName": "plum_2.mp3"
+        "reiterationAudioName": "66.mp3"
       },
       {
         "questionText": "solve quiz",
@@ -120,11 +120,11 @@
         "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "gloves",
-          "plant"
+          "70",
+          "63"
         ],
         "correctAnswer": "2",
-        "reiterationAudioName": "plant_2.mp3"
+        "reiterationAudioName": "63.mp3"
       },
       {
         "questionText": "solve quiz",
@@ -148,11 +148,11 @@
         "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "planet",
-          "slide"
+          "67",
+          "66"
         ],
         "correctAnswer": "1",
-        "reiterationAudioName": "planet.mp3"
+        "reiterationAudioName": "67.mp3"
       },
       {
         "questionText": "solve quiz",
@@ -176,11 +176,11 @@
         "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "flag",
-          "plate"
+          "51",
+          "65"
         ],
         "correctAnswer": "2",
-        "reiterationAudioName": "plate.mp3"
+        "reiterationAudioName": "65.mp3"
       },
       {
         "questionText": "solve quiz",

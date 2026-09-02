@@ -47,12 +47,12 @@ export default class NewClass extends cc.Component {
     @property(cc.AudioClip)
     wrongAnswer: cc.AudioClip = null;
     private questions: string[] = [
-        "plane", // 21
-        "plug", // 23
-        "plum", // 24
-        "plant", // 22
-        "planet", // 26
-        "plate", // 25
+        "6 tens and 2 ones is 62", // 62
+        "6 tens and 4 ones is 64", // 64
+        "6 tens and 6 ones is 66", // 66
+        "6 tens and 3 ones is 63", // 63
+        "6 tens and 7 ones is 67", // 67
+        "6 tens and 5 ones is 65", // 65
         "plus", // 28
         "2 tens and 9 ones", // 29
         "2 tens and 7 ones", // 27

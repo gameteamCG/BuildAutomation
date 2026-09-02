@@ -58,12 +58,12 @@ var NewClass = /** @class */ (function (_super) {
         _this.jockeyCorrect2 = null;
         _this.wrongAnswer = null;
         _this.questions = [
-            "plane",
-            "plug",
-            "plum",
-            "plant",
-            "planet",
-            "plate",
+            "6 tens and 2 ones is 62",
+            "6 tens and 4 ones is 64",
+            "6 tens and 6 ones is 66",
+            "6 tens and 3 ones is 63",
+            "6 tens and 7 ones is 67",
+            "6 tens and 5 ones is 65",
             "plus",
             "2 tens and 9 ones",
             "2 tens and 7 ones",
