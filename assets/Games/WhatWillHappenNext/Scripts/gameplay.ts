@@ -474,7 +474,7 @@ export default class NewClass extends cc.Component {
                 //console.log("isOptionBg");
                 if (!this.isOptionBG) {
                     this.node.getChildByName("Option").children.forEach((element) => {
-                        element.getChildByName("img").scale = 1.4;
+                        element.getChildByName("img").scale = 1;
                     })
                 }
                 cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
@@ -487,7 +487,10 @@ export default class NewClass extends cc.Component {
                         }, this.Qvo.duration + 0.1);
 
                     }, 0.5);
-                    this.setupTVFocus("Option");
+                    this.scheduleOnce(() => {
+                        this.setupTVFocus("Option");
+
+                    }, 1);
 
                 }
             }, delay);
@@ -1222,28 +1225,71 @@ export default class NewClass extends cc.Component {
 
         optionsLayout.height = maxHeight * scaleFactor;
 
+        // if (optionNodes.length == 2) {
+        //     if (!this.isLastTween) {
+        //         let distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
+        //         optionNodes[0].x = 0 - distanceBetweenOptions / 2;
+        //         optionNodes[1].x = 0 + distanceBetweenOptions / 2;
+        //         optionNodes[0].y = optionNodes[0].y - 50;
+        //         optionNodes[1].y = optionNodes[1].y - 50;
+        //         this.positionArray = [];
+        //         this.positionArray.push(optionNodes[0].getPosition());
+        //         this.positionArray.push(optionNodes[1].getPosition());
+        //     }
+        //     else {
+        //         let distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
+        //         let optionX0 = 0 - distanceBetweenOptions / 2;
+        //         let optionX1 = 0 + distanceBetweenOptions / 2;
+        //         cc.tween(optionNodes[0]).to(0.5, { x: optionX0 }, { easing: "sineInOut" }).start();
+        //         cc.tween(optionNodes[1]).to(0.5, { x: optionX1 }, { easing: "sineInOut" }).start();
+        //         this.positionArray = [];
+        //         this.positionArray.push(optionNodes[0].getPosition());
+        //         this.positionArray.push(optionNodes[1].getPosition());
+        //     }
+
+        // }
         if (optionNodes.length == 2) {
+            const extraSpace = 100;
+
             if (!this.isLastTween) {
-                let distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
-                optionNodes[0].x = 0 - distanceBetweenOptions / 2;
-                optionNodes[1].x = 0 + distanceBetweenOptions / 2;
-                optionNodes[0].y = optionNodes[0].y - 50;
-                optionNodes[1].y = optionNodes[1].y - 50;
+                let distanceBetweenOptions =
+                    optionNodes[1].x - optionNodes[0].x;
+
+                optionNodes[0].x =
+                    -distanceBetweenOptions / 2 - extraSpace;
+
+                optionNodes[1].x =
+                    distanceBetweenOptions / 2 + extraSpace;
+
+                optionNodes[0].y -= 50;
+                optionNodes[1].y -= 50;
+
                 this.positionArray = [];
                 this.positionArray.push(optionNodes[0].getPosition());
                 this.positionArray.push(optionNodes[1].getPosition());
             }
             else {
-                let distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
-                let optionX0 = 0 - distanceBetweenOptions / 2;
-                let optionX1 = 0 + distanceBetweenOptions / 2;
-                cc.tween(optionNodes[0]).to(0.5, { x: optionX0 }, { easing: "sineInOut" }).start();
-                cc.tween(optionNodes[1]).to(0.5, { x: optionX1 }, { easing: "sineInOut" }).start();
-                this.positionArray = [];
-                this.positionArray.push(optionNodes[0].getPosition());
-                this.positionArray.push(optionNodes[1].getPosition());
-            }
+                let distanceBetweenOptions =
+                    optionNodes[1].x - optionNodes[0].x;
 
+                let optionX0 =
+                    -distanceBetweenOptions / 2 - extraSpace;
+
+                let optionX1 =
+                    distanceBetweenOptions / 2 + extraSpace;
+
+                cc.tween(optionNodes[0])
+                    .to(0.5, { x: optionX0 }, { easing: "sineInOut" })
+                    .start();
+
+                cc.tween(optionNodes[1])
+                    .to(0.5, { x: optionX1 }, { easing: "sineInOut" })
+                    .start();
+
+                this.positionArray = [];
+                this.positionArray.push(cc.v2(optionX0, optionNodes[0].y));
+                this.positionArray.push(cc.v2(optionX1, optionNodes[1].y));
+            }
         }
         else if (optionNodes.length == 1) {
             if (!this.isLastTween) {
@@ -1378,8 +1424,8 @@ export default class NewClass extends cc.Component {
 
         let optionNodes = this.optionsNode;
 
-        const optionWidth = 150; // Width of each option
-        const optionHeight = 150; // Height of each option
+        const optionWidth = 150;
+        const optionHeight = 150;
 
         const gridWidth = optionWidth * numCols + paddingBetweenOptions * (numCols - 1);
         const gridHeight = optionHeight * numRows + paddingBetweenOptions * (numRows - 1);
@@ -1462,7 +1508,7 @@ export default class NewClass extends cc.Component {
 
         // pick a sensible default — e.g. first option, or correct answer index
 
-        if (cc.director.getScene().name == "1") {
+        if (globalVariables.Instance.currentLevel == 1) {
             TVInputManager.Instance.init(nodes, 1);
         }
         else {

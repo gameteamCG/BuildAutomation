@@ -429,7 +429,7 @@ var NewClass = /** @class */ (function (_super) {
                 //console.log("isOptionBg");
                 if (!_this.isOptionBG) {
                     _this.node.getChildByName("Option").children.forEach(function (element) {
-                        element.getChildByName("img").scale = 1.4;
+                        element.getChildByName("img").scale = 1;
                     });
                 }
                 cc.tween(_this.node.getChildByName("Option").getChildByName(i.toString()))
@@ -441,7 +441,9 @@ var NewClass = /** @class */ (function (_super) {
                             _this.PlayQuestionAudio();
                         }, _this.Qvo.duration + 0.1);
                     }, 0.5);
-                    _this.setupTVFocus("Option");
+                    _this.scheduleOnce(function () {
+                        _this.setupTVFocus("Option");
+                    }, 1);
                 }
             }, delay);
             delay += 0.5;
@@ -1145,26 +1147,55 @@ var NewClass = /** @class */ (function (_super) {
             }
         }
         optionsLayout.height = maxHeight * scaleFactor;
+        // if (optionNodes.length == 2) {
+        //     if (!this.isLastTween) {
+        //         let distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
+        //         optionNodes[0].x = 0 - distanceBetweenOptions / 2;
+        //         optionNodes[1].x = 0 + distanceBetweenOptions / 2;
+        //         optionNodes[0].y = optionNodes[0].y - 50;
+        //         optionNodes[1].y = optionNodes[1].y - 50;
+        //         this.positionArray = [];
+        //         this.positionArray.push(optionNodes[0].getPosition());
+        //         this.positionArray.push(optionNodes[1].getPosition());
+        //     }
+        //     else {
+        //         let distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
+        //         let optionX0 = 0 - distanceBetweenOptions / 2;
+        //         let optionX1 = 0 + distanceBetweenOptions / 2;
+        //         cc.tween(optionNodes[0]).to(0.5, { x: optionX0 }, { easing: "sineInOut" }).start();
+        //         cc.tween(optionNodes[1]).to(0.5, { x: optionX1 }, { easing: "sineInOut" }).start();
+        //         this.positionArray = [];
+        //         this.positionArray.push(optionNodes[0].getPosition());
+        //         this.positionArray.push(optionNodes[1].getPosition());
+        //     }
+        // }
         if (optionNodes.length == 2) {
+            var extraSpace = 100;
             if (!this.isLastTween) {
                 var distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
-                optionNodes[0].x = 0 - distanceBetweenOptions / 2;
-                optionNodes[1].x = 0 + distanceBetweenOptions / 2;
-                optionNodes[0].y = optionNodes[0].y - 50;
-                optionNodes[1].y = optionNodes[1].y - 50;
+                optionNodes[0].x =
+                    -distanceBetweenOptions / 2 - extraSpace;
+                optionNodes[1].x =
+                    distanceBetweenOptions / 2 + extraSpace;
+                optionNodes[0].y -= 50;
+                optionNodes[1].y -= 50;
                 this.positionArray = [];
                 this.positionArray.push(optionNodes[0].getPosition());
                 this.positionArray.push(optionNodes[1].getPosition());
             }
             else {
                 var distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
-                var optionX0 = 0 - distanceBetweenOptions / 2;
-                var optionX1 = 0 + distanceBetweenOptions / 2;
-                cc.tween(optionNodes[0]).to(0.5, { x: optionX0 }, { easing: "sineInOut" }).start();
-                cc.tween(optionNodes[1]).to(0.5, { x: optionX1 }, { easing: "sineInOut" }).start();
+                var optionX0 = -distanceBetweenOptions / 2 - extraSpace;
+                var optionX1 = distanceBetweenOptions / 2 + extraSpace;
+                cc.tween(optionNodes[0])
+                    .to(0.5, { x: optionX0 }, { easing: "sineInOut" })
+                    .start();
+                cc.tween(optionNodes[1])
+                    .to(0.5, { x: optionX1 }, { easing: "sineInOut" })
+                    .start();
                 this.positionArray = [];
-                this.positionArray.push(optionNodes[0].getPosition());
-                this.positionArray.push(optionNodes[1].getPosition());
+                this.positionArray.push(cc.v2(optionX0, optionNodes[0].y));
+                this.positionArray.push(cc.v2(optionX1, optionNodes[1].y));
             }
         }
         else if (optionNodes.length == 1) {
@@ -1274,8 +1305,8 @@ var NewClass = /** @class */ (function (_super) {
         }
         var paddingBetweenOptions = 120;
         var optionNodes = this.optionsNode;
-        var optionWidth = 150; // Width of each option
-        var optionHeight = 150; // Height of each option
+        var optionWidth = 150;
+        var optionHeight = 150;
         var gridWidth = optionWidth * numCols + paddingBetweenOptions * (numCols - 1);
         var gridHeight = optionHeight * numRows + paddingBetweenOptions * (numRows - 1);
         var currentRow = 0;
@@ -1338,7 +1369,7 @@ var NewClass = /** @class */ (function (_super) {
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
         // pick a sensible default — e.g. first option, or correct answer index
-        if (cc.director.getScene().name == "1") {
+        if (globalVariables_1.default.Instance.currentLevel == 1) {
             TVInputManager_1.default.Instance.init(nodes, 1);
         }
         else {
