@@ -489,7 +489,10 @@ export default class NewClass extends cc.Component {
             }, delay);
             delay += 0.5;
         }
-        this.setupTVFocus("Option");
+        this.scheduleOnce(() => {
+            this.setupTVFocus("Option");
+
+        }, 2)
 
         // this.scheduleOnce(() => {
         //     console.log("ABCD.............", this.node.getChildByName("Option").children[0].scale, this.node.getChildByName("Option").children[0].getChildByName("bg").scale, this.node.getChildByName("Option").children[0].getChildByName("img").scale)
@@ -1444,7 +1447,9 @@ export default class NewClass extends cc.Component {
 
         // pick a sensible default — e.g. first option, or correct answer index
 
-        if (cc.director.getScene().name == "1") {
+        // if (cc.director.getScene().name == "1") {
+        if (globalVariables.Instance.currentLevel == 1) {
+
             TVInputManager.Instance.init(nodes, 0);
         }
         else {

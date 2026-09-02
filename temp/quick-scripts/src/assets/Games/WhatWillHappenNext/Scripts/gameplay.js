@@ -449,7 +449,9 @@ var NewClass = /** @class */ (function (_super) {
         for (var i = 1; i <= this.optionsNode.children.length; i++) {
             _loop_5(i);
         }
-        this.setupTVFocus("Option");
+        this.scheduleOnce(function () {
+            _this.setupTVFocus("Option");
+        }, 2);
         // this.scheduleOnce(() => {
         //     console.log("ABCD.............", this.node.getChildByName("Option").children[0].scale, this.node.getChildByName("Option").children[0].getChildByName("bg").scale, this.node.getChildByName("Option").children[0].getChildByName("img").scale)
         // }, 3);
@@ -1338,7 +1340,8 @@ var NewClass = /** @class */ (function (_super) {
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
         // pick a sensible default — e.g. first option, or correct answer index
-        if (cc.director.getScene().name == "1") {
+        // if (cc.director.getScene().name == "1") {
+        if (globalVariables_1.default.Instance.currentLevel == 1) {
             TVInputManager_1.default.Instance.init(nodes, 0);
         }
         else {
