@@ -64,9 +64,10 @@ var NewClass = /** @class */ (function (_super) {
             "6 tens and 3 ones is 63",
             "6 tens and 7 ones is 67",
             "6 tens and 5 ones is 65",
-            "plus",
-            "2 tens and 9 ones",
-            "2 tens and 7 ones",
+            "6 tens and 1 one is 61",
+            "6 tens and 9 ones is 69",
+            "6 tens and 8 ones is 68",
+            "7 tens and 0 ones is 70",
         ];
         // @property(cc.SpriteFrame)
         _this.temporarySprites = [];

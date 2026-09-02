@@ -440,7 +440,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -18.869,
+        2.696,
         0,
         0,
         0,
@@ -4255,7 +4255,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 12.73,
-      "height": 75.6
+      "height": 56.7
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4387,7 +4387,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 0,
-      "height": 75.6
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
