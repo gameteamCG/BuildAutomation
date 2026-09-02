@@ -17,7 +17,7 @@
       {
         "questionText": "Tricky word",
         "questionImageName": "",
-        "questionAudioName": "swipeQ.mp3",
+        "questionAudioName": "Qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "apple.png",
         "isOptionText": true,
@@ -36,7 +36,7 @@
       {
         "questionText": "Tricky word",
         "questionImageName": "",
-        "questionAudioName": "swipeQ.mp3",
+        "questionAudioName": "Qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "apple.png",
         "isOptionText": true,
@@ -55,7 +55,7 @@
       {
         "questionText": "Tricky word",
         "questionImageName": "",
-        "questionAudioName": "swipeQ.mp3",
+        "questionAudioName": "Qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "apple.png",
         "isOptionText": true,
@@ -74,7 +74,7 @@
       {
         "questionText": "Tricky word",
         "questionImageName": "",
-        "questionAudioName": "swipeQ.mp3",
+        "questionAudioName": "Qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "apple.png",
         "isOptionText": true,

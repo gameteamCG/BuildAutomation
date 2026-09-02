@@ -115,8 +115,9 @@ export default class Gameplay extends cc.Component {
 
     PlayQuestionAudio() {
         this.currentJockey.active = true;
+        cc.audioEngine.playEffect(this.questionVO, false);
         if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-            cc.audioEngine.playEffect(this.questionVO, false);
+
         }
         if (globalVariables.Instance.currentLevel == 1) {
             //PLAY HAND ANIMATION
@@ -510,6 +511,8 @@ export default class Gameplay extends cc.Component {
         console.log("correctAnswer : =", this.correctAnswer);
         this.tappingcount++;
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.selectedorder;
+
+        this.node.getChildByName("questionPanel").getChildByName("textdash").active = true;
         this.canPlay = true;
         if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         if (this.tappingcount == 3) {

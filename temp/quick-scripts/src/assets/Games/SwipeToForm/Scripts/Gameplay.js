@@ -121,8 +121,8 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.PlayQuestionAudio = function () {
         this.currentJockey.active = true;
+        cc.audioEngine.playEffect(this.questionVO, false);
         if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-            cc.audioEngine.playEffect(this.questionVO, false);
         }
         if (globalVariables_1.default.Instance.currentLevel == 1) {
             //PLAY HAND ANIMATION
@@ -496,6 +496,7 @@ var Gameplay = /** @class */ (function (_super) {
         console.log("correctAnswer : =", this.correctAnswer);
         this.tappingcount++;
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.selectedorder;
+        this.node.getChildByName("questionPanel").getChildByName("textdash").active = true;
         this.canPlay = true;
         if (TVInputManager_1.default.Instance)
             TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
