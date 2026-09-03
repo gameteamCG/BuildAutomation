@@ -795,31 +795,7 @@ export default class Gameplay extends cc.Component {
             callback(audioClip);
         });
     }
-    // private setupTVFocus(activeContainerName: string) {
-    //     let backBtn = startGame.Instance.node.getChildByName("back");
-    //     let musicBtn = startGame.Instance.node.getChildByName("music");
-    //     let soundBtn = this.node.getChildByName("shortQBar").getChildByName("SoundButton");
-    //     backBtn.scale = 1;
-    //     musicBtn.scale = 1;
-
-    //     let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
-    //         let btn = node.getComponent(cc.Button);
-    //         return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
-    //     });
-
-    //     let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
-
-    //     // pick a sensible default — e.g. first option, or correct answer index
-
-    //     if (cc.director.getScene().name == "1") {
-    //         TVInputManager.Instance.init(nodes, 0);
-    //     }
-    //     else {
-    //         TVInputManager.Instance.init(nodes, -1);
-    //     }
-
-    //     TVInputManager.Instance.setCanSelect(this.canPlay);
-    // }
+  
     private setupTVFocus(activeContainerName: string) {
 
         let backBtn = startGame.Instance.node.getChildByName("back");
@@ -840,12 +816,12 @@ export default class Gameplay extends cc.Component {
             });
 
 
-       
+
         optionButtons.forEach((element) => {
 
             element.on("tv-select", () => {
 
-              
+
 
                 if (!this.canPlay || !this.canTouch) {
                     return;
@@ -886,7 +862,7 @@ export default class Gameplay extends cc.Component {
         ].filter(n => !!n);
 
 
-        if (cc.director.getScene().name == "1") {
+        if (startGame.Instance.currentLevel == 1) {
 
             TVInputManager.Instance.init(nodes, 0);
 
