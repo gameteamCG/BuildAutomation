@@ -23,8 +23,8 @@
         "t"
       ],
       "ReiterationAudioName": "Sound_of_T.mp3",
-      "CorrectAudioName": "FANTASTIC.mp3",
-      "WrongAudioName": "ohoh.mp3",
+      "CorrectAudioName": "positive_1.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "2"
     },
     {
@@ -41,8 +41,8 @@
         "250x250_0015_500x500_0014_koala.png"
       ],
       "ReiterationAudioName": "Top.mp3",
-      "CorrectAudioName": "GOODJOB.mp3",
-      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAudioName": "positive_2.mp3",
+      "WrongAudioName": "negative_2.mp3",
       "CorrectAnswer": "1"
     },
     {
@@ -59,8 +59,8 @@
         "250x250_0019_500x500_0015_jellyfish.png"
       ],
       "ReiterationAudioName": "taxi.mp3",
-      "CorrectAudioName": "BRILLIANT.mp3",
-      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAudioName": "positive_3.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "1"
     },
     {
@@ -77,8 +77,8 @@
         "250x250_0009_tomato.png"
       ],
       "ReiterationAudioName": "Tomato.mp3",
-      "CorrectAudioName": "GREATWORK.mp3",
-      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAudioName": "positive_4.mp3",
+      "WrongAudioName": "negative_2.mp3",
       "CorrectAnswer": "2"
     },
     {
@@ -95,8 +95,8 @@
         "250x250_0002_bear.png"
       ],
       "ReiterationAudioName": "tent.mp3",
-      "CorrectAudioName": "EXCELLENTJOB.mp3",
-      "WrongAudioName": "ohoh.mp3",
+      "CorrectAudioName": "positive_1.mp3",
+      "WrongAudioName": "negative_2.mp3",
       "CorrectAnswer": "1"
     }
   ]
