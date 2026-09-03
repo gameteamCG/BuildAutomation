@@ -23,8 +23,8 @@
                 "c"
             ],
             "ReiterationAudioName": "A(1).mp3",
-            "CorrectAudioName": "BRILLIANT.mp3",
-            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAudioName": "positive_1.mp3",
+            "WrongAudioName": "negative_1.mp3",
             "CorrectAnswer": "1"
         },
         {
@@ -41,8 +41,8 @@
                 "ants.png"
             ],
             "ReiterationAudioName": "ants.mp3",
-            "CorrectAudioName": "EXCELLENTJOB.mp3",
-            "WrongAudioName": "ohoh.mp3",
+            "CorrectAudioName": "positive_2.mp3",
+            "WrongAudioName": "negative_2.mp3",
             "CorrectAnswer": "2"
         },
         {
@@ -59,8 +59,8 @@
                 "mango.png"
             ],
             "ReiterationAudioName": "25822382_5_apple.mp3",
-            "CorrectAudioName": "FANTASTIC.mp3",
-            "WrongAudioName": "nevermindtryagain.mp3",
+            "CorrectAudioName": "positive_3.mp3",
+            "WrongAudioName": "negative_1.mp3",
             "CorrectAnswer": "1"
         }
     ]
