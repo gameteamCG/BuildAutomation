@@ -29,7 +29,7 @@
         ],
         "ReiterationAudioName": "p_vo.mp3",
         "CorrectAudioName": "positive_3.mp3",
-        "WrongAudioName": "negative_5.mp3",
+        "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "2"
       },
       {
@@ -47,7 +47,7 @@
         ],
         "ReiterationAudioName": "panda_vo.mp3",
         "CorrectAudioName": "positive_8.mp3",
-        "WrongAudioName": "negative_5.mp3",
+        "WrongAudioName": "negative_2.mp3",
         "CorrectAnswer": "2"
       },
       {
@@ -65,7 +65,7 @@
         ],
         "ReiterationAudioName": "pumpkin_vo.mp3",
         "CorrectAudioName": "positive_10.mp3",
-        "WrongAudioName": "negative_3.mp3",
+        "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "1"
       }
     ]
