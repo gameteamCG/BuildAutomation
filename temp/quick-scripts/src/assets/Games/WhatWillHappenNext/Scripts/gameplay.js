@@ -81,11 +81,19 @@ var NewClass = /** @class */ (function (_super) {
         _this.currentJcokey = null;
         _this.correctAudio = [];
         _this.optionsNode = null;
-        _this.ans = ["Mango", "Nest", "Orange", "Parrot", "Queen", "Rose"];
-        _this.questionBoxPosY = 0;
+        _this.ans = [
+            "टोकरी",
+            "डंडा",
+            "बाण",
+            "ठप्पा",
+            "डब्बा",
+            "ढाल",
+            "ठेला"
+        ];
+        _this.questionBoxPosY = 351.157;
         _this.totalAnswers = 0;
         _this.correctAnswerCount = 0;
-        _this.isOptionBG = false;
+        _this.isOptionBG = true;
         _this.TotalOptions = 0;
         _this.positionArray = [];
         _this.isDone = [];
@@ -335,7 +343,7 @@ var NewClass = /** @class */ (function (_super) {
         //console.log("isDone : ", this.isDone);
     };
     NewClass.prototype.callQuestionBar = function () {
-        this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
+        this.questionBoxPosY = 351.157;
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
@@ -945,7 +953,7 @@ var NewClass = /** @class */ (function (_super) {
                 anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+                anim = ["negative_1", "negative_2"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];

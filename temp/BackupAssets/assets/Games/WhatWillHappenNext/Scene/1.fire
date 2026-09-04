@@ -595,7 +595,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "06dd4157-4f14-44e1-8963-dfee4c243ec0"
+      "__uuid__": "2d879bda-260e-4267-a1f3-79bd51417eeb"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -1404,14 +1404,14 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        388.449,
+        351.157,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        0.8,
+        0.8,
         1
       ]
     },
@@ -1466,7 +1466,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -90,
+        -79.13199999999999,
         0,
         0,
         0,
@@ -1725,7 +1725,7 @@
       "__uuid__": "5b029168-d7fb-46ee-bb27-2327bfaa25f7"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -1734,7 +1734,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "77ZJF5LlZAGYMGGkFuEUTn"
   },

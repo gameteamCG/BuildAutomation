@@ -108,12 +108,20 @@ export default class NewClass extends cc.Component {
     correctAudio: cc.AudioClip[] = [];
 
     private optionsNode: cc.Node = null;
-    private ans = ["Mango", "Nest", "Orange", "Parrot", "Queen", "Rose"]
-    private questionBoxPosY: number = 0;
+    private ans = [
+        "टोकरी",
+        "डंडा",
+        "बाण",
+        "ठप्पा",
+        "डब्बा",
+        "ढाल",
+        "ठेला"
+    ];
+    private questionBoxPosY: number = 351.157;
 
     totalAnswers: number = 0;
     correctAnswerCount: number = 0;
-    isOptionBG: boolean = false;
+    isOptionBG: boolean = true;
     TotalOptions: number = 0;
     positionArray: cc.Vec2[] = [];
     isDone: boolean[] = [];
@@ -375,7 +383,7 @@ export default class NewClass extends cc.Component {
     }
 
     callQuestionBar() {
-        this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
+        this.questionBoxPosY = 351.157;
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
@@ -994,7 +1002,7 @@ export default class NewClass extends cc.Component {
                 anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
             }
             else if (startGame.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+                anim = ["negative_1", "negative_2"];
             }
             else if (startGame.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
