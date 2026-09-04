@@ -202,9 +202,10 @@ export default class Gameplay extends cc.Component {
             for (let i = 0; i < this.optionsNode.children.length; i++) {
                 this.optionsNode.children[i].scale = 0;
                 this.optionsNode.children[i].opacity = 255;
+                this.optionsNode.children[i].getChildByName("text").y = -80;
                 this.scheduleOnce(() => {
                     cc.audioEngine.playEffect(this.pop_sound, false);
-                    cc.tween(this.optionsNode.children[i]).to(0.3, { scale: 0.8 }, { easing: 'backInOut' }).start();
+                    cc.tween(this.optionsNode.children[i]).to(0.3, { scale: 1 }, { easing: 'backInOut' }).start();
                     if (i == this.optionsNode.children.length - 1) {
                         this.scheduleOnce(() => {
                             this.SubcribeEvents();
@@ -403,6 +404,7 @@ export default class Gameplay extends cc.Component {
     }
 
     TouchStart(_node: cc.Node) {
+
         if (this.isAnswered) {
             return;
         }
@@ -429,9 +431,9 @@ export default class Gameplay extends cc.Component {
             if (this.letter) {
                 this.selectedorder += this.letter;
             }
-
-            console.log("Letter:", this.letter);
-            console.log("this.selectedorder:", this.selectedorder);
+            cc.audioEngine.playEffect(this.swipe_sound, false);
+            // console.log("Letter:", this.letter);
+            // console.log("this.selectedorder:", this.selectedorder);
 
             if (!this.isFirstClick) {
                 this.isFirstClick = true;
@@ -441,11 +443,11 @@ export default class Gameplay extends cc.Component {
     }
     private nodeNameToLetter: { [key: string]: string } = {
 
-        "1": "h", "2": "t", "3": "e"
+        "1": "h", "2": "s", "3": "e"
     };
     private nodeNameToLetter1: { [key: string]: string } = {
 
-        "1": "e", "2": "h", "3": "t"
+        "1": "e", "2": "h", "3": "s"
     };
     TouchMove(_node: cc.Node, _event: any) {
         // if (!this.canTouch || this.currentDraggingObject !== _node.name || this.isAnswered) {
@@ -509,8 +511,14 @@ export default class Gameplay extends cc.Component {
         console.log("current word =", currentWord);
         let targetWord = this.correctAnswer; // Define your target word here
         console.log("correctAnswer : =", this.correctAnswer);
+        this.node.getChildByName("questionPanel").getChildByName("text").active = false;
         this.tappingcount++;
-        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.selectedorder;
+        if (this.tappingcount == 1)
+            this.node.getChildByName("questionPanel").getChildByName("text1").getComponent(cc.Label).string = this.letter;
+        else if (this.tappingcount == 2)
+            this.node.getChildByName("questionPanel").getChildByName("text11").getComponent(cc.Label).string = this.letter;
+        else if (this.tappingcount == 3)
+            this.node.getChildByName("questionPanel").getChildByName("text111").getComponent(cc.Label).string = this.letter;
 
         this.node.getChildByName("questionPanel").getChildByName("textdash").active = true;
         this.canPlay = true;
@@ -528,7 +536,7 @@ export default class Gameplay extends cc.Component {
                     this.node.getChildByName("reiteration").active = true;
                     this.node.getChildByName("reiteration").scale = 0;
                     // cc.tween(this.optionsNode).to(0.25, { scaleX: 0 }, { easing: 'backInOut' }).start();
-                    //  cc.tween(this.node.getChildByName("reiteration")).to(0.5, { scale: 1 }, { easing: 'sineInOut' }).start();
+                    cc.tween(this.node.getChildByName("reiteration")).to(0.5, { scale: 1 }, { easing: 'sineInOut' }).start();
 
                     this.scheduleOnce(() => {
                         this.optionsNode.active = false;
@@ -563,9 +571,17 @@ export default class Gameplay extends cc.Component {
                     }, 0.75);
                 }
             } else {
-                this.selectedorder = "";
-                this.tappingcount = 0;
-                this.letter = "";
+
+                this.scheduleOnce(() => {
+                    this.node.getChildByName("questionPanel").getChildByName("text1").getComponent(cc.Label).string = "";
+                    this.node.getChildByName("questionPanel").getChildByName("text11").getComponent(cc.Label).string = "";
+                    this.node.getChildByName("questionPanel").getChildByName("text111").getComponent(cc.Label).string = "";
+                    this.selectedorder = "";
+                    this.tappingcount = 0;
+                    this.letter = "";
+                    this.isAnswered = false;
+                }, 0.5);
+                this.isAnswered = true;
                 this.callnegJockey();
                 // console.log("Incorrect order.");
                 // Additional logic for when the order is incorrect
@@ -811,6 +827,7 @@ export default class Gameplay extends cc.Component {
                 }
                 //console.log("characterDisappear--Podar_Jumbo");
                 // this.LoadNextQuestion();
+
             }, this.negativeAudio[currentClipNum].duration);
         }, 0.5);
     }
@@ -878,5 +895,7 @@ export default class Gameplay extends cc.Component {
 
         TVInputManager.Instance.setCanSelect(this.canPlay);
     }
-    // update (dt) {}
+    update(dt) {
+        // console.log(this.isAnswered);
+    }
 }

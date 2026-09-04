@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Po2",
+    "texture": "fcc35b10-3ca6-4189-92cc-745dc1cdd2d7",
+    "atlas": "",
+    "rect": [
+      38,
+      19,
+      394,
+      482
+    ],
+    "offset": [
+      -15.5,
+      -9.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
