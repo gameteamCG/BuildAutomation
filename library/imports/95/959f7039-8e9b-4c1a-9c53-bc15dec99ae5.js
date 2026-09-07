@@ -84,6 +84,7 @@ var video = /** @class */ (function (_super) {
         _this.isOnSlider = false;
         _this.duration = 0;
         _this.canNextQuestion = true;
+        _this.isVisited = false;
         _this.attemps = 0;
         _this.videoCompleted = false;
         _this.gameStarted = false;
@@ -480,9 +481,6 @@ var video = /** @class */ (function (_super) {
                     cc.audioEngine.playEffect(_this.questions[_this.currentQuestion - 1].reiterationAudio, false);
                 }, 0.5);
             }
-            _event.target.getParent().children.forEach(function (element) {
-                element.getComponent(cc.Button).interactable = false;
-            });
             this.scheduleOnce(function () {
                 cc.audioEngine.playEffect(_this.positiveVO[_this.currentQuestion % 5], false);
                 _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, _this.positiveVO[_this.currentQuestion % 5].name, false);
@@ -500,7 +498,6 @@ var video = /** @class */ (function (_super) {
                         cc.tween(_this.character.getChildByName("anim")).to(0.5, { x: -600 }, { easing: "backInOut" }).start();
                         element.getChildByName("green").active = false;
                         element.getChildByName("red").active = false;
-                        element.getComponent(cc.Button).interactable = true;
                     });
                     _this.canNextQuestion = true;
                     if (_this.videoCompleted) {
@@ -522,7 +519,6 @@ var video = /** @class */ (function (_super) {
                 _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             }, this.getAnimDuration(this.negativeVO[this.currentQuestion % 2].name));
             _event.target.getChildByName("red").active = true;
-            _event.target.getComponent(cc.Button).interactable = false;
         }
     };
     video.prototype.OnSoundButton = function (_event) {
@@ -554,7 +550,14 @@ var video = /** @class */ (function (_super) {
             backBtn,
             musicBtn
         ]).filter(function (n) { return n; });
-        TVInputManager_1.default.Instance.init(nodes, -1);
+        console.log(this.currentQuestion);
+        if (this.currentQuestion == 0 && !this.isVisited) {
+            this.isVisited = true;
+            TVInputManager_1.default.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager_1.default.Instance.init(nodes, -1);
+        }
         TVInputManager_1.default.Instance.setCanSelect(true);
     };
     video.prototype.checkOnMissingQuestions = function () {

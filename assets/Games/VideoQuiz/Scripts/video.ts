@@ -64,6 +64,7 @@ export default class video extends cc.Component {
     private isOnSlider: boolean = false;
     duration: number = 0;
     private canNextQuestion: boolean = true;
+    private isVisited: boolean = false;
     private attemps: number = 0;
     private videoCompleted: boolean = false;
     private gameStarted: boolean = false;
@@ -493,9 +494,6 @@ export default class video extends cc.Component {
                     cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].reiterationAudio, false);
                 }, 0.5);
             }
-            _event.target.getParent().children.forEach(element => {
-                element.getComponent(cc.Button).interactable = false;
-            });
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.positiveVO[this.currentQuestion % 5], false);
                 this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.positiveVO[this.currentQuestion % 5].name, false);
@@ -513,7 +511,6 @@ export default class video extends cc.Component {
                         cc.tween(this.character.getChildByName("anim")).to(0.5, { x: -600 }, { easing: "backInOut" }).start();
                         element.getChildByName("green").active = false;
                         element.getChildByName("red").active = false;
-                        element.getComponent(cc.Button).interactable = true;
                     });
                     this.canNextQuestion = true;
                     if (this.videoCompleted) {
@@ -536,8 +533,6 @@ export default class video extends cc.Component {
                 this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             }, this.getAnimDuration(this.negativeVO[this.currentQuestion % 2].name));
             _event.target.getChildByName("red").active = true;
-            _event.target.getComponent(cc.Button).interactable = false;
-
         }
 
     }
@@ -573,7 +568,16 @@ export default class video extends cc.Component {
             backBtn,
             musicBtn
         ].filter(n => n);
-        TVInputManager.Instance.init(nodes, -1);
+        console.log(this.currentQuestion);
+
+
+        if (this.currentQuestion == 0 && !this.isVisited) {
+            this.isVisited = true;
+            TVInputManager.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
         TVInputManager.Instance.setCanSelect(true);
     }
     checkOnMissingQuestions() {
