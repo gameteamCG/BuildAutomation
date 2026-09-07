@@ -318,10 +318,9 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posX = [-700, -350, 0, 350, 700];
-            var _laypout1posY = [60, -60, 60, -60, 60];
+            var _laypout1posX = [-550, 0, 500];
             for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                _optionParent.children[i].setPosition(_laypout1posX[i], -100);
             }
         }
         if (this.optionsLayout == "layout2") {
