@@ -52,7 +52,7 @@
         {
             "QuestionAppearTime": "2000",
             "IsQuestionText": true,
-            "QuestionText": "skies",
+            "QuestionText": "sky",
             "QuestionImageName": "",
             "QuestionAudioName": "19952876_1_select_the_correct_pic.mp3",
             "PlayQuestionAudio": true,
