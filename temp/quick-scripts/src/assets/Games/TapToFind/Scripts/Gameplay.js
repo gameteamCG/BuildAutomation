@@ -210,7 +210,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 _this.scheduleOnce(function () {
                     _this.setupTVFocus(_this.optionsLayout);
-                }, delay + 0.1);
+                }, delay + 0.5);
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout1, _this);
                     element.on("tv-select", _this.onTouchStart_layout1, _this);
@@ -232,7 +232,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 _this.scheduleOnce(function () {
                     _this.setupTVFocus(_this.optionsLayout);
-                }, delay + 0.1);
+                }, delay + 0.5);
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout2, _this);
                     element.on("tv-select", _this.onTouchStart_layout2, _this);
@@ -252,7 +252,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 _this.scheduleOnce(function () {
                     _this.setupTVFocus(_this.optionsLayout);
-                }, delay + 0.1);
+                }, delay + 0.5);
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout3, _this);
                     element.on("tv-select", _this.onTouchStart_layout3, _this);
@@ -297,7 +297,7 @@ var Gameplay = /** @class */ (function (_super) {
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
         if (StartGame_1.default.Instance.currentLevel == 1) {
-            TVInputManager_1.default.Instance.init(nodes, 1);
+            TVInputManager_1.default.Instance.init(nodes, 0);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);
@@ -318,16 +318,10 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posX = [-700, -200, 300, 800];
-            var _laypout1posY = [-150, 100, -150, 250];
+            var _laypout1posX = [-700, -350, 0, 350, 700];
+            var _laypout1posY = [60, -60, 60, -60, 60];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
-            }
-            if (StartGame_1.default.Instance.currentLevel == 5) {
-                var _laypout1posY_1 = [-150, 100, -100, 150];
-                for (var i = 0; i < _optionParent.children.length; i++) {
-                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY_1[i]);
-                }
             }
         }
         if (this.optionsLayout == "layout2") {

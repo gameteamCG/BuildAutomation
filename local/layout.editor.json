@@ -5,10 +5,10 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 0,
-      "y": 0,
-      "width": 1536,
-      "height": 816,
+      "x": -8,
+      "y": -8,
+      "width": 1552,
+      "height": 832,
       "layout": {
         "type": "dock-h",
         "children": [
@@ -77,8 +77,20 @@
           }
         ]
       },
-      "panels": []
-    }
+      "panels": [
+        "hierarchy",
+        "assets",
+        "scene",
+        "console",
+        "timeline",
+        "game-window",
+        "inspector",
+        "cocos-services",
+        "node-library"
+      ]
+    },
+    " common-asset-worker-worker": {},
+    "window-1788812538057": {}
   },
   "panels": {
     "project-settings": {
