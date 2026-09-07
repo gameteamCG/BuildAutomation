@@ -1,8 +1,8 @@
 {
   "AdditionalData": {
-    "GameID": "Letters and sounds Pp",
-    "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/video_LetterAndSoundPp_JollyPhonics.mp4",
-    "TitleImageName": "GameTitleNew.png",
+    "GameID": "Letters and sounds Ee",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/E_Song_1734504458424.mp4",
+    "TitleImageName": "title.png",
     "IntroAudio1Name": "",
     "IntroAudio2Name": "",
     "JockeyName": "puzzle",
@@ -12,55 +12,55 @@
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": false,
-      "QuestionText": "",
-      "QuestionImageName": "Q1.png",
-      "QuestionAudioName": "Q1.mp3",
+      "QuestionText": "Identify",
+      "QuestionImageName": "new_Identify.png",
+      "QuestionAudioName": "new-1-identify-the-letter-wi_6O8bCrYk.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": false,
+      "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "Dd.png",
-        "Pp.png"
+        "e",
+        "z"
       ],
-      "ReiterationAudioName": "p_vo.mp3",
-      "CorrectAudioName": "positive_3.mp3",
-      "WrongAudioName": "negative_5.mp3",
-      "CorrectAnswer": "2"
+      "ReiterationAudioName": "new_p_8284556_261.mp3",
+      "CorrectAudioName": "positive_4.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "1"
     },
     {
       "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "Pp",
-      "QuestionImageName": "Q2.png",
-      "QuestionAudioName": "Q2.mp3",
+      "IsQuestionText": true,
+      "QuestionText": "Letter e",
+      "QuestionImageName": "new_Ee",
+      "QuestionAudioName": "new-4-tap-on-the-picture-tha_ABcmuLW6.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "rabbit.png",
-        "panda.png"
+        "cookies.png",
+        "eggs.png"
       ],
-      "ReiterationAudioName": "panda_vo.mp3",
-      "CorrectAudioName": "positive_8.mp3",
-      "WrongAudioName": "negative_5.mp3",
+      "ReiterationAudioName": "new_3_eggs.mp3",
+      "CorrectAudioName": "positive_5.mp3",
+      "WrongAudioName": "negative_2.mp3",
       "CorrectAnswer": "2"
     },
     {
-      "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "Pp",
-      "QuestionImageName": "Q2.png",
-      "QuestionAudioName": "Q3.mp3",
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Letter e",
+      "QuestionImageName": "new_Ee",
+      "QuestionAudioName": "new-4-tap-on-the-picture-tha_ABcmuLW6.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "pumpkin.png",
-        "onion.png"
+        "new_elepent.png",
+        "new_donkey.png"
       ],
-      "ReiterationAudioName": "pumpkin_vo.mp3",
-      "CorrectAudioName": "positive_10.mp3",
-      "WrongAudioName": "negative_3.mp3",
+      "ReiterationAudioName": "new_5_elephant.mp3",
+      "CorrectAudioName": "positive_6.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "1"
     }
   ]
