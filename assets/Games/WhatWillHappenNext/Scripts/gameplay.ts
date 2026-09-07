@@ -1,5 +1,7 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
 import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+
+
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 import TVInputManager from "./TVInputManager";
@@ -108,7 +110,7 @@ export default class NewClass extends cc.Component {
     correctAudio: cc.AudioClip[] = [];
 
     private optionsNode: cc.Node = null;
-    private ans = ["Mango", "Nest", "Orange", "Parrot", "Queen", "Rose"]
+    private ans = ["anchor", "ant", "apple", "axe", "astronaut", "avacado",]
     private questionBoxPosY: number = 0;
 
     totalAnswers: number = 0;
@@ -323,7 +325,7 @@ export default class NewClass extends cc.Component {
             this.setOptionsLayout("horizontal");
             this.callThirdObjectIn();
         }
-
+        console.log("----------------", startGame.Instance.templateType)
         if (startGame.Instance.jockeyName == "bag") {
             this.positiveAudio = this.bagPositive;
             this.negativeAudio = this.bagNegative;
@@ -425,6 +427,9 @@ export default class NewClass extends cc.Component {
                 }, 1);
             }, 1);
         }
+        this.scheduleOnce(() => {
+            this.setupTVFocus("Option");
+        }, 5)
     }
 
     OnVOButton(_event: cc.Event) {
@@ -473,16 +478,16 @@ export default class NewClass extends cc.Component {
                 }
             }, delay);
             delay += 0.5;
-            let optionNodes = this.node.getChildByName("Option").children;
-            optionNodes.forEach((element, idx) => {
-                let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
-                if (idx === optionNodes.length - 1) {
-                    t = t.call(() => {
-                        this.setupTVFocus("Option");
-                    });
-                }
-                t.start();
-            });
+            // let optionNodes = this.node.getChildByName("Option").children;
+            // optionNodes.forEach((element, idx) => {
+            //     let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
+            //     if (idx === optionNodes.length - 1) {
+            //         t = t.call(() => {
+
+            //         });
+            //     }
+            //     t.start();
+            // });
         }
 
         // this.scheduleOnce(() => {
@@ -650,8 +655,9 @@ export default class NewClass extends cc.Component {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
+        //console.log(nodes)
         if (cc.director.getScene().name == "1") {
-            TVInputManager.Instance.init(nodes, 0);
+            TVInputManager.Instance.init(nodes, -1);
         }
         else {
             TVInputManager.Instance.init(nodes, -1);
@@ -811,6 +817,7 @@ export default class NewClass extends cc.Component {
             case "ObjectsTweenIn":
                 //console.log("answer arrray index : ", this.answerArray.indexOf(_node.name));
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.ans[globalVariables.Instance.currentLevel - 1]
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {

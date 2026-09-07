@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Letter 'Aa'",
+    "texture": "3e9d8210-a34b-4790-af07-2ab53dcdcd92",
+    "atlas": "",
+    "rect": [
+      4,
+      7,
+      580,
+      191
+    ],
+    "offset": [
+      -5,
+      1
+    ],
+    "originalSize": [
+      598,
+      207
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

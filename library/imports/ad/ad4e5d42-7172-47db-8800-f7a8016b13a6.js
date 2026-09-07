@@ -81,7 +81,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.currentJcokey = null;
         _this.correctAudio = [];
         _this.optionsNode = null;
-        _this.ans = ["Mango", "Nest", "Orange", "Parrot", "Queen", "Rose"];
+        _this.ans = ["anchor", "ant", "apple", "axe", "astronaut", "avacado",];
         _this.questionBoxPosY = 0;
         _this.totalAnswers = 0;
         _this.correctAnswerCount = 0;
@@ -287,6 +287,7 @@ var NewClass = /** @class */ (function (_super) {
             this.setOptionsLayout("horizontal");
             this.callThirdObjectIn();
         }
+        console.log("----------------", StartGame_1.default.Instance.templateType);
         if (StartGame_1.default.Instance.jockeyName == "bag") {
             this.positiveAudio = this.bagPositive;
             this.negativeAudio = this.bagNegative;
@@ -382,6 +383,9 @@ var NewClass = /** @class */ (function (_super) {
                 }, 1);
             }, 1);
         }
+        this.scheduleOnce(function () {
+            _this.setupTVFocus("Option");
+        }, 5);
     };
     NewClass.prototype.OnVOButton = function (_event) {
         var _this = this;
@@ -430,16 +434,6 @@ var NewClass = /** @class */ (function (_super) {
                 }
             }, delay);
             delay += 0.5;
-            var optionNodes = this_4.node.getChildByName("Option").children;
-            optionNodes.forEach(function (element, idx) {
-                var t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
-                if (idx === optionNodes.length - 1) {
-                    t = t.call(function () {
-                        _this.setupTVFocus("Option");
-                    });
-                }
-                t.start();
-            });
         };
         var this_4 = this;
         for (var i = 1; i <= this.optionsNode.children.length; i++) {
@@ -608,8 +602,9 @@ var NewClass = /** @class */ (function (_super) {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
+        //console.log(nodes)
         if (cc.director.getScene().name == "1") {
-            TVInputManager_1.default.Instance.init(nodes, 0);
+            TVInputManager_1.default.Instance.init(nodes, -1);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);
@@ -766,6 +761,7 @@ var NewClass = /** @class */ (function (_super) {
             case "ObjectsTweenIn":
                 //console.log("answer arrray index : ", this.answerArray.indexOf(_node.name));
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.ans[globalVariables_1.default.Instance.currentLevel - 1];
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(function () {
