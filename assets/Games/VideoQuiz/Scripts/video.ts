@@ -62,6 +62,7 @@ export default class video extends cc.Component {
     private isPause: boolean = false;
     private isPlay: boolean = true;
     private isOnSlider: boolean = false;
+    private isVisited: boolean = false;
     duration: number = 0;
     private canNextQuestion: boolean = true;
     private attemps: number = 0;
@@ -89,11 +90,7 @@ export default class video extends cc.Component {
             this.isSliding = false;
             this.isOnSlider = true;
         }, this);
-        // this.slider.children[2].on("tv-select", function () {
-        //     this.isSliding = false;
-        //     this.isOnSlider = true;
-        //     this.SliderButton();
-        // }, this);
+
         let video = this.node.getComponent(cc.VideoPlayer);
         let duration = video.getDuration();
         let showSkipButtons = duration > 30;
@@ -204,20 +201,6 @@ export default class video extends cc.Component {
                     }
                     this.questions[i].reiterationAudio = audioClip;
                 });
-                // cc.loader.load(startGame.Instance.questions[i].CorrectAudioName, (err, audioClip) => {
-                //     if (err) {
-                //         console.error("Failed to load audio:", err);
-                //         return;
-                //     }
-                //     this.questions[i].correctAudio = audioClip;
-                // });
-                // cc.loader.load(startGame.Instance.questions[i].WrongAudioName, (err, audioClip) => {
-                //     if (err) {
-                //         console.error("Failed to load audio:", err);
-                //         return;
-                //     }
-                //     this.questions[i].wrongAudio = audioClip;
-                // });
             }
             else {
                 this.loadAudioClip(startGame.Instance.questions[i].QuestionAudioName, (audioClip) => {
@@ -226,12 +209,6 @@ export default class video extends cc.Component {
                 this.loadAudioClip(startGame.Instance.questions[i].ReiterationAudioName, (audioClip) => {
                     this.questions[i].reiterationAudio = audioClip;
                 });
-                // this.loadAudioClip(startGame.Instance.questions[i].CorrectAudioName, (audioClip) => {
-                //     this.questions[i].correctAudio = audioClip;
-                // });
-                // this.loadAudioClip(startGame.Instance.questions[i].WrongAudioName, (audioClip) => {
-                //     this.questions[i].wrongAudio = audioClip;
-                // });
             }
         }
     }
@@ -335,9 +312,6 @@ export default class video extends cc.Component {
                 this.gameStarted = true;
             }, 1);
         }, 1);
-        // this.scheduleOnce(() => {
-        //     this.tools.active = true;
-        // }, 5);
     }
     public OnTVNavigation() {
         if (this.tools.opacity == 0) {
@@ -353,16 +327,8 @@ export default class video extends cc.Component {
 
             this.toolActivater.active = false;
             this.tools.opacity = 255;
-
-            // if (this.forwardBtn) this.forwardBtn.active = true;
-            // if (this.backwardBtn) this.backwardBtn.active = true;
-
-            // Existing timer code...
         }
         else {
-
-            // if (this.forwardBtn) this.forwardBtn.active = false;
-            // if (this.backwardBtn) this.backwardBtn.active = false;
 
             this.toolActivater.active = true;
             this.tools.opacity = 0;
@@ -402,9 +368,6 @@ export default class video extends cc.Component {
         this.tools.getChildByName("resume").active = false;
         this.tools.getChildByName("pause").active = true;
 
-        // if (this.forwardBtn) this.forwardBtn.active = true;
-        // if (this.backwardBtn) this.backwardBtn.active = true;
-
         this.scheduleOnce(() => {
             if (!this.questionNode.active) {
                 this.setupTVFocus2();
@@ -419,9 +382,6 @@ export default class video extends cc.Component {
 
         this.tools.getChildByName("resume").active = true;
         this.tools.getChildByName("pause").active = false;
-
-        // if (this.forwardBtn) this.forwardBtn.active = false;
-        // if (this.backwardBtn) this.backwardBtn.active = false;
 
         this.ActivateTools();
 
@@ -463,13 +423,6 @@ export default class video extends cc.Component {
         this.scheduleOnce(() => {
             this.node.getComponent(cc.VideoPlayer).resume();
         }, 0.2)
-        // this.scheduleOnce(() => {
-        //     this.isSliding = true;
-        //     this.node.getComponent(cc.VideoPlayer).pause();
-        //     this.node.getComponent(cc.VideoPlayer).resume();
-        //     this.tools.getChildByName("resume").active = false;
-        //     this.tools.getChildByName("pause").active = true;
-        // }, 0.1);
     }
 
     SliderButton() {
@@ -509,7 +462,6 @@ export default class video extends cc.Component {
                     this.attemps = 0;
                     this.questionNode.active = false;
                     _event.target.getParent().children.forEach(element => {
-                        // this.character.getComponent(cc.Animation).play("tweenOut");
                         cc.tween(this.character.getChildByName("anim")).to(0.5, { x: -600 }, { easing: "backInOut" }).start();
                         element.getChildByName("green").active = false;
                         element.getChildByName("red").active = false;
@@ -567,12 +519,10 @@ export default class video extends cc.Component {
                     btn.interactable;
             });
 
-        let nodes = [
-            ...optionButtons,
-            soundBtn,
-            backBtn,
-            musicBtn
-        ].filter(n => n);
+        let nodes = [...optionButtons, soundBtn, backBtn, musicBtn].filter(n => n);
+        if (!this.isVisited) {
+            this.isVisited = true;
+        }
         TVInputManager.Instance.init(nodes, -1);
         TVInputManager.Instance.setCanSelect(true);
     }
@@ -644,7 +594,6 @@ export default class video extends cc.Component {
 
         if (resumeBtn && resumeBtn.active && resumeBtn.opacity > 0)
             nodes.push(resumeBtn);
-        //nodes.push(sliderHandle);
 
         if (backBtn) nodes.push(backBtn);
         if (soundBtn) nodes.push(soundBtn);
@@ -662,13 +611,10 @@ export default class video extends cc.Component {
     questionSetup() {
         let current = this.currentQuestion;
         this.starUpdate(this.currentQuestion);
-        // this.character.getComponent(cc.Animation).play("tweenIn");
         this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
         cc.tween(this.character.getChildByName("anim")).to(0.5, { x: 0 }, { easing: "backInOut" }).start();
-        // let id = cc.audioEngine.playMusic(this.bgMusic, true);
         this.questionNode.getChildByName("options1").active = false;
         this.questionNode.getChildByName("questionBox").active = false;
-        //cc.audioEngine.setVolume(id, 0.1);
         if (this.questions[this.currentQuestion].isquestionText) {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).string = this.questions[this.currentQuestion].questionText;
             this.questionNode.getChildByName("questionBox").getChildByName("img").active = false;
@@ -777,21 +723,13 @@ export default class video extends cc.Component {
         let accumulatedWidth = 0;
         for (let i = 0; i < optionNodes.length; i++) {
             let option = optionNodes[i];
-
-            // Calculate the scale factor for the option
             let optionScaleFactor = scaleFactor;
-
-            // Scale the option
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
-
-            // Calculate position based on anchor and scaled size
             let posX = accumulatedWidth + (option.width * option.anchorX);
             option.x = posX - (optionsLayout.width * optionsLayout.anchorX);
 
             accumulatedWidth += option.width + paddingBetweenOptions;
-
-            // Scale and position children nodes proportionally
             for (let subChild of option.children) {
                 subChild.x *= optionScaleFactor;
                 subChild.y *= optionScaleFactor;

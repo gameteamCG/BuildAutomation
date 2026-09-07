@@ -82,6 +82,7 @@ var video = /** @class */ (function (_super) {
         _this.isPause = false;
         _this.isPlay = true;
         _this.isOnSlider = false;
+        _this.isVisited = false;
         _this.duration = 0;
         _this.canNextQuestion = true;
         _this.attemps = 0;
@@ -111,11 +112,6 @@ var video = /** @class */ (function (_super) {
             this.isSliding = false;
             this.isOnSlider = true;
         }, this);
-        // this.slider.children[2].on("tv-select", function () {
-        //     this.isSliding = false;
-        //     this.isOnSlider = true;
-        //     this.SliderButton();
-        // }, this);
         var video = this.node.getComponent(cc.VideoPlayer);
         var duration = video.getDuration();
         var showSkipButtons = duration > 30;
@@ -223,20 +219,6 @@ var video = /** @class */ (function (_super) {
                     }
                     _this.questions[i].reiterationAudio = audioClip;
                 });
-                // cc.loader.load(startGame.Instance.questions[i].CorrectAudioName, (err, audioClip) => {
-                //     if (err) {
-                //         console.error("Failed to load audio:", err);
-                //         return;
-                //     }
-                //     this.questions[i].correctAudio = audioClip;
-                // });
-                // cc.loader.load(startGame.Instance.questions[i].WrongAudioName, (err, audioClip) => {
-                //     if (err) {
-                //         console.error("Failed to load audio:", err);
-                //         return;
-                //     }
-                //     this.questions[i].wrongAudio = audioClip;
-                // });
             }
             else {
                 this_1.loadAudioClip(StartGame_1.default.Instance.questions[i].QuestionAudioName, function (audioClip) {
@@ -245,12 +227,6 @@ var video = /** @class */ (function (_super) {
                 this_1.loadAudioClip(StartGame_1.default.Instance.questions[i].ReiterationAudioName, function (audioClip) {
                     _this.questions[i].reiterationAudio = audioClip;
                 });
-                // this.loadAudioClip(startGame.Instance.questions[i].CorrectAudioName, (audioClip) => {
-                //     this.questions[i].correctAudio = audioClip;
-                // });
-                // this.loadAudioClip(startGame.Instance.questions[i].WrongAudioName, (audioClip) => {
-                //     this.questions[i].wrongAudio = audioClip;
-                // });
             }
         };
         var this_1 = this;
@@ -342,9 +318,6 @@ var video = /** @class */ (function (_super) {
                 _this.gameStarted = true;
             }, 1);
         }, 1);
-        // this.scheduleOnce(() => {
-        //     this.tools.active = true;
-        // }, 5);
     };
     video.prototype.OnTVNavigation = function () {
         if (this.tools.opacity == 0) {
@@ -359,13 +332,8 @@ var video = /** @class */ (function (_super) {
         if (_activate) {
             this.toolActivater.active = false;
             this.tools.opacity = 255;
-            // if (this.forwardBtn) this.forwardBtn.active = true;
-            // if (this.backwardBtn) this.backwardBtn.active = true;
-            // Existing timer code...
         }
         else {
-            // if (this.forwardBtn) this.forwardBtn.active = false;
-            // if (this.backwardBtn) this.backwardBtn.active = false;
             this.toolActivater.active = true;
             this.tools.opacity = 0;
         }
@@ -399,8 +367,6 @@ var video = /** @class */ (function (_super) {
         this.node.getComponent(cc.VideoPlayer).resume();
         this.tools.getChildByName("resume").active = false;
         this.tools.getChildByName("pause").active = true;
-        // if (this.forwardBtn) this.forwardBtn.active = true;
-        // if (this.backwardBtn) this.backwardBtn.active = true;
         this.scheduleOnce(function () {
             if (!_this.questionNode.active) {
                 _this.setupTVFocus2();
@@ -414,8 +380,6 @@ var video = /** @class */ (function (_super) {
         this.node.getComponent(cc.VideoPlayer).pause();
         this.tools.getChildByName("resume").active = true;
         this.tools.getChildByName("pause").active = false;
-        // if (this.forwardBtn) this.forwardBtn.active = false;
-        // if (this.backwardBtn) this.backwardBtn.active = false;
         this.ActivateTools();
         this.scheduleOnce(function () {
             if (!_this.questionNode.active) {
@@ -451,13 +415,6 @@ var video = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.VideoPlayer).resume();
         }, 0.2);
-        // this.scheduleOnce(() => {
-        //     this.isSliding = true;
-        //     this.node.getComponent(cc.VideoPlayer).pause();
-        //     this.node.getComponent(cc.VideoPlayer).resume();
-        //     this.tools.getChildByName("resume").active = false;
-        //     this.tools.getChildByName("pause").active = true;
-        // }, 0.1);
     };
     video.prototype.SliderButton = function () {
         this.isOnSlider = true;
@@ -496,7 +453,6 @@ var video = /** @class */ (function (_super) {
                     _this.attemps = 0;
                     _this.questionNode.active = false;
                     _event.target.getParent().children.forEach(function (element) {
-                        // this.character.getComponent(cc.Animation).play("tweenOut");
                         cc.tween(_this.character.getChildByName("anim")).to(0.5, { x: -600 }, { easing: "backInOut" }).start();
                         element.getChildByName("green").active = false;
                         element.getChildByName("red").active = false;
@@ -549,11 +505,10 @@ var video = /** @class */ (function (_super) {
                 btn &&
                 btn.interactable;
         });
-        var nodes = __spreadArrays(optionButtons, [
-            soundBtn,
-            backBtn,
-            musicBtn
-        ]).filter(function (n) { return n; });
+        var nodes = __spreadArrays(optionButtons, [soundBtn, backBtn, musicBtn]).filter(function (n) { return n; });
+        if (!this.isVisited) {
+            this.isVisited = true;
+        }
         TVInputManager_1.default.Instance.init(nodes, -1);
         TVInputManager_1.default.Instance.setCanSelect(true);
     };
@@ -620,7 +575,6 @@ var video = /** @class */ (function (_super) {
             nodes.push(backwardBtn);
         if (resumeBtn && resumeBtn.active && resumeBtn.opacity > 0)
             nodes.push(resumeBtn);
-        //nodes.push(sliderHandle);
         if (backBtn)
             nodes.push(backBtn);
         if (soundBtn)
@@ -648,13 +602,10 @@ var video = /** @class */ (function (_super) {
         var _this = this;
         var current = this.currentQuestion;
         this.starUpdate(this.currentQuestion);
-        // this.character.getComponent(cc.Animation).play("tweenIn");
         this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
         cc.tween(this.character.getChildByName("anim")).to(0.5, { x: 0 }, { easing: "backInOut" }).start();
-        // let id = cc.audioEngine.playMusic(this.bgMusic, true);
         this.questionNode.getChildByName("options1").active = false;
         this.questionNode.getChildByName("questionBox").active = false;
-        //cc.audioEngine.setVolume(id, 0.1);
         if (this.questions[this.currentQuestion].isquestionText) {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).string = this.questions[this.currentQuestion].questionText;
             this.questionNode.getChildByName("questionBox").getChildByName("img").active = false;
@@ -750,16 +701,12 @@ var video = /** @class */ (function (_super) {
         var accumulatedWidth = 0;
         for (var i = 0; i < optionNodes.length; i++) {
             var option = optionNodes[i];
-            // Calculate the scale factor for the option
             var optionScaleFactor = scaleFactor;
-            // Scale the option
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
-            // Calculate position based on anchor and scaled size
             var posX = accumulatedWidth + (option.width * option.anchorX);
             option.x = posX - (optionsLayout.width * optionsLayout.anchorX);
             accumulatedWidth += option.width + paddingBetweenOptions;
-            // Scale and position children nodes proportionally
             for (var _i = 0, _a = option.children; _i < _a.length; _i++) {
                 var subChild = _a[_i];
                 subChild.x *= optionScaleFactor;
