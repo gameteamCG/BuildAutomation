@@ -1601,7 +1601,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        20,
         0,
         0,
         0,
@@ -2043,7 +2043,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -80,
+        -40,
         0,
         0,
         0,
@@ -2082,8 +2082,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "she",
-    "_N$string": "she",
+    "_string": "the",
+    "_N$string": "the",
     "_fontSize": 100,
     "_lineHeight": 100,
     "_enableWrapText": false,

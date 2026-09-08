@@ -80,10 +80,10 @@ var Gameplay = /** @class */ (function (_super) {
         // these are ignored on further taps until the next question loads.
         _this.lockedNodes = new Set();
         _this.nodeNameToLetter = {
-            "1": "h", "2": "s", "3": "e"
+            "1": "h", "2": "t", "3": "e"
         };
         _this.nodeNameToLetter1 = {
-            "1": "e", "2": "h", "3": "s"
+            "1": "e", "2": "h", "3": "t"
         };
         return _this;
     }
@@ -207,10 +207,10 @@ var Gameplay = /** @class */ (function (_super) {
             var _loop_1 = function (i) {
                 _this.optionsNode.children[i].scale = 0;
                 _this.optionsNode.children[i].opacity = 255;
-                _this.optionsNode.children[i].getChildByName("text").y = -80;
+                _this.optionsNode.children[i].getChildByName("text").y = -20;
                 _this.scheduleOnce(function () {
                     cc.audioEngine.playEffect(_this.pop_sound, false);
-                    cc.tween(_this.optionsNode.children[i]).to(0.3, { scale: 1 }, { easing: 'backInOut' }).start();
+                    cc.tween(_this.optionsNode.children[i]).to(0.3, { scale: 0.8 }, { easing: 'backInOut' }).start();
                     if (i == _this.optionsNode.children.length - 1) {
                         _this.scheduleOnce(function () {
                             _this.SubcribeEvents();

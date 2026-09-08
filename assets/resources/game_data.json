@@ -2,88 +2,88 @@
   "additionalData": {
     "GameID": "Sight words_SCIS",
     "totalLevel": "4",
-    "TitleImageName": "Asset 623.png",
+    "TitleImageName": "sw.png",
     "introBgName": "UKG.png",
     "bgmMusicName": "BGM3.mp3",
-    "mainBgName": "Title ScreenBG.png",
+    "mainBgName": "bg.png",
     "JockeyName": "Puzzle"
   },
   "questionData": [
     {
       "questionText": "Tricky word",
       "questionImageName": "",
-      "questionAudioName": "tap on the letters to spell the word, she.mp3",
+      "questionAudioName": "tap on the letters to spell the word, the.mp3",
       "shouldPlayQuestionAudio": true,
-      "commonOptionImageName": "Po1.png",
+      "commonOptionImageName": "apple.png",
       "isOptionText": true,
       "numberOfOptions": 3,
       "optionOffset": 0,
       "options": [
         "h",
-        "s",
+        "t",
         "e"
       ],
-      "correctAnswer": "she",
-      "correctAudioName": "45645276_6_she.mp3",
+      "correctAnswer": "the",
+      "correctAudioName": "the.mp3",
       "needReiteration": true,
-      "reiterationImageName": "Po1.png"
+      "reiterationImageName": "apple.png"
     },
     {
       "questionText": "Tricky word",
       "questionImageName": "",
-      "questionAudioName": "tap on the letters to spell the word, she.mp3",
+      "questionAudioName": "tap on the letters to spell the word, the.mp3",
       "shouldPlayQuestionAudio": true,
-      "commonOptionImageName": "Po2.png",
+      "commonOptionImageName": "apple.png",
       "isOptionText": true,
       "numberOfOptions": 3,
       "optionOffset": 0,
       "options": [
         "e",
         "h",
-        "s"
+        "t"
       ],
-      "correctAnswer": "she",
-      "correctAudioName": "45645276_6_she.mp3",
+      "correctAnswer": "the",
+      "correctAudioName": "the.mp3",
       "needReiteration": true,
-      "reiterationImageName": "Po2.png"
+      "reiterationImageName": "apple.png"
     },
     {
       "questionText": "Tricky word",
       "questionImageName": "",
-      "questionAudioName": "tap on the letters to spell the word, she.mp3",
+      "questionAudioName": "tap on the letters to spell the word, the.mp3",
       "shouldPlayQuestionAudio": true,
-      "commonOptionImageName": "Po3.png",
+      "commonOptionImageName": "apple.png",
       "isOptionText": true,
       "numberOfOptions": 3,
       "optionOffset": 0,
       "options": [
         "h",
-        "s",
+        "t",
         "e"
       ],
-      "correctAnswer": "she",
-      "correctAudioName": "45645276_6_she.mp3",
+      "correctAnswer": "the",
+      "correctAudioName": "the.mp3",
       "needReiteration": true,
-      "reiterationImageName": "Po3.png"
+      "reiterationImageName": "apple.png"
     },
     {
       "questionText": "Tricky word",
       "questionImageName": "",
-      "questionAudioName": "tap on the letters to spell the word, she.mp3",
+      "questionAudioName": "tap on the letters to spell the word, the.mp3",
       "shouldPlayQuestionAudio": true,
-      "commonOptionImageName": "Po4.png",
+      "commonOptionImageName": "apple.png",
       "isOptionText": true,
       "numberOfOptions": 3,
       "optionOffset": 0,
       "options": [
         "e",
         "h",
-        "s"
+        "t"
       ],
-      "correctAnswer": "she",
-      "correctAudioName": "45645276_6_she.mp3",
+      "correctAnswer": "the",
+      "correctAudioName": "the.mp3",
       "needReiteration": true,
-      "reiterationImageName": "Po4.png"
+      "reiterationImageName": "apple.png"
     },
     {
       "questionText": "get",

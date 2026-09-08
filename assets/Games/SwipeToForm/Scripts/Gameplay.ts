@@ -207,10 +207,10 @@ export default class Gameplay extends cc.Component {
             for (let i = 0; i < this.optionsNode.children.length; i++) {
                 this.optionsNode.children[i].scale = 0;
                 this.optionsNode.children[i].opacity = 255;
-                this.optionsNode.children[i].getChildByName("text").y = -80;
+                this.optionsNode.children[i].getChildByName("text").y = -20;
                 this.scheduleOnce(() => {
                     cc.audioEngine.playEffect(this.pop_sound, false);
-                    cc.tween(this.optionsNode.children[i]).to(0.3, { scale: 1 }, { easing: 'backInOut' }).start();
+                    cc.tween(this.optionsNode.children[i]).to(0.3, { scale: 0.8 }, { easing: 'backInOut' }).start();
                     if (i == this.optionsNode.children.length - 1) {
                         this.scheduleOnce(() => {
                             this.SubcribeEvents();
@@ -454,11 +454,11 @@ export default class Gameplay extends cc.Component {
     }
     private nodeNameToLetter: { [key: string]: string } = {
 
-        "1": "h", "2": "s", "3": "e"
+        "1": "h", "2": "t", "3": "e"
     };
     private nodeNameToLetter1: { [key: string]: string } = {
 
-        "1": "e", "2": "h", "3": "s"
+        "1": "e", "2": "h", "3": "t"
     };
     TouchMove(_node: cc.Node, _event: any) {
         // if (!this.canTouch || this.currentDraggingObject !== _node.name || this.isAnswered) {
