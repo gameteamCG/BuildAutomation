@@ -44,6 +44,7 @@ export default class Gameplay extends cc.Component {
     private correctAudio: cc.AudioClip = null;
     private wrongAudio: cc.AudioClip = null;
     private reiterationAudio: cc.AudioClip[] = [];
+    timer: number;
 
     currentJockey: cc.Node = null;
     maxLevel: number = 0;
@@ -270,6 +271,20 @@ export default class Gameplay extends cc.Component {
             }, 1);
         }, 1);
     }
+
+    buttonSound(event: cc.Event) {
+        if (!this.canTouch) {
+            return;
+        }
+        this.timer = 0;
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.questionAudio, false);
+        this.scheduleOnce(() => {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration);
+
+    }
+
 
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
         for (let i = 0; i < _optionCount; i++) {
