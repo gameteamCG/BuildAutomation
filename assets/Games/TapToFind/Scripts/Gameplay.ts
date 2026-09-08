@@ -1,4 +1,5 @@
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import TVInputManager from "./TVInputManager";
 
@@ -269,13 +270,15 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 70, _optionCount);
+            this.arrangeGridChildren(this.options, -30, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posX: number[] = [-550, 0, 500];
+            let _laypout1posX: number[] = [-600, -200, 257, 700];
+            let _laypout1posY: number[] = [-150, 100, -150, 100];
             for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], -100);
+                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
+
         }
         if (this.optionsLayout == "layout2") {
             let _laypout1posX: number[] = [-380, 0, 450, 0];
@@ -452,7 +455,12 @@ export default class Gameplay extends cc.Component {
                         cc.audioEngine.playEffect(this.reiterationAudio[0], false);
                     }
                     if (this.correctCounter == this.correctAnswer.length) {
+                        console.log("all the options are answered correctly");
                         this.LoadNextQuestion();
+                    }
+                    else {
+                        this.canTouch = true;
+                        TVInputManager.Instance.setCanSelect(this.canTouch)
                     }
                 }).start();
         }

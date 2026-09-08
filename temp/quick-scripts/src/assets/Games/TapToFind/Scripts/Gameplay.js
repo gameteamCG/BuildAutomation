@@ -30,7 +30,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var TVInputManager_1 = require("./TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -315,12 +315,13 @@ var Gameplay = /** @class */ (function (_super) {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 70, _optionCount);
+            this.arrangeGridChildren(this.options, -30, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posX = [-550, 0, 500];
+            var _laypout1posX = [-600, -200, 257, 700];
+            var _laypout1posY = [-150, 100, -150, 100];
             for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], -100);
+                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
         }
         if (this.optionsLayout == "layout2") {
@@ -499,7 +500,12 @@ var Gameplay = /** @class */ (function (_super) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[0], false);
                 }
                 if (_this.correctCounter == _this.correctAnswer.length) {
+                    console.log("all the options are answered correctly");
                     _this.LoadNextQuestion();
+                }
+                else {
+                    _this.canTouch = true;
+                    TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
                 }
             }).start();
         }
