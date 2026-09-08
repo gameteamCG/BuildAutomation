@@ -214,7 +214,7 @@ var Gameplay = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             var optionNodes = _this.options.children;
             optionNodes.forEach(function (element, idx) {
-                var t = cc.tween(element).to(0.5, { scale: 0.8 }, { easing: "sineInOut" });
+                var t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
                 if (idx === optionNodes.length - 1) {
                     t = t.call(function () {
                         _this.setupTVFocus(_this.optionsLayout);
@@ -370,7 +370,7 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         else {
-            this.arrangeChildren(this.options, 80);
+            this.arrangeChildren(this.options, -30);
         }
         if (this.optionsLayout == "layout1") {
             var _laypout1posX = [-600, -200, 257, 700];
@@ -385,13 +385,13 @@ var Gameplay = /** @class */ (function (_super) {
                 }
             }
         }
-        if (this.optionsLayout == "layout2") {
-            var _laypout1posX = [-380, 0, 450, 0];
-            var _laypout1posY = [-20, -30, -20, 0];
-            for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
-            }
-        }
+        // if (this.optionsLayout == "layout2") {
+        //     let _laypout1posX: number[] = [-380, 0, 450, 0];
+        //     let _laypout1posY: number[] = [-20, -30, -20, 0];
+        //     for (let i = 0; i < _optionParent.children.length; i++) {
+        //         _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+        //     }
+        // }
         _template.destroy();
     };
     Gameplay.prototype.onTouchStart_layout1 = function (event) {

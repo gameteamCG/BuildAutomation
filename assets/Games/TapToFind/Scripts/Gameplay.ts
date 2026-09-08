@@ -185,7 +185,7 @@ export default class Gameplay extends cc.Component {
         this.scheduleOnce(() => {
             let optionNodes = this.options.children;
             optionNodes.forEach((element, idx) => {
-                let t = cc.tween(element).to(0.5, { scale: 0.8 }, { easing: "sineInOut" });
+                let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
                 if (idx === optionNodes.length - 1) {
                     t = t.call(() => {
                         this.setupTVFocus(this.optionsLayout);
@@ -337,7 +337,7 @@ export default class Gameplay extends cc.Component {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         else {
-            this.arrangeChildren(this.options, 80);
+            this.arrangeChildren(this.options, -30);
         }
         if (this.optionsLayout == "layout1") {
             let _laypout1posX: number[] = [-600, -200, 257, 700];
@@ -352,13 +352,13 @@ export default class Gameplay extends cc.Component {
                 }
             }
         }
-        if (this.optionsLayout == "layout2") {
-            let _laypout1posX: number[] = [-380, 0, 450, 0];
-            let _laypout1posY: number[] = [-20, -30, -20, 0];
-            for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
-            }
-        }
+        // if (this.optionsLayout == "layout2") {
+        //     let _laypout1posX: number[] = [-380, 0, 450, 0];
+        //     let _laypout1posY: number[] = [-20, -30, -20, 0];
+        //     for (let i = 0; i < _optionParent.children.length; i++) {
+        //         _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+        //     }
+        // }
         _template.destroy();
 
     }

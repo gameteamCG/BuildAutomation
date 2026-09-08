@@ -36,7 +36,7 @@
         },
         {
             "questionLayout": "layout2",
-            "questionBgName": "bg2.png",
+            "questionBgName": "Bg2.png",
             "questionAudioName": "L2.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
