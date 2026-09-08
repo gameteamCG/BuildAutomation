@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appleglow",
+    "texture": "41546b11-51de-4bf8-b9fa-5cc10f7dc2f5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      708,
+      705
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      708,
+      705
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
