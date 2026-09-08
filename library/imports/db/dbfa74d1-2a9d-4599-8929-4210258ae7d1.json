@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Letters and sounds Dd",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/D_song_1734693162803.mp4",
+      "TitleImageName": "Asset 62 (4).png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify",
+        "QuestionImageName": "",
+        "QuestionAudioName": "british_d identify-the-letter-with-the-letter-sound_OoiqjXgv.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "d",
+          "f"
+        ],
+        "ReiterationAudioName": "british_535341-3-d-says_3LGCmpXm.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "d",
+        "QuestionImageName": "",
+        "QuestionAudioName": "d british-identify-the-picture-that-begins-with-the-letter-sound_I4qv6u5F.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset5.png",
+          "Asset6.png"
+        ],
+        "ReiterationAudioName": "british_779935_4_door.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "d",
+        "QuestionImageName": "",
+        "QuestionAudioName": "d british-identify-the-picture-that-begins-with-the-letter-sound_I4qv6u5F.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset4.png",
+          "Asset2.png"
+        ],
+        "ReiterationAudioName": "british_779935_5_drum.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Asset1.png",
+        "QuestionAudioName": "british_779935_6_identify-the-beginning.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "e",
+          "d"
+        ],
+        "ReiterationAudioName": "british_779935_2_d.mp3",
+        "CorrectAudioName": "positive_4.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

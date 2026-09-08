@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '16b5cNzEfVPT4gC4z4qvMqL', 'questionManager');
-// Games/Tictock/Scripts/questionManager.ts
+// Games/VideoQuiz/Assets/Tictock/Scripts/questionManager.ts
 
 "use strict";
 // Learn TypeScript:
