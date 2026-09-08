@@ -1,5 +1,3 @@
-
-
 import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
@@ -75,6 +73,12 @@ export default class Gameplay extends cc.Component {
     tappingcount: number = 0;
     letter = "";
     canPlay: boolean = false;
+
+    // Tracks the pot node the user just tapped, so checkOrder() can glow/lock it.
+    private lastTappedNode: cc.Node = null;
+    // Names of pot nodes that were already answered correctly (e.g. "1", "2") —
+    // these are ignored on further taps until the next question loads.
+    private lockedNodes: Set<string> = new Set<string>();
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
@@ -190,6 +194,7 @@ export default class Gameplay extends cc.Component {
     }
 
     start() {
+        this.lockedNodes.clear();
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1, false);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
         this.UpdateQuestionData();
@@ -409,6 +414,11 @@ export default class Gameplay extends cc.Component {
             return;
         }
 
+        // Pot was already tapped correctly for this question — ignore further taps.
+        if (this.lockedNodes.has(_node.name)) {
+            return;
+        }
+
         this.node.getChildByName("hand").active = false;
 
         if (!this.currentDraggingObject) {
@@ -417,6 +427,7 @@ export default class Gameplay extends cc.Component {
             if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
             this.currentDraggingObject = _node.name;
             this.startPosX = _node.getPosition().x;
+            this.lastTappedNode = _node;
 
             _node.zIndex = 1;
             this.attemptSwap(_node);
@@ -523,7 +534,64 @@ export default class Gameplay extends cc.Component {
         this.node.getChildByName("questionPanel").getChildByName("textdash").active = true;
         this.canPlay = true;
         if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
-        if (this.tappingcount == 3) {
+
+        // ---- Validate the letter that was just tapped, immediately ----
+        // Compare the letter just placed against the letter expected at that
+        // position in the target word (targetWord.charAt(tappingcount - 1)),
+        // instead of waiting until all letters are tapped.
+        let expectedLetterAtThisPosition = targetWord.charAt(this.tappingcount - 1);
+        let isThisLetterCorrect = this.letter === expectedLetterAtThisPosition;
+
+        if (isThisLetterCorrect) {
+            // Correct letter tapped — lock that pot so it can't be tapped again,
+            // and turn its glow on.
+            if (this.lastTappedNode) {
+                this.lockedNodes.add(this.lastTappedNode.name);
+                let glowNode = this.lastTappedNode.getChildByName("glow");
+                if (glowNode) {
+                    glowNode.scale = 0.9;
+                    glowNode.active = true;
+                }
+                let btn = this.lastTappedNode.getComponent(cc.Button);
+                if (btn) {
+                    btn.interactable = false;
+                }
+            }
+        } else {
+            console.log("wrongLetter--" + this.letter + " expected--" + expectedLetterAtThisPosition);
+            this.isAnswered = true;
+            this.canPlay = false;
+            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+
+            this.scheduleOnce(() => {
+                this.node.getChildByName("questionPanel").getChildByName("text1").getComponent(cc.Label).string = "";
+                this.node.getChildByName("questionPanel").getChildByName("text11").getComponent(cc.Label).string = "";
+                this.node.getChildByName("questionPanel").getChildByName("text111").getComponent(cc.Label).string = "";
+                this.selectedorder = "";
+                this.tappingcount = 0;
+                this.letter = "";
+                this.isAnswered = false;
+                // Defensive cleanup so a stray drag/drop state can't block the
+                // next tap (e.g. if touchend arrived after checkOrder already ran).
+                this.currentDraggingObject = null;
+                this.isDropped = false;
+                this.resetPotsVisualState();
+                // BUG FIX: canPlay/TVInputManager selection was left disabled
+                // forever after a wrong tap — re-enable it and re-sync the TV
+                // focus list now that the pots are interactable again.
+                this.canPlay = true;
+                if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+                this.setupTVFocus("options");
+            }, 0.5);
+
+            this.callnegJockey();
+            return; // stop here — no need to wait for the remaining taps
+        }
+
+        // Letter matched so far. Only evaluate full-word success once every
+        // letter of the target word has been tapped (each one already passed
+        // the per-letter check above).
+        if (this.tappingcount == targetWord.length) {
             if (currentWord === targetWord) {
                 console.log("correctAnswer--" + startGame.Instance.currentLevel);
                 this.isAnswered = true;
@@ -571,7 +639,9 @@ export default class Gameplay extends cc.Component {
                     }, 0.75);
                 }
             } else {
-
+                // Safety net: shouldn't normally be reached since every letter
+                // is already validated above as it's tapped, but kept in case
+                // targetWord/selectedorder ever get out of sync.
                 this.scheduleOnce(() => {
                     this.node.getChildByName("questionPanel").getChildByName("text1").getComponent(cc.Label).string = "";
                     this.node.getChildByName("questionPanel").getChildByName("text11").getComponent(cc.Label).string = "";
@@ -580,6 +650,13 @@ export default class Gameplay extends cc.Component {
                     this.tappingcount = 0;
                     this.letter = "";
                     this.isAnswered = false;
+                    this.currentDraggingObject = null;
+                    this.isDropped = false;
+                    this.resetPotsVisualState();
+                    // BUG FIX: re-enable selection here too.
+                    this.canPlay = true;
+                    if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+                    this.setupTVFocus("options");
                 }, 0.5);
                 this.isAnswered = true;
                 this.callnegJockey();
@@ -588,6 +665,23 @@ export default class Gameplay extends cc.Component {
             }
         }
 
+    }
+
+    // Turns off every pot's glow, re-enables tapping on all of them, and clears
+    // the locked set. Called whenever an attempt is reset (wrong letter tapped).
+    private resetPotsVisualState() {
+        if (!this.optionsNode) return;
+        this.optionsNode.children.forEach(node => {
+            let glowNode = node.getChildByName("glow");
+            if (glowNode) {
+                glowNode.active = false;
+            }
+            let btn = node.getComponent(cc.Button);
+            if (btn) {
+                btn.interactable = true;
+            }
+        });
+        this.lockedNodes.clear();
     }
 
     getCurrentWord() {
