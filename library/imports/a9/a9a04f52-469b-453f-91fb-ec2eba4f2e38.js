@@ -263,7 +263,13 @@ var Gameplay = /** @class */ (function (_super) {
             }
             else if (_this.optionsLayout == "layout2") {
                 // this.OptionsLayout();
-                _this.node.getChildByName("basket").active = true;
+                if (StartGame_1.default.Instance.currentLevel == 6) {
+                    //this.node.getChildByName("layout2").setPosition(-2.282, 110)
+                    _this.node.getChildByName("plate").active = true;
+                }
+                else {
+                    _this.node.getChildByName("basket").active = true;
+                }
                 //this.node.getChildByName("rope").active = true;
                 // this.arrangeChildren(this.options, 80); // 10 is an example spacing value
                 var delay = 0;
