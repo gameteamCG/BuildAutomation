@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "letter Rr",
+      "totalLevel": "8",
+      "TitleImageName": "letter_Rr.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Identify",
+        "questionImageName": "Rr.png",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "placeholder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "robot.png",
+          "drum.png"
+        ],
+        "correctAudioName": "robot.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Identify",
+        "questionImageName": "Rr.png",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "placeholder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "1.png",
+          "rice.png"
+        ],
+        "correctAudioName": "27915064_3_rice.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Identify",
+        "questionImageName": "Rr.png",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "placeholder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "keg.png",
+          "rabbit.png"
+        ],
+        "correctAudioName": "27915064_4_rabbit.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Identify",
+        "questionImageName": "Rr.png",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "placeholder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "rat.png",
+          "magnet.png"
+        ],
+        "correctAudioName": "27915064_5_rat.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Identify",
+        "questionImageName": "Rr.png",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "placeholder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "mask.png",
+          "rose.png"
+        ],
+        "correctAudioName": "27915064_6_rose.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Identify",
+        "questionImageName": "Rr.png",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "placeholder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "raindeer.png",
+          "gift.png"
+        ],
+        "correctAudioName": "27915064_7_reindeer.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Identify",
+        "questionImageName": "Rr.png",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "placeholder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "raspberry.png",
+          "kiwi.png"
+        ],
+        "correctAudioName": "27915064_8_raspberry.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Identify",
+        "questionImageName": "Rr.png",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "placeholder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "brush.png",
+          "rope.png"
+        ],
+        "correctAudioName": "27915064_9_rope.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

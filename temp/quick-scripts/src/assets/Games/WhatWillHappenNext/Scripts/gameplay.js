@@ -114,7 +114,6 @@ var NewClass = /** @class */ (function (_super) {
                         return;
                     }
                     var spriteFrame = new cc.SpriteFrame(texture);
-                    // this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
                         _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
@@ -130,7 +129,6 @@ var NewClass = /** @class */ (function (_super) {
             });
             var _loop_1 = function (i) {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionText) {
-                    // console.log("option img = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i], function (err, texture) {
                         if (err) {
                             console.error("Failed to load image:", err);
@@ -141,7 +139,6 @@ var NewClass = /** @class */ (function (_super) {
                     });
                 }
                 else {
-                    // console.log("option text = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     this_1.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i];
                 }
             };
@@ -149,22 +146,6 @@ var NewClass = /** @class */ (function (_super) {
             for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
                 _loop_1(i);
             }
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option1ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("1").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option2ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("2").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
         }
         else {
             this.loadAudioClip(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionAudioName, function (AudioClip) {
@@ -175,7 +156,6 @@ var NewClass = /** @class */ (function (_super) {
             });
             if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonOptionImageName != "") {
                 this.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonOptionImageName, function (spriteFrame) {
-                    // this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
                         _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
@@ -199,7 +179,6 @@ var NewClass = /** @class */ (function (_super) {
                 _loop_2(i);
             }
         }
-        //startGame.Instance.jockeyName = "Podar";
         this.currentJcokey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
     };
     NewClass.prototype.start = function () {
@@ -247,9 +226,7 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
-        // this.node.getChildByName("questionPanel").opacity = 255;
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
-        // this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
         this.OptionsLayoutVertical();
         this.reverseOptionsLayout();
         var posX = -237;
@@ -413,7 +390,6 @@ var NewClass = /** @class */ (function (_super) {
         else {
             this.scheduleOnce(function () {
                 globalVariables_1.default.Instance.currentLevel++;
-                // cc.director.loadScene(globalVariables.Instance.currentLevel.toString());
                 cc.director.loadScene("1");
             }, 1);
         }
@@ -458,7 +434,7 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.callPositiveRection = function (_node) {
         var _this = this;
         cc.audioEngine.playEffect(this.correctAudio, false);
-        cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -150 }, { easing: "sineInOut" }).start();
+        cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -250 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { x: -75, y: 0, scale: 1, width: 400, height: 400 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
@@ -505,12 +481,9 @@ var NewClass = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
         }
-        // console.log("anim length = ", anim.length);
         var currentClipNum = this.getRandomNumber(0, anim.length - 1);
-        // console.log("currentClipNum = ", currentClipNum);
         var pos = [-1200, 1200];
         var jockeytween = [-350, 350];
-        //console.log("characterAppear--Podar_Jumbo");
         if (globalVariables_1.default.Instance.currentLevel % 2 == 0 && StartGame_1.default.Instance.jockeyName == "stallion") {
             this.currentJcokey.scaleX = -0.65;
         }
@@ -568,7 +541,6 @@ var NewClass = /** @class */ (function (_super) {
                         _this.scheduleOnce(function () {
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
                             cc.tween(_this.currentJcokey).to(2, { x: -1000 }).start();
-                            //console.log("characterDisappear--Podar_Jumbo");
                             _this.callNextLevel();
                         }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration);
                     }, _this.positiveAudio[currentClipNum].duration);
@@ -580,7 +552,6 @@ var NewClass = /** @class */ (function (_super) {
                 this.scheduleOnce(function () {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
                     cc.tween(_this.currentJcokey).to(2, { x: -1000 }).start();
-                    //console.log("characterDisappear--Podar_Jumbo");
                     _this.callNextLevel();
                 }, this.positiveAudio[currentClipNum].duration);
             }
@@ -623,7 +594,6 @@ var NewClass = /** @class */ (function (_super) {
                 anim = ["negative_1", "negative_2"];
             }
             var currentClipNum = _this.getRandomNumber(0, anim.length - 1);
-            //console.log("characterAppear--Podar_Jumbo");
             if (StartGame_1.default.Instance.jockeyName == "stallion") {
                 _this.currentJcokey.scaleX = 0.65;
                 _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
@@ -666,7 +636,6 @@ var NewClass = /** @class */ (function (_super) {
             }
             else if (StartGame_1.default.Instance.jockeyName == "supercub") {
                 if (anim[currentClipNum] == "negative_1" || anim[currentClipNum] == "negative_2") {
-                    //play bulb break if needed
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_start", false);
                     _this.scheduleOnce(function () {
                         _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
@@ -729,7 +698,6 @@ var NewClass = /** @class */ (function (_super) {
         var paddingBetweenOptions = 10;
         var totalHeight = 0;
         var maxWidth = 0;
-        // Calculate the total height and the maximum width of the options
         for (var i = 0; i < optionNodes.length; i++) {
             var option = optionNodes[i];
             var optionWidth = option.width;
@@ -743,19 +711,14 @@ var NewClass = /** @class */ (function (_super) {
         var totalHeightWithPadding = totalHeight + (optionNodes.length - 1) * paddingBetweenOptions;
         var scaleFactor = Math.min(1, availableHeight / totalHeightWithPadding);
         var accumulatedHeight = 0;
-        // Position each option node vertically
         for (var i = 0; i < optionNodes.length; i++) {
             var option = optionNodes[i];
-            // Calculate the scale factor for the option
             var optionScaleFactor = scaleFactor;
-            // Scale the option
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
-            // Calculate position based on anchor and scaled size
             var posY = accumulatedHeight + (option.height * option.anchorY);
             option.y = posY - (optionsLayout.height * optionsLayout.anchorY);
             accumulatedHeight += option.height + paddingBetweenOptions;
-            // Scale and position children nodes proportionally
             for (var _i = 0, _a = option.children; _i < _a.length; _i++) {
                 var subChild = _a[_i];
                 subChild.x *= optionScaleFactor;
@@ -769,13 +732,10 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.reverseOptionsLayout = function () {
         var optionsLayout = this.optionsNode;
         var optionNodes = optionsLayout.children;
-        // Create an array to hold the new positions
         var newPositions = [];
-        // Calculate new positions in reverse order
         for (var i = optionNodes.length - 1; i >= 0; i--) {
             newPositions.push(optionNodes[i].y);
         }
-        // Update the positions of the options
         for (var i = 0; i < optionNodes.length; i++) {
             optionNodes[i].y = newPositions[i];
         }
