@@ -1759,9 +1759,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": {
-      "__uuid__": "5513ff36-72c5-4bbe-b962-a3a0d43c1896"
-    },
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 2,
     "_fillType": 0,
@@ -2387,9 +2385,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": {
-      "__uuid__": "955d2364-6d04-4ba6-a26b-333884d6cd0f"
-    },
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 2,
     "_fillType": 0,
@@ -2911,7 +2907,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 249.85,
+      "width": 219.71,
       "height": 94.5
     },
     "_anchorPoint": {
@@ -2963,8 +2959,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Letter Pp",
-    "_N$string": "Letter Pp",
+    "_string": "Letter a",
+    "_N$string": "Letter a",
     "_fontSize": 70,
     "_lineHeight": 75,
     "_enableWrapText": true,

@@ -263,7 +263,7 @@ export default class startGame extends cc.Component {
                     question.questionAudioName = this.removeAudioExtension(question.questionAudioName);
                     question.correctAudioName = this.removeAudioExtension(question.correctAudioName);
                     question.wrongAudioName = this.removeAudioExtension(question.wrongAudioName);
-                    // question.reiterationAudioName = this.removeAudioExtension(question.reiterationAudioName);
+                    //question.reiterationAudioName = this.removeAudioExtension(question.reiterationAudioName);
                     question.reiterationAudioName = question.reiterationAudioName.map(reiterationAudioName => this.removeAudioExtension(reiterationAudioName));
                 });
                 // Now you can use these variables within this script

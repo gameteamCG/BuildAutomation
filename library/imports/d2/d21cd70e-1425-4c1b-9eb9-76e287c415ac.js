@@ -226,7 +226,7 @@ var startGame = /** @class */ (function (_super) {
                     question.questionAudioName = _this.removeAudioExtension(question.questionAudioName);
                     question.correctAudioName = _this.removeAudioExtension(question.correctAudioName);
                     question.wrongAudioName = _this.removeAudioExtension(question.wrongAudioName);
-                    // question.reiterationAudioName = this.removeAudioExtension(question.reiterationAudioName);
+                    //question.reiterationAudioName = this.removeAudioExtension(question.reiterationAudioName);
                     question.reiterationAudioName = question.reiterationAudioName.map(function (reiterationAudioName) { return _this.removeAudioExtension(reiterationAudioName); });
                 });
                 // Now you can use these variables within this script
