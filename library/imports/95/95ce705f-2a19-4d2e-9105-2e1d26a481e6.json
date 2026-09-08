@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "curcle",
+    "texture": "574ac43e-4852-4282-bf7c-238566f26040",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      446,
+      407
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      446,
+      407
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
