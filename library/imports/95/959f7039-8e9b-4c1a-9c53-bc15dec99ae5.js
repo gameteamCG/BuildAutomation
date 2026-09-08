@@ -90,6 +90,7 @@ var video = /** @class */ (function (_super) {
         _this.canTouch = false;
         _this.forwardBtn = null;
         _this.backwardBtn = null;
+        _this.isVisited = false;
         return _this;
     }
     // LIFE-CYCLE CALLBACKS:
@@ -111,11 +112,6 @@ var video = /** @class */ (function (_super) {
             this.isSliding = false;
             this.isOnSlider = true;
         }, this);
-        // this.slider.children[2].on("tv-select", function () {
-        //     this.isSliding = false;
-        //     this.isOnSlider = true;
-        //     this.SliderButton();
-        // }, this);
         var video = this.node.getComponent(cc.VideoPlayer);
         var duration = video.getDuration();
         var showSkipButtons = duration > 30;
@@ -140,9 +136,6 @@ var video = /** @class */ (function (_super) {
         this.slider.children[0].on("touchstart", function () {
             this.isSliding = false;
         }, this);
-        // this.slider.children[0].on("tv-select", function () {
-        //     this.isSliding = false;
-        // }, this);
         this.slider.children[0].on("touchmove", function () {
             this.isSliding = false;
         }, this);
@@ -159,7 +152,6 @@ var video = /** @class */ (function (_super) {
             this_1.questions[i].isquestionText = StartGame_1.default.Instance.questions[i].IsQuestionText;
             this_1.questions[i].correctAnswer = parseInt(StartGame_1.default.Instance.questions[i].CorrectAnswer);
             if (!this_1.questions[i].isquestionText) {
-                //load the question image
                 if (StartGame_1.default.Instance.isDemoGame) {
                     cc.loader.load(StartGame_1.default.Instance.questions[i].QuestionImageName, function (err, texture) {
                         if (err) {
@@ -554,6 +546,9 @@ var video = /** @class */ (function (_super) {
             backBtn,
             musicBtn
         ]).filter(function (n) { return n; });
+        if (!this.isVisited) {
+            this.isVisited = true;
+        }
         TVInputManager_1.default.Instance.init(nodes, -1);
         TVInputManager_1.default.Instance.setCanSelect(true);
     };

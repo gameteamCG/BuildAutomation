@@ -2342,8 +2342,8 @@
         0,
         0,
         1,
-        1.42857,
-        1.42857,
+        1.2,
+        1.2,
         1.42857
       ]
     },
@@ -2377,7 +2377,7 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 100,
+    "_fontSize": 80,
     "_lineHeight": 105,
     "_enableWrapText": true,
     "_N$file": {
@@ -4454,7 +4454,7 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 80,
+    "_fontSize": 70,
     "_lineHeight": 90,
     "_enableWrapText": false,
     "_N$file": {

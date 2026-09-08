@@ -70,6 +70,7 @@ export default class video extends cc.Component {
     private canTouch: boolean = false;
     private forwardBtn: cc.Node = null;
     private backwardBtn: cc.Node = null;
+    private isVisited: boolean = false;
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
@@ -89,11 +90,7 @@ export default class video extends cc.Component {
             this.isSliding = false;
             this.isOnSlider = true;
         }, this);
-        // this.slider.children[2].on("tv-select", function () {
-        //     this.isSliding = false;
-        //     this.isOnSlider = true;
-        //     this.SliderButton();
-        // }, this);
+
         let video = this.node.getComponent(cc.VideoPlayer);
         let duration = video.getDuration();
         let showSkipButtons = duration > 30;
@@ -122,9 +119,7 @@ export default class video extends cc.Component {
         this.slider.children[0].on("touchstart", function () {
             this.isSliding = false;
         }, this);
-        // this.slider.children[0].on("tv-select", function () {
-        //     this.isSliding = false;
-        // }, this);
+
         this.slider.children[0].on("touchmove", function () {
             this.isSliding = false;
         }, this);
@@ -141,7 +136,6 @@ export default class video extends cc.Component {
             this.questions[i].isquestionText = startGame.Instance.questions[i].IsQuestionText;
             this.questions[i].correctAnswer = parseInt(startGame.Instance.questions[i].CorrectAnswer);
             if (!this.questions[i].isquestionText) {
-                //load the question image
                 if (startGame.Instance.isDemoGame) {
                     cc.loader.load(startGame.Instance.questions[i].QuestionImageName, (err, texture) => {
                         if (err) {
@@ -573,6 +567,9 @@ export default class video extends cc.Component {
             backBtn,
             musicBtn
         ].filter(n => n);
+        if (!this.isVisited) {
+            this.isVisited = true;
+        }
         TVInputManager.Instance.init(nodes, -1);
         TVInputManager.Instance.setCanSelect(true);
     }
