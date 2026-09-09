@@ -2910,8 +2910,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 237.34,
-      "height": 100.8
+      "width": 288.2,
+      "height": 113.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2964,8 +2964,8 @@
     "_dstBlendFactor": 771,
     "_string": " Letter k",
     "_N$string": " Letter k",
-    "_fontSize": 70,
-    "_lineHeight": 80,
+    "_fontSize": 85,
+    "_lineHeight": 90,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "cd11a407-6fd2-41d1-9981-0bf5a75768b7"
@@ -3085,6 +3085,9 @@
     },
     "negative_audio": {
       "__uuid__": "f85ba194-a1c6-4989-8407-5a0b353d8529"
+    },
+    "confettiSFX": {
+      "__uuid__": "90396b44-b33f-42ab-9651-3e1b23b03568"
     },
     "_id": "1eLb3fv5xBood9rsHUrTmd"
   },

@@ -17,6 +17,8 @@ export default class Gameplay extends cc.Component {
     positive_audio: cc.AudioClip = null;
     @property(cc.AudioClip)
     negative_audio: cc.AudioClip = null;
+    @property(cc.AudioClip)
+    confettiSFX: cc.AudioClip = null;
 
     private questionAudio: cc.AudioClip = null;
     private correctAudio: cc.AudioClip = null;
@@ -488,13 +490,16 @@ export default class Gameplay extends cc.Component {
 
     LoadNextQuestion() {
         this.node.getChildByName("confetti").active = true;
-        ProgressBar.Instance.createStarTrails(6, this.node);
+        cc.audioEngine.playEffect(this.confettiSFX, false);
         this.scheduleOnce(() => {
-            ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);
+            ProgressBar.Instance.createStarTrails(6, this.node);
             this.scheduleOnce(() => {
-                this.callJockey();
-            }, 1);
-        }, 1.5);
+                ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);
+                this.scheduleOnce(() => {
+                    this.callJockey();
+                }, 1);
+            }, 1.5);
+        }, 1)
     }
 
     callNextLevel() {
