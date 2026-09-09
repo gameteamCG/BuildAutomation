@@ -193,12 +193,12 @@ export default class TVInputManager extends cc.Component {
             if (index === this.currentIndex) {
                 cc.audioEngine.playEffect(this.hoverSFX, false)
                 cc.tween(node)
-                    .to(0.1, { scale: baseScale * TVInputManager.FOCUS_SCALE })
+                    .to(0.1, { scale: 1 * TVInputManager.FOCUS_SCALE })
                     .start();
                 node.opacity = 255;
             } else {
                 cc.tween(node)
-                    .to(0.1, { scale: baseScale })
+                    .to(0.1, { scale: 1 })
                     .start();
                 node.opacity = 255;
             }
@@ -211,8 +211,8 @@ export default class TVInputManager extends cc.Component {
         console.log("CLICK:", node.name);
         cc.Tween.stopAllByTarget(node);
         cc.tween(node)
-            .to(0.05, { scale: baseScale * 0.85, opacity: 255 })
-            .to(0.1, { scale: baseScale, opacity: 255 })
+            .to(0.05, { scale: 1 * 0.85, opacity: 255 })
+            .to(0.1, { scale: 1, opacity: 255 })
             .call(() => {
                 if (callback) callback();
             })
@@ -225,7 +225,7 @@ export default class TVInputManager extends cc.Component {
             if (!node || !node.isValid) return;
             const baseScale = this.originalScales.get(node) ?? 1;
             cc.Tween.stopAllByTarget(node);
-            node.scale = baseScale;
+            node.scale = 1;
             node.opacity = 255;
         });
     }
@@ -248,7 +248,7 @@ export default class TVInputManager extends cc.Component {
             node.on(cc.Node.EventType.MOUSE_ENTER, () => {
                 cc.audioEngine.playEffect(this.hoverSFX, false)
                 const baseScale = this.originalScales.get(node) ?? 1;
-                cc.tween(node).to(0.1, { scale: baseScale * TVInputManager.FOCUS_SCALE }).start();
+                cc.tween(node).to(0.1, { scale: 1 * TVInputManager.FOCUS_SCALE }).start();
             });
             node.on(cc.Node.EventType.MOUSE_LEAVE, () => {
                 const baseScale = this.originalScales.get(node) ?? 1;
@@ -257,12 +257,12 @@ export default class TVInputManager extends cc.Component {
                     this.currentIndex < 0 ||
                     !this.focusNodes[this.currentIndex]
                 ) {
-                    cc.tween(node).to(0.1, { scale: baseScale }).start();
+                    cc.tween(node).to(0.1, { scale: 1 }).start();
                     return;
                 }
                 if (this.focusNodes[this.currentIndex] !== node) {
                     cc.tween(node)
-                        .to(0.1, { scale: baseScale })
+                        .to(0.1, { scale: 1 })
                         .start();
                 }
             });
