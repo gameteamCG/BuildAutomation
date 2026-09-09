@@ -277,7 +277,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1920,
+      "width": 1921,
       "height": 1080
     },
     "_anchorPoint": {
@@ -342,8 +342,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1156,
-      "height": 254
+      "width": 478,
+      "height": 234
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -355,7 +355,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -98.033,
+        -220.03300000000002,
         0,
         0,
         0,
@@ -395,7 +395,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "934514d1-8c36-4fc9-bc4f-011335c06a70"
+      "__uuid__": "100ff61f-6f95-4a0e-a0d5-4c5e6b361d7b"
     },
     "_type": 0,
     "_sizeMode": 2,
@@ -455,8 +455,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 250,
-      "height": 250
+      "width": 200,
+      "height": 200
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -468,7 +468,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        174.724,
+        151.724,
         0,
         0,
         0,
@@ -549,8 +549,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 140,
-      "height": 140
+      "width": 200,
+      "height": 200
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -562,7 +562,7 @@
       "ctor": "Float64Array",
       "array": [
         -180.26,
-        111.14,
+        88.14,
         0,
         0,
         0,
@@ -643,8 +643,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 140,
-      "height": 140
+      "width": 200,
+      "height": 200
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -656,7 +656,7 @@
       "ctor": "Float64Array",
       "array": [
         177.935,
-        111.14,
+        88.14,
         0,
         0,
         0,
@@ -1126,7 +1126,7 @@
     ],
     "podarEnd": null,
     "jaipuriaEnd": {
-      "__uuid__": "7ee6385b-10a2-46f5-a385-17206245ca4f"
+      "__uuid__": "100ff61f-6f95-4a0e-a0d5-4c5e6b361d7b"
     },
     "tlcEnd": null,
     "supercubEnd": null,
