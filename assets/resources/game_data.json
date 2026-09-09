@@ -24,7 +24,7 @@
       ],
       "ReiterationAudioName": "S SAYS SS.mp3",
       "CorrectAudioName": "EXCELLENTJOB.mp3",
-      "WrongAudioName": "nevermind,tryagain.mp3",
+      "WrongAudioName": "negative_1",
       "CorrectAnswer": "1"
     },
     {
@@ -42,7 +42,7 @@
       ],
       "ReiterationAudioName": "stars.mp3",
       "CorrectAudioName": "EXCEPTIONAL.mp3",
-      "WrongAudioName": "ohoh.mp3",
+      "WrongAudioName": "negative_2",
       "CorrectAnswer": "2"
     },
     {
