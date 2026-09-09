@@ -273,81 +273,106 @@ export default class Gameplay extends cc.Component {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
-            if (startGame.Instance.currentLevel == 4) {
-                let _laypout1posY: number[] = [-50, 50, -50, 0, 0];
-                let _laypout1posX: number[] = [-300, 0, 330, 0, 0];
-                for (let i = 0; i < _optionParent.children.length; i++) {
-                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
-                }
-            }
-            else {
-                let _laypout1posY: number[] = [-100, -50, -100, 0, 0];
-                let _laypout1posX: number[] = [-500, 0, 550, 0, 0];
-                for (let i = 0; i < _optionParent.children.length; i++) {
-                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
-                }
-            }
-
-        }
-        if (this.optionsLayout == "layout2") {
-            let _laypout1posX: number[] = [-380, 0, 450, 0];
-            let _laypout1posY: number[] = [-20, -30, -20, 0];
+            let _laypout1posX: number[] = [-500, -200, 300, 500];
+            let _laypout1posY: number[] = [-150, 100, -150, 100];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
-        } _template.destroy();
+        }
+        if (this.optionsLayout == "layout2") {
+            let _laypout1posX: number[] = [-380, -100, 450, 200];
+            let _laypout1posY: number[] = [30, 30, 30, 30];
+            for (let i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+            }
+        }
+        _template.destroy();
 
     }
 
     onTouchStart_layout1(event: cc.Event.EventTouch) {
+
         if (!this.canTouch) {
             return;
         }
+
         this.canTouch = false;
-        TVInputManager.Instance.setCanSelect(this.canTouch)
+        TVInputManager.Instance.setCanSelect(false);
+
         cc.audioEngine.stopAllEffects();
+
         this.node.getChildByName("hand").active = false;
+
         let node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
+
         for (let i = 0; i < this.correctAnswer.length; i++) {
+
             if (node.name == this.correctAnswer[i].toString()) {
                 correct = true;
                 audioNum = i;
                 break;
             }
         }
+
         if (correct) {
-            this.canTouch = false;
-            TVInputManager.Instance.setCanSelect(false);
+
             this.correctCounter++;
-            console.log("correctAnswer--" + startGame.Instance.currentLevel);
+
+            console.log("Correct Counter:", this.correctCounter);
+            console.log("Total Correct:", this.correctAnswer.length);
+            console.log("Audio Index:", audioNum);
+
             cc.audioEngine.playEffect(this.positive_audio, false);
+
             cc.tween(node)
                 .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(() => {
+
                     node.active = false;
+
                     if (this.correctCounter < this.correctAnswer.length) {
-                        let clip = this.reiterationAudio[audioNum] || this.reiterationAudio[0];
+
+                        let clip = this.reiterationAudio[audioNum];
+
+                        //console.log("Playing reiteration:", clip);
+
                         cc.audioEngine.playEffect(clip, false);
+
+                        // Wait for the audio to finish
                         this.scheduleOnce(() => {
+
                             this.canTouch = true;
                             TVInputManager.Instance.setCanSelect(true);
-                        }, 0.5);
+
+                        }, clip.duration);
+
                     }
                     else {
-                        cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
+
+                        cc.tween(this.options)
+                            .bezierTo(
+                                1,
+                                cc.v2(-100, 300),
+                                cc.v2(0, 0),
+                                cc.v2(100, -1200)
+                            )
                             .call(() => {
                                 this.LoadNextQuestion();
                             })
                             .start();
                     }
+
                 })
                 .start();
         }
         else {
+
             this.callNegativeRection();
+
             const originalColor = node.color.clone();
+
             cc.tween(node)
                 .to(0.1, { color: cc.Color.RED })
                 .delay(0.15)

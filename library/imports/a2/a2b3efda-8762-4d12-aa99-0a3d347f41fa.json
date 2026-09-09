@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hat-un",
+    "texture": "172e5b5f-1fe6-4371-999f-ee36eb4ffa7d",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      501,
+      498
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

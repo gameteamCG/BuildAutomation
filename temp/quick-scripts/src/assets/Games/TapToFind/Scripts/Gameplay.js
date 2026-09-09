@@ -318,24 +318,15 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
-            if (StartGame_1.default.Instance.currentLevel == 4) {
-                var _laypout1posY = [-50, 50, -50, 0, 0];
-                var _laypout1posX = [-300, 0, 330, 0, 0];
-                for (var i = 0; i < _optionParent.children.length; i++) {
-                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
-                }
-            }
-            else {
-                var _laypout1posY = [-100, -50, -100, 0, 0];
-                var _laypout1posX = [-500, 0, 550, 0, 0];
-                for (var i = 0; i < _optionParent.children.length; i++) {
-                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
-                }
+            var _laypout1posX = [-500, -200, 300, 500];
+            var _laypout1posY = [-150, 100, -150, 100];
+            for (var i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
         }
         if (this.optionsLayout == "layout2") {
-            var _laypout1posX = [-380, 0, 450, 0];
-            var _laypout1posY = [-20, -30, -20, 0];
+            var _laypout1posX = [-380, -100, 450, 200];
+            var _laypout1posY = [30, 30, 30, 30];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
@@ -348,7 +339,7 @@ var Gameplay = /** @class */ (function (_super) {
             return;
         }
         this.canTouch = false;
-        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
+        TVInputManager_1.default.Instance.setCanSelect(false);
         cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
         var node = event.target;
@@ -362,25 +353,28 @@ var Gameplay = /** @class */ (function (_super) {
             }
         }
         if (correct) {
-            this.canTouch = false;
-            TVInputManager_1.default.Instance.setCanSelect(false);
             this.correctCounter++;
-            console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            console.log("Correct Counter:", this.correctCounter);
+            console.log("Total Correct:", this.correctAnswer.length);
+            console.log("Audio Index:", audioNum);
             cc.audioEngine.playEffect(this.positive_audio, false);
             cc.tween(node)
                 .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(function () {
                 node.active = false;
                 if (_this.correctCounter < _this.correctAnswer.length) {
-                    var clip = _this.reiterationAudio[audioNum] || _this.reiterationAudio[0];
+                    var clip = _this.reiterationAudio[audioNum];
+                    //console.log("Playing reiteration:", clip);
                     cc.audioEngine.playEffect(clip, false);
+                    // Wait for the audio to finish
                     _this.scheduleOnce(function () {
                         _this.canTouch = true;
                         TVInputManager_1.default.Instance.setCanSelect(true);
-                    }, 0.5);
+                    }, clip.duration);
                 }
                 else {
-                    cc.tween(_this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
+                    cc.tween(_this.options)
+                        .bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
                         .call(function () {
                         _this.LoadNextQuestion();
                     })

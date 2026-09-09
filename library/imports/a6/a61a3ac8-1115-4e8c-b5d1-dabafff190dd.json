@@ -518,7 +518,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        220.294,
+        201.389,
         0,
         0,
         0,
@@ -919,8 +919,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 350,
-      "height": 350
+      "width": 400,
+      "height": 400
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -938,8 +938,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        1.1,
+        1.1,
         1
       ]
     },
@@ -1078,8 +1078,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 350,
-      "height": 350
+      "width": 400,
+      "height": 400
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2911,7 +2911,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 220.25,
+      "width": 217.86,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -2963,8 +2963,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Letter d",
-    "_N$string": "Letter d",
+    "_string": "Letter h",
+    "_N$string": "Letter h",
     "_fontSize": 70,
     "_lineHeight": 80,
     "_enableWrapText": true,
