@@ -271,23 +271,7 @@ export default class startGame extends cc.Component {
         else if (isPremium == "0") {
             this.isMusicOn = false;
         }
-
-        // let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-        // cc.audioEngine.setVolume(id, this.volume);
-        // if (isAudio == "false") {
-        //     this.node.getChildByName("music").children[0].active = true;
-        //     this.isMusicOn = false;
-        //     cc.audioEngine.stopMusic();
-        // }
-        // else {
-        //     this.node.getChildByName("music").children[0].active = false;
-        //     this.isMusicOn = true;
-        //     let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-        //     cc.audioEngine.setVolume(id, this.volume);
-        // }
-
         let ageValue: number = parseInt(age);
-
         if (this.isAgeParameterNeeded) {
             if (ageValue <= this.LevelAgeParameters[0]) {
                 this.levelType = "1";
@@ -337,7 +321,7 @@ export default class startGame extends cc.Component {
             if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
                 this.scheduleOnce(() => {
                     cc.director.loadScene(this.NextSceneName);
-                }, 2);
+                }, 3);
             }
         }, 1);
 

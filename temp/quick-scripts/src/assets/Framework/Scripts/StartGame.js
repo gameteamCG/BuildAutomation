@@ -231,19 +231,6 @@ var startGame = /** @class */ (function (_super) {
         else if (isPremium == "0") {
             this.isMusicOn = false;
         }
-        // let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-        // cc.audioEngine.setVolume(id, this.volume);
-        // if (isAudio == "false") {
-        //     this.node.getChildByName("music").children[0].active = true;
-        //     this.isMusicOn = false;
-        //     cc.audioEngine.stopMusic();
-        // }
-        // else {
-        //     this.node.getChildByName("music").children[0].active = false;
-        //     this.isMusicOn = true;
-        //     let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-        //     cc.audioEngine.setVolume(id, this.volume);
-        // }
         var ageValue = parseInt(age);
         if (this.isAgeParameterNeeded) {
             if (ageValue <= this.LevelAgeParameters[0]) {
@@ -290,7 +277,7 @@ var startGame = /** @class */ (function (_super) {
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
                 _this.scheduleOnce(function () {
                     cc.director.loadScene(_this.NextSceneName);
-                }, 2);
+                }, 3);
             }
         }, 1);
         // this.OnTimer();

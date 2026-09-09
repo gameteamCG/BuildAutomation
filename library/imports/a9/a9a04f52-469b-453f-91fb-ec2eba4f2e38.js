@@ -43,6 +43,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.pop_audio = null;
         _this.positive_audio = null;
         _this.negative_audio = null;
+        _this.confetti_audio = null;
         _this.questionAudio = null;
         _this.correctAudio = null;
         _this.wrongAudio = null;
@@ -517,14 +518,17 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
+        cc.audioEngine.playEffect(this.confetti_audio, false);
         this.node.getChildByName("confetti").active = true;
-        ProgressBar_1.default.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(function () {
-            ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel);
+            ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
             _this.scheduleOnce(function () {
-                _this.callJockey();
-            }, 1);
-        }, 1.5);
+                ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel);
+                _this.scheduleOnce(function () {
+                    _this.callJockey();
+                }, 1);
+            }, 1.5);
+        }, 1);
     };
     Gameplay.prototype.callNextLevel = function () {
         console.log("levelComplete--" + StartGame_1.default.Instance.currentLevel);
@@ -724,6 +728,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "negative_audio", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "confetti_audio", void 0);
     Gameplay = __decorate([
         ccclass
     ], Gameplay);
