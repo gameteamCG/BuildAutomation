@@ -70,6 +70,7 @@ export default class video extends cc.Component {
     private canTouch: boolean = false;
     private forwardBtn: cc.Node = null;
     private backwardBtn: cc.Node = null;
+    private isVisited: boolean = false;
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
@@ -573,7 +574,17 @@ export default class video extends cc.Component {
             backBtn,
             musicBtn
         ].filter(n => n);
-        TVInputManager.Instance.init(nodes, -1);
+        if (this.currentQuestion == 1 && !this.isVisited) {
+            this.isVisited = true;
+            TVInputManager.Instance.init(nodes, 1);
+            console.log("-------");
+
+        } else {
+            TVInputManager.Instance.init(nodes, -1);
+            console.log("88888888888");
+
+        }
+
         TVInputManager.Instance.setCanSelect(true);
     }
     checkOnMissingQuestions() {
