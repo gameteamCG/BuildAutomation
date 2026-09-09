@@ -573,9 +573,17 @@ export default class video extends cc.Component {
             backBtn,
             musicBtn
         ].filter(n => n);
-        TVInputManager.Instance.init(nodes, -1);
+
+        if (this.currentQuestion == 1 && !this.isVisited) {
+            this.isVisited = true;
+            TVInputManager.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
         TVInputManager.Instance.setCanSelect(true);
     }
+    isVisited: boolean = false
     checkOnMissingQuestions() {
         let isEnd: boolean = true;
         for (let i = 0; i < this.questionAppeared.length; i++) {
