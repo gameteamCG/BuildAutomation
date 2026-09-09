@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "D:\\buildfiles\\Eyfs_smarttv\\EYFS_fs0_SmartTV\\EYFS_FIX_Letter_i_fs0_phonics_r27_SmartTV",
+  "buildPath": "D:\\buildfiles\\EYFS-0\\EYFS_FIX_Letter_i_fs0_phonics_r27_SmartTV",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

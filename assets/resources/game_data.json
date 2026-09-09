@@ -24,7 +24,7 @@
       ],
       "ReiterationAudioName": "Sound_of_i.mp3",
       "CorrectAudioName": "EXCELLENTJOB.mp3",
-      "WrongAudioName": "nevermindtryagain.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "1"
     },
     {
@@ -42,7 +42,7 @@
       ],
       "ReiterationAudioName": "Igloo.mp3",
       "CorrectAudioName": "BRILLIANT.mp3",
-      "WrongAudioName": "nevermindtryagain.mp3",
+      "WrongAudioName": "negative_2.mp3",
       "CorrectAnswer": "1"
     },
     {
@@ -60,7 +60,7 @@
       ],
       "ReiterationAudioName": "546970_5_insects.mp3",
       "CorrectAudioName": "FANTASTIC.mp3",
-      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "2"
     },
     {
@@ -78,7 +78,7 @@
       ],
       "ReiterationAudioName": "Ink.mp3",
       "CorrectAudioName": "GREATWORK.mp3",
-      "WrongAudioName": "ohoh.mp3",
+      "WrongAudioName": "negative_2.mp3",
       "CorrectAnswer": "1"
     },
     {
@@ -96,7 +96,7 @@
       ],
       "ReiterationAudioName": "Iguana.mp3",
       "CorrectAudioName": "GOODJOB.mp3",
-      "WrongAudioName": "nevermindtryagain.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "2"
     }
   ]

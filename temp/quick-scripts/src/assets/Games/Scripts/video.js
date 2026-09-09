@@ -101,6 +101,7 @@ var video = /** @class */ (function (_super) {
         _this.questionAppeared = [];
         _this.currentQuestion = 0;
         _this.answeredQuestion = [];
+        _this.isVisited = false;
         _this.isPause = false;
         _this.isPlay = true;
         _this.isOnSlider = false;
@@ -658,9 +659,13 @@ var video = /** @class */ (function (_super) {
             backBtn,
             musicBtn
         ]).filter(function (n) { return n; });
-        // setupTVFocus3
-        //console.log("setupTVFocus3:", nodes.map(n => n.name));
-        TVInputManager_1.default.Instance.init(nodes, -1);
+        if (this.currentQuestion == 1 && !this.isVisited) {
+            this.isVisited = true;
+            TVInputManager_1.default.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager_1.default.Instance.init(nodes, -1);
+        }
         TVInputManager_1.default.Instance.setCanSelect(true);
     };
     video.prototype.checkOnMissingQuestions = function () {
