@@ -556,7 +556,7 @@ var video = /** @class */ (function (_super) {
             musicBtn
         ]).filter(function (n) { return n; });
         if (this.currentQuestion == 1 && !this.isVisited) {
-            this.isVisited = false;
+            this.isVisited = true;
             TVInputManager_1.default.Instance.init(nodes, 0);
         }
         else {

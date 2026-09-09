@@ -575,7 +575,7 @@ export default class video extends cc.Component {
             musicBtn
         ].filter(n => n);
         if (this.currentQuestion == 1 && !this.isVisited) {
-            this.isVisited = false;
+            this.isVisited = true;
             TVInputManager.Instance.init(nodes, 0);
         } else {
             TVInputManager.Instance.init(nodes, -1);
