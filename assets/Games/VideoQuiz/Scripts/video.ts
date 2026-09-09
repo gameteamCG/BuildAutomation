@@ -51,6 +51,7 @@ export default class video extends cc.Component {
     @property(QuestionData)
     questions: QuestionData[] = [];
 
+    private isVisited: boolean = false;
     private isSliding: boolean = false;
     private hideToolsCallback: Function = null;
     private currentTime: number = 0;
@@ -573,7 +574,12 @@ export default class video extends cc.Component {
             backBtn,
             musicBtn
         ].filter(n => n);
-        TVInputManager.Instance.init(nodes, -1);
+        if (this.currentQuestion == 1 && !this.isVisited) {
+            this.isVisited = true;
+            TVInputManager.Instance.init(nodes, 0);
+        } else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
         TVInputManager.Instance.setCanSelect(true);
     }
     checkOnMissingQuestions() {
