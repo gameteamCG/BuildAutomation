@@ -2929,7 +2929,9 @@
       "__id__": 60
     },
     "_enabled": true,
-    "hoverSFX": null,
+    "hoverSFX": {
+      "__uuid__": "f8679a2e-f2bc-4167-9e14-28e00bcefd44"
+    },
     "_id": "8aCztZyUVFfo3KhxOd9+zj"
   },
   {

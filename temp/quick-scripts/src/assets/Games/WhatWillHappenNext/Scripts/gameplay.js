@@ -586,6 +586,9 @@ var NewClass = /** @class */ (function (_super) {
             this.callPositiveFeedback(_node);
         }
         else {
+            this.canTouch = false;
+            TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
+            cc.audioEngine.stopAllEffects();
             this.wrongAnswerCount++;
             console.log("wrongAnswer--" + globalVariables_1.default.Instance.currentLevel);
             this.callNegativeRection(_node, _event);
@@ -928,8 +931,6 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callNegativeRection = function (_node, _event) {
         var _this = this;
-        this.canTouch = false;
-        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
         //_node.children[0].getComponent(cc.Sprite).setMaterial(0, this.greyMat);
         cc.audioEngine.playEffect(this.negativeSound[0], false);
         if (this.wrongAnswerCount >= 6) {
@@ -987,7 +988,7 @@ var NewClass = /** @class */ (function (_super) {
                         //console.log("characterDisappear--Podar_Jumbo");
                         _this.canTouch = true;
                         TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
-                    }, _this.negativeAudio[currentClipNum].duration);
+                    }, _this.negativeAudio[currentClipNum].duration + 1);
                 }, 0.5);
             }
             else if (StartGame_1.default.Instance.jockeyName == "tlc") {
@@ -1023,6 +1024,7 @@ var NewClass = /** @class */ (function (_super) {
                     }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_start").duration);
                 }
                 else {
+                    //console.log("MEOWWWWWW")
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                     cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
                     _this.scheduleOnce(function () {
@@ -1039,17 +1041,36 @@ var NewClass = /** @class */ (function (_super) {
         else {
             _node.getChildByName("img").color = cc.Color.RED;
         }
+        var originalX = _node.x;
         cc.tween(_node)
-            .to(0.2, { x: _node.x - 10, opacity: 180 }, { easing: "sineInOut" })
-            .to(0.2, { x: _node.x + 10, opacity: 50 }, { easing: "sineInOut" })
-            .to(0.2, { x: _node.x - 10, opacity: 255 }, { easing: "sineInOut" })
-            .to(0.2, { x: _node.x + 10, opacity: 50 }, { easing: "sineInOut" })
-            .to(0.2, { x: _node.x, opacity: 255 }, { easing: "sineInOut" }).call(function () {
-            _node.children[0].getComponent(cc.Sprite).setMaterial(0, _this.defaultMat);
+            .to(0.2, {
+            x: originalX - 10,
+            opacity: 180
+        }, { easing: "sineInOut" })
+            .to(0.2, {
+            x: originalX + 10,
+            opacity: 50
+        }, { easing: "sineInOut" })
+            .to(0.2, {
+            x: originalX - 10,
+            opacity: 255
+        }, { easing: "sineInOut" })
+            .to(0.2, {
+            x: originalX + 10,
+            opacity: 50
+        }, { easing: "sineInOut" })
+            .to(0.2, {
+            x: originalX,
+            opacity: 255
+        }, { easing: "sineInOut" })
+            .start();
+        // Same functionality that was inside .call()
+        this.scheduleOnce(function () {
+            _node.children[0].getComponent(cc.Sprite)
+                .setMaterial(0, _this.defaultMat);
             _node.getChildByName("img").color = cc.Color.WHITE;
             _node.getChildByName("bg").color = cc.Color.WHITE;
-        })
-            .start();
+        }, 1);
     };
     NewClass.prototype.destroyOption = function () {
         for (var i = 0; i < this.node.getChildByName("Option").children.length; i++) {

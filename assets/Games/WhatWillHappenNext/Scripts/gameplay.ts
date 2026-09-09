@@ -639,6 +639,9 @@ export default class NewClass extends cc.Component {
             this.callPositiveFeedback(_node);
         }
         else {
+            this.canTouch = false;
+            TVInputManager.Instance.setCanSelect(this.canTouch)
+            cc.audioEngine.stopAllEffects();
             this.wrongAnswerCount++;
             console.log("wrongAnswer--" + globalVariables.Instance.currentLevel);
             this.callNegativeRection(_node, _event);
@@ -988,8 +991,7 @@ export default class NewClass extends cc.Component {
 
 
     callNegativeRection(_node: cc.Node, _event) {
-        this.canTouch = false;
-        TVInputManager.Instance.setCanSelect(this.canTouch)
+
         //_node.children[0].getComponent(cc.Sprite).setMaterial(0, this.greyMat);
         cc.audioEngine.playEffect(this.negativeSound[0], false);
         if (this.wrongAnswerCount >= 6) {
@@ -1048,7 +1050,7 @@ export default class NewClass extends cc.Component {
                         //console.log("characterDisappear--Podar_Jumbo");
                         this.canTouch = true;
                         TVInputManager.Instance.setCanSelect(this.canTouch)
-                    }, this.negativeAudio[currentClipNum].duration);
+                    }, this.negativeAudio[currentClipNum].duration + 1);
                 }, 0.5);
             }
             else if (startGame.Instance.jockeyName == "tlc") {
@@ -1085,6 +1087,7 @@ export default class NewClass extends cc.Component {
                     }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_start").duration);
                 }
                 else {
+                    //console.log("MEOWWWWWW")
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                     cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
                     this.scheduleOnce(() => {
@@ -1103,17 +1106,47 @@ export default class NewClass extends cc.Component {
         else {
             _node.getChildByName("img").color = cc.Color.RED;
         }
+        const originalX = _node.x;
+
         cc.tween(_node)
-            .to(0.2, { x: _node.x - 10, opacity: 180 }, { easing: "sineInOut" })
-            .to(0.2, { x: _node.x + 10, opacity: 50 }, { easing: "sineInOut" })
-            .to(0.2, { x: _node.x - 10, opacity: 255 }, { easing: "sineInOut" })
-            .to(0.2, { x: _node.x + 10, opacity: 50 }, { easing: "sineInOut" })
-            .to(0.2, { x: _node.x, opacity: 255 }, { easing: "sineInOut" }).call(() => {
-                _node.children[0].getComponent(cc.Sprite).setMaterial(0, this.defaultMat);
-                _node.getChildByName("img").color = cc.Color.WHITE;
-                _node.getChildByName("bg").color = cc.Color.WHITE;
-            })
+            .to(0.2, {
+                x: originalX - 10,
+                opacity: 180
+            }, { easing: "sineInOut" })
+
+            .to(0.2, {
+                x: originalX + 10,
+                opacity: 50
+            }, { easing: "sineInOut" })
+
+            .to(0.2, {
+                x: originalX - 10,
+                opacity: 255
+            }, { easing: "sineInOut" })
+
+            .to(0.2, {
+                x: originalX + 10,
+                opacity: 50
+            }, { easing: "sineInOut" })
+
+            .to(0.2, {
+                x: originalX,
+                opacity: 255
+            }, { easing: "sineInOut" })
+
             .start();
+
+
+        // Same functionality that was inside .call()
+        this.scheduleOnce(() => {
+
+            _node.children[0].getComponent(cc.Sprite)
+                .setMaterial(0, this.defaultMat);
+
+            _node.getChildByName("img").color = cc.Color.WHITE;
+            _node.getChildByName("bg").color = cc.Color.WHITE;
+
+        }, 1);
     }
 
     destroyOption() {
