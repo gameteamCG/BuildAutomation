@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "End Text",
+    "texture": "a111cc13-d9e1-447a-8ca6-7aa752f33115",
+    "atlas": "",
+    "rect": [
+      22,
+      41,
+      456,
+      173
+    ],
+    "offset": [
+      11,
+      -10.5
+    ],
+    "originalSize": [
+      478,
+      234
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

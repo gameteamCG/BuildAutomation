@@ -42,16 +42,21 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.onLoad = function () {
         var _this = this;
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
+            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame =
+                this.podarEnd;
         }
         else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
+            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame =
+                this.supercubEnd;
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
+            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame =
+                this.tlcEnd;
         }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
+        else if (StartGame_1.default.Instance.jockeyName == "bag" ||
+            StartGame_1.default.Instance.jockeyName == "cryon") {
+            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame =
+                this.jaipuriaEnd;
             this.scheduleOnce(function () {
                 _this.node.getChildByName("end").active = true;
             }, 2);
@@ -69,28 +74,39 @@ var NewClass = /** @class */ (function (_super) {
             _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
             _this.node.getComponent(cc.AudioSource).play();
             cc.tween(_this.node.getChildByName("star1"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
-        }, 0.8);
+                .to(0.5, { scale: 1 }, { easing: "sineInOut" })
+                .start();
+        }, 0.6);
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
             _this.node.getComponent(cc.AudioSource).play();
             cc.tween(_this.node.getChildByName("star2"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
-        }, 1.3);
+                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" })
+                .start();
+        }, 1.1);
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
             _this.node.getComponent(cc.AudioSource).play();
             cc.tween(_this.node.getChildByName("star3"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
-        }, 1.8);
+                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" })
+                .start();
+        }, 1.6);
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.yeah[0];
             _this.node.getComponent(cc.AudioSource).play();
             console.log("gameEnded--true");
-        }, 2.3);
+        }, 2.1);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("end").active = true;
+        }, 2.5);
     };
-    NewClass.prototype.OnEndBtn = function (_event) {
-        window.close();
+    //   OnEndBtn(_event: cc.Event) {
+    //     window.close();
+    //   }
+    NewClass.prototype.OnEndBtn = function () {
+        //         cc.audioEngine.playEffect(startGame.Instance.play_audio, false);
+        console.log("gameEnded--" + true);
+        closeWindow();
     };
     __decorate([
         property(cc.AudioClip)
@@ -116,5 +132,9 @@ var NewClass = /** @class */ (function (_super) {
     return NewClass;
 }(cc.Component));
 exports.default = NewClass;
+var closeWindow = function () {
+    window.open(location.href, "_self", "");
+    window.close();
+};
 
 cc._RF.pop();

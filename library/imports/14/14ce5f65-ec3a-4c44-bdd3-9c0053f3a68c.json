@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Same and Different_PNUR_Numeracy book_pg7",
-      "totalLevel": "6",
+      "totalLevel": "4",
       "TitleImageName": "Asset_235.png",
       "introBgName": "bgtitlemain.png",
       "bgmMusicName": "bgm1.mp3",
@@ -19,20 +19,19 @@
         "questionAudioName": "Qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 4,
         "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png"
         ],
         "optionsBg": [
           "Asset27.png",
           "Asset28.png",
           "Asset_26.png",
-          "Asset29.png",
-          "Asset30.png"
+          "Asset29.png"
         ],
         "correctAudioName": "GOODJOB.mp3",
         "wrongAudioName": "Oopsietryoncemore.mp3",
@@ -47,17 +46,16 @@
         "questionAudioName": "Qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 4,
         "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png"
         ],
         "optionsBg": [
           "Asset_6.png",
-          "Asset10.png",
           "Asset8.png",
           "Asset7.png",
           "Asset9.png"
@@ -75,18 +73,17 @@
         "questionAudioName": "Qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 4,
         "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png"
         ],
         "optionsBg": [
           "Asset22.png",
           "Asset_25.png",
-          "Asset22.png",
           "Asset24.png",
           "Asset23.png"
         ],
@@ -103,19 +100,18 @@
         "questionAudioName": "Qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 4,
         "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png"
         ],
         "optionsBg": [
           "Asset16.png",
           "Asset17.png",
           "Asset18.png",
-          "Asset19.png",
           "Asset_20.png"
         ],
         "correctAudioName": "EXCEPTIONAL.mp3",
@@ -123,7 +119,7 @@
         "reiterationAudioName": [
           "Rvo.mp3"
         ],
-        "correctAnswerNum": "5"
+        "correctAnswerNum": "4"
       },
       {
         "questionLayout": "layout1",
@@ -131,13 +127,13 @@
         "questionAudioName": "Qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 4,
         "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png",
+          "blank.png"
         ],
         "optionsBg": [
           "Asset13.png",
