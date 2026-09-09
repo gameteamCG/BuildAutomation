@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mushroom-a",
+    "texture": "a4b79977-6bbd-4c16-9e55-26321c34a1ed",
+    "atlas": "",
+    "rect": [
+      99,
+      102,
+      303,
+      298
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -318,9 +318,19 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posX = [-550, 0, 500];
-            for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], -100);
+            if (StartGame_1.default.Instance.currentLevel == 1) {
+                var _laypout1posX = [-300, 0, 300];
+                var _laypout1posY = [-150, 100, -150];
+                for (var i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                }
+            }
+            else {
+                var _laypout1posX = [-500, 0, 500];
+                var _laypout1posY = [-100, -100, -100];
+                for (var i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                }
             }
         }
         if (this.optionsLayout == "layout2") {

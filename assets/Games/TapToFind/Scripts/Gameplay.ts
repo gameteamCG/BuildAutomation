@@ -272,9 +272,19 @@ export default class Gameplay extends cc.Component {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posX: number[] = [-550, 0, 500];
-            for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], -100);
+            if (startGame.Instance.currentLevel == 1) {
+                let _laypout1posX: number[] = [-300, 0, 300];
+                let _laypout1posY: number[] = [-150, 100, -150];
+                for (let i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                }
+            }
+            else {
+                let _laypout1posX: number[] = [-500, 0, 500];
+                let _laypout1posY: number[] = [-100, -100, -100];
+                for (let i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                }
             }
         }
         if (this.optionsLayout == "layout2") {

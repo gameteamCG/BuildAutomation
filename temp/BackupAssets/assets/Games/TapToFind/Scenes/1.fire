@@ -2910,7 +2910,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 257.71,
+      "width": 274.05,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -2962,8 +2962,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": " Letter r ",
-    "_N$string": " Letter r ",
+    "_string": " Letter m ",
+    "_N$string": " Letter m ",
     "_fontSize": 70,
     "_lineHeight": 80,
     "_enableWrapText": true,
