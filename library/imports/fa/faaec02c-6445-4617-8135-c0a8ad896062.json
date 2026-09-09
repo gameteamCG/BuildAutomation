@@ -29,7 +29,7 @@
         ],
         "ReiterationAudioName": "Sound_of_S.mp3",
         "CorrectAudioName": "GREATWORK.mp3",
-        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "WrongAudioName": "negative_1",
         "CorrectAnswer": "2"
       },
       {
@@ -47,7 +47,7 @@
         ],
         "ReiterationAudioName": "sea.mp3",
         "CorrectAudioName": "GOODJOB.mp3",
-        "WrongAudioName": "ohoh.mp3",
+        "WrongAudioName": "negative_2",
         "CorrectAnswer": "1"
       },
       {
@@ -65,7 +65,7 @@
         ],
         "ReiterationAudioName": "sun.mp3",
         "CorrectAudioName": "FANTASTIC.mp3",
-        "WrongAudioName": "nevermindtryagain.mp3",
+        "WrongAudioName": "negative_1",
         "CorrectAnswer": "1"
       },
       {
@@ -83,7 +83,7 @@
         ],
         "ReiterationAudioName": "sandwich.mp3",
         "CorrectAudioName": "EXCELLENTJOB.mp3",
-        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "WrongAudioName": "negative_2",
         "CorrectAnswer": "2"
       },
       {
@@ -101,7 +101,7 @@
         ],
         "ReiterationAudioName": "Sock.mp3",
         "CorrectAudioName": "BRILLIANT.mp3",
-        "WrongAudioName": "ohoh.mp3",
+        "WrongAudioName": "negative_1",
         "CorrectAnswer": "2"
       }
     ]
