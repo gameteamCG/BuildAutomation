@@ -30,7 +30,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var TVInputManager_1 = require("./TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -318,9 +318,19 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posX = [-550, 0, 500];
-            for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], -100);
+            if (StartGame_1.default.Instance.currentLevel == 4) {
+                var _laypout1posY = [-50, 50, -50, 0, 0];
+                var _laypout1posX = [-300, 0, 330, 0, 0];
+                for (var i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                }
+            }
+            else {
+                var _laypout1posY = [-100, -50, -100, 0, 0];
+                var _laypout1posX = [-500, 0, 550, 0, 0];
+                for (var i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                }
             }
         }
         if (this.optionsLayout == "layout2") {

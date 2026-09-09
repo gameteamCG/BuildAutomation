@@ -1,4 +1,5 @@
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import TVInputManager from "./TVInputManager";
 
@@ -272,10 +273,21 @@ export default class Gameplay extends cc.Component {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posX: number[] = [-550, 0, 500];
-            for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], -100);
+            if (startGame.Instance.currentLevel == 4) {
+                let _laypout1posY: number[] = [-50, 50, -50, 0, 0];
+                let _laypout1posX: number[] = [-300, 0, 330, 0, 0];
+                for (let i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                }
             }
+            else {
+                let _laypout1posY: number[] = [-100, -50, -100, 0, 0];
+                let _laypout1posX: number[] = [-500, 0, 550, 0, 0];
+                for (let i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                }
+            }
+
         }
         if (this.optionsLayout == "layout2") {
             let _laypout1posX: number[] = [-380, 0, 450, 0];
