@@ -71,6 +71,7 @@ var video = /** @class */ (function (_super) {
         _this.slider = null;
         _this.toolActivater = null;
         _this.questions = [];
+        _this.isVisited = false;
         _this.isSliding = false;
         _this.hideToolsCallback = null;
         _this.currentTime = 0;
@@ -554,7 +555,13 @@ var video = /** @class */ (function (_super) {
             backBtn,
             musicBtn
         ]).filter(function (n) { return n; });
-        TVInputManager_1.default.Instance.init(nodes, -1);
+        if (this.currentQuestion == 1 && !this.isVisited) {
+            this.isVisited = true;
+            TVInputManager_1.default.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager_1.default.Instance.init(nodes, -1);
+        }
         TVInputManager_1.default.Instance.setCanSelect(true);
     };
     video.prototype.checkOnMissingQuestions = function () {
