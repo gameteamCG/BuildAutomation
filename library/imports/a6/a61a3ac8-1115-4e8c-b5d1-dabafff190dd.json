@@ -549,7 +549,7 @@
     "node": {
       "__id__": 9
     },
-    "_enabled": true,
+    "_enabled": false,
     "_materials": [
       {
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
@@ -1078,8 +1078,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 400,
-      "height": 400
+      "width": 350,
+      "height": 350
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1707,8 +1707,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 302,
-      "height": 27
+      "width": 545,
+      "height": 155
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1719,8 +1719,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -8,
-        -178.767,
+        14.057,
+        -245,
         0,
         0,
         0,
@@ -1760,7 +1760,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "4c5bdee3-e08e-4e63-b7af-c9352192d8cc"
+      "__uuid__": "ff127afe-9531-4187-bf25-ff4695ab49db"
     },
     "_type": 0,
     "_sizeMode": 2,
@@ -2318,7 +2318,7 @@
       "__id__": 34
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 49
@@ -2347,8 +2347,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        -305.534,
+        32.4,
+        -285,
         0,
         0,
         0,
@@ -2388,7 +2388,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "10df9b96-0e87-41de-a819-c7581dda3b4a"
+      "__uuid__": "ff127afe-9531-4187-bf25-ff4695ab49db"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -2911,7 +2911,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 217.86,
+      "width": 219.37,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -2963,8 +2963,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Letter h",
-    "_N$string": "Letter h",
+    "_string": "Letter e",
+    "_N$string": "Letter e",
     "_fontSize": 70,
     "_lineHeight": 80,
     "_enableWrapText": true,

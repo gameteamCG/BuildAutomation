@@ -270,20 +270,71 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 70, _optionCount);
+            let posX: number[];
+            let posY: number[];
+            if (startGame.Instance.currentLevel == 2) {
+
+                posX = [-400, 50, 500, 550, 0];
+                posY = [10, 10, 10, 0, 0];
+
+            }
+            else if (startGame.Instance.currentLevel == 3) {
+
+                posX = [-400, 50, 500, 550, 0];
+                posY = [10, 10, 10, 0, 0];
+
+            }
+            else {
+
+                // default positions
+                posX = [-450, 200, -150, 500, 0];
+                posY = [-120, -120, 40, 40, 50];
+            }
+
+            for (let i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(posX[i], 0);
+            }
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posX: number[] = [-500, -200, 300, 500];
-            let _laypout1posY: number[] = [-150, 100, -150, 100];
+
+            let posX: number[];
+            let posY: number[];
+
+            // 👇 custom positions for level 3
+            if (startGame.Instance.currentLevel == 5) {
+
+                posX = [200, 200, -150, -150, 0];
+                posY = [-170, 100, 100, -170, 50];
+
+            } else {
+
+                // default positions
+                posX = [-500, -150, 170, 500];
+                posY = [-150, 100, -150, 100];
+            }
+
             for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                _optionParent.children[i].setPosition(posX[i], posY[i]);
             }
         }
         if (this.optionsLayout == "layout2") {
-            let _laypout1posX: number[] = [-380, -100, 450, 200];
-            let _laypout1posY: number[] = [30, 30, 30, 30];
+            let posX: number[];
+            let posY: number[];
+
+            // 👇 custom positions for level 3
+            if (startGame.Instance.currentLevel == 4) {
+                console.log("yolo")
+                posX = [-300, -100, 100, 300, 0];
+                posY = [18, 18, 18, 18, 50];
+
+            } else {
+
+                // default positions
+                posX = [-450, 200, -150, 500, 0];
+                posY = [-120, -120, 40, 40, 50];
+            }
             for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                _optionParent.children[i].setPosition(posX[i], posY[i]);
             }
         }
         _template.destroy();
