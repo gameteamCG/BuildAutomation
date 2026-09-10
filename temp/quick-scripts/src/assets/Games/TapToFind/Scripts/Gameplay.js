@@ -379,13 +379,13 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeChildren(this.options, -30);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posX = [-600, -200, 257, 700];
-            var _laypout1posY = [-150, 100, -150, 250];
+            var _laypout1posX = [-500, -150, 200, 550];
+            var _laypout1posY = [-220, 100, -220, 280];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
             if (StartGame_1.default.Instance.currentLevel == 5) {
-                var _laypout1posY_1 = [-150, 100, -100, 150];
+                var _laypout1posY_1 = [-150, 100, -100, 320];
                 for (var i = 0; i < _optionParent.children.length; i++) {
                     _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY_1[i]);
                 }
@@ -456,6 +456,22 @@ var Gameplay = /** @class */ (function (_super) {
             })
                 .start();
         }
+        else {
+            this.canTouch = false;
+            TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
+            //play negative audio
+            // cc.audioEngine.playEffect(this.negative_audio, false);
+            this.callNegativeRection();
+            console.log("wrongAnswer--" + StartGame_1.default.Instance.currentLevel);
+            var posX = node.getPosition().x;
+            cc.tween(node).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE })
+                .to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).start();
+            cc.tween(node).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
+                .to(0.1, { x: posX }).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
+                .to(0.1, { x: posX }).call(function () {
+                // this.canTouch = true;
+            }).start();
+        }
     };
     Gameplay.prototype.onTouchStart_layout2 = function (event) {
         var _this = this;
@@ -523,6 +539,8 @@ var Gameplay = /** @class */ (function (_super) {
             //     }).start();
         }
         else {
+            this.canTouch = false;
+            TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
             //play negative audio
             // cc.audioEngine.playEffect(this.negative_audio, false);
             this.callNegativeRection();
@@ -601,13 +619,15 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
         this.node.getChildByName("confetti").active = true;
-        ProgressBar_1.default.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(function () {
-            ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel);
+            ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
             _this.scheduleOnce(function () {
-                _this.callJockey();
-            }, 1);
-        }, 1.5);
+                ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel);
+                _this.scheduleOnce(function () {
+                    _this.callJockey();
+                }, 1);
+            }, 1.5);
+        }, 1);
     };
     Gameplay.prototype.callNextLevel = function () {
         console.log("levelComplete--" + StartGame_1.default.Instance.currentLevel);
@@ -770,7 +790,7 @@ var Gameplay = /** @class */ (function (_super) {
                     if (_this.questionAudio) {
                         cc.audioEngine.playEffect(_this.questionAudio, false);
                     }
-                }, _this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration);
+                }, _this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration + 1);
             }, 0.5);
         }, 0.7);
     };

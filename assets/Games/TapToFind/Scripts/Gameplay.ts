@@ -348,13 +348,13 @@ export default class Gameplay extends cc.Component {
             this.arrangeChildren(this.options, -30);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posX: number[] = [-600, -200, 257, 700];
-            let _laypout1posY: number[] = [-150, 100, -150, 250];
+            let _laypout1posX: number[] = [-500, -150, 200, 550];
+            let _laypout1posY: number[] = [-220, 100, -220, 280];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
             if (startGame.Instance.currentLevel == 5) {
-                let _laypout1posY: number[] = [-150, 100, -100, 150];
+                let _laypout1posY: number[] = [-150, 100, -100, 320];
                 for (let i = 0; i < _optionParent.children.length; i++) {
                     _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
                 }
@@ -442,6 +442,23 @@ export default class Gameplay extends cc.Component {
                 })
                 .start();
         }
+        else {
+            this.canTouch = false;
+            TVInputManager.Instance.setCanSelect(this.canTouch)
+            //play negative audio
+            // cc.audioEngine.playEffect(this.negative_audio, false);
+            this.callNegativeRection();
+            console.log("wrongAnswer--" + startGame.Instance.currentLevel);
+            let posX = node.getPosition().x;
+            cc.tween(node).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE })
+                .to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).start();
+            cc.tween(node).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
+                .to(0.1, { x: posX }).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
+                .to(0.1, { x: posX }).call(() => {
+                    // this.canTouch = true;
+                }).start();
+
+        }
     }
 
     onTouchStart_layout2(event: cc.Event.EventTouch) {
@@ -515,6 +532,8 @@ export default class Gameplay extends cc.Component {
             //     }).start();
         }
         else {
+            this.canTouch = false;
+            TVInputManager.Instance.setCanSelect(this.canTouch)
             //play negative audio
             // cc.audioEngine.playEffect(this.negative_audio, false);
             this.callNegativeRection();
@@ -595,13 +614,15 @@ export default class Gameplay extends cc.Component {
 
     LoadNextQuestion() {
         this.node.getChildByName("confetti").active = true;
-        ProgressBar.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(() => {
-            ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);
+            ProgressBar.Instance.createStarTrails(6, this.node);
             this.scheduleOnce(() => {
-                this.callJockey();
-            }, 1);
-        }, 1.5);
+                ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);
+                this.scheduleOnce(() => {
+                    this.callJockey();
+                }, 1);
+            }, 1.5);
+        }, 1)
     }
 
     callNextLevel() {
@@ -767,7 +788,7 @@ export default class Gameplay extends cc.Component {
                     if (this.questionAudio) {
                         cc.audioEngine.playEffect(this.questionAudio, false);
                     }
-                }, this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration);
+                }, this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration + 1);
             }, 0.5);
         }, 0.7)
     }
