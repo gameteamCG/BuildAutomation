@@ -15,7 +15,7 @@
     "questionData": [
       {
         "questionLayout": "layout1",
-        "questionBgName": "bg3.png",
+        "questionBgName": "BG3.png",
         "questionAudioName": "tap_on_all_iguanas.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -73,7 +73,7 @@
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "bg2.png",
+        "questionBgName": "Bg2.png",
         "questionAudioName": "tap_on_all_igloos.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -102,7 +102,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg4.png",
+        "questionBgName": "BG4.png",
         "questionAudioName": "Identify all the objects that begin with the letter i.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,

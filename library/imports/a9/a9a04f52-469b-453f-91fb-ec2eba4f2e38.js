@@ -315,20 +315,58 @@ var Gameplay = /** @class */ (function (_super) {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, -30, _optionCount);
+            var posX = void 0;
+            var posY = void 0;
+            if (StartGame_1.default.Instance.currentLevel == 2) {
+                posX = [-400, 50, 500, 550, 0];
+                posY = [10, 10, 10, 0, 0];
+            }
+            else if (StartGame_1.default.Instance.currentLevel == 3) {
+                posX = [-400, 50, 500, 550, 0];
+                posY = [10, 10, 10, 0, 0];
+            }
+            else {
+                // default positions
+                posX = [-450, 200, -150, 500, 0];
+                posY = [-120, -120, 40, 40, 50];
+            }
+            for (var i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(posX[i], 0);
+            }
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posX = [-600, -200, 257, 700];
-            var _laypout1posY = [-150, 100, -150, 100];
+            var posX = void 0;
+            var posY = void 0;
+            // 👇 custom positions for level 3
+            if (StartGame_1.default.Instance.currentLevel == 5) {
+                posX = [200, 200, -150, -150, 0];
+                posY = [-170, 100, 100, -170, 50];
+            }
+            else {
+                // default positions
+                posX = [-500, -150, 170, 500];
+                posY = [-150, 100, -150, 100];
+            }
             for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                _optionParent.children[i].setPosition(posX[i], posY[i]);
             }
         }
         if (this.optionsLayout == "layout2") {
-            var _laypout1posX = [-380, 0, 450, 0];
-            var _laypout1posY = [-20, -30, -20, 0];
+            var posX = void 0;
+            var posY = void 0;
+            // 👇 custom positions for level 3
+            if (StartGame_1.default.Instance.currentLevel == 4) {
+                console.log("yolo");
+                posX = [-300, -100, 100, 300, 0];
+                posY = [18, 18, 18, 18, 50];
+            }
+            else {
+                // default positions
+                posX = [-450, 200, -150, 500, 0];
+                posY = [-120, -120, 40, 40, 50];
+            }
             for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                _optionParent.children[i].setPosition(posX[i], posY[i]);
             }
         }
         _template.destroy();
@@ -339,7 +377,7 @@ var Gameplay = /** @class */ (function (_super) {
             return;
         }
         this.canTouch = false;
-        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
+        TVInputManager_1.default.Instance.setCanSelect(false);
         cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
         var node = event.target;
@@ -353,25 +391,28 @@ var Gameplay = /** @class */ (function (_super) {
             }
         }
         if (correct) {
-            this.canTouch = false;
-            TVInputManager_1.default.Instance.setCanSelect(false);
             this.correctCounter++;
-            console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            console.log("Correct Counter:", this.correctCounter);
+            console.log("Total Correct:", this.correctAnswer.length);
+            console.log("Audio Index:", audioNum);
             cc.audioEngine.playEffect(this.positive_audio, false);
             cc.tween(node)
                 .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(function () {
                 node.active = false;
                 if (_this.correctCounter < _this.correctAnswer.length) {
-                    var clip = _this.reiterationAudio[audioNum] || _this.reiterationAudio[0];
+                    var clip = _this.reiterationAudio[audioNum];
+                    //console.log("Playing reiteration:", clip);
                     cc.audioEngine.playEffect(clip, false);
+                    // Wait for the audio to finish
                     _this.scheduleOnce(function () {
                         _this.canTouch = true;
                         TVInputManager_1.default.Instance.setCanSelect(true);
-                    }, 0.5);
+                    }, clip.duration);
                 }
                 else {
-                    cc.tween(_this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
+                    cc.tween(_this.options)
+                        .bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
                         .call(function () {
                         _this.LoadNextQuestion();
                     })
@@ -500,12 +541,7 @@ var Gameplay = /** @class */ (function (_super) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[0], false);
                 }
                 if (_this.correctCounter == _this.correctAnswer.length) {
-                    console.log("all the options are answered correctly");
                     _this.LoadNextQuestion();
-                }
-                else {
-                    _this.canTouch = true;
-                    TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
                 }
             }).start();
         }
@@ -524,13 +560,15 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
         this.node.getChildByName("confetti").active = true;
-        ProgressBar_1.default.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(function () {
-            ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel);
+            ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
             _this.scheduleOnce(function () {
-                _this.callJockey();
-            }, 1);
-        }, 1.5);
+                ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel);
+                _this.scheduleOnce(function () {
+                    _this.callJockey();
+                }, 1);
+            }, 1.5);
+        }, 1);
     };
     Gameplay.prototype.callNextLevel = function () {
         console.log("levelComplete--" + StartGame_1.default.Instance.currentLevel);

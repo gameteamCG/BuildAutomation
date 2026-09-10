@@ -270,75 +270,160 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, -30, _optionCount);
-        }
-        if (this.optionsLayout == "layout1") {
-            let _laypout1posX: number[] = [-600, -200, 257, 700];
-            let _laypout1posY: number[] = [-150, 100, -150, 100];
-            for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+            let posX: number[];
+            let posY: number[];
+            if (startGame.Instance.currentLevel == 2) {
+
+                posX = [-400, 50, 500, 550, 0];
+                posY = [10, 10, 10, 0, 0];
+
+            }
+            else if (startGame.Instance.currentLevel == 3) {
+
+                posX = [-400, 50, 500, 550, 0];
+                posY = [10, 10, 10, 0, 0];
+
+            }
+            else {
+
+                // default positions
+                posX = [-450, 200, -150, 500, 0];
+                posY = [-120, -120, 40, 40, 50];
             }
 
+            for (let i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(posX[i], 0);
+            }
+        }
+        if (this.optionsLayout == "layout1") {
+
+            let posX: number[];
+            let posY: number[];
+
+            // 👇 custom positions for level 3
+            if (startGame.Instance.currentLevel == 5) {
+
+                posX = [200, 200, -150, -150, 0];
+                posY = [-170, 100, 100, -170, 50];
+
+            } else {
+
+                // default positions
+                posX = [-500, -150, 170, 500];
+                posY = [-150, 100, -150, 100];
+            }
+
+            for (let i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(posX[i], posY[i]);
+            }
         }
         if (this.optionsLayout == "layout2") {
-            let _laypout1posX: number[] = [-380, 0, 450, 0];
-            let _laypout1posY: number[] = [-20, -30, -20, 0];
-            for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+            let posX: number[];
+            let posY: number[];
+
+            // 👇 custom positions for level 3
+            if (startGame.Instance.currentLevel == 4) {
+                console.log("yolo")
+                posX = [-300, -100, 100, 300, 0];
+                posY = [18, 18, 18, 18, 50];
+
+            } else {
+
+                // default positions
+                posX = [-450, 200, -150, 500, 0];
+                posY = [-120, -120, 40, 40, 50];
             }
-        } _template.destroy();
+            for (let i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(posX[i], posY[i]);
+            }
+        }
+        _template.destroy();
 
     }
 
     onTouchStart_layout1(event: cc.Event.EventTouch) {
+
         if (!this.canTouch) {
             return;
         }
+
         this.canTouch = false;
-        TVInputManager.Instance.setCanSelect(this.canTouch)
+        TVInputManager.Instance.setCanSelect(false);
+
         cc.audioEngine.stopAllEffects();
+
         this.node.getChildByName("hand").active = false;
+
         let node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
+
         for (let i = 0; i < this.correctAnswer.length; i++) {
+
             if (node.name == this.correctAnswer[i].toString()) {
                 correct = true;
                 audioNum = i;
                 break;
             }
         }
+
         if (correct) {
-            this.canTouch = false;
-            TVInputManager.Instance.setCanSelect(false);
+
             this.correctCounter++;
-            console.log("correctAnswer--" + startGame.Instance.currentLevel);
+
+            console.log("Correct Counter:", this.correctCounter);
+            console.log("Total Correct:", this.correctAnswer.length);
+            console.log("Audio Index:", audioNum);
+
             cc.audioEngine.playEffect(this.positive_audio, false);
+
             cc.tween(node)
                 .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(() => {
+
                     node.active = false;
+
                     if (this.correctCounter < this.correctAnswer.length) {
-                        let clip = this.reiterationAudio[audioNum] || this.reiterationAudio[0];
+
+                        let clip = this.reiterationAudio[audioNum];
+
+                        //console.log("Playing reiteration:", clip);
+
                         cc.audioEngine.playEffect(clip, false);
+
+                        // Wait for the audio to finish
                         this.scheduleOnce(() => {
+
                             this.canTouch = true;
                             TVInputManager.Instance.setCanSelect(true);
-                        }, 0.5);
+
+                        }, clip.duration);
+
                     }
                     else {
-                        cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
+
+                        cc.tween(this.options)
+                            .bezierTo(
+                                1,
+                                cc.v2(-100, 300),
+                                cc.v2(0, 0),
+                                cc.v2(100, -1200)
+                            )
                             .call(() => {
                                 this.LoadNextQuestion();
                             })
                             .start();
                     }
+
                 })
                 .start();
         }
         else {
+
             this.callNegativeRection();
+
             const originalColor = node.color.clone();
+
             cc.tween(node)
                 .to(0.1, { color: cc.Color.RED })
                 .delay(0.15)
@@ -455,12 +540,7 @@ export default class Gameplay extends cc.Component {
                         cc.audioEngine.playEffect(this.reiterationAudio[0], false);
                     }
                     if (this.correctCounter == this.correctAnswer.length) {
-                        console.log("all the options are answered correctly");
                         this.LoadNextQuestion();
-                    }
-                    else {
-                        this.canTouch = true;
-                        TVInputManager.Instance.setCanSelect(this.canTouch)
                     }
                 }).start();
         }
@@ -481,13 +561,15 @@ export default class Gameplay extends cc.Component {
 
     LoadNextQuestion() {
         this.node.getChildByName("confetti").active = true;
-        ProgressBar.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(() => {
-            ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);
+            ProgressBar.Instance.createStarTrails(6, this.node);
             this.scheduleOnce(() => {
-                this.callJockey();
-            }, 1);
-        }, 1.5);
+                ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);
+                this.scheduleOnce(() => {
+                    this.callJockey();
+                }, 1);
+            }, 1.5);
+        }, 1)
     }
 
     callNextLevel() {
