@@ -568,12 +568,10 @@ export default class video extends cc.Component {
             backBtn,
             musicBtn
         ].filter(n => n);
-        console.log(this.currentQuestion);
 
-
-        if (this.currentQuestion == 0 && !this.isVisited) {
+        if (this.currentQuestion == 1 && !this.isVisited) {
             this.isVisited = true;
-            TVInputManager.Instance.init(nodes, 0);
+            TVInputManager.Instance.init(nodes, 1);
         }
         else {
             TVInputManager.Instance.init(nodes, -1);
