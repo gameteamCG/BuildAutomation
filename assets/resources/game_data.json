@@ -18,13 +18,10 @@
       "PlayQuestionAudio": true,
       "IsOptionText": true,
       "NumberOfOptions": 2,
-      "Options": [
-        "a",
-        "g"
-      ],
+      "Options": ["a", "g"],
       "ReiterationAudioName": "Sound_of_a.mp3",
       "CorrectAudioName": "EXCELLENTJOB.mp3",
-      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "1"
     },
     {
@@ -36,13 +33,10 @@
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 2,
-      "Options": [
-        "250x250_0002_bear.png",
-        "250x250_0010_apple.png"
-      ],
+      "Options": ["250x250_0002_bear.png", "250x250_0010_apple.png"],
       "ReiterationAudioName": "Apple.mp3",
       "CorrectAudioName": "GOODJOB.mp3",
-      "WrongAudioName": "nevermindtryagain.mp3",
+      "WrongAudioName": "negative_2.mp3",
       "CorrectAnswer": "2"
     },
     {
@@ -54,13 +48,10 @@
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 2,
-      "Options": [
-        "250x250_0002_dinosaur.png",
-        "250x250_0002_axe.png"
-      ],
+      "Options": ["250x250_0002_dinosaur.png", "250x250_0002_axe.png"],
       "ReiterationAudioName": "Axe.mp3",
       "CorrectAudioName": "GREATWORK.mp3",
-      "WrongAudioName": "ohoh.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "2"
     },
     {
@@ -72,13 +63,10 @@
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 2,
-      "Options": [
-        "250x250_0001_ant.png",
-        "250x250_0002_camera.png"
-      ],
+      "Options": ["250x250_0001_ant.png", "250x250_0002_camera.png"],
       "ReiterationAudioName": "Ant.mp3",
       "CorrectAudioName": "BRILLIANT.mp3",
-      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "WrongAudioName": "negative_2.mp3",
       "CorrectAnswer": "1"
     },
     {
@@ -90,13 +78,10 @@
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 2,
-      "Options": [
-        "250x250_0000_alligator.png",
-        "250x250_0002_frog.png"
-      ],
+      "Options": ["250x250_0000_alligator.png", "250x250_0002_frog.png"],
       "ReiterationAudioName": "Alligator.mp3",
       "CorrectAudioName": "FANTASTIC.mp3",
-      "WrongAudioName": "ohoh.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "1"
     }
   ]
