@@ -90,6 +90,7 @@ var video = /** @class */ (function (_super) {
         _this.canTouch = false;
         _this.forwardBtn = null;
         _this.backwardBtn = null;
+        _this.isVisited = false;
         return _this;
     }
     // LIFE-CYCLE CALLBACKS:
@@ -98,7 +99,9 @@ var video = /** @class */ (function (_super) {
         this.forwardBtn = cc.find("Canvas/skipAhead");
         this.backwardBtn = cc.find("Canvas/skipBack");
         this.UpdateQuestions();
-        this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).active = true;
+        this.character
+            .getChildByName("anim")
+            .getChildByName(StartGame_1.default.Instance.jockeyName).active = true;
         this.scheduleOnce(function () {
             for (var i = 0; i < _this.questions.length; i++) {
                 _this.timers[i] = _this.questions[i].questionTime;
@@ -155,8 +158,10 @@ var video = /** @class */ (function (_super) {
         var _loop_1 = function (i) {
             this_1.questions[i] = new QuestionData();
             this_1.questions[i].questionTime = parseInt(StartGame_1.default.Instance.questions[i].QuestionAppearTime);
-            this_1.questions[i].isoptionText = StartGame_1.default.Instance.questions[i].IsOptionText;
-            this_1.questions[i].isquestionText = StartGame_1.default.Instance.questions[i].IsQuestionText;
+            this_1.questions[i].isoptionText =
+                StartGame_1.default.Instance.questions[i].IsOptionText;
+            this_1.questions[i].isquestionText =
+                StartGame_1.default.Instance.questions[i].IsQuestionText;
             this_1.questions[i].correctAnswer = parseInt(StartGame_1.default.Instance.questions[i].CorrectAnswer);
             if (!this_1.questions[i].isquestionText) {
                 //load the question image
@@ -177,7 +182,8 @@ var video = /** @class */ (function (_super) {
                 }
             }
             else {
-                this_1.questions[i].questionText = StartGame_1.default.Instance.questions[i].QuestionText;
+                this_1.questions[i].questionText =
+                    StartGame_1.default.Instance.questions[i].QuestionText;
             }
             if (!this_1.questions[i].isoptionText) {
                 var _loop_2 = function (j) {
@@ -205,7 +211,8 @@ var video = /** @class */ (function (_super) {
             else {
                 //load the option texts
                 for (var j = 0; j < StartGame_1.default.Instance.questions[i].Options.length; j++) {
-                    this_1.questions[i].optionTexts[j] = StartGame_1.default.Instance.questions[i].Options[j];
+                    this_1.questions[i].optionTexts[j] =
+                        StartGame_1.default.Instance.questions[i].Options[j];
                 }
             }
             if (StartGame_1.default.Instance.isDemoGame) {
@@ -315,7 +322,7 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.playVideo1 = function () {
         var _this = this;
-        this.node.on('completed', function () {
+        this.node.on("completed", function () {
             if (this.gameStarted) {
                 this.checkOnMissingQuestions();
                 this.tools.active = false;
@@ -326,7 +333,7 @@ var video = /** @class */ (function (_super) {
                     this.backwardBtn.active = false;
             }
         }, this);
-        this.node.on('playing', function () {
+        this.node.on("playing", function () {
             var _this = this;
             this.isPlay = true;
             this.isPause = false;
@@ -377,14 +384,17 @@ var video = /** @class */ (function (_super) {
             if (i == _current) {
                 this.starsPanel.children[i].opacity = 255;
                 if (!_answered) {
-                    this.starsPanel.children[i].getComponent(cc.Sprite).spriteFrame = this.starSprites[0];
+                    this.starsPanel.children[i].getComponent(cc.Sprite).spriteFrame =
+                        this.starSprites[0];
                 }
                 else if (_answered) {
                     if (_correct) {
-                        this.starsPanel.children[i].getComponent(cc.Sprite).spriteFrame = this.starSprites[2];
+                        this.starsPanel.children[i].getComponent(cc.Sprite).spriteFrame =
+                            this.starSprites[2];
                     }
                     else {
-                        this.starsPanel.children[i].getComponent(cc.Sprite).spriteFrame = this.starSprites[1];
+                        this.starsPanel.children[i].getComponent(cc.Sprite).spriteFrame =
+                            this.starSprites[1];
                     }
                 }
                 break;
@@ -426,11 +436,14 @@ var video = /** @class */ (function (_super) {
     video.prototype.UpdateSlider = function () {
         var _this = this;
         this.isSliding = false;
-        this.currentTime = this.node.getComponent(cc.VideoPlayer).getDuration() * this.slider.getComponent(cc.Slider).progress;
+        this.currentTime =
+            this.node.getComponent(cc.VideoPlayer).getDuration() *
+                this.slider.getComponent(cc.Slider).progress;
         this.node.getComponent(cc.VideoPlayer).stop();
         this.node.getComponent(cc.VideoPlayer).currentTime = this.currentTime;
         this.node.getComponent(cc.VideoPlayer).play();
-        this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
+        this.slider.getChildByName("high").width =
+            this.slider.getChildByName("Handle").getPosition().x + 472.5;
         this.scheduleOnce(function () {
             _this.isSliding = true;
             _this.tools.getChildByName("resume").active = false;
@@ -443,11 +456,14 @@ var video = /** @class */ (function (_super) {
     video.prototype.UpdateSlider2 = function () {
         var _this = this;
         this.isSliding = false;
-        this.currentTime = this.node.getComponent(cc.VideoPlayer).getDuration() * this.slider.getComponent(cc.Slider).progress;
+        this.currentTime =
+            this.node.getComponent(cc.VideoPlayer).getDuration() *
+                this.slider.getComponent(cc.Slider).progress;
         this.node.getComponent(cc.VideoPlayer).stop();
         this.node.getComponent(cc.VideoPlayer).currentTime = this.currentTime;
         this.node.getComponent(cc.VideoPlayer).play();
-        this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
+        this.slider.getChildByName("high").width =
+            this.slider.getChildByName("Handle").getPosition().x + 472.5;
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.VideoPlayer).resume();
         }, 0.2);
@@ -461,7 +477,8 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.SliderButton = function () {
         this.isOnSlider = true;
-        this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
+        this.slider.getChildByName("high").width =
+            this.slider.getChildByName("Handle").getPosition().x + 472.5;
     };
     video.prototype.OnQuestionAnswered = function (_event) {
         var _this = this;
@@ -485,7 +502,11 @@ var video = /** @class */ (function (_super) {
             });
             this.scheduleOnce(function () {
                 cc.audioEngine.playEffect(_this.positiveVO[_this.currentQuestion % 5], false);
-                _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, _this.positiveVO[_this.currentQuestion % 5].name, false);
+                _this.character
+                    .getChildByName("anim")
+                    .getChildByName(StartGame_1.default.Instance.jockeyName)
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, _this.positiveVO[_this.currentQuestion % 5].name, false);
                 if (_this.attemps <= 1) {
                     _this.starUpdate(_this.currentQuestion - 1, true, true);
                 }
@@ -497,7 +518,9 @@ var video = /** @class */ (function (_super) {
                     _this.questionNode.active = false;
                     _event.target.getParent().children.forEach(function (element) {
                         // this.character.getComponent(cc.Animation).play("tweenOut");
-                        cc.tween(_this.character.getChildByName("anim")).to(0.5, { x: -600 }, { easing: "backInOut" }).start();
+                        cc.tween(_this.character.getChildByName("anim"))
+                            .to(0.5, { x: -600 }, { easing: "backInOut" })
+                            .start();
                         element.getChildByName("green").active = false;
                         element.getChildByName("red").active = false;
                         element.getComponent(cc.Button).interactable = true;
@@ -517,9 +540,17 @@ var video = /** @class */ (function (_super) {
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.negativeVO[this.currentQuestion % 2], false);
             var num = this.currentQuestion - 1;
-            this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.negativeVO[this.currentQuestion % 2].name, false);
+            this.character
+                .getChildByName("anim")
+                .getChildByName(StartGame_1.default.Instance.jockeyName)
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, this.negativeVO[this.currentQuestion % 2].name, false);
             this.scheduleOnce(function () {
-                _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                _this.character
+                    .getChildByName("anim")
+                    .getChildByName(StartGame_1.default.Instance.jockeyName)
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, "idle", true);
             }, this.getAnimDuration(this.negativeVO[this.currentQuestion % 2].name));
             _event.target.getChildByName("red").active = true;
             _event.target.getComponent(cc.Button).interactable = false;
@@ -544,17 +575,16 @@ var video = /** @class */ (function (_super) {
             .getChildByName("options1")
             .children.filter(function (node) {
             var btn = node.getComponent(cc.Button);
-            return node.active &&
-                node.opacity > 0 &&
-                btn &&
-                btn.interactable;
+            return node.active && node.opacity > 0 && btn && btn.interactable;
         });
-        var nodes = __spreadArrays(optionButtons, [
-            soundBtn,
-            backBtn,
-            musicBtn
-        ]).filter(function (n) { return n; });
-        TVInputManager_1.default.Instance.init(nodes, -1);
+        var nodes = __spreadArrays(optionButtons, [soundBtn, backBtn, musicBtn]).filter(function (n) { return n; });
+        if (this.currentQuestion == 1 && !this.isVisited) {
+            this.isVisited = true;
+            TVInputManager_1.default.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager_1.default.Instance.init(nodes, -1);
+        }
         TVInputManager_1.default.Instance.setCanSelect(true);
     };
     video.prototype.checkOnMissingQuestions = function () {
@@ -582,22 +612,37 @@ var video = /** @class */ (function (_super) {
         }
         if (isEnd) {
             this.character.active = false;
-            this.node.getParent().getChildByName("curtain").getComponent(cc.Animation).play().wrapMode = cc.WrapMode.Reverse;
+            this.node
+                .getParent()
+                .getChildByName("curtain")
+                .getComponent(cc.Animation)
+                .play().wrapMode = cc.WrapMode.Reverse;
             this.scheduleOnce(function () {
                 _this.node.getParent().getChildByName("gameEnd").active = true;
                 console.log("starsEarned--3");
                 console.log("showedScreen--Excellent");
                 console.log("gameEnded--true");
-                if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "crayon") {
-                    _this.node.getParent().getChildByName("gameEnd").getChildByName("jaipuria").active = true;
+                if (StartGame_1.default.Instance.jockeyName == "bag" ||
+                    StartGame_1.default.Instance.jockeyName == "crayon") {
+                    _this.node
+                        .getParent()
+                        .getChildByName("gameEnd")
+                        .getChildByName("jaipuria").active = true;
                 }
                 else {
-                    _this.node.getParent().getChildByName("gameEnd").getChildByName(StartGame_1.default.Instance.jockeyName).active = true;
+                    _this.node
+                        .getParent()
+                        .getChildByName("gameEnd")
+                        .getChildByName(StartGame_1.default.Instance.jockeyName).active = true;
                 }
                 _this.scheduleOnce(function () {
                     _this.node.active = false;
-                    if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "crayon") {
-                        _this.node.getParent().getChildByName("gameEnd").getChildByName("end").active = true;
+                    if (StartGame_1.default.Instance.jockeyName == "bag" ||
+                        StartGame_1.default.Instance.jockeyName == "crayon") {
+                        _this.node
+                            .getParent()
+                            .getChildByName("gameEnd")
+                            .getChildByName("end").active = true;
                     }
                 }, 2);
             }, this.node.getParent().getChildByName("curtain").getComponent(cc.Animation).currentClip.duration);
@@ -649,29 +694,55 @@ var video = /** @class */ (function (_super) {
         var current = this.currentQuestion;
         this.starUpdate(this.currentQuestion);
         // this.character.getComponent(cc.Animation).play("tweenIn");
-        this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-        cc.tween(this.character.getChildByName("anim")).to(0.5, { x: 0 }, { easing: "backInOut" }).start();
+        this.character
+            .getChildByName("anim")
+            .getChildByName(StartGame_1.default.Instance.jockeyName)
+            .getComponent(sp.Skeleton)
+            .setAnimation(0, "idle", true);
+        cc.tween(this.character.getChildByName("anim"))
+            .to(0.5, { x: 0 }, { easing: "backInOut" })
+            .start();
         // let id = cc.audioEngine.playMusic(this.bgMusic, true);
         this.questionNode.getChildByName("options1").active = false;
         this.questionNode.getChildByName("questionBox").active = false;
         //cc.audioEngine.setVolume(id, 0.1);
         if (this.questions[this.currentQuestion].isquestionText) {
-            this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).string = this.questions[this.currentQuestion].questionText;
-            this.questionNode.getChildByName("questionBox").getChildByName("img").active = false;
-            this.questionNode.getChildByName("questionBox").getChildByName("text").active = true;
+            this.questionNode
+                .getChildByName("questionBox")
+                .getChildByName("text")
+                .getComponent(cc.Label).string =
+                this.questions[this.currentQuestion].questionText;
+            this.questionNode
+                .getChildByName("questionBox")
+                .getChildByName("img").active = false;
+            this.questionNode
+                .getChildByName("questionBox")
+                .getChildByName("text").active = true;
         }
         else {
-            this.questionNode.getChildByName("questionBox").getChildByName("text").active = false;
-            this.questionNode.getChildByName("questionBox").getChildByName("img").active = true;
-            this.questionNode.getChildByName("questionBox").getChildByName("img").getComponent(cc.Sprite).spriteFrame = this.questions[this.currentQuestion].questionImg;
+            this.questionNode
+                .getChildByName("questionBox")
+                .getChildByName("text").active = false;
+            this.questionNode
+                .getChildByName("questionBox")
+                .getChildByName("img").active = true;
+            this.questionNode
+                .getChildByName("questionBox")
+                .getChildByName("img")
+                .getComponent(cc.Sprite).spriteFrame =
+                this.questions[this.currentQuestion].questionImg;
         }
         if (this.questions[this.currentQuestion].isoptionText) {
             var i_1 = 0;
-            this.questionNode.getChildByName("options1").children.forEach(function (element) {
+            this.questionNode
+                .getChildByName("options1")
+                .children.forEach(function (element) {
                 element.active = false;
-                if (i_1 <= (_this.questions[_this.currentQuestion].optionTexts.length - 1)) {
+                if (i_1 <=
+                    _this.questions[_this.currentQuestion].optionTexts.length - 1) {
                     element.active = true;
-                    element.getChildByName("text").getComponent(cc.Label).string = _this.questions[_this.currentQuestion].optionTexts[i_1];
+                    element.getChildByName("text").getComponent(cc.Label).string =
+                        _this.questions[_this.currentQuestion].optionTexts[i_1];
                     element.getChildByName("img").active = false;
                     element.getChildByName("text").active = true;
                 }
@@ -680,11 +751,14 @@ var video = /** @class */ (function (_super) {
         }
         else {
             var i_2 = 0;
-            this.questionNode.getChildByName("options1").children.forEach(function (element) {
+            this.questionNode
+                .getChildByName("options1")
+                .children.forEach(function (element) {
                 element.active = false;
-                if (i_2 <= (_this.questions[_this.currentQuestion].optionImgs.length - 1)) {
+                if (i_2 <= _this.questions[_this.currentQuestion].optionImgs.length - 1) {
                     element.active = true;
-                    element.getChildByName("img").getComponent(cc.Sprite).spriteFrame = _this.questions[_this.currentQuestion].optionImgs[i_2];
+                    element.getChildByName("img").getComponent(cc.Sprite).spriteFrame =
+                        _this.questions[_this.currentQuestion].optionImgs[i_2];
                     element.getChildByName("text").active = false;
                     element.getChildByName("img").active = true;
                 }
@@ -694,7 +768,11 @@ var video = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             cc.audioEngine.playEffect(_this.questions[current].questionAudio, false);
             _this.character.getComponent(cc.Animation).play("Idle");
-            _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+            _this.character
+                .getChildByName("anim")
+                .getChildByName(StartGame_1.default.Instance.jockeyName)
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, "idle", true);
             _this.questionNode.getChildByName("options1").active = true;
             _this.questionNode.getChildByName("questionBox").active = true;
         }, 0.5);
@@ -705,11 +783,15 @@ var video = /** @class */ (function (_super) {
             var duration = this.node.getComponent(cc.VideoPlayer).getDuration();
             var value = currentTime / duration;
             this.slider.getComponent(cc.Slider).progress = value;
-            this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
+            this.slider.getChildByName("high").width =
+                this.slider.getChildByName("Handle").getPosition().x + 472.5;
         }
         for (var i = 0; i < this.questions.length; i++) {
-            if (Math.round(this.node.getComponent(cc.VideoPlayer).currentTime) == this.timers[i] && !this.questionAppeared[i]
-                && this.canNextQuestion && this.gameStarted) {
+            if (Math.round(this.node.getComponent(cc.VideoPlayer).currentTime) ==
+                this.timers[i] &&
+                !this.questionAppeared[i] &&
+                this.canNextQuestion &&
+                this.gameStarted) {
                 this.currentQuestion = i;
                 this.canNextQuestion = false;
                 this.questionAppeared[this.currentQuestion] = true;
@@ -723,7 +805,11 @@ var video = /** @class */ (function (_super) {
         }
     };
     video.prototype.getAnimDuration = function (animName) {
-        var num = this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).findAnimation(animName).duration;
+        var num = this.character
+            .getChildByName("anim")
+            .getChildByName(StartGame_1.default.Instance.jockeyName)
+            .getComponent(sp.Skeleton)
+            .findAnimation(animName).duration;
         return num;
     };
     video.prototype.OnEnd = function () {
@@ -756,8 +842,8 @@ var video = /** @class */ (function (_super) {
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
             // Calculate position based on anchor and scaled size
-            var posX = accumulatedWidth + (option.width * option.anchorX);
-            option.x = posX - (optionsLayout.width * optionsLayout.anchorX);
+            var posX = accumulatedWidth + option.width * option.anchorX;
+            option.x = posX - optionsLayout.width * optionsLayout.anchorX;
             accumulatedWidth += option.width + paddingBetweenOptions;
             // Scale and position children nodes proportionally
             for (var _i = 0, _a = option.children; _i < _a.length; _i++) {
