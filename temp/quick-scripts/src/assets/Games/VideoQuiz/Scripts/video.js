@@ -508,7 +508,7 @@ var video = /** @class */ (function (_super) {
         var nodes = __spreadArrays(optionButtons, [soundBtn, backBtn, musicBtn]).filter(function (n) { return n; });
         if (this.currentQuestion == 1 && !this.isVisited) {
             this.isVisited = true;
-            TVInputManager_1.default.Instance.init(nodes, 0);
+            TVInputManager_1.default.Instance.init(nodes, 1);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);
