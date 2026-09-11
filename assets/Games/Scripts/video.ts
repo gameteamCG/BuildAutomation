@@ -90,6 +90,8 @@ export default class video extends cc.Component {
     private currentQuestion: number = 0;
     private answeredQuestion: boolean[] = [];
 
+    private isVisited: boolean = false;
+
     private isPause: boolean = false;
     private isPlay: boolean = true;
     private isOnSlider: boolean = false;
@@ -694,11 +696,12 @@ export default class video extends cc.Component {
             backBtn,
             musicBtn
         ].filter(n => n);
-
-        // setupTVFocus3
-        //console.log("setupTVFocus3:", nodes.map(n => n.name));
-
-        TVInputManager.Instance.init(nodes, -1);
+        if (this.currentQuestion == 1 && !this.isVisited) {
+            this.isVisited = true;
+            TVInputManager.Instance.init(nodes, 1);
+        } else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
         TVInputManager.Instance.setCanSelect(true);
     }
     checkOnMissingQuestions() {
