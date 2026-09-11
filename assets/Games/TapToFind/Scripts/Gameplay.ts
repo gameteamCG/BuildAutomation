@@ -148,7 +148,9 @@ export default class Gameplay extends cc.Component {
         this.scheduleOnce(() => {
             if (this.questionAudio) {
                 if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(this.questionAudio, false);
+                    this.scheduleOnce(() => {
+                        cc.audioEngine.playEffect(this.questionAudio, false);
+                    }, 1)
                 }
             }
             if (this.optionsLayout == "layout1") {
@@ -291,7 +293,7 @@ export default class Gameplay extends cc.Component {
         }
         if (this.optionsLayout == "layout2") {
             let _laypout1posX: number[] = [-380, 0, 450, 0];
-            let _laypout1posY: number[] = [-20, -30, -20, 0];
+            let _laypout1posY: number[] = [-10, -10, -10, 0];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
@@ -484,7 +486,7 @@ export default class Gameplay extends cc.Component {
 
 
     LoadNextQuestion() {
-        this.node.getChildByName("confetti").active = true;
+        //this.node.getChildByName("confetti").active = true;
         ProgressBar.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(() => {
             ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);
