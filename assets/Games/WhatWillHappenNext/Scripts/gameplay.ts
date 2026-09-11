@@ -8,14 +8,6 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class NewClass extends cc.Component {
 
-    @property(cc.Font)
-    private podar_font: cc.Font = null;
-    @property(cc.Font)
-    private jaipuria_font: cc.Font = null;
-    @property(cc.Font)
-    private tlc_font: cc.Font = null;
-    @property(cc.Font)
-    private supercub_font: cc.Font = null;
     @property(cc.AudioClip)
     private popSound: cc.AudioClip[] = [];
     @property(cc.AudioClip)
@@ -60,22 +52,6 @@ export default class NewClass extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
         this.optionsNode = this.node.getChildByName("Option");
         this.GenerateOptions();
         this.maxLevel = startGame.Instance.totalLevels;
@@ -142,22 +118,6 @@ export default class NewClass extends cc.Component {
                     this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i];
                 }
             }
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option1ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("1").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option2ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("2").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
         }
         else {
             this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (AudioClip) => {
@@ -219,6 +179,16 @@ export default class NewClass extends cc.Component {
         else {
             TVInputManager.Instance.init(nodes, -1);
         }
+        TVInputManager.Instance.setCanSelect(this.canTouch);
+    }
+
+    private setupTVFocus1() {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        let nodes = [backBtn, musicBtn].filter(n => !!n);
+        TVInputManager.Instance.init(nodes, -1);
         TVInputManager.Instance.setCanSelect(this.canTouch);
     }
 
@@ -382,6 +352,7 @@ export default class NewClass extends cc.Component {
         let _node = _event.target;
         if (_node.name == this.answerArray[0]) {
             cc.audioEngine.stopAllEffects();
+            this.setupTVFocus1();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
@@ -457,7 +428,7 @@ export default class NewClass extends cc.Component {
     callPositiveRection(_node: cc.Node) {
         cc.audioEngine.playEffect(this.correctAudio, false);
         cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -150 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { x: -75, y: 0, scale: 1, width: 400, height: 400 }, { easing: "sineInOut" }).start();
+        cc.tween(_node).to(0.5, { x: -130, y: 18, scale: 1.88 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
             this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
