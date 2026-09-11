@@ -187,7 +187,9 @@ var Gameplay = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             if (_this.questionAudio) {
                 if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(_this.questionAudio, false);
+                    _this.scheduleOnce(function () {
+                        cc.audioEngine.playEffect(_this.questionAudio, false);
+                    }, 1);
                 }
             }
             if (_this.optionsLayout == "layout1") {

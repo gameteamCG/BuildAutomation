@@ -930,8 +930,8 @@
     "relativePath": "Framework\\Jockeys\\pencil"
   },
   "a61a3ac8-1115-4e8c-b5d1-dabafff190dd": {
-    "asset": 1789107332741,
-    "meta": 1789107332752,
+    "asset": 1789107805244,
+    "meta": 1789107805254,
     "relativePath": "Games\\TapToFind\\Scenes\\1.fire"
   },
   "8bf60602-ad9c-4a89-92dc-7598586d5bc5": {
@@ -2069,14 +2069,14 @@
     "meta": 1789107089229,
     "relativePath": "Games\\TapToFind\\Audios\\ConfettiVo.mp3"
   },
-  "a9a04f52-469b-453f-91fb-ec2eba4f2e38": {
-    "asset": 1789107331054,
-    "meta": 1789107332620,
-    "relativePath": "Games\\TapToFind\\Scripts\\Gameplay.ts"
-  },
   "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
     "asset": 1789107406681,
     "meta": 1789107407681,
     "relativePath": "Framework\\Scripts\\StartGame.ts"
+  },
+  "a9a04f52-469b-453f-91fb-ec2eba4f2e38": {
+    "asset": 1789107803896,
+    "meta": 1789107805150,
+    "relativePath": "Games\\TapToFind\\Scripts\\Gameplay.ts"
   }
 }
