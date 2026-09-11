@@ -24,7 +24,7 @@
         "numberOfOptions": 2,
         "options": [
           "1.png",
-          "5.png"
+          "3.png"
         ],
         "correctAudioName": "1.mp3",
         "correctAnswerNum": "1"
@@ -38,7 +38,7 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "1.png",
+          "5.png",
           "2.png"
         ],
         "correctAudioName": "2.mp3",
@@ -53,7 +53,7 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "5.png",
+          "4.png",
           "3.png"
         ],
         "correctAudioName": "3.mp3",
@@ -69,7 +69,7 @@
         "numberOfOptions": 2,
         "options": [
           "4.png",
-          "3.png"
+          "2.png"
         ],
         "correctAudioName": "4.mp3",
         "correctAnswerNum": "1"
@@ -83,7 +83,7 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "2.png",
+          "1.png",
           "5.png"
         ],
         "correctAudioName": "5.mp3",
