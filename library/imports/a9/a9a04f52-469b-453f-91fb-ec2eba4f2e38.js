@@ -186,7 +186,9 @@ var Gameplay = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             if (_this.questionAudio) {
                 if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(_this.questionAudio, false);
+                    _this.scheduleOnce(function () {
+                        cc.audioEngine.playEffect(_this.questionAudio, false);
+                    }, 1);
                 }
             }
             if (_this.optionsLayout == "layout1") {
@@ -559,7 +561,7 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
-        this.node.getChildByName("confetti").active = true;
+        //this.node.getChildByName("confetti").active = true;
         this.scheduleOnce(function () {
             ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
             _this.scheduleOnce(function () {
