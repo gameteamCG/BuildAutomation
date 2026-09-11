@@ -10,7 +10,7 @@
   "questionData": [
     {
       "questionLayout": "layout1",
-      "questionBgName": "BG1.png",
+      "questionBgName": "bg1.png",
       "questionAudioName": "L1.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -35,7 +35,7 @@
     },
     {
       "questionLayout": "layout3",
-      "questionBgName": "BG4.png",
+      "questionBgName": "bg4.png",
       "questionAudioName": "L4.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -59,7 +59,7 @@
     },
     {
       "questionLayout": "layout1",
-      "questionBgName": "BG2.png",
+      "questionBgName": "bg2.png",
       "questionAudioName": "L2.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -84,7 +84,7 @@
     },
     {
       "questionLayout": "layout3",
-      "questionBgName": "BG5.png",
+      "questionBgName": "bg1.png",
       "questionAudioName": "L4.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -108,7 +108,7 @@
     },
     {
       "questionLayout": "layout1",
-      "questionBgName": "BG3.png",
+      "questionBgName": "bg3.png",
       "questionAudioName": "L3.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -133,7 +133,7 @@
     },
     {
       "questionLayout": "layout3",
-      "questionBgName": "BG6.png",
+      "questionBgName": "bg6.png",
       "questionAudioName": "L4.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,

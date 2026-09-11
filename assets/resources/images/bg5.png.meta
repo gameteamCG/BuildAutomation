@@ -12,7 +12,7 @@
   "height": 1082,
   "platformSettings": {},
   "subMetas": {
-    "BG5": {
+    "bg5": {
       "ver": "1.0.6",
       "uuid": "66f8ae8e-0926-4b68-a766-0da9abe84d15",
       "importer": "sprite-frame",
