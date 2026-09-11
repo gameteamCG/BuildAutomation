@@ -531,8 +531,8 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
-        this.node.getChildByName("confetti").active = true;
-        cc.audioEngine.playEffect(this.confettiSFX, false);
+        // this.node.getChildByName("confetti").active = true;
+        // cc.audioEngine.playEffect(this.confettiSFX, false);
         this.scheduleOnce(function () {
             ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
             _this.scheduleOnce(function () {

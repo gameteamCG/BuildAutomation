@@ -489,8 +489,8 @@ export default class Gameplay extends cc.Component {
 
 
     LoadNextQuestion() {
-        this.node.getChildByName("confetti").active = true;
-        cc.audioEngine.playEffect(this.confettiSFX, false);
+        // this.node.getChildByName("confetti").active = true;
+        // cc.audioEngine.playEffect(this.confettiSFX, false);
         this.scheduleOnce(() => {
             ProgressBar.Instance.createStarTrails(6, this.node);
             this.scheduleOnce(() => {
