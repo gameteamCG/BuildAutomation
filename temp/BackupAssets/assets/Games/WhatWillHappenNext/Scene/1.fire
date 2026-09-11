@@ -487,8 +487,8 @@
         0,
         0,
         1,
-        0,
-        0,
+        1,
+        1,
         1
       ]
     },
@@ -530,8 +530,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 400,
-      "height": 400
+      "width": 450,
+      "height": 450
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -542,7 +542,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -21.028,
+        -2.623,
         0,
         0,
         0,
@@ -1216,8 +1216,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Letter k",
-    "_N$string": "Letter k",
+    "_string": "Letter p",
+    "_N$string": "Letter p",
     "_fontSize": 80,
     "_lineHeight": 130,
     "_enableWrapText": true,

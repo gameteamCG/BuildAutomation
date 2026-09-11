@@ -1,22 +1,22 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "w7",
-    "texture": "6e956cf5-e0d8-4d33-b0cd-1b7203a0a014",
+    "name": "6",
+    "texture": "b024ba08-3748-4271-802e-9554e3771347",
     "atlas": "",
     "rect": [
-      55,
-      48,
-      436,
-      401
+      89,
+      74,
+      323,
+      353
     ],
     "offset": [
-      23,
-      1.5
+      0,
+      0
     ],
     "originalSize": [
-      500,
-      500
+      501,
+      501
     ],
     "capInsets": [
       0,
