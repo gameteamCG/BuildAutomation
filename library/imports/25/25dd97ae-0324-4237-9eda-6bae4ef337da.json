@@ -8,7 +8,7 @@
       "GameID": "Letters and sounds Hh_LKG_SB1_25",
       "totalLevel": "5",
       "TitleImageName": "title (1).png",
-      "introBgName": "Bg(8).png",
+      "introBgName": "mainbg.png",
       "bgmMusicName": "bgm12.mp3",
       "JockeyName": "Puzzle"
     },
@@ -19,9 +19,8 @@
         "questionAudioName": "honey.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 4,
         "options": [
-          "blank.png",
           "blank.png",
           "blank.png",
           "blank.png",
@@ -31,8 +30,7 @@
           "L1_a1.png",
           "L1_a2.png",
           "L1_w1.png",
-          "L1_w2.png",
-          "L1_w3.png"
+          "L1_w2.png"
         ],
         "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
@@ -50,9 +48,8 @@
         "questionAudioName": "hats.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 4,
         "options": [
-          "blank.png",
           "blank.png",
           "blank.png",
           "blank.png",
@@ -62,7 +59,6 @@
           "L2_a1.png",
           "L2_w1.png",
           "L2_w2.png",
-          "L2_w3.png",
           "L2_a2.png"
         ],
         "correctAudioName": "BRILLIANT.mp3",
@@ -73,7 +69,7 @@
           "h_Hh.mp3",
           "h_Hh.mp3"
         ],
-        "correctAnswerNum": "15"
+        "correctAnswerNum": "14"
       },
       {
         "questionLayout": "layout1",
@@ -81,9 +77,8 @@
         "questionAudioName": "huts.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 4,
         "options": [
-          "blank.png",
           "blank.png",
           "blank.png",
           "blank.png",
@@ -93,8 +88,7 @@
           "L3_w1.png",
           "L3_a1.png",
           "L3_w2.png",
-          "L3_a2.png",
-          "L3_w3.png"
+          "L3_a2.png"
         ],
         "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
@@ -112,9 +106,8 @@
         "questionAudioName": "horse.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 4,
         "options": [
-          "blank.png",
           "blank.png",
           "blank.png",
           "blank.png",
@@ -124,8 +117,7 @@
           "L4_a1.png",
           "L4_a2.png",
           "L4_w1.png",
-          "L4_w2.png",
-          "L4_w3.png"
+          "L4_w2.png"
         ],
         "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
@@ -143,9 +135,8 @@
         "questionAudioName": "hens.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 4,
         "options": [
-          "blank.png",
           "blank.png",
           "blank.png",
           "blank.png",
@@ -155,8 +146,7 @@
           "L5_a1.png",
           "L5_w1.png",
           "L5_w2.png",
-          "L5_a2.png",
-          "L5_w3.png"
+          "L5_a2.png"
         ],
         "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",

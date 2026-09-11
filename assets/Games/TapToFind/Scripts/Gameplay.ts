@@ -145,11 +145,6 @@ export default class Gameplay extends cc.Component {
         ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
         this.scheduleOnce(() => {
-            if (this.questionAudio) {
-                if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(this.questionAudio, false);
-                }
-            }
             if (this.optionsLayout == "layout1") {
                 let delay = 0;
                 for (let i = 0; i < this.options.children.length; i++) {
@@ -212,6 +207,11 @@ export default class Gameplay extends cc.Component {
                 });
             }
             this.scheduleOnce(() => {
+                if (this.questionAudio) {
+                    if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
+                        cc.audioEngine.playEffect(this.questionAudio, false);
+                    }
+                }
                 if (startGame.Instance.currentLevel == 1) {
                     console.log(this.options.getChildByName(this.correctAnswer[0].toString()).name)
                     let hand = this.node.getChildByName("hand");
@@ -224,7 +224,7 @@ export default class Gameplay extends cc.Component {
                         hand.setParentWithSamePos(this.node)
                     }, 0.3)
                 }
-            }, 1);
+            }, 1.5);
         }, 1);
     }
 
@@ -272,8 +272,8 @@ export default class Gameplay extends cc.Component {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posX: number[] = [-700, -350, 0, 350, 700];
-            let _laypout1posY: number[] = [60, -60, 60, -60, 60];
+            let _laypout1posX: number[] = [-500, -100, 300, 700];
+            let _laypout1posY: number[] = [60, -60, 60, -60];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
@@ -473,7 +473,6 @@ export default class Gameplay extends cc.Component {
 
 
     LoadNextQuestion() {
-        this.node.getChildByName("confetti").active = true;
         ProgressBar.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(() => {
             ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);
