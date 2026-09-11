@@ -1486,7 +1486,7 @@ export default class NewClass extends cc.Component {
 
     // pick a sensible default — e.g. first option, or correct answer index
 
-    if (cc.director.getScene().name == "1") {
+    if (globalVariables.Instance.currentLevel == 1) {
       TVInputManager.Instance.init(nodes, 0);
     } else {
       TVInputManager.Instance.init(nodes, -1);
