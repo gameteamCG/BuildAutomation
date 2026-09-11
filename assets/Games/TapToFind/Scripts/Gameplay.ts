@@ -482,7 +482,6 @@ export default class Gameplay extends cc.Component {
 
 
     LoadNextQuestion() {
-        this.node.getChildByName("confetti").active = true;
         ProgressBar.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(() => {
             ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);
