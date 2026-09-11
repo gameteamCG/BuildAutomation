@@ -96,7 +96,7 @@
         "questionBgName": "newBG.png",
         "questionAudioName": "question.mp3",
         "questionText": "Digraph  wh'",
-        "ansText": "whale",
+        "ansText": "wheel",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
