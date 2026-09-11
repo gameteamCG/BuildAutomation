@@ -21,9 +21,9 @@
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "",
-          "",
-          ""
+          "blank.png",
+          "blank.png",
+          "blank.png"
         ],
         "optionsBg": [
           "t_table.png",
@@ -46,9 +46,9 @@
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "",
-          "",
-          ""
+          "blank.png",
+          "blank.png",
+          "blank.png"
         ],
         "optionsBg": [
           "teeth.png",
@@ -120,9 +120,9 @@
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "",
-          "",
-          ""
+          "blank.png",
+          "blank.png",
+          "blank.png"
         ],
         "optionsBg": [
           "t_tent.png",

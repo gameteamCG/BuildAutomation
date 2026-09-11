@@ -1,11 +1,3 @@
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
-
-// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import TVInputManager from "./TVInputManager";
@@ -14,16 +6,6 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class Gameplay extends cc.Component {
-
-
-    @property(cc.Font)
-    private podar_font: cc.Font = null;
-    @property(cc.Font)
-    private jaipuria_font: cc.Font = null;
-    @property(cc.Font)
-    private supercub_font: cc.Font = null;
-    @property(cc.Font)
-    private tlc_font: cc.Font = null;
     @property(cc.AudioClip)
     private postive_VO: cc.AudioClip[] = [];
     @property(cc.AudioClip)
@@ -62,26 +44,6 @@ export default class Gameplay extends cc.Component {
     }
 
     LoadQuestion() {
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
         let str = startGame.Instance.questions[startGame.Instance.currentLevel - 1].correctAnswerNum;
         this.correctAnswer = str.split('').map(char => parseInt(char));
         this.optionsLayout = startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionLayout;
@@ -208,11 +170,6 @@ export default class Gameplay extends cc.Component {
         startGame.Instance.node.getChildByName("progress").opacity = 255;
 
         this.scheduleOnce(() => {
-            if (this.questionAudio) {
-                if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(this.questionAudio, false);
-                }
-            }
             if (this.optionsLayout == "layout1") {
                 let delay = 0;
                 for (let i = 0; i < this.options.children.length; i++) {
@@ -278,6 +235,11 @@ export default class Gameplay extends cc.Component {
                 }, 2);
             }
             this.scheduleOnce(() => {
+                if (this.questionAudio) {
+                    if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
+                        cc.audioEngine.playEffect(this.questionAudio, false);
+                    }
+                }
                 if (startGame.Instance.currentLevel == 1) {
                     let hand = this.node.getChildByName("hand");
                     hand.setParent(this.options.getChildByName(this.correctAnswer[0].toString()));
@@ -287,7 +249,7 @@ export default class Gameplay extends cc.Component {
                     hand.active = true;
                     hand.getComponent(cc.Animation).play();
                 }
-            }, 1);
+            }, 1.5);
         }, 1);
     }
 
@@ -359,7 +321,6 @@ export default class Gameplay extends cc.Component {
                     }
                     node.active = false;
                     if (this.correctCounter == this.correctAnswer.length) {
-                        console.log("all the options are answered correctly");
                         cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
                         this.LoadNextQuestion();
                     }
@@ -371,8 +332,6 @@ export default class Gameplay extends cc.Component {
                 }).start();
         }
         else {
-            //play negative audio
-            // cc.audioEngine.playEffect(this.negative_audio, false);
             this.callNegativeRection();
             console.log("wrongAnswer--" + startGame.Instance.currentLevel);
             let posX = node.getPosition().x;
@@ -432,7 +391,6 @@ export default class Gameplay extends cc.Component {
                     cc.audioEngine.playEffect(this.reiterationAudio[0], false);
                 }
                 if (this.correctCounter == this.correctAnswer.length) {
-                    console.log("all the options are answered correctly");
                     cc.tween(this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
                     this.LoadNextQuestion();
                     // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
@@ -504,7 +462,6 @@ export default class Gameplay extends cc.Component {
                         cc.audioEngine.playEffect(this.reiterationAudio[0], false);
                     }
                     if (this.correctCounter == this.correctAnswer.length) {
-                        console.log("all the options are answered correctly");
                         this.LoadNextQuestion();
                         // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
                     }
@@ -534,7 +491,6 @@ export default class Gameplay extends cc.Component {
 
 
     LoadNextQuestion() {
-        this.node.getChildByName("confetti").active = true;
         ProgressBar.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(() => {
             ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);
@@ -586,16 +542,13 @@ export default class Gameplay extends cc.Component {
         else if (startGame.Instance.jockeyName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
         }
-        // console.log("anim length = ", anim.length);
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
-        // console.log("currentClipNum = ", currentClipNum);
         let pos: number[] = [-1600, 1600];
         let jockeytween: number[] = [-350, 350];
         if (startGame.Instance.jockeyName == "supercub") {
             pos = [1900, 1900];
             jockeytween = [870, 870];
         }
-        //console.log("characterAppear--Podar_Jumbo");
         this.currentJockey.setPosition(pos[startGame.Instance.currentLevel % 2], this.currentJockey.y);
         if (startGame.Instance.currentLevel % 2 == 0 && startGame.Instance.jockeyName == "stallion") {
             this.currentJockey.scaleX = -0.65;
@@ -625,7 +578,6 @@ export default class Gameplay extends cc.Component {
                         this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                     }
                 }
-                //console.log("characterDisappear--Podar_Jumbo");
                 this.callNextLevel();
             }, this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration);
         }, 0.5);
@@ -668,7 +620,6 @@ export default class Gameplay extends cc.Component {
             }
 
             let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
-            //console.log("characterAppear--Podar_Jumbo");
             this.currentJockey.setPosition(1600, this.currentJockey.y);
             let posX: number = 350;
             let posX_init: number = 1600;
@@ -702,7 +653,6 @@ export default class Gameplay extends cc.Component {
                             this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         }
                     }
-                    //console.log("characterDisappear--Podar_Jumbo");
                     this.canTouch = true;
                     this.canPlay = true;
                     if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
@@ -795,7 +745,7 @@ export default class Gameplay extends cc.Component {
             callback(audioClip);
         });
     }
-  
+
     private setupTVFocus(activeContainerName: string) {
 
         let backBtn = startGame.Instance.node.getChildByName("back");

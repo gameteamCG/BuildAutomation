@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "D:\\buildfiles\\Eyfs_smarttv\\EYFS_fs0_SmartTV\\EYFS_Letter_t_fs0_phonics_r22_SmartTV",
+  "buildPath": "D:\\Builds\\SmartTV\\fs0_phonics\\Letter_t_fs0_phonics_r22_SmartTV",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
