@@ -549,7 +549,7 @@ export default class Gameplay extends cc.Component {
                 this.lockedNodes.add(this.lastTappedNode.name);
                 let glowNode = this.lastTappedNode.getChildByName("glow");
                 if (glowNode) {
-                    glowNode.scale = 0.9;
+                    glowNode.scale = 0.87;
                     glowNode.active = true;
                 }
                 let btn = this.lastTappedNode.getComponent(cc.Button);

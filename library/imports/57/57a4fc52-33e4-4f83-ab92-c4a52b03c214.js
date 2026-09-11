@@ -531,7 +531,7 @@ var Gameplay = /** @class */ (function (_super) {
                 this.lockedNodes.add(this.lastTappedNode.name);
                 var glowNode = this.lastTappedNode.getChildByName("glow");
                 if (glowNode) {
-                    glowNode.scale = 0.9;
+                    glowNode.scale = 0.87;
                     glowNode.active = true;
                 }
                 var btn = this.lastTappedNode.getComponent(cc.Button);
