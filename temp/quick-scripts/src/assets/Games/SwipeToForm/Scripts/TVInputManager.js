@@ -208,13 +208,13 @@ var TVInputManager = /** @class */ (function (_super) {
             if (index === _this.currentIndex) {
                 cc.audioEngine.playEffect(_this.hoverSFX, false);
                 cc.tween(node)
-                    .to(0.1, { scale: baseScale * TVInputManager_1.FOCUS_SCALE })
+                    .to(0.1, { scale: 0.8 * TVInputManager_1.FOCUS_SCALE })
                     .start();
                 node.opacity = 255;
             }
             else {
                 cc.tween(node)
-                    .to(0.1, { scale: baseScale })
+                    .to(0.1, { scale: 0.8 })
                     .start();
                 node.opacity = 255;
             }
@@ -227,8 +227,8 @@ var TVInputManager = /** @class */ (function (_super) {
         console.log("CLICK:", node.name);
         cc.Tween.stopAllByTarget(node);
         cc.tween(node)
-            .to(0.05, { scale: baseScale * 0.85, opacity: 255 })
-            .to(0.1, { scale: baseScale, opacity: 255 })
+            .to(0.05, { scale: 0.8 * 0.85, opacity: 255 })
+            .to(0.1, { scale: 0.8, opacity: 255 })
             .call(function () {
             if (callback)
                 callback();
@@ -244,7 +244,7 @@ var TVInputManager = /** @class */ (function (_super) {
                 return;
             var baseScale = (_a = _this.originalScales.get(node)) !== null && _a !== void 0 ? _a : 1;
             cc.Tween.stopAllByTarget(node);
-            node.scale = baseScale;
+            node.scale = 0.8;
             node.opacity = 255;
         });
     };
@@ -268,7 +268,7 @@ var TVInputManager = /** @class */ (function (_super) {
                 var _a;
                 cc.audioEngine.playEffect(_this.hoverSFX, false);
                 var baseScale = (_a = _this.originalScales.get(node)) !== null && _a !== void 0 ? _a : 1;
-                cc.tween(node).to(0.1, { scale: baseScale * TVInputManager_1.FOCUS_SCALE }).start();
+                cc.tween(node).to(0.1, { scale: 0.8 * TVInputManager_1.FOCUS_SCALE }).start();
             });
             node.on(cc.Node.EventType.MOUSE_LEAVE, function () {
                 var _a;
@@ -276,12 +276,12 @@ var TVInputManager = /** @class */ (function (_super) {
                 if (!_this.focusNodes ||
                     _this.currentIndex < 0 ||
                     !_this.focusNodes[_this.currentIndex]) {
-                    cc.tween(node).to(0.1, { scale: baseScale }).start();
+                    cc.tween(node).to(0.1, { scale: 0.8 }).start();
                     return;
                 }
                 if (_this.focusNodes[_this.currentIndex] !== node) {
                     cc.tween(node)
-                        .to(0.1, { scale: baseScale })
+                        .to(0.1, { scale: 0.8 })
                         .start();
                 }
             });
