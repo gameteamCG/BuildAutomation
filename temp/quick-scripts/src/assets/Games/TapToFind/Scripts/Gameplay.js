@@ -184,11 +184,6 @@ var Gameplay = /** @class */ (function (_super) {
         ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
         this.scheduleOnce(function () {
-            if (_this.questionAudio) {
-                if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(_this.questionAudio, false);
-                }
-            }
             if (_this.optionsLayout == "layout1") {
                 var delay = 0;
                 var _loop_5 = function (i) {
@@ -259,6 +254,11 @@ var Gameplay = /** @class */ (function (_super) {
                 });
             }
             _this.scheduleOnce(function () {
+                if (_this.questionAudio) {
+                    if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
+                        cc.audioEngine.playEffect(_this.questionAudio, false);
+                    }
+                }
                 if (StartGame_1.default.Instance.currentLevel == 1) {
                     console.log(_this.options.getChildByName(_this.correctAnswer[0].toString()).name);
                     var hand_1 = _this.node.getChildByName("hand");
@@ -271,7 +271,7 @@ var Gameplay = /** @class */ (function (_super) {
                         hand_1.setParentWithSamePos(_this.node);
                     }, 0.3);
                 }
-            }, 1);
+            }, 1.5);
         }, 1);
     };
     Gameplay.prototype.PlayQVoButton = function (_event) {
@@ -519,7 +519,6 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
-        this.node.getChildByName("confetti").active = true;
         ProgressBar_1.default.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(function () {
             ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel);
