@@ -233,7 +233,9 @@ var Gameplay = /** @class */ (function (_super) {
             if (_this.questionAudio) {
                 if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
                     .shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(_this.questionAudio, false);
+                    _this.scheduleOnce(function () {
+                        cc.audioEngine.playEffect(_this.questionAudio, false);
+                    }, 1);
                 }
             }
             if (_this.optionsLayout == "layout1") {
@@ -356,7 +358,7 @@ var Gameplay = /** @class */ (function (_super) {
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
         if (StartGame_1.default.Instance.currentLevel == 1) {
-            TVInputManager_1.default.Instance.init(nodes, 0);
+            TVInputManager_1.default.Instance.init(nodes, -1);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);
@@ -383,7 +385,6 @@ var Gameplay = /** @class */ (function (_super) {
         if (this.optionsLayout == "layout1") {
             var posX = void 0;
             var posY = void 0;
-            // 👇 custom positions for level 3
             if (StartGame_1.default.Instance.currentLevel == 5) {
                 posX = [-500, -150, 170, 500];
                 posY = [-200, 50, -200, 50];
@@ -400,7 +401,6 @@ var Gameplay = /** @class */ (function (_super) {
         if (this.optionsLayout == "layout2") {
             var posX = void 0;
             var posY = void 0;
-            // 👇 custom positions for level 3
             if (StartGame_1.default.Instance.currentLevel == 4) {
                 console.log("yolo");
                 posX = [-300, -100, 100, 300, 0];
@@ -448,9 +448,7 @@ var Gameplay = /** @class */ (function (_super) {
                 node.active = false;
                 if (_this.correctCounter < _this.correctAnswer.length) {
                     var clip = _this.reiterationAudio[audioNum];
-                    //console.log("Playing reiteration:", clip);
                     cc.audioEngine.playEffect(clip, false);
-                    // Wait for the audio to finish
                     _this.scheduleOnce(function () {
                         _this.canTouch = true;
                         TVInputManager_1.default.Instance.setCanSelect(true);
@@ -644,13 +642,15 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
         this.node.getChildByName("confetti").active = true;
-        ProgressBar_1.default.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(function () {
-            ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel);
+            ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
             _this.scheduleOnce(function () {
-                _this.callJockey();
+                ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel);
+                _this.scheduleOnce(function () {
+                    _this.callJockey();
+                }, 1);
             }, 1);
-        }, 1.5);
+        });
     };
     Gameplay.prototype.callNextLevel = function () {
         console.log("levelComplete--" + StartGame_1.default.Instance.currentLevel);
@@ -895,15 +895,6 @@ var Gameplay = /** @class */ (function (_super) {
             callback(spriteFrame);
         });
     };
-    // loadSpriteFrame(imageName: string, callback: (spriteFrame: cc.SpriteFrame) => void) {
-    //     cc.loader.loadRes(imageName, cc.SpriteFrame, (err, spriteFrame) => {
-    //         if (err) {
-    //             cc.error("Failed to load sprite:", imageName, err);
-    //             return;
-    //         }
-    //         callback(spriteFrame);
-    //     });
-    // }
     Gameplay.prototype.loadAudioClip = function (audioName, callback) {
         cc.loader.loadRes("audios/" + audioName, cc.AudioClip, function (err, audioClip) {
             if (err) {

@@ -269,7 +269,9 @@ export default class Gameplay extends cc.Component {
           startGame.Instance.questions[startGame.Instance.currentLevel - 1]
             .shouldPlayQuestionAudio
         ) {
-          cc.audioEngine.playEffect(this.questionAudio, false);
+          this.scheduleOnce(() => {
+            cc.audioEngine.playEffect(this.questionAudio, false);
+          }, 1);
         }
       }
       if (this.optionsLayout == "layout1") {
@@ -401,7 +403,7 @@ export default class Gameplay extends cc.Component {
       (n) => !!n
     );
     if (startGame.Instance.currentLevel == 1) {
-      TVInputManager.Instance.init(nodes, 0);
+      TVInputManager.Instance.init(nodes, -1);
     } else {
       TVInputManager.Instance.init(nodes, -1);
     }
@@ -437,7 +439,6 @@ export default class Gameplay extends cc.Component {
       let posX: number[];
       let posY: number[];
 
-      // 👇 custom positions for level 3
       if (startGame.Instance.currentLevel == 5) {
         posX = [-500, -150, 170, 500];
         posY = [-200, 50, -200, 50];
@@ -455,7 +456,6 @@ export default class Gameplay extends cc.Component {
       let posX: number[];
       let posY: number[];
 
-      // 👇 custom positions for level 3
       if (startGame.Instance.currentLevel == 4) {
         console.log("yolo");
         posX = [-300, -100, 100, 300, 0];
@@ -513,11 +513,8 @@ export default class Gameplay extends cc.Component {
           if (this.correctCounter < this.correctAnswer.length) {
             let clip = this.reiterationAudio[audioNum];
 
-            //console.log("Playing reiteration:", clip);
-
             cc.audioEngine.playEffect(clip, false);
 
-            // Wait for the audio to finish
             this.scheduleOnce(() => {
               this.canTouch = true;
               TVInputManager.Instance.setCanSelect(true);
@@ -710,13 +707,15 @@ export default class Gameplay extends cc.Component {
 
   LoadNextQuestion() {
     this.node.getChildByName("confetti").active = true;
-    ProgressBar.Instance.createStarTrails(6, this.node);
     this.scheduleOnce(() => {
-      ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);
+      ProgressBar.Instance.createStarTrails(6, this.node);
       this.scheduleOnce(() => {
-        this.callJockey();
+        ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);
+        this.scheduleOnce(() => {
+          this.callJockey();
+        }, 1);
       }, 1);
-    }, 1.5);
+    });
   }
 
   callNextLevel() {
@@ -989,16 +988,7 @@ export default class Gameplay extends cc.Component {
       }
     );
   }
-  // loadSpriteFrame(imageName: string, callback: (spriteFrame: cc.SpriteFrame) => void) {
-  //     cc.loader.loadRes(imageName, cc.SpriteFrame, (err, spriteFrame) => {
-  //         if (err) {
-  //             cc.error("Failed to load sprite:", imageName, err);
-  //             return;
-  //         }
 
-  //         callback(spriteFrame);
-  //     });
-  // }
   loadAudioClip(
     audioName: string,
     callback: (spriteFrame: cc.AudioClip) => void
