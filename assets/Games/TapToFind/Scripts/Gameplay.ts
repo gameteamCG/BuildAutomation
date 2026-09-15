@@ -5,7 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -287,7 +288,7 @@ export default class Gameplay extends cc.Component {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
+            let _laypout1posY: number[] = [-50, 0, -50, 0, 50];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }
@@ -662,7 +663,16 @@ export default class Gameplay extends cc.Component {
             }, 0.5);
         }, 0.7)
     }
+    playQues(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+            _event.target.scale = 1;
 
+        }, this.questionAudio.duration)
+    }
     arrangeChildren(centerNode: cc.Node, spacing: number) {
         let children = centerNode.children;
         let totalWidth = 0;
