@@ -182,18 +182,18 @@ export default class Gameplay extends cc.Component {
         }
         this.currentJockey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
         this.currentJockey.active = true;
-        this.scheduleOnce(() => {
-            let optionNodes = this.options.children;
-            optionNodes.forEach((element, idx) => {
-                let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
-                if (idx === optionNodes.length - 1) {
-                    t = t.call(() => {
-                        this.setupTVFocus(this.optionsLayout);
-                    });
-                }
-                t.start();
-            });
-        }, 2)
+        // this.scheduleOnce(() => {
+        //     let optionNodes = this.options.children;
+        //     optionNodes.forEach((element, idx) => {
+        //         let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
+        //         if (idx === optionNodes.length - 1) {
+        //             t = t.call(() => {
+
+        //             });
+        //         }
+        //         t.start();
+        //     });
+        // }, 2)
     }
 
     start() {
@@ -206,7 +206,9 @@ export default class Gameplay extends cc.Component {
         this.scheduleOnce(() => {
             if (this.questionAudio) {
                 if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(this.questionAudio, false);
+                    this.scheduleOnce(() => {
+                        cc.audioEngine.playEffect(this.questionAudio, false);
+                    }, 1)
                 }
             }
             if (this.optionsLayout == "layout1") {
@@ -266,6 +268,7 @@ export default class Gameplay extends cc.Component {
                     }, delay);
                     delay += 0.25;
                 }
+
                 this.options.children.forEach(element => {
                     element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout3, this);
                     element.on("tv-select", this.onTouchStart_layout3, this);
@@ -283,6 +286,9 @@ export default class Gameplay extends cc.Component {
                 }
             }, 1);
         }, 1);
+        this.scheduleOnce(() => {
+            this.setupTVFocus(this.optionsLayout);
+        }, 3)
     }
 
     PlayQVoButton(_event: cc.Event) {
@@ -309,7 +315,7 @@ export default class Gameplay extends cc.Component {
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
         if (cc.director.getScene().name == "1") {
-            TVInputManager.Instance.init(nodes, 0);
+            TVInputManager.Instance.init(nodes, -1);
         }
         else {
             TVInputManager.Instance.init(nodes, -1);
@@ -325,7 +331,7 @@ export default class Gameplay extends cc.Component {
 
         let nodes = [backBtn, soundBtn, musicBtn].filter(n => !!n);
         if (cc.director.getScene().name == "1") {
-            TVInputManager.Instance.init(nodes, 0);
+            TVInputManager.Instance.init(nodes, -1);
         }
         else {
             TVInputManager.Instance.init(nodes, -1);
@@ -349,7 +355,7 @@ export default class Gameplay extends cc.Component {
         }
         if (this.optionsLayout == "layout1") {
             let _laypout1posX: number[] = [-500, -150, 200, 550];
-            let _laypout1posY: number[] = [-220, 100, -220, 280];
+            let _laypout1posY: number[] = [-220, 100, -220, 180];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
@@ -613,7 +619,7 @@ export default class Gameplay extends cc.Component {
 
 
     LoadNextQuestion() {
-        this.node.getChildByName("confetti").active = true;
+        //this.node.getChildByName("confetti").active = true;
         this.scheduleOnce(() => {
             ProgressBar.Instance.createStarTrails(6, this.node);
             this.scheduleOnce(() => {

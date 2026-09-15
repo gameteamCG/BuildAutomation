@@ -211,18 +211,17 @@ var Gameplay = /** @class */ (function (_super) {
         }
         this.currentJockey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
         this.currentJockey.active = true;
-        this.scheduleOnce(function () {
-            var optionNodes = _this.options.children;
-            optionNodes.forEach(function (element, idx) {
-                var t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
-                if (idx === optionNodes.length - 1) {
-                    t = t.call(function () {
-                        _this.setupTVFocus(_this.optionsLayout);
-                    });
-                }
-                t.start();
-            });
-        }, 2);
+        // this.scheduleOnce(() => {
+        //     let optionNodes = this.options.children;
+        //     optionNodes.forEach((element, idx) => {
+        //         let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
+        //         if (idx === optionNodes.length - 1) {
+        //             t = t.call(() => {
+        //             });
+        //         }
+        //         t.start();
+        //     });
+        // }, 2)
     };
     Gameplay.prototype.start = function () {
         var _this = this;
@@ -234,7 +233,9 @@ var Gameplay = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             if (_this.questionAudio) {
                 if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(_this.questionAudio, false);
+                    _this.scheduleOnce(function () {
+                        cc.audioEngine.playEffect(_this.questionAudio, false);
+                    }, 1);
                 }
             }
             if (_this.optionsLayout == "layout1") {
@@ -317,6 +318,9 @@ var Gameplay = /** @class */ (function (_super) {
                 }
             }, 1);
         }, 1);
+        this.scheduleOnce(function () {
+            _this.setupTVFocus(_this.optionsLayout);
+        }, 3);
     };
     Gameplay.prototype.PlayQVoButton = function (_event) {
         var _this = this;
@@ -341,7 +345,7 @@ var Gameplay = /** @class */ (function (_super) {
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
         if (cc.director.getScene().name == "1") {
-            TVInputManager_1.default.Instance.init(nodes, 0);
+            TVInputManager_1.default.Instance.init(nodes, -1);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);
@@ -356,7 +360,7 @@ var Gameplay = /** @class */ (function (_super) {
         musicBtn.scale = 1;
         var nodes = [backBtn, soundBtn, musicBtn].filter(function (n) { return !!n; });
         if (cc.director.getScene().name == "1") {
-            TVInputManager_1.default.Instance.init(nodes, 0);
+            TVInputManager_1.default.Instance.init(nodes, -1);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);
@@ -380,7 +384,7 @@ var Gameplay = /** @class */ (function (_super) {
         }
         if (this.optionsLayout == "layout1") {
             var _laypout1posX = [-500, -150, 200, 550];
-            var _laypout1posY = [-220, 100, -220, 280];
+            var _laypout1posY = [-220, 100, -220, 180];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
@@ -618,7 +622,7 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
-        this.node.getChildByName("confetti").active = true;
+        //this.node.getChildByName("confetti").active = true;
         this.scheduleOnce(function () {
             ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
             _this.scheduleOnce(function () {
