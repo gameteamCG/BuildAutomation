@@ -92,6 +92,7 @@ var video = /** @class */ (function (_super) {
         _this.duration = 0;
         _this.slider = null;
         _this.toolActivater = null;
+        _this.isVisited = false;
         _this.questions = [];
         _this.isSliding = false;
         _this.hideToolsCallback = null;
@@ -660,7 +661,13 @@ var video = /** @class */ (function (_super) {
         ]).filter(function (n) { return n; });
         // setupTVFocus3
         //console.log("setupTVFocus3:", nodes.map(n => n.name));
-        TVInputManager_1.default.Instance.init(nodes, -1);
+        if (this.currentQuestion == 1 && !this.isVisited) {
+            this.isVisited = true;
+            TVInputManager_1.default.Instance.init(nodes, 1);
+        }
+        else {
+            TVInputManager_1.default.Instance.init(nodes, -1);
+        }
         TVInputManager_1.default.Instance.setCanSelect(true);
     };
     video.prototype.checkOnMissingQuestions = function () {

@@ -77,7 +77,7 @@ export default class video extends cc.Component {
     slider: cc.Node = null;
     @property(cc.Node)
     private toolActivater: cc.Node = null;
-
+    private isVisited: boolean = false;
     @property(QuestionData)
     questions: QuestionData[] = [];
 
@@ -698,7 +698,12 @@ export default class video extends cc.Component {
         // setupTVFocus3
         //console.log("setupTVFocus3:", nodes.map(n => n.name));
 
-        TVInputManager.Instance.init(nodes, -1);
+        if (this.currentQuestion == 1 && !this.isVisited) {
+            this.isVisited = true;
+            TVInputManager.Instance.init(nodes, 1);
+        } else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
         TVInputManager.Instance.setCanSelect(true);
     }
     checkOnMissingQuestions() {
