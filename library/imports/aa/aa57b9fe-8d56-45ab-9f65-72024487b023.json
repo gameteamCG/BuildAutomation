@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "smallapple",
+    "texture": "df994590-6a1b-4032-a2ac-3d3beb057d96",
+    "atlas": "",
+    "rect": [
+      174,
+      157,
+      150,
+      187
+    ],
+    "offset": [
+      -1,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

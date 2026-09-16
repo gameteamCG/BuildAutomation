@@ -402,7 +402,7 @@ export default class startGame extends cc.Component {
             if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
                 this.scheduleOnce(() => {
                     cc.director.loadScene("1");
-                }, 2);
+                }, 3);
             }
         }, 1);
 

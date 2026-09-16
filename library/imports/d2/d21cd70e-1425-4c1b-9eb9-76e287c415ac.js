@@ -360,7 +360,7 @@ var startGame = /** @class */ (function (_super) {
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
                 _this.scheduleOnce(function () {
                     cc.director.loadScene("1");
-                }, 2);
+                }, 3);
             }
         }, 1);
         // this.OnTimer();
