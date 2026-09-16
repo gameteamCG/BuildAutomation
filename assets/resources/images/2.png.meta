@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "54c3e0ee-5444-444f-afa8-d03bec5baea6",
+  "uuid": "980c2ea7-d880-40b6-bc8d-726c2ca9235f",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -12,20 +12,20 @@
   "height": 1081,
   "platformSettings": {},
   "subMetas": {
-    "bg4": {
+    "2": {
       "ver": "1.0.6",
-      "uuid": "3843baf5-8504-4064-bd86-75f12b39ac84",
+      "uuid": "74433125-0684-4749-b4a4-ec8961da5fb4",
       "importer": "sprite-frame",
-      "rawTextureUuid": "54c3e0ee-5444-444f-afa8-d03bec5baea6",
+      "rawTextureUuid": "980c2ea7-d880-40b6-bc8d-726c2ca9235f",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
       "offsetX": 0,
-      "offsetY": 0,
+      "offsetY": 2.5,
       "trimX": 0,
       "trimY": 0,
       "width": 1921,
-      "height": 1081,
+      "height": 1076,
       "rawWidth": 1921,
       "rawHeight": 1081,
       "borderTop": 0,

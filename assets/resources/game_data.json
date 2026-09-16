@@ -10,7 +10,7 @@
   "questionData": [
     {
       "questionLayout": "layout1",
-      "questionBgName": "bg1",
+      "questionBgName": "1",
       "questionAudioName": "choose_mangoes.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -35,7 +35,7 @@
     },
     {
       "questionLayout": "layout1",
-      "questionBgName": "bg2.png",
+      "questionBgName": "2.png",
       "questionAudioName": "choose_mushrooms.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -60,7 +60,7 @@
     },
     {
       "questionLayout": "layout1",
-      "questionBgName": "bg3.png",
+      "questionBgName": "3.png",
       "questionAudioName": "choose_mugs.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -85,7 +85,7 @@
     },
     {
       "questionLayout": "layout3",
-      "questionBgName": "bg4.png",
+      "questionBgName": "4.png",
       "questionAudioName": "identify_picture_with_letter_sound.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -109,7 +109,7 @@
     },
     {
       "questionLayout": "layout3",
-      "questionBgName": "bg4.png",
+      "questionBgName": "4.png",
       "questionAudioName": "identify_picture_with_letter_sound.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -133,7 +133,7 @@
     },
     {
       "questionLayout": "layout3",
-      "questionBgName": "bg4.png",
+      "questionBgName": "4.png",
       "questionAudioName": "identify_picture_with_letter_sound.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,

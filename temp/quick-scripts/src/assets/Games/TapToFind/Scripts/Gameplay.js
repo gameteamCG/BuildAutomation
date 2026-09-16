@@ -43,7 +43,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.pop_audio = null;
         _this.positive_audio = null;
         _this.negative_audio = null;
-        _this.questionAudio = null;
+        _this.questionAudio = [];
         _this.correctAudio = null;
         _this.wrongAudio = null;
         _this.reiterationAudio = [];
@@ -79,12 +79,6 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 var spriteFrame = new cc.SpriteFrame(texture);
                 _this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            });
-            cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionAudioName, function (err, audioClip) {
-                if (err) {
-                    return;
-                }
-                _this.questionAudio = audioClip;
             });
             cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].correctAudioName, function (err, audioClip) {
                 if (err) {
@@ -139,9 +133,6 @@ var Gameplay = /** @class */ (function (_super) {
             this.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionBgName, function (spriteFrame) {
                 _this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
             });
-            this.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionAudioName, function (AudioClip) {
-                _this.questionAudio = AudioClip;
-            });
             this.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].correctAudioName, function (AudioClip) {
                 _this.correctAudio = AudioClip;
             });
@@ -184,11 +175,7 @@ var Gameplay = /** @class */ (function (_super) {
         ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
         this.scheduleOnce(function () {
-            if (_this.questionAudio) {
-                if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(_this.questionAudio, false);
-                }
-            }
+            cc.audioEngine.playEffect(_this.questionAudio[StartGame_1.default.Instance.currentLevel - 1], false);
             if (_this.optionsLayout == "layout1") {
                 var delay = 0;
                 var _loop_5 = function (i) {
@@ -272,18 +259,18 @@ var Gameplay = /** @class */ (function (_super) {
                     }, 0.3);
                 }
             }, 1);
-        }, 1);
+        }, 1.5);
     };
     Gameplay.prototype.PlayQVoButton = function (_event) {
         var _this = this;
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questionAudio, false);
+        cc.audioEngine.playEffect(this.questionAudio[StartGame_1.default.Instance.currentLevel - 1], false);
         _event.target.getComponent(cc.Button).interactable = false;
         this.scheduleOnce(function () {
             _event.target.getComponent(cc.Button).interactable = true;
             _event.target.scale = 1;
             _this.setupTVFocus(_this.optionsLayout);
-        }, this.questionAudio.duration);
+        }, this.questionAudio[StartGame_1.default.Instance.currentLevel - 1].duration);
     };
     Gameplay.prototype.setupTVFocus = function (activeContainerName) {
         var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
@@ -733,6 +720,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "negative_audio", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "questionAudio", void 0);
     Gameplay = __decorate([
         ccclass
     ], Gameplay);

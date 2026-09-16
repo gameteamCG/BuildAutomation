@@ -16,8 +16,9 @@ export default class Gameplay extends cc.Component {
     positive_audio: cc.AudioClip = null;
     @property(cc.AudioClip)
     negative_audio: cc.AudioClip = null;
+    @property(cc.AudioClip)
+    private questionAudio: cc.AudioClip[] = [];
 
-    private questionAudio: cc.AudioClip = null;
     private correctAudio: cc.AudioClip = null;
     private wrongAudio: cc.AudioClip = null;
     private reiterationAudio: cc.AudioClip[] = [];
@@ -53,12 +54,6 @@ export default class Gameplay extends cc.Component {
                 }
                 const spriteFrame = new cc.SpriteFrame(texture);
                 this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            });
-            cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionAudioName, (err, audioClip) => {
-                if (err) {
-                    return;
-                }
-                this.questionAudio = audioClip;
             });
             cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].correctAudioName, (err, audioClip) => {
                 if (err) {
@@ -106,9 +101,6 @@ export default class Gameplay extends cc.Component {
             this.loadSpriteFrame(startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionBgName, (spriteFrame) => {
                 this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
             });
-            this.loadAudioClip(startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionAudioName, (AudioClip) => {
-                this.questionAudio = AudioClip;
-            });
             this.loadAudioClip(startGame.Instance.questions[startGame.Instance.currentLevel - 1].correctAudioName, (AudioClip) => {
                 this.correctAudio = AudioClip;
             });
@@ -145,11 +137,7 @@ export default class Gameplay extends cc.Component {
         ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
         this.scheduleOnce(() => {
-            if (this.questionAudio) {
-                if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(this.questionAudio, false);
-                }
-            }
+            cc.audioEngine.playEffect(this.questionAudio[startGame.Instance.currentLevel - 1], false);
             if (this.optionsLayout == "layout1") {
                 let delay = 0;
                 for (let i = 0; i < this.options.children.length; i++) {
@@ -174,7 +162,6 @@ export default class Gameplay extends cc.Component {
                     element.on("tv-select", this.onTouchStart_layout1, this);
                 });
             }
-
             else if (this.optionsLayout == "layout2") {
                 this.node.getChildByName("basket").active = true;
                 this.node.getChildByName("rope").active = true;
@@ -225,18 +212,18 @@ export default class Gameplay extends cc.Component {
                     }, 0.3)
                 }
             }, 1);
-        }, 1);
+        }, 1.5);
     }
 
     PlayQVoButton(_event: cc.Event) {
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questionAudio, false);
+        cc.audioEngine.playEffect(this.questionAudio[startGame.Instance.currentLevel - 1], false);
         _event.target.getComponent(cc.Button).interactable = false;
         this.scheduleOnce(() => {
             _event.target.getComponent(cc.Button).interactable = true;
             _event.target.scale = 1;
             this.setupTVFocus(this.optionsLayout);
-        }, this.questionAudio.duration)
+        }, this.questionAudio[startGame.Instance.currentLevel - 1].duration)
 
     }
     private setupTVFocus(activeContainerName: string) {
