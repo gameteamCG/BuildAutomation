@@ -226,6 +226,7 @@ export default class Gameplay extends cc.Component {
         }, this.questionAudio[startGame.Instance.currentLevel - 1].duration)
 
     }
+    isVisited: boolean = false;
     private setupTVFocus(activeContainerName: string) {
         let backBtn = startGame.Instance.node.getChildByName("back");
         let musicBtn = startGame.Instance.node.getChildByName("music");
@@ -237,7 +238,8 @@ export default class Gameplay extends cc.Component {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
-        if (startGame.Instance.currentLevel == 1) {
+        if (startGame.Instance.currentLevel == 1 && !this.isVisited) {
+            this.isVisited = true;
             TVInputManager.Instance.init(nodes, 0);
         }
         else {

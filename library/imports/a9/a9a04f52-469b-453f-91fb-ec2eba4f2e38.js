@@ -55,6 +55,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.numberofOptions = 5;
         _this.currentJockey = null;
         _this.maxLevel = 0;
+        _this.isVisited = false;
         return _this;
     }
     Gameplay.prototype.onLoad = function () {
@@ -283,7 +284,8 @@ var Gameplay = /** @class */ (function (_super) {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
-        if (StartGame_1.default.Instance.currentLevel == 1) {
+        if (StartGame_1.default.Instance.currentLevel == 1 && !this.isVisited) {
+            this.isVisited = true;
             TVInputManager_1.default.Instance.init(nodes, 0);
         }
         else {
