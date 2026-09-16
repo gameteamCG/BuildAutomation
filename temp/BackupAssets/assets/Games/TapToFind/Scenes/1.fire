@@ -2967,6 +2967,23 @@
     "negative_audio": {
       "__uuid__": "f85ba194-a1c6-4989-8407-5a0b353d8529"
     },
+    "questionAudio": [
+      {
+        "__uuid__": "9f2ca76d-be6e-4ea1-b876-6a633fa9e03e"
+      },
+      {
+        "__uuid__": "4fee6a13-850b-4b06-90dc-016c6ad0d22a"
+      },
+      {
+        "__uuid__": "67db19ce-6fc7-4a51-97bb-9b149261727c"
+      },
+      {
+        "__uuid__": "5c72ece6-8c11-483a-b8a4-59ecd6bc02ce"
+      },
+      {
+        "__uuid__": "56d3e2d0-b4a4-4ba5-9ff7-3d4df39f1b6b"
+      }
+    ],
     "_id": "1eLb3fv5xBood9rsHUrTmd"
   },
   {

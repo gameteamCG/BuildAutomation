@@ -10,7 +10,7 @@
     "questionData": [
         {
             "questionLayout": "layout1",
-            "questionBgName": "bg1.png",
+            "questionBgName": "1.png",
             "questionAudioName": "honey.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
@@ -27,8 +27,8 @@
                 "L1_w1.png",
                 "L1_w2.png"
             ],
-            "correctAudioName": "BRILLIANT.mp3",
-            "wrongAudioName": "nevermind,tryagain.mp3",
+            "correctAudioName": "empty.mp3",
+            "wrongAudioName": "empty.mp3",
             "reiterationAudioName": [
                 "h_Hh.mp3",
                 "h_Hh.mp3",
@@ -39,7 +39,7 @@
         },
         {
             "questionLayout": "layout1",
-            "questionBgName": "bg2.png",
+            "questionBgName": "2.png",
             "questionAudioName": "hats.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
@@ -56,8 +56,8 @@
                 "L2_w2.png",
                 "L2_a2.png"
             ],
-            "correctAudioName": "BRILLIANT.mp3",
-            "wrongAudioName": "nevermind,tryagain.mp3",
+            "correctAudioName": "empty.mp3",
+            "wrongAudioName": "empty.mp3",
             "reiterationAudioName": [
                 "h_Hh.mp3",
                 "h_Hh.mp3",
@@ -68,7 +68,7 @@
         },
         {
             "questionLayout": "layout1",
-            "questionBgName": "bg 3.png",
+            "questionBgName": "3.png",
             "questionAudioName": "huts.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
@@ -85,8 +85,8 @@
                 "L3_w2.png",
                 "L3_a2.png"
             ],
-            "correctAudioName": "BRILLIANT.mp3",
-            "wrongAudioName": "nevermind,tryagain.mp3",
+            "correctAudioName": "empty.mp3",
+            "wrongAudioName": "empty.mp3",
             "reiterationAudioName": [
                 "h_Hh.mp3",
                 "h_Hh.mp3",
@@ -97,7 +97,7 @@
         },
         {
             "questionLayout": "layout1",
-            "questionBgName": "bg 4.png",
+            "questionBgName": "4.png",
             "questionAudioName": "horse.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
@@ -114,8 +114,8 @@
                 "L4_w1.png",
                 "L4_w2.png"
             ],
-            "correctAudioName": "BRILLIANT.mp3",
-            "wrongAudioName": "nevermind,tryagain.mp3",
+            "correctAudioName": "empty.mp3",
+            "wrongAudioName": "empty.mp3",
             "reiterationAudioName": [
                 "h_Hh.mp3",
                 "h_Hh.mp3",
@@ -126,7 +126,7 @@
         },
         {
             "questionLayout": "layout1",
-            "questionBgName": "bg5.png",
+            "questionBgName": "5.png",
             "questionAudioName": "hens.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
@@ -143,8 +143,8 @@
                 "L5_w2.png",
                 "L5_a2.png"
             ],
-            "correctAudioName": "BRILLIANT.mp3",
-            "wrongAudioName": "nevermind,tryagain.mp3",
+            "correctAudioName": "empty.mp3",
+            "wrongAudioName": "empty.mp3",
             "reiterationAudioName": [
                 "h_Hh.mp3",
                 "h_Hh.mp3",
