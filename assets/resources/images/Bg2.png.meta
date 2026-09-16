@@ -12,7 +12,7 @@
   "height": 1086,
   "platformSettings": {},
   "subMetas": {
-    "Bg2": {
+    "bg2": {
       "ver": "1.0.6",
       "uuid": "39e30147-66b2-4b6a-84cc-fcba45f78b28",
       "importer": "sprite-frame",
