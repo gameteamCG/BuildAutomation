@@ -8,6 +8,8 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class Gameplay extends cc.Component {
     @property(cc.AudioClip)
+    private question_VO: cc.AudioClip[] = [];
+    @property(cc.AudioClip)
     private postive_VO: cc.AudioClip[] = [];
     @property(cc.AudioClip)
     private negative_VO: cc.AudioClip[] = [];
@@ -151,7 +153,7 @@ export default class Gameplay extends cc.Component {
             if (this.questionAudio) {
                 if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     this.scheduleOnce(() => {
-                        cc.audioEngine.playEffect(this.questionAudio, false);
+                        cc.audioEngine.playEffect(this.question_VO[startGame.Instance.currentLevel - 1], false);
                     }, 1)
                 }
             }
@@ -235,7 +237,7 @@ export default class Gameplay extends cc.Component {
 
     PlayQVoButton(_event: cc.Event) {
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questionAudio, false);
+        cc.audioEngine.playEffect(this.question_VO[startGame.Instance.currentLevel - 1], false);
         _event.target.getComponent(cc.Button).interactable = false;
         this.scheduleOnce(() => {
             _event.target.getComponent(cc.Button).interactable = true;
