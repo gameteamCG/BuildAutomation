@@ -6,10 +6,10 @@
   "json": {
     "additionalData": {
       "GameID": "Blends_cl_UKG_SB3_4",
-      "totalLevel": "6",
+      "totalLevel": "4",
       "TitleImageName": "clblendswords.png",
       "introBgName": "titlebg.png",
-      "bgmMusicName": "bg.mp3",
+      "bgmMusicName": "BGM_2.mp3",
       "mainBgName": "island outdoor bg.png",
       "JockeyName": "Puzzle"
     },
@@ -24,21 +24,21 @@
         "numberOfOptions": 2,
         "options": [
           "1.png",
-          "w2.png"
+          "3.png"
         ],
         "correctAudioName": "1.mp3",
         "correctAnswerNum": "1"
       },
       {
         "questionText": "Blend 'cl'",
-        "questionImageName": "c1.png",
+        "questionImageName": "c2.png",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "puz3_2.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "w2.png",
+          "5.png",
           "2.png"
         ],
         "correctAudioName": "2.mp3",
@@ -46,14 +46,14 @@
       },
       {
         "questionText": "Blend 'cl'",
-        "questionImageName": "c1.png",
+        "questionImageName": "c3.png",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "puz3_2.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "w3.png",
+          "1.png",
           "3.png"
         ],
         "correctAudioName": "3.mp3",
@@ -61,48 +61,18 @@
       },
       {
         "questionText": "Blend 'cl'",
-        "questionImageName": "c1.png",
+        "questionImageName": "c5.png",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "puz3_2.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "4.png",
-          "w4.png"
-        ],
-        "correctAudioName": "4.mp3",
-        "correctAnswerNum": "1"
-      },
-      {
-        "questionText": "Blend 'cl'",
-        "questionImageName": "c1.png",
-        "questionAudioName": "Ques.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "puz3_2.png",
-        "isOptionText": false,
-        "numberOfOptions": 2,
-        "options": [
-          "w5.png",
+          "2.png",
           "5.png"
         ],
         "correctAudioName": "5.mp3",
         "correctAnswerNum": "2"
-      },
-      {
-        "questionText": "Blend 'cl'",
-        "questionImageName": "c1.png",
-        "questionAudioName": "Ques.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "puz3_2.png",
-        "isOptionText": false,
-        "numberOfOptions": 2,
-        "options": [
-          "6.png",
-          "w6.png"
-        ],
-        "correctAudioName": "6.mp3",
-        "correctAnswerNum": "1"
       }
     ]
   }

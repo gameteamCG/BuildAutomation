@@ -421,8 +421,8 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.callPositiveRection = function (_node) {
         var _this = this;
         cc.audioEngine.playEffect(this.correctAudio, false);
-        cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -130 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { x: -130, y: 17, scale: 1.68 }, { easing: "sineInOut" }).start();
+        cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -140 }, { easing: "sineInOut" }).start();
+        cc.tween(_node).to(0.5, { x: -90, y: 23, scale: 1.68 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             cc.audioEngine.playEffect(_this.positiveSound[0], false);
             _this.scheduleOnce(function () {

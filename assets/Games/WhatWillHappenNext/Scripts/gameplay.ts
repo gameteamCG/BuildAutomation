@@ -410,8 +410,8 @@ export default class NewClass extends cc.Component {
 
     callPositiveRection(_node: cc.Node) {
         cc.audioEngine.playEffect(this.correctAudio, false);
-        cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -130 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { x: -130, y: 17, scale: 1.68 }, { easing: "sineInOut" }).start();
+        cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -140 }, { easing: "sineInOut" }).start();
+        cc.tween(_node).to(0.5, { x: -90, y: 23, scale: 1.68 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
             cc.audioEngine.playEffect(this.positiveSound[0], false);
             this.scheduleOnce(() => {
