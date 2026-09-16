@@ -9,13 +9,13 @@
       "totalLevel": "7",
       "TitleImageName": "letterc.png",
       "introBgName": "bgtitlemain.png",
-      "bgmMusicName": "bgm1.mp3",
+      "bgmMusicName": "bgm.mp3",
       "JockeyName": "Puzzle"
     },
     "questionData": [
       {
         "questionLayout": "layout1",
-        "questionBgName": "bg1.png",
+        "questionBgName": "1.png",
         "questionAudioName": "tap_cups.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -32,8 +32,8 @@
           "cup-w.png",
           "cup-a.png"
         ],
-        "correctAudioName": "BRILLIANT.mp3",
-        "wrongAudioName": "ohoh.mp3",
+        "correctAudioName": "empty.mp3",
+        "wrongAudioName": "empty.mp3",
         "reiterationAudioName": [
           "c_sound.mp3",
           "c_sound.mp3"
@@ -42,7 +42,7 @@
       },
       {
         "questionLayout": "layout2",
-        "questionBgName": "bg2.png",
+        "questionBgName": "2.png",
         "questionAudioName": "tap_carrots.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -59,8 +59,8 @@
           "carrot-w2.png",
           "carrot-a.png"
         ],
-        "correctAudioName": "EXCELLENTJOB.mp3",
-        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "correctAudioName": "empty.mp3",
+        "wrongAudioName": "empty.mp3",
         "reiterationAudioName": [
           "c_sound.mp3",
           "c_sound.mp3"
@@ -69,7 +69,7 @@
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "bg3.png",
+        "questionBgName": "3.png",
         "questionAudioName": "tap_cats.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -86,8 +86,8 @@
           "cat-a.png",
           "cat-w.png"
         ],
-        "correctAudioName": "GOODJOB.mp3",
-        "wrongAudioName": "nevermindryagain.mp3",
+        "correctAudioName": "empty.mp3",
+        "wrongAudioName": "empty.mp3",
         "reiterationAudioName": [
           "c_sound.mp3",
           "c_sound.mp3"
@@ -96,7 +96,7 @@
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "bg1.png",
+        "questionBgName": "1.png",
         "questionAudioName": "tap_cupcakes.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -113,8 +113,8 @@
           "cupcake-a.png",
           "cupcake-w1.png"
         ],
-        "correctAudioName": "GOODJOB.mp3",
-        "wrongAudioName": "nevermindryagain.mp3",
+        "correctAudioName": "empty.mp3",
+        "wrongAudioName": "empty.mp3",
         "reiterationAudioName": [
           "c_sound.mp3",
           "c_sound.mp3"
@@ -123,7 +123,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg4.png",
+        "questionBgName": "4.png",
         "questionAudioName": "identify_picture_with_letter_sound.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -138,8 +138,8 @@
           "jelly-un.png",
           "cake-un.png"
         ],
-        "correctAudioName": "INCREDIBLE.mp3",
-        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "correctAudioName": "empty.mp3",
+        "wrongAudioName": "empty.mp3",
         "reiterationAudioName": [
           "cake.mp3"
         ],
@@ -147,7 +147,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg5.png",
+        "questionBgName": "5.png",
         "questionAudioName": "identify_picture_with_letter_sound.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -162,8 +162,8 @@
           "ball-un.png",
           "drum-un.png"
         ],
-        "correctAudioName": "INCREDIBLE.mp3",
-        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "correctAudioName": "empty.mp3",
+        "wrongAudioName": "empty.mp3",
         "reiterationAudioName": [
           "cat.mp3"
         ],
@@ -171,7 +171,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg2.png",
+        "questionBgName": "2.png",
         "questionAudioName": "identify_picture_with_letter_sound.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -186,8 +186,8 @@
           "car-un.png",
           "ant-un.png"
         ],
-        "correctAudioName": "INCREDIBLE.mp3",
-        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "correctAudioName": "empty.mp3",
+        "wrongAudioName": "empty.mp3",
         "reiterationAudioName": [
           "car.mp3"
         ],

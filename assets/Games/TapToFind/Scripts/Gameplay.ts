@@ -16,8 +16,8 @@ export default class Gameplay extends cc.Component {
     positive_audio: cc.AudioClip = null;
     @property(cc.AudioClip)
     negative_audio: cc.AudioClip = null;
-
-    private questionAudio: cc.AudioClip = null;
+    @property(cc.AudioClip)
+    private questionAudio: cc.AudioClip[] = [];
     private correctAudio: cc.AudioClip = null;
     private wrongAudio: cc.AudioClip = null;
     private reiterationAudio: cc.AudioClip[] = [];
@@ -53,12 +53,6 @@ export default class Gameplay extends cc.Component {
                 }
                 const spriteFrame = new cc.SpriteFrame(texture);
                 this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            });
-            cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionAudioName, (err, audioClip) => {
-                if (err) {
-                    return;
-                }
-                this.questionAudio = audioClip;
             });
             cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].correctAudioName, (err, audioClip) => {
                 if (err) {
@@ -105,9 +99,6 @@ export default class Gameplay extends cc.Component {
         else {
             this.loadSpriteFrame(startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionBgName, (spriteFrame) => {
                 this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            });
-            this.loadAudioClip(startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionAudioName, (AudioClip) => {
-                this.questionAudio = AudioClip;
             });
             this.loadAudioClip(startGame.Instance.questions[startGame.Instance.currentLevel - 1].correctAudioName, (AudioClip) => {
                 this.correctAudio = AudioClip;
@@ -207,11 +198,7 @@ export default class Gameplay extends cc.Component {
                 });
             }
             this.scheduleOnce(() => {
-                if (this.questionAudio) {
-                    if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                        cc.audioEngine.playEffect(this.questionAudio, false);
-                    }
-                }
+                cc.audioEngine.playEffect(this.questionAudio[startGame.Instance.currentLevel - 1], false);
                 if (startGame.Instance.currentLevel == 1) {
                     console.log(this.options.getChildByName(this.correctAnswer[0].toString()).name)
                     let hand = this.node.getChildByName("hand");
@@ -230,15 +217,16 @@ export default class Gameplay extends cc.Component {
 
     PlayQVoButton(_event: cc.Event) {
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questionAudio, false);
+        cc.audioEngine.playEffect(this.questionAudio[startGame.Instance.currentLevel - 1], false);
         _event.target.getComponent(cc.Button).interactable = false;
         this.scheduleOnce(() => {
             _event.target.getComponent(cc.Button).interactable = true;
             _event.target.scale = 1;
             this.setupTVFocus(this.optionsLayout);
-        }, this.questionAudio.duration)
+        }, this.questionAudio[startGame.Instance.currentLevel - 1].duration)
 
     }
+    isVisited: boolean = false;
     private setupTVFocus(activeContainerName: string) {
         let backBtn = startGame.Instance.node.getChildByName("back");
         let musicBtn = startGame.Instance.node.getChildByName("music");
@@ -250,7 +238,8 @@ export default class Gameplay extends cc.Component {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
-        if (startGame.Instance.currentLevel == 1) {
+        if (startGame.Instance.currentLevel == 1 && !this.isVisited) {
+            this.isVisited = true;
             TVInputManager.Instance.init(nodes, 0);
         }
         else {
