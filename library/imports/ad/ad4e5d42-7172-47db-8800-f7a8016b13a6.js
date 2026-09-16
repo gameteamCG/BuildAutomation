@@ -45,8 +45,6 @@ var NewClass = /** @class */ (function (_super) {
         _this.negativeSound = [];
         _this.positiveAudio = [];
         _this.negativeAudio = [];
-        _this.defaultMat = null;
-        _this.greyMat = null;
         _this.isFirstClick = false;
         _this.canTouch = false;
         _this.answerArray = [];
@@ -59,6 +57,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.correctAudio = null;
         _this.optionsNode = null;
         _this.questionBoxPosY = 0;
+        _this.isVisied = false;
         return _this;
     }
     // LIFE-CYCLE CALLBACKS:
@@ -73,13 +72,6 @@ var NewClass = /** @class */ (function (_super) {
         console.log("levelStarted--" + globalVariables_1.default.Instance.currentLevel);
         this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = StartGame_1.default.Instance.mainBg;
         if (StartGame_1.default.Instance.isDemoGame) {
-            cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionAudioName, function (err, audioClip) {
-                if (err) {
-                    console.error("Failed to load audio clip:", err);
-                    return;
-                }
-                _this.questionSound[0] = audioClip;
-            });
             cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAudioName, function (err, audioClip) {
                 if (err) {
                     console.error("Failed to load audio clip:", err);
@@ -131,9 +123,6 @@ var NewClass = /** @class */ (function (_super) {
             }
         }
         else {
-            this.loadAudioClip(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionAudioName, function (AudioClip) {
-                _this.questionSound[0] = AudioClip;
-            });
             this.loadAudioClip(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAudioName, function (AudioClip) {
                 _this.correctAudio = AudioClip;
             });
@@ -183,7 +172,8 @@ var NewClass = /** @class */ (function (_super) {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
-        if (globalVariables_1.default.Instance.currentLevel == 1) {
+        if (globalVariables_1.default.Instance.currentLevel == 1 && !this.isVisied) {
+            this.isVisied = true;
             TVInputManager_1.default.Instance.init(nodes, 0);
         }
         else {
@@ -192,6 +182,7 @@ var NewClass = /** @class */ (function (_super) {
         TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
     };
     NewClass.prototype.setupTVFocus1 = function () {
+        TVInputManager_1.default.Instance.callEnd();
         var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
         var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
         backBtn.scale = 1;
@@ -288,9 +279,7 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         this.currentJcokey.active = true;
         if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
-            if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                cc.audioEngine.playEffect(this.questionSound[0], false);
-            }
+            cc.audioEngine.playEffect(this.questionSound[0], false);
             if (globalVariables_1.default.Instance.currentLevel == 1) {
                 var hand = this.node.getChildByName("hand");
                 console.log("answer array num = ", this.answerArray[0]);
@@ -433,10 +422,8 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         cc.audioEngine.playEffect(this.correctAudio, false);
         cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -130 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { x: -110, y: 23, scale: 1.68 }, { easing: "sineInOut" }).start();
+        cc.tween(_node).to(0.5, { x: -130, y: 17, scale: 1.68 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
-            _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-            _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(_this.positiveSound[0], false);
             _this.scheduleOnce(function () {
                 ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
@@ -562,7 +549,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callNegativeRection = function (_node, _event) {
         var _this = this;
-        _node.children[0].getComponent(cc.Sprite).setMaterial(0, this.greyMat);
+        _node.children[0].color = cc.Color.GRAY;
         cc.audioEngine.playEffect(this.negativeSound[0], false);
         if (this.wrongAnswerCount >= 6) {
             this.wrongAnswerCount = 1;
@@ -667,10 +654,11 @@ var NewClass = /** @class */ (function (_super) {
             .to(0.2, { x: _node.x + 10 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x - 10 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x + 10 }, { easing: "sineInOut" })
-            .to(0.2, { x: _node.x }, { easing: "sineInOut" }).call(function () {
-            _node.children[0].getComponent(cc.Sprite).setMaterial(0, _this.defaultMat);
-        })
+            .to(0.2, { x: _node.x }, { easing: "sineInOut" })
             .start();
+        this.scheduleOnce(function () {
+            _node.children[0].color = cc.Color.WHITE;
+        }, 1);
     };
     NewClass.prototype.destroyOption = function () {
         for (var i = 0; i < this.node.getChildByName("Option").children.length; i++) {
@@ -772,12 +760,6 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "negativeAudio", void 0);
-    __decorate([
-        property(cc.Material)
-    ], NewClass.prototype, "defaultMat", void 0);
-    __decorate([
-        property(cc.Material)
-    ], NewClass.prototype, "greyMat", void 0);
     NewClass = __decorate([
         ccclass
     ], NewClass);

@@ -25,13 +25,6 @@ export default class NewClass extends cc.Component {
     @property(cc.AudioClip)
     private negativeAudio: cc.AudioClip[] = [];
 
-
-    @property(cc.Material)
-    defaultMat: cc.Material = null;
-
-    @property(cc.Material)
-    greyMat: cc.Material = null;
-
     private isFirstClick: boolean = false;
     private canTouch: boolean = false;
     private answerArray: string[] = [];
@@ -65,13 +58,6 @@ export default class NewClass extends cc.Component {
 
 
         if (startGame.Instance.isDemoGame) {
-            cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (err, audioClip) => {
-                if (err) {
-                    console.error("Failed to load audio clip:", err);
-                    return;
-                }
-                this.questionSound[0] = audioClip;
-            });
             cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudioName, (err, audioClip) => {
                 if (err) {
                     console.error("Failed to load audio clip:", err);
@@ -120,9 +106,6 @@ export default class NewClass extends cc.Component {
             }
         }
         else {
-            this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (AudioClip) => {
-                this.questionSound[0] = AudioClip;
-            });
             this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudioName, (AudioClip) => {
                 this.correctAudio = AudioClip;
             });
@@ -161,7 +144,7 @@ export default class NewClass extends cc.Component {
         this.answerArray = [startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum];
         this.callThirdObjectIn();
     }
-
+    isVisied: boolean = false;
     private setupTVFocus(activeContainerName: string) {
         let backBtn = startGame.Instance.node.getChildByName("back");
         let musicBtn = startGame.Instance.node.getChildByName("music");
@@ -173,7 +156,8 @@ export default class NewClass extends cc.Component {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
-        if (globalVariables.Instance.currentLevel == 1) {
+        if (globalVariables.Instance.currentLevel == 1 && !this.isVisied) {
+            this.isVisied = true;
             TVInputManager.Instance.init(nodes, 0);
         }
         else {
@@ -183,6 +167,7 @@ export default class NewClass extends cc.Component {
     }
 
     private setupTVFocus1() {
+        TVInputManager.Instance.callEnd();
         let backBtn = startGame.Instance.node.getChildByName("back");
         let musicBtn = startGame.Instance.node.getChildByName("music");
         backBtn.scale = 1;
@@ -278,9 +263,7 @@ export default class NewClass extends cc.Component {
     PlayQuestionAudio() {
         this.currentJcokey.active = true;
         if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
-            if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                cc.audioEngine.playEffect(this.questionSound[0], false);
-            }
+            cc.audioEngine.playEffect(this.questionSound[0], false);
             if (globalVariables.Instance.currentLevel == 1) {
                 let hand = this.node.getChildByName("hand");
                 console.log("answer array num = ", this.answerArray[0]);
@@ -428,10 +411,8 @@ export default class NewClass extends cc.Component {
     callPositiveRection(_node: cc.Node) {
         cc.audioEngine.playEffect(this.correctAudio, false);
         cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -130 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { x: -110, y: 23, scale: 1.68 }, { easing: "sineInOut" }).start();
+        cc.tween(_node).to(0.5, { x: -130, y: 17, scale: 1.68 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
-            this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-            this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(this.positiveSound[0], false);
             this.scheduleOnce(() => {
                 ProgressBar.Instance.createStarTrails(6, this.node);
@@ -563,7 +544,7 @@ export default class NewClass extends cc.Component {
 
 
     callNegativeRection(_node: cc.Node, _event) {
-        _node.children[0].getComponent(cc.Sprite).setMaterial(0, this.greyMat);
+        _node.children[0].color = cc.Color.GRAY;
         cc.audioEngine.playEffect(this.negativeSound[0], false);
         if (this.wrongAnswerCount >= 6) {
             this.wrongAnswerCount = 1;
@@ -672,10 +653,11 @@ export default class NewClass extends cc.Component {
             .to(0.2, { x: _node.x + 10 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x - 10 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x + 10 }, { easing: "sineInOut" })
-            .to(0.2, { x: _node.x }, { easing: "sineInOut" }).call(() => {
-                _node.children[0].getComponent(cc.Sprite).setMaterial(0, this.defaultMat);
-            })
+            .to(0.2, { x: _node.x }, { easing: "sineInOut" })
             .start();
+        this.scheduleOnce(() => {
+            _node.children[0].color = cc.Color.WHITE;
+        }, 1)
     }
 
     destroyOption() {
