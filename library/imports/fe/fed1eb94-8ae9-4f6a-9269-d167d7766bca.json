@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0013_Vector_noseSmart_Object",
+    "texture": "07a44ac7-4253-47c6-aaee-2df96a7b924a",
+    "atlas": "",
+    "rect": [
+      62,
+      33,
+      177,
+      236
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

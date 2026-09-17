@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0002_Vector_Skneemart_Object",
+    "texture": "2a495079-7cea-4161-8fb8-183005caf0d0",
+    "atlas": "",
+    "rect": [
+      45,
+      26,
+      210,
+      268
+    ],
+    "offset": [
+      0,
+      -10
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

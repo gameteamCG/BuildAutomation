@@ -316,6 +316,7 @@ var NewClass = /** @class */ (function (_super) {
         this.currentJcokey.active = true;
         if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
             if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
                 cc.audioEngine.playEffect(this.questionSound[0], false);
             }
             if (globalVariables_1.default.Instance.currentLevel == 1) {

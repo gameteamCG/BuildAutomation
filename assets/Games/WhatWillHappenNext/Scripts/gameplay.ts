@@ -309,6 +309,7 @@ export default class NewClass extends cc.Component {
         this.currentJcokey.active = true;
         if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
             if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
                 cc.audioEngine.playEffect(this.questionSound[0], false);
             }
             if (globalVariables.Instance.currentLevel == 1) {
