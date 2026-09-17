@@ -43,6 +43,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.pop_audio = null;
         _this.positive_audio = null;
         _this.negative_audio = null;
+        _this.question_VO = [];
         _this.questionAudio = null;
         _this.correctAudio = null;
         _this.wrongAudio = null;
@@ -234,7 +235,7 @@ var Gameplay = /** @class */ (function (_super) {
                 if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
                     .shouldPlayQuestionAudio) {
                     _this.scheduleOnce(function () {
-                        cc.audioEngine.playEffect(_this.questionAudio, false);
+                        cc.audioEngine.playEffect(_this.question_VO[StartGame_1.default.Instance.currentLevel - 1], false);
                     }, 1);
                 }
             }
@@ -332,7 +333,7 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.PlayQVoButton = function (_event) {
         var _this = this;
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questionAudio, false);
+        cc.audioEngine.playEffect(this.question_VO[StartGame_1.default.Instance.currentLevel - 1], false);
         _event.target.getComponent(cc.Button).interactable = false;
         this.scheduleOnce(function () {
             _event.target.getComponent(cc.Button).interactable = true;
@@ -919,6 +920,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "negative_audio", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "question_VO", void 0);
     Gameplay = __decorate([
         ccclass
     ], Gameplay);

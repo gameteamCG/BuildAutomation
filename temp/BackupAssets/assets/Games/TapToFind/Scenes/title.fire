@@ -2574,7 +2574,9 @@
       "__id__": 15
     },
     "_enabled": true,
-    "BGM_audio": null,
+    "BGM_audio": {
+      "__uuid__": "3bcc9864-cabc-461c-81c3-f7b68ac07a85"
+    },
     "volume": 0.1,
     "NextSceneName": "1",
     "TotalLevels": 7,

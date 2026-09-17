@@ -3082,6 +3082,26 @@
     "negative_audio": {
       "__uuid__": "f85ba194-a1c6-4989-8407-5a0b353d8529"
     },
+    "question_VO": [
+      {
+        "__uuid__": "cba79f40-82ab-426b-87bb-6fd2f90c2fcb"
+      },
+      {
+        "__uuid__": "d05dd4f9-c605-4c85-91f0-fdd43dfe6aa4"
+      },
+      {
+        "__uuid__": "e76d1061-8834-409e-adc0-4d09c0aa56ca"
+      },
+      {
+        "__uuid__": "d05dd4f9-c605-4c85-91f0-fdd43dfe6aa4"
+      },
+      {
+        "__uuid__": "9a03cb4b-c1d8-4463-9fac-cf644c4a4256"
+      },
+      {
+        "__uuid__": "d05dd4f9-c605-4c85-91f0-fdd43dfe6aa4"
+      }
+    ],
     "_id": "1eLb3fv5xBood9rsHUrTmd"
   },
   {
