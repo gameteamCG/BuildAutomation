@@ -3,6 +3,7 @@ import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/Progress
 import startGame from "../../../Framework/Scripts/StartGame";
 import TVInputManager from "./TVInputManager";
 
+
 const { ccclass, property } = cc._decorator;
 
 @ccclass
@@ -20,6 +21,7 @@ export default class Gameplay extends cc.Component {
     @property(cc.AudioClip)
     negative_audio: cc.AudioClip = null;
 
+    isVisied: boolean = false;
     private questionAudio: cc.AudioClip = null;
     private correctAudio: cc.AudioClip = null;
     private wrongAudio: cc.AudioClip = null;
@@ -155,6 +157,8 @@ export default class Gameplay extends cc.Component {
                     }, 1)
                 }
             }
+            this.canTouch = true;
+            TVInputManager.Instance.setCanSelect(this.canTouch);
             if (this.optionsLayout == "layout1") {
                 let delay = 0;
                 for (let i = 0; i < this.options.children.length; i++) {
@@ -247,7 +251,7 @@ export default class Gameplay extends cc.Component {
     private setupTVFocus(activeContainerName: string) {
         let backBtn = startGame.Instance.node.getChildByName("back");
         let musicBtn = startGame.Instance.node.getChildByName("music");
-        let soundBtn = this.node.getChildByName("questionPanel").getChildByName("purple sound");
+        let soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
         backBtn.scale = 1;
         musicBtn.scale = 1;
         let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
@@ -255,13 +259,13 @@ export default class Gameplay extends cc.Component {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
-        if (startGame.Instance.currentLevel == 1) {
+        if (startGame.Instance.currentLevel == 1 && !this.isVisied) {
+            this.isVisied = true;
             TVInputManager.Instance.init(nodes, 0);
         }
         else {
             TVInputManager.Instance.init(nodes, -1);
         }
-        this.canTouch = true;
         TVInputManager.Instance.setCanSelect(this.canTouch);
     }
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
@@ -327,13 +331,16 @@ export default class Gameplay extends cc.Component {
             this.correctCounter++;
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
             cc.audioEngine.playEffect(this.positive_audio, false);
+            this.scheduleOnce(() => {
+                let clip = this.reiterationAudio[audioNum] || this.reiterationAudio[0];
+                cc.audioEngine.playEffect(clip, false);
+            }, this.positive_audio.duration)
             cc.tween(node)
                 .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(() => {
                     node.active = false;
                     if (this.correctCounter < this.correctAnswer.length) {
-                        let clip = this.reiterationAudio[audioNum] || this.reiterationAudio[0];
-                        cc.audioEngine.playEffect(clip, false);
+
                         this.scheduleOnce(() => {
                             this.canTouch = true;
                             TVInputManager.Instance.setCanSelect(true);
