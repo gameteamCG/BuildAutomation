@@ -40,6 +40,7 @@ var Gameplay = /** @class */ (function (_super) {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.postive_VO = [];
         _this.negative_VO = [];
+        _this.questionVOs = [];
         _this.pop_audio = null;
         _this.positive_audio = null;
         _this.negative_audio = null;
@@ -53,6 +54,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.canTouch = false;
         _this.correctCounter = 0;
         _this.numberofOptions = 5;
+        _this.isVisied = false;
         _this.currentJockey = null;
         _this.maxLevel = 0;
         return _this;
@@ -186,9 +188,11 @@ var Gameplay = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             if (_this.questionAudio) {
                 if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(_this.questionAudio, false);
+                    cc.audioEngine.playEffect(_this.questionVOs[StartGame_1.default.Instance.currentLevel - 1], false);
                 }
             }
+            _this.canTouch = true;
+            TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
             if (_this.optionsLayout == "layout1") {
                 var delay = 0;
                 var _loop_5 = function (i) {
@@ -277,7 +281,7 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.PlayQVoButton = function (_event) {
         var _this = this;
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questionAudio, false);
+        cc.audioEngine.playEffect(this.questionVOs[StartGame_1.default.Instance.currentLevel - 1], false);
         _event.target.getComponent(cc.Button).interactable = false;
         this.scheduleOnce(function () {
             _event.target.getComponent(cc.Button).interactable = true;
@@ -288,7 +292,7 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.setupTVFocus = function (activeContainerName) {
         var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
         var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
-        var soundBtn = this.node.getChildByName("questionPanel").getChildByName("purple sound");
+        var soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
         backBtn.scale = 1;
         musicBtn.scale = 1;
         var optionButtons = this.node.getChildByName(activeContainerName).children.filter(function (node) {
@@ -296,13 +300,13 @@ var Gameplay = /** @class */ (function (_super) {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
-        if (StartGame_1.default.Instance.currentLevel == 1) {
-            TVInputManager_1.default.Instance.init(nodes, 0);
+        if (StartGame_1.default.Instance.currentLevel == 1 && !this.isVisied) {
+            this.isVisied = true;
+            TVInputManager_1.default.Instance.init(nodes, -1);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);
         }
-        this.canTouch = true;
         TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
     };
     Gameplay.prototype.generateOptions = function (_template, _optionParent, _optionCount) {
@@ -319,7 +323,7 @@ var Gameplay = /** @class */ (function (_super) {
         }
         if (this.optionsLayout == "layout1") {
             var _laypout1posX = [-500, -200, 300, 500];
-            var _laypout1posY = [-150, 100, -150, 100];
+            var _laypout1posY = [-150, 100, -150, 150];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
@@ -358,19 +362,21 @@ var Gameplay = /** @class */ (function (_super) {
             console.log("Total Correct:", this.correctAnswer.length);
             console.log("Audio Index:", audioNum);
             cc.audioEngine.playEffect(this.positive_audio, false);
+            this.scheduleOnce(function () {
+                var clip = _this.reiterationAudio[audioNum];
+                //console.log("Playing reiteration:", clip);
+                cc.audioEngine.playEffect(clip, false);
+            }, this.positive_audio.duration);
             cc.tween(node)
                 .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(function () {
                 node.active = false;
                 if (_this.correctCounter < _this.correctAnswer.length) {
-                    var clip = _this.reiterationAudio[audioNum];
-                    //console.log("Playing reiteration:", clip);
-                    cc.audioEngine.playEffect(clip, false);
                     // Wait for the audio to finish
                     _this.scheduleOnce(function () {
                         _this.canTouch = true;
                         TVInputManager_1.default.Instance.setCanSelect(true);
-                    }, clip.duration);
+                    }, _this.reiterationAudio[audioNum].duration + 0.2);
                 }
                 else {
                     cc.tween(_this.options)
@@ -452,6 +458,8 @@ var Gameplay = /** @class */ (function (_super) {
             }, 1);
         }
         else {
+            this.canTouch = false;
+            TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
             this.callNegativeRection();
             console.log("wrongAnswer--" + StartGame_1.default.Instance.currentLevel);
             var posX = node.getPosition().x;
@@ -521,7 +529,7 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
-        this.node.getChildByName("confetti").active = true;
+        //this.node.getChildByName("confetti").active = true;
         ProgressBar_1.default.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(function () {
             ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel);
@@ -719,6 +727,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "negative_VO", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "questionVOs", void 0);
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "pop_audio", void 0);
