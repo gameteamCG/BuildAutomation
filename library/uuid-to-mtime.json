@@ -1,7 +1,7 @@
 {
   "119f7f24-727f-43c7-8c8c-ff04216b88bb": {
-    "asset": 1789648590942,
-    "meta": 1789648701813,
+    "asset": 1789648805960,
+    "meta": 1789649880367,
     "relativePath": "resources"
   },
   "0d2e55d5-0eb2-4514-9a7a-dedb539de00f": {
@@ -3138,11 +3138,6 @@
     "asset": 1785827207853,
     "meta": 1789648704434,
     "relativePath": "Games\\DragNDrop\\Buillds_SuperCub\\TracingLetterAtoZ(JrKg)\\web-mobile"
-  },
-  "5911a311-8147-4543-a924-aa0494e7f58c": {
-    "asset": 1789648805882,
-    "meta": 1789648805948,
-    "relativePath": "resources\\.DS_Store"
   },
   "c3639ae1-6f7b-4d46-ae1a-42aa59ef0d3a": {
     "asset": 1789648805827,
