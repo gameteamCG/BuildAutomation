@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "washinghands",
+    "texture": "cdf26596-73d1-4984-8ad4-e5c3ef52a4f7",
+    "atlas": "",
+    "rect": [
+      80,
+      41,
+      340,
+      419
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

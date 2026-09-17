@@ -458,7 +458,7 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.callPositiveRection = function (_node) {
         var _this = this;
         cc.audioEngine.playEffect(this.correctAudio, false);
-        cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -150 }, { easing: "sineInOut" }).start();
+        cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -200 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { x: -75, y: 0, scale: 1, width: 400, height: 400 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);

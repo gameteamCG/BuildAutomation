@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d8701f2b-9824-46c5-a27a-72ad1e95381d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 415,
+  "height": 208,
+  "platformSettings": {},
+  "subMetas": {
+    "Healthyandunhealthyhabitstitle": {
+      "ver": "1.0.6",
+      "uuid": "1aeb8284-7caf-4704-a71e-2b6e99c8c8b0",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d8701f2b-9824-46c5-a27a-72ad1e95381d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 3,
+      "trimY": 7,
+      "width": 408,
+      "height": 193,
+      "rawWidth": 415,
+      "rawHeight": 208,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
