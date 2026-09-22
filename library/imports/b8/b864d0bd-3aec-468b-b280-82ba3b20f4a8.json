@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "skunk",
+    "texture": "3bfec0e6-0204-453a-8ada-4a37f31d187b",
+    "atlas": "",
+    "rect": [
+      49,
+      92,
+      152,
+      49
+    ],
+    "offset": [
+      0,
+      8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
