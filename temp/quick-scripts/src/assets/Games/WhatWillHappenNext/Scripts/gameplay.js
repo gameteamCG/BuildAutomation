@@ -220,7 +220,7 @@ var NewClass = /** @class */ (function (_super) {
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
         if (globalVariables_1.default.Instance.currentLevel == 1) {
-            TVInputManager_1.default.Instance.init(nodes, 1);
+            TVInputManager_1.default.Instance.init(nodes, 0);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);

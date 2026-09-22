@@ -214,7 +214,7 @@ export default class NewClass extends cc.Component {
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
         if (globalVariables.Instance.currentLevel == 1) {
-            TVInputManager.Instance.init(nodes, 1);
+            TVInputManager.Instance.init(nodes, 0);
         }
         else {
             TVInputManager.Instance.init(nodes, -1);

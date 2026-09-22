@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0011_Vector_Smart_Objouthect",
+    "texture": "d67b3d73-64ee-4f35-b99a-c9edf4216f6f",
+    "atlas": "",
+    "rect": [
+      10,
+      68,
+      279,
+      163
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

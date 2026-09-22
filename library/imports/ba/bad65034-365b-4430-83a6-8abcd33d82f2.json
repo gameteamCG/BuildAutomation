@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0001_Vector_legmart_Object",
+    "texture": "adfc9a62-093a-4afd-a8a8-c34a2450ad54",
+    "atlas": "",
+    "rect": [
+      74,
+      8,
+      151,
+      284
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

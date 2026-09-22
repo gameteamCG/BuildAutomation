@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0006_Vector_chestSmart_Object",
+    "texture": "182b6ea9-d306-4d25-ac30-3c7584888ecc",
+    "atlas": "",
+    "rect": [
+      6,
+      38,
+      289,
+      222
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0003_Vector_fingersSmart_Object",
+    "texture": "504901dc-0da0-471f-a12b-877beeec77d3",
+    "atlas": "",
+    "rect": [
+      20,
+      24,
+      259,
+      251
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

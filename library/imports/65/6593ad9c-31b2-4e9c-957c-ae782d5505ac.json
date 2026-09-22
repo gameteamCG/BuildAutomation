@@ -1,0 +1,259 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "15",
+      "TitleImageName": "mybody.png",
+      "introBgName": "NUR",
+      "bgmMusicName": "bgm_sc.mp3",
+      "mainBgName": "bg16).png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "helps us see",
+        "questionImageName": "Vector_0000_1_0014_Vector_Smart_Object.png",
+        "questionAudioName": "which_body_part_helps_us_to_see.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box_111.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_0014_Vector_eyeSmart_Object.png",
+          "1_0009_Vector_tongueSmart_tongueObject.png",
+          "1_0008_Vector_neckSmart_Object.png"
+        ],
+        "correctAudioName": "eyes.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "helps breathe and smell",
+        "questionImageName": "Vector_0001_1_0013_Vector_Smart_Object.png",
+        "questionAudioName": "What_helps_us_breathe_and_smell.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box_111.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_0006_Vector_chestSmart_Object.png",
+          "1_0013_Vector_noseSmart_Object.png",
+          "1_0004_Vector_handSmart_Object.png"
+        ],
+        "correctAudioName": "nose.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "helps hear and listen",
+        "questionImageName": "Vector_0002_1_0012_Vector_Smart_Object.png",
+        "questionAudioName": "What_helps_us_hear_and_listen.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box_111.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_0008_Vector_neckSmart_Object.png",
+          "1_0007_Vector_Smart_Object.png",
+          "1_0012_Vector_earSmart_Object.png"
+        ],
+        "correctAudioName": "ear.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "helps eat and speak",
+        "questionImageName": "Vector_0003_1_0011_Vector_Smart_Object.png",
+        "questionAudioName": "What_helps_us_eat_and_speak.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box_111.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_0011_Vector_Smart_Objouthect.png",
+          "1_0003_Vector_fingersSmart_Object.png",
+          "1_0014_Vector_eyeSmart_Object.png"
+        ],
+        "correctAudioName": "mouth.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "helps bite and chew",
+        "questionImageName": "Vector_0004_1_0010_Vector_Smart_Object.png",
+        "questionAudioName": "What_helps_us_bite_and_chew.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box_111.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_0002_Vector_Skneemart_Object.png",
+          "1_0004_Vector_handSmart_Object.png",
+          "1_0010_Vector_teethSmart_Object.png"
+        ],
+        "correctAudioName": "teeth.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "helps taste and lick",
+        "questionImageName": "Vector_0005_1_0009_Vector_Smart_Object.png",
+        "questionAudioName": "What_helps_us_taste_and_lick.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box_111.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_0007_Vector_Smart_Object.png",
+          "1_0009_Vector_tongueSmart_tongueObject.png",
+          "1_0012_Vector_earSmart_Object.png"
+        ],
+        "correctAudioName": "tongue.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "helps turn head left and right",
+        "questionImageName": "Vector_0006_1_0008_Vector_Smart_Object.png",
+        "questionAudioName": "What_helps_us_turn_our_head_left_and_right.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box_111.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_0008_Vector_neckSmart_Object.png",
+          "1_0000_Vector_toeSmart_Object.png",
+          "1_0013_Vector_noseSmart_Object.png"
+        ],
+        "correctAudioName": "neck.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "helps carry bag",
+        "questionImageName": "Vector_0011_1_0003_Vector_Smart_Object.png",
+        "questionAudioName": "What_helps_us_carry_bag.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box_111.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_0010_Vector_teethSmart_Object.png",
+          "1_0002_Vector_Skneemart_Object.png",
+          "1_0004_Vector_handSmart_Object.png"
+        ],
+        "correctAudioName": "hands.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "helps protect the internal organs",
+        "questionImageName": "Vector_0008_1_0006_Vector_Smart_Object.png",
+        "questionAudioName": "What_helps_protect_the_internal_organs.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box_111.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_0006_Vector_chestSmart_Object.png",
+          "1_0012_Vector_earSmart_Object.png",
+          "1_0001_Vector_legmart_Object.png"
+        ],
+        "correctAudioName": "chest.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "helps to carry and hug loved ones",
+        "questionImageName": "Vector_0009_1_0005_Vector_Smart_Object.png",
+        "questionAudioName": "What_helps_us_to_carry_and_hug_loved_ones.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box_111.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_0008_Vector_neckSmart_Object.png",
+          "1_0005_Vector_handsSmart_Object.png",
+          "1_0000_Vector_toeSmart_Object.png"
+        ],
+        "correctAudioName": "hands.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "helps write and clap",
+        "questionImageName": "Vector_0010_1_0004_Vector_Smart_Object.png",
+        "questionAudioName": "What_helps_us_write_and_clap.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box_111.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_0004_Vector_handSmart_Object.png",
+          "1_0006_Vector_chestSmart_Object.png",
+          "1_0001_Vector_legmart_Object.png"
+        ],
+        "correctAudioName": "",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "helps to hold and grab",
+        "questionImageName": "Vector_0007_1_0007_Vector_Smart_Object.png",
+        "questionAudioName": "What_helps_us_to_hold_and_grab.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box_111.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_0010_Vector_teethSmart_Object.png",
+          "1_0014_Vector_eyeSmart_Object.png",
+          "1_0003_Vector_fingersSmart_Object.png"
+        ],
+        "correctAudioName": "Fingers.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "helps us kneel",
+        "questionImageName": "Vector_0012_1_0002_Vector_Smart_Object.png",
+        "questionAudioName": "What_helps_us_kneel.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box_111.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_0006_Vector_chestSmart_Object.png",
+          "1_0002_Vector_Skneemart_Object.png",
+          "1_0009_Vector_tongueSmart_tongueObject.png"
+        ],
+        "correctAudioName": "Knees.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "helps run and jump high",
+        "questionImageName": "Vector_0013_1_0001_Vector_Smart_Object.png",
+        "questionAudioName": "What_helps_us_run_and_jump_high.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box_111.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_0001_Vector_legmart_Object.png",
+          "1_0005_Vector_handsSmart_Object.png",
+          "1_0008_Vector_neckSmart_Object.png"
+        ],
+        "correctAudioName": "legs.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "helps walk/dance around",
+        "questionImageName": "Vector_0014_1_0000_Vector_Smart_Object.png",
+        "questionAudioName": "What_helps_us_walk_and_dance_around.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box_111.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_0011_Vector_Smart_Objouthect.png",
+          "1_0012_Vector_earSmart_Object.png",
+          "1_0000_Vector_toeSmart_Object.png"
+        ],
+        "correctAudioName": "feet.mp3",
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}

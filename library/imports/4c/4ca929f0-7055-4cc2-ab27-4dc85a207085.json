@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0010_Vector_teethSmart_Object",
+    "texture": "b5bd6c89-784d-4a5c-8b28-a845119a1c83",
+    "atlas": "",
+    "rect": [
+      15,
+      70,
+      270,
+      159
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b754aeba-7ad7-4858-b83a-c4a2a2f5d9d5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 300,
+  "height": 300,
+  "platformSettings": {},
+  "subMetas": {
+    "1_0012_Vector_earSmart_Object": {
+      "ver": "1.0.6",
+      "uuid": "1231fd5c-e42d-4d06-8a9c-ceb8f16fc0a6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b754aeba-7ad7-4858-b83a-c4a2a2f5d9d5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 0.5,
+      "trimX": 46,
+      "trimY": 18,
+      "width": 206,
+      "height": 263,
+      "rawWidth": 300,
+      "rawHeight": 300,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
