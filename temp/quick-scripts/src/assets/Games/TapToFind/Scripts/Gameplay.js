@@ -36,10 +36,7 @@ var Gameplay = /** @class */ (function (_super) {
     __extends(Gameplay, _super);
     function Gameplay() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.podar_font = null;
         _this.jaipuria_font = null;
-        _this.supercub_font = null;
-        _this.tlc_font = null;
         _this.options = null;
         _this.optionsLayout = "layout3";
         _this.correctAnswer = [];
@@ -59,31 +56,12 @@ var Gameplay = /** @class */ (function (_super) {
     }
     // LIFE-CYCLE CALLBACKS:
     Gameplay.prototype.onLoad = function () {
-        // this.options = this.node.getChildByName(this.optionsLayout);
-        // this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
     };
     Gameplay.prototype.LoadQuestion = function () {
         var _this = this;
-        if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
+        this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         var str = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].correctAnswerNum;
         this.correctAnswer = str.split('').map(function (char) { return parseInt(char); });
         this.optionsLayout = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionLayout;
@@ -95,7 +73,6 @@ var Gameplay = /** @class */ (function (_super) {
             cc.director.preloadScene("gameEnd");
         }
         console.log("levelStarted--" + StartGame_1.default.Instance.currentLevel);
-        // this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
         if (StartGame_1.default.Instance.isDemoGame) {
             cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionBgName, function (err, texture) {
                 if (err) {
@@ -151,7 +128,6 @@ var Gameplay = /** @class */ (function (_super) {
                     });
                 }
                 else {
-                    // console.log("option text = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     this_1.options.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
                 }
                 cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].optionsBg[i], function (err, texture) {
@@ -160,7 +136,7 @@ var Gameplay = /** @class */ (function (_super) {
                         return;
                     }
                     var spriteFrame = new cc.SpriteFrame(texture);
-                    _this.options.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    _this.options.getChildByName((i + 1).toString()).getChildByName("img1").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             };
             var this_1 = this;
@@ -200,7 +176,7 @@ var Gameplay = /** @class */ (function (_super) {
                     this_3.options.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
                 }
                 this_3.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].optionsBg[i], function (spriteFrame) {
-                    _this.options.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    _this.options.getChildByName((i + 1).toString()).getChildByName("img1").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             };
             var this_3 = this;
@@ -470,6 +446,7 @@ var Gameplay = /** @class */ (function (_super) {
             _clone.parent = node;
             _clone.setPosition(0, 0);
             _clone.setParentWithSamePos(this.node);
+            _clone.children[1].active = false;
             _clone.children[0].active = true;
             _clone.children[0].opacity = 0;
             node.active = false;
@@ -746,16 +723,7 @@ var Gameplay = /** @class */ (function (_super) {
     };
     __decorate([
         property(cc.Font)
-    ], Gameplay.prototype, "podar_font", void 0);
-    __decorate([
-        property(cc.Font)
     ], Gameplay.prototype, "jaipuria_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], Gameplay.prototype, "supercub_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], Gameplay.prototype, "tlc_font", void 0);
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "pop_audio", void 0);

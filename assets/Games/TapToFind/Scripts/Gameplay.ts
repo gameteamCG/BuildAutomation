@@ -13,15 +13,8 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class Gameplay extends cc.Component {
 
-
-    @property(cc.Font)
-    private podar_font: cc.Font = null;
     @property(cc.Font)
     private jaipuria_font: cc.Font = null;
-    @property(cc.Font)
-    private supercub_font: cc.Font = null;
-    @property(cc.Font)
-    private tlc_font: cc.Font = null;
 
     private options: cc.Node = null;
 
@@ -50,31 +43,12 @@ export default class Gameplay extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
-        // this.options = this.node.getChildByName(this.optionsLayout);
-        // this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
     }
 
     LoadQuestion() {
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
+        this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         let str = startGame.Instance.questions[startGame.Instance.currentLevel - 1].correctAnswerNum;
         this.correctAnswer = str.split('').map(char => parseInt(char));
         this.optionsLayout = startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionLayout;
@@ -86,11 +60,6 @@ export default class Gameplay extends cc.Component {
             cc.director.preloadScene("gameEnd");
         }
         console.log(`levelStarted--` + startGame.Instance.currentLevel);
-
-        // this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
-
-
-
         if (startGame.Instance.isDemoGame) {
             cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionBgName, (err, texture) => {
                 if (err) {
@@ -143,7 +112,6 @@ export default class Gameplay extends cc.Component {
                     });
                 }
                 else {
-                    // console.log("option text = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     this.options.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[startGame.Instance.currentLevel - 1].options[i];
                 }
                 cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].optionsBg[i], (err, texture) => {
@@ -152,7 +120,7 @@ export default class Gameplay extends cc.Component {
                         return;
                     }
                     const spriteFrame = new cc.SpriteFrame(texture);
-                    this.options.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    this.options.getChildByName((i + 1).toString()).getChildByName("img1").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
         }
@@ -186,7 +154,7 @@ export default class Gameplay extends cc.Component {
                     this.options.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[startGame.Instance.currentLevel - 1].options[i];
                 }
                 this.loadSpriteFrame(startGame.Instance.questions[startGame.Instance.currentLevel - 1].optionsBg[i], (spriteFrame) => {
-                    this.options.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    this.options.getChildByName((i + 1).toString()).getChildByName("img1").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
         }
@@ -452,6 +420,7 @@ export default class Gameplay extends cc.Component {
             _clone.parent = node;
             _clone.setPosition(0, 0);
             _clone.setParentWithSamePos(this.node);
+            _clone.children[1].active = false;
             _clone.children[0].active = true;
             _clone.children[0].opacity = 0;
             node.active = false;
