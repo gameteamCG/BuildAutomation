@@ -638,8 +638,8 @@ var NewClass = /** @class */ (function (_super) {
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
-            _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-            _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+            // this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+            // this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(_this.positiveSound[0], false);
             _this.scheduleOnce(function () {
                 ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
@@ -661,44 +661,44 @@ var NewClass = /** @class */ (function (_super) {
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(function () {
-                    _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-                    _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                    // this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+                    // this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                     cc.audioEngine.playEffect(_this.positiveSound[0], false);
-                    _this.scheduleOnce(function () {
-                        _this.canTouch = true;
-                        _this.canPlay = true;
-                        if (TVInputManager_1.default.Instance)
-                            TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
-                        _this.correctAnswerCount++;
-                        if (_this.correctAnswerCount == _this.totalAnswers) {
-                            for (var i = 0; i < _this.node.getChildByName("Option").children.length; i++) {
-                                if (_this.isDone[i] == false) {
-                                    _this.node.getChildByName("Option").children[i].destroy();
-                                }
+                    // this.scheduleOnce(() => {
+                    _this.canTouch = true;
+                    _this.canPlay = true;
+                    if (TVInputManager_1.default.Instance)
+                        TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
+                    _this.correctAnswerCount++;
+                    if (_this.correctAnswerCount == _this.totalAnswers) {
+                        for (var i = 0; i < _this.node.getChildByName("Option").children.length; i++) {
+                            if (_this.isDone[i] == false) {
+                                _this.node.getChildByName("Option").children[i].destroy();
                             }
-                            _this.scheduleOnce(function () {
-                                _this.node.getChildByName("Option").children.forEach(function (elem) {
-                                    elem.getChildByName("img").color = cc.Color.WHITE;
-                                });
-                                _this.isLastTween = true;
-                                _this.OptionsLayoutHorizontal();
-                                _this.canTouch = false;
-                                _this.canPlay = false;
-                                if (TVInputManager_1.default.Instance)
-                                    TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
-                                ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
-                                _this.scheduleOnce(function () {
-                                    ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
-                                    _this.scheduleOnce(function () {
-                                        cc.tween(_this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                                        _this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
-                                        // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
-                                        _this.callJockey();
-                                    }, 1);
-                                }, 1.5);
-                            }, 1);
                         }
-                    }, 0.5);
+                        _this.scheduleOnce(function () {
+                            _this.node.getChildByName("Option").children.forEach(function (elem) {
+                                elem.getChildByName("img").color = cc.Color.WHITE;
+                            });
+                            _this.isLastTween = true;
+                            _this.OptionsLayoutHorizontal();
+                            _this.canTouch = false;
+                            _this.canPlay = false;
+                            if (TVInputManager_1.default.Instance)
+                                TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
+                            ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
+                            _this.scheduleOnce(function () {
+                                ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
+                                _this.scheduleOnce(function () {
+                                    cc.tween(_this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                                    _this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                                    // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
+                                    _this.callJockey();
+                                }, 1);
+                            }, 1.5);
+                        }, 1);
+                    }
+                    // }, 0.5);
                 }, this.correctAudio[voIndex].duration);
                 break;
             case "TapToCollect":
@@ -706,48 +706,48 @@ var NewClass = /** @class */ (function (_super) {
                 this.scheduleOnce(function () {
                     _this.node.getChildByName("QuestionBox1").zIndex = 1;
                     _this.node.getChildByName("QuestionBox").zIndex = 1;
-                    _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-                    _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                    // this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+                    // this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                     cc.audioEngine.playEffect(_this.positiveSound[0], false);
+                    // this.scheduleOnce(() => {
+                    var imgScale = _node.getChildByName("img").scale / 2;
+                    //console.log("Scale : ", imgScale);
+                    var imgName = _node.getChildByName("img").name + _this.correctAnswerCount + 1;
+                    _node.getChildByName("img").name = imgName;
+                    _node.getChildByName(imgName).setParentWithSamePos(_this.node.getChildByName("QuestionBox1"));
+                    var pos = _this.node.getChildByName("QuestionBox1").getChildByName(imgName).getPosition();
+                    var thirdBox = _this.node.getChildByName("QuestionBox1").getChildByName("ThirdObject");
+                    var xRandom = _this.getRandomNumber(-thirdBox.width / 4, thirdBox.width / 4);
+                    _this.node.getChildByName("QuestionBox1").getChildByName(imgName).scale = imgScale;
+                    //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
+                    //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: 0 }, { easing: "sineInOut" }).start();
+                    cc.tween(_this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
+                    cc.tween(_this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: imgScale * 0.5 }, { easing: "sineInOut" }).start();
                     _this.scheduleOnce(function () {
-                        var imgScale = _node.getChildByName("img").scale / 2;
-                        //console.log("Scale : ", imgScale);
-                        var imgName = _node.getChildByName("img").name + _this.correctAnswerCount + 1;
-                        _node.getChildByName("img").name = imgName;
-                        _node.getChildByName(imgName).setParentWithSamePos(_this.node.getChildByName("QuestionBox1"));
-                        var pos = _this.node.getChildByName("QuestionBox1").getChildByName(imgName).getPosition();
-                        var thirdBox = _this.node.getChildByName("QuestionBox1").getChildByName("ThirdObject");
-                        var xRandom = _this.getRandomNumber(-thirdBox.width / 4, thirdBox.width / 4);
-                        _this.node.getChildByName("QuestionBox1").getChildByName(imgName).scale = imgScale;
-                        //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
-                        //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: 0 }, { easing: "sineInOut" }).start();
-                        cc.tween(_this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
-                        cc.tween(_this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: imgScale * 0.5 }, { easing: "sineInOut" }).start();
-                        _this.scheduleOnce(function () {
-                            _node.destroy();
-                            _this.canTouch = true;
-                            _this.canPlay = true;
+                        _node.destroy();
+                        _this.canTouch = true;
+                        _this.canPlay = true;
+                        if (TVInputManager_1.default.Instance)
+                            TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
+                        _this.correctAnswerCount++;
+                        if (_this.correctAnswerCount == _this.totalAnswers) {
+                            _this.canTouch = false;
+                            _this.canPlay = false;
                             if (TVInputManager_1.default.Instance)
                                 TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
-                            _this.correctAnswerCount++;
-                            if (_this.correctAnswerCount == _this.totalAnswers) {
-                                _this.canTouch = false;
-                                _this.canPlay = false;
-                                if (TVInputManager_1.default.Instance)
-                                    TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
-                                ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
+                            ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
+                            _this.scheduleOnce(function () {
+                                ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
                                 _this.scheduleOnce(function () {
-                                    ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
-                                    _this.scheduleOnce(function () {
-                                        cc.tween(_this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                                        _this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
-                                        // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
-                                        _this.callJockey();
-                                    }, 1);
-                                }, 1.5);
-                            }
-                        }, 0.5);
+                                    cc.tween(_this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                                    _this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                                    // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
+                                    _this.callJockey();
+                                }, 1);
+                            }, 1.5);
+                        }
                     }, 0.5);
+                    // }, 0.5);
                 }, this.correctAudio[voIndex].duration);
                 break;
             case "ObjectsTweenIn":
@@ -756,45 +756,45 @@ var NewClass = /** @class */ (function (_super) {
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(function () {
-                    _this.node.getChildByName("confetti").setPosition(_node.x, _node.y + 100);
-                    _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                    // this.node.getChildByName("confetti").setPosition(_node.x, _node.y + 100);
+                    // this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                     cc.audioEngine.playEffect(_this.positiveSound[0], false);
-                    _this.scheduleOnce(function () {
-                        //_node.destroy();
-                        _this.canTouch = true;
-                        _this.canPlay = true;
+                    // this.scheduleOnce(() => {
+                    //_node.destroy();
+                    _this.canTouch = true;
+                    _this.canPlay = true;
+                    if (TVInputManager_1.default.Instance)
+                        TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
+                    _this.correctAnswerCount++;
+                    if (_this.correctAnswerCount == _this.totalAnswers) {
+                        for (var i = 0; i < _this.node.getChildByName("Option").children.length; i++) {
+                            if (_this.isDone[i] == false) {
+                                _this.node.getChildByName("Option").children[i].destroy();
+                            }
+                        }
+                        _this.canTouch = false;
+                        _this.canPlay = false;
                         if (TVInputManager_1.default.Instance)
                             TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
-                        _this.correctAnswerCount++;
-                        if (_this.correctAnswerCount == _this.totalAnswers) {
-                            for (var i = 0; i < _this.node.getChildByName("Option").children.length; i++) {
-                                if (_this.isDone[i] == false) {
-                                    _this.node.getChildByName("Option").children[i].destroy();
-                                }
-                            }
-                            _this.canTouch = false;
-                            _this.canPlay = false;
-                            if (TVInputManager_1.default.Instance)
-                                TVInputManager_1.default.Instance.setCanSelect(_this.canPlay);
+                        _this.scheduleOnce(function () {
+                            _this.node.getChildByName("Option").children.forEach(function (elem) {
+                                elem.getChildByName("img").color = cc.Color.WHITE;
+                            });
+                            _this.isLastTween = true;
+                            _this.OptionsLayoutHorizontal();
+                            ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
                             _this.scheduleOnce(function () {
-                                _this.node.getChildByName("Option").children.forEach(function (elem) {
-                                    elem.getChildByName("img").color = cc.Color.WHITE;
-                                });
-                                _this.isLastTween = true;
-                                _this.OptionsLayoutHorizontal();
-                                ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
+                                ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
                                 _this.scheduleOnce(function () {
-                                    ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
-                                    _this.scheduleOnce(function () {
-                                        cc.tween(_this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                                        _this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
-                                        // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
-                                        _this.callJockey();
-                                    }, 1);
-                                }, 1.5);
-                            }, 1);
-                        }
-                    }, 0.5);
+                                    cc.tween(_this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                                    _this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                                    // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
+                                    _this.callJockey();
+                                }, 1);
+                            }, 1.5);
+                        }, 1);
+                    }
+                    // }, 0.5);
                 }, this.correctAudio[voIndex].duration);
                 break;
             default:

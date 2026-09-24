@@ -679,8 +679,8 @@ export default class NewClass extends cc.Component {
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
-            this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-            this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+            // this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+            // this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(this.positiveSound[0], false);
             this.scheduleOnce(() => {
                 ProgressBar.Instance.createStarTrails(6, this.node);
@@ -702,42 +702,42 @@ export default class NewClass extends cc.Component {
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {
-                    this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-                    this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                    // this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+                    // this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                     cc.audioEngine.playEffect(this.positiveSound[0], false);
-                    this.scheduleOnce(() => {
-                        this.canTouch = true;
-                        this.canPlay = true;
-                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
-                        this.correctAnswerCount++;
-                        if (this.correctAnswerCount == this.totalAnswers) {
-                            for (let i = 0; i < this.node.getChildByName("Option").children.length; i++) {
-                                if (this.isDone[i] == false) {
-                                    this.node.getChildByName("Option").children[i].destroy();
-                                }
+                    // this.scheduleOnce(() => {
+                    this.canTouch = true;
+                    this.canPlay = true;
+                    if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+                    this.correctAnswerCount++;
+                    if (this.correctAnswerCount == this.totalAnswers) {
+                        for (let i = 0; i < this.node.getChildByName("Option").children.length; i++) {
+                            if (this.isDone[i] == false) {
+                                this.node.getChildByName("Option").children[i].destroy();
                             }
-                            this.scheduleOnce(() => {
-                                this.node.getChildByName("Option").children.forEach(elem => {
-                                    elem.getChildByName("img").color = cc.Color.WHITE;
-                                });
-                                this.isLastTween = true;
-                                this.OptionsLayoutHorizontal();
-                                this.canTouch = false;
-                                this.canPlay = false;
-                                if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
-                                ProgressBar.Instance.createStarTrails(6, this.node);
-                                this.scheduleOnce(() => {
-                                    ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
-                                    this.scheduleOnce(() => {
-                                        cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                                        this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
-                                        // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
-                                        this.callJockey();
-                                    }, 1);
-                                }, 1.5);
-                            }, 1);
                         }
-                    }, 0.5);
+                        this.scheduleOnce(() => {
+                            this.node.getChildByName("Option").children.forEach(elem => {
+                                elem.getChildByName("img").color = cc.Color.WHITE;
+                            });
+                            this.isLastTween = true;
+                            this.OptionsLayoutHorizontal();
+                            this.canTouch = false;
+                            this.canPlay = false;
+                            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+                            ProgressBar.Instance.createStarTrails(6, this.node);
+                            this.scheduleOnce(() => {
+                                ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
+                                this.scheduleOnce(() => {
+                                    cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                                    this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                                    // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
+                                    this.callJockey();
+                                }, 1);
+                            }, 1.5);
+                        }, 1);
+                    }
+                    // }, 0.5);
                 }, this.correctAudio[voIndex].duration);
                 break;
             case "TapToCollect":
@@ -745,47 +745,47 @@ export default class NewClass extends cc.Component {
                 this.scheduleOnce(() => {
                     this.node.getChildByName("QuestionBox1").zIndex = 1;
                     this.node.getChildByName("QuestionBox").zIndex = 1;
-                    this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-                    this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                    // this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+                    // this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                     cc.audioEngine.playEffect(this.positiveSound[0], false);
-                    this.scheduleOnce(() => {
-                        let imgScale: number = _node.getChildByName("img").scale / 2;
-                        //console.log("Scale : ", imgScale);
-                        let imgName: string = _node.getChildByName("img").name + this.correctAnswerCount + 1;
-                        _node.getChildByName("img").name = imgName;
-                        _node.getChildByName(imgName).setParentWithSamePos(this.node.getChildByName("QuestionBox1"));
-                        let pos: cc.Vec2 = this.node.getChildByName("QuestionBox1").getChildByName(imgName).getPosition();
-                        let thirdBox: cc.Node = this.node.getChildByName("QuestionBox1").getChildByName("ThirdObject");
-                        let xRandom: number = this.getRandomNumber(-thirdBox.width / 4, thirdBox.width / 4);
-                        this.node.getChildByName("QuestionBox1").getChildByName(imgName).scale = imgScale;
-                        //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
-                        //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: 0 }, { easing: "sineInOut" }).start();
-                        cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
-                        cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: imgScale * 0.5 }, { easing: "sineInOut" }).start();
+                    // this.scheduleOnce(() => {
+                    let imgScale: number = _node.getChildByName("img").scale / 2;
+                    //console.log("Scale : ", imgScale);
+                    let imgName: string = _node.getChildByName("img").name + this.correctAnswerCount + 1;
+                    _node.getChildByName("img").name = imgName;
+                    _node.getChildByName(imgName).setParentWithSamePos(this.node.getChildByName("QuestionBox1"));
+                    let pos: cc.Vec2 = this.node.getChildByName("QuestionBox1").getChildByName(imgName).getPosition();
+                    let thirdBox: cc.Node = this.node.getChildByName("QuestionBox1").getChildByName("ThirdObject");
+                    let xRandom: number = this.getRandomNumber(-thirdBox.width / 4, thirdBox.width / 4);
+                    this.node.getChildByName("QuestionBox1").getChildByName(imgName).scale = imgScale;
+                    //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
+                    //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: 0 }, { easing: "sineInOut" }).start();
+                    cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
+                    cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: imgScale * 0.5 }, { easing: "sineInOut" }).start();
 
-                        this.scheduleOnce(() => {
-                            _node.destroy();
-                            this.canTouch = true;
-                            this.canPlay = true;
+                    this.scheduleOnce(() => {
+                        _node.destroy();
+                        this.canTouch = true;
+                        this.canPlay = true;
+                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+                        this.correctAnswerCount++;
+                        if (this.correctAnswerCount == this.totalAnswers) {
+                            this.canTouch = false;
+                            this.canPlay = false;
                             if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
-                            this.correctAnswerCount++;
-                            if (this.correctAnswerCount == this.totalAnswers) {
-                                this.canTouch = false;
-                                this.canPlay = false;
-                                if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
-                                ProgressBar.Instance.createStarTrails(6, this.node);
+                            ProgressBar.Instance.createStarTrails(6, this.node);
+                            this.scheduleOnce(() => {
+                                ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
                                 this.scheduleOnce(() => {
-                                    ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
-                                    this.scheduleOnce(() => {
-                                        cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                                        this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
-                                        // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
-                                        this.callJockey();
-                                    }, 1);
-                                }, 1.5);
-                            }
-                        }, 0.5);
+                                    cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                                    this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                                    // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
+                                    this.callJockey();
+                                }, 1);
+                            }, 1.5);
+                        }
                     }, 0.5);
+                    // }, 0.5);
                 }, this.correctAudio[voIndex].duration);
                 break;
             case "ObjectsTweenIn":
@@ -794,43 +794,43 @@ export default class NewClass extends cc.Component {
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {
-                    this.node.getChildByName("confetti").setPosition(_node.x, _node.y + 100);
-                    this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                    // this.node.getChildByName("confetti").setPosition(_node.x, _node.y + 100);
+                    // this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                     cc.audioEngine.playEffect(this.positiveSound[0], false);
-                    this.scheduleOnce(() => {
-                        //_node.destroy();
-                        this.canTouch = true;
-                        this.canPlay = true;
-                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
-                        this.correctAnswerCount++;
-                        if (this.correctAnswerCount == this.totalAnswers) {
-                            for (let i = 0; i < this.node.getChildByName("Option").children.length; i++) {
-                                if (this.isDone[i] == false) {
-                                    this.node.getChildByName("Option").children[i].destroy();
-                                }
+                    // this.scheduleOnce(() => {
+                    //_node.destroy();
+                    this.canTouch = true;
+                    this.canPlay = true;
+                    if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+                    this.correctAnswerCount++;
+                    if (this.correctAnswerCount == this.totalAnswers) {
+                        for (let i = 0; i < this.node.getChildByName("Option").children.length; i++) {
+                            if (this.isDone[i] == false) {
+                                this.node.getChildByName("Option").children[i].destroy();
                             }
-                            this.canTouch = false;
-                            this.canPlay = false;
-                            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
-                            this.scheduleOnce(() => {
-                                this.node.getChildByName("Option").children.forEach(elem => {
-                                    elem.getChildByName("img").color = cc.Color.WHITE;
-                                });
-                                this.isLastTween = true;
-                                this.OptionsLayoutHorizontal();
-                                ProgressBar.Instance.createStarTrails(6, this.node);
-                                this.scheduleOnce(() => {
-                                    ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
-                                    this.scheduleOnce(() => {
-                                        cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                                        this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
-                                        // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
-                                        this.callJockey();
-                                    }, 1);
-                                }, 1.5);
-                            }, 1);
                         }
-                    }, 0.5);
+                        this.canTouch = false;
+                        this.canPlay = false;
+                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+                        this.scheduleOnce(() => {
+                            this.node.getChildByName("Option").children.forEach(elem => {
+                                elem.getChildByName("img").color = cc.Color.WHITE;
+                            });
+                            this.isLastTween = true;
+                            this.OptionsLayoutHorizontal();
+                            ProgressBar.Instance.createStarTrails(6, this.node);
+                            this.scheduleOnce(() => {
+                                ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
+                                this.scheduleOnce(() => {
+                                    cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                                    this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                                    // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
+                                    this.callJockey();
+                                }, 1);
+                            }, 1.5);
+                        }, 1);
+                    }
+                    // }, 0.5);
                 }, this.correctAudio[voIndex].duration);
                 break;
             default:
