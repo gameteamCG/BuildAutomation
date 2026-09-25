@@ -48,8 +48,7 @@ var Jockey = /** @class */ (function (_super) {
         // cc.game.addPersistRootNode(this.node);
         Jockey_1.instance = this;
     };
-    Jockey.prototype.start = function () {
-    };
+    Jockey.prototype.start = function () { };
     Jockey.prototype.CallJockey = function (_animName, _loop, _isMultipleAnim, _secondAnimName, _isSecondLoop, _waitTime) {
         if (_loop === void 0) { _loop = false; }
         if (_isMultipleAnim === void 0) { _isMultipleAnim = false; }
@@ -58,7 +57,9 @@ var Jockey = /** @class */ (function (_super) {
         if (_waitTime === void 0) { _waitTime = 0; }
         this.node.getComponent(sp.Skeleton).setAnimation(0, _animName, _loop);
         if (_isMultipleAnim) {
-            this.node.getComponent(sp.Skeleton).addAnimation(0, _secondAnimName, _isSecondLoop, 8);
+            this.node
+                .getComponent(sp.Skeleton)
+                .addAnimation(0, _secondAnimName, _isSecondLoop, 8);
         }
     };
     var Jockey_1;

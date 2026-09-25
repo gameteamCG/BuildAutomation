@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Domestic_animals_and_their_young_ones",
+    "texture": "048c9c38-05bc-44e5-85ee-8e3e07c6fb1c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      990,
+      202
+    ],
+    "offset": [
+      0,
+      5.5
+    ],
+    "originalSize": [
+      990,
+      213
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
