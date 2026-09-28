@@ -20,7 +20,7 @@
         "__id__": 23
       },
       {
-        "__id__": 70
+        "__id__": 69
       }
     ],
     "_active": false,
@@ -84,10 +84,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 68
+        "__id__": 67
       },
       {
-        "__id__": 69
+        "__id__": 68
       }
     ],
     "_prefab": null,
@@ -260,10 +260,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 66
+        "__id__": 65
       },
       {
-        "__id__": 67
+        "__id__": 66
       }
     ],
     "_prefab": null,
@@ -416,7 +416,7 @@
     "node": {
       "__id__": 6
     },
-    "_enabled": true,
+    "_enabled": false,
     "_defaultClip": {
       "__uuid__": "7deb062c-5ea8-424a-8c67-d1023dc84cb3"
     },
@@ -1017,7 +1017,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "a5cffc4b-aa24-4750-aa94-a4d1bf8be1e3"
+      "__uuid__": "830be3f1-8bb1-4ed5-98f5-c2f7d9f755db"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -1174,7 +1174,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 65
+        "__id__": 64
       }
     ],
     "_prefab": null,
@@ -2968,9 +2968,7 @@
         "__id__": 63
       }
     ],
-    "_prefab": {
-      "__id__": 64
-    },
+    "_prefab": null,
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -3059,17 +3057,6 @@
     "_N$useTint": false,
     "_N$enableBatch": false,
     "_id": "96nEFtrd9LK7J2HDAxtHsY"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 62
-    },
-    "asset": {
-      "__uuid__": "1d4aa52b-2d51-4e1c-9271-bf35a891d83d"
-    },
-    "fileId": "",
-    "sync": false
   },
   {
     "__type__": "d21cdcOFCVMG565duKHxBWs",
@@ -3193,7 +3180,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 71
+        "__id__": 70
       }
     ],
     "_prefab": null,
@@ -3249,7 +3236,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 70
+      "__id__": 69
     },
     "_enabled": true,
     "label": null,
