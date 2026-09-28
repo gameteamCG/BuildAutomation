@@ -476,7 +476,9 @@
         "__uuid__": "fa0df1a1-201d-4ca5-bfb0-ad27ac997d0b"
       }
     ],
-    "jaipuria_font": null,
+    "jaipuria_font": {
+      "__uuid__": "91288d5e-fe60-4495-8686-44915bfd05b8"
+    },
     "podar_font": null,
     "tlc_font": null,
     "supercub_font": null,
@@ -2352,7 +2354,7 @@
     "_lineHeight": 65,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "91288d5e-fe60-4495-8686-44915bfd05b8"
+      "__uuid__": "38bddcd8-a0c0-4692-97f6-23fa7de58a99"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -2362,7 +2364,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "4dJuO4IsxGWKyLqgNAA5I0"
   },
@@ -2716,7 +2718,7 @@
     "_lineHeight": 50,
     "_enableWrapText": false,
     "_N$file": {
-      "__uuid__": "91288d5e-fe60-4495-8686-44915bfd05b8"
+      "__uuid__": "38bddcd8-a0c0-4692-97f6-23fa7de58a99"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -3287,7 +3289,7 @@
     "_lineHeight": 50,
     "_enableWrapText": false,
     "_N$file": {
-      "__uuid__": "91288d5e-fe60-4495-8686-44915bfd05b8"
+      "__uuid__": "38bddcd8-a0c0-4692-97f6-23fa7de58a99"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -3858,7 +3860,7 @@
     "_lineHeight": 50,
     "_enableWrapText": false,
     "_N$file": {
-      "__uuid__": "91288d5e-fe60-4495-8686-44915bfd05b8"
+      "__uuid__": "38bddcd8-a0c0-4692-97f6-23fa7de58a99"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -4429,7 +4431,7 @@
     "_lineHeight": 50,
     "_enableWrapText": false,
     "_N$file": {
-      "__uuid__": "91288d5e-fe60-4495-8686-44915bfd05b8"
+      "__uuid__": "38bddcd8-a0c0-4692-97f6-23fa7de58a99"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,

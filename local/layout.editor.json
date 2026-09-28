@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 204,
+            "width": 204.0699920654297,
             "height": 556.5199584960938,
             "type": "dock-v",
             "children": [
               {
-                "width": 204,
-                "height": 279.4499816894531,
+                "width": 204.0699920654297,
+                "height": 278.7599792480469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 204,
-                "height": 274.05999755859375,
+                "width": 204.0699920654297,
+                "height": 274.7599792480469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 676.3099975585938,
+            "width": 676.239990234375,
             "height": 556.5199584960938,
             "type": "dock-v",
             "children": [
               {
-                "width": 676.3099975585938,
-                "height": 279.4499816894531,
+                "width": 676.239990234375,
+                "height": 278.7599792480469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 676.3099975585938,
-                "height": 274.05999755859375,
+                "width": 676.239990234375,
+                "height": 274.7599792480469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 343.1300048828125,
+            "width": 343.1199951171875,
             "height": 556.5199584960938,
             "type": "panel",
             "active": 0,
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1790574470717": {}
+    "window-1790580667826": {}
   },
   "panels": {
     "project-settings": {

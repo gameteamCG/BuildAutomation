@@ -17,7 +17,7 @@ interface QuestionData {
     PlayQuestionAudio: boolean;
     IsOptionText: boolean;
     NumberOfOptions: number;
-    Options: string[]; // Contains text options or image names based on IsOptionText flag
+    Options: string[];
     ReiterationAudioName: string;
     CorrectAudioName: string;
     WrongAudioName: string;
