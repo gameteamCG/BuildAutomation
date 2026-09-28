@@ -24,23 +24,23 @@ export default class NewClass extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
-            this.scheduleOnce(() => {
-                this.node.getChildByName("end").active = true;
-            }, 2);
-        }
+        // if (startGame.Instance.jockeyName == "Podar") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
+        // }
+        // else if (startGame.Instance.jockeyName == "supercub") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
+        // }
+        // else if (startGame.Instance.jockeyName == "tlc") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
+        // }
+        // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
+        //     this.scheduleOnce(() => {
+        //         this.node.getChildByName("end").active = true;
+        //     }, 2);
+        // }
 
-        this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
+        // this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
     }
 
     start() {
@@ -74,17 +74,27 @@ export default class NewClass extends cc.Component {
         this.scheduleOnce(() => {
             this.node.getComponent(cc.AudioSource).clip = this.yeah[0];
             this.node.getComponent(cc.AudioSource).play();
+            this.node.getChildByName("end").active = true;
             console.log("gameEnded--true");
         }, 2.3);
 
 
     }
 
-    OnEndBtn(_event: cc.Event) {
-        window.close();
+    EndButton() {
+        cc.audioEngine.playEffect(startGame.Instance.play_audio, false);
+        closeWindow();
     }
 
 
 
+
+
+
+
     // update (dt) {}
+}
+const closeWindow = () => {
+    window.open(location.href, "_self", "");
+    window.close()
 }

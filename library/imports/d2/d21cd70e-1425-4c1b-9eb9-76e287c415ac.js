@@ -28,6 +28,8 @@ var startGame = /** @class */ (function (_super) {
     __extends(startGame, _super);
     function startGame() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.loadingBar = null;
+        _this.play_audio = null;
         _this.BGM_audio = null;
         _this.volume = 1;
         _this.NextSceneName = "1";
@@ -83,6 +85,24 @@ var startGame = /** @class */ (function (_super) {
             if (element.name == "jockey") {
                 _this.JockeyNode = element;
             }
+        });
+    };
+    startGame.prototype.OnStartGame = function (_event) {
+        cc.audioEngine.playEffect(this.play_audio, false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        _event.target.active = false;
+        this.loadSceneWithProgress();
+    };
+    startGame.prototype.loadSceneWithProgress = function () {
+        var _this = this;
+        if (this.loadingBar) {
+            this.loadingBar.node.active = true;
+        }
+        cc.director.preloadScene(this.NextSceneName, function (completedCount, totalCount) {
+            var progress = completedCount / totalCount;
+            _this.loadingBar.progress = progress;
+        }, function () {
+            cc.director.loadScene(_this.NextSceneName);
         });
     };
     startGame.prototype.logData = function () {
@@ -383,6 +403,12 @@ var startGame = /** @class */ (function (_super) {
     };
     var startGame_1;
     startGame.instance = null;
+    __decorate([
+        property(cc.ProgressBar)
+    ], startGame.prototype, "loadingBar", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], startGame.prototype, "play_audio", void 0);
     __decorate([
         property(cc.AudioClip)
     ], startGame.prototype, "BGM_audio", void 0);
