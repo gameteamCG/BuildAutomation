@@ -14,14 +14,14 @@ export default class NewClass extends cc.Component {
     @property(cc.AudioClip)
     private yeah: cc.AudioClip[] = [];
 
-    @property(cc.SpriteFrame)
-    private podarEnd: cc.SpriteFrame = null;
-    @property(cc.SpriteFrame)
-    private jaipuriaEnd: cc.SpriteFrame = null;
-    @property(cc.SpriteFrame)
-    private tlcEnd: cc.SpriteFrame = null;
-    @property(cc.SpriteFrame)
-    private supercubEnd: cc.SpriteFrame = null;
+    // @property(cc.SpriteFrame)
+    // private podarEnd: cc.SpriteFrame = null;
+    // @property(cc.SpriteFrame)
+    // private jaipuriaEnd: cc.SpriteFrame = null;
+    // @property(cc.SpriteFrame)
+    // private tlcEnd: cc.SpriteFrame = null;
+    // @property(cc.SpriteFrame)
+    // private supercubEnd: cc.SpriteFrame = null;
 
     // LIFE-CYCLE CALLBACKS:
 

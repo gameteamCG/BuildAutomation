@@ -32,13 +32,17 @@ var NewClass = /** @class */ (function (_super) {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.star = [];
         _this.yeah = [];
-        _this.podarEnd = null;
-        _this.jaipuriaEnd = null;
-        _this.tlcEnd = null;
-        _this.supercubEnd = null;
         return _this;
         // update (dt) {}
     }
+    // @property(cc.SpriteFrame)
+    // private podarEnd: cc.SpriteFrame = null;
+    // @property(cc.SpriteFrame)
+    // private jaipuriaEnd: cc.SpriteFrame = null;
+    // @property(cc.SpriteFrame)
+    // private tlcEnd: cc.SpriteFrame = null;
+    // @property(cc.SpriteFrame)
+    // private supercubEnd: cc.SpriteFrame = null;
     // LIFE-CYCLE CALLBACKS:
     NewClass.prototype.onLoad = function () {
         var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
@@ -105,18 +109,6 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "yeah", void 0);
-    __decorate([
-        property(cc.SpriteFrame)
-    ], NewClass.prototype, "podarEnd", void 0);
-    __decorate([
-        property(cc.SpriteFrame)
-    ], NewClass.prototype, "jaipuriaEnd", void 0);
-    __decorate([
-        property(cc.SpriteFrame)
-    ], NewClass.prototype, "tlcEnd", void 0);
-    __decorate([
-        property(cc.SpriteFrame)
-    ], NewClass.prototype, "supercubEnd", void 0);
     NewClass = __decorate([
         ccclass
     ], NewClass);

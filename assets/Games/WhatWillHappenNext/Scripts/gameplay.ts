@@ -8,17 +8,8 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class NewClass extends cc.Component {
 
-    @property(cc.Font)
-    private podar_font: cc.Font = null;
-    @property(cc.Font)
-    private jaipuria_font: cc.Font = null;
-    @property(cc.Font)
-    private tlc_font: cc.Font = null;
-    @property(cc.Font)
-    private supercub_font: cc.Font = null;
-    @property(cc.AudioClip)
+    @property([cc.AudioClip])
     private popSound: cc.AudioClip[] = [];
-    @property(cc.AudioClip)
     private questionSound: cc.AudioClip[] = [];
 
     @property(cc.AudioClip)
@@ -60,22 +51,6 @@ export default class NewClass extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
         this.optionsNode = this.node.getChildByName("Option");
         this.GenerateOptions();
         this.maxLevel = startGame.Instance.totalLevels;
@@ -110,7 +85,6 @@ export default class NewClass extends cc.Component {
                         return;
                     }
                     const spriteFrame = new cc.SpriteFrame(texture);
-                    // this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
                         this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
@@ -127,7 +101,6 @@ export default class NewClass extends cc.Component {
             });
             for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
-                    // console.log("option img = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (err, texture) => {
                         if (err) {
                             console.error("Failed to load image:", err);
@@ -138,26 +111,10 @@ export default class NewClass extends cc.Component {
                     });
                 }
                 else {
-                    // console.log("option text = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i];
                 }
             }
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option1ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("1").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option2ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("2").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
+
         }
         else {
             this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (AudioClip) => {
@@ -168,7 +125,6 @@ export default class NewClass extends cc.Component {
             });
             if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName != "") {
                 this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName, (spriteFrame) => {
-                    // this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
                         this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
@@ -191,7 +147,6 @@ export default class NewClass extends cc.Component {
                 }
             }
         }
-        //startGame.Instance.jockeyName = "Podar";
         this.currentJcokey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
     }
 
@@ -243,9 +198,7 @@ export default class NewClass extends cc.Component {
     callThirdObjectIn() {
         this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
-        // this.node.getChildByName("questionPanel").opacity = 255;
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
-        // this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
 
         this.OptionsLayoutVertical();
         this.reverseOptionsLayout();
@@ -255,7 +208,8 @@ export default class NewClass extends cc.Component {
         }
         this.scheduleOnce(() => {
             this.scheduleOnce(() => {
-                cc.audioEngine.playEffect(this.popSound[0], false);
+                // cc.audioEngine.playEffect(this.popSound[0], false);
+                if (this.popSound[0]) cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(this.node.getChildByName("QuestionBox"))
                     .to(1, { scale: 1 }, { easing: "sineInOut" }).start();
             }, 0.1);
@@ -287,7 +241,8 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("Option").children[i - 1].scale = 0;
             this.node.getChildByName("Option").children[i - 1].opacity = 255;
             this.scheduleOnce(() => {
-                cc.audioEngine.playEffect(this.popSound[0], false);
+                // cc.audioEngine.playEffect(this.popSound[0], false);
+                if (this.popSound[0]) cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
                     .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
                 if (i == this.node.getChildByName("Option").children.length) {
@@ -314,7 +269,7 @@ export default class NewClass extends cc.Component {
             }
             if (globalVariables.Instance.currentLevel == 1) {
                 let hand = this.node.getChildByName("hand");
-                console.log("answer array num = ", this.answerArray[0]);
+                // console.log("answer array num = ", this.answerArray[0]);
                 hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
                 hand.setPosition(50, -50);
                 hand.angle = 30;
@@ -387,7 +342,8 @@ export default class NewClass extends cc.Component {
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             this.destroyOption();
-            cc.audioEngine.playEffect(this.popSound[0], false);
+            // cc.audioEngine.playEffect(this.popSound[0], false);
+            if (this.popSound[0]) cc.audioEngine.playEffect(this.popSound[0], false);
             this.scheduleOnce(() => {
                 this.callPositiveRection(_node);
             }, 0);
@@ -410,7 +366,6 @@ export default class NewClass extends cc.Component {
         else {
             this.scheduleOnce(() => {
                 globalVariables.Instance.currentLevel++;
-                // cc.director.loadScene(globalVariables.Instance.currentLevel.toString());
                 cc.director.loadScene("1");
             }, 1)
         }
@@ -460,8 +415,6 @@ export default class NewClass extends cc.Component {
         cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -150 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { x: -75, y: 0, scale: 1, width: 400, height: 400 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
-            this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-            this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(this.positiveSound[0], false);
             this.scheduleOnce(() => {
                 ProgressBar.Instance.createStarTrails(6, this.node);
@@ -505,12 +458,9 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.jockeyName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
         }
-        // console.log("anim length = ", anim.length);
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
-        // console.log("currentClipNum = ", currentClipNum);
         let pos: number[] = [-1200, 1200];
         let jockeytween: number[] = [-350, 350];
-        //console.log("characterAppear--Podar_Jumbo");
         if (globalVariables.Instance.currentLevel % 2 == 0 && startGame.Instance.jockeyName == "stallion") {
             this.currentJcokey.scaleX = -0.65;
         }
@@ -568,7 +518,6 @@ export default class NewClass extends cc.Component {
                         this.scheduleOnce(() => {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
                             cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
-                            //console.log("characterDisappear--Podar_Jumbo");
                             this.callNextLevel();
                         }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration)
                     }, this.positiveAudio[currentClipNum].duration);
@@ -581,7 +530,6 @@ export default class NewClass extends cc.Component {
                 this.scheduleOnce(() => {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
                     cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
-                    //console.log("characterDisappear--Podar_Jumbo");
                     this.callNextLevel();
                 }, this.positiveAudio[currentClipNum].duration);
             }
@@ -672,7 +620,6 @@ export default class NewClass extends cc.Component {
             }
             else if (startGame.Instance.jockeyName == "supercub") {
                 if (anim[currentClipNum] == "negative_1" || anim[currentClipNum] == "negative_2") {
-                    //play bulb break if needed
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_start", false);
                     this.scheduleOnce(() => {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
@@ -744,7 +691,6 @@ export default class NewClass extends cc.Component {
         let totalHeight = 0;
         let maxWidth = 0;
 
-        // Calculate the total height and the maximum width of the options
         for (let i = 0; i < optionNodes.length; i++) {
             let option = optionNodes[i];
             let optionWidth = option.width;
@@ -762,24 +708,19 @@ export default class NewClass extends cc.Component {
 
         let accumulatedHeight = 0;
 
-        // Position each option node vertically
         for (let i = 0; i < optionNodes.length; i++) {
             let option = optionNodes[i];
 
-            // Calculate the scale factor for the option
             let optionScaleFactor = scaleFactor;
 
-            // Scale the option
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
 
-            // Calculate position based on anchor and scaled size
             let posY = accumulatedHeight + (option.height * option.anchorY);
             option.y = posY - (optionsLayout.height * optionsLayout.anchorY);
 
             accumulatedHeight += option.height + paddingBetweenOptions;
 
-            // Scale and position children nodes proportionally
             for (let subChild of option.children) {
                 subChild.x *= optionScaleFactor;
                 subChild.y *= optionScaleFactor;
@@ -795,15 +736,12 @@ export default class NewClass extends cc.Component {
         let optionsLayout = this.optionsNode;
         let optionNodes = optionsLayout.children;
 
-        // Create an array to hold the new positions
         let newPositions = [];
 
-        // Calculate new positions in reverse order
         for (let i = optionNodes.length - 1; i >= 0; i--) {
             newPositions.push(optionNodes[i].y);
         }
 
-        // Update the positions of the options
         for (let i = 0; i < optionNodes.length; i++) {
             optionNodes[i].y = newPositions[i];
         }
