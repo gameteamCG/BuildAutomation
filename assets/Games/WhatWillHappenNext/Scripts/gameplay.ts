@@ -59,7 +59,7 @@ export default class NewClass extends cc.Component {
     correctAudio: cc.AudioClip[] = [];
 
     private optionsNode: cc.Node = null;
-    private ans = ["Mango", "Nest", "Orange", "Parrot", "Queen", "Rose"]
+    private ans = ["chair", "table", "bed", "spoon", "cup", "book", "couch", "lamp", "television", "fan"]
     private questionBoxPosY: number = 0;
 
     totalAnswers: number = 0;
