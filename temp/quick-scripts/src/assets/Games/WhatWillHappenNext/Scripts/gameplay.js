@@ -55,6 +55,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.canTouch = false;
         _this.answerArray = [];
         _this.maxLevel = 7;
+        _this.isVisited = false;
         _this.wrongAnswerCount = 0;
         _this.star1Log = false;
         _this.star2Log = false;
@@ -333,7 +334,10 @@ var NewClass = /** @class */ (function (_super) {
             optionNodes.forEach(function (element, idx) {
                 var t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
                 if (idx === optionNodes.length - 1) {
-                    t = t.call(function () {
+                    // t = t.call(() => {
+                    //     this.setupTVFocus("Option");
+                    // });
+                    _this.scheduleOnce(function () {
                         _this.setupTVFocus("Option");
                     });
                 }
@@ -491,7 +495,8 @@ var NewClass = /** @class */ (function (_super) {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
-        if (cc.director.getScene().name == "1") {
+        if (cc.director.getScene().name == "1" && !this.isVisited) {
+            this.isVisited = true;
             TVInputManager_1.default.Instance.init(nodes, 0);
         }
         else {

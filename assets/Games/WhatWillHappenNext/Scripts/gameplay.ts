@@ -49,6 +49,7 @@ export default class NewClass extends cc.Component {
     private canTouch: boolean = false;
     private answerArray: string[] = [];
     private maxLevel: number = 7;
+    private isVisited: boolean = false;
     wrongAnswerCount: number = 0;
     star1Log: boolean = false;
     star2Log: boolean = false;
@@ -339,9 +340,12 @@ export default class NewClass extends cc.Component {
             optionNodes.forEach((element, idx) => {
                 let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
                 if (idx === optionNodes.length - 1) {
-                    t = t.call(() => {
-                        this.setupTVFocus("Option");
-                    });
+                    // t = t.call(() => {
+                    //     this.setupTVFocus("Option");
+                    // });
+                    this.scheduleOnce(() => {
+                        this.setupTVFocus("Option")
+                    })
                 }
                 t.start();
             });
@@ -493,7 +497,8 @@ export default class NewClass extends cc.Component {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
-        if (cc.director.getScene().name == "1") {
+        if (cc.director.getScene().name == "1" && !this.isVisited) {
+            this.isVisited = true;
             TVInputManager.Instance.init(nodes, 0);
         }
         else {
@@ -714,7 +719,6 @@ export default class NewClass extends cc.Component {
         }, 0.5);
     }
 
-
     callNegativeRection(_node: cc.Node, _event) {
         this.canTouch = false;
         TVInputManager.Instance.setCanSelect(this.canTouch)
@@ -760,7 +764,6 @@ export default class NewClass extends cc.Component {
             })
             .start();
     }
-
     destroyOption() {
         for (let i = 0; i < this.node.getChildByName("Option").children.length; i++) {
             if (this.node.getChildByName("Option").children[i].name != this.answerArray[0]) {
@@ -787,6 +790,7 @@ export default class NewClass extends cc.Component {
             callback(spriteFrame);
         });
     }
+
 
     OptionsLayoutHorizontal() {
         let optionsLayout = this.optionsNode;
