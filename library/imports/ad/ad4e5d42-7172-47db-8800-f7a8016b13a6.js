@@ -30,7 +30,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var TVInputManager_1 = require("./TVInputManager");
@@ -62,7 +62,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.currentJcokey = null;
         _this.correctAudio = [];
         _this.optionsNode = null;
-        _this.ans = ["Mango", "Nest", "Orange", "Parrot", "Queen", "Rose"];
+        _this.ans = ["chest", "ear", "eyes", "hair", "hand", "knee"];
         _this.questionBoxPosY = 0;
         _this.totalAnswers = 0;
         _this.correctAnswerCount = 0;

@@ -1,5 +1,4 @@
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 import TVInputManager from "./TVInputManager";
@@ -58,7 +57,7 @@ export default class NewClass extends cc.Component {
     correctAudio: cc.AudioClip[] = [];
 
     private optionsNode: cc.Node = null;
-    private ans = ["Mango", "Nest", "Orange", "Parrot", "Queen", "Rose"]
+    private ans = ["chest", "ear", "eyes", "hair", "hand", "knee"]
     private questionBoxPosY: number = 0;
 
     totalAnswers: number = 0;
