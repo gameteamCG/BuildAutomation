@@ -1,7 +1,7 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "MANGO",
+    "name": "mango",
     "texture": "9f5b93df-a28e-4c23-9524-a07611b3b8f5",
     "atlas": "",
     "rect": [
