@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sequencing daily routine_3",
+    "texture": "b3f643ed-bb8f-4f7e-8630-0ab4556a60d7",
+    "atlas": "",
+    "rect": [
+      4,
+      7,
+      643,
+      192
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      650,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "B:\\EYFS_build\\pranjalEYFS_FIX_Sequencing_daily_routine_fs1_new_r11",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
