@@ -340,9 +340,6 @@ export default class NewClass extends cc.Component {
             optionNodes.forEach((element, idx) => {
                 let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
                 if (idx === optionNodes.length - 1) {
-                    // t = t.call(() => {
-                    //     this.setupTVFocus("Option");
-                    // });
                     this.scheduleOnce(() => {
                         this.setupTVFocus("Option")
                     })
@@ -546,8 +543,6 @@ export default class NewClass extends cc.Component {
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
-            this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-            this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(this.positiveSound[0], false);
             this.scheduleOnce(() => {
                 ProgressBar.Instance.createStarTrails(6, this.node);
@@ -570,8 +565,6 @@ export default class NewClass extends cc.Component {
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {
-                    this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-                    this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                     cc.audioEngine.playEffect(this.positiveSound[0], false);
                     this.scheduleOnce(() => {
                         this.canTouch = true;
@@ -610,8 +603,6 @@ export default class NewClass extends cc.Component {
                 this.scheduleOnce(() => {
                     this.node.getChildByName("QuestionBox1").zIndex = 1;
                     this.node.getChildByName("QuestionBox").zIndex = 1;
-                    this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-                    this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                     cc.audioEngine.playEffect(this.positiveSound[0], false);
                     this.scheduleOnce(() => {
                         let imgScale: number = _node.getChildByName("img").scale / 2;
@@ -652,8 +643,6 @@ export default class NewClass extends cc.Component {
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {
-                    this.node.getChildByName("confetti").setPosition(_node.x, _node.y + 100);
-                    this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                     cc.audioEngine.playEffect(this.positiveSound[0], false);
                     this.scheduleOnce(() => {
                         this.canTouch = true;
@@ -940,7 +929,7 @@ export default class NewClass extends cc.Component {
 
         let rowHeight = 0;
         if (children.length > 0) {
-            rowHeight = children[0].height + spacing; // Assuming all children have the same height
+            rowHeight = children[0].height + spacing;
         }
 
         let startY = (totalRows - 1) * rowHeight / 2;
@@ -990,8 +979,8 @@ export default class NewClass extends cc.Component {
 
         let optionNodes = this.optionsNode;
 
-        const optionWidth = 150; // Width of each option
-        const optionHeight = 150; // Height of each option
+        const optionWidth = 150;
+        const optionHeight = 150;
 
         const gridWidth = optionWidth * numCols + paddingBetweenOptions * (numCols - 1);
         const gridHeight = optionHeight * numRows + paddingBetweenOptions * (numRows - 1);
@@ -1003,8 +992,6 @@ export default class NewClass extends cc.Component {
             let option = this.optionsNode.children[i];
             let posX = currentCol * (optionWidth + paddingBetweenOptions);
             let posY = currentRow * (optionHeight + paddingBetweenOptions);
-
-            // Update position of the option
             if (this.TotalOptions == 2) {
                 option.setPosition(cc.v2(posX + 50, posY));
             }
@@ -1050,6 +1037,4 @@ export default class NewClass extends cc.Component {
     update() {
 
     }
-
-
 }
