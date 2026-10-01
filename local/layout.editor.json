@@ -55,7 +55,7 @@
                 "width": 862.2250366210938,
                 "height": 394.6000061035156,
                 "type": "panel",
-                "active": 2,
+                "active": 1,
                 "children": [
                   "console",
                   "timeline",
@@ -89,7 +89,8 @@
         "node-library"
       ]
     },
-    " common-asset-worker-worker": {}
+    "window-1790876000502": {},
+    " build-worker-worker": {}
   },
   "panels": {
     "project-settings": {

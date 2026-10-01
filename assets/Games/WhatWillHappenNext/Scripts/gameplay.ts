@@ -307,47 +307,47 @@ export default class NewClass extends cc.Component {
         if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tlc") {
             this.node.getChildByName("Option").setPosition(this.node.getChildByName("Option").x - 80, this.node.getChildByName("Option").y);
         }
-        for (let i = 1; i <= this.optionsNode.children.length; i++) {
-            this.node.getChildByName("Option").children[i - 1].scale = 0;
-            this.node.getChildByName("Option").children[i - 1].opacity = 255;
+
+        let optionNodes = this.node.getChildByName("Option").children;
+
+        for (let i = 1; i <= optionNodes.length; i++) {
+            let currentOption = optionNodes[i - 1];
+            currentOption.scale = 0;
+            currentOption.opacity = 255;
+
             this.scheduleOnce(() => {
-                let objScale: number = 0;
+                let objScale: number = 1;
                 cc.audioEngine.playEffect(this.popSound[0], false);
+
                 if (startGame.Instance.templateType == "SimpleTap") {
                     objScale = 1;
-                }
-                else if (startGame.Instance.templateType == "TapToCollect") {
+                } else if (startGame.Instance.templateType == "TapToCollect") {
                     objScale = 0.5;
-                }
-                else {
+                } else {
                     objScale = 0.7;
                 }
+
                 if (!this.isOptionBG) {
-                    this.node.getChildByName("Option").children.forEach((element) => {
-                        element.getChildByName("img").scale = 1.4;
+                    let imgNode = currentOption.getChildByName("img");
+                    if (imgNode) imgNode.scale = 1.4;
+                }
+
+                cc.tween(currentOption)
+                    .to(0.5, { scale: objScale }, { easing: "sineInOut" })
+                    .call(() => {
+                        if (i === optionNodes.length) {
+                            this.setupTVFocus("Option");
+                            this.PlayQuestionAudio();
+                        }
                     })
-                }
-                cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
-                    .to(0.5, { scale: objScale }, { easing: "sineInOut" }).start();
-                if (i == this.node.getChildByName("Option").children.length) {
-                    this.scheduleOnce(() => {
-                        this.PlayQuestionAudio();
-                    }, 0.5);
-                }
+                    .start();
+
             }, delay);
-            delay += 0.5;
-            let optionNodes = this.node.getChildByName("Option").children;
-            optionNodes.forEach((element, idx) => {
-                let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
-                if (idx === optionNodes.length - 1) {
-                    this.scheduleOnce(() => {
-                        this.setupTVFocus("Option")
-                    })
-                }
-                t.start();
-            });
+
+            delay += 0.3;
         }
     }
+
 
     callOptionOutFromObject() {
         let delay: number = 0.5;
@@ -393,7 +393,7 @@ export default class NewClass extends cc.Component {
             if (globalVariables.Instance.currentLevel == 1) {
                 let hand = this.node.getChildByName("hand");
                 hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
-                hand.setPosition(0, -70);
+                hand.setPosition(100, -100);
                 hand.setParentWithSamePos(this.node);
                 hand.getComponent(cc.Animation).play();
             }
@@ -473,7 +473,6 @@ export default class NewClass extends cc.Component {
             TVInputManager.Instance.setCanSelect(this.canTouch)
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
-            //this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveFeedback(_node);
         }
@@ -487,22 +486,22 @@ export default class NewClass extends cc.Component {
         let backBtn = startGame.Instance.node.getChildByName("back");
         let musicBtn = startGame.Instance.node.getChildByName("music");
         let soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
-        backBtn.scale = 1;
-        musicBtn.scale = 1;
+
+        if (backBtn) backBtn.scale = 1;
+        if (musicBtn) musicBtn.scale = 1;
+
         let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
             let btn = node.getComponent(cc.Button);
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
+
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
-        if (cc.director.getScene().name == "1" && !this.isVisited) {
-            this.isVisited = true;
-            TVInputManager.Instance.init(nodes, 0);
-        }
-        else {
-            TVInputManager.Instance.init(nodes, -1);
-        }
+
+        // Default focus 0 karne ki jagah always -1 rakhein taaki pehla box automatic scale/zoom na ho
+        TVInputManager.Instance.init(nodes, -1);
         TVInputManager.Instance.setCanSelect(this.canTouch);
     }
+
     callNextLevel() {
         console.log("levelComplete--" + globalVariables.Instance.currentLevel);
         this.callStarsEared();
@@ -535,13 +534,18 @@ export default class NewClass extends cc.Component {
     }
 
     callPositiveRection(_node: cc.Node) {
-        _node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.extraImg;
-        cc.audioEngine.playEffect(this.correctAudio[parseInt(_node.name) - 1], false);
+        if (_node.getChildByName("bg")) {
+            _node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.extraImg;
+        }
 
-        cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
-        cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
+        let index = parseInt(_node.name) - 1;
+        if (this.correctAudio[index]) {
+            cc.audioEngine.playEffect(this.correctAudio[index], false);
+        }
+        cc.tween(_node)
+            .to(0.5, { scale: 1.2, y: 0 }, { easing: "sineInOut" })
+            .start();
+
         this.scheduleOnce(() => {
             cc.audioEngine.playEffect(this.positiveSound[0], false);
             this.scheduleOnce(() => {

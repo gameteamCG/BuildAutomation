@@ -800,8 +800,8 @@
     "relativePath": "Framework\\Scenes (Demo)\\IntroSceneSetupDemo.fire"
   },
   "30c8df17-42b2-48e1-99dd-2d8313458aa2": {
-    "asset": 1790864890844,
-    "meta": 1790864941684,
+    "asset": 1790866826140,
+    "meta": 1790873753010,
     "relativePath": "Games\\WhatWillHappenNext\\Assets"
   },
   "ea123c69-8f87-4134-839a-35ec3ae4ccc2": {
@@ -1050,8 +1050,8 @@
     "relativePath": "Framework\\WebView\\WebviewAssets\\Group 48096516.png"
   },
   "86935948-a2ff-4d0e-bdeb-a5bb68f0941a": {
-    "asset": 1790075799478,
-    "meta": 1790864942601,
+    "asset": 1790875507464,
+    "meta": 1790875507471,
     "relativePath": "Games\\WhatWillHappenNext\\Animation\\hand.anim"
   },
   "49db3896-a427-4697-9b16-aef1dcb72573": {
@@ -3000,8 +3000,8 @@
     "relativePath": "Framework\\Scripts\\StartGame.ts"
   },
   "cf4e36d8-89d2-4945-a198-67e319127411": {
-    "asset": 1790867959718,
-    "meta": 1790867959731,
+    "asset": 1790875963232,
+    "meta": 1790875963240,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\1.fire"
   },
   "12188c2b-0d4b-464f-af83-522906b417c5": {
@@ -3360,8 +3360,8 @@
     "relativePath": "resources\\game_data.json"
   },
   "ad4e5d42-7172-47db-8800-f7a8016b13a6": {
-    "asset": 1790867986276,
-    "meta": 1790867991202,
+    "asset": 1790875959234,
+    "meta": 1790875962012,
     "relativePath": "Games\\WhatWillHappenNext\\Scripts\\gameplay.ts"
   }
 }
