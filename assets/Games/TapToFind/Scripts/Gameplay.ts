@@ -1,4 +1,5 @@
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import TVInputManager from "./TVInputManager";
 
@@ -483,7 +484,7 @@ export default class Gameplay extends cc.Component {
 
 
     LoadNextQuestion() {
-        this.node.getChildByName("confetti").active = true;
+        //this.node.getChildByName("confetti").active = true;
         ProgressBar.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(() => {
             ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);

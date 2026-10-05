@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "oikjm",
+    "texture": "c9fc21a9-7e7a-4810-b53e-3bba8a30c829",
+    "atlas": "",
+    "rect": [
+      91,
+      11,
+      317,
+      478
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
