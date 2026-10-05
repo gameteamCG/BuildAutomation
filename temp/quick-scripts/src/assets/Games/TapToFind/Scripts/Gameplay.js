@@ -55,6 +55,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.numberofOptions = 5;
         _this.currentJockey = null;
         _this.maxLevel = 0;
+        _this.isVisied = false;
         return _this;
     }
     Gameplay.prototype.onLoad = function () {
@@ -210,7 +211,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 _this.scheduleOnce(function () {
                     _this.setupTVFocus(_this.optionsLayout);
-                }, delay + 0.1);
+                }, 1.7);
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout1, _this);
                     element.on("tv-select", _this.onTouchStart_layout1, _this);
@@ -232,7 +233,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 _this.scheduleOnce(function () {
                     _this.setupTVFocus(_this.optionsLayout);
-                }, delay + 0.1);
+                }, 1.7);
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout2, _this);
                     element.on("tv-select", _this.onTouchStart_layout2, _this);
@@ -252,7 +253,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 _this.scheduleOnce(function () {
                     _this.setupTVFocus(_this.optionsLayout);
-                }, delay + 0.1);
+                }, 1.7);
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout3, _this);
                     element.on("tv-select", _this.onTouchStart_layout3, _this);
@@ -296,8 +297,9 @@ var Gameplay = /** @class */ (function (_super) {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
-        if (StartGame_1.default.Instance.currentLevel == 1) {
-            TVInputManager_1.default.Instance.init(nodes, 1);
+        if (StartGame_1.default.Instance.currentLevel == 1 && !this.isVisied) {
+            this.isVisied = true;
+            TVInputManager_1.default.Instance.init(nodes, 0);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);
@@ -318,15 +320,16 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posX = [-700, -200, 300, 800];
-            var _laypout1posY = [-150, 100, -150, 250];
+            var _laypout1posX = [-465, -165, 135, 435];
+            var _laypout1posY = [-150, 100, -150, 100];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
             if (StartGame_1.default.Instance.currentLevel == 5) {
-                var _laypout1posY_1 = [-150, 100, -100, 150];
+                var _laypout1posX_1 = [-465, -165, 135, 435];
+                var _laypout1posY_1 = [0, 0, 0, 0];
                 for (var i = 0; i < _optionParent.children.length; i++) {
-                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY_1[i]);
+                    _optionParent.children[i].setPosition(_laypout1posX_1[i], _laypout1posY_1[i]);
                 }
             }
         }

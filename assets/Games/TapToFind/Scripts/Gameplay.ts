@@ -168,7 +168,7 @@ export default class Gameplay extends cc.Component {
                 }
                 this.scheduleOnce(() => {
                     this.setupTVFocus(this.optionsLayout);
-                }, delay + 0.1);
+                }, 1.7);
                 this.options.children.forEach(element => {
                     element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout1, this);
                     element.on("tv-select", this.onTouchStart_layout1, this);
@@ -188,7 +188,7 @@ export default class Gameplay extends cc.Component {
                 }
                 this.scheduleOnce(() => {
                     this.setupTVFocus(this.optionsLayout);
-                }, delay + 0.1);
+                }, 1.7);
                 this.options.children.forEach(element => {
                     element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout2, this);
                     element.on("tv-select", this.onTouchStart_layout2, this);
@@ -205,7 +205,7 @@ export default class Gameplay extends cc.Component {
                 }
                 this.scheduleOnce(() => {
                     this.setupTVFocus(this.optionsLayout);
-                }, delay + 0.1);
+                }, 1.7);
                 this.options.children.forEach(element => {
                     element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout3, this);
                     element.on("tv-select", this.onTouchStart_layout3, this);
@@ -239,6 +239,7 @@ export default class Gameplay extends cc.Component {
         }, this.questionAudio.duration)
 
     }
+    isVisied: boolean = false;
     private setupTVFocus(activeContainerName: string) {
         let backBtn = startGame.Instance.node.getChildByName("back");
         let musicBtn = startGame.Instance.node.getChildByName("music");
@@ -250,8 +251,9 @@ export default class Gameplay extends cc.Component {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
-        if (startGame.Instance.currentLevel == 1) {
-            TVInputManager.Instance.init(nodes, 1);
+        if (startGame.Instance.currentLevel == 1 && !this.isVisied) {
+            this.isVisied = true;
+            TVInputManager.Instance.init(nodes, 0);
         }
         else {
             TVInputManager.Instance.init(nodes, -1);
@@ -259,6 +261,7 @@ export default class Gameplay extends cc.Component {
         this.canTouch = true;
         TVInputManager.Instance.setCanSelect(this.canTouch);
     }
+
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
         for (let i = 0; i < _optionCount; i++) {
             let _option: cc.Node = cc.instantiate(_template);
@@ -272,13 +275,14 @@ export default class Gameplay extends cc.Component {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posX: number[] = [-700, -200, 300, 800];
-            let _laypout1posY: number[] = [-150, 100, -150, 250];
+            let _laypout1posX: number[] = [-465, -165, 135, 435];
+            let _laypout1posY: number[] = [-150, 100, -150, 100];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
             if (startGame.Instance.currentLevel == 5) {
-                let _laypout1posY: number[] = [-150, 100, -100, 150];
+                let _laypout1posX: number[] = [-465, -165, 135, 435];
+                let _laypout1posY: number[] = [0, 0, 0, 0];
                 for (let i = 0; i < _optionParent.children.length; i++) {
                     _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
                 }

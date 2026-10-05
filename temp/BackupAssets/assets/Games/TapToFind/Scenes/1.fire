@@ -461,8 +461,8 @@
         0,
         0,
         1,
-        0.6,
-        0.6,
+        1,
+        1,
         1
       ]
     },
@@ -767,8 +767,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 400,
-      "height": 400
+      "width": 500,
+      "height": 500
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -780,7 +780,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        70,
+        0,
         0,
         0,
         0,
@@ -2910,7 +2910,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 270.22,
+      "width": 265.99,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -2962,8 +2962,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": " Letter Pp",
-    "_N$string": " Letter Pp",
+    "_string": " Letter Tt",
+    "_N$string": " Letter Tt",
     "_fontSize": 70,
     "_lineHeight": 80,
     "_enableWrapText": true,
