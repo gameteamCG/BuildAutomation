@@ -498,7 +498,6 @@ var Gameplay = /** @class */ (function (_super) {
             _clone.setParentWithSamePos(this.node);
             _clone.children[2].active = false;
             _clone.children[1].active = true;
-            _clone.children[1].opacity = 0;
             node.active = false;
             cc.tween(_clone.children[1])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })

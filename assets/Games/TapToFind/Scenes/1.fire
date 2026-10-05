@@ -1348,8 +1348,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        0.9,
+        0.9,
         1
       ]
     },
@@ -1404,7 +1404,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        129.632,
+        166.018,
         0,
         0,
         0,
@@ -1498,7 +1498,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        21.605,
+        57.991,
         0,
         0,
         0,
@@ -1590,7 +1590,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        21.605,
+        57.991,
         0,
         0,
         0,
@@ -1882,8 +1882,8 @@
         0,
         0,
         1,
-        0.9,
-        0.9,
+        1,
+        1,
         1
       ]
     },
@@ -3197,7 +3197,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 265.99,
+      "width": 269.61,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -3249,8 +3249,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": " Letter Tt",
-    "_N$string": " Letter Tt",
+    "_string": " Letter Ss",
+    "_N$string": " Letter Ss",
     "_fontSize": 70,
     "_lineHeight": 80,
     "_enableWrapText": true,
