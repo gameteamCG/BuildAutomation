@@ -43,6 +43,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.pop_audio = null;
         _this.positive_audio = null;
         _this.negative_audio = null;
+        _this.questionVOs = [];
         _this.questionAudio = null;
         _this.correctAudio = null;
         _this.wrongAudio = null;
@@ -187,7 +188,7 @@ var Gameplay = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             if (_this.questionAudio) {
                 if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(_this.questionAudio, false);
+                    cc.audioEngine.playEffect(_this.questionVOs[StartGame_1.default.Instance.currentLevel - 1], false);
                 }
             }
             if (_this.optionsLayout == "layout1") {
@@ -278,13 +279,13 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.PlayQVoButton = function (_event) {
         var _this = this;
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questionAudio, false);
+        cc.audioEngine.playEffect(this.questionVOs[StartGame_1.default.Instance.currentLevel - 1], false);
         _event.target.getComponent(cc.Button).interactable = false;
         this.scheduleOnce(function () {
             _event.target.getComponent(cc.Button).interactable = true;
             _event.target.scale = 1;
             _this.setupTVFocus(_this.optionsLayout);
-        }, this.questionAudio.duration);
+        }, this.questionVOs[StartGame_1.default.Instance.currentLevel - 1].duration);
     };
     Gameplay.prototype.setupTVFocus = function (activeContainerName) {
         var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
@@ -362,25 +363,30 @@ var Gameplay = /** @class */ (function (_super) {
             }
         }
         if (correct) {
-            this.canTouch = false;
-            TVInputManager_1.default.Instance.setCanSelect(false);
             this.correctCounter++;
-            console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            console.log("Correct Counter:", this.correctCounter);
+            console.log("Total Correct:", this.correctAnswer.length);
+            console.log("Audio Index:", audioNum);
             cc.audioEngine.playEffect(this.positive_audio, false);
+            this.scheduleOnce(function () {
+                var clip = _this.reiterationAudio[audioNum];
+                //console.log("Playing reiteration:", clip);
+                cc.audioEngine.playEffect(clip, false);
+            }, this.positive_audio.duration);
             cc.tween(node)
                 .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(function () {
                 node.active = false;
                 if (_this.correctCounter < _this.correctAnswer.length) {
-                    var clip = _this.reiterationAudio[audioNum] || _this.reiterationAudio[0];
-                    cc.audioEngine.playEffect(clip, false);
+                    // Wait for the audio to finish
                     _this.scheduleOnce(function () {
                         _this.canTouch = true;
                         TVInputManager_1.default.Instance.setCanSelect(true);
-                    }, 0.5);
+                    }, _this.reiterationAudio[audioNum].duration + 0.2);
                 }
                 else {
-                    cc.tween(_this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
+                    cc.tween(_this.options)
+                        .bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
                         .call(function () {
                         _this.LoadNextQuestion();
                     })
@@ -734,6 +740,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "negative_audio", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "questionVOs", void 0);
     Gameplay = __decorate([
         ccclass
     ], Gameplay);
