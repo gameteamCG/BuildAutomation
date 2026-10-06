@@ -975,7 +975,7 @@
         "__uuid__": "f6784b52-a5aa-4a58-b8fc-0de61058bcce"
       }
     ],
-    "playOnLoad": true,
+    "playOnLoad": false,
     "_id": "90xlxvR1xFzLSsQQGQ5ujJ"
   },
   {
@@ -2973,8 +2973,8 @@
         0,
         0,
         1,
-        0.8,
-        0.8,
+        0.7,
+        0.7,
         1
       ]
     },
@@ -3197,7 +3197,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 269.61,
+      "width": 272.55,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -3249,8 +3249,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": " Letter Ss",
-    "_N$string": " Letter Ss",
+    "_string": " Letter Uu",
+    "_N$string": " Letter Uu",
     "_fontSize": 70,
     "_lineHeight": 80,
     "_enableWrapText": true,

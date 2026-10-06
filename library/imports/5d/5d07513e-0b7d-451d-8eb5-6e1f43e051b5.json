@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "huyfctd",
+    "texture": "d280425e-54af-41c2-8c5c-2ac2a05d8c60",
+    "atlas": "",
+    "rect": [
+      45,
+      28,
+      207,
+      183
+    ],
+    "offset": [
+      -2,
+      31
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

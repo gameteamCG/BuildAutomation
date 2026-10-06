@@ -307,6 +307,16 @@ var Gameplay = /** @class */ (function (_super) {
         this.canTouch = true;
         TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
     };
+    Gameplay.prototype.setupTVFocus2 = function () {
+        TVInputManager_1.default.Instance.callEnd();
+        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
+        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        var nodes = [backBtn, musicBtn].filter(function (n) { return !!n; });
+        TVInputManager_1.default.Instance.init(nodes, -1);
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
+    };
     Gameplay.prototype.generateOptions = function (_template, _optionParent, _optionCount) {
         for (var i = 0; i < _optionCount; i++) {
             var _option = cc.instantiate(_template);
@@ -327,7 +337,7 @@ var Gameplay = /** @class */ (function (_super) {
             }
             if (StartGame_1.default.Instance.currentLevel == 5) {
                 var _laypout1posX_1 = [-465, -165, 135, 435];
-                var _laypout1posY_1 = [0, 0, 0, 0];
+                var _laypout1posY_1 = [-100, -100, -100, -100];
                 for (var i = 0; i < _optionParent.children.length; i++) {
                     _optionParent.children[i].setPosition(_laypout1posX_1[i], _laypout1posY_1[i]);
                 }
@@ -527,6 +537,7 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
+        this.setupTVFocus2();
         this.node.getChildByName("confetti").active = true;
         ProgressBar_1.default.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(function () {

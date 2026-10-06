@@ -262,6 +262,17 @@ export default class Gameplay extends cc.Component {
         TVInputManager.Instance.setCanSelect(this.canTouch);
     }
 
+    private setupTVFocus2() {
+        TVInputManager.Instance.callEnd();
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        let nodes = [backBtn, musicBtn].filter(n => !!n);
+        TVInputManager.Instance.init(nodes, -1);
+        TVInputManager.Instance.setCanSelect(this.canTouch);
+    }
+
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
         for (let i = 0; i < _optionCount; i++) {
             let _option: cc.Node = cc.instantiate(_template);
@@ -282,7 +293,7 @@ export default class Gameplay extends cc.Component {
             }
             if (startGame.Instance.currentLevel == 5) {
                 let _laypout1posX: number[] = [-465, -165, 135, 435];
-                let _laypout1posY: number[] = [0, 0, 0, 0];
+                let _laypout1posY: number[] = [-100, -100, -100, -100];
                 for (let i = 0; i < _optionParent.children.length; i++) {
                     _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
                 }
@@ -483,6 +494,7 @@ export default class Gameplay extends cc.Component {
 
 
     LoadNextQuestion() {
+        this.setupTVFocus2();
         this.node.getChildByName("confetti").active = true;
         ProgressBar.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(() => {
