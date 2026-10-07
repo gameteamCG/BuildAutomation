@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Blends_cl_UKG_SB3_4",
-      "totalLevel": "7",
+      "totalLevel": "6",
       "TitleImageName": "clblendswords.png",
       "introBgName": "titlebg.png",
       "bgmMusicName": "BGM_2.mp3",
@@ -23,8 +23,8 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "1.png",
-          "w1.png"
+          "w1.png",
+          "1.png"
         ],
         "correctAudioName": "1.mp3",
         "correctAnswerNum": "1"
@@ -38,8 +38,8 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "w2.png",
-          "2.png"
+          "2.png",
+          "w2.png"
         ],
         "correctAudioName": "2.mp3",
         "correctAnswerNum": "2"
@@ -53,11 +53,11 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "w3.png",
-          "3.png"
+          "3.png",
+          "w3.png"
         ],
         "correctAudioName": "3.mp3",
-        "correctAnswerNum": "2"
+        "correctAnswerNum": "1"
       },
       {
         "questionText": "Blend 'cl'",
@@ -102,21 +102,6 @@
           "w6.png"
         ],
         "correctAudioName": "6.mp3",
-        "correctAnswerNum": "1"
-      },
-      {
-        "questionText": "Blend 'cl'",
-        "questionImageName": "cl2.png",
-        "questionAudioName": "Ques.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "puz3_2.png",
-        "isOptionText": false,
-        "numberOfOptions": 2,
-        "options": [
-          "7.png",
-          "w7.png"
-        ],
-        "correctAudioName": "7.mp3",
         "correctAnswerNum": "1"
       }
     ]

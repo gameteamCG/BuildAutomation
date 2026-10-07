@@ -5,21 +5,21 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -8,
-      "y": -8,
-      "width": 1552,
-      "height": 832,
+      "x": 0,
+      "y": 0,
+      "width": 1536,
+      "height": 816,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 427.45001220703125,
+            "width": 426.82501220703125,
             "height": 700.2000122070312,
             "type": "dock-v",
             "children": [
               {
-                "width": 427.45001220703125,
-                "height": 350.5625,
+                "width": 426.82501220703125,
+                "height": 350.6000061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 427.45001220703125,
-                "height": 346.63751220703125,
+                "width": 426.82501220703125,
+                "height": 346.5874938964844,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 751.75,
+            "width": 751.7000122070312,
             "height": 700.2000122070312,
             "type": "dock-v",
             "children": [
               {
-                "width": 751.75,
-                "height": 350.5625,
+                "width": 751.7000122070312,
+                "height": 350.6000061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,10 +52,10 @@
                 ]
               },
               {
-                "width": 751.75,
-                "height": 346.63751220703125,
+                "width": 751.7000122070312,
+                "height": 346.5874938964844,
                 "type": "panel",
-                "active": 2,
+                "active": 1,
                 "children": [
                   "console",
                   "timeline",
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 337.20001220703125,
+            "width": 337.8625183105469,
             "height": 700.2000122070312,
             "type": "panel",
             "active": 0,
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1786599427855": {}
+    "window-1791354616264": {}
   },
   "panels": {
     "project-settings": {

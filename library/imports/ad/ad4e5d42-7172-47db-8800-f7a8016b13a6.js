@@ -30,7 +30,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var TVInputManager_1 = require("./TVInputManager");
@@ -460,9 +460,10 @@ var NewClass = /** @class */ (function (_super) {
         cc.audioEngine.playEffect(this.correctAudio, false);
         cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -150 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { x: -75, y: 0, scale: 1, width: 400, height: 400 }, { easing: "sineInOut" }).start();
+        cc.tween(_node.children[0]).to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
-            _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-            _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+            // this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+            // this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(_this.positiveSound[0], false);
             _this.scheduleOnce(function () {
                 ProgressBar_1.default.Instance.createStarTrails(6, _this.node);

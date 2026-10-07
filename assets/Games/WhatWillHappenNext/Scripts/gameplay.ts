@@ -1,4 +1,5 @@
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 import TVInputManager from "./TVInputManager";
@@ -458,9 +459,11 @@ export default class NewClass extends cc.Component {
         cc.audioEngine.playEffect(this.correctAudio, false);
         cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -150 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { x: -75, y: 0, scale: 1, width: 400, height: 400 }, { easing: "sineInOut" }).start();
+        cc.tween(_node.children[0]).to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
+
         this.scheduleOnce(() => {
-            this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-            this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+            // this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+            // this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(this.positiveSound[0], false);
             this.scheduleOnce(() => {
                 ProgressBar.Instance.createStarTrails(6, this.node);
