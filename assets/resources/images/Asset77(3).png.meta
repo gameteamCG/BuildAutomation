@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "faccad58-e47d-478d-b34b-a3922a89a646",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 587,
+  "height": 208,
+  "platformSettings": {},
+  "subMetas": {
+    "Asset77(3)": {
+      "ver": "1.0.6",
+      "uuid": "e8ca4f5a-2707-4a34-9947-3d2a1e866855",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "faccad58-e47d-478d-b34b-a3922a89a646",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 1.5,
+      "trimX": 3,
+      "trimY": 7,
+      "width": 580,
+      "height": 191,
+      "rawWidth": 587,
+      "rawHeight": 208,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

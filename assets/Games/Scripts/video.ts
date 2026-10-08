@@ -583,7 +583,7 @@ export default class video extends cc.Component {
         let input: string = _event.target.name;
         this.attemps++;
         if (parseInt(input) == this.questions[this.currentQuestion - 1].correctAnswer) {
-            // this.character.getComponent(cc.Animation).play("correct");
+            this.setupTVFocus0();
             console.log("correctAnswer--" + this.currentQuestion);
             console.log("levelComplete--" + this.currentQuestion);
             _event.target.getChildByName("green").active = true;
@@ -597,6 +597,9 @@ export default class video extends cc.Component {
             _event.target.getParent().children.forEach(element => {
                 element.getComponent(cc.Button).interactable = false;
             });
+            this.scheduleOnce(() => {
+                _event.target.scale = 1;
+            }, 0.1)
             // let num: number = this.getRandomNumber(0, this.correctAnim.length - 1)
             let num = this.currentQuestion - 1;
             if (num > this.correctAnim.length - 1) {
@@ -705,6 +708,17 @@ export default class video extends cc.Component {
             TVInputManager.Instance.init(nodes, -1);
         }
         TVInputManager.Instance.setCanSelect(true);
+    }
+
+    private setupTVFocus0() {
+        TVInputManager.Instance.callEnd();
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        let nodes = [backBtn, musicBtn].filter(n => !!n);
+        TVInputManager.Instance.init(nodes, -1);
+        TVInputManager.Instance.setCanSelect(this.canTouch);
     }
     checkOnMissingQuestions() {
         let isEnd: boolean = true;

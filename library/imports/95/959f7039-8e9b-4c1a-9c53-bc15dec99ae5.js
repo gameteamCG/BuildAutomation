@@ -555,7 +555,7 @@ var video = /** @class */ (function (_super) {
         var input = _event.target.name;
         this.attemps++;
         if (parseInt(input) == this.questions[this.currentQuestion - 1].correctAnswer) {
-            // this.character.getComponent(cc.Animation).play("correct");
+            this.setupTVFocus0();
             console.log("correctAnswer--" + this.currentQuestion);
             console.log("levelComplete--" + this.currentQuestion);
             _event.target.getChildByName("green").active = true;
@@ -569,6 +569,9 @@ var video = /** @class */ (function (_super) {
             _event.target.getParent().children.forEach(function (element) {
                 element.getComponent(cc.Button).interactable = false;
             });
+            this.scheduleOnce(function () {
+                _event.target.scale = 1;
+            }, 0.1);
             // let num: number = this.getRandomNumber(0, this.correctAnim.length - 1)
             var num_1 = this.currentQuestion - 1;
             if (num_1 > this.correctAnim.length - 1) {
@@ -669,6 +672,16 @@ var video = /** @class */ (function (_super) {
             TVInputManager_1.default.Instance.init(nodes, -1);
         }
         TVInputManager_1.default.Instance.setCanSelect(true);
+    };
+    video.prototype.setupTVFocus0 = function () {
+        TVInputManager_1.default.Instance.callEnd();
+        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
+        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        var nodes = [backBtn, musicBtn].filter(function (n) { return !!n; });
+        TVInputManager_1.default.Instance.init(nodes, -1);
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
     };
     video.prototype.checkOnMissingQuestions = function () {
         var _this = this;

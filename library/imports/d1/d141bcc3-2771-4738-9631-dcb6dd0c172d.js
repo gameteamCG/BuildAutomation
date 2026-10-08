@@ -298,6 +298,14 @@ var TVInputManager = /** @class */ (function (_super) {
             });
         });
     };
+    TVInputManager.prototype.callEnd = function () {
+        this.focusNodes.forEach(function (node, index) {
+            node.off(cc.Node.EventType.MOUSE_ENTER);
+            node.off(cc.Node.EventType.MOUSE_LEAVE);
+            node.off(cc.Node.EventType.MOUSE_DOWN);
+            node.off("click");
+        });
+    };
     var TVInputManager_1;
     TVInputManager.FOCUS_SCALE = 1.15;
     // ================= INIT =================

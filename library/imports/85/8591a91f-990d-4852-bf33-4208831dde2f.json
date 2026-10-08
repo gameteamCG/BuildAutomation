@@ -2311,8 +2311,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 400,
-      "height": 130
+      "width": 0,
+      "height": 132.3
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2444,7 +2444,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 580,
-      "height": 275
+      "height": 260
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2455,7 +2455,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        263.444,
+        277.444,
         0,
         0,
         0,
@@ -2521,8 +2521,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 273,
-      "height": 275
+      "width": 260,
+      "height": 260
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2533,7 +2533,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -153.5,
+        -160,
         0,
         0,
         0,
@@ -2675,8 +2675,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 180,
-      "height": 80
+      "width": 0,
+      "height": 113.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2772,8 +2772,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 275,
-      "height": 275
+      "width": 260,
+      "height": 260
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2784,8 +2784,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -3,
-        3,
+        -5,
+        5,
         0,
         0,
         0,
@@ -2866,8 +2866,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 275,
-      "height": 275
+      "width": 260,
+      "height": 260
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2878,8 +2878,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -2,
+        2,
         0,
         0,
         0,
@@ -2954,7 +2954,7 @@
       "__uuid__": "18010be7-d7a7-40e2-983c-9016ffdda823"
     },
     "_type": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -3092,8 +3092,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 273,
-      "height": 275
+      "width": 260,
+      "height": 260
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3104,7 +3104,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        149.5,
+        130,
         0,
         0,
         0,
@@ -3246,8 +3246,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 180,
-      "height": 80
+      "width": 0,
+      "height": 113.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3343,8 +3343,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 275,
-      "height": 275
+      "width": 260,
+      "height": 260
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3355,8 +3355,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -3,
-        3,
+        -5,
+        5,
         0,
         0,
         0,
@@ -3437,8 +3437,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 275,
-      "height": 275
+      "width": 260,
+      "height": 260
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3449,8 +3449,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -2,
+        2,
         0,
         0,
         0,
@@ -3525,7 +3525,7 @@
       "__uuid__": "18010be7-d7a7-40e2-983c-9016ffdda823"
     },
     "_type": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -4775,7 +4775,7 @@
     "_layoutSize": {
       "__type__": "cc.Size",
       "width": 580,
-      "height": 275
+      "height": 260
     },
     "_resize": 1,
     "_N$layoutType": 3,
@@ -5395,8 +5395,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 3,
-    "transition": 3,
+    "_N$transition": 1,
+    "transition": 1,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,
