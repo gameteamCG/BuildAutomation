@@ -527,7 +527,6 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
-        this.node.getChildByName("confetti").active = true;
         ProgressBar_1.default.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(function () {
             ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel);

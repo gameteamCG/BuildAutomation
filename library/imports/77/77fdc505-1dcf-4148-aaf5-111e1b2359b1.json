@@ -1,7 +1,7 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "Asset 86 (1)",
+    "name": "title",
     "texture": "9f97def5-45fe-495b-99e8-963d78c5154a",
     "atlas": "",
     "rect": [
