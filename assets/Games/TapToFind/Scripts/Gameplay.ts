@@ -145,11 +145,6 @@ export default class Gameplay extends cc.Component {
         ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
         this.scheduleOnce(() => {
-            if (this.questionAudio) {
-                if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(this.questionAudio, false);
-                }
-            }
             if (this.optionsLayout == "layout1") {
                 let delay = 0;
                 for (let i = 0; i < this.options.children.length; i++) {
@@ -167,6 +162,7 @@ export default class Gameplay extends cc.Component {
                     delay += 0.35;
                 }
                 this.scheduleOnce(() => {
+                    cc.audioEngine.playEffect(this.questionAudio, false);
                     this.setupTVFocus(this.optionsLayout);
                 }, 1.7);
                 this.options.children.forEach(element => {
@@ -187,6 +183,7 @@ export default class Gameplay extends cc.Component {
                     delay += 0.25;
                 }
                 this.scheduleOnce(() => {
+                    cc.audioEngine.playEffect(this.questionAudio, false);
                     this.setupTVFocus(this.optionsLayout);
                 }, 1.7);
                 this.options.children.forEach(element => {
@@ -204,6 +201,7 @@ export default class Gameplay extends cc.Component {
                     delay += 0.25;
                 }
                 this.scheduleOnce(() => {
+                    cc.audioEngine.playEffect(this.questionAudio, false);
                     this.setupTVFocus(this.optionsLayout);
                 }, 1.7);
                 this.options.children.forEach(element => {
@@ -482,9 +480,7 @@ export default class Gameplay extends cc.Component {
         }
     }
 
-
     LoadNextQuestion() {
-        this.node.getChildByName("confetti").active = true;
         ProgressBar.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(() => {
             ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);

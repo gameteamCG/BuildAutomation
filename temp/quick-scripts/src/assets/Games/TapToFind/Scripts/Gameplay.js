@@ -185,11 +185,6 @@ var Gameplay = /** @class */ (function (_super) {
         ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
         this.scheduleOnce(function () {
-            if (_this.questionAudio) {
-                if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(_this.questionAudio, false);
-                }
-            }
             if (_this.optionsLayout == "layout1") {
                 var delay = 0;
                 var _loop_5 = function (i) {
@@ -210,6 +205,7 @@ var Gameplay = /** @class */ (function (_super) {
                     _loop_5(i);
                 }
                 _this.scheduleOnce(function () {
+                    cc.audioEngine.playEffect(_this.questionAudio, false);
                     _this.setupTVFocus(_this.optionsLayout);
                 }, 1.7);
                 _this.options.children.forEach(function (element) {
@@ -232,6 +228,7 @@ var Gameplay = /** @class */ (function (_super) {
                     _loop_6(i);
                 }
                 _this.scheduleOnce(function () {
+                    cc.audioEngine.playEffect(_this.questionAudio, false);
                     _this.setupTVFocus(_this.optionsLayout);
                 }, 1.7);
                 _this.options.children.forEach(function (element) {
@@ -252,6 +249,7 @@ var Gameplay = /** @class */ (function (_super) {
                     _loop_7(i);
                 }
                 _this.scheduleOnce(function () {
+                    cc.audioEngine.playEffect(_this.questionAudio, false);
                     _this.setupTVFocus(_this.optionsLayout);
                 }, 1.7);
                 _this.options.children.forEach(function (element) {
@@ -528,7 +526,6 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
-        this.node.getChildByName("confetti").active = true;
         ProgressBar_1.default.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(function () {
             ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel);
