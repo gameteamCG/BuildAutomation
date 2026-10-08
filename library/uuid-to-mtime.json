@@ -1,7 +1,7 @@
 {
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
-    "asset": 1791439394681,
-    "meta": 1791439617473,
+    "asset": 1791439634709,
+    "meta": 1791439758562,
     "relativePath": "resources"
   },
   "caec1fde-e175-4402-b8db-97e1bd80d213": {
@@ -4490,8 +4490,8 @@
     "relativePath": "Games\\Book_Prefab\\titleAssets\\Asset 16.png"
   },
   "8591a91f-990d-4852-bf33-4208831dde2f": {
-    "asset": 1791439640716,
-    "meta": 1791439640721,
+    "asset": 1791439779472,
+    "meta": 1791439779484,
     "relativePath": "Games\\Scenes\\video.fire"
   },
   "d47d5d3c-abbb-4b00-bf4c-36b39163926e": {
@@ -4514,124 +4514,119 @@
     "meta": 1791439367293,
     "relativePath": "Games\\Scripts\\video.ts"
   },
-  "2576ea24-3886-45e6-9c40-f264ac58e489": {
-    "asset": 1791439634691,
-    "meta": 1791439634714,
+  "7929069d-290e-4d40-9d01-ae02d597bb17": {
+    "asset": 1791439777248,
+    "meta": 1791439777264,
     "relativePath": "resources\\images"
   },
-  "eef14207-4c19-49e1-95ed-634e1aaa7354": {
-    "asset": 1791439634693,
-    "meta": 1791439634717,
+  "2a9047fb-4412-49bd-8401-e6cc6ace9140": {
+    "asset": 1791439777251,
+    "meta": 1791439777267,
     "relativePath": "resources\\audios"
   },
-  "1e29c952-0855-4e84-bb8e-3658e22d786a": {
-    "asset": 1791439634688,
-    "meta": 1791439634739,
+  "387c3ef7-f3c5-4413-9be6-f67d1ca793e4": {
+    "asset": 1791439777244,
+    "meta": 1791439777284,
     "relativePath": "resources\\game_data.json"
   },
-  "309b421b-ef1d-455d-8580-309ced99bcc9": {
-    "asset": 1791439634695,
-    "meta": 1791439634786,
-    "relativePath": "resources\\images\\OPT1_L1.png"
+  "62edff6a-67ca-437b-8e6b-83d53a512ab5": {
+    "asset": 1791439777251,
+    "meta": 1791439777330,
+    "relativePath": "resources\\images\\Asset14.png"
   },
-  "fb80d3ba-5150-4308-9ab8-4edaa6154044": {
-    "asset": 1791439634695,
-    "meta": 1791439634795,
-    "relativePath": "resources\\images\\OPT1_L2.png"
+  "ebf72ebb-92cb-41b8-8d44-54422ea47246": {
+    "asset": 1791439777251,
+    "meta": 1791439777334,
+    "relativePath": "resources\\images\\4_0001_vulture.png"
   },
-  "6246b9e2-ae41-4dbe-9252-4834faec6d13": {
-    "asset": 1791439634695,
-    "meta": 1791439634805,
-    "relativePath": "resources\\images\\OPT2_L2.png"
+  "af3b485f-3739-49bc-8033-0f6059f0d1c6": {
+    "asset": 1791439777251,
+    "meta": 1791439777340,
+    "relativePath": "resources\\images\\Asset15.png"
   },
-  "610e0693-a4a7-4d8f-9b6f-6e4fcbb8e19c": {
-    "asset": 1791439634695,
-    "meta": 1791439634807,
-    "relativePath": "resources\\images\\OPT2_L1.png"
+  "b4a0cc68-79ee-431a-b6b2-40a2de8fcc12": {
+    "asset": 1791439777252,
+    "meta": 1791439777343,
+    "relativePath": "resources\\images\\Asset16.png"
   },
-  "1cb48eb1-a4bc-40cd-af1b-5ad79207ca19": {
-    "asset": 1791439634695,
-    "meta": 1791439634809,
-    "relativePath": "resources\\images\\Q_L1.png"
+  "62217ad3-7400-4642-878f-d561aa13fd69": {
+    "asset": 1791439777252,
+    "meta": 1791439777344,
+    "relativePath": "resources\\images\\van.png"
   },
-  "6aec73c9-60c1-4b84-8283-d3b86e6a41bb": {
-    "asset": 1791439634695,
-    "meta": 1791439634811,
-    "relativePath": "resources\\images\\OPT2_L3.png"
+  "5716182b-1330-4ab5-85e1-f02185795dd7": {
+    "asset": 1791439777252,
+    "meta": 1791439777345,
+    "relativePath": "resources\\images\\Asset10.png"
   },
-  "6b77eb9a-9133-4b79-a362-0a61e7e293da": {
-    "asset": 1791439634695,
-    "meta": 1791439634812,
-    "relativePath": "resources\\images\\Q_L2.png"
+  "b2da2db8-3bcc-48fc-b178-b501e96073be": {
+    "asset": 1791439777252,
+    "meta": 1791439777347,
+    "relativePath": "resources\\images\\peacock.png"
   },
-  "0890e3f6-89b3-4e28-82ad-208c3d2d33af": {
-    "asset": 1791439634695,
-    "meta": 1791439634814,
-    "relativePath": "resources\\images\\Q_L3.png"
+  "dfbf5e66-990d-419e-bae5-59ff6ec5fac4": {
+    "asset": 1791439777252,
+    "meta": 1791439777348,
+    "relativePath": "resources\\images\\train.png"
   },
-  "245be41b-e0a1-4857-ace5-bc649f771ded": {
-    "asset": 1791439634695,
-    "meta": 1791439634828,
-    "relativePath": "resources\\images\\Main_Title.png"
+  "e0d3835b-4778-4877-b7c8-72474733b80b": {
+    "asset": 1791439777252,
+    "meta": 1791439777350,
+    "relativePath": "resources\\images\\Asset83.png"
   },
-  "a5b16dbf-a88a-426b-a254-df985597bb1e": {
-    "asset": 1791439634695,
-    "meta": 1791439635291,
-    "relativePath": "resources\\audios\\ANS_L2_Watch.mp3"
+  "ecf189b2-01a7-477b-b4c1-15ecb1d5a994": {
+    "asset": 1791439777252,
+    "meta": 1791439777855,
+    "relativePath": "resources\\audios\\25080753_6_vulture.mp3"
   },
-  "8cfb5c33-852b-450b-bc9d-d1ccae7d561f": {
-    "asset": 1791439634695,
-    "meta": 1791439635292,
-    "relativePath": "resources\\audios\\QVO_L3.mp3"
-  },
-  "e1b71c4d-711f-49bc-b7ce-19fec13b241d": {
-    "asset": 1791439634696,
-    "meta": 1791439635293,
-    "relativePath": "resources\\audios\\negative_2.mp3"
-  },
-  "c0370ab9-db0e-40d8-8ae2-b44f0c0d0408": {
-    "asset": 1791439634695,
-    "meta": 1791439635293,
-    "relativePath": "resources\\audios\\positive_2.mp3"
-  },
-  "30c68b12-7dbe-4eee-8ff7-6a3a8e71237a": {
-    "asset": 1791439634695,
-    "meta": 1791439635294,
-    "relativePath": "resources\\audios\\negative_1.mp3"
-  },
-  "d63d5392-6e87-4efb-b90d-9f5e071df0c3": {
-    "asset": 1791439634696,
-    "meta": 1791439635295,
-    "relativePath": "resources\\audios\\positive_1.mp3"
-  },
-  "e4929280-cbe3-4ca5-af0c-84ebaffa7b52": {
-    "asset": 1791439634700,
-    "meta": 1791439635296,
-    "relativePath": "resources\\audios\\negative_3.mp3"
-  },
-  "46822e7b-87d7-4460-97b2-d7be904177ce": {
-    "asset": 1791439634698,
-    "meta": 1791439635296,
-    "relativePath": "resources\\audios\\ANS_L1.mp3"
-  },
-  "9f110340-9183-4bba-8d06-ac438caa61ff": {
-    "asset": 1791439634696,
-    "meta": 1791439635297,
+  "6e520f26-9a1c-4fd9-8730-9e06ff4f45f5": {
+    "asset": 1791439777252,
+    "meta": 1791439777855,
     "relativePath": "resources\\audios\\positive_3.mp3"
   },
-  "9d58dc5e-2c50-4fd8-affc-60924cd85ff2": {
-    "asset": 1791439634695,
-    "meta": 1791439635297,
-    "relativePath": "resources\\audios\\ANS_L3.mp3"
+  "12afc2c1-ad70-4606-864a-71b573b44b15": {
+    "asset": 1791439777252,
+    "meta": 1791439777856,
+    "relativePath": "resources\\audios\\23973442_10_van.mp3"
   },
-  "a38e77ec-6212-41fd-9a17-249473d66832": {
-    "asset": 1791439634699,
-    "meta": 1791439635299,
-    "relativePath": "resources\\audios\\QVO_L1.mp3"
+  "add7b34b-0077-41b9-a0e4-2386ac3fcb5d": {
+    "asset": 1791439777252,
+    "meta": 1791439777857,
+    "relativePath": "resources\\audios\\negative_2.mp3"
   },
-  "696d0c28-8f6b-4e7a-9585-79d4c7d65ca8": {
-    "asset": 1791439634702,
-    "meta": 1791439635300,
-    "relativePath": "resources\\audios\\QVO_L2.mp3"
+  "395380e4-caef-4c30-b6e1-ea186ca37d8c": {
+    "asset": 1791439777252,
+    "meta": 1791439777858,
+    "relativePath": "resources\\audios\\negative_1.mp3"
+  },
+  "52ac665a-db75-4d37-85a8-28dfd40b105f": {
+    "asset": 1791439777255,
+    "meta": 1791439777860,
+    "relativePath": "resources\\audios\\positive_1.mp3"
+  },
+  "761844ff-3b63-4b0f-8849-a68f57604869": {
+    "asset": 1791439777256,
+    "meta": 1791439777861,
+    "relativePath": "resources\\audios\\positive_2.mp3"
+  },
+  "7e3de1ad-9307-437d-a94c-aa0e6918e868": {
+    "asset": 1791439777256,
+    "meta": 1791439777861,
+    "relativePath": "resources\\audios\\identify-the-letter-with-the-letter-sound_vvv.mp3"
+  },
+  "448af8d4-a035-4ceb-9531-dc4f68ff3c0e": {
+    "asset": 1791439777253,
+    "meta": 1791439777862,
+    "relativePath": "resources\\audios\\Taponthepicturethatbeginswiththelettersoundv.mp3"
+  },
+  "669545c2-19cb-4419-848d-dd5d41c625b5": {
+    "asset": 1791439777253,
+    "meta": 1791439777862,
+    "relativePath": "resources\\audios\\VSAYSVV.mp3"
+  },
+  "489277a7-d47d-452f-89b8-bd07096a1342": {
+    "asset": 1791439777256,
+    "meta": 1791439777862,
+    "relativePath": "resources\\audios\\tap-on-the-bird-that-begins-with-the-letter-sound_VVV.mp3"
   }
 }
