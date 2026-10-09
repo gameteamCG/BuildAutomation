@@ -144,6 +144,8 @@ var TVInputManager = /** @class */ (function (_super) {
     // ================= CORE =================
     TVInputManager.prototype.move = function (step) {
         console.log("Move");
+        if (!this.canSelect)
+            return;
         this.clean();
         if (this.focusNodes.length === 0)
             return;

@@ -133,7 +133,8 @@ export default class TVInputManager extends cc.Component {
     // ================= CORE =================
 
     move(step: number) {
-        console.log("Move")
+        console.log("Move");
+        if (!this.canSelect) return;
         this.clean();
         if (this.focusNodes.length === 0) return;
         if (this.currentIndex === -1) {

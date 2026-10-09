@@ -30,7 +30,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var TVInputManager_1 = require("./TVInputManager");
@@ -451,9 +451,10 @@ var NewClass = /** @class */ (function (_super) {
         if (StartGame_1.default.Instance.templateType == "TapToCollect") {
             this.node.getChildByName("QuestionBox").setPosition(cc.v2(-300, -200));
             this.node.getChildByName("QuestionBox1").setPosition(cc.v2(-300, -200));
+            cc.audioEngine.playEffect(this.popSound[0], false);
             this.scheduleOnce(function () {
                 _this.scheduleOnce(function () {
-                    cc.audioEngine.playEffect(_this.popSound[0], false);
+                    // cc.audioEngine.playEffect(this.popSound[0], false);
                     cc.tween(_this.node.getChildByName("QuestionBox"))
                         .to(0.5, { scale: 1 }, { easing: "sineInOut" })
                         .start();
@@ -500,9 +501,10 @@ var NewClass = /** @class */ (function (_super) {
         var _loop_5 = function (i) {
             this_4.node.getChildByName("Option").children[i - 1].scale = 0;
             this_4.node.getChildByName("Option").children[i - 1].opacity = 255;
+            cc.audioEngine.playEffect(this_4.popSound[0], false);
             this_4.scheduleOnce(function () {
                 var objScale = 0;
-                cc.audioEngine.playEffect(_this.popSound[0], false);
+                // cc.audioEngine.playEffect(this.popSound[0], false);
                 if (StartGame_1.default.Instance.templateType == "SimpleTap") {
                     objScale = 1;
                 }
@@ -565,7 +567,7 @@ var NewClass = /** @class */ (function (_super) {
                 .children[i - 1].setPosition(0 - 100, this_5.node.getChildByName("QuestionBox").getPosition().y - 100);
             this_5.scheduleOnce(function () {
                 var objScale = 0;
-                cc.audioEngine.playEffect(_this.popSound[0], false);
+                // cc.audioEngine.playEffect(this.popSound[0], false);
                 objScale = 0.7;
                 if (!_this.isOptionBG) {
                     _this.node.getChildByName("Option").children.forEach(function (element) {
@@ -711,7 +713,7 @@ var NewClass = /** @class */ (function (_super) {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
             //this.destroyOption();
-            cc.audioEngine.playEffect(this.popSound[0], false);
+            cc.audioEngine.playEffect(this.positiveSound[0], false);
             this.callPositiveFeedback(_node);
         }
         else {
@@ -795,8 +797,8 @@ var NewClass = /** @class */ (function (_super) {
             .start();
         cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
-            _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-            _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+            // this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+            // this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(_this.positiveSound[0], false);
             _this.scheduleOnce(function () {
                 ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
@@ -823,12 +825,12 @@ var NewClass = /** @class */ (function (_super) {
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(function () {
-                    _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-                    _this.node
-                        .getChildByName("confetti")
-                        .getComponent(cc.Animation)
-                        .play();
-                    cc.audioEngine.playEffect(_this.positiveSound[0], false);
+                    // this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+                    // this.node
+                    //   .getChildByName("confetti")
+                    //   .getComponent(cc.Animation)
+                    //   .play();
+                    // cc.audioEngine.playEffect(this.positiveSound[0], false);
                     _this.scheduleOnce(function () {
                         _this.canTouch = true;
                         TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
@@ -872,12 +874,12 @@ var NewClass = /** @class */ (function (_super) {
                 this.scheduleOnce(function () {
                     _this.node.getChildByName("QuestionBox1").zIndex = 1;
                     _this.node.getChildByName("QuestionBox").zIndex = 1;
-                    _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-                    _this.node
-                        .getChildByName("confetti")
-                        .getComponent(cc.Animation)
-                        .play();
-                    cc.audioEngine.playEffect(_this.positiveSound[0], false);
+                    // this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+                    // this.node
+                    //   .getChildByName("confetti")
+                    //   .getComponent(cc.Animation)
+                    //   .play();
+                    // cc.audioEngine.playEffect(this.positiveSound[0], false);
                     _this.scheduleOnce(function () {
                         var imgScale = _node.getChildByName("img").scale / 2;
                         //console.log("Scale : ", imgScale);
@@ -940,14 +942,14 @@ var NewClass = /** @class */ (function (_super) {
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(function () {
-                    _this.node
-                        .getChildByName("confetti")
-                        .setPosition(_node.x, _node.y + 100);
-                    _this.node
-                        .getChildByName("confetti")
-                        .getComponent(cc.Animation)
-                        .play();
-                    cc.audioEngine.playEffect(_this.positiveSound[0], false);
+                    // this.node
+                    //   .getChildByName("confetti")
+                    //   .setPosition(_node.x, _node.y + 100);
+                    // this.node
+                    //   .getChildByName("confetti")
+                    //   .getComponent(cc.Animation)
+                    //   .play();
+                    // cc.audioEngine.playEffect(this.positiveSound[0], false);
                     _this.scheduleOnce(function () {
                         //_node.destroy();
                         _this.canTouch = true;

@@ -1,5 +1,5 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 import TVInputManager from "./TVInputManager";
@@ -576,9 +576,10 @@ export default class NewClass extends cc.Component {
     if (startGame.Instance.templateType == "TapToCollect") {
       this.node.getChildByName("QuestionBox").setPosition(cc.v2(-300, -200));
       this.node.getChildByName("QuestionBox1").setPosition(cc.v2(-300, -200));
+      cc.audioEngine.playEffect(this.popSound[0], false);
       this.scheduleOnce(() => {
         this.scheduleOnce(() => {
-          cc.audioEngine.playEffect(this.popSound[0], false);
+          // cc.audioEngine.playEffect(this.popSound[0], false);
           cc.tween(this.node.getChildByName("QuestionBox"))
             .to(0.5, { scale: 1 }, { easing: "sineInOut" })
             .start();
@@ -629,9 +630,10 @@ export default class NewClass extends cc.Component {
     for (let i = 1; i <= this.optionsNode.children.length; i++) {
       this.node.getChildByName("Option").children[i - 1].scale = 0;
       this.node.getChildByName("Option").children[i - 1].opacity = 255;
+      cc.audioEngine.playEffect(this.popSound[0], false);
       this.scheduleOnce(() => {
         let objScale: number = 0;
-        cc.audioEngine.playEffect(this.popSound[0], false);
+        // cc.audioEngine.playEffect(this.popSound[0], false);
         if (startGame.Instance.templateType == "SimpleTap") {
           objScale = 1;
         } else if (startGame.Instance.templateType == "TapToCollect") {
@@ -698,7 +700,7 @@ export default class NewClass extends cc.Component {
         );
       this.scheduleOnce(() => {
         let objScale: number = 0;
-        cc.audioEngine.playEffect(this.popSound[0], false);
+        // cc.audioEngine.playEffect(this.popSound[0], false);
         objScale = 0.7;
         if (!this.isOptionBG) {
           this.node.getChildByName("Option").children.forEach((element) => {
@@ -867,7 +869,7 @@ export default class NewClass extends cc.Component {
       cc.audioEngine.stopAllEffects();
       console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
       //this.destroyOption();
-      cc.audioEngine.playEffect(this.popSound[0], false);
+      cc.audioEngine.playEffect(this.positiveSound[0], false);
       this.callPositiveFeedback(_node);
     } else {
       this.wrongAnswerCount++;
@@ -959,8 +961,8 @@ export default class NewClass extends cc.Component {
       .start();
     cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
     this.scheduleOnce(() => {
-      this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-      this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+      // this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+      // this.node.getChildByName("confetti").getComponent(cc.Animation).play();
       cc.audioEngine.playEffect(this.positiveSound[0], false);
       this.scheduleOnce(() => {
         ProgressBar.Instance.createStarTrails(6, this.node);
@@ -989,12 +991,12 @@ export default class NewClass extends cc.Component {
         _node.getChildByName("img").color = cc.Color.GRAY;
         _node.getChildByName("tick").active = true;
         this.scheduleOnce(() => {
-          this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-          this.node
-            .getChildByName("confetti")
-            .getComponent(cc.Animation)
-            .play();
-          cc.audioEngine.playEffect(this.positiveSound[0], false);
+          // this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+          // this.node
+          //   .getChildByName("confetti")
+          //   .getComponent(cc.Animation)
+          //   .play();
+          // cc.audioEngine.playEffect(this.positiveSound[0], false);
           this.scheduleOnce(() => {
             this.canTouch = true;
             TVInputManager.Instance.setCanSelect(this.canTouch);
@@ -1044,12 +1046,12 @@ export default class NewClass extends cc.Component {
         this.scheduleOnce(() => {
           this.node.getChildByName("QuestionBox1").zIndex = 1;
           this.node.getChildByName("QuestionBox").zIndex = 1;
-          this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-          this.node
-            .getChildByName("confetti")
-            .getComponent(cc.Animation)
-            .play();
-          cc.audioEngine.playEffect(this.positiveSound[0], false);
+          // this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+          // this.node
+          //   .getChildByName("confetti")
+          //   .getComponent(cc.Animation)
+          //   .play();
+          // cc.audioEngine.playEffect(this.positiveSound[0], false);
           this.scheduleOnce(() => {
             let imgScale: number = _node.getChildByName("img").scale / 2;
             //console.log("Scale : ", imgScale);
@@ -1128,14 +1130,14 @@ export default class NewClass extends cc.Component {
         _node.getChildByName("img").color = cc.Color.GRAY;
         _node.getChildByName("tick").active = true;
         this.scheduleOnce(() => {
-          this.node
-            .getChildByName("confetti")
-            .setPosition(_node.x, _node.y + 100);
-          this.node
-            .getChildByName("confetti")
-            .getComponent(cc.Animation)
-            .play();
-          cc.audioEngine.playEffect(this.positiveSound[0], false);
+          // this.node
+          //   .getChildByName("confetti")
+          //   .setPosition(_node.x, _node.y + 100);
+          // this.node
+          //   .getChildByName("confetti")
+          //   .getComponent(cc.Animation)
+          //   .play();
+          // cc.audioEngine.playEffect(this.positiveSound[0], false);
           this.scheduleOnce(() => {
             //_node.destroy();
             this.canTouch = true;
@@ -1901,5 +1903,5 @@ export default class NewClass extends cc.Component {
     }
   }
 
-  update() {}
+  update() { }
 }
