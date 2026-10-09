@@ -6,6 +6,7 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
 import globalVariables from "../../Games/WhatWillHappenNext/Scripts/globalVariables";
+import TVInputManager from "../../Games/WhatWillHappenNext/Scripts/TVInputManager";
 interface AdditionalData {
     GameID: string;
     totalLevel: string;
@@ -109,6 +110,12 @@ export default class startGame extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
+        let backBtn = this.node.getChildByName("back");
+        let musicBtn = this.node.getChildByName("music");
+        let nodes = [backBtn, musicBtn,];
+        this.scheduleOnce(() => {
+            TVInputManager.Instance.init(nodes);
+        }, 0.5);
         cc.game.addPersistRootNode(this.node);
         startGame.instance = this;
         console.log("loading--100");
@@ -126,23 +133,6 @@ export default class startGame extends cc.Component {
         // }
     }
 
-    logData() {
-        console.log("Game ID:", this.gameID);
-        console.log("Total Levels:", this.totalLevels);
-        console.log("BGM audio name:", this.BGM_audio.name);
-        console.log("Title Image Name:", this.titleImageName);
-        console.log("Jockey Name:", this.jockeyName);
-
-        // Log question data
-        this.questions.forEach((question, index) => {
-            console.log(`Question ${index + 1}:`);
-            console.log("Question Image Name:", question.questionImageName);
-            console.log("Question Audio Name:", question.questionAudioName);
-            // console.log("Option 1 Image Name:", question.option1ImageName);
-            // console.log("Option 2 Image Name:", question.option2ImageName);
-            console.log("Correct Answer Number:", question.correctAnswerNum);
-        });
-    }
     removeExtension(imageName: string): string {
         // Remove .png extension
         return imageName.replace(/\.png$/g, '');
@@ -226,8 +216,6 @@ export default class startGame extends cc.Component {
                 // question.option1ImageName = question.option1ImageName
                 // question.option2ImageName = question.option2ImageName
             });
-            // Now you can use these variables within this script
-            this.logData();
         }
         else {
             cc.loader.loadRes('game_data', cc.JsonAsset, (err, jsonAsset) => {
@@ -270,8 +258,6 @@ export default class startGame extends cc.Component {
                     // question.option1ImageName = this.removeExtension(question.option1ImageName);
                     // question.option2ImageName = this.removeExtension(question.option2ImageName);
                 });
-                // Now you can use these variables within this script
-                this.logData(); // You can call a function to log the data or use it in other functions
             });
 
         }

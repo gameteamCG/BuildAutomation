@@ -30,6 +30,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var globalVariables_1 = require("../../Games/WhatWillHappenNext/Scripts/globalVariables");
+var TVInputManager_1 = require("../../Games/WhatWillHappenNext/Scripts/TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var startGame = /** @class */ (function (_super) {
     __extends(startGame, _super);
@@ -96,6 +97,12 @@ var startGame = /** @class */ (function (_super) {
     // LIFE-CYCLE CALLBACKS:
     startGame.prototype.onLoad = function () {
         var _this = this;
+        var backBtn = this.node.getChildByName("back");
+        var musicBtn = this.node.getChildByName("music");
+        var nodes = [backBtn, musicBtn,];
+        this.scheduleOnce(function () {
+            TVInputManager_1.default.Instance.init(nodes);
+        }, 0.5);
         cc.game.addPersistRootNode(this.node);
         startGame_1.instance = this;
         console.log("loading--100");
@@ -110,22 +117,6 @@ var startGame = /** @class */ (function (_super) {
         // if (storedJSONData) {
         //     const jsonData = JSON.parse(storedJSONData);
         // }
-    };
-    startGame.prototype.logData = function () {
-        console.log("Game ID:", this.gameID);
-        console.log("Total Levels:", this.totalLevels);
-        console.log("BGM audio name:", this.BGM_audio.name);
-        console.log("Title Image Name:", this.titleImageName);
-        console.log("Jockey Name:", this.jockeyName);
-        // Log question data
-        this.questions.forEach(function (question, index) {
-            console.log("Question " + (index + 1) + ":");
-            console.log("Question Image Name:", question.questionImageName);
-            console.log("Question Audio Name:", question.questionAudioName);
-            // console.log("Option 1 Image Name:", question.option1ImageName);
-            // console.log("Option 2 Image Name:", question.option2ImageName);
-            console.log("Correct Answer Number:", question.correctAnswerNum);
-        });
     };
     startGame.prototype.removeExtension = function (imageName) {
         // Remove .png extension
@@ -203,8 +194,6 @@ var startGame = /** @class */ (function (_super) {
                 // question.option1ImageName = question.option1ImageName
                 // question.option2ImageName = question.option2ImageName
             });
-            // Now you can use these variables within this script
-            this.logData();
         }
         else {
             cc.loader.loadRes('game_data', cc.JsonAsset, function (err, jsonAsset) {
@@ -244,8 +233,6 @@ var startGame = /** @class */ (function (_super) {
                     // question.option1ImageName = this.removeExtension(question.option1ImageName);
                     // question.option2ImageName = this.removeExtension(question.option2ImageName);
                 });
-                // Now you can use these variables within this script
-                _this.logData(); // You can call a function to log the data or use it in other functions
             });
         }
     };
