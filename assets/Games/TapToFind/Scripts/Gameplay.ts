@@ -272,7 +272,11 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 70, _optionCount);
+            let _laypout1posX: number[] = [-485, -155, 175, 505];
+            let _laypout1posY: number[] = [0, 0, 0, 0];
+            for (let i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+            }
         }
         if (this.optionsLayout == "layout1") {
             let _laypout1posX: number[] = [-465, -165, 135, 435];
@@ -432,11 +436,11 @@ export default class Gameplay extends cc.Component {
         TVInputManager.Instance.setCanSelect(this.canTouch)
         cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
-        let node = event.target;
+        let _node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
         for (let i = 0; i < this.correctAnswer.length; i++) {
-            if (node.name == this.correctAnswer[i].toString()) {
+            if (_node.name == this.correctAnswer[i].toString()) {
                 correct = true;
                 audioNum = i;
                 break;
@@ -446,34 +450,39 @@ export default class Gameplay extends cc.Component {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
             this.correctCounter++;
-            let _clone: cc.Node = cc.instantiate(node);
-            _clone.parent = node;
-            _clone.setPosition(0, 0);
-            _clone.setParentWithSamePos(this.node);
-            _clone.children[2].active = false;
-            _clone.children[1].active = true;
-            node.active = false;
-            cc.tween(_clone.children[1])
+            _node.children[2].active = false;
+            _node.children[1].active = true;
+            cc.tween(_node.children[1])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
                 .call(() => {
-                    if (this.reiterationAudio[audioNum]) {
-                        cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
-                    }
-                    else if (this.reiterationAudio[0]) {
-                        cc.audioEngine.playEffect(this.reiterationAudio[0], false);
-                    }
                     if (this.correctCounter == this.correctAnswer.length) {
-                        this.LoadNextQuestion();
+                        this.node.getChildByName("layout3").children.forEach(elem => {
+                            if (elem.name != _node.name) {
+                                elem.active = false;
+                            }
+                            else {
+                                this.scheduleOnce(() => {
+                                    cc.tween(_node).to(0.3, { x: 0 }, { easing: "sineInOut" }).start();
+                                    if (this.reiterationAudio[audioNum]) {
+                                        cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
+                                    }
+                                    else if (this.reiterationAudio[0]) {
+                                        cc.audioEngine.playEffect(this.reiterationAudio[0], false);
+                                    }
+                                    this.LoadNextQuestion();
+                                }, 0.3)
+                            }
+                        })
                     }
                 }).start();
         }
         else {
             this.callNegativeRection();
             console.log("wrongAnswer--" + startGame.Instance.currentLevel);
-            let posX = node.getPosition().x;
-            cc.tween(node).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE })
+            let posX = _node.getPosition().x;
+            cc.tween(_node).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE })
                 .to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).start();
-            cc.tween(node).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
+            cc.tween(_node).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
                 .to(0.1, { x: posX }).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
                 .to(0.1, { x: posX }).call(() => {
                 }).start();
@@ -505,33 +514,7 @@ export default class Gameplay extends cc.Component {
 
     callJockey() {
         let anim: string[] = [];
-        if (startGame.Instance.jockeyName == "Podar") {
-            anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            anim = ["positive_3", "positive_4", "positive_3", "positive_4", "positive_5"];
-        }
-        else if (startGame.Instance.jockeyName == "bag") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-        }
-        else if (startGame.Instance.jockeyName == "cryon") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-        }
-        else if (startGame.Instance.jockeyName == "Singham") {
-            anim = ["dance", "thumbs_up"];
-        }
-        else if (startGame.Instance.jockeyName == "Mighty_Raju") {
-            anim = ["celebration", "well_done"];
-        }
-        else if (startGame.Instance.jockeyName == "Puzzle") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
-        }
-        else if (startGame.Instance.jockeyName == "stallion") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
-        }
+        anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
         let pos: number[] = [-1600, 1600];
         let jockeytween: number[] = [-350, 350];
@@ -578,7 +561,7 @@ export default class Gameplay extends cc.Component {
         cc.audioEngine.playEffect(this.negative_audio, false);
         this.scheduleOnce(() => {
             let anim: string[] = [];
-            anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+            anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5"];
             let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
             this.currentJockey.setPosition(1600, this.currentJockey.y);
             let posX: number = 350;

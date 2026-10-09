@@ -317,7 +317,11 @@ var Gameplay = /** @class */ (function (_super) {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 70, _optionCount);
+            var _laypout1posX = [-485, -155, 175, 505];
+            var _laypout1posY = [0, 0, 0, 0];
+            for (var i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+            }
         }
         if (this.optionsLayout == "layout1") {
             var _laypout1posX = [-465, -165, 135, 435];
@@ -478,11 +482,11 @@ var Gameplay = /** @class */ (function (_super) {
         TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
         cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
-        var node = event.target;
+        var _node = event.target;
         var correct = false;
         var audioNum = 0;
         for (var i = 0; i < this.correctAnswer.length; i++) {
-            if (node.name == this.correctAnswer[i].toString()) {
+            if (_node.name == this.correctAnswer[i].toString()) {
                 correct = true;
                 audioNum = i;
                 break;
@@ -492,34 +496,39 @@ var Gameplay = /** @class */ (function (_super) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
             this.correctCounter++;
-            var _clone = cc.instantiate(node);
-            _clone.parent = node;
-            _clone.setPosition(0, 0);
-            _clone.setParentWithSamePos(this.node);
-            _clone.children[2].active = false;
-            _clone.children[1].active = true;
-            node.active = false;
-            cc.tween(_clone.children[1])
+            _node.children[2].active = false;
+            _node.children[1].active = true;
+            cc.tween(_node.children[1])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
                 .call(function () {
-                if (_this.reiterationAudio[audioNum]) {
-                    cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
-                }
-                else if (_this.reiterationAudio[0]) {
-                    cc.audioEngine.playEffect(_this.reiterationAudio[0], false);
-                }
                 if (_this.correctCounter == _this.correctAnswer.length) {
-                    _this.LoadNextQuestion();
+                    _this.node.getChildByName("layout3").children.forEach(function (elem) {
+                        if (elem.name != _node.name) {
+                            elem.active = false;
+                        }
+                        else {
+                            _this.scheduleOnce(function () {
+                                cc.tween(_node).to(0.3, { x: 0 }, { easing: "sineInOut" }).start();
+                                if (_this.reiterationAudio[audioNum]) {
+                                    cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
+                                }
+                                else if (_this.reiterationAudio[0]) {
+                                    cc.audioEngine.playEffect(_this.reiterationAudio[0], false);
+                                }
+                                _this.LoadNextQuestion();
+                            }, 0.3);
+                        }
+                    });
                 }
             }).start();
         }
         else {
             this.callNegativeRection();
             console.log("wrongAnswer--" + StartGame_1.default.Instance.currentLevel);
-            var posX = node.getPosition().x;
-            cc.tween(node).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE })
+            var posX = _node.getPosition().x;
+            cc.tween(_node).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE })
                 .to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).start();
-            cc.tween(node).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
+            cc.tween(_node).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
                 .to(0.1, { x: posX }).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
                 .to(0.1, { x: posX }).call(function () {
             }).start();
@@ -548,33 +557,7 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.callJockey = function () {
         var _this = this;
         var anim = [];
-        if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            anim = ["positive_3", "positive_4", "positive_3", "positive_4", "positive_5"];
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "bag") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "cryon") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "Singham") {
-            anim = ["dance", "thumbs_up"];
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "Mighty_Raju") {
-            anim = ["celebration", "well_done"];
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "stallion") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
-        }
+        anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
         var currentClipNum = this.getRandomNumber(0, anim.length - 1);
         var pos = [-1600, 1600];
         var jockeytween = [-350, 350];
@@ -620,7 +603,7 @@ var Gameplay = /** @class */ (function (_super) {
         cc.audioEngine.playEffect(this.negative_audio, false);
         this.scheduleOnce(function () {
             var anim = [];
-            anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+            anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5"];
             var currentClipNum = _this.getRandomNumber(0, anim.length - 1);
             _this.currentJockey.setPosition(1600, _this.currentJockey.y);
             var posX = 350;

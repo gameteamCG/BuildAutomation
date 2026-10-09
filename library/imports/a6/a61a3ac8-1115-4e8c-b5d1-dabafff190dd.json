@@ -1327,8 +1327,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 400,
-      "height": 400
+      "width": 330,
+      "height": 330
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1389,8 +1389,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 404,
-      "height": 627
+      "width": 330,
+      "height": 330
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1402,7 +1402,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        166.018,
+        0,
         0,
         0,
         0,
@@ -1445,7 +1445,7 @@
       "__uuid__": "ca6f7df2-66eb-4578-8c70-2a399d0b0c81"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -1496,7 +1496,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        57.991,
+        1.269,
         0,
         0,
         0,
@@ -1588,7 +1588,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        57.991,
+        1.269,
         0,
         0,
         0,
@@ -1861,8 +1861,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
+      "width": 1000,
+      "height": 200
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3079,7 +3079,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 269.61,
+      "width": 339.81,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -3131,8 +3131,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": " Letter Ss",
-    "_N$string": " Letter Ss",
+    "_string": "फलों के नाम",
+    "_N$string": "फलों के नाम",
     "_fontSize": 70,
     "_lineHeight": 80,
     "_enableWrapText": true,
@@ -3209,18 +3209,6 @@
       },
       {
         "__uuid__": "d5f481e5-7477-4f5d-a038-6936073221c1"
-      },
-      {
-        "__uuid__": "9c608c7c-a648-4f92-b767-2e215904429a"
-      },
-      {
-        "__uuid__": "86e68356-b00c-4c35-8549-0f50d49c51d0"
-      },
-      {
-        "__uuid__": "3db01c50-b9aa-41b1-8227-10e0ebe9dfb3"
-      },
-      {
-        "__uuid__": "693020fb-dfd4-4615-96d1-79148ed3baeb"
       }
     ],
     "negative_VO": [
@@ -3238,12 +3226,6 @@
       },
       {
         "__uuid__": "70fd8204-6ee9-470a-b493-f697f3584ac1"
-      },
-      {
-        "__uuid__": "089aa5ab-1843-45f2-ad3d-a1737e434236"
-      },
-      {
-        "__uuid__": "d7c970da-9a8f-4993-a38f-d38b178b3b01"
       }
     ],
     "pop_audio": {
