@@ -6,6 +6,7 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
 import globalVariables from "../../Games/WhatWillHappenNext/Scripts/globalVariables";
+import TVInputManager from "../../Games/WhatWillHappenNext/Scripts/TVInputManager";
 interface AdditionalData {
     GameID: string;
     totalLevel: string;
@@ -123,6 +124,22 @@ export default class startGame extends cc.Component {
                 this.JockeyNode = element;
             }
         });
+
+        this.scheduleOnce(() => {
+            let backBtn = this.node.getChildByName("back");
+            // :fire: music button
+            let musicBtn = this.node.getChildByName("music");
+            backBtn.scale = 1;
+            musicBtn.scale = 1;
+            let nodes = [
+
+                backBtn,
+                musicBtn,
+            ];
+            TVInputManager.Instance.setCanSelect(true);
+
+            TVInputManager.Instance.init(nodes);
+        }, 0.5);
         // const storedJSONData = cc.sys.localStorage.getItem('gameData');
 
         // if (storedJSONData) {
@@ -480,4 +497,30 @@ export default class startGame extends cc.Component {
     // }
 
     // update (dt) {}
+
+    private setupTVFocus(activeContainerName: string) {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+
+        let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
+            let btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+
+        let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
+
+        // pick a sensible default — e.g. first option, or correct answer index
+
+        if (cc.director.getScene().name == "1") {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+
+        TVInputManager.Instance.setCanSelect(this.canPlay);
+    }
 }

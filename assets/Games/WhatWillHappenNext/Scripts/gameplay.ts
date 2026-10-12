@@ -1,8 +1,9 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
+import TVInputManager from "./TVInputManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -97,7 +98,18 @@ export default class NewClass extends cc.Component {
     private supercub_font: cc.Font = null;
 
     private isFirstClick: boolean = false;
-    private canTouch: boolean = false;
+    // SMART TV: canTouch is a property now. Every time the game enables/disables
+    // touching, TVInputManager is told too, so remote OK follows the same rule.
+    private _canTouch: boolean = false;
+    private get canTouch(): boolean {
+        return this._canTouch;
+    }
+    private set canTouch(value: boolean) {
+        this._canTouch = value;
+        if (TVInputManager.Instance) {
+            TVInputManager.Instance.setCanSelect(value);
+        }
+    }
     private answerArray: string[] = [];
     private maxLevel: number = 7;
     wrongAnswerCount: number = 0;
@@ -308,6 +320,7 @@ export default class NewClass extends cc.Component {
     start() {
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
+        this.setupTVFocusBackMusic(); // SMART TV
 
         // this.OptionsLayout();
         //console.log("AnswerArray = ", this.answerArray);
@@ -525,6 +538,10 @@ export default class NewClass extends cc.Component {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
             }
             this.canTouch = true;
+            this.scheduleOnce(() => {
+                this.setupTVFocus(); // SMART TV
+            }, 0.5);
+
             if (globalVariables.Instance.currentLevel == 1) {
                 //console.log("answerArray : ", this.answerArray[0])
                 let hand = this.node.getChildByName("hand");
@@ -548,6 +565,10 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     this.canTouch = true;
+                    this.scheduleOnce(() => {
+                        this.setupTVFocus(); // SMART TV
+                    }, 0.5);
+
                     if (globalVariables.Instance.currentLevel == 1) {
                         let hand = this.node.getChildByName("hand");
                         hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
@@ -564,6 +585,10 @@ export default class NewClass extends cc.Component {
                         this.scheduleOnce(() => {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                             this.canTouch = true;
+                            this.scheduleOnce(() => {
+                                this.setupTVFocus(); // SMART TV
+                            }, 0.5);
+
                             if (globalVariables.Instance.currentLevel == 1) {
                                 let hand = this.node.getChildByName("hand");
                                 hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
@@ -691,6 +716,7 @@ export default class NewClass extends cc.Component {
                     this.scheduleOnce(() => {
                         this.canTouch = true;
                         this.correctAnswerCount++;
+                        this.setupTVFocus(); // SMART TV: drop the finished option, refocus
                         if (this.correctAnswerCount == this.totalAnswers) {
                             for (let i = 0; i < this.node.getChildByName("Option").children.length; i++) {
                                 if (this.isDone[i] == false) {
@@ -746,6 +772,7 @@ export default class NewClass extends cc.Component {
                             _node.destroy();
                             this.canTouch = true;
                             this.correctAnswerCount++;
+                            this.setupTVFocus(); // SMART TV: drop the finished option, refocus
                             if (this.correctAnswerCount == this.totalAnswers) {
                                 this.canTouch = false;
                                 ProgressBar.Instance.createStarTrails(6, this.node);
@@ -776,6 +803,7 @@ export default class NewClass extends cc.Component {
                         //_node.destroy();
                         this.canTouch = true;
                         this.correctAnswerCount++;
+                        this.setupTVFocus(); // SMART TV: drop the finished option, refocus
                         if (this.correctAnswerCount == this.totalAnswers) {
                             for (let i = 0; i < this.node.getChildByName("Option").children.length; i++) {
                                 if (this.isDone[i] == false) {
@@ -935,6 +963,18 @@ export default class NewClass extends cc.Component {
 
     callNegativeRection(_node: cc.Node, _event) {
         this.canTouch = false;
+        // SMART TV: moving focus calls stopAllByTarget on the option, which would
+        // freeze the shake/colour tween half-way. Always restore it afterwards.
+        let tvBaseX = _node.x;
+        this.scheduleOnce(() => {
+            if (!_node || !_node.isValid) return;
+            _node.x = tvBaseX;
+            _node.opacity = 255;
+            let img = _node.getChildByName("img");
+            let bg = _node.getChildByName("bg");
+            if (img) img.color = cc.Color.WHITE;
+            if (bg) bg.color = cc.Color.WHITE;
+        }, 1.1);
         //_node.children[0].getComponent(cc.Sprite).setMaterial(0, this.greyMat);
         cc.audioEngine.playEffect(this.negativeSound[0], false);
         if (this.wrongAnswerCount >= 6) {
@@ -1373,6 +1413,72 @@ export default class NewClass extends cc.Component {
         for (let i = 0; i < optionNodes.length; i++) {
             optionNodes[i].y = newPositions[i];
         }
+    }
+
+    // ==================================================================
+    // SMART TV (uses TVInputManager)
+    // ==================================================================
+    private getTVBackMusic(): cc.Node[] {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        if (backBtn) backBtn.scale = 1;
+        if (musicBtn) musicBtn.scale = 1;
+        return [backBtn, musicBtn].filter((n) => !!n);
+    }
+
+    /** Only back + music (used before the options are ready). */
+    private setupTVFocusBackMusic() {
+        if (!TVInputManager.Instance) return;
+        TVInputManager.Instance.init(this.getTVBackMusic(), -1);
+        TVInputManager.Instance.setCanSelect(this.canTouch);
+    }
+
+    /**
+     * Focus order: options (1, 2, 3 ... in creation order), question sound
+     * button, back, music. Options that are already answered (isDone) are skipped.
+     * On level 1 the next correct option is pre-focused (same as the hand hint).
+     */
+    private setupTVFocus() {
+        if (!TVInputManager.Instance || !this.optionsNode) return;
+
+        let optionNodes: cc.Node[] = [];
+        if (this.correctAnswerCount < this.totalAnswers) {
+            optionNodes = this.optionsNode.children
+                .filter((n) => {
+                    if (!n || !n.isValid || !n.active) return false;
+                    if (n.opacity <= 0 || n.scale <= 0.01) return false;
+                    if (this.isDone[parseInt(n.name) - 1]) return false;
+                    let btn = n.getComponent(cc.Button);
+                    return !btn || btn.interactable !== false;
+                })
+                .sort((a, b) => parseInt(a.name) - parseInt(b.name));
+        }
+
+        let soundNodes: cc.Node[] = [];
+        let panel = this.node.getChildByName("questionPanel");
+        let sound = panel ? panel.getChildByName("sound") : null;
+        if (sound && sound.active) {
+            let sb = sound.getComponent(cc.Button);
+            if (!sb || sb.interactable !== false) soundNodes.push(sound);
+        }
+
+        let nodes = [...optionNodes, ...soundNodes, ...this.getTVBackMusic()];
+
+        // level 1: pre-focus the next correct option
+        let defaultIndex = -1;
+        if (globalVariables.Instance.currentLevel == 1) {
+            for (let i = 0; i < this.answerArray.length; i++) {
+                if (!this.isDone[parseInt(this.answerArray[i]) - 1]) {
+                    defaultIndex = optionNodes.findIndex(
+                        (n) => n.name == this.answerArray[i]
+                    );
+                    break;
+                }
+            }
+        }
+
+        TVInputManager.Instance.init(nodes, defaultIndex);
+        TVInputManager.Instance.setCanSelect(this.canTouch);
     }
 
     update() {

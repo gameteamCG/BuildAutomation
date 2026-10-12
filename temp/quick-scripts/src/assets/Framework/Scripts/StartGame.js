@@ -28,8 +28,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __spreadArrays = (this && this.__spreadArrays) || function () {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var globalVariables_1 = require("../../Games/WhatWillHappenNext/Scripts/globalVariables");
+var TVInputManager_1 = require("../../Games/WhatWillHappenNext/Scripts/TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var startGame = /** @class */ (function (_super) {
     __extends(startGame, _super);
@@ -71,20 +79,6 @@ var startGame = /** @class */ (function (_super) {
         _this.optionLayout = "horizontal";
         _this.questions = [];
         return _this;
-        // blobToDataURL(blobUrl, callback) {
-        //     var xhr = new XMLHttpRequest();
-        //     xhr.onload = function () {
-        //         var reader = new FileReader();
-        //         reader.onloadend = function () {
-        //             callback(reader.result);
-        //         };
-        //         reader.readAsDataURL(xhr.response);
-        //     };
-        //     xhr.open('GET', blobUrl);
-        //     xhr.responseType = 'blob';
-        //     xhr.send();
-        // }
-        // update (dt) {}
     }
     startGame_1 = startGame;
     Object.defineProperty(startGame, "Instance", {
@@ -107,6 +101,19 @@ var startGame = /** @class */ (function (_super) {
                 _this.JockeyNode = element;
             }
         });
+        this.scheduleOnce(function () {
+            var backBtn = _this.node.getChildByName("back");
+            // :fire: music button
+            var musicBtn = _this.node.getChildByName("music");
+            backBtn.scale = 1;
+            musicBtn.scale = 1;
+            var nodes = [
+                backBtn,
+                musicBtn,
+            ];
+            TVInputManager_1.default.Instance.setCanSelect(true);
+            TVInputManager_1.default.Instance.init(nodes);
+        }, 0.5);
         // const storedJSONData = cc.sys.localStorage.getItem('gameData');
         // if (storedJSONData) {
         //     const jsonData = JSON.parse(storedJSONData);
@@ -411,6 +418,40 @@ var startGame = /** @class */ (function (_super) {
             }
             callback(spriteFrame);
         });
+    };
+    // blobToDataURL(blobUrl, callback) {
+    //     var xhr = new XMLHttpRequest();
+    //     xhr.onload = function () {
+    //         var reader = new FileReader();
+    //         reader.onloadend = function () {
+    //             callback(reader.result);
+    //         };
+    //         reader.readAsDataURL(xhr.response);
+    //     };
+    //     xhr.open('GET', blobUrl);
+    //     xhr.responseType = 'blob';
+    //     xhr.send();
+    // }
+    // update (dt) {}
+    startGame.prototype.setupTVFocus = function (activeContainerName) {
+        var backBtn = startGame_1.Instance.node.getChildByName("back");
+        var musicBtn = startGame_1.Instance.node.getChildByName("music");
+        var soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        var optionButtons = this.node.getChildByName(activeContainerName).children.filter(function (node) {
+            var btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+        var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
+        // pick a sensible default — e.g. first option, or correct answer index
+        if (cc.director.getScene().name == "1") {
+            TVInputManager_1.default.Instance.init(nodes, -1);
+        }
+        else {
+            TVInputManager_1.default.Instance.init(nodes, -1);
+        }
+        TVInputManager_1.default.Instance.setCanSelect(this.canPlay);
     };
     var startGame_1;
     startGame.instance = null;

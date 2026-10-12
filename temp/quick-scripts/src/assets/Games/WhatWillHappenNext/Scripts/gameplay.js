@@ -22,10 +22,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __spreadArrays = (this && this.__spreadArrays) || function () {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
+var TVInputManager_1 = require("./TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
@@ -64,7 +72,9 @@ var NewClass = /** @class */ (function (_super) {
         _this.tlc_font = null;
         _this.supercub_font = null;
         _this.isFirstClick = false;
-        _this.canTouch = false;
+        // SMART TV: canTouch is a property now. Every time the game enables/disables
+        // touching, TVInputManager is told too, so remote OK follows the same rule.
+        _this._canTouch = false;
         _this.answerArray = [];
         _this.maxLevel = 7;
         _this.wrongAnswerCount = 0;
@@ -84,6 +94,19 @@ var NewClass = /** @class */ (function (_super) {
         _this.isLastTween = false;
         return _this;
     }
+    Object.defineProperty(NewClass.prototype, "canTouch", {
+        get: function () {
+            return this._canTouch;
+        },
+        set: function (value) {
+            this._canTouch = value;
+            if (TVInputManager_1.default.Instance) {
+                TVInputManager_1.default.Instance.setCanSelect(value);
+            }
+        },
+        enumerable: false,
+        configurable: true
+    });
     NewClass.prototype.onLoad = function () {
         var _this = this;
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
@@ -266,6 +289,7 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.start = function () {
         ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
+        this.setupTVFocusBackMusic(); // SMART TV
         // this.OptionsLayout();
         //console.log("AnswerArray = ", this.answerArray);
         this.totalAnswers = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAnswerNum.length;
@@ -477,6 +501,9 @@ var NewClass = /** @class */ (function (_super) {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
             }
             this.canTouch = true;
+            this.scheduleOnce(function () {
+                _this.setupTVFocus(); // SMART TV
+            }, 0.5);
             if (globalVariables_1.default.Instance.currentLevel == 1) {
                 //console.log("answerArray : ", this.answerArray[0])
                 var hand = this.node.getChildByName("hand");
@@ -500,6 +527,9 @@ var NewClass = /** @class */ (function (_super) {
             this.scheduleOnce(function () {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     _this.canTouch = true;
+                    _this.scheduleOnce(function () {
+                        _this.setupTVFocus(); // SMART TV
+                    }, 0.5);
                     if (globalVariables_1.default.Instance.currentLevel == 1) {
                         var hand = _this.node.getChildByName("hand");
                         hand.setParent(_this.node.getChildByName("Option").getChildByName(_this.answerArray[0]));
@@ -516,6 +546,9 @@ var NewClass = /** @class */ (function (_super) {
                         _this.scheduleOnce(function () {
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                             _this.canTouch = true;
+                            _this.scheduleOnce(function () {
+                                _this.setupTVFocus(); // SMART TV
+                            }, 0.5);
                             if (globalVariables_1.default.Instance.currentLevel == 1) {
                                 var hand = _this.node.getChildByName("hand");
                                 hand.setParent(_this.node.getChildByName("Option").getChildByName(_this.answerArray[0]));
@@ -639,6 +672,7 @@ var NewClass = /** @class */ (function (_super) {
                     _this.scheduleOnce(function () {
                         _this.canTouch = true;
                         _this.correctAnswerCount++;
+                        _this.setupTVFocus(); // SMART TV: drop the finished option, refocus
                         if (_this.correctAnswerCount == _this.totalAnswers) {
                             for (var i = 0; i < _this.node.getChildByName("Option").children.length; i++) {
                                 if (_this.isDone[i] == false) {
@@ -693,6 +727,7 @@ var NewClass = /** @class */ (function (_super) {
                             _node.destroy();
                             _this.canTouch = true;
                             _this.correctAnswerCount++;
+                            _this.setupTVFocus(); // SMART TV: drop the finished option, refocus
                             if (_this.correctAnswerCount == _this.totalAnswers) {
                                 _this.canTouch = false;
                                 ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
@@ -723,6 +758,7 @@ var NewClass = /** @class */ (function (_super) {
                         //_node.destroy();
                         _this.canTouch = true;
                         _this.correctAnswerCount++;
+                        _this.setupTVFocus(); // SMART TV: drop the finished option, refocus
                         if (_this.correctAnswerCount == _this.totalAnswers) {
                             for (var i = 0; i < _this.node.getChildByName("Option").children.length; i++) {
                                 if (_this.isDone[i] == false) {
@@ -878,6 +914,21 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.callNegativeRection = function (_node, _event) {
         var _this = this;
         this.canTouch = false;
+        // SMART TV: moving focus calls stopAllByTarget on the option, which would
+        // freeze the shake/colour tween half-way. Always restore it afterwards.
+        var tvBaseX = _node.x;
+        this.scheduleOnce(function () {
+            if (!_node || !_node.isValid)
+                return;
+            _node.x = tvBaseX;
+            _node.opacity = 255;
+            var img = _node.getChildByName("img");
+            var bg = _node.getChildByName("bg");
+            if (img)
+                img.color = cc.Color.WHITE;
+            if (bg)
+                bg.color = cc.Color.WHITE;
+        }, 1.1);
         //_node.children[0].getComponent(cc.Sprite).setMaterial(0, this.greyMat);
         cc.audioEngine.playEffect(this.negativeSound[0], false);
         if (this.wrongAnswerCount >= 6) {
@@ -1250,6 +1301,77 @@ var NewClass = /** @class */ (function (_super) {
         for (var i = 0; i < optionNodes.length; i++) {
             optionNodes[i].y = newPositions[i];
         }
+    };
+    // ==================================================================
+    // SMART TV (uses TVInputManager)
+    // ==================================================================
+    NewClass.prototype.getTVBackMusic = function () {
+        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
+        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
+        if (backBtn)
+            backBtn.scale = 1;
+        if (musicBtn)
+            musicBtn.scale = 1;
+        return [backBtn, musicBtn].filter(function (n) { return !!n; });
+    };
+    /** Only back + music (used before the options are ready). */
+    NewClass.prototype.setupTVFocusBackMusic = function () {
+        if (!TVInputManager_1.default.Instance)
+            return;
+        TVInputManager_1.default.Instance.init(this.getTVBackMusic(), -1);
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
+    };
+    /**
+     * Focus order: options (1, 2, 3 ... in creation order), question sound
+     * button, back, music. Options that are already answered (isDone) are skipped.
+     * On level 1 the next correct option is pre-focused (same as the hand hint).
+     */
+    NewClass.prototype.setupTVFocus = function () {
+        var _this = this;
+        if (!TVInputManager_1.default.Instance || !this.optionsNode)
+            return;
+        var optionNodes = [];
+        if (this.correctAnswerCount < this.totalAnswers) {
+            optionNodes = this.optionsNode.children
+                .filter(function (n) {
+                if (!n || !n.isValid || !n.active)
+                    return false;
+                if (n.opacity <= 0 || n.scale <= 0.01)
+                    return false;
+                if (_this.isDone[parseInt(n.name) - 1])
+                    return false;
+                var btn = n.getComponent(cc.Button);
+                return !btn || btn.interactable !== false;
+            })
+                .sort(function (a, b) { return parseInt(a.name) - parseInt(b.name); });
+        }
+        var soundNodes = [];
+        var panel = this.node.getChildByName("questionPanel");
+        var sound = panel ? panel.getChildByName("sound") : null;
+        if (sound && sound.active) {
+            var sb = sound.getComponent(cc.Button);
+            if (!sb || sb.interactable !== false)
+                soundNodes.push(sound);
+        }
+        var nodes = __spreadArrays(optionNodes, soundNodes, this.getTVBackMusic());
+        // level 1: pre-focus the next correct option
+        var defaultIndex = -1;
+        if (globalVariables_1.default.Instance.currentLevel == 1) {
+            var _loop_7 = function (i) {
+                if (!this_6.isDone[parseInt(this_6.answerArray[i]) - 1]) {
+                    defaultIndex = optionNodes.findIndex(function (n) { return n.name == _this.answerArray[i]; });
+                    return "break";
+                }
+            };
+            var this_6 = this;
+            for (var i = 0; i < this.answerArray.length; i++) {
+                var state_1 = _loop_7(i);
+                if (state_1 === "break")
+                    break;
+            }
+        }
+        TVInputManager_1.default.Instance.init(nodes, defaultIndex);
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
     };
     NewClass.prototype.update = function () {
     };
