@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_ear",
+    "texture": "d640abfa-2ee1-4e2e-afb8-a2ccf3f8fde5",
+    "atlas": "",
+    "rect": [
+      74,
+      11,
+      173,
+      269
+    ],
+    "offset": [
+      10.5,
+      4.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

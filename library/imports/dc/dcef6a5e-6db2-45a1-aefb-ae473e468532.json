@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "leg",
+    "texture": "70c0c62e-5e2a-45b0-ac66-b8f4047a3e47",
+    "atlas": "",
+    "rect": [
+      89,
+      40,
+      114,
+      218
+    ],
+    "offset": [
+      -4,
+      1
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
