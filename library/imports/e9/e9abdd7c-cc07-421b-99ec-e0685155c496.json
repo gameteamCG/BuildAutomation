@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "friends",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Friends_1715087253845.mp4",
+      "TitleImageName": "friends.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "7"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Tap on the activity you like to do with your friends.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "MainQ.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "1.png",
+          "w5.png"
+        ],
+        "ReiterationAudioName": "playPark.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Tap on the activity you like to do with your friends.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "MainQ.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "w4.png",
+          "2.png"
+        ],
+        "ReiterationAudioName": "flyKites.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Tap on the activity you like to do with your friends.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "MainQ.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "w6.png",
+          "3.png"
+        ],
+        "ReiterationAudioName": "painting.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Tap on the activity you like to do with your friends.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "MainQ.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "4.png",
+          "w2.png"
+        ],
+        "ReiterationAudioName": "watchingTV.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Tap on the activity you like to do with your friends.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "MainQ.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "5.png",
+          "w1.png"
+        ],
+        "ReiterationAudioName": "blocks.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Tap on the activity you like to do with your friends.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "MainQ.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "w7.png",
+          "6.png"
+        ],
+        "ReiterationAudioName": "stories.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Tap on the activity you like to do with your friends.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "MainQ.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "w3.png",
+          "7.png"
+        ],
+        "ReiterationAudioName": "sports.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
