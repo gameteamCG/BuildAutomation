@@ -8,14 +8,6 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class NewClass extends cc.Component {
 
-    @property(cc.Font)
-    private podar_font: cc.Font = null;
-    @property(cc.Font)
-    private jaipuria_font: cc.Font = null;
-    @property(cc.Font)
-    private tlc_font: cc.Font = null;
-    @property(cc.Font)
-    private supercub_font: cc.Font = null;
     @property(cc.AudioClip)
     private popSound: cc.AudioClip[] = [];
     @property(cc.AudioClip)
@@ -60,22 +52,6 @@ export default class NewClass extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
         this.optionsNode = this.node.getChildByName("Option");
         this.GenerateOptions();
         this.maxLevel = startGame.Instance.totalLevels;
@@ -214,7 +190,7 @@ export default class NewClass extends cc.Component {
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
         if (globalVariables.Instance.currentLevel == 1) {
-            TVInputManager.Instance.init(nodes, 0);
+            TVInputManager.Instance.init(nodes, 1);
         }
         else {
             TVInputManager.Instance.init(nodes, -1);
@@ -254,6 +230,7 @@ export default class NewClass extends cc.Component {
             posX = -300;
         }
         this.scheduleOnce(() => {
+            this.node.getChildByName("QuestionBox").children[1].getComponent(cc.Label).string = this.node.getChildByName("QuestionBox").children[0].getComponent(cc.Sprite).spriteFrame.name
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(this.node.getChildByName("QuestionBox"))
@@ -456,8 +433,8 @@ export default class NewClass extends cc.Component {
 
     callPositiveRection(_node: cc.Node) {
         cc.audioEngine.playEffect(this.correctAudio, false);
-        cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -150 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { x: -75, y: 0, scale: 1, width: 400, height: 400 }, { easing: "sineInOut" }).start();
+        cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -250 }, { easing: "sineInOut" }).start();
+        cc.tween(_node).to(0.5, { x: 20, y: 0, scale: 1, width: 400, height: 400 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
             this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
