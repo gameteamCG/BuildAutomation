@@ -17,8 +17,6 @@ export default class Gameplay extends cc.Component {
     positive_audio: cc.AudioClip = null;
     @property(cc.AudioClip)
     negative_audio: cc.AudioClip = null;
-    @property(cc.AudioClip)
-    private questionVOs: cc.AudioClip[] = [];
 
     private questionAudio: cc.AudioClip = null;
     private correctAudio: cc.AudioClip = null;
@@ -148,11 +146,6 @@ export default class Gameplay extends cc.Component {
         ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
         this.scheduleOnce(() => {
-            if (this.questionAudio) {
-                if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(this.questionVOs[startGame.Instance.currentLevel - 1], false);
-                }
-            }
             if (this.optionsLayout == "layout1") {
                 let delay = 0;
                 for (let i = 0; i < this.options.children.length; i++) {
@@ -170,6 +163,7 @@ export default class Gameplay extends cc.Component {
                     delay += 0.35;
                 }
                 this.scheduleOnce(() => {
+                    cc.audioEngine.playEffect(this.questionAudio, false);
                     this.setupTVFocus(this.optionsLayout);
                 }, 1.7);
                 this.options.children.forEach(element => {
@@ -190,6 +184,7 @@ export default class Gameplay extends cc.Component {
                     delay += 0.25;
                 }
                 this.scheduleOnce(() => {
+                    cc.audioEngine.playEffect(this.questionAudio, false);
                     this.setupTVFocus(this.optionsLayout);
                 }, 1.7);
                 this.options.children.forEach(element => {
@@ -207,6 +202,7 @@ export default class Gameplay extends cc.Component {
                     delay += 0.25;
                 }
                 this.scheduleOnce(() => {
+                    cc.audioEngine.playEffect(this.questionAudio, false);
                     this.setupTVFocus(this.optionsLayout);
                 }, 1.7);
                 this.options.children.forEach(element => {
@@ -233,13 +229,13 @@ export default class Gameplay extends cc.Component {
 
     PlayQVoButton(_event: cc.Event) {
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questionVOs[startGame.Instance.currentLevel - 1], false);
+        cc.audioEngine.playEffect(this.questionAudio, false);
         _event.target.getComponent(cc.Button).interactable = false;
         this.scheduleOnce(() => {
             _event.target.getComponent(cc.Button).interactable = true;
             _event.target.scale = 1;
             this.setupTVFocus(this.optionsLayout);
-        }, this.questionVOs[startGame.Instance.currentLevel - 1].duration)
+        }, this.questionAudio.duration)
 
     }
     isVisied: boolean = false;
@@ -320,55 +316,30 @@ export default class Gameplay extends cc.Component {
             }
         }
         if (correct) {
-
+            this.canTouch = false;
+            TVInputManager.Instance.setCanSelect(false);
             this.correctCounter++;
-
-            console.log("Correct Counter:", this.correctCounter);
-            console.log("Total Correct:", this.correctAnswer.length);
-            console.log("Audio Index:", audioNum);
-
+            console.log("correctAnswer--" + startGame.Instance.currentLevel);
             cc.audioEngine.playEffect(this.positive_audio, false);
-            this.scheduleOnce(() => {
-                let clip = this.reiterationAudio[audioNum];
-
-                //console.log("Playing reiteration:", clip);
-
-                cc.audioEngine.playEffect(clip, false);
-            }, this.positive_audio.duration)
             cc.tween(node)
                 .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(() => {
-
                     node.active = false;
-
                     if (this.correctCounter < this.correctAnswer.length) {
-
-
-
-                        // Wait for the audio to finish
+                        let clip = this.reiterationAudio[audioNum] || this.reiterationAudio[0];
+                        cc.audioEngine.playEffect(clip, false);
                         this.scheduleOnce(() => {
-
                             this.canTouch = true;
                             TVInputManager.Instance.setCanSelect(true);
-
-                        }, this.reiterationAudio[audioNum].duration + 0.2);
-
+                        }, 0.5);
                     }
                     else {
-
-                        cc.tween(this.options)
-                            .bezierTo(
-                                1,
-                                cc.v2(-100, 300),
-                                cc.v2(0, 0),
-                                cc.v2(100, -1200)
-                            )
+                        cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
                             .call(() => {
                                 this.LoadNextQuestion();
                             })
                             .start();
                     }
-
                 })
                 .start();
         }
@@ -480,6 +451,7 @@ export default class Gameplay extends cc.Component {
             _clone.setParentWithSamePos(this.node);
             _clone.children[2].active = false;
             _clone.children[1].active = true;
+            _clone.children[1].opacity = 0;
             node.active = false;
             cc.tween(_clone.children[1])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
@@ -509,9 +481,7 @@ export default class Gameplay extends cc.Component {
         }
     }
 
-
     LoadNextQuestion() {
-        //this.node.getChildByName("confetti").active = true;
         ProgressBar.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(() => {
             ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);

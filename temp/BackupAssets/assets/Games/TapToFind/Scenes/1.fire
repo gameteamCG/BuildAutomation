@@ -608,8 +608,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 500,
-      "height": 500
+      "width": 300,
+      "height": 300
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3078,7 +3078,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 269.61,
+      "width": 304.34,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -3130,8 +3130,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": " Letter Xx",
-    "_N$string": " Letter Xx",
+    "_string": " Letter Ww",
+    "_N$string": " Letter Ww",
     "_fontSize": 70,
     "_lineHeight": 80,
     "_enableWrapText": true,
@@ -3254,26 +3254,6 @@
     "negative_audio": {
       "__uuid__": "f85ba194-a1c6-4989-8407-5a0b353d8529"
     },
-    "questionVOs": [
-      {
-        "__uuid__": "b6f94098-9b60-4d8d-939a-295b294a987d"
-      },
-      {
-        "__uuid__": "7f7fa1b3-eb19-4007-9f1d-1bf59d657921"
-      },
-      {
-        "__uuid__": "5f6dcf1f-893e-4897-8463-b1d212d3cff3"
-      },
-      {
-        "__uuid__": "7f7fa1b3-eb19-4007-9f1d-1bf59d657921"
-      },
-      {
-        "__uuid__": "01726561-2d68-4748-b9cf-55b6d159779e"
-      },
-      {
-        "__uuid__": "7f7fa1b3-eb19-4007-9f1d-1bf59d657921"
-      }
-    ],
     "_id": "1eLb3fv5xBood9rsHUrTmd"
   },
   {

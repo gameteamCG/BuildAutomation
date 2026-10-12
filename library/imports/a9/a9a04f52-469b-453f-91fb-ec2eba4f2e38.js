@@ -43,7 +43,6 @@ var Gameplay = /** @class */ (function (_super) {
         _this.pop_audio = null;
         _this.positive_audio = null;
         _this.negative_audio = null;
-        _this.questionVOs = [];
         _this.questionAudio = null;
         _this.correctAudio = null;
         _this.wrongAudio = null;
@@ -186,11 +185,6 @@ var Gameplay = /** @class */ (function (_super) {
         ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
         this.scheduleOnce(function () {
-            if (_this.questionAudio) {
-                if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(_this.questionVOs[StartGame_1.default.Instance.currentLevel - 1], false);
-                }
-            }
             if (_this.optionsLayout == "layout1") {
                 var delay = 0;
                 var _loop_5 = function (i) {
@@ -211,6 +205,7 @@ var Gameplay = /** @class */ (function (_super) {
                     _loop_5(i);
                 }
                 _this.scheduleOnce(function () {
+                    cc.audioEngine.playEffect(_this.questionAudio, false);
                     _this.setupTVFocus(_this.optionsLayout);
                 }, 1.7);
                 _this.options.children.forEach(function (element) {
@@ -233,6 +228,7 @@ var Gameplay = /** @class */ (function (_super) {
                     _loop_6(i);
                 }
                 _this.scheduleOnce(function () {
+                    cc.audioEngine.playEffect(_this.questionAudio, false);
                     _this.setupTVFocus(_this.optionsLayout);
                 }, 1.7);
                 _this.options.children.forEach(function (element) {
@@ -253,6 +249,7 @@ var Gameplay = /** @class */ (function (_super) {
                     _loop_7(i);
                 }
                 _this.scheduleOnce(function () {
+                    cc.audioEngine.playEffect(_this.questionAudio, false);
                     _this.setupTVFocus(_this.optionsLayout);
                 }, 1.7);
                 _this.options.children.forEach(function (element) {
@@ -279,13 +276,13 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.PlayQVoButton = function (_event) {
         var _this = this;
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questionVOs[StartGame_1.default.Instance.currentLevel - 1], false);
+        cc.audioEngine.playEffect(this.questionAudio, false);
         _event.target.getComponent(cc.Button).interactable = false;
         this.scheduleOnce(function () {
             _event.target.getComponent(cc.Button).interactable = true;
             _event.target.scale = 1;
             _this.setupTVFocus(_this.optionsLayout);
-        }, this.questionVOs[StartGame_1.default.Instance.currentLevel - 1].duration);
+        }, this.questionAudio.duration);
     };
     Gameplay.prototype.setupTVFocus = function (activeContainerName) {
         var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
@@ -363,30 +360,25 @@ var Gameplay = /** @class */ (function (_super) {
             }
         }
         if (correct) {
+            this.canTouch = false;
+            TVInputManager_1.default.Instance.setCanSelect(false);
             this.correctCounter++;
-            console.log("Correct Counter:", this.correctCounter);
-            console.log("Total Correct:", this.correctAnswer.length);
-            console.log("Audio Index:", audioNum);
+            console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
             cc.audioEngine.playEffect(this.positive_audio, false);
-            this.scheduleOnce(function () {
-                var clip = _this.reiterationAudio[audioNum];
-                //console.log("Playing reiteration:", clip);
-                cc.audioEngine.playEffect(clip, false);
-            }, this.positive_audio.duration);
             cc.tween(node)
                 .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(function () {
                 node.active = false;
                 if (_this.correctCounter < _this.correctAnswer.length) {
-                    // Wait for the audio to finish
+                    var clip = _this.reiterationAudio[audioNum] || _this.reiterationAudio[0];
+                    cc.audioEngine.playEffect(clip, false);
                     _this.scheduleOnce(function () {
                         _this.canTouch = true;
                         TVInputManager_1.default.Instance.setCanSelect(true);
-                    }, _this.reiterationAudio[audioNum].duration + 0.2);
+                    }, 0.5);
                 }
                 else {
-                    cc.tween(_this.options)
-                        .bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
+                    cc.tween(_this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
                         .call(function () {
                         _this.LoadNextQuestion();
                     })
@@ -504,6 +496,7 @@ var Gameplay = /** @class */ (function (_super) {
             _clone.setParentWithSamePos(this.node);
             _clone.children[2].active = false;
             _clone.children[1].active = true;
+            _clone.children[1].opacity = 0;
             node.active = false;
             cc.tween(_clone.children[1])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
@@ -533,7 +526,6 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
-        //this.node.getChildByName("confetti").active = true;
         ProgressBar_1.default.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(function () {
             ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel);
@@ -740,9 +732,6 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "negative_audio", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], Gameplay.prototype, "questionVOs", void 0);
     Gameplay = __decorate([
         ccclass
     ], Gameplay);
