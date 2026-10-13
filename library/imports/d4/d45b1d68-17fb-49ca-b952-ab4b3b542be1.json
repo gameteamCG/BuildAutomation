@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ijn",
+    "texture": "4655b15c-c1c7-4735-b652-9a20cc2980d5",
+    "atlas": "",
+    "rect": [
+      121,
+      103,
+      258,
+      294
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

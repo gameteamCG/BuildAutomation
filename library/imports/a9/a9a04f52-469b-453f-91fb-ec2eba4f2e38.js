@@ -369,21 +369,26 @@ var Gameplay = /** @class */ (function (_super) {
                 .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(function () {
                 node.active = false;
-                if (_this.correctCounter < _this.correctAnswer.length) {
-                    var clip = _this.reiterationAudio[audioNum] || _this.reiterationAudio[0];
-                    cc.audioEngine.playEffect(clip, false);
-                    _this.scheduleOnce(function () {
+                // Play reiteration after every correct answer
+                var clip = _this.reiterationAudio[audioNum] ||
+                    _this.reiterationAudio[0];
+                cc.audioEngine.playEffect(clip, false);
+                // Wait for reiteration audio to finish
+                _this.scheduleOnce(function () {
+                    if (_this.correctCounter < _this.correctAnswer.length) {
                         _this.canTouch = true;
                         TVInputManager_1.default.Instance.setCanSelect(true);
-                    }, 0.5);
-                }
-                else {
-                    cc.tween(_this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
-                        .call(function () {
-                        _this.LoadNextQuestion();
-                    })
-                        .start();
-                }
+                    }
+                    else {
+                        // Final answer: load next question after audio
+                        cc.tween(_this.options)
+                            .bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
+                            .call(function () {
+                            _this.LoadNextQuestion();
+                        })
+                            .start();
+                    }
+                }, clip.duration);
             })
                 .start();
         }

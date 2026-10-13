@@ -1,0 +1,171 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter Vv Letters and sounds_NUR_sb4_14",
+      "totalLevel": "6",
+      "TitleImageName": "Asset 83.png",
+      "introBgName": "NUR.png",
+      "bgmMusicName": "Kids Game_1.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "o.png",
+        "questionAudioName": "Identify and tap the letter V.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "ghhyhj.png",
+          "vhj.png",
+          "ijn.png",
+          "ghhyhj.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "V SAYS VV.mp3",
+          "V SAYS VV.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "ppppp.png",
+        "questionAudioName": "Tap on the picture that begins with the letter sound v.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "wafwaf.png",
+          "dec.png",
+          "c.png"
+        ],
+        "optionsBg": [
+          "fff.png",
+          "frea.png",
+          "fds.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "VASE.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "b.png",
+        "questionAudioName": "tap on the uppercase letter V.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "ihiy.png",
+          "dfgh.png",
+          "ihiy.png",
+          "oijghj.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "V SAYS VV.mp3",
+          "V SAYS VV.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "oooo.png",
+        "questionAudioName": "Tap on the picture that begins with the letter sound v.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "w.png",
+          "afwafafwfaf.png",
+          "aewfa.png"
+        ],
+        "optionsBg": [
+          "afawfafaf.png",
+          "awfwafafa.png",
+          "awfafaf.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "27849589_10_vaccum-cleaner.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "p.png",
+        "questionAudioName": "tap on the lowercase letter V .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "we.png",
+          "afafa.png",
+          "aweaca.png",
+          "afafa.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "V SAYS VV.mp3",
+          "V SAYS VV.mp3"
+        ],
+        "correctAnswerNum": "24"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "u.png",
+        "questionAudioName": "Tap on the picture that begins with the letter sound v.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "ghj.png",
+          "vcghj.png",
+          "nm.png"
+        ],
+        "optionsBg": [
+          "aewfafaf.png",
+          "hjk.png",
+          "aefaeghhj.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "29883748_22_van.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}

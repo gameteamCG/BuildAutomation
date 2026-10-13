@@ -3079,7 +3079,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 304.34,
+      "width": 272.41,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -3131,8 +3131,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": " Letter Ww",
-    "_N$string": " Letter Ww",
+    "_string": " Letter Vv",
+    "_N$string": " Letter Vv",
     "_fontSize": 70,
     "_lineHeight": 80,
     "_enableWrapText": true,

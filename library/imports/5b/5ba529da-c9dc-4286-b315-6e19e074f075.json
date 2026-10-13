@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "aweaca",
+    "texture": "3c50fb56-9b70-4e26-ab5f-62ff57e0375c",
+    "atlas": "",
+    "rect": [
+      47,
+      3,
+      159,
+      239
+    ],
+    "offset": [
+      1.5,
+      3
+    ],
+    "originalSize": [
+      250,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

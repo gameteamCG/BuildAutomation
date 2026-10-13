@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "frea",
+    "texture": "2c4f7149-a129-4bbb-a0a2-0ca6f66fcef7",
+    "atlas": "",
+    "rect": [
+      149,
+      63,
+      443,
+      615
+    ],
+    "offset": [
+      2,
+      4
+    ],
+    "originalSize": [
+      737,
+      749
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

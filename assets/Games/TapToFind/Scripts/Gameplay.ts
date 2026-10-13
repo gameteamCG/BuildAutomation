@@ -316,30 +316,57 @@ export default class Gameplay extends cc.Component {
             }
         }
         if (correct) {
+
             this.canTouch = false;
             TVInputManager.Instance.setCanSelect(false);
+
             this.correctCounter++;
-            console.log("correctAnswer--" + startGame.Instance.currentLevel);
+
+            console.log(
+                "correctAnswer--" + startGame.Instance.currentLevel
+            );
+
             cc.audioEngine.playEffect(this.positive_audio, false);
+
             cc.tween(node)
                 .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(() => {
+
                     node.active = false;
-                    if (this.correctCounter < this.correctAnswer.length) {
-                        let clip = this.reiterationAudio[audioNum] || this.reiterationAudio[0];
-                        cc.audioEngine.playEffect(clip, false);
-                        this.scheduleOnce(() => {
+
+                    // Play reiteration after every correct answer
+                    let clip =
+                        this.reiterationAudio[audioNum] ||
+                        this.reiterationAudio[0];
+
+                    cc.audioEngine.playEffect(clip, false);
+
+                    // Wait for reiteration audio to finish
+                    this.scheduleOnce(() => {
+
+                        if (this.correctCounter < this.correctAnswer.length) {
+
                             this.canTouch = true;
                             TVInputManager.Instance.setCanSelect(true);
-                        }, 0.5);
-                    }
-                    else {
-                        cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
-                            .call(() => {
-                                this.LoadNextQuestion();
-                            })
-                            .start();
-                    }
+
+                        } else {
+
+                            // Final answer: load next question after audio
+                            cc.tween(this.options)
+                                .bezierTo(
+                                    1,
+                                    cc.v2(-100, 300),
+                                    cc.v2(0, 0),
+                                    cc.v2(100, -1200)
+                                )
+                                .call(() => {
+                                    this.LoadNextQuestion();
+                                })
+                                .start();
+                        }
+
+                    }, clip.duration);
+
                 })
                 .start();
         }
