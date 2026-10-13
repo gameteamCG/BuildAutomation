@@ -245,7 +245,14 @@ export default class TVInputManager extends cc.Component {
             node.opacity = 255;
         });
     }
-
+    callEnd() {
+        this.focusNodes.forEach((node, index) => {
+            node.off(cc.Node.EventType.MOUSE_ENTER);
+            node.off(cc.Node.EventType.MOUSE_LEAVE);
+            node.off(cc.Node.EventType.MOUSE_DOWN);
+            node.off("click");
+        });
+    }
     attachClickListeners() {
         this.focusNodes.forEach((node, index) => {
             node.off(cc.Node.EventType.MOUSE_ENTER);

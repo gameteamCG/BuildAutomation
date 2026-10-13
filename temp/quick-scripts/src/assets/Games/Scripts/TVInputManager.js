@@ -259,6 +259,14 @@ var TVInputManager = /** @class */ (function (_super) {
             node.opacity = 255;
         });
     };
+    TVInputManager.prototype.callEnd = function () {
+        this.focusNodes.forEach(function (node, index) {
+            node.off(cc.Node.EventType.MOUSE_ENTER);
+            node.off(cc.Node.EventType.MOUSE_LEAVE);
+            node.off(cc.Node.EventType.MOUSE_DOWN);
+            node.off("click");
+        });
+    };
     TVInputManager.prototype.attachClickListeners = function () {
         var _this = this;
         this.focusNodes.forEach(function (node, index) {
