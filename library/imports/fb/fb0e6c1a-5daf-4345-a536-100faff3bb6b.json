@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Tens and Ones 41 to 50_lkg_sb5_45",
+      "totalLevel": "6",
+      "TitleImageName": "tns.png",
+      "introBgName": "UKG.png",
+      "bgmMusicName": "okBG.mp3",
+      "mainBgName": "bg (6).png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "While playing football.",
+        "questionImageName": "Q1.png",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "sm2.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "sad.png",
+          "happy.png"
+        ],
+        "correctAudioName": "r1.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "When you have to talk in front of the entire class.",
+        "questionImageName": "Q2.png",
+        "questionAudioName": "q2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "sm2.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "sad.png",
+          "nervous.png"
+        ],
+        "correctAudioName": "r2.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "When its your birthday party celebration with your friends.",
+        "questionImageName": "Q3.png",
+        "questionAudioName": "q3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "sm2.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "impatient.png",
+          "excited.png"
+        ],
+        "correctAudioName": "r3.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "When you hurt yourself.",
+        "questionImageName": "Q4.png",
+        "questionAudioName": "q4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "sm2.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "sad.png",
+          "excited.png"
+        ],
+        "correctAudioName": "r4.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "When your being chased by an angry dog.",
+        "questionImageName": "Q5.png",
+        "questionAudioName": "q5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "sm2.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "scared.png",
+          "happy.png"
+        ],
+        "correctAudioName": "r5.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "When you have to wait for your turn.",
+        "questionImageName": "Q6.png",
+        "questionAudioName": "q6.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "sm2.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "impatient.png",
+          "excited.png"
+        ],
+        "correctAudioName": "r6.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
