@@ -630,7 +630,7 @@ export default class gameplay extends cc.Component {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
         }
         else if (startGame.Instance.jockeyName == "Puzzle") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (startGame.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
@@ -769,7 +769,7 @@ export default class gameplay extends cc.Component {
                 anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
             }
             else if (startGame.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+                anim = ["negative_1", "negative_2", "negative_1", "negative_2", "negative_1", "negative_2", "negative_1"];
             }
             else if (startGame.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
@@ -1153,7 +1153,7 @@ export default class gameplay extends cc.Component {
     }
 
     Feedback(_node: cc.Node, _dropNode: cc.Node, number: number) {
-        console.log("feedback called!!!!!");
+        // console.log("feedback called!!!!!");
         this.canMove = false;
         if (_node.name == _dropNode.name) {
             this.answeredCount++;
