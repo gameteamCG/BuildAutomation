@@ -76,6 +76,8 @@ var gameplay = /** @class */ (function (_super) {
         _this.canMove = false;
         _this.collider = null;
         _this.droppedBool = [];
+        // RANDOM: set to false if the left column (dropZones) should keep its fixed order
+        _this.shuffleLeftColumn = true;
         _this.answeredCount = 0;
         _this.totalAnswers = 0;
         return _this;
@@ -370,6 +372,11 @@ var gameplay = /** @class */ (function (_super) {
         this.OptionsLayoutVertical(this.dropZones);
         this.reverseOptionsLayout(this.optionsNode);
         this.reverseOptionsLayout(this.dropZones);
+        // RANDOM: shuffle both columns every time the level loads
+        if (this.shuffleLeftColumn) {
+            this.shufflePositions(this.dropZones.children);
+        }
+        this.shufflePositions(this.optionsNode.children, this.dropZones.children);
         // let posX = -237;
         // if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
         //     posX = -300;
@@ -568,7 +575,7 @@ var gameplay = /** @class */ (function (_super) {
         cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { scale: 2 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 110, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 120, y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             var audioNum = parseInt(_clone1.name);
             audioNum -= 1;
@@ -915,22 +922,40 @@ var gameplay = /** @class */ (function (_super) {
             _polygon.points[3].x = -optionNodes[i].getChildByName("img").width / 2;
             _polygon.points[3].y = optionNodes[i].getChildByName("img").height / 2;
         }
-        if (_node.name == this.optionsNode.name) {
-            var children = optionsLayout.children;
-            // Create an array to store the original positions
-            var originalPositions = [];
-            // Store the original positions of the children nodes
-            for (var i = 0; i < children.length; i++) {
-                originalPositions.push(children[i].position.clone());
-            }
-            // Shuffle the positions randomly
-            for (var i = children.length - 1; i > 0; i--) {
+    };
+    /**
+     * RANDOM: randomly swaps the positions of `nodes` (Fisher-Yates).
+     * If `reference` is given (the left column), a shuffle where EVERY node ends up
+     * in the same row as its matching reference node (a perfectly straight, "solved"
+     * layout) is rejected and shuffled again - only done for 3 or more pairs,
+     * because with 2 pairs that would force the same swap every time.
+     */
+    gameplay.prototype.shufflePositions = function (nodes, reference) {
+        var n = nodes.length;
+        if (n < 2)
+            return;
+        var original = nodes.map(function (c) { return c.getPosition(); });
+        var isSolvedLayout = function (perm) {
+            if (!reference || n < 3)
+                return false;
+            return perm.every(function (slot, i) {
+                return !!reference[i] &&
+                    Math.abs(original[slot].y - reference[i].y) < 1;
+            });
+        };
+        var perm = [];
+        var attempts = 0;
+        do {
+            perm = nodes.map(function (_, i) { return i; });
+            for (var i = n - 1; i > 0; i--) {
                 var j = Math.floor(Math.random() * (i + 1));
-                var temp = children[i].position.clone();
-                children[i].setPosition(children[j].position);
-                children[j].setPosition(temp);
+                var tmp = perm[i];
+                perm[i] = perm[j];
+                perm[j] = tmp;
             }
-        }
+            attempts++;
+        } while (isSolvedLayout(perm) && attempts < 50);
+        nodes.forEach(function (c, i) { return c.setPosition(original[perm[i]]); });
     };
     gameplay.prototype.TouchStart = function (_node, _event) {
         if (!this.canMove) {

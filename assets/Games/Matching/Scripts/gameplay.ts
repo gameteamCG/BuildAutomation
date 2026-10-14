@@ -1,4 +1,3 @@
-
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
 import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
@@ -112,6 +111,9 @@ export default class gameplay extends cc.Component {
     canMove: boolean = false;
     private collider: cc.Node = null;
     droppedBool: boolean[] = [];
+
+    // RANDOM: set to false if the left column (dropZones) should keep its fixed order
+    private shuffleLeftColumn: boolean = true;
 
     private answeredCount: number = 0;
     private totalAnswers: number = 0;
@@ -410,6 +412,12 @@ export default class gameplay extends cc.Component {
         this.OptionsLayoutVertical(this.dropZones);
         this.reverseOptionsLayout(this.optionsNode);
         this.reverseOptionsLayout(this.dropZones);
+
+        // RANDOM: shuffle both columns every time the level loads
+        if (this.shuffleLeftColumn) {
+            this.shufflePositions(this.dropZones.children);
+        }
+        this.shufflePositions(this.optionsNode.children, this.dropZones.children);
         // let posX = -237;
         // if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
         //     posX = -300;
@@ -608,7 +616,7 @@ export default class gameplay extends cc.Component {
         cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { scale: 2 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 110, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 120, y: 0 }, { easing: "sineInOut" }).start();
 
         this.scheduleOnce(() => {
             let audioNum: number = parseInt(_clone1.name);
@@ -987,28 +995,47 @@ export default class gameplay extends cc.Component {
             _polygon.points[3].y = optionNodes[i].getChildByName("img").height / 2;
         }
 
-        if (_node.name == this.optionsNode.name) {
-            const children = optionsLayout.children;
-
-            // Create an array to store the original positions
-            const originalPositions = [];
-
-            // Store the original positions of the children nodes
-            for (let i = 0; i < children.length; i++) {
-                originalPositions.push(children[i].position.clone());
-            }
-
-            // Shuffle the positions randomly
-            for (let i = children.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                const temp = children[i].position.clone();
-                children[i].setPosition(children[j].position);
-                children[j].setPosition(temp);
-            }
-        }
     }
 
 
+
+    /**
+     * RANDOM: randomly swaps the positions of `nodes` (Fisher-Yates).
+     * If `reference` is given (the left column), a shuffle where EVERY node ends up
+     * in the same row as its matching reference node (a perfectly straight, "solved"
+     * layout) is rejected and shuffled again - only done for 3 or more pairs,
+     * because with 2 pairs that would force the same swap every time.
+     */
+    private shufflePositions(nodes: cc.Node[], reference?: cc.Node[]) {
+        let n = nodes.length;
+        if (n < 2) return;
+
+        let original = nodes.map((c) => c.getPosition());
+
+        let isSolvedLayout = (perm: number[]): boolean => {
+            if (!reference || n < 3) return false;
+            return perm.every(
+                (slot, i) =>
+                    !!reference[i] &&
+                    Math.abs(original[slot].y - reference[i].y) < 1
+            );
+        };
+
+        let perm: number[] = [];
+        let attempts = 0;
+        do {
+            perm = nodes.map((_, i) => i);
+            for (let i = n - 1; i > 0; i--) {
+                let j = Math.floor(Math.random() * (i + 1));
+                let tmp = perm[i];
+                perm[i] = perm[j];
+                perm[j] = tmp;
+            }
+            attempts++;
+        } while (isSolvedLayout(perm) && attempts < 50);
+
+        nodes.forEach((c, i) => c.setPosition(original[perm[i]]));
+    }
 
     TouchStart(_node: cc.Node, _event: any) {
         if (!this.canMove) {

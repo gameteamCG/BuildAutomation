@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Tens and ones 61 to 70 ",
-      "totalLevel": "9",
+      "totalLevel": "7",
       "TitleImageName": "Asset 278.png",
       "introBgName": "UKG_Intro.png",
       "bgmMusicName": "BG_BB.mp3",
@@ -17,7 +17,7 @@
       {
         "questionText": "Machines at Home",
         "ansText": "Machines at Home",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "newidentifythemachinea.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "new_Asset 517.png",
         "isLeftOptionText": false,
@@ -26,7 +26,7 @@
           "new_Asset 561.png"
         ],
         "reiterations": [
-          "VO_62.mp3"
+          "newtelevision.mp3"
         ],
         "commonRightOptionImageName": "",
         "isRightOptionText": false,
@@ -39,7 +39,7 @@
       {
         "questionText": "Machines at Home",
         "ansText": "Machines at Home",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "newidentifythemachinea.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "new_Asset 517.png",
         "isLeftOptionText": false,
@@ -48,7 +48,7 @@
           "new_Asset 561.png"
         ],
         "reiterations": [
-          "VO_62.mp3"
+          "newmicrowave.mp3"
         ],
         "commonRightOptionImageName": "",
         "isRightOptionText": false,
@@ -61,7 +61,7 @@
       {
         "questionText": "Machines at Home",
         "ansText": "Machines at Home",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "newidentifythemachinea.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "new_Asset 517.png",
         "isLeftOptionText": false,
@@ -70,7 +70,7 @@
           "new_Asset 561.png"
         ],
         "reiterations": [
-          "VO_62.mp3"
+          "newwashingmachine.mp3"
         ],
         "commonRightOptionImageName": "",
         "isRightOptionText": false,
@@ -83,29 +83,7 @@
       {
         "questionText": "Machines at Home",
         "ansText": "Machines at Home",
-        "questionAudioName": "QVO.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonLeftOptionImageName": "new_Asset 517.png",
-        "isLeftOptionText": false,
-        "numberOfLeftOptions": 2,
-        "leftoptions": [
-          "new_Asset 561.png"
-        ],
-        "reiterations": [
-          "VO_62.mp3"
-        ],
-        "commonRightOptionImageName": "",
-        "isRightOptionText": false,
-        "numberOfRightOptions": 2,
-        "rightoptions": [
-          "new_Asset 542.png",
-          "new_Asset 543.png"
-        ]
-      },
-      {
-        "questionText": "Machines at Home",
-        "ansText": "Machines at Home",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "newidentifythemachinea.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "new_Asset 517.png",
         "isLeftOptionText": false,
@@ -114,20 +92,20 @@
           "new_Asset 561.png"
         ],
         "reiterations": [
-          "VO_62.mp3"
+          "newiron.mp3"
         ],
         "commonRightOptionImageName": "",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "new_Asset 541.png",
-          "new_Asset 540.png"
+          "new_Asset 543.png",
+          "new_Asset 542.png"
         ]
       },
       {
         "questionText": "Machines at Home",
         "ansText": "Machines at Home",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "newidentifythemachinea.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "new_Asset 517.png",
         "isLeftOptionText": false,
@@ -136,42 +114,20 @@
           "new_Asset 561.png"
         ],
         "reiterations": [
-          "VO_62.mp3"
+          "newrefrigerator.mp3"
         ],
         "commonRightOptionImageName": "",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "new_Asset 541.png",
-          "new_Asset 540.png"
+          "new_Asset 539.png",
+          "new_Asset 538.png"
         ]
       },
       {
         "questionText": "Machines at Home",
         "ansText": "Machines at Home",
-        "questionAudioName": "QVO.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonLeftOptionImageName": "new_Asset 517.png",
-        "isLeftOptionText": false,
-        "numberOfLeftOptions": 2,
-        "leftoptions": [
-          "new_Asset 561.png"
-        ],
-        "reiterations": [
-          "VO_62.mp3"
-        ],
-        "commonRightOptionImageName": "",
-        "isRightOptionText": false,
-        "numberOfRightOptions": 2,
-        "rightoptions": [
-          "new_Asset 538.png",
-          "new_Asset 539.png"
-        ]
-      },
-      {
-        "questionText": "Machines at Home",
-        "ansText": "Machines at Home",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "newidentifythemachinea.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "new_Asset 517.png",
         "isLeftOptionText": false,
@@ -180,7 +136,7 @@
           "new_Asset 561.png"
         ],
         "reiterations": [
-          "VO_62.mp3"
+          "newlaptop.mp3"
         ],
         "commonRightOptionImageName": "",
         "isRightOptionText": false,
@@ -193,23 +149,23 @@
       {
         "questionText": "Machines at Home",
         "ansText": "Machines at Home",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "newidentifythemachinea.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "new_Asset 517.png",
         "isLeftOptionText": false,
-        "numberOfLeftOptions": 2,
+        "numberOfLeftOptions": 1,
         "leftoptions": [
           "new_Asset 561.png"
         ],
         "reiterations": [
-          "VO_62.mp3"
+          "TOASTER.mp3"
         ],
         "commonRightOptionImageName": "",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "new_Asset 534.png",
-          "new_Asset 535.png"
+          "new_Asset 535.png",
+          "new_Asset 534.png"
         ]
       }
     ]
