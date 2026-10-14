@@ -19,7 +19,7 @@
         "IsQuestionText": true,
         "QuestionText": "Rhinoceros",
         "QuestionImageName": "",
-        "QuestionAudioName": "britishvo8784268_1_identify-the-rhinocero.mp3",
+        "QuestionAudioName": "1L.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -27,7 +27,7 @@
           "L1.png",
           "L8.png"
         ],
-        "ReiterationAudioName": "britishvo8784268_2_rhinoceros.mp3",
+        "ReiterationAudioName": "1R.mp3",
         "CorrectAudioName": "positive_1.mp3",
         "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "1"
@@ -37,7 +37,7 @@
         "IsQuestionText": true,
         "QuestionText": "Crocodile",
         "QuestionImageName": "",
-        "QuestionAudioName": "britishvo8784268_3_tap-on-the-crocodile.mp3",
+        "QuestionAudioName": "2L.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -45,7 +45,7 @@
           "L9.png",
           "L2.png"
         ],
-        "ReiterationAudioName": "britishvo8784268_4_crocodile.mp3",
+        "ReiterationAudioName": "2R.mp3",
         "CorrectAudioName": "positive_2.mp3",
         "WrongAudioName": "negative_2.mp3",
         "CorrectAnswer": "2"
@@ -55,7 +55,7 @@
         "IsQuestionText": true,
         "QuestionText": "Lion",
         "QuestionImageName": "",
-        "QuestionAudioName": "britishvo8784268_5_tap-on-the-lion.mp3",
+        "QuestionAudioName": "3L.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -63,7 +63,7 @@
           "L6.png",
           "L3.png"
         ],
-        "ReiterationAudioName": "britishvo8784268_6_lion.mp3",
+        "ReiterationAudioName": "3R.mp3",
         "CorrectAudioName": "positive_3.mp3",
         "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "2"
@@ -73,7 +73,7 @@
         "IsQuestionText": true,
         "QuestionText": "Giraffe",
         "QuestionImageName": "",
-        "QuestionAudioName": "britishvo8784268_7_tap-on-the-giraffe.mp3",
+        "QuestionAudioName": "4L.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -81,7 +81,7 @@
           "L4.png",
           "L1.png"
         ],
-        "ReiterationAudioName": "britishvo8784268_8_giraffe.mp3",
+        "ReiterationAudioName": "4R.mp3",
         "CorrectAudioName": "positive_4.mp3",
         "WrongAudioName": "negative_2.mp3",
         "CorrectAnswer": "1"
@@ -91,7 +91,7 @@
         "IsQuestionText": true,
         "QuestionText": "Elephant",
         "QuestionImageName": "",
-        "QuestionAudioName": "britishvo8784268_9_tap-on-the-elephant.mp3",
+        "QuestionAudioName": "5L.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -99,7 +99,7 @@
           "L5.png",
           "L7.png"
         ],
-        "ReiterationAudioName": "britishvo8784268_10_elephant.mp3",
+        "ReiterationAudioName": "5R.mp3",
         "CorrectAudioName": "positive_5.mp3",
         "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "1"
@@ -109,7 +109,7 @@
         "IsQuestionText": true,
         "QuestionText": "Deer",
         "QuestionImageName": "",
-        "QuestionAudioName": "britishvo8784268_11_tap-on-the-deer.mp3",
+        "QuestionAudioName": "6L.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -117,7 +117,7 @@
           "L7.png",
           "L6.png"
         ],
-        "ReiterationAudioName": "britishvo8784268_12_deer.mp3",
+        "ReiterationAudioName": "6R.mp3",
         "CorrectAudioName": "positive_6.mp3",
         "WrongAudioName": "negative_2.mp3",
         "CorrectAnswer": "2"

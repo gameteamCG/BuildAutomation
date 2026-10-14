@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "D:\\buildfiles\\SMART_TV\\GA_Nursary_smartTV\\amrutaSmartTLearn_WildAnimals_Nursery_GA_pg59_smartTV",
+  "buildPath": "D:\\Builds\\SmartTV\\SmartLearn\\GA\\WildAnimals_Nursery_GA_pg59_smartTV",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
