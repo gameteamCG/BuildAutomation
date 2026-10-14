@@ -64,6 +64,13 @@ var NewClass = /** @class */ (function (_super) {
         _this.positionArray = [];
         _this.correctAnswerCount = 0;
         _this.totalAnswers = 1;
+        _this.answerWords = [
+            "ऐरावत",
+            "ऐनक",
+            "ऐलान",
+            "एम्बुलेंस",
+            "एवरेस्ट",
+        ];
         _this.isVisied = false;
         return _this;
     }
@@ -461,9 +468,14 @@ var NewClass = /** @class */ (function (_super) {
             this.setupTVFocus2();
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel"))
-                .to(1, { y: 1500 }, { easing: "sineInOut" })
-                .start();
+            this.node
+                .getChildByName("questionPanel")
+                .getChildByName("text")
+                .getComponent(cc.Label).string =
+                this.answerWords[globalVariables_1.default.Instance.currentLevel - 1];
+            // cc.tween(this.node.getChildByName("questionPanel"))
+            //   .to(1, { y: 1500 }, { easing: "sineInOut" })
+            //   .start();
             this.node
                 .getChildByName("questionPanel")
                 .getChildByName("sound")

@@ -43,6 +43,13 @@ export default class NewClass extends cc.Component {
   positionArray: cc.Vec2[] = [];
   correctAnswerCount: number = 0;
   totalAnswers: number = 1;
+  private answerWords: string[] = [
+    "ऐरावत",
+    "ऐनक",
+    "ऐलान",
+    "एम्बुलेंस",
+    "एवरेस्ट",
+  ];
 
   // LIFE-CYCLE CALLBACKS:
 
@@ -565,9 +572,14 @@ export default class NewClass extends cc.Component {
       this.setupTVFocus2();
       cc.audioEngine.stopAllEffects();
       console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
-      cc.tween(this.node.getChildByName("questionPanel"))
-        .to(1, { y: 1500 }, { easing: "sineInOut" })
-        .start();
+      this.node
+        .getChildByName("questionPanel")
+        .getChildByName("text")
+        .getComponent(cc.Label).string =
+        this.answerWords[globalVariables.Instance.currentLevel - 1];
+      // cc.tween(this.node.getChildByName("questionPanel"))
+      //   .to(1, { y: 1500 }, { easing: "sineInOut" })
+      //   .start();
       this.node
         .getChildByName("questionPanel")
         .getChildByName("sound")
