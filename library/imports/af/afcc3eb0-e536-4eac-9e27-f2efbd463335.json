@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0003_cargoship",
+    "texture": "ca5d851a-a59e-4d16-a23c-14d5930a18b2",
+    "atlas": "",
+    "rect": [
+      70,
+      81,
+      378,
+      325
+    ],
+    "offset": [
+      8.5,
+      7
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -269,6 +269,7 @@ var NewClass = /** @class */ (function (_super) {
             posX = -300;
         }
         this.scheduleOnce(function () {
+            _this.node.getChildByName("QuestionBox").getChildByName("text").getComponent(cc.Label).string = _this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame.name;
             _this.scheduleOnce(function () {
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 cc.tween(_this.node.getChildByName("QuestionBox"))

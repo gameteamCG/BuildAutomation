@@ -308,6 +308,7 @@ export default class NewClass extends cc.Component {
             posX = -300;
         }
         this.scheduleOnce(() => {
+            this.node.getChildByName("QuestionBox").getChildByName("text").getComponent(cc.Label).string = this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame.name;
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(this.node.getChildByName("QuestionBox"))

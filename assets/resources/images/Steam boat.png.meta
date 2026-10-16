@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "642046d1-dc08-4f07-bf90-afcdfee16d9c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Steam boat": {
+      "ver": "1.0.6",
+      "uuid": "2641eb48-c9ee-4068-97ef-ef481c5440a1",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "642046d1-dc08-4f07-bf90-afcdfee16d9c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 3.5,
+      "offsetY": -10,
+      "trimX": 49,
+      "trimY": 158,
+      "width": 409,
+      "height": 204,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "28ecdacd-dc9f-4e20-a5fa-85b8145cd3a4",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Cargo ship": {
+      "ver": "1.0.6",
+      "uuid": "e79277a3-5927-4625-a5e0-dbb980709b52",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "28ecdacd-dc9f-4e20-a5fa-85b8145cd3a4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -20,
+      "trimX": 68,
+      "trimY": 135,
+      "width": 365,
+      "height": 270,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

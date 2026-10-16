@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Steam boat",
+    "texture": "642046d1-dc08-4f07-bf90-afcdfee16d9c",
+    "atlas": "",
+    "rect": [
+      49,
+      158,
+      409,
+      204
+    ],
+    "offset": [
+      3.5,
+      -10
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

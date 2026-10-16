@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "titlewatertransport",
+    "texture": "43632cbb-c2b3-493a-9988-b47faecb62fc",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1019,
+      220
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1019,
+      220
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
