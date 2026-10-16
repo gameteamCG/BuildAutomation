@@ -1,4 +1,5 @@
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import TVInputManager from "./TVInputManager";
 
@@ -6,6 +7,8 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class Gameplay extends cc.Component {
+    @property(cc.AudioClip)
+    private QVo: cc.AudioClip[] = [];
     @property(cc.AudioClip)
     private postive_VO: cc.AudioClip[] = [];
     @property(cc.AudioClip)
@@ -147,7 +150,9 @@ export default class Gameplay extends cc.Component {
         this.scheduleOnce(() => {
             if (this.questionAudio) {
                 if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(this.questionAudio, false);
+                    this.scheduleOnce(() => {
+                        cc.audioEngine.playEffect(this.QVo[startGame.Instance.currentLevel - 1], false);
+                    }, 1)
                 }
             }
             if (this.optionsLayout == "layout1") {
@@ -230,13 +235,14 @@ export default class Gameplay extends cc.Component {
 
     PlayQVoButton(_event: cc.Event) {
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questionAudio, false);
+        cc.audioEngine.playEffect(this.QVo[startGame.Instance.currentLevel - 1], false);
+
         _event.target.getComponent(cc.Button).interactable = false;
         this.scheduleOnce(() => {
             _event.target.getComponent(cc.Button).interactable = true;
             _event.target.scale = 1;
             this.setupTVFocus(this.optionsLayout);
-        }, this.questionAudio.duration)
+        }, this.QVo[startGame.Instance.currentLevel - 1].duration)
 
     }
     isVisied: boolean = false;
@@ -319,30 +325,53 @@ export default class Gameplay extends cc.Component {
         if (correct) {
             this.canTouch = false;
             TVInputManager.Instance.setCanSelect(false);
+
             this.correctCounter++;
+
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
+
             cc.audioEngine.playEffect(this.positive_audio, false);
+
             cc.tween(node)
                 .to(0.8, { y: 1200 }, { easing: "sineInOut" })
-                .call(() => {
-                    node.active = false;
+                .start();
+
+            this.scheduleOnce(() => {
+                node.active = false;
+
+                // Play reiteration audio for EVERY correct answer,
+                // including the last element.
+                let clip = this.reiterationAudio[audioNum] || this.reiterationAudio[0];
+
+                cc.audioEngine.playEffect(clip, false);
+
+                // Wait for the reiteration audio before proceeding.
+                this.scheduleOnce(() => {
+
                     if (this.correctCounter < this.correctAnswer.length) {
-                        let clip = this.reiterationAudio[audioNum] || this.reiterationAudio[0];
-                        cc.audioEngine.playEffect(clip, false);
-                        this.scheduleOnce(() => {
-                            this.canTouch = true;
-                            TVInputManager.Instance.setCanSelect(true);
-                        }, 0.5);
-                    }
-                    else {
-                        cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
+
+                        this.canTouch = true;
+                        TVInputManager.Instance.setCanSelect(true);
+
+                    } else {
+
+                        cc.tween(this.options)
+                            .bezierTo(
+                                1,
+                                cc.v2(-100, 300),
+                                cc.v2(0, 0),
+                                cc.v2(100, -1200)
+                            )
                             .call(() => {
                                 this.LoadNextQuestion();
                             })
                             .start();
+
                     }
-                })
-                .start();
+
+                }, clip.duration + 0.1);
+
+            }, 0.5);
         }
         else {
             this.callNegativeRection();

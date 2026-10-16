@@ -30,7 +30,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var TVInputManager_1 = require("./TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -38,6 +38,7 @@ var Gameplay = /** @class */ (function (_super) {
     __extends(Gameplay, _super);
     function Gameplay() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.QVo = [];
         _this.postive_VO = [];
         _this.negative_VO = [];
         _this.pop_audio = null;
@@ -187,7 +188,9 @@ var Gameplay = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             if (_this.questionAudio) {
                 if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(_this.questionAudio, false);
+                    _this.scheduleOnce(function () {
+                        cc.audioEngine.playEffect(_this.QVo[StartGame_1.default.Instance.currentLevel - 1], false);
+                    }, 1);
                 }
             }
             if (_this.optionsLayout == "layout1") {
@@ -278,13 +281,13 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.PlayQVoButton = function (_event) {
         var _this = this;
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questionAudio, false);
+        cc.audioEngine.playEffect(this.QVo[StartGame_1.default.Instance.currentLevel - 1], false);
         _event.target.getComponent(cc.Button).interactable = false;
         this.scheduleOnce(function () {
             _event.target.getComponent(cc.Button).interactable = true;
             _event.target.scale = 1;
             _this.setupTVFocus(_this.optionsLayout);
-        }, this.questionAudio.duration);
+        }, this.QVo[StartGame_1.default.Instance.currentLevel - 1].duration);
     };
     Gameplay.prototype.setupTVFocus = function (activeContainerName) {
         var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
@@ -369,25 +372,29 @@ var Gameplay = /** @class */ (function (_super) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             cc.tween(node)
                 .to(0.8, { y: 1200 }, { easing: "sineInOut" })
-                .call(function () {
+                .start();
+            this.scheduleOnce(function () {
                 node.active = false;
-                if (_this.correctCounter < _this.correctAnswer.length) {
-                    var clip = _this.reiterationAudio[audioNum] || _this.reiterationAudio[0];
-                    cc.audioEngine.playEffect(clip, false);
-                    _this.scheduleOnce(function () {
+                // Play reiteration audio for EVERY correct answer,
+                // including the last element.
+                var clip = _this.reiterationAudio[audioNum] || _this.reiterationAudio[0];
+                cc.audioEngine.playEffect(clip, false);
+                // Wait for the reiteration audio before proceeding.
+                _this.scheduleOnce(function () {
+                    if (_this.correctCounter < _this.correctAnswer.length) {
                         _this.canTouch = true;
                         TVInputManager_1.default.Instance.setCanSelect(true);
-                    }, 0.5);
-                }
-                else {
-                    cc.tween(_this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
-                        .call(function () {
-                        _this.LoadNextQuestion();
-                    })
-                        .start();
-                }
-            })
-                .start();
+                    }
+                    else {
+                        cc.tween(_this.options)
+                            .bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
+                            .call(function () {
+                            _this.LoadNextQuestion();
+                        })
+                            .start();
+                    }
+                }, clip.duration + 0.1);
+            }, 0.5);
         }
         else {
             this.callNegativeRection();
@@ -718,6 +725,9 @@ var Gameplay = /** @class */ (function (_super) {
             callback(audioClip);
         });
     };
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "QVo", void 0);
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "postive_VO", void 0);
