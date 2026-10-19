@@ -5,21 +5,21 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -8,
-      "y": -8,
-      "width": 1382,
-      "height": 736,
+      "x": 0,
+      "y": 0,
+      "width": 1366,
+      "height": 720,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 268,
-            "height": 618,
+            "width": 264.84375,
+            "height": 602,
             "type": "dock-v",
             "children": [
               {
-                "width": 268,
-                "height": 310,
+                "width": 264.84375,
+                "height": 301.9375,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 268,
-                "height": 305,
+                "width": 264.84375,
+                "height": 297.0625,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 702.984375,
-            "height": 618,
+            "width": 694.71875,
+            "height": 602,
             "type": "dock-v",
             "children": [
               {
-                "width": 702.984375,
-                "height": 310,
+                "width": 694.71875,
+                "height": 301.9375,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 702.984375,
-                "height": 305,
+                "width": 694.71875,
+                "height": 297.0625,
                 "type": "panel",
                 "active": 1,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 389,
-            "height": 618,
+            "width": 384.421875,
+            "height": 602,
             "type": "panel",
             "active": 0,
             "children": [

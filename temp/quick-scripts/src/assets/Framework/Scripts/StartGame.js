@@ -354,7 +354,7 @@ var startGame = /** @class */ (function (_super) {
             }
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
                 _this.scheduleOnce(function () {
-                    cc.director.loadScene(_this.NextSceneName);
+                    // cc.director.loadScene(this.NextSceneName);
                 }, 2);
             }
         }, 1);
