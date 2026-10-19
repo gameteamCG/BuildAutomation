@@ -528,11 +528,12 @@ export default class video extends cc.Component {
     this.scheduleOnce(() => {
       // this.ActivateTools(false);
       this.node.getComponent(cc.VideoPlayer).volume = 1;
-      this.UpdateSlider();
+      // FIX: do not call UpdateSlider() here - it does stop()+play() with slider
+      // progress 0, which restarted the video from the beginning after 1 second.
+      this.isSliding = true; // just let update() sync the slider with the video
       this.scheduleOnce(() => {
         this.gameStarted = true;
       }, 1);
-      // this.isSliding = true;
     }, 1);
     // this.scheduleOnce(() => {
     //     this.tools.active = true;
@@ -920,7 +921,7 @@ export default class video extends cc.Component {
     for (let i = 0; i < this.questions.length; i++) {
       if (
         Math.round(this.node.getComponent(cc.VideoPlayer).currentTime) ==
-          this.timers[i] &&
+        this.timers[i] &&
         !this.questionAppeared[i] &&
         this.canNextQuestion &&
         this.gameStarted
