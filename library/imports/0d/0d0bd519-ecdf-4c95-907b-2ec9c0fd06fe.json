@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "HulaHoop",
+    "texture": "b89ccf1e-3ddf-4bd3-a1a9-401850ea3639",
+    "atlas": "",
+    "rect": [
+      77,
+      32,
+      348,
+      433
+    ],
+    "offset": [
+      0.5,
+      2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

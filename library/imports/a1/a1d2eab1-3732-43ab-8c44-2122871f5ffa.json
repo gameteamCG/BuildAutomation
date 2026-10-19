@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "handquestion",
+    "texture": "6e879cb9-7d4e-4613-b87b-2d3673c58b8c",
+    "atlas": "",
+    "rect": [
+      66,
+      58,
+      277,
+      386
+    ],
+    "offset": [
+      -45.5,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

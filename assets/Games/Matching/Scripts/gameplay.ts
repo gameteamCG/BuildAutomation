@@ -434,11 +434,11 @@ export default class gameplay extends cc.Component {
         this.dropZones.active = false;
         this.optionsNode.active = false;
         cc.tween(_clone1).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1).to(0.5, { x: -170, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1.children[1]).to(0.5, { width: 350, height: 350 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1).to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 170, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2.children[1]).to(0.5, { width: 350, height: 350 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
             cc.audioEngine.playEffect(this.positiveSound[0], false);
         }, 0.2)
@@ -457,6 +457,7 @@ export default class gameplay extends cc.Component {
 
     callJockey() {
         let anim: string[] = [];
+        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
         anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
         let pos: number[] = [-1200, 1200];
@@ -481,6 +482,7 @@ export default class gameplay extends cc.Component {
         }
         this.scheduleOnce(() => {
             let anim: string[] = [];
+            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
             let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
             this.currentJcokey.setPosition(1200, -350);
