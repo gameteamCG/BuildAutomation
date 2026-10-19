@@ -94,18 +94,6 @@ export default class video extends cc.Component {
     private videoCompleted: boolean = false;
     private gameStarted: boolean = false;
 
-    private correctAnim: string[] = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-    private wrongAnim: string[] = ["negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3"];
-
-    private puzzleCorrectAnim: string[] = ["positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3"];
-    private puzzleNegativeAnim: string[] = ["negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1"];
-
-    private supercubCorrectAnim: string[] = ["positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5"];
-    private supercubNegativeAnim: string[] = ["negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4"];
-
-    private podarCorrectAnim: string[] = ["possitive1", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6", "possitive1", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
-    private podarNegativeAnim: string[] = ["negetive1", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6", "negetive1", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
-
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
@@ -285,18 +273,6 @@ export default class video extends cc.Component {
             star.setPosition(0, 0);
         }
         this.OptionsLayout();
-        if (startGame.Instance.jockeyName == "puzzle") {
-            this.correctAnim = this.puzzleCorrectAnim;
-            this.wrongAnim = this.puzzleNegativeAnim;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.correctAnim = this.supercubCorrectAnim;
-            this.wrongAnim = this.supercubNegativeAnim;
-        }
-        else if (startGame.Instance.jockeyName == "Podar") {
-            this.correctAnim = this.podarCorrectAnim;
-            this.wrongAnim = this.podarNegativeAnim;
-        }
     }
 
     playVideo1() {
@@ -455,20 +431,9 @@ export default class video extends cc.Component {
             _event.target.getParent().children.forEach(element => {
                 element.getComponent(cc.Button).interactable = false;
             });
-            // let num: number = this.getRandomNumber(0, this.correctAnim.length - 1)
-            let num = this.currentQuestion - 1;
-            if (num > this.correctAnim.length - 1) {
-                num -= (this.correctAnim.length - 1);
-                if (num > this.correctAnim.length - 1) {
-                    num -= (this.correctAnim.length - 1);
-                    if (num > this.correctAnim.length - 1) {
-                        num -= (this.correctAnim.length - 1);
-                    }
-                }
-            }
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].correctAudio, false);
-                this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.correctAnim[num], false);
+                this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.questions[this.currentQuestion - 1].correctAudio.name, false);
                 if (this.attemps <= 1) {
                     this.starUpdate(this.currentQuestion - 1, true, true);
                 }
@@ -492,26 +457,18 @@ export default class video extends cc.Component {
                     else {
                         this.ResumePlayButton();
                     }
-                }, this.getAnimDuration(this.correctAnim[num]));
+                }, this.questions[this.currentQuestion - 1].correctAudio.duration);
 
             }, this.questions[this.currentQuestion - 1].reiterationAudio.duration + 0.5);
         }
         else {
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].wrongAudio, false);
-            // this.character.getComponent(cc.Animation).play("wrong");
-            // let num: number = this.getRandomNumber(0, this.wrongAnim.length - 1);
-            let num = this.currentQuestion - 1;
-            if (num > this.wrongAnim.length - 1) {
-                num -= (this.wrongAnim.length - 1);
-            }
-
-            this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
-            // this.character.getChildByName("anim").getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
+            this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.questions[this.currentQuestion - 1].wrongAudio.name, false);
             this.scheduleOnce(() => {
                 // this.character.getComponent(cc.Animation).play("Idle");
                 this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-            }, this.getAnimDuration(this.wrongAnim[num]));
+            }, this.questions[this.currentQuestion - 1].wrongAudio.duration);
             _event.target.getChildByName("red").active = true;
             _event.target.getComponent(cc.Button).interactable = false;
         }

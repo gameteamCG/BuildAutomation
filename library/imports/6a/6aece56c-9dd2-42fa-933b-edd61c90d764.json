@@ -29,9 +29,9 @@
           "new_eyes.png",
           "new_mouth.png"
         ],
-        "ReiterationAudioName": "EXCELLENTJOB.mp3",
-        "CorrectAudioName": "new873992_7_eyes.mp3",
-        "WrongAudioName": "nevermind,tryagain.mp3",
+        "ReiterationAudioName": "new873992_7_eyes.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "3"
       },
       {
@@ -49,9 +49,9 @@
           "new_mouth.png",
           "new_legs.png"
         ],
-        "ReiterationAudioName": "GOODEFFORT.mp3",
-        "CorrectAudioName": "new21592433_10_nose.mp3",
-        "WrongAudioName": "ohoh.mp3",
+        "ReiterationAudioName": "new21592433_10_nose.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
         "CorrectAnswer": "1"
       },
       {
@@ -69,9 +69,9 @@
           "new_nose.png",
           "new_mouth.png"
         ],
-        "ReiterationAudioName": "IMPRESSIVEWORK.mp3",
-        "CorrectAudioName": "new8611446_14_tongue.mp3",
-        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "ReiterationAudioName": "new8611446_14_tongue.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "4"
       }
     ]
