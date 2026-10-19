@@ -457,11 +457,12 @@ var video = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             // this.ActivateTools(false);
             _this.node.getComponent(cc.VideoPlayer).volume = 1;
-            _this.UpdateSlider();
+            // FIX: do not call UpdateSlider() here - it does stop()+play() with slider
+            // progress 0, which restarted the video from the beginning after 1 second.
+            _this.isSliding = true; // just let update() sync the slider with the video
             _this.scheduleOnce(function () {
                 _this.gameStarted = true;
             }, 1);
-            // this.isSliding = true;
         }, 1);
         // this.scheduleOnce(() => {
         //     this.tools.active = true;
@@ -480,8 +481,8 @@ var video = /** @class */ (function (_super) {
             }, 2);
         }
         else {
-            // this.toolActivater.active = true;
-            // this.tools.opacity = 0;
+            this.toolActivater.active = true;
+            this.tools.opacity = 0;
         }
     };
     video.prototype.starUpdate = function (_current, _answered, _correct) {
@@ -704,7 +705,7 @@ var video = /** @class */ (function (_super) {
                 if (StartGame_1.default.Instance.jockeyName == "bag" ||
                     StartGame_1.default.Instance.jockeyName == "crayon") {
                     _this.node.getParent().getChildByName("gameEnd").active = true;
-                    // .getChildByName("jaipuria")
+                    // .getChildByName("")
                 }
                 else {
                     _this.node
