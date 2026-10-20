@@ -1737,14 +1737,14 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        388.449,
+        354.813,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        0.8,
+        0.8,
         1
       ]
     },
@@ -1799,7 +1799,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -90,
+        -79.489,
         0,
         0,
         0,
@@ -2058,7 +2058,7 @@
       "__uuid__": "5b029168-d7fb-46ee-bb27-2327bfaa25f7"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -2067,7 +2067,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "77ZJF5LlZAGYMGGkFuEUTn"
   },
@@ -2082,7 +2082,7 @@
     "leftOffset": 0,
     "rightOffset": 0,
     "bottomOffset": 0,
-    "topOffset": -220,
+    "topOffset": -130,
     "_id": "d58iKDo8tHjLq7MMU353ki"
   },
   {
@@ -2363,30 +2363,30 @@
     "stallionNegative": [],
     "bagPositive": [
       {
-        "__uuid__": "87cf9f95-04f3-4d8f-b633-6e09a2f30c63"
+        "__uuid__": "e0d9f6fb-f075-4f14-9342-effd057f68ec"
       },
       {
-        "__uuid__": "0fc4ace4-a063-4245-9667-7b7b49abf666"
+        "__uuid__": "d7f6ddc8-9dff-4cb0-9132-3886f72b5e4b"
       },
       {
-        "__uuid__": "7914dcc8-7a42-4f45-b48c-c36f57156549"
+        "__uuid__": "6702bcb6-1561-48b8-96bf-e3a05e722fb0"
       },
       {
-        "__uuid__": "2a0c44af-6921-4b04-a360-f603304932fc"
+        "__uuid__": "f186e8c7-cbe1-4699-8da7-92a1c464d09b"
       },
       {
-        "__uuid__": "93e5bce9-491e-4c17-9da2-01075a41c0b3"
+        "__uuid__": "da16b95f-2850-42ba-b4b3-a1c1d42340b9"
       }
     ],
     "bagNegative": [
       {
-        "__uuid__": "b1fa9384-70ea-4eef-bc69-738d790b79f8"
+        "__uuid__": "e6e865ee-cbcf-49fb-aa96-43c85a2bd095"
       },
       {
-        "__uuid__": "de2f2ba2-5814-42b0-bffe-db42bebf0a92"
+        "__uuid__": "b024bef8-99b4-4d58-8a4a-10f203bf3f4b"
       },
       {
-        "__uuid__": "9bf14701-26b4-41d5-ba20-3f1593c2fecd"
+        "__uuid__": "dfc6c35d-f5e1-4ca9-89df-3739e1d71b67"
       }
     ],
     "cryonPositive": [],

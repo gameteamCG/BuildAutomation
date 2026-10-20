@@ -1,6 +1,7 @@
 
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -104,7 +105,16 @@ export default class NewClass extends cc.Component {
 
     private optionsNode: cc.Node = null;
 
+    words: string[] = [
+        "थाना",
+        "थरमस",
+        "थाली",
+        "थानेदार",
+        "थेपला"
 
+
+
+    ];
     private questionBoxPosY: number = 0;
 
     // LIFE-CYCLE CALLBACKS:
@@ -295,10 +305,10 @@ export default class NewClass extends cc.Component {
     }
 
     callThirdObjectIn() {
-        this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
-        this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
+        //this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
+        //this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
         // this.node.getChildByName("questionPanel").opacity = 255;
-        cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
+        //cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
 
         this.OptionsLayoutVertical();
@@ -444,7 +454,7 @@ export default class NewClass extends cc.Component {
         if (_node.name == this.answerArray[0]) {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+            //cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
@@ -517,6 +527,7 @@ export default class NewClass extends cc.Component {
 
     callPositiveRection(_node: cc.Node) {
         // _node.getComponent(cc.Sprite).spriteFrame = this.extraImg;
+        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.words[globalVariables.Instance.currentLevel - 1];
         cc.audioEngine.playEffect(this.correctAudio, false);
         // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();

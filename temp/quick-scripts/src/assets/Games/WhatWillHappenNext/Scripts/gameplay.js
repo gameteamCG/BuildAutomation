@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -71,6 +71,13 @@ var NewClass = /** @class */ (function (_super) {
         _this.currentJcokey = null;
         _this.correctAudio = null;
         _this.optionsNode = null;
+        _this.words = [
+            "थाना",
+            "थरमस",
+            "थाली",
+            "थानेदार",
+            "थेपला"
+        ];
         _this.questionBoxPosY = 0;
         return _this;
     }
@@ -257,10 +264,10 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callThirdObjectIn = function () {
         var _this = this;
-        this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
-        this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
+        //this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
+        //this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
         // this.node.getChildByName("questionPanel").opacity = 255;
-        cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
+        //cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
         this.OptionsLayoutVertical();
         this.reverseOptionsLayout();
@@ -406,7 +413,7 @@ var NewClass = /** @class */ (function (_super) {
         if (_node.name == this.answerArray[0]) {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+            //cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
@@ -476,6 +483,7 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.callPositiveRection = function (_node) {
         var _this = this;
         // _node.getComponent(cc.Sprite).spriteFrame = this.extraImg;
+        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.words[globalVariables_1.default.Instance.currentLevel - 1];
         cc.audioEngine.playEffect(this.correctAudio, false);
         // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
