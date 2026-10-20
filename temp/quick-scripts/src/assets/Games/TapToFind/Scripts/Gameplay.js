@@ -49,7 +49,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.pop_audio = null;
         _this.positive_audio = null;
         _this.negative_audio = null;
-        _this.questionAudio = null;
+        _this.questionAudio = [];
         _this.correctAudio = null;
         _this.wrongAudio = null;
         _this.reiterationAudio = [];
@@ -65,29 +65,69 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.LoadQuestion = function () {
         var _this = this;
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
+            this.node
+                .getChildByName("layout1_template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.podar_font;
+            this.node
+                .getChildByName("layout2_template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.podar_font;
+            this.node
+                .getChildByName("layout3_template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.podar_font;
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
+            this.node
+                .getChildByName("layout1_template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.tlc_font;
+            this.node
+                .getChildByName("layout2_template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.tlc_font;
+            this.node
+                .getChildByName("layout3_template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.tlc_font;
         }
         else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
+            this.node
+                .getChildByName("layout1_template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.supercub_font;
+            this.node
+                .getChildByName("layout2_template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.supercub_font;
+            this.node
+                .getChildByName("layout3_template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.supercub_font;
         }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        else if (StartGame_1.default.Instance.jockeyName == "bag" ||
+            StartGame_1.default.Instance.jockeyName == "cryon") {
+            this.node
+                .getChildByName("layout1_template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.jaipuria_font;
+            this.node
+                .getChildByName("layout2_template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.jaipuria_font;
+            this.node
+                .getChildByName("layout3_template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.jaipuria_font;
         }
-        var str = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].correctAnswerNum;
-        this.correctAnswer = str.split('').map(function (char) { return parseInt(char); });
-        this.optionsLayout = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionLayout;
-        this.numberofOptions = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions;
+        var str = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+            .correctAnswerNum;
+        this.correctAnswer = str.split("").map(function (char) { return parseInt(char); });
+        this.optionsLayout =
+            StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionLayout;
+        this.numberofOptions =
+            StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions;
         this.options = this.node.getChildByName(this.optionsLayout);
         this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
         this.maxLevel = StartGame_1.default.Instance.TotalLevels;
@@ -97,29 +137,34 @@ var Gameplay = /** @class */ (function (_super) {
         console.log("levelStarted--" + StartGame_1.default.Instance.currentLevel);
         // this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
         if (StartGame_1.default.Instance.isDemoGame) {
-            cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionBgName, function (err, texture) {
+            cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                .questionBgName, function (err, texture) {
                 if (err) {
                     console.error("Failed to load image:", err);
                     return;
                 }
                 var spriteFrame = new cc.SpriteFrame(texture);
-                _this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                _this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame =
+                    spriteFrame;
             });
-            cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionAudioName, function (err, audioClip) {
+            cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                .questionAudioName, function (err, audioClip) {
                 if (err) {
                     console.error("Failed to load audio clip:", err);
                     return;
                 }
                 _this.questionAudio = audioClip;
             });
-            cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].correctAudioName, function (err, audioClip) {
+            cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                .correctAudioName, function (err, audioClip) {
                 if (err) {
                     console.error("Failed to load audio clip:", err);
                     return;
                 }
                 _this.correctAudio = audioClip;
             });
-            cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].wrongAudioName, function (err, audioClip) {
+            cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                .wrongAudioName, function (err, audioClip) {
                 if (err) {
                     console.error("Failed to load audio clip:", err);
                     return;
@@ -127,7 +172,8 @@ var Gameplay = /** @class */ (function (_super) {
                 _this.wrongAudio = audioClip;
             });
             var _loop_1 = function (i) {
-                cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].reiterationAudioName[i], function (err, audioClip) {
+                cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                    .reiterationAudioName[i], function (err, audioClip) {
                     if (err) {
                         console.error("Failed to load audio clip:", err);
                         return;
@@ -135,76 +181,114 @@ var Gameplay = /** @class */ (function (_super) {
                     _this.reiterationAudio[i] = audioClip;
                 });
             };
-            for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].reiterationAudioName.length; i++) {
+            for (var i = 0; i <
+                StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                    .reiterationAudioName.length; i++) {
                 _loop_1(i);
             }
             var _loop_2 = function (i) {
-                if (!StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].isOptionText) {
+                if (!StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                    .isOptionText) {
                     // console.log("option img = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
-                    cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i], function (err, texture) {
+                    cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                        .options[i], function (err, texture) {
                         if (err) {
                             console.error("Failed to load image:", err);
                             return;
                         }
                         var spriteFrame = new cc.SpriteFrame(texture);
-                        _this.options.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        _this.options
+                            .getChildByName((i + 1).toString())
+                            .getChildByName("img")
+                            .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     });
                 }
                 else {
                     // console.log("option text = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
-                    this_1.options.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
+                    this_1.options
+                        .getChildByName((i + 1).toString())
+                        .getChildByName("text")
+                        .getComponent(cc.Label).string =
+                        StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
                 }
-                cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].optionsBg[i], function (err, texture) {
+                cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                    .optionsBg[i], function (err, texture) {
                     if (err) {
                         console.error("Failed to load image:", err);
                         return;
                     }
                     var spriteFrame = new cc.SpriteFrame(texture);
-                    _this.options.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    _this.options
+                        .getChildByName((i + 1).toString())
+                        .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             };
             var this_1 = this;
-            for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
+            for (var i = 0; i <
+                StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                    .numberOfOptions; i++) {
                 _loop_2(i);
             }
         }
         else {
-            this.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionBgName, function (spriteFrame) {
-                _this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            this.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                .questionBgName, function (spriteFrame) {
+                _this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame =
+                    spriteFrame;
             });
-            this.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionAudioName, function (AudioClip) {
-                _this.questionAudio = AudioClip;
+            this.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                .questionAudioName, function (AudioClip) {
+                _this.questionAudio[0] = AudioClip;
             });
-            this.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].correctAudioName, function (AudioClip) {
+            this.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                .correctAudioName, function (AudioClip) {
                 _this.correctAudio = AudioClip;
             });
-            this.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].wrongAudioName, function (AudioClip) {
+            this.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                .wrongAudioName, function (AudioClip) {
                 _this.wrongAudio = AudioClip;
             });
             var _loop_3 = function (i) {
-                this_2.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].reiterationAudioName[i], function (AudioClip) {
+                this_2.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                    .reiterationAudioName[i], function (AudioClip) {
                     _this.reiterationAudio[i] = AudioClip;
                 });
             };
             var this_2 = this;
-            for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].reiterationAudioName.length; i++) {
+            for (var i = 0; i <
+                StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                    .reiterationAudioName.length; i++) {
                 _loop_3(i);
             }
             var _loop_4 = function (i) {
-                if (!StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].isOptionText) {
-                    this_3.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i], function (spriteFrame) {
-                        _this.options.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                if (!StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                    .isOptionText) {
+                    this_3.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                        .options[i], function (spriteFrame) {
+                        _this.options
+                            .getChildByName((i + 1).toString())
+                            .getChildByName("img")
+                            .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     });
                 }
                 else {
-                    this_3.options.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
+                    this_3.options
+                        .getChildByName((i + 1).toString())
+                        .getChildByName("text")
+                        .getComponent(cc.Label).string =
+                        StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
                 }
-                this_3.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].optionsBg[i], function (spriteFrame) {
-                    _this.options.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                this_3.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                    .optionsBg[i], function (spriteFrame) {
+                    _this.options
+                        .getChildByName((i + 1).toString())
+                        .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             };
             var this_3 = this;
-            for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
+            for (var i = 0; i <
+                StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                    .numberOfOptions; i++) {
                 _loop_4(i);
             }
         }
@@ -218,8 +302,9 @@ var Gameplay = /** @class */ (function (_super) {
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
         this.scheduleOnce(function () {
             if (_this.questionAudio) {
-                if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    cc.audioEngine.playEffect(_this.questionAudio, false);
+                if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                    .shouldPlayQuestionAudio) {
+                    cc.audioEngine.playEffect(_this.questionAudio[0], false);
                 }
             }
             if (_this.optionsLayout == "layout1") {
@@ -234,7 +319,9 @@ var Gameplay = /** @class */ (function (_super) {
                         element.setPosition(pos.x, pos.y - 850);
                         element.active = true;
                         cc.audioEngine.playEffect(_this.pop_audio, false);
-                        cc.tween(element).to(0.65, { y: pos.y }, { easing: "sineInOut" }).start();
+                        cc.tween(element)
+                            .to(0.65, { y: pos.y }, { easing: "sineInOut" })
+                            .start();
                     }, delay);
                     delay += 0.35;
                 };
@@ -254,7 +341,9 @@ var Gameplay = /** @class */ (function (_super) {
                 var _loop_6 = function (i) {
                     _this.scheduleOnce(function () {
                         cc.audioEngine.playEffect(_this.pop_audio, false);
-                        cc.tween(_this.options.children[i]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
+                        cc.tween(_this.options.children[i])
+                            .to(0.5, { opacity: 255 }, { easing: "sineInOut" })
+                            .start();
                     }, delay);
                     delay += 0.25;
                 };
@@ -270,7 +359,9 @@ var Gameplay = /** @class */ (function (_super) {
                 var _loop_7 = function (i) {
                     _this.scheduleOnce(function () {
                         cc.audioEngine.playEffect(_this.pop_audio, false);
-                        cc.tween(_this.options.children[i]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
+                        cc.tween(_this.options.children[i])
+                            .to(0.5, { opacity: 255 }, { easing: "sineInOut" })
+                            .start();
                     }, delay);
                     delay += 0.25;
                 };
@@ -350,13 +441,16 @@ var Gameplay = /** @class */ (function (_super) {
                 node.active = false;
                 if (_this.correctCounter == _this.correctAnswer.length) {
                     console.log("all the options are answered correctly");
-                    cc.tween(_this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
+                    cc.tween(_this.options)
+                        .bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
+                        .start();
                     _this.LoadNextQuestion();
                 }
                 else {
                     _this.canTouch = true;
                 }
-            }).start();
+            })
+                .start();
         }
         else {
             //play negative audio
@@ -364,13 +458,29 @@ var Gameplay = /** @class */ (function (_super) {
             this.callNegativeRection();
             console.log("wrongAnswer--" + StartGame_1.default.Instance.currentLevel);
             var posX = node.getPosition().x;
-            cc.tween(node).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE })
-                .to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).start();
-            cc.tween(node).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
-                .to(0.1, { x: posX }).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
-                .to(0.1, { x: posX }).call(function () {
+            cc.tween(node)
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: cc.Color.WHITE })
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: cc.Color.WHITE })
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: cc.Color.WHITE })
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: cc.Color.WHITE })
+                .start();
+            cc.tween(node)
+                .to(0.1, { x: posX - 20 })
+                .to(0.1, { x: posX })
+                .to(0.1, { x: posX + 20 })
+                .to(0.1, { x: posX })
+                .to(0.1, { x: posX - 20 })
+                .to(0.1, { x: posX })
+                .to(0.1, { x: posX + 20 })
+                .to(0.1, { x: posX })
+                .call(function () {
                 // this.canTouch = true;
-            }).start();
+            })
+                .start();
         }
     };
     Gameplay.prototype.onTouchStart_layout2 = function (event) {
@@ -399,13 +509,18 @@ var Gameplay = /** @class */ (function (_super) {
             var _clone_1 = cc.instantiate(node);
             _clone_1.parent = node;
             _clone_1.setPosition(0, 0);
-            var _parentNode = this.node.getChildByName("basket").getChildByName("answered").getChildByName(this.correctCounter.toString());
+            var _parentNode = this.node
+                .getChildByName("basket")
+                .getChildByName("answered")
+                .getChildByName(this.correctCounter.toString());
             _clone_1.setParentWithSamePos(_parentNode);
             node.active = false;
             _clone_1.getComponent(cc.Animation).stop();
             _clone_1.angle = 0;
             var pos = _clone_1.getPosition();
-            cc.tween(_clone_1).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
+            cc.tween(_clone_1)
+                .bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0))
+                .start();
             this.scheduleOnce(function () {
                 _clone_1.getComponent(cc.Animation).stop();
                 _clone_1.angle = 0;
@@ -417,7 +532,9 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 if (_this.correctCounter == _this.correctAnswer.length) {
                     console.log("all the options are answered correctly");
-                    cc.tween(_this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
+                    cc.tween(_this.options)
+                        .to(1, { x: -1500 }, { easing: "backInOut" })
+                        .start();
                     _this.LoadNextQuestion();
                     // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
                 }
@@ -436,13 +553,29 @@ var Gameplay = /** @class */ (function (_super) {
             this.callNegativeRection();
             console.log("wrongAnswer--" + StartGame_1.default.Instance.currentLevel);
             var posX = node.getPosition().x;
-            cc.tween(node).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE })
-                .to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).start();
-            cc.tween(node).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
-                .to(0.1, { x: posX }).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
-                .to(0.1, { x: posX }).call(function () {
+            cc.tween(node)
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: cc.Color.WHITE })
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: cc.Color.WHITE })
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: cc.Color.WHITE })
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: cc.Color.WHITE })
+                .start();
+            cc.tween(node)
+                .to(0.1, { x: posX - 20 })
+                .to(0.1, { x: posX })
+                .to(0.1, { x: posX + 20 })
+                .to(0.1, { x: posX })
+                .to(0.1, { x: posX - 20 })
+                .to(0.1, { x: posX })
+                .to(0.1, { x: posX + 20 })
+                .to(0.1, { x: posX })
+                .call(function () {
                 // this.canTouch = true;
-            }).start();
+            })
+                .start();
         }
     };
     Gameplay.prototype.onTouchStart_layout3 = function (event) {
@@ -490,7 +623,8 @@ var Gameplay = /** @class */ (function (_super) {
                 else {
                     _this.canTouch = true;
                 }
-            }).start();
+            })
+                .start();
         }
         else {
             // cc.audioEngine.playEffect(this.negative_audio, false);
@@ -498,14 +632,37 @@ var Gameplay = /** @class */ (function (_super) {
             console.log("wrongAnswer--" + StartGame_1.default.Instance.currentLevel);
             //play negative audio
             var posX = node.getPosition().x;
-            cc.tween(node).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE })
-                .to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).start();
-            cc.tween(node).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
-                .to(0.1, { x: posX }).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
-                .to(0.1, { x: posX }).call(function () {
+            cc.tween(node)
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: cc.Color.WHITE })
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: cc.Color.WHITE })
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: cc.Color.WHITE })
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: cc.Color.WHITE })
+                .start();
+            cc.tween(node)
+                .to(0.1, { x: posX - 20 })
+                .to(0.1, { x: posX })
+                .to(0.1, { x: posX + 20 })
+                .to(0.1, { x: posX })
+                .to(0.1, { x: posX - 20 })
+                .to(0.1, { x: posX })
+                .to(0.1, { x: posX + 20 })
+                .to(0.1, { x: posX })
+                .call(function () {
                 // this.canTouch = true;
-            }).start();
+            })
+                .start();
         }
+    };
+    Gameplay.prototype.playButtonSound = function (event) {
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.questionAudio[0], false);
+        this.scheduleOnce(function () {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio[0].duration);
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
@@ -534,19 +691,51 @@ var Gameplay = /** @class */ (function (_super) {
         var _this = this;
         var anim = [];
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
+            anim = [
+                "possitive",
+                "possitive2",
+                "possitive3",
+                "possitive4",
+                "possitive5",
+                "possitive6",
+            ];
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
+            anim = [
+                "positive_1",
+                "positive_2",
+                "positive_3",
+                "positive_4",
+                "positive_5",
+                "positive_6",
+            ];
         }
         else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            anim = ["positive_3", "positive_4", "positive_3", "positive_4", "positive_5"];
+            anim = [
+                "positive_3",
+                "positive_4",
+                "positive_3",
+                "positive_4",
+                "positive_5",
+            ];
         }
         else if (StartGame_1.default.Instance.jockeyName == "bag") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+            anim = [
+                "positive_1",
+                "positive_2",
+                "positive_3",
+                "positive_4",
+                "positive_5",
+            ];
         }
         else if (StartGame_1.default.Instance.jockeyName == "cryon") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+            anim = [
+                "positive_1",
+                "positive_2",
+                "positive_3",
+                "positive_4",
+                "positive_5",
+            ];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Singham") {
             anim = ["dance", "thumbs_up"];
@@ -568,31 +757,48 @@ var Gameplay = /** @class */ (function (_super) {
         }
         //console.log("characterAppear--Podar_Jumbo");
         this.currentJockey.setPosition(pos[StartGame_1.default.Instance.currentLevel % 2], this.currentJockey.y);
-        if (StartGame_1.default.Instance.currentLevel % 2 == 0 && StartGame_1.default.Instance.jockeyName == "stallion") {
+        if (StartGame_1.default.Instance.currentLevel % 2 == 0 &&
+            StartGame_1.default.Instance.jockeyName == "stallion") {
             this.currentJockey.scaleX = -0.65;
         }
         else if (StartGame_1.default.Instance.jockeyName == "stallion") {
             this.currentJockey.scaleX = 0.65;
-            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+            this.currentJockey
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, anim[currentClipNum], false);
         }
         else if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+            this.currentJockey
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, "idel", true);
         }
         else {
-            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+            this.currentJockey
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, "idle", true);
         }
-        cc.tween(this.currentJockey).to(0.5, { x: jockeytween[StartGame_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
+        cc.tween(this.currentJockey)
+            .to(0.5, { x: jockeytween[StartGame_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" })
+            .start();
         this.scheduleOnce(function () {
-            _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+            _this.currentJockey
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, anim[currentClipNum], false);
             cc.audioEngine.playEffect(_this.correctAudio, false);
             _this.scheduleOnce(function () {
-                cc.tween(_this.currentJockey).to(0.5, { x: pos[StartGame_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
+                cc.tween(_this.currentJockey)
+                    .to(0.5, { x: pos[StartGame_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" })
+                    .start();
                 if (StartGame_1.default.Instance.jockeyName != "stallion") {
                     if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                        _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                        _this.currentJockey
+                            .getComponent(sp.Skeleton)
+                            .setAnimation(0, "idel", true);
                     }
                     else {
-                        _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                        _this.currentJockey
+                            .getComponent(sp.Skeleton)
+                            .setAnimation(0, "idle", true);
                     }
                 }
                 //console.log("characterDisappear--Podar_Jumbo");
@@ -609,7 +815,14 @@ var Gameplay = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             var anim = [];
             if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
+                anim = [
+                    "negetive",
+                    "negetive2",
+                    "negetive3",
+                    "negetive4",
+                    "negetive5",
+                    "negetive6",
+                ];
             }
             else if (StartGame_1.default.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
@@ -644,32 +857,48 @@ var Gameplay = /** @class */ (function (_super) {
             }
             if (StartGame_1.default.Instance.jockeyName == "stallion") {
                 _this.currentJockey.scaleX = 0.65;
-                _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+                _this.currentJockey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, anim[currentClipNum], false);
             }
             else if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                _this.currentJockey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, "idel", true);
             }
             else {
-                _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                _this.currentJockey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, "idle", true);
             }
-            cc.tween(_this.currentJockey).to(0.5, { x: posX }, { easing: "quartInOut" }).start();
+            cc.tween(_this.currentJockey)
+                .to(0.5, { x: posX }, { easing: "quartInOut" })
+                .start();
             _this.scheduleOnce(function () {
-                _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+                _this.currentJockey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, anim[currentClipNum], false);
                 cc.audioEngine.playEffect(_this.wrongAudio, false);
                 _this.scheduleOnce(function () {
-                    cc.tween(_this.currentJockey).to(0.5, { x: posX_init }, { easing: "quartInOut" }).start();
+                    cc.tween(_this.currentJockey)
+                        .to(0.5, { x: posX_init }, { easing: "quartInOut" })
+                        .start();
                     if (StartGame_1.default.Instance.jockeyName != "stallion") {
                         if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                            _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                            _this.currentJockey
+                                .getComponent(sp.Skeleton)
+                                .setAnimation(0, "idel", true);
                         }
                         else {
-                            _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                            _this.currentJockey
+                                .getComponent(sp.Skeleton)
+                                .setAnimation(0, "idle", true);
                         }
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
                     _this.canTouch = true;
                     if (_this.questionAudio) {
-                        cc.audioEngine.playEffect(_this.questionAudio, false);
+                        cc.audioEngine.playEffect(_this.questionAudio[0], false);
                     }
                 }, _this.wrongAudio.duration);
             }, 0.5);
@@ -704,16 +933,18 @@ var Gameplay = /** @class */ (function (_super) {
         if (children.length > 0) {
             rowHeight = children[0].height + spacing; // Assuming all children have the same height
         }
-        var startY = (totalRows - 1) * rowHeight / 2;
+        var startY = ((totalRows - 1) * rowHeight) / 2;
         for (var i = 0; i < children.length; i++) {
             var column = i % maxColumns;
             var row = Math.floor(i / maxColumns);
             var totalWidth = 0;
             // Calculate the total width of the current row
-            for (var j = 0; j < maxColumns && (row * maxColumns + j) < children.length; j++) {
+            for (var j = 0; j < maxColumns && row * maxColumns + j < children.length; j++) {
                 totalWidth += children[row * maxColumns + j].width;
             }
-            totalWidth += spacing * (Math.min(children.length - row * maxColumns, maxColumns) - 1);
+            totalWidth +=
+                spacing *
+                    (Math.min(children.length - row * maxColumns, maxColumns) - 1);
             var startX = -totalWidth / 2;
             var child = children[i];
             child.x = startX + column * (child.width + spacing) + child.width / 2;
@@ -765,6 +996,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "negative_audio", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "questionAudio", void 0);
     Gameplay = __decorate([
         ccclass
     ], Gameplay);
