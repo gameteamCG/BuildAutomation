@@ -526,14 +526,14 @@
       "__id__": 9
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 11
       }
     ],
     "_prefab": null,
-    "_opacity": 255,
+    "_opacity": 0,
     "_color": {
       "__type__": "cc.Color",
       "r": 255,
@@ -838,8 +838,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -185,
-        -185,
+        -155,
+        -115,
         0,
         0,
         0,
@@ -1554,8 +1554,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 70,
-      "height": 70
+      "width": 60,
+      "height": 60
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1567,7 +1567,7 @@
       "ctor": "Float64Array",
       "array": [
         247.76,
-        -146.64,
+        -150.64,
         0,
         0,
         0,

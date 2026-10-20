@@ -1,5 +1,5 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -482,7 +482,7 @@ export default class NewClass extends cc.Component {
 
         if (hand && targetOpt) {
             hand.setParent(targetOpt);
-            hand.setPosition(0, -70);
+            hand.setPosition(0, -170);
             hand.setParentWithSamePos(this.node);
             let anim = hand.getComponent(cc.Animation);
             if (anim) anim.play();
@@ -505,7 +505,7 @@ export default class NewClass extends cc.Component {
 
             this.scheduleOnce(() => {
                 if (this.popSound[0]) cc.audioEngine.playEffect(this.popSound[0], false);
-                let objScale = startGame.Instance.templateType == "SimpleTap" ? 1 : (startGame.Instance.templateType == "TapToCollect" ? 0.5 : 0.7);
+                let objScale = startGame.Instance.templateType == "SimpleTap" ? 1.15 : (startGame.Instance.templateType == "TapToCollect" ? 0.5 : 0.7);
 
                 if (!this.isOptionBG) {
                     optContainer.children.forEach((element) => {
@@ -743,10 +743,10 @@ export default class NewClass extends cc.Component {
 
                 if (this.correctAnswerCount == this.totalAnswers) {
                     this.canTouch = false;
-                    if (ProgressBar.Instance) {
-                        ProgressBar.Instance.createStarTrails(6, this.node);
-                        ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
-                    }
+                    // if (ProgressBar.Instance) {
+                    ProgressBar.Instance.createStarTrails(6, this.node);
+                    ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
+                    // }
                     this.callJockey();
                 } else {
                     this.canTouch = true;
@@ -802,26 +802,52 @@ export default class NewClass extends cc.Component {
         let totalWidthWithPadding = totalWidth + (optionNodes.length - 1) * paddingBetweenOptions;
         let scaleFactor = Math.min(1, availableWidth / totalWidthWithPadding);
 
-        let accumulatedWidth = 0;
-        this.positionArray = [];
-
+        // Apply scaling first
         for (let i = 0; i < optionNodes.length; i++) {
             let option = optionNodes[i];
             let optionScaleFactor = scaleFactor;
             if (optionNodes.length == 2 && startGame.Instance.templateType == "ObjectsTweenIn" && !this.isLastTween) {
                 optionScaleFactor *= 0.7;
             }
-
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
+        }
 
-            let posX = accumulatedWidth + (option.width * option.anchorX);
-            let optionX = posX - (this.optionsNode.width * this.optionsNode.anchorX);
+        // ---- Where the group starts on X ----
+        let groupWidth = 0;
+        for (let i = 0; i < optionNodes.length; i++) {
+            groupWidth += optionNodes[i].width;
+        }
+        groupWidth += (optionNodes.length - 1) * paddingBetweenOptions;
+
+        let startX: number;
+        if (startGame.Instance.templateType == "SimpleTap") {
+            const centerOffsetX = 0; // nudge left (-) or right (+) in pixels if needed
+            const screenCenterLocalX = -this.optionsNode.x + centerOffsetX;
+            startX = screenCenterLocalX - groupWidth / 2;
+        } else {
+            startX = -(this.optionsNode.width * this.optionsNode.anchorX);
+        }
+
+        // NEW: Y offset (SimpleTap only). Positive number = options move DOWN.
+        const moveDownY = 40; // increase for more down, decrease for less
+
+        let accumulatedWidth = 0;
+        this.positionArray = [];
+
+        for (let i = 0; i < optionNodes.length; i++) {
+            let option = optionNodes[i];
+            let optionX = startX + accumulatedWidth + (option.width * option.anchorX);
 
             if (!this.isLastTween) {
                 option.x = optionX;
             } else {
                 cc.tween(option).to(0.5, { x: optionX }, { easing: "sineInOut" }).start();
+            }
+
+            // NEW: apply the Y position
+            if (startGame.Instance.templateType == "SimpleTap") {
+                option.y = -moveDownY;
             }
 
             accumulatedWidth += option.width + paddingBetweenOptions;

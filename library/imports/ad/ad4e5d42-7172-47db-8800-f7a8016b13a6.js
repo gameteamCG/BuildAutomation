@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -458,7 +458,7 @@ var NewClass = /** @class */ (function (_super) {
         var targetOpt = (_a = this.node.getChildByName("Option")) === null || _a === void 0 ? void 0 : _a.getChildByName(this.answerArray[0]);
         if (hand && targetOpt) {
             hand.setParent(targetOpt);
-            hand.setPosition(0, -70);
+            hand.setPosition(0, -170);
             hand.setParentWithSamePos(this.node);
             var anim = hand.getComponent(cc.Animation);
             if (anim)
@@ -481,7 +481,7 @@ var NewClass = /** @class */ (function (_super) {
             this_4.scheduleOnce(function () {
                 if (_this.popSound[0])
                     cc.audioEngine.playEffect(_this.popSound[0], false);
-                var objScale = StartGame_1.default.Instance.templateType == "SimpleTap" ? 1 : (StartGame_1.default.Instance.templateType == "TapToCollect" ? 0.5 : 0.7);
+                var objScale = StartGame_1.default.Instance.templateType == "SimpleTap" ? 1.15 : (StartGame_1.default.Instance.templateType == "TapToCollect" ? 0.5 : 0.7);
                 if (!_this.isOptionBG) {
                     optContainer.children.forEach(function (element) {
                         var img = element.getChildByName("img");
@@ -720,10 +720,10 @@ var NewClass = /** @class */ (function (_super) {
                 _this.correctAnswerCount++;
                 if (_this.correctAnswerCount == _this.totalAnswers) {
                     _this.canTouch = false;
-                    if (ProgressBar_1.default.Instance) {
-                        ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
-                        ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
-                    }
+                    // if (ProgressBar.Instance) {
+                    ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
+                    ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
+                    // }
                     _this.callJockey();
                 }
                 else {
@@ -781,8 +781,7 @@ var NewClass = /** @class */ (function (_super) {
         var availableWidth = this.optionsNode.width;
         var totalWidthWithPadding = totalWidth + (optionNodes.length - 1) * paddingBetweenOptions;
         var scaleFactor = Math.min(1, availableWidth / totalWidthWithPadding);
-        var accumulatedWidth = 0;
-        this.positionArray = [];
+        // Apply scaling first
         for (var i = 0; i < optionNodes.length; i++) {
             var option = optionNodes[i];
             var optionScaleFactor = scaleFactor;
@@ -791,13 +790,38 @@ var NewClass = /** @class */ (function (_super) {
             }
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
-            var posX = accumulatedWidth + (option.width * option.anchorX);
-            var optionX = posX - (this.optionsNode.width * this.optionsNode.anchorX);
+        }
+        // ---- Where the group starts on X ----
+        var groupWidth = 0;
+        for (var i = 0; i < optionNodes.length; i++) {
+            groupWidth += optionNodes[i].width;
+        }
+        groupWidth += (optionNodes.length - 1) * paddingBetweenOptions;
+        var startX;
+        if (StartGame_1.default.Instance.templateType == "SimpleTap") {
+            var centerOffsetX = 0; // nudge left (-) or right (+) in pixels if needed
+            var screenCenterLocalX = -this.optionsNode.x + centerOffsetX;
+            startX = screenCenterLocalX - groupWidth / 2;
+        }
+        else {
+            startX = -(this.optionsNode.width * this.optionsNode.anchorX);
+        }
+        // NEW: Y offset (SimpleTap only). Positive number = options move DOWN.
+        var moveDownY = 40; // increase for more down, decrease for less
+        var accumulatedWidth = 0;
+        this.positionArray = [];
+        for (var i = 0; i < optionNodes.length; i++) {
+            var option = optionNodes[i];
+            var optionX = startX + accumulatedWidth + (option.width * option.anchorX);
             if (!this.isLastTween) {
                 option.x = optionX;
             }
             else {
                 cc.tween(option).to(0.5, { x: optionX }, { easing: "sineInOut" }).start();
+            }
+            // NEW: apply the Y position
+            if (StartGame_1.default.Instance.templateType == "SimpleTap") {
+                option.y = -moveDownY;
             }
             accumulatedWidth += option.width + paddingBetweenOptions;
             this.positionArray.push(option.getPosition());
