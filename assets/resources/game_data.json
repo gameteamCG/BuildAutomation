@@ -1,8 +1,8 @@
 {
   "AdditionalData": {
-    "GameID": "Nursery_SB4_Language_23: LetterXx Letters and Sounds",
-    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Xsong777_1741336749578.mp4",
-    "TitleImageName": "Asset77(3).png",
+    "GameID": "Letters and Sounds Uu",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/MainVideo_6473570436_1741338873487.mp4",
+    "TitleImageName": "Title_Image.png",
     "IntroAudio1Name": "",
     "IntroAudio2Name": "",
     "JockeyName": "puzzle",
@@ -12,17 +12,17 @@
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": true,
-      "QuestionText": "Identity",
-      "QuestionImageName": "Asset10.png",
-      "QuestionAudioName": "identify-the-letter-with-the-letter-sound_xxx.mp3",
+      "QuestionText": "Identify",
+      "QuestionImageName": "Q_IMG.png",
+      "QuestionAudioName": "QVO_L1.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "Asset23.png",
-        "Asset24.png"
+        "OPT1_L1.png",
+        "OPT2_L1.png"
       ],
-      "ReiterationAudioName": "XSAYSXX.mp3",
+      "ReiterationAudioName": "ANS_L1.mp3",
       "CorrectAudioName": "positive_1.mp3",
       "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "1"
@@ -31,37 +31,37 @@
       "QuestionAppearTime": "99999",
       "IsQuestionText": false,
       "QuestionText": "",
-      "QuestionImageName": "Asset21.png",
-      "QuestionAudioName": "Taponthepicturethatbeginswithlettersoundx.mp3",
-      "PlayQuestionAudio": true,
+      "QuestionImageName": "Q_L2.png",
+      "QuestionAudioName": "QVO_L2.mp3",
+      "PlayQuestionAudio": false,
       "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "xray.png",
-        "car.png"
+        "OPT2_L2.png",
+        "OPT1_L2.png"
       ],
-      "ReiterationAudioName": "xray.mp3",
+      "ReiterationAudioName": "ANS_L2.mp3",
       "CorrectAudioName": "positive_2.mp3",
       "WrongAudioName": "negative_2.mp3",
-      "CorrectAnswer": "1"
+      "CorrectAnswer": "2"
     },
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": false,
       "QuestionText": "",
-      "QuestionImageName": "Asset21.png",
-      "QuestionAudioName": "tap-on-the-number-that-has-the-letter-sound_xx.mp3",
-      "PlayQuestionAudio": true,
+      "QuestionImageName": "Q_L2.png",
+      "QuestionAudioName": "QVO_L2.mp3",
+      "PlayQuestionAudio": false,
       "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "Asset25.png",
-        "Asset22.png"
+        "OPT1_L3.png",
+        "OPT2_L3.png"
       ],
-      "ReiterationAudioName": "6.mp3",
+      "ReiterationAudioName": "ANS_L3.mp3",
       "CorrectAudioName": "positive_3.mp3",
       "WrongAudioName": "negative_1.mp3",
-      "CorrectAnswer": "2"
+      "CorrectAnswer": "1"
     }
   ]
 }
