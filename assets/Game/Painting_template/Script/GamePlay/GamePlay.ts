@@ -154,27 +154,28 @@ export default class GamePlay extends cc.Component {
         this.questionNode.setPosition(-60, this.questionNode.y);
         this.Ypos = this.questionNode.getPosition().y;
         this.questionNode.setPosition(-60, 1800);
-        this.scheduleOnce(() => {
-            this.initialVO = globalVariables.Instance.initialVO;
-            if (this.initialVO) {
-                cc.audioEngine.playEffect(this.initialVO, false);
-                this.scheduleOnce(() => {
-                    this.checkNextLevel();
-                }, this.initialVO.duration);
-            }
-            else {
-                this.scheduleOnce(() => {
-                    this.checkNextLevel();
-                }, 0.2);
-            }
-            this.addDrawing();
-            this.node.getChildByName("image").setPosition(this.node.getChildByName("image").getPosition().x, 138);
+        // this.questionNode.active = false;
+        // this.scheduleOnce(() => {
+        this.initialVO = globalVariables.Instance.initialVO;
+        if (this.initialVO) {
+            cc.audioEngine.playEffect(this.initialVO, false);
+            this.scheduleOnce(() => {
+                this.checkNextLevel();
+            }, this.initialVO.duration);
+        }
+        else {
+            this.scheduleOnce(() => {
+                this.checkNextLevel();
+            }, 0.2);
+        }
+        this.addDrawing();
+        this.node.getChildByName("image").setPosition(this.node.getChildByName("image").getPosition().x, 138);
 
-            this.hand.setPosition(this.node.getChildByName("backButton").getPosition().x + 100, this.node.getChildByName("backButton").getPosition().y);
-            this.hand.opacity = 0;
+        this.hand.setPosition(this.node.getChildByName("backButton").getPosition().x + 100, this.node.getChildByName("backButton").getPosition().y);
+        this.hand.opacity = 0;
 
-            this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
-        }, 1);
+        this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
+        // }, 1);
     }
 
 
@@ -232,6 +233,7 @@ export default class GamePlay extends cc.Component {
     }
 
     checkNextLevel() {
+        this.questionNode.y = 400;
         let duration: number = 0;
         if (this.currentLevel != 0) {
             cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
@@ -247,7 +249,8 @@ export default class GamePlay extends cc.Component {
                 .to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
             cc.tween(this.node.getChildByName("image")).to(0.5, { scale: 0 }, { easing: "sineInOut" })
                 .to(0.5, { scale: 0.75 }, { easing: "sineInOut" }).start();
-            cc.tween(this.questionNode).to(0.5, { y: this.Ypos }, { easing: "sineInOut" }).start();
+            cc.tween(this.questionNode).to(0.5, { y: 400 }, { easing: "sineInOut" }).start();
+            this.questionNode.active = true;
 
             if (this.currentLevel < this.totalLevels) {
                 console.log("levelStarted--" + (this.currentLevel + 1));

@@ -27,4 +27,8 @@ require('./assets/Game/Painting_template/Script/ScreenShot');
 require('./assets/Game/Painting_template/Script/endScreen');
 require('./assets/Game/Painting_template/Script/globalVariables');
 require('./assets/Game/Painting_template/Script/scratch');
+require('./assets/resources/1_Jaipuria (1)/1_Jaipuria/Script');
+require('./assets/resources/1_Jaipuria (1)/1_Jaipuria/scripts/graphics');
+require('./assets/resources/1_Jaipuria (1)/1_Jaipuria/scripts/introduction');
+require('./assets/resources/1_Jaipuria (1)/1_Jaipuria/scripts/roughArea');
 require('./assets/resources/empty');

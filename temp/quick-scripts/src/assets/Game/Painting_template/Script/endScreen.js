@@ -29,7 +29,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var endScreen = /** @class */ (function (_super) {
     __extends(endScreen, _super);
@@ -44,25 +43,31 @@ var endScreen = /** @class */ (function (_super) {
         // update (dt) {}
     }
     endScreen.prototype.onLoad = function () {
-        this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables_1.default.Instance.introBG;
+        var _this = this;
+        // this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables.Instance.introBG;
         console.log("showedScreen--wellDone");
         this.scheduleOnce(function () {
             console.log("gameEnded--true");
+            _this.node.getChildByName("end").active = true;
         }, 2);
     };
     endScreen.prototype.start = function () {
-        if (globalVariables_1.default.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
-        }
-        else if (globalVariables_1.default.Instance.jockeyName == "bag" || globalVariables_1.default.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
-        }
-        else if (globalVariables_1.default.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
-        }
-        else if (globalVariables_1.default.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
-        }
+        // if (globalVariables.Instance.jockeyName == "Podar") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
+        // }
+        // else if (globalVariables.Instance.jockeyName == "bag" || globalVariables.Instance.jockeyName == "cryon") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
+        // }
+        // else if (globalVariables.Instance.jockeyName == "tlc") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
+        // }
+        // else if (globalVariables.Instance.jockeyName == "supercub") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
+        // }
+    };
+    endScreen.prototype.EndButton = function () {
+        // cc.audioEngine.playEffect(startGame.Instance.play_audio, false);
+        closeWindow();
     };
     __decorate([
         property(cc.SpriteFrame)
@@ -82,5 +87,9 @@ var endScreen = /** @class */ (function (_super) {
     return endScreen;
 }(cc.Component));
 exports.default = endScreen;
+var closeWindow = function () {
+    window.open(location.href, "_self", "");
+    window.close();
+};
 
 cc._RF.pop();

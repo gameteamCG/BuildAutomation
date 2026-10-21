@@ -23,30 +23,43 @@ export default class endScreen extends cc.Component {
     private supercubEnd: cc.SpriteFrame = null;
 
     onLoad() {
-        this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables.Instance.introBG;
+        // this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables.Instance.introBG;
         console.log("showedScreen--wellDone");
         this.scheduleOnce(() => {
             console.log("gameEnded--true");
+            this.node.getChildByName("end").active = true;
         }, 2);
     }
 
     start() {
-        if (globalVariables.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
-        }
-        else if (globalVariables.Instance.jockeyName == "bag" || globalVariables.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
-        }
-        else if (globalVariables.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
-        }
-        else if (globalVariables.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
-        }
+        // if (globalVariables.Instance.jockeyName == "Podar") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
+        // }
+        // else if (globalVariables.Instance.jockeyName == "bag" || globalVariables.Instance.jockeyName == "cryon") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
+        // }
+        // else if (globalVariables.Instance.jockeyName == "tlc") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
+        // }
+        // else if (globalVariables.Instance.jockeyName == "supercub") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
+        // }
 
 
 
     }
 
+    EndButton() {
+        // cc.audioEngine.playEffect(startGame.Instance.play_audio, false);
+        closeWindow();
+    }
+
+
+
+
     // update (dt) {}
+}
+const closeWindow = () => {
+    window.open(location.href, "_self", "");
+    window.close()
 }

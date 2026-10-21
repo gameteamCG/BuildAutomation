@@ -166,25 +166,26 @@ var GamePlay = /** @class */ (function (_super) {
         this.questionNode.setPosition(-60, this.questionNode.y);
         this.Ypos = this.questionNode.getPosition().y;
         this.questionNode.setPosition(-60, 1800);
-        this.scheduleOnce(function () {
-            _this.initialVO = globalVariables_1.default.Instance.initialVO;
-            if (_this.initialVO) {
-                cc.audioEngine.playEffect(_this.initialVO, false);
-                _this.scheduleOnce(function () {
-                    _this.checkNextLevel();
-                }, _this.initialVO.duration);
-            }
-            else {
-                _this.scheduleOnce(function () {
-                    _this.checkNextLevel();
-                }, 0.2);
-            }
-            _this.addDrawing();
-            _this.node.getChildByName("image").setPosition(_this.node.getChildByName("image").getPosition().x, 138);
-            _this.hand.setPosition(_this.node.getChildByName("backButton").getPosition().x + 100, _this.node.getChildByName("backButton").getPosition().y);
-            _this.hand.opacity = 0;
-            _this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
-        }, 1);
+        // this.questionNode.active = false;
+        // this.scheduleOnce(() => {
+        this.initialVO = globalVariables_1.default.Instance.initialVO;
+        if (this.initialVO) {
+            cc.audioEngine.playEffect(this.initialVO, false);
+            this.scheduleOnce(function () {
+                _this.checkNextLevel();
+            }, this.initialVO.duration);
+        }
+        else {
+            this.scheduleOnce(function () {
+                _this.checkNextLevel();
+            }, 0.2);
+        }
+        this.addDrawing();
+        this.node.getChildByName("image").setPosition(this.node.getChildByName("image").getPosition().x, 138);
+        this.hand.setPosition(this.node.getChildByName("backButton").getPosition().x + 100, this.node.getChildByName("backButton").getPosition().y);
+        this.hand.opacity = 0;
+        this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
+        // }, 1);
     };
     // update (dt) {}
     GamePlay.prototype.addDrawing = function () {
@@ -235,6 +236,7 @@ var GamePlay = /** @class */ (function (_super) {
     };
     GamePlay.prototype.checkNextLevel = function () {
         var _this = this;
+        this.questionNode.y = 400;
         var duration = 0;
         if (this.currentLevel != 0) {
             cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
@@ -249,7 +251,8 @@ var GamePlay = /** @class */ (function (_super) {
                 .to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
             cc.tween(_this.node.getChildByName("image")).to(0.5, { scale: 0 }, { easing: "sineInOut" })
                 .to(0.5, { scale: 0.75 }, { easing: "sineInOut" }).start();
-            cc.tween(_this.questionNode).to(0.5, { y: _this.Ypos }, { easing: "sineInOut" }).start();
+            cc.tween(_this.questionNode).to(0.5, { y: 400 }, { easing: "sineInOut" }).start();
+            _this.questionNode.active = true;
             if (_this.currentLevel < _this.totalLevels) {
                 console.log("levelStarted--" + (_this.currentLevel + 1));
                 cc.audioEngine.stopAllEffects();

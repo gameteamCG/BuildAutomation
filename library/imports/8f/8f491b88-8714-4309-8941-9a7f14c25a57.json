@@ -100,7 +100,7 @@
         "__id__": 26
       },
       {
-        "__id__": 258
+        "__id__": 257
       }
     ],
     "_prefab": null,
@@ -726,7 +726,7 @@
       "ctor": "Float64Array",
       "array": [
         -564.9,
-        296.1,
+        256.1,
         0,
         0,
         0,
@@ -913,10 +913,10 @@
       "__id__": 15
     },
     "_enabled": true,
-    "leftOffset": 10,
+    "leftOffset": 130,
     "rightOffset": 0,
     "bottomOffset": 0,
-    "topOffset": 10,
+    "topOffset": 25,
     "_id": "a8mKkvNW5PTJTZR4G/S3KK"
   },
   {
@@ -1127,9 +1127,6 @@
     "_components": [
       {
         "__id__": 256
-      },
-      {
-        "__id__": 257
       }
     ],
     "_prefab": null,
@@ -8966,7 +8963,7 @@
         "__id__": 192
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [],
     "_prefab": null,
     "_opacity": 255,
@@ -10188,13 +10185,13 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "question",
-    "_N$string": "question",
-    "_fontSize": 60,
+    "_string": "",
+    "_N$string": "",
+    "_fontSize": 55,
     "_lineHeight": 65,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "f525e1ef-1d42-4074-8f14-3f74b0187d92"
+      "__uuid__": "b109bf26-acba-469a-81e1-019e442a53b4"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -10324,8 +10321,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 0,
-    "transition": 0,
+    "_N$transition": 1,
+    "transition": 1,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,
@@ -10422,31 +10419,17 @@
     "_id": "72lO2y2P1E1Ks4oCSsPswl"
   },
   {
-    "__type__": "3909dpzo1hPDJb1f4iWWEcf",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 28
-    },
-    "_enabled": true,
-    "leftOffset": 0,
-    "rightOffset": 0,
-    "bottomOffset": 0,
-    "topOffset": -230,
-    "_id": "36xFitiXdDcI2Wh40PShjP"
-  },
-  {
     "__type__": "cc.AudioSource",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 2
     },
-    "_enabled": true,
+    "_enabled": false,
     "_clip": {
       "__uuid__": "a24b7261-4d8d-4255-991b-be0396112bb7"
     },
-    "_volume": 0.1,
+    "_volume": 0.4,
     "_mute": false,
     "_loop": false,
     "_firstlyEnabled": true,
