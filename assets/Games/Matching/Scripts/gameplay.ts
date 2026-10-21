@@ -70,7 +70,6 @@ export default class gameplay extends cc.Component {
             cc.director.preloadScene("endScreen");
         }
         else {
-            // cc.director.preloadScene(globalVariables.Instance.currentLevel.toString());
         }
         console.log(`levelStarted--` + globalVariables.Instance.currentLevel);
 
@@ -135,13 +134,11 @@ export default class gameplay extends cc.Component {
                     });
                 }
                 else {
-                    // console.log("option text = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     this.dropZones.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].leftoptions[i];
                 }
             }
             for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfRightOptions; i++) {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isRightOptionText) {
-                    // console.log("option img = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].rightoptions[i], (err, texture) => {
                         if (err) {
                             console.error("Failed to load image:", err);
@@ -435,7 +432,7 @@ export default class gameplay extends cc.Component {
         this.optionsNode.active = false;
         cc.tween(_clone1).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1).to(0.5, { x: -170, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1).to(0.5, { x: -116, y: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2).to(0.5, { x: 170, y: 0 }, { easing: "sineInOut" }).start();
@@ -621,15 +618,12 @@ export default class gameplay extends cc.Component {
         if (_node.name == this.optionsNode.name) {
             const children = optionsLayout.children;
 
-            // Create an array to store the original positions
             const originalPositions = [];
 
-            // Store the original positions of the children nodes
             for (let i = 0; i < children.length; i++) {
                 originalPositions.push(children[i].position.clone());
             }
 
-            // Shuffle the positions randomly
             for (let i = children.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
                 const temp = children[i].position.clone();
@@ -652,11 +646,10 @@ export default class gameplay extends cc.Component {
         this.node.getChildByName("hand").opacity = 0;
         this.Feedback(_node, this.dropZones.children[parseInt(_node.name) - 1], (parseInt(_node.name) - 1));
     }
-
     Feedback(_node: cc.Node, _dropNode: cc.Node, number: number) {
         console.log("feedback called!!!!!");
         this.canMove = false;
-        if (_node.name == _dropNode.name) {
+        if (_dropNode && _node.name == _dropNode.name) {
             this.answeredCount++;
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);

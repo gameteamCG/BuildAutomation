@@ -68,7 +68,6 @@ var gameplay = /** @class */ (function (_super) {
             cc.director.preloadScene("endScreen");
         }
         else {
-            // cc.director.preloadScene(globalVariables.Instance.currentLevel.toString());
         }
         console.log("levelStarted--" + globalVariables_1.default.Instance.currentLevel);
         this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = StartGame_1.default.Instance.mainBg;
@@ -134,7 +133,6 @@ var gameplay = /** @class */ (function (_super) {
                     });
                 }
                 else {
-                    // console.log("option text = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     this_1.dropZones.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].leftoptions[i];
                 }
             };
@@ -144,7 +142,6 @@ var gameplay = /** @class */ (function (_super) {
             }
             var _loop_3 = function (i) {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isRightOptionText) {
-                    // console.log("option img = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].rightoptions[i], function (err, texture) {
                         if (err) {
                             console.error("Failed to load image:", err);
@@ -442,7 +439,7 @@ var gameplay = /** @class */ (function (_super) {
         this.optionsNode.active = false;
         cc.tween(_clone1).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1).to(0.5, { x: -170, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1).to(0.5, { x: -116, y: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2).to(0.5, { x: 170, y: 0 }, { easing: "sineInOut" }).start();
@@ -603,13 +600,10 @@ var gameplay = /** @class */ (function (_super) {
         }
         if (_node.name == this.optionsNode.name) {
             var children = optionsLayout.children;
-            // Create an array to store the original positions
             var originalPositions = [];
-            // Store the original positions of the children nodes
             for (var i = 0; i < children.length; i++) {
                 originalPositions.push(children[i].position.clone());
             }
-            // Shuffle the positions randomly
             for (var i = children.length - 1; i > 0; i--) {
                 var j = Math.floor(Math.random() * (i + 1));
                 var temp = children[i].position.clone();
@@ -632,7 +626,7 @@ var gameplay = /** @class */ (function (_super) {
     gameplay.prototype.Feedback = function (_node, _dropNode, number) {
         console.log("feedback called!!!!!");
         this.canMove = false;
-        if (_node.name == _dropNode.name) {
+        if (_dropNode && _node.name == _dropNode.name) {
             this.answeredCount++;
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
