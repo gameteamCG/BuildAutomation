@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "fire fighter",
+        "questionText": "Firefighter",
         "questionAudioName": "28244690_1_identify_the_firefight.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_9.png",
@@ -34,7 +34,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "doctor",
+        "questionText": "Doctor",
         "questionAudioName": "28244690_2_identify_the_doctor.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_9.png",
@@ -52,7 +52,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "nurse",
+        "questionText": "Nurse",
         "questionAudioName": "28244690_3_identify_the_nurse.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_9.png",
@@ -70,7 +70,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "police officer",
+        "questionText": "Police officer",
         "questionAudioName": "28244690_4_identify_the_police.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_9.png",
@@ -88,7 +88,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "courier person",
+        "questionText": "Courier person",
         "questionAudioName": "28244690_5_identify_the_food.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_9.png",
@@ -106,7 +106,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "mason",
+        "questionText": "Mason",
         "questionAudioName": "Q_vo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_9.png",
