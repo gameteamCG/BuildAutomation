@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 216.9875030517578,
+            "width": 217,
             "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 216.9875030517578,
-                "height": 359.375,
+                "width": 217,
+                "height": 359.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 216.9875030517578,
-                "height": 352.2250061035156,
+                "width": 217,
+                "height": 352.2875061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 870.9625244140625,
+            "width": 871,
             "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 870.9625244140625,
-                "height": 359.375,
+                "width": 871,
+                "height": 359.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,10 +52,10 @@
                 ]
               },
               {
-                "width": 870.9625244140625,
-                "height": 352.2250061035156,
+                "width": 871,
+                "height": 352.2875061035156,
                 "type": "panel",
-                "active": 1,
+                "active": 2,
                 "children": [
                   "console",
                   "timeline",
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 442.0375061035156,
+            "width": 442,
             "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1792643543915": {}
+    "window-1792662704112": {}
   },
   "panels": {
     "project-settings": {

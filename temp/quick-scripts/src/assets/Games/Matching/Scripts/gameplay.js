@@ -43,7 +43,6 @@ var gameplay = /** @class */ (function (_super) {
         _this.canTouch = false;
         _this.answerArray = [];
         _this.maxLevel = 7;
-        _this.wrongAnswerCount = 0;
         _this.star1Log = false;
         _this.star2Log = false;
         _this.star3Log = false;
@@ -302,10 +301,14 @@ var gameplay = /** @class */ (function (_super) {
             }
         }, 1);
     };
-    gameplay.prototype.OnVOButton = function () {
+    gameplay.prototype.OnVOButton = function (_event) {
         cc.audioEngine.stopAllEffects();
-        if (this.questionSound[0])
-            cc.audioEngine.playEffect(this.questionSound[0], false);
+        cc.audioEngine.playEffect(this.questionSound[0], false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(function () {
+            _event.target.getComponent(cc.Button).interactable = true;
+            _event.target.scale = 1;
+        }, this.questionSound[0].duration);
     };
     gameplay.prototype.callOptionIn = function () {
         var _this = this;
@@ -463,6 +466,7 @@ var gameplay = /** @class */ (function (_super) {
     gameplay.prototype.callJockey = function () {
         var _this = this;
         var anim = [];
+        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
         anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
         var currentClipNum = this.getRandomNumber(0, anim.length - 1);
         var pos = [-1200, 1200];
@@ -481,11 +485,9 @@ var gameplay = /** @class */ (function (_super) {
     gameplay.prototype.callNegativeRection = function (_node) {
         var _this = this;
         cc.audioEngine.playEffect(this.negativeSound[0], false);
-        if (this.wrongAnswerCount >= 6) {
-            this.wrongAnswerCount = 1;
-        }
         this.scheduleOnce(function () {
             var anim = [];
+            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
             var currentClipNum = _this.getRandomNumber(0, anim.length - 1);
             _this.currentJcokey.setPosition(1200, -350);
@@ -627,22 +629,20 @@ var gameplay = /** @class */ (function (_super) {
             console.log("firstClick--" + globalVariables_1.default.Instance.currentLevel);
         }
         this.node.getChildByName("hand").opacity = 0;
-        this.Feedback(_node, this.dropZones.children[parseInt(_node.name) - 1], (parseInt(_node.name) - 1));
+        this.Feedback(_node);
     };
-    gameplay.prototype.Feedback = function (_node, _dropNode, number) {
-        console.log("feedback called!!!!!");
+    gameplay.prototype.Feedback = function (_node) {
         this.canMove = false;
-        if (_node.name == _dropNode.name) {
+        if (_node.name == "1") {
             this.answeredCount++;
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             cc.audioEngine.playEffect(this.popSound[0], false);
-            this.callPositiveRection(_dropNode, _node);
+            this.callPositiveRection(this.dropZones.children[parseInt(_node.name) - 1], _node);
         }
         else {
-            this.wrongAnswerCount++;
             console.log("wrongAnswer--" + globalVariables_1.default.Instance.currentLevel);
             this.callNegativeRection(_node);
         }

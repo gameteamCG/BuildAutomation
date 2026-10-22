@@ -2012,14 +2012,14 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        388.449,
+        359.68,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        0.8,
+        0.8,
         1
       ]
     },
@@ -2074,7 +2074,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -90,
+        -77.059,
         0,
         0,
         0,
@@ -2249,8 +2249,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 3,
-    "transition": 3,
+    "_N$transition": 1,
+    "transition": 1,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,

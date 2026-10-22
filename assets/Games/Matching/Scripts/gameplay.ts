@@ -35,7 +35,6 @@ export default class gameplay extends cc.Component {
     private canTouch: boolean = false;
     private answerArray: string[] = [];
     private maxLevel: number = 7;
-    wrongAnswerCount: number = 0;
     star1Log: boolean = false;
     star2Log: boolean = false;
     star3Log: boolean = false;
@@ -294,10 +293,14 @@ export default class gameplay extends cc.Component {
         }, 1);
     }
 
-    OnVOButton() {
+    OnVOButton(_event: cc.Event) {
         cc.audioEngine.stopAllEffects();
-        if (this.questionSound[0])
-            cc.audioEngine.playEffect(this.questionSound[0], false);
+        cc.audioEngine.playEffect(this.questionSound[0], false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+            _event.target.scale = 1;
+        }, this.questionSound[0].duration)
     }
 
     callOptionIn() {
@@ -457,6 +460,7 @@ export default class gameplay extends cc.Component {
 
     callJockey() {
         let anim: string[] = [];
+        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
         anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
         let pos: number[] = [-1200, 1200];
@@ -476,11 +480,9 @@ export default class gameplay extends cc.Component {
 
     callNegativeRection(_node: cc.Node) {
         cc.audioEngine.playEffect(this.negativeSound[0], false);
-        if (this.wrongAnswerCount >= 6) {
-            this.wrongAnswerCount = 1;
-        }
         this.scheduleOnce(() => {
             let anim: string[] = [];
+            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
             let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
             this.currentJcokey.setPosition(1200, -350);
@@ -639,8 +641,6 @@ export default class gameplay extends cc.Component {
         }
     }
 
-
-
     TouchStart(_node: cc.Node, _event: any) {
         if (!this.canMove) {
             return;
@@ -650,23 +650,21 @@ export default class gameplay extends cc.Component {
             console.log("firstClick--" + globalVariables.Instance.currentLevel);
         }
         this.node.getChildByName("hand").opacity = 0;
-        this.Feedback(_node, this.dropZones.children[parseInt(_node.name) - 1], (parseInt(_node.name) - 1));
+        this.Feedback(_node);
     }
 
-    Feedback(_node: cc.Node, _dropNode: cc.Node, number: number) {
-        console.log("feedback called!!!!!");
+    Feedback(_node: cc.Node) {
         this.canMove = false;
-        if (_node.name == _dropNode.name) {
+        if (_node.name == "1") {
             this.answeredCount++;
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             cc.audioEngine.playEffect(this.popSound[0], false);
-            this.callPositiveRection(_dropNode, _node);
+            this.callPositiveRection(this.dropZones.children[parseInt(_node.name) - 1], _node);
         }
         else {
-            this.wrongAnswerCount++;
             console.log("wrongAnswer--" + globalVariables.Instance.currentLevel);
             this.callNegativeRection(_node);
         }
