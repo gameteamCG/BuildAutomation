@@ -476,10 +476,18 @@
         "__uuid__": "fa0df1a1-201d-4ca5-bfb0-ad27ac997d0b"
       }
     ],
-    "jaipuria_font": null,
-    "podar_font": null,
-    "tlc_font": null,
-    "supercub_font": null,
+    "jaipuria_font": {
+      "__uuid__": "91288d5e-fe60-4495-8686-44915bfd05b8"
+    },
+    "podar_font": {
+      "__uuid__": "91288d5e-fe60-4495-8686-44915bfd05b8"
+    },
+    "tlc_font": {
+      "__uuid__": "91288d5e-fe60-4495-8686-44915bfd05b8"
+    },
+    "supercub_font": {
+      "__uuid__": "91288d5e-fe60-4495-8686-44915bfd05b8"
+    },
     "positiveVO": [],
     "slider": {
       "__id__": 13
