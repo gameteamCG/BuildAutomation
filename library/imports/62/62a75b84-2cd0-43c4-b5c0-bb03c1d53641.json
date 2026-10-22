@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "totaa",
+    "texture": "c82d44fa-7534-4055-920d-e2825d47c686",
+    "atlas": "",
+    "rect": [
+      28,
+      37,
+      457,
+      436
+    ],
+    "offset": [
+      6,
+      -4.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

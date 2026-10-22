@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -74,6 +74,11 @@ var NewClass = /** @class */ (function (_super) {
         _this.correctAudio = [];
         _this.optionsNode = null;
         _this.questionBoxPosY = 0;
+        _this.ansArray = ["तरबूज",
+            "तोता",
+            "तारा",
+            "तराजू",
+            "तवा"];
         _this.totalAnswers = 0;
         _this.correctAnswerCount = 0;
         _this.isOptionBG = false;
@@ -599,6 +604,8 @@ var NewClass = /** @class */ (function (_super) {
         _node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.extraImg;
         //console.log("correctAudio--" + this.correctAudio.name);
         cc.audioEngine.playEffect(this.correctAudio[parseInt(_node.name) - 1], false);
+        console.log("========================", globalVariables_1.default.Instance.currentLevel - 1);
+        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.ansArray[globalVariables_1.default.Instance.currentLevel - 1];
         // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
@@ -625,6 +632,7 @@ var NewClass = /** @class */ (function (_super) {
         switch (StartGame_1.default.Instance.templateType) {
             case "SimpleTap":
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.ansArray[globalVariables_1.default.Instance.currentLevel - 1];
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(function () {
@@ -651,7 +659,7 @@ var NewClass = /** @class */ (function (_super) {
                                 _this.scheduleOnce(function () {
                                     ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
                                     _this.scheduleOnce(function () {
-                                        cc.tween(_this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                                        //cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
                                         _this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
                                         // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
                                         _this.callJockey();

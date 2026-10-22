@@ -1,5 +1,6 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -109,7 +110,11 @@ export default class NewClass extends cc.Component {
     private optionsNode: cc.Node = null;
 
     private questionBoxPosY: number = 0;
-
+    ansArray: string[] = ["तरबूज",
+        "तोता",
+        "तारा",
+        "तराजू",
+        "तवा"];
     totalAnswers: number = 0;
     correctAnswerCount: number = 0;
     isOptionBG: boolean = false;
@@ -650,6 +655,8 @@ export default class NewClass extends cc.Component {
         _node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.extraImg;
         //console.log("correctAudio--" + this.correctAudio.name);
         cc.audioEngine.playEffect(this.correctAudio[parseInt(_node.name) - 1], false);
+        console.log("========================", globalVariables.Instance.currentLevel - 1);
+        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.ansArray[globalVariables.Instance.currentLevel - 1];
         // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
@@ -676,6 +683,8 @@ export default class NewClass extends cc.Component {
         switch (startGame.Instance.templateType) {
             case "SimpleTap":
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.ansArray[globalVariables.Instance.currentLevel - 1];
+
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {
@@ -702,7 +711,7 @@ export default class NewClass extends cc.Component {
                                 this.scheduleOnce(() => {
                                     ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
                                     this.scheduleOnce(() => {
-                                        cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                                        //cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
                                         this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
                                         // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
                                         this.callJockey();

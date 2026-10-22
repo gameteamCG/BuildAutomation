@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tala",
+    "texture": "bce64be1-1ce0-45c6-ab90-a0a94c60b26d",
+    "atlas": "",
+    "rect": [
+      87,
+      33,
+      326,
+      434
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
