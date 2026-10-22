@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pyramid",
+    "texture": "d3b37a40-1635-44c8-bbb4-99795da11a75",
+    "atlas": "",
+    "rect": [
+      114,
+      77,
+      360,
+      315
+    ],
+    "offset": [
+      44,
+      15.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
