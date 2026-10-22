@@ -1,5 +1,4 @@
-
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -24,12 +23,14 @@ export default class Gameplay extends cc.Component {
     swipe_sound: cc.AudioClip = null;
     @property(cc.AudioClip)
     correctSound: cc.AudioClip = null;
-
     @property(cc.AudioClip)
-    private positiveSound: cc.AudioClip[] = [];
+    negativeSound: cc.AudioClip = null;
 
     @property(cc.AudioClip)
     private positiveAudio: cc.AudioClip[] = [];
+
+    @property(cc.AudioClip)
+    private negativeAudio: cc.AudioClip[] = [];
 
     @property(cc.AudioClip)
     private stallionPositive: cc.AudioClip[] = [];
@@ -59,15 +60,14 @@ export default class Gameplay extends cc.Component {
     private questionVO: cc.AudioClip = null;
     private correctVO: cc.AudioClip = null;
     private needReiteration: boolean = false;
-    private reiterationImage: cc.SpriteFrame = null;
 
     private maxLevel: number = 7;
+    private correctAnswerCount: number = 1;
 
     private questionBoxPosY: number = 0;
 
     currentJockey: cc.Node = null;
-
-    // LIFE-CYCLE CALLBACKS:
+    wrongAnswerCount = 0;
 
     onLoad() {
         this.maxLevel = startGame.Instance.TotalLevels;
@@ -109,17 +109,14 @@ export default class Gameplay extends cc.Component {
         this.currentJockey.active = true;
         if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
             cc.audioEngine.playEffect(this.questionVO, false);
+            this.canTouch = true;
         }
         if (globalVariables.Instance.currentLevel == 1) {
             //PLAY HAND ANIMATION
+            this.canTouch = true;
             let hand = this.node.getChildByName("hand");
             hand.active = true;
-            let x1: number = this.optionsNode.children[0].x;
-            let x2: number = this.optionsNode.children[1].x;
-            hand.setParent(this.optionsNode.children[0]);
-            hand.setPosition(0, 0);
-            hand.setParentWithSamePos(this.node);
-            this.playTween(hand, x1, x2);
+            hand.setPosition(400, -100);
             hand.getComponent(cc.Animation).play();
         }
     }
@@ -132,35 +129,12 @@ export default class Gameplay extends cc.Component {
     }
 
     SubcribeEvents() {
-        // if (startGame.Instance.questions[parseInt(startGame.Instance.currentLevel) - 1].shouldPlayQuestionAudio) {
-        //     if (this.questionVO) {
-        //         this.node.getChildByName("questionPanel").getChildByName("sound").active = true;
-        //         cc.audioEngine.playEffect(this.questionVO, false);
-        //     }
-        // }
-        // else {
-        //     if (this.questionVO) {
-        //         this.node.getChildByName("questionPanel").getChildByName("sound").active = true;
-        //     }
-
-        // }
         this.PlayQuestionAudio();
         this.optionsNode.children.forEach(element => {
             element.on('touchstart', function (event) {
                 this.TouchStart(element);
             }, this);
-            element.on('touchmove', function (event) {
-                this.TouchMove(element, event);
-            }, this);
-            element.on('touchend', function (event) {
-                this.TouchEnd(element);
-            }, this);
-            element.on('touchcancel', function (event) {
-                this.TouchEnd(element);
-            }, this);
         });
-
-
     }
 
     calculateDistance(point1, point2) {
@@ -173,9 +147,9 @@ export default class Gameplay extends cc.Component {
         this.UpdateQuestionData();
         this.scheduleOnce(() => {
             this.OptionsLayout();
-            if (this.optionsNode.children.length <= 2) {
-                this.arrangeChildren(this.optionsNode, 80);
-            }
+            // if (this.optionsNode.children.length <= 2) {
+            //     this.arrangeChildren(this.optionsNode, 80);
+            // }
             let delay = 0.2;
             for (let i = 0; i < this.optionsNode.children.length; i++) {
                 this.optionsNode.children[i].scale = 0;
@@ -370,84 +344,77 @@ export default class Gameplay extends cc.Component {
             this.loadAudioClip(_questiondata.correctAudioName, (AudioClip) => {
                 this.correctVO = AudioClip;
             });
-
-            // this.loadSpriteFrame(_questiondata.questionImageName, (spriteFrame) => {
-            //     this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
         }
     }
 
     TouchStart(_node: cc.Node) {
-        if (this.isAnswered) {
+        if (!this.canTouch) {
             return;
+        }
+        this.canTouch = false;
+        if (!this.isFirstClick) {
+            this.isFirstClick = true;
+            console.log("firstClick--" + startGame.Instance.currentLevel);
         }
         this.node.getChildByName("hand").active = false;
-        if (!this.currentDraggingObject) {
-            this.canTouch = true;
-            this.currentDraggingObject = _node.name;
-            this.startPosX = _node.getPosition().x;
-            _node.zIndex = 1;
-            if (!this.isFirstClick) {
-                this.isFirstClick = true;
-                console.log("firstClick--" + startGame.Instance.currentLevel);
-            }
-        }
-    }
-
-    TouchMove(_node: cc.Node, _event: any) {
-        if (!this.canTouch || this.currentDraggingObject !== _node.name || this.isAnswered) {
-            return;
-        }
-        let delta = _event.touch.getDelta();
-        _node.x += delta.x;
-        this.attemptSwap(_node);
-    }
-
-    attemptSwap(_node) {
-        let deltaX = _node.x - this.startPosX;
-        if (Math.abs(deltaX) > 50) {
-            for (let otherNode of this.optionsNode.children) {
-                if (otherNode !== _node) {
-                    let distance = this.calculateDistance(_node.position, otherNode.position);
-                    if (this.shouldSwap(deltaX, _node, otherNode, distance)) {
-                        this.performSwap(_node, otherNode);
-                        break;
+        console.log(_node.name, this.correctAnswerCount.toString())
+        if (_node.name == this.correctAnswerCount.toString()) {
+            console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            this.isAnswered = true;
+            _node.getChildByName("outline").active = true;
+            cc.audioEngine.playEffect(this.correctSound, false);
+            this.correctAnswerCount++;
+            if (this.correctAnswerCount == 4) {
+                this.node.getChildByName("questionPanel").getChildByName("sound").active = false;
+                if (this.needReiteration) {
+                    this.node.getChildByName("reiteration").active = true;
+                    this.node.getChildByName("reiteration").scale = 0;
+                    cc.tween(this.optionsNode).to(0.25, { scaleX: 0 }, { easing: 'backInOut' }).start();
+                    cc.tween(this.node.getChildByName("reiteration")).to(0.5, { scale: 1 }, { easing: 'sineInOut' }).start();
+                    this.scheduleOnce(() => {
+                        this.optionsNode.active = false;
+                        this.node.getChildByName("confetti").active = true;
+                        this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                        let VOduration = 0;
+                        if (this.correctVO) {
+                            VOduration = this.correctVO.duration;
+                        }
+                        this.scheduleOnce(() => {
+                            cc.audioEngine.playEffect(this.correctVO, false);
+                            this.scheduleOnce(() => {
+                                this.callJockey();
+                            }, VOduration);
+                        }, 0.25);
+                    }, 0.5);
+                }
+                else {
+                    this.node.getChildByName("confetti").active = true;
+                    this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                    let VOduration = 0;
+                    if (this.correctVO) {
+                        VOduration = this.correctVO.duration;
                     }
+                    this.scheduleOnce(() => {
+                        cc.audioEngine.playEffect(this.correctVO, false);
+                        // this.callJockey();
+                        this.scheduleOnce(() => {
+                            // this.LoadNextQuestion();
+                            this.callJockey();
+                        }, VOduration);
+                    }, 0.75);
                 }
             }
+            else {
+                this.canTouch = true;
+            }
+        } else {
+            this.wrongAnswerCount++;
+            console.log("wrongAnswer--" + globalVariables.Instance.currentLevel);
+            this.callNegativeRection(_node);
         }
+
     }
 
-    shouldSwap(deltaX, _node, otherNode, distance) {
-        return distance < 50 && ((deltaX > 0 && _node.x < otherNode.x) || (deltaX < 0 && _node.x > otherNode.x));
-    }
-
-    performSwap(_node, otherNode) {
-        cc.audioEngine.playEffect(this.swipe_sound, false);
-        cc.tween(_node).to(0.15, { x: otherNode.x }, { easing: 'backInOut' }).start();
-        cc.tween(otherNode).to(0.15, { x: this.startPosX }, { easing: 'backInOut' }).start();
-        this.scheduleOnce(() => {
-            this.currentDraggingObject = null;
-            this.checkOrder(); // Check if the current order is correct
-        }, 0.15);
-        this.canTouch = false;
-        this.isDropped = true;
-    }
-
-    TouchEnd(_node: cc.Node) {
-        if (this.isAnswered) {
-            return;
-        }
-        _node.zIndex = 0;
-        if (this.isDropped) {
-            this.isDropped = false;
-            return;
-        }
-        cc.tween(_node).to(0.15, { x: this.startPosX }, { easing: 'backInOut' }).start();
-        this.scheduleOnce(() => {
-            this.currentDraggingObject = null;
-        }, 0.2);
-    }
     checkOrder() {
         let currentWord = this.getCurrentWord();
         // console.log("current word =", currentWord);
@@ -461,7 +428,6 @@ export default class Gameplay extends cc.Component {
             // console.log("need iteration--" + this.needReiteration);
             cc.audioEngine.playEffect(this.correctSound, false);
             if (this.needReiteration) {
-                // this.optionsNode.active = false;
                 this.node.getChildByName("reiteration").active = true;
                 this.node.getChildByName("reiteration").scale = 0;
                 cc.tween(this.optionsNode).to(0.25, { scaleX: 0 }, { easing: 'backInOut' }).start();
@@ -552,54 +518,15 @@ export default class Gameplay extends cc.Component {
     OptionsLayout() {
         let optionsLayout = this.optionsNode;
         let optionNodes = optionsLayout.children;
-
-        const paddingBetweenOptions = 10;
-
-        let totalWidth = 0;
-        let maxHeight = 0;
-
+        let posX = [
+            [400, -400, 0],
+            [0, 400, -400],
+            [400, 0, -400],
+        ]
         for (let i = 0; i < optionNodes.length; i++) {
-            let option = optionNodes[i];
-            let optionWidth = option.width;
-            let optionHeight = option.height;
-
-            totalWidth += optionWidth + paddingBetweenOptions;
-            if (optionHeight > maxHeight) {
-                maxHeight = optionHeight;
-            }
+            optionNodes[i].x = posX[globalVariables.Instance.currentLevel - 1][i]
         }
 
-        let availableWidth = optionsLayout.width;
-        let totalWidthWithPadding = totalWidth + (optionNodes.length - 1) * paddingBetweenOptions;
-        let scaleFactor = Math.min(1, availableWidth / totalWidthWithPadding);
-
-        let accumulatedWidth = 0;
-        for (let i = 0; i < optionNodes.length; i++) {
-            let option = optionNodes[i];
-
-            // Calculate the scale factor for the option
-            let optionScaleFactor = scaleFactor;
-
-            // Scale the option
-            option.width *= optionScaleFactor;
-            option.height *= optionScaleFactor;
-
-            // Calculate position based on anchor and scaled size
-            let posX = accumulatedWidth + (option.width * option.anchorX);
-            option.x = posX - (optionsLayout.width * optionsLayout.anchorX);
-
-            accumulatedWidth += option.width + paddingBetweenOptions;
-
-            // Scale and position children nodes proportionally
-            for (let subChild of option.children) {
-                subChild.x *= optionScaleFactor;
-                subChild.y *= optionScaleFactor;
-                subChild.width *= optionScaleFactor;
-                subChild.height *= optionScaleFactor;
-            }
-        }
-
-        optionsLayout.height = maxHeight * scaleFactor;
     }
 
     arrangeChildren(centerNode: cc.Node, spacing: number) {
@@ -695,6 +622,88 @@ export default class Gameplay extends cc.Component {
                 this.LoadNextQuestion();
             }, this.positiveAudio[currentClipNum].duration);
         }, 0.5);
+    }
+
+    callNegativeRection(_node: cc.Node) {
+        this.canTouch = false;
+        //_node.children[0].getComponent(cc.Sprite).setMaterial(0, this.greyMat);
+        cc.audioEngine.playEffect(this.negativeSound, false);
+        if (this.wrongAnswerCount >= 6) {
+            this.wrongAnswerCount = 1;
+        }
+        this.scheduleOnce(() => {
+            let anim: string[] = [];
+            anim = ["negative_1", "negative_2"];
+            let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
+            //console.log("characterAppear--Podar_Jumbo");
+            if (startGame.Instance.jockeyName == "stallion") {
+                this.currentJockey.scaleX = 0.65;
+                this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+            }
+            else if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
+                this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+            }
+            if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
+                this.currentJockey.setPosition(1200, -350);
+                cc.tween(this.currentJockey).to(0.5, { x: 400 }, { easing: "quartInOut" }).start();
+                this.scheduleOnce(() => {
+                    this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+                    cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
+                    this.scheduleOnce(() => {
+                        cc.tween(this.currentJockey).to(0.5, { x: 1200 }, { easing: "quartInOut" }).start();
+                        if (startGame.Instance.jockeyName != "stallion") {
+                            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                        }
+                        //console.log("characterDisappear--Podar_Jumbo");
+                        this.canTouch = true;
+                    }, this.negativeAudio[currentClipNum].duration);
+                }, 0.5);
+            }
+            else if (startGame.Instance.jockeyName == "tlc") {
+                this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+                cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
+                this.scheduleOnce(() => {
+                    this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                    this.canTouch = true;
+                }, this.negativeAudio[currentClipNum].duration);
+            }
+            else if (startGame.Instance.jockeyName == "supercub") {
+                if (anim[currentClipNum] == "negative_1" || anim[currentClipNum] == "negative_2") {
+                    //play bulb break if needed
+                    this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_start", false);
+                    this.scheduleOnce(() => {
+                        this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
+                        cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
+                        this.scheduleOnce(() => {
+                            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
+                            this.canTouch = true;
+                            this.scheduleOnce(() => {
+                                this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                            }, this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration);
+                        }, this.negativeAudio[currentClipNum].duration);
+
+                    }, this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_start").duration);
+                }
+                else {
+                    this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+                    cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
+                    this.scheduleOnce(() => {
+                        this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                        this.canTouch = true;
+                    }, this.negativeAudio[currentClipNum].duration);
+                }
+
+            }
+        }, 0.7);
+        cc.tween(_node)
+            .to(0.2, { x: _node.x - 10 }, { easing: "sineInOut" })
+            .to(0.2, { x: _node.x + 10 }, { easing: "sineInOut" })
+            .to(0.2, { x: _node.x - 10 }, { easing: "sineInOut" })
+            .to(0.2, { x: _node.x + 10 }, { easing: "sineInOut" })
+            .to(0.2, { x: _node.x }, { easing: "sineInOut" }).call(() => {
+
+            })
+            .start();
     }
 
     loadSpriteFrame(imageName: string, callback: (spriteFrame: cc.SpriteFrame) => void) {

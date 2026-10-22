@@ -5,21 +5,21 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 0,
-      "y": 0,
-      "width": 1366,
-      "height": 720,
+      "x": -8,
+      "y": -8,
+      "width": 1552,
+      "height": 832,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 425,
-            "height": 602,
+            "width": 484,
+            "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 425,
-                "height": 302,
+                "width": 484,
+                "height": 357.8000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 425,
-                "height": 297,
+                "width": 484,
+                "height": 353.8000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 535,
-            "height": 602,
+            "width": 609,
+            "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 535,
-                "height": 302,
+                "width": 609,
+                "height": 357.8000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 535,
-                "height": 297,
+                "width": 609,
+                "height": 353.8000183105469,
                 "type": "panel",
                 "active": 2,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 384,
-            "height": 602,
+            "width": 437,
+            "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
             "children": [
@@ -89,7 +89,8 @@
         "node-library"
       ]
     },
-    " common-asset-worker-worker": {}
+    " common-asset-worker-worker": {},
+    "window-1792647829578": {}
   },
   "panels": {
     "project-settings": {
@@ -107,7 +108,7 @@
     "builder": {
       "x": -8,
       "y": -8,
-      "width": 1382,
+      "width": 1384,
       "height": 736
     }
   },

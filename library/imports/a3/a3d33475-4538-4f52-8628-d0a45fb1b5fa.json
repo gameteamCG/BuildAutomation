@@ -24,11 +24,11 @@
         "numberOfOptions": 3,
         "optionOffset": null,
         "options": [
-          "3.png",
+          "1.png",
           "2.png",
-          "1.png"
+          "3.png"
         ],
-        "correctAnswer": "321",
+        "correctAnswer": "123",
         "correctAudioName": "answer_1.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
@@ -43,9 +43,9 @@
         "numberOfOptions": 3,
         "optionOffset": null,
         "options": [
+          "3.png",
           "4.png",
-          "5.png",
-          "3.png"
+          "5.png"
         ],
         "correctAnswer": "312",
         "correctAudioName": "answer_2.mp3",
@@ -62,9 +62,9 @@
         "numberOfOptions": 3,
         "optionOffset": null,
         "options": [
+          "6.png",
           "7.png",
-          "8.png",
-          "6.png"
+          "8.png"
         ],
         "correctAnswer": "312",
         "correctAudioName": "answer_3.mp3",
