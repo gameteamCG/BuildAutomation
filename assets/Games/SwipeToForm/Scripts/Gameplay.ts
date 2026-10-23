@@ -608,8 +608,8 @@ export default class Gameplay extends cc.Component {
     if (currentWord === targetWord) {
       console.log("correctAnswer--" + startGame.Instance.currentLevel);
       this.isAnswered = true;
-      this.node.getChildByName("questionPanel").getChildByName("sound").active =
-        false;
+      // this.node.getChildByName("questionPanel").getChildByName("sound").active =
+      //   false;
       // Additional logic for when the order is correct
       // console.log("need iteration--" + this.needReiteration);
       cc.audioEngine.playEffect(this.correctSound, false);
