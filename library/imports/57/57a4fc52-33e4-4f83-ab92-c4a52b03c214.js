@@ -31,10 +31,6 @@ var Gameplay = /** @class */ (function (_super) {
     __extends(Gameplay, _super);
     function Gameplay() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.podar_font = null;
-        _this.jaipuria_font = null;
-        _this.tlc_font = null;
-        _this.supercub_font = null;
         _this.optionsNode = null;
         _this.pop_sound = null;
         _this.swipe_sound = null;
@@ -42,13 +38,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.negativeSound = null;
         _this.positiveAudio = [];
         _this.negativeAudio = [];
-        _this.stallionPositive = [];
-        _this.bagPositive = [];
-        _this.cryonPositive = [];
-        _this.tlcPositive = [];
-        _this.supercubPositive = [];
-        _this.currentDraggingObject = null;
-        _this.startPosX = 0;
+        _this.extraImag = [];
         _this.canTouch = true;
         _this.isFirstClick = false;
         _this.isDropped = false;
@@ -76,39 +66,17 @@ var Gameplay = /** @class */ (function (_super) {
         }
         console.log("levelStarted--" + StartGame_1.default.Instance.currentLevel);
         this.node.getChildByName("BG").getComponent(cc.Sprite).spriteFrame = StartGame_1.default.Instance.mainBg;
-        if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text2").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text2").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text2").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text2").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
     };
     Gameplay.prototype.PlayQuestionAudio = function () {
+        var _this = this;
         this.currentJockey.active = true;
-        if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-            cc.audioEngine.playEffect(this.questionVO, false);
-            this.canTouch = true;
-        }
+        cc.audioEngine.playEffect(this.questionVO, false);
+        this.canTouch = true;
+        this.node.getChildByName("options").children.forEach(function (elem, index) {
+            elem.getChildByName("extra").getComponent(cc.Sprite).spriteFrame = _this.extraImag[index];
+            index++;
+        });
         if (globalVariables_1.default.Instance.currentLevel == 1) {
-            //PLAY HAND ANIMATION
             this.canTouch = true;
             var hand = this.node.getChildByName("hand");
             hand.active = true;
@@ -164,21 +132,6 @@ var Gameplay = /** @class */ (function (_super) {
                 _loop_1(i);
             }
         }, 1);
-        if (StartGame_1.default.Instance.jockeyName == "bag") {
-            this.positiveAudio = this.bagPositive;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "cryon") {
-            this.positiveAudio = this.cryonPositive;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "stallion") {
-            this.positiveAudio = this.stallionPositive;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.positiveAudio = this.tlcPositive;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.positiveAudio = this.supercubPositive;
-        }
     };
     Gameplay.prototype.UpdateQuestionData = function () {
         var _this = this;
@@ -356,6 +309,7 @@ var Gameplay = /** @class */ (function (_super) {
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
             this.isAnswered = true;
             _node.getChildByName("outline").active = true;
+            _node.getChildByName("extra").active = true;
             cc.audioEngine.playEffect(this.correctSound, false);
             this.correctAnswerCount++;
             if (this.correctAnswerCount == 4) {
@@ -382,20 +336,23 @@ var Gameplay = /** @class */ (function (_super) {
                     }, 0.5);
                 }
                 else {
-                    this.node.getChildByName("confetti").active = true;
-                    this.node.getChildByName("confetti").getComponent(cc.Animation).play();
-                    var VOduration_1 = 0;
-                    if (this.correctVO) {
-                        VOduration_1 = this.correctVO.duration;
-                    }
+                    cc.tween(this.node.getChildByName("options").getChildByName("1")).to(0.5, { x: -400 }, { easing: "sineInOut" }).start();
+                    cc.tween(this.node.getChildByName("options").getChildByName("2")).to(0.5, { x: 0 }, { easing: "sineInOut" }).start();
+                    cc.tween(this.node.getChildByName("options").getChildByName("3")).to(0.5, { x: 400 }, { easing: "sineInOut" }).start();
                     this.scheduleOnce(function () {
-                        cc.audioEngine.playEffect(_this.correctVO, false);
-                        // this.callJockey();
+                        _this.node.getChildByName("confetti").active = true;
+                        _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                        var VOduration = 0;
+                        if (_this.correctVO) {
+                            VOduration = _this.correctVO.duration;
+                        }
                         _this.scheduleOnce(function () {
-                            // this.LoadNextQuestion();
-                            _this.callJockey();
-                        }, VOduration_1);
-                    }, 0.75);
+                            cc.audioEngine.playEffect(_this.correctVO, false);
+                            _this.scheduleOnce(function () {
+                                _this.callJockey();
+                            }, VOduration);
+                        }, 0.75);
+                    }, 0.5);
                 }
             }
             else {
@@ -444,9 +401,9 @@ var Gameplay = /** @class */ (function (_super) {
             else {
                 this.node.getChildByName("confetti").active = true;
                 this.node.getChildByName("confetti").getComponent(cc.Animation).play();
-                var VOduration_2 = 0;
+                var VOduration_1 = 0;
                 if (this.correctVO) {
-                    VOduration_2 = this.correctVO.duration;
+                    VOduration_1 = this.correctVO.duration;
                 }
                 this.scheduleOnce(function () {
                     cc.audioEngine.playEffect(_this.correctVO, false);
@@ -454,7 +411,7 @@ var Gameplay = /** @class */ (function (_super) {
                     _this.scheduleOnce(function () {
                         // this.LoadNextQuestion();
                         _this.callJockey();
-                    }, VOduration_2);
+                    }, VOduration_1);
                 }, 0.75);
             }
         }
@@ -713,18 +670,6 @@ var Gameplay = /** @class */ (function (_super) {
         cc.audioEngine.playEffect(this.questionVO, false);
     };
     __decorate([
-        property(cc.Font)
-    ], Gameplay.prototype, "podar_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], Gameplay.prototype, "jaipuria_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], Gameplay.prototype, "tlc_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], Gameplay.prototype, "supercub_font", void 0);
-    __decorate([
         property(cc.Node)
     ], Gameplay.prototype, "optionsNode", void 0);
     __decorate([
@@ -746,20 +691,8 @@ var Gameplay = /** @class */ (function (_super) {
         property(cc.AudioClip)
     ], Gameplay.prototype, "negativeAudio", void 0);
     __decorate([
-        property(cc.AudioClip)
-    ], Gameplay.prototype, "stallionPositive", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], Gameplay.prototype, "bagPositive", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], Gameplay.prototype, "cryonPositive", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], Gameplay.prototype, "tlcPositive", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], Gameplay.prototype, "supercubPositive", void 0);
+        property(cc.SpriteFrame)
+    ], Gameplay.prototype, "extraImag", void 0);
     Gameplay = __decorate([
         ccclass
     ], Gameplay);

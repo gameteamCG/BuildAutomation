@@ -6,15 +6,6 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class Gameplay extends cc.Component {
-    @property(cc.Font)
-    private podar_font: cc.Font = null;
-    @property(cc.Font)
-    private jaipuria_font: cc.Font = null;
-    @property(cc.Font)
-    private tlc_font: cc.Font = null;
-    @property(cc.Font)
-    private supercub_font: cc.Font = null;
-
     @property(cc.Node)
     optionsNode: cc.Node = null;
     @property(cc.AudioClip)
@@ -32,23 +23,8 @@ export default class Gameplay extends cc.Component {
     @property(cc.AudioClip)
     private negativeAudio: cc.AudioClip[] = [];
 
-    @property(cc.AudioClip)
-    private stallionPositive: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private bagPositive: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private cryonPositive: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private tlcPositive: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private supercubPositive: cc.AudioClip[] = [];
-
-    private currentDraggingObject: string = null;
-    private startPosX: number = 0;
+    @property(cc.SpriteFrame)
+    private extraImag: cc.SpriteFrame[] = [];
 
     private canTouch: boolean = true;
     private isFirstClick: boolean = false;
@@ -79,40 +55,17 @@ export default class Gameplay extends cc.Component {
         }
         console.log(`levelStarted--` + startGame.Instance.currentLevel);
         this.node.getChildByName("BG").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text2").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text2").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text2").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text2").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
     }
 
     PlayQuestionAudio() {
         this.currentJockey.active = true;
-        if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-            cc.audioEngine.playEffect(this.questionVO, false);
-            this.canTouch = true;
-        }
+        cc.audioEngine.playEffect(this.questionVO, false);
+        this.canTouch = true;
+        this.node.getChildByName("options").children.forEach((elem, index) => {
+            elem.getChildByName("extra").getComponent(cc.Sprite).spriteFrame = this.extraImag[index]
+            index++;
+        })
         if (globalVariables.Instance.currentLevel == 1) {
-            //PLAY HAND ANIMATION
             this.canTouch = true;
             let hand = this.node.getChildByName("hand");
             hand.active = true;
@@ -166,22 +119,6 @@ export default class Gameplay extends cc.Component {
                 delay += 0.2;
             }
         }, 1);
-
-        if (startGame.Instance.jockeyName == "bag") {
-            this.positiveAudio = this.bagPositive;
-        }
-        else if (startGame.Instance.jockeyName == "cryon") {
-            this.positiveAudio = this.cryonPositive;
-        }
-        else if (startGame.Instance.jockeyName == "stallion") {
-            this.positiveAudio = this.stallionPositive;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.positiveAudio = this.tlcPositive;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.positiveAudio = this.supercubPositive;
-        }
     }
 
     UpdateQuestionData() {
@@ -362,6 +299,7 @@ export default class Gameplay extends cc.Component {
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
             this.isAnswered = true;
             _node.getChildByName("outline").active = true;
+            _node.getChildByName("extra").active = true;
             cc.audioEngine.playEffect(this.correctSound, false);
             this.correctAnswerCount++;
             if (this.correctAnswerCount == 4) {
@@ -388,20 +326,23 @@ export default class Gameplay extends cc.Component {
                     }, 0.5);
                 }
                 else {
-                    this.node.getChildByName("confetti").active = true;
-                    this.node.getChildByName("confetti").getComponent(cc.Animation).play();
-                    let VOduration = 0;
-                    if (this.correctVO) {
-                        VOduration = this.correctVO.duration;
-                    }
+                    cc.tween(this.node.getChildByName("options").getChildByName("1")).to(0.5, { x: -400 }, { easing: "sineInOut" }).start();
+                    cc.tween(this.node.getChildByName("options").getChildByName("2")).to(0.5, { x: 0 }, { easing: "sineInOut" }).start();
+                    cc.tween(this.node.getChildByName("options").getChildByName("3")).to(0.5, { x: 400 }, { easing: "sineInOut" }).start();
                     this.scheduleOnce(() => {
-                        cc.audioEngine.playEffect(this.correctVO, false);
-                        // this.callJockey();
+                        this.node.getChildByName("confetti").active = true;
+                        this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                        let VOduration = 0;
+                        if (this.correctVO) {
+                            VOduration = this.correctVO.duration;
+                        }
                         this.scheduleOnce(() => {
-                            // this.LoadNextQuestion();
-                            this.callJockey();
-                        }, VOduration);
-                    }, 0.75);
+                            cc.audioEngine.playEffect(this.correctVO, false);
+                            this.scheduleOnce(() => {
+                                this.callJockey();
+                            }, VOduration);
+                        }, 0.75);
+                    }, 0.5)
                 }
             }
             else {
