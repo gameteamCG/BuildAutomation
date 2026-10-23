@@ -12,7 +12,7 @@
   "height": 501,
   "platformSettings": {},
   "subMetas": {
-    "Clapping": {
+    "clapping": {
       "ver": "1.0.6",
       "uuid": "db5fe040-7183-469a-b6c7-0caaffb11a9a",
       "importer": "sprite-frame",
@@ -20,12 +20,12 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 12.5,
-      "offsetY": 6,
-      "trimX": 164,
-      "trimY": 25,
-      "width": 198,
-      "height": 439,
+      "offsetX": -0.5,
+      "offsetY": -12.5,
+      "trimX": 140,
+      "trimY": 33,
+      "width": 220,
+      "height": 460,
       "rawWidth": 501,
       "rawHeight": 501,
       "borderTop": 0,

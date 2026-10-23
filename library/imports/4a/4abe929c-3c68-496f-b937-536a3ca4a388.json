@@ -1,18 +1,18 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "Writing",
+    "name": "writing",
     "texture": "9ab92cb0-ed82-4b01-bda8-5ef739b35be8",
     "atlas": "",
     "rect": [
-      35,
-      33,
-      431,
-      431
+      1,
+      87,
+      499,
+      355
     ],
     "offset": [
       0,
-      2
+      -14
     ],
     "originalSize": [
       501,

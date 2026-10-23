@@ -12,7 +12,7 @@
   "height": 501,
   "platformSettings": {},
   "subMetas": {
-    "Eating": {
+    "eating": {
       "ver": "1.0.6",
       "uuid": "e756eeaf-a2de-43a8-bbec-62465c985b68",
       "importer": "sprite-frame",
@@ -20,12 +20,12 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 12.5,
-      "offsetY": -0.5,
-      "trimX": 108,
-      "trimY": 37,
-      "width": 310,
-      "height": 428,
+      "offsetX": -0.5,
+      "offsetY": -18,
+      "trimX": 92,
+      "trimY": 43,
+      "width": 316,
+      "height": 451,
       "rawWidth": 501,
       "rawHeight": 501,
       "borderTop": 0,

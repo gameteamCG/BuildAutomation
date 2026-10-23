@@ -434,10 +434,10 @@ export default class gameplay extends cc.Component {
         this.dropZones.active = false;
         this.optionsNode.active = false;
         cc.tween(_clone1).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1.children[1]).to(0.5, { width: 350, height: 350 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1).to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2.children[1]).to(0.5, { width: 350, height: 350 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2.children[1]).to(0.5, { width: 340, height: 340 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2).to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
             cc.audioEngine.playEffect(this.positiveSound[0], false);
@@ -652,20 +652,19 @@ export default class gameplay extends cc.Component {
             console.log("firstClick--" + globalVariables.Instance.currentLevel);
         }
         this.node.getChildByName("hand").opacity = 0;
-        this.Feedback(_node, this.dropZones.children[parseInt(_node.name) - 1], (parseInt(_node.name) - 1));
+        this.Feedback(_node);
     }
 
-    Feedback(_node: cc.Node, _dropNode: cc.Node, number: number) {
-        console.log("feedback called!!!!!");
+    Feedback(_node: cc.Node) {
         this.canMove = false;
-        if (_node.name == _dropNode.name) {
+        if (_node.name == "1") {
             this.answeredCount++;
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             cc.audioEngine.playEffect(this.popSound[0], false);
-            this.callPositiveRection(_dropNode, _node);
+            this.callPositiveRection(this.dropZones.children[parseInt(_node.name) - 1], _node);
         }
         else {
             this.wrongAnswerCount++;
@@ -673,6 +672,4 @@ export default class gameplay extends cc.Component {
             this.callNegativeRection(_node);
         }
     }
-
-
 }

@@ -9,14 +9,14 @@
       "totalLevel": "8",
       "TitleImageName": "Asset 123.png",
       "introBgName": "Bg(8).png",
-      "bgmMusicName": "BGM.mp3",
+      "bgmMusicName": "bgm.mp3",
       "mainBgName": "bg.png",
       "JockeyName": "Puzzle"
     },
     "questionData": [
       {
         "questionText": "Helping hands",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
@@ -25,19 +25,19 @@
           "handquestion.png"
         ],
         "reiterations": [
-          "Eating.mp3"
+          "eating.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "Eating.png",
-          "HulaHoop.png"
+          "eating.png",
+          "hulaHoop.png"
         ]
       },
       {
         "questionText": "Helping hands",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
@@ -46,19 +46,19 @@
           "handquestion.png"
         ],
         "reiterations": [
-          "Brushing.mp3"
+          "brushing.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "Brushing.png",
-          "Kicking.png"
+          "brushing.png",
+          "kicking.png"
         ]
       },
       {
         "questionText": "Helping hands",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
@@ -67,19 +67,19 @@
           "handquestion.png"
         ],
         "reiterations": [
-          "Writing.mp3"
+          "writing.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "Writing.png",
-          "Football.png"
+          "writing.png",
+          "football.png"
         ]
       },
       {
         "questionText": "Helping hands",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
@@ -88,19 +88,19 @@
           "handquestion.png"
         ],
         "reiterations": [
-          "Waving.mp3"
+          "waving.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "Waving.png",
-          "HulaHoop.png"
+          "waving.png",
+          "hulaHoop.png"
         ]
       },
       {
         "questionText": "Helping hands",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
@@ -109,19 +109,19 @@
           "handquestion.png"
         ],
         "reiterations": [
-          "Clapping.mp3"
+          "clapping.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "Clapping.png",
-          "Kicking.png"
+          "clapping.png",
+          "kicking.png"
         ]
       },
       {
         "questionText": "Helping hands",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
@@ -130,19 +130,19 @@
           "handquestion.png"
         ],
         "reiterations": [
-          "Playing.mp3"
+          "playing.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "PlayingThrowBall.png",
-          "Football.png"
+          "playingthrowball.png",
+          "football.png"
         ]
       },
       {
         "questionText": "Helping hands",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
@@ -151,19 +151,19 @@
           "handquestion.png"
         ],
         "reiterations": [
-          "Washing.mp3"
+          "washing.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "Cleaning.png",
-          "Watching_TV.png"
+          "cleaning.png",
+          "watching_tv.png"
         ]
       },
       {
         "questionText": "Helping hands",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
@@ -172,14 +172,14 @@
           "handquestion.png"
         ],
         "reiterations": [
-          "Dressed.mp3"
+          "dressed.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "Dressed.png",
-          "Kicking.png"
+          "dressed.png",
+          "kicking.png"
         ]
       }
     ]

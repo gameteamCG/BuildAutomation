@@ -1,18 +1,18 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "Clapping",
+    "name": "clapping",
     "texture": "362da176-65c5-47c1-85e7-8d737c79ca9a",
     "atlas": "",
     "rect": [
-      164,
-      25,
-      198,
-      439
+      140,
+      33,
+      220,
+      460
     ],
     "offset": [
-      12.5,
-      6
+      -0.5,
+      -12.5
     ],
     "originalSize": [
       501,
