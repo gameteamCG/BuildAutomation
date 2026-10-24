@@ -53,9 +53,9 @@
               },
               {
                 "width": 863.2250366210938,
-                "height": 353.1000061035156,
+                "height": 353.0874938964844,
                 "type": "panel",
-                "active": 2,
+                "active": 1,
                 "children": [
                   "console",
                   "timeline",
@@ -88,7 +88,9 @@
         "cocos-services",
         "node-library"
       ]
-    }
+    },
+    " common-asset-worker-worker": {},
+    "window-1792855095228": {}
   },
   "panels": {
     "project-settings": {
@@ -105,9 +107,9 @@
     },
     "builder": {
       "x": 32,
-      "y": 0,
+      "y": 24,
       "width": 1456,
-      "height": 820
+      "height": 824
     }
   },
   "panelLabelWidth": {}
