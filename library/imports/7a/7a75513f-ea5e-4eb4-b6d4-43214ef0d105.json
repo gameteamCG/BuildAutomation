@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rbb",
+    "texture": "6a0eb8ee-9f70-4cea-8b1d-4e1b6a2a26ec",
+    "atlas": "",
+    "rect": [
+      133,
+      151,
+      252,
+      187
+    ],
+    "offset": [
+      8.5,
+      6
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
