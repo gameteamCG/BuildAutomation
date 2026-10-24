@@ -8,11 +8,11 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 500,
-  "height": 500,
+  "width": 501,
+  "height": 501,
   "platformSettings": {},
   "subMetas": {
-    "playingthrowball": {
+    "PlayingThrowBall": {
       "ver": "1.0.6",
       "uuid": "3a72701c-77f1-4451-ab87-e82f8d8b9023",
       "importer": "sprite-frame",

@@ -1,7 +1,7 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "brushing",
+    "name": "Brushing",
     "texture": "a417d7c1-565e-4a3a-8737-405d608068c9",
     "atlas": "",
     "rect": [

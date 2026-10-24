@@ -1,7 +1,7 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "football",
+    "name": "Football",
     "texture": "f324f841-7290-4cc6-bc72-217ca179cf60",
     "atlas": "",
     "rect": [

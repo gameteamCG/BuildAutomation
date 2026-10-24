@@ -12,7 +12,7 @@
   "height": 501,
   "platformSettings": {},
   "subMetas": {
-    "brushing": {
+    "Brushing": {
       "ver": "1.0.6",
       "uuid": "9ed86186-7169-4a1b-8c20-bd66f256d081",
       "importer": "sprite-frame",

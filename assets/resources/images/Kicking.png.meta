@@ -8,11 +8,11 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 502,
-  "height": 428,
+  "width": 501,
+  "height": 501,
   "platformSettings": {},
   "subMetas": {
-    "kicking": {
+    "Kicking": {
       "ver": "1.0.6",
       "uuid": "7337bd6c-ed8c-4a51-b74b-eb38ccb1d5db",
       "importer": "sprite-frame",

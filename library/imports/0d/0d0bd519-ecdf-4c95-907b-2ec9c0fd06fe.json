@@ -1,7 +1,7 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "hulaHoop",
+    "name": "HulaHoop",
     "texture": "b89ccf1e-3ddf-4bd3-a1a9-401850ea3639",
     "atlas": "",
     "rect": [

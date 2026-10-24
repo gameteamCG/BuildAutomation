@@ -1,7 +1,7 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "cleaning",
+    "name": "Cleaning",
     "texture": "6d2810bb-c0c4-4afe-92c1-177eb3f215a1",
     "atlas": "",
     "rect": [

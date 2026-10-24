@@ -12,7 +12,7 @@
   "height": 501,
   "platformSettings": {},
   "subMetas": {
-    "eating": {
+    "Eating": {
       "ver": "1.0.6",
       "uuid": "e756eeaf-a2de-43a8-bbec-62465c985b68",
       "importer": "sprite-frame",

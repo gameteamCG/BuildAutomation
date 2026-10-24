@@ -1,7 +1,7 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "eating",
+    "name": "Eating",
     "texture": "e4d8eaa4-a066-419c-8b3a-a5073cca6174",
     "atlas": "",
     "rect": [
