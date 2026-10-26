@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -31,13 +31,11 @@ var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
     function NewClass() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.extraImg = null;
         _this.podar_font = null;
         _this.jaipuria_font = null;
         _this.tlc_font = null;
         _this.supercub_font = null;
         _this.popSound = [];
-        _this.popSound2 = [];
         _this.questionSound = [];
         _this.positiveSound = [];
         _this.negativeSound = [];
@@ -829,9 +827,6 @@ var NewClass = /** @class */ (function (_super) {
         }
     };
     __decorate([
-        property(cc.SpriteFrame)
-    ], NewClass.prototype, "extraImg", void 0);
-    __decorate([
         property(cc.Font)
     ], NewClass.prototype, "podar_font", void 0);
     __decorate([
@@ -846,9 +841,6 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "popSound", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "popSound2", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "questionSound", void 0);

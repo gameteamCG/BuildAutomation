@@ -1,6 +1,4 @@
-
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -8,9 +6,6 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class NewClass extends cc.Component {
-
-    @property(cc.SpriteFrame)
-    private extraImg: cc.SpriteFrame = null;
 
     @property(cc.Font)
     private podar_font: cc.Font = null;
@@ -24,9 +19,6 @@ export default class NewClass extends cc.Component {
 
     @property(cc.AudioClip)
     private popSound: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private popSound2: cc.AudioClip[] = [];
 
     @property(cc.AudioClip)
     private questionSound: cc.AudioClip[] = [];
