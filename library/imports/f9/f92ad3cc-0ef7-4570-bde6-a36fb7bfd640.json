@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Qsnake",
+    "texture": "7aa19958-1d95-4d76-a5f5-09c7f4ce1b48",
+    "atlas": "",
+    "rect": [
+      25,
+      85,
+      445,
+      309
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      495,
+      480
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
