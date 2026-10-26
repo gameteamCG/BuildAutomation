@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -48,15 +48,6 @@ var gameplay = /** @class */ (function (_super) {
         _this.bagNegative = [];
         _this.cryonPositive = [];
         _this.cryonNegative = [];
-        _this.tlcPositive = [];
-        _this.tlcNegative = [];
-        _this.supercubPositive = [];
-        _this.supercubNegative = [];
-        _this.tlc_birdFlying = null;
-        _this.supercub_Pos1 = null;
-        _this.supercub_Pos2 = null;
-        _this.supercub_Neg1 = null;
-        _this.supercub_Neg2 = null;
         _this.defaultMat = null;
         _this.greyMat = null;
         _this.isFirstClick = false;
@@ -278,14 +269,6 @@ var gameplay = /** @class */ (function (_super) {
             this.positiveAudio = this.stallionPositive;
             this.negativeAudio = this.stallionNegative;
         }
-        else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.positiveAudio = this.tlcPositive;
-            this.negativeAudio = this.tlcNegative;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.positiveAudio = this.supercubPositive;
-            this.negativeAudio = this.supercubNegative;
-        }
     };
     gameplay.prototype.SubscribeEvents = function () {
         var _this = this;
@@ -465,9 +448,6 @@ var gameplay = /** @class */ (function (_super) {
             if (StartGame_1.default.Instance.jockeyName == "supercub") {
                 intoAnim = "intro_1";
                 this.currentJcokey.setPosition(870, -370);
-            }
-            if (StartGame_1.default.Instance.jockeyName == "tlc") {
-                cc.audioEngine.playEffect(this.tlc_birdFlying, false);
             }
             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
             this.scheduleOnce(function () {
@@ -653,7 +633,7 @@ var gameplay = /** @class */ (function (_super) {
                 //bird flying out sound
                 if (_this.answeredCount >= _this.totalAnswers) {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_out", false);
-                    cc.audioEngine.playEffect(_this.tlc_birdFlying, false);
+                    // cc.audioEngine.playEffect(this.tlc_birdFlying, false);
                     _this.scheduleOnce(function () {
                         _this.currentJcokey.active = false;
                         _this.callNextLevel();
@@ -672,12 +652,6 @@ var gameplay = /** @class */ (function (_super) {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
                     cc.audioEngine.playEffect(_this.positiveAudio[currentClipNum], false);
                     _this.scheduleOnce(function () {
-                        if (anim[currentClipNum] == "positive_1") {
-                            cc.audioEngine.playEffect(_this.supercub_Pos1, false);
-                        }
-                        else if (anim[currentClipNum] == "positive_2") {
-                            cc.audioEngine.playEffect(_this.supercub_Pos2, false);
-                        }
                         _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                         _this.scheduleOnce(function () {
                             if (_this.answeredCount >= _this.totalAnswers) {
@@ -789,12 +763,6 @@ var gameplay = /** @class */ (function (_super) {
                         _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
                         cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
                         _this.scheduleOnce(function () {
-                            if (anim[currentClipNum] == "negative_1") {
-                                cc.audioEngine.playEffect(_this.supercub_Neg1, false);
-                            }
-                            else if (anim[currentClipNum] == "negative_2") {
-                                cc.audioEngine.playEffect(_this.supercub_Neg2, false);
-                            }
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                             _this.canMove = true;
                             _this.scheduleOnce(function () {
@@ -1128,33 +1096,6 @@ var gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], gameplay.prototype, "cryonNegative", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], gameplay.prototype, "tlcPositive", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], gameplay.prototype, "tlcNegative", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], gameplay.prototype, "supercubPositive", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], gameplay.prototype, "supercubNegative", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], gameplay.prototype, "tlc_birdFlying", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], gameplay.prototype, "supercub_Pos1", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], gameplay.prototype, "supercub_Pos2", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], gameplay.prototype, "supercub_Neg1", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], gameplay.prototype, "supercub_Neg2", void 0);
     __decorate([
         property(cc.Material)
     ], gameplay.prototype, "defaultMat", void 0);

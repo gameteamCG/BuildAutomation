@@ -10,7 +10,7 @@
   },
   "questionData": [
     {
-      "questionText": "Tens and ones",
+      "questionText": "Numbers 61 to 70",
       "ansText": "6 tens and 2 ones",
       "questionAudioName": "QVO.mp3",
       "shouldPlayQuestionAudio": true,
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "questionText": "Tens and ones",
+      "questionText": "Numbers 61 to 70",
       "ansText": "6 tens and 6 ones",
       "questionAudioName": "QVO.mp3",
       "shouldPlayQuestionAudio": true,
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "questionText": "Tens and ones",
+      "questionText": "Numbers 61 to 70",
       "ansText": "6 tens and 8 ones",
       "questionAudioName": "QVO.mp3",
       "shouldPlayQuestionAudio": true,
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "questionText": "Tens and ones",
+      "questionText": "Numbers 61 to 70",
       "ansText": "6 tens and 4 ones",
       "questionAudioName": "QVO.mp3",
       "shouldPlayQuestionAudio": true,
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "questionText": "Tens and ones",
+      "questionText": "Numbers 61 to 70",
       "ansText": "6 tens and 7 ones",
       "questionAudioName": "QVO.mp3",
       "shouldPlayQuestionAudio": true,

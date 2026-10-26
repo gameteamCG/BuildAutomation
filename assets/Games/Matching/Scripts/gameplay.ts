@@ -1,6 +1,6 @@
 
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -58,28 +58,6 @@ export default class gameplay extends cc.Component {
     @property(cc.AudioClip)
     private cryonNegative: cc.AudioClip[] = [];
 
-    @property(cc.AudioClip)
-    private tlcPositive: cc.AudioClip[] = [];
-    @property(cc.AudioClip)
-    private tlcNegative: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private supercubPositive: cc.AudioClip[] = [];
-    @property(cc.AudioClip)
-    private supercubNegative: cc.AudioClip[] = [];
-
-
-    @property(cc.AudioClip)
-    private tlc_birdFlying: cc.AudioClip = null;
-
-    @property(cc.AudioClip)
-    private supercub_Pos1: cc.AudioClip = null;
-    @property(cc.AudioClip)
-    private supercub_Pos2: cc.AudioClip = null;
-    @property(cc.AudioClip)
-    private supercub_Neg1: cc.AudioClip = null;
-    @property(cc.AudioClip)
-    private supercub_Neg2: cc.AudioClip = null;
 
     @property(cc.Material)
     defaultMat: cc.Material = null;
@@ -305,14 +283,6 @@ export default class gameplay extends cc.Component {
             this.positiveAudio = this.stallionPositive;
             this.negativeAudio = this.stallionNegative;
         }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.positiveAudio = this.tlcPositive;
-            this.negativeAudio = this.tlcNegative;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.positiveAudio = this.supercubPositive;
-            this.negativeAudio = this.supercubNegative;
-        }
 
     }
 
@@ -501,9 +471,7 @@ export default class gameplay extends cc.Component {
                 intoAnim = "intro_1";
                 this.currentJcokey.setPosition(870, -370);
             }
-            if (startGame.Instance.jockeyName == "tlc") {
-                cc.audioEngine.playEffect(this.tlc_birdFlying, false);
-            }
+
             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
             this.scheduleOnce(() => {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
@@ -695,7 +663,7 @@ export default class gameplay extends cc.Component {
                 //bird flying out sound
                 if (this.answeredCount >= this.totalAnswers) {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_out", false);
-                    cc.audioEngine.playEffect(this.tlc_birdFlying, false);
+                    // cc.audioEngine.playEffect(this.tlc_birdFlying, false);
                     this.scheduleOnce(() => {
                         this.currentJcokey.active = false;
                         this.callNextLevel();
@@ -714,12 +682,7 @@ export default class gameplay extends cc.Component {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
                     cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
                     this.scheduleOnce(() => {
-                        if (anim[currentClipNum] == "positive_1") {
-                            cc.audioEngine.playEffect(this.supercub_Pos1, false);
-                        }
-                        else if (anim[currentClipNum] == "positive_2") {
-                            cc.audioEngine.playEffect(this.supercub_Pos2, false);
-                        }
+
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                         this.scheduleOnce(() => {
                             if (this.answeredCount >= this.totalAnswers) {
@@ -837,12 +800,7 @@ export default class gameplay extends cc.Component {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
                         cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
                         this.scheduleOnce(() => {
-                            if (anim[currentClipNum] == "negative_1") {
-                                cc.audioEngine.playEffect(this.supercub_Neg1, false);
-                            }
-                            else if (anim[currentClipNum] == "negative_2") {
-                                cc.audioEngine.playEffect(this.supercub_Neg2, false);
-                            }
+
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                             this.canMove = true;
                             this.scheduleOnce(() => {
