@@ -6,7 +6,7 @@
   "json": {
     "AdditionalData": {
       "GameID": "Solar system_LKG (4-5 years)_33",
-      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/9763487324_Toondemy_Solar_system_1721826990883.mp4",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/Jaipuria_Universe_LKG_week3_day2Nov_T1/LS_SOLAR+SYSTEM_BGM+-+1080.mp4",
       "TitleImageName": "Asset_12.png",
       "IntroAudio1Name": "",
       "IntroAudio2Name": "",
@@ -17,7 +17,7 @@
       {
         "QuestionAppearTime": "999999999999",
         "IsQuestionText": true,
-        "QuestionText": "space station",
+        "QuestionText": "Space station",
         "QuestionImageName": "",
         "QuestionAudioName": "que_1_identify_the_picture_o.mp3",
         "PlayQuestionAudio": true,
@@ -30,14 +30,14 @@
           "250x250_0003_rocket.png"
         ],
         "ReiterationAudioName": "ans_1_space_station.mp3",
-        "CorrectAudioName": "BRILLIANT.mp3",
-        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "1"
       },
       {
         "QuestionAppearTime": "999999999999",
         "IsQuestionText": true,
-        "QuestionText": "Who live in the space station?",
+        "QuestionText": "Who lives in the space station?",
         "QuestionImageName": "",
         "QuestionAudioName": "que_2_who_lives_in_the_space.mp3",
         "PlayQuestionAudio": true,
@@ -50,14 +50,14 @@
           "250x250_0008_constructionworker.png"
         ],
         "ReiterationAudioName": "ans_2_astronauts.mp3",
-        "CorrectAudioName": "EXCELLENTJOB.mp3",
-        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
         "CorrectAnswer": "3"
       },
       {
         "QuestionAppearTime": "999999999999",
         "IsQuestionText": true,
-        "QuestionText": "solar panel",
+        "QuestionText": "Solar panel",
         "QuestionImageName": "",
         "QuestionAudioName": "que_3_identify_and_tap_on_th.mp3",
         "PlayQuestionAudio": true,
@@ -70,14 +70,14 @@
           "250x250_0015_solarpanel.png"
         ],
         "ReiterationAudioName": "ans_3_solar_panels_convert_t.mp3",
-        "CorrectAudioName": "EXCEPTIONAL.mp3",
-        "WrongAudioName": "ohoh.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_3.mp3",
         "CorrectAnswer": "4"
       },
       {
         "QuestionAppearTime": "999999999999",
         "IsQuestionText": true,
-        "QuestionText": "where do astronauts sleep",
+        "QuestionText": "Where do astronauts sleep?",
         "QuestionImageName": "",
         "QuestionAudioName": "que_4_where_do_astronauts_sl.mp3",
         "PlayQuestionAudio": true,
@@ -90,8 +90,8 @@
           "250x250_0002_rocks.png"
         ],
         "ReiterationAudioName": "ans_4_in_the_sleeping_pod.mp3",
-        "CorrectAudioName": "FANTASTIC.mp3",
-        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAudioName": "positive_4.mp3",
+        "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "2"
       }
     ]
