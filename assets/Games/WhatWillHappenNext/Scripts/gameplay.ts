@@ -13,14 +13,9 @@ export default class NewClass extends cc.Component {
     private extraImg: cc.SpriteFrame = null;
 
     @property(cc.Font)
-    private podar_font: cc.Font = null;
-    @property(cc.Font)
     private jaipuria_font: cc.Font = null;
     @property(cc.Font)
     private tlc_font: cc.Font = null;
-    @property(cc.Font)
-    private supercub_font: cc.Font = null;
-
 
     @property(cc.AudioClip)
     private popSound: cc.AudioClip[] = [];
@@ -71,19 +66,6 @@ export default class NewClass extends cc.Component {
     @property(cc.AudioClip)
     private supercubNegative: cc.AudioClip[] = [];
 
-
-    @property(cc.AudioClip)
-    private tlc_birdFlying: cc.AudioClip = null;
-
-    @property(cc.AudioClip)
-    private supercub_Pos1: cc.AudioClip = null;
-    @property(cc.AudioClip)
-    private supercub_Pos2: cc.AudioClip = null;
-    @property(cc.AudioClip)
-    private supercub_Neg1: cc.AudioClip = null;
-    @property(cc.AudioClip)
-    private supercub_Neg2: cc.AudioClip = null;
-
     @property(cc.Material)
     defaultMat: cc.Material = null;
 
@@ -103,29 +85,17 @@ export default class NewClass extends cc.Component {
     correctAudio: cc.AudioClip = null;
 
     private optionsNode: cc.Node = null;
-
-
     private questionBoxPosY: number = 0;
 
-    // LIFE-CYCLE CALLBACKS:
+    onDestroy() {
+        this.unscheduleAllCallbacks();
+    }
+
+    onDisable() {
+        this.unscheduleAllCallbacks();
+    }
 
     onLoad() {
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
         this.optionsNode = this.node.getChildByName("Option");
         this.GenerateOptions();
         this.maxLevel = startGame.Instance.totalLevels;
@@ -134,214 +104,259 @@ export default class NewClass extends cc.Component {
         }
         console.log(`levelStarted--` + globalVariables.Instance.currentLevel);
 
-        this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
+        const bgNode = this.node.getChildByName("bg");
+        if (bgNode && bgNode.getComponent(cc.Sprite)) {
+            bgNode.getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
+        }
 
-
+        const currentQuestion = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1];
 
         if (startGame.Instance.isDemoGame) {
-            cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (err, audioClip) => {
+            cc.loader.load(currentQuestion.questionAudioName, (err, audioClip) => {
                 if (err) {
                     console.error("Failed to load audio clip:", err);
                     return;
                 }
                 this.questionSound[0] = audioClip;
             });
-            cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudioName, (err, audioClip) => {
+            cc.loader.load(currentQuestion.correctAudioName, (err, audioClip) => {
                 if (err) {
                     console.error("Failed to load audio clip:", err);
                     return;
                 }
                 this.correctAudio = audioClip;
             });
-            if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName != "") {
-                cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName, (err, texture) => {
+            if (currentQuestion.commonOptionImageName != "") {
+                cc.loader.load(currentQuestion.commonOptionImageName, (err, texture) => {
                     if (err) {
                         console.error("Failed to load image:", err);
                         return;
                     }
                     const spriteFrame = new cc.SpriteFrame(texture);
-                    this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
-                        this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    const qBox = this.node.getChildByName("QuestionBox");
+                    if (qBox && qBox.getComponent(cc.Sprite)) {
+                        qBox.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    }
+                    const optionParent = this.node.getChildByName("Option");
+                    for (let i = 0; i < currentQuestion.numberOfOptions; i++) {
+                        const optChild = optionParent?.getChildByName((i + 1).toString());
+                        if (optChild && optChild.getComponent(cc.Sprite)) {
+                            optChild.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        }
                     }
                 });
             }
 
-            cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionImageName, (err, texture) => {
+            cc.loader.load(currentQuestion.questionImageName, (err, texture) => {
                 if (err) {
                     console.error("Failed to load image:", err);
                     return;
                 }
                 const spriteFrame = new cc.SpriteFrame(texture);
-                this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                const thirdObj = this.node.getChildByName("QuestionBox")?.getChildByName("ThirdObject");
+                if (thirdObj && thirdObj.getComponent(cc.Sprite)) {
+                    thirdObj.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                }
             });
-            for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
-                if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
-                    // console.log("option img = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
-                    cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (err, texture) => {
+
+            for (let i = 0; i < currentQuestion.numberOfOptions; i++) {
+                if (!currentQuestion.isOptionText) {
+                    cc.loader.load(currentQuestion.options[i], (err, texture) => {
                         if (err) {
                             console.error("Failed to load image:", err);
                             return;
                         }
                         const spriteFrame = new cc.SpriteFrame(texture);
-                        this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        const imgNode = this.node.getChildByName("Option")?.getChildByName((i + 1).toString())?.getChildByName("img");
+                        if (imgNode && imgNode.getComponent(cc.Sprite)) {
+                            imgNode.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        }
                     });
-                }
-                else {
-                    // console.log("option text = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
-                    this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i];
+                } else {
+                    const textNode = this.node.getChildByName("Option")?.getChildByName((i + 1).toString())?.getChildByName("text");
+                    if (textNode && textNode.getComponent(cc.Label)) {
+                        textNode.getComponent(cc.Label).string = currentQuestion.options[i];
+                    }
                 }
             }
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option1ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("1").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option2ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("2").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
-        }
-        else {
-            this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (AudioClip) => {
+        } else {
+            this.loadAudioClip(currentQuestion.questionAudioName, (AudioClip) => {
                 this.questionSound[0] = AudioClip;
             });
-            this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudioName, (AudioClip) => {
+            this.loadAudioClip(currentQuestion.correctAudioName, (AudioClip) => {
                 this.correctAudio = AudioClip;
             });
-            if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName != "") {
-                this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName, (spriteFrame) => {
-                    this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
-                        this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            if (currentQuestion.commonOptionImageName != "") {
+                this.loadSpriteFrame(currentQuestion.commonOptionImageName, (spriteFrame) => {
+                    const qBox = this.node.getChildByName("QuestionBox");
+                    if (qBox && qBox.getComponent(cc.Sprite)) {
+                        qBox.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    }
+                    const optionParent = this.node.getChildByName("Option");
+                    for (let i = 0; i < currentQuestion.numberOfOptions; i++) {
+                        const optChild = optionParent?.getChildByName((i + 1).toString());
+                        if (optChild && optChild.getComponent(cc.Sprite)) {
+                            optChild.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        }
                     }
                 });
-
             }
-            this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionImageName, (spriteFrame) => {
-                this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            this.loadSpriteFrame(currentQuestion.questionImageName, (spriteFrame) => {
+                const thirdObj = this.node.getChildByName("QuestionBox")?.getChildByName("ThirdObject");
+                if (thirdObj && thirdObj.getComponent(cc.Sprite)) {
+                    thirdObj.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                }
             });
 
-            for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
-                if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
-                    this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (spriteFrame) => {
-                        this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            for (let i = 0; i < currentQuestion.numberOfOptions; i++) {
+                if (!currentQuestion.isOptionText) {
+                    this.loadSpriteFrame(currentQuestion.options[i], (spriteFrame) => {
+                        const imgNode = this.node.getChildByName("Option")?.getChildByName((i + 1).toString())?.getChildByName("img");
+                        if (imgNode && imgNode.getComponent(cc.Sprite)) {
+                            imgNode.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        }
                     });
-                }
-
-                else {
-                    this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i];
+                } else {
+                    const textNode = this.node.getChildByName("Option")?.getChildByName((i + 1).toString())?.getChildByName("text");
+                    if (textNode && textNode.getComponent(cc.Label)) {
+                        textNode.getComponent(cc.Label).string = currentQuestion.options[i];
+                    }
                 }
             }
         }
-        //startGame.Instance.jockeyName = "Podar";
-        this.currentJcokey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
+
+        if (startGame.Instance.jockey) {
+            this.currentJcokey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
+        }
     }
 
     start() {
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
-        startGame.Instance.node.getChildByName("progress").opacity = 255;
-        // this.setAnswerArray();
+        const progressNode = startGame.Instance.node.getChildByName("progress");
+        if (progressNode) progressNode.opacity = 255;
+
         this.answerArray = [startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum];
-        // this.OptionsLayout();
         this.callThirdObjectIn();
 
-        if (startGame.Instance.jockeyName == "bag") {
+        const jName = startGame.Instance.jockeyName;
+        if (jName == "bag") {
             this.positiveAudio = this.bagPositive;
             this.negativeAudio = this.bagNegative;
-        }
-        else if (startGame.Instance.jockeyName == "cryon") {
+        } else if (jName == "cryon") {
             this.positiveAudio = this.cryonPositive;
             this.negativeAudio = this.cryonNegative;
-        }
-        else if (startGame.Instance.jockeyName == "stallion") {
+        } else if (jName == "stallion") {
             this.positiveAudio = this.stallionPositive;
             this.negativeAudio = this.stallionNegative;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
+        } else if (jName == "tlc") {
             this.positiveAudio = this.tlcPositive;
             this.negativeAudio = this.tlcNegative;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
+        } else if (jName == "supercub") {
             this.positiveAudio = this.supercubPositive;
             this.negativeAudio = this.supercubNegative;
         }
-
     }
 
     private getRandomNumber(min: number, max: number): number {
         let _number: number = Math.random();
         _number = cc.misc.lerp(min, max, _number);
-        _number = Math.round(_number);
-        return _number;
+        return Math.round(_number);
     }
 
     GenerateOptions() {
-        for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
-            let option = cc.instantiate(this.node.getChildByName("template"));
+        const templateNode = this.node.getChildByName("template");
+        const optionContainer = this.node.getChildByName("Option");
+        if (!templateNode || !optionContainer) return;
+
+        const count = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions;
+        for (let i = 0; i < count; i++) {
+            let option = cc.instantiate(templateNode);
             option.name = (i + 1).toString();
-            option.setParent(this.node.getChildByName("Option"));
+            option.setParent(optionContainer);
             option.setPosition(cc.v2(0, 0));
             option.opacity = 0;
         }
-        this.node.getChildByName("template").destroy();
+        templateNode.destroy();
     }
 
     callThirdObjectIn() {
-        this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
-        this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
-        // this.node.getChildByName("questionPanel").opacity = 255;
-        cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
-        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
+        const questionPanel = this.node.getChildByName("questionPanel");
+        if (!questionPanel) return;
+
+        this.questionBoxPosY = questionPanel.y;
+        questionPanel.setPosition(cc.v2(0, 1500));
+        cc.tween(questionPanel).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
+
+        const qTextLabel = questionPanel.getChildByName("text")?.getComponent(cc.Label);
+        if (qTextLabel) {
+            qTextLabel.string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
+        }
 
         this.OptionsLayoutVertical();
         this.reverseOptionsLayout();
+
         let posX = -237;
         if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
             posX = -300;
         }
+
         this.scheduleOnce(() => {
-            this.node.getChildByName("QuestionBox").getChildByName("text").getComponent(cc.Label).string = this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame.name;
-            this.scheduleOnce(() => {
-                cc.audioEngine.playEffect(this.popSound[0], false);
-                cc.tween(this.node.getChildByName("QuestionBox"))
-                    .to(1, { scale: 1 }, { easing: "sineInOut" }).start();
-            }, 0.1);
-            this.scheduleOnce(() => {
-                cc.tween(this.node.getChildByName("QuestionBox"))
-                    .to(0.5, { x: posX }, { easing: "sineInOut" }).start();
-                this.canTouch = true;
-                this.callOptionIn();
-            }, 1);
+            const questionBox = this.node.getChildByName("QuestionBox");
+            if (questionBox) {
+                const textLabel = questionBox.getChildByName("text")?.getComponent(cc.Label);
+                const thirdObjSprite = questionBox.getChildByName("ThirdObject")?.getComponent(cc.Sprite);
+
+                if (textLabel) {
+                    const spriteName = thirdObjSprite?.spriteFrame?.name;
+                    const fallbackName = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1]?.questionImageName || "";
+                    textLabel.string = spriteName || fallbackName;
+                }
+
+                this.scheduleOnce(() => {
+                    if (this.popSound[0]) cc.audioEngine.playEffect(this.popSound[0], false);
+                    cc.tween(questionBox).to(1, { scale: 1 }, { easing: "sineInOut" }).start();
+                }, 0.1);
+
+                this.scheduleOnce(() => {
+                    cc.tween(questionBox).to(0.5, { x: posX }, { easing: "sineInOut" }).start();
+                    this.canTouch = true;
+                    this.callOptionIn();
+                }, 1);
+            }
         }, 1);
     }
 
     OnVOButton() {
         cc.audioEngine.stopAllEffects();
-        if (this.questionSound[0])
+        if (this.questionSound[0]) {
             cc.audioEngine.playEffect(this.questionSound[0], false);
+        }
     }
 
     callOptionIn() {
         let delay: number = 0.5;
+        const optNode = this.node.getChildByName("Option");
+        if (!optNode) return;
+
         if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("Option").setPosition(150, -70);
+            optNode.setPosition(150, -70);
         }
-        for (let i = 1; i <= this.node.getChildByName("Option").children.length; i++) {
-            this.node.getChildByName("Option").children[i - 1].scale = 0;
-            this.node.getChildByName("Option").children[i - 1].opacity = 255;
+
+        const totalChildren = optNode.children.length;
+        for (let i = 1; i <= totalChildren; i++) {
+            const child = optNode.children[i - 1];
+            if (!child) continue;
+
+            child.scale = 0;
+            child.opacity = 255;
+
             this.scheduleOnce(() => {
-                cc.audioEngine.playEffect(this.popSound[0], false);
-                cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
-                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-                if (i == this.node.getChildByName("Option").children.length) {
+                if (this.popSound[0]) cc.audioEngine.playEffect(this.popSound[0], false);
+                const targetChild = optNode.getChildByName(i.toString());
+                if (targetChild) {
+                    cc.tween(targetChild).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                }
+                if (i === totalChildren) {
                     this.scheduleOnce(() => {
                         this.PlayQuestionAudio();
                     }, 0.5);
@@ -352,108 +367,137 @@ export default class NewClass extends cc.Component {
     }
 
     PlayQuestionAudio() {
-        this.node.getChildByName("Option").children.forEach(element => {
-            element.getComponent(cc.Button).interactable = false;
+        const optionNode = this.node.getChildByName("Option");
+        if (!optionNode) return;
+
+        optionNode.children.forEach(element => {
+            const btn = element.getComponent(cc.Button);
+            if (btn) btn.interactable = false;
         });
-        this.currentJcokey.active = true;
-        if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
-            if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
+
+        if (this.currentJcokey) {
+            this.currentJcokey.active = true;
+        }
+
+        const isSpecialJockey = startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub";
+        const currentQ = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1];
+
+        if (!isSpecialJockey) {
+            if (currentQ.shouldPlayQuestionAudio && this.questionSound[0]) {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
             }
-            this.node.getChildByName("Option").children.forEach(element => {
-                element.getComponent(cc.Button).interactable = true;
+            optionNode.children.forEach(element => {
+                const btn = element.getComponent(cc.Button);
+                if (btn) btn.interactable = true;
             });
             if (globalVariables.Instance.currentLevel == 1) {
-                let hand = this.node.getChildByName("hand");
-                console.log("answer array num = ", this.answerArray[0]);
-                hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
-                hand.setPosition(50, -50);
-                hand.angle = 30;
-                hand.setParentWithSamePos(this.node);
-                hand.getComponent(cc.Animation).play();
+                this.setupTutorialHand();
             }
-        }
-        else if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
+        } else {
             let intoAnim = "intro";
-            this.currentJcokey.setPosition(450, -370);
             if (startGame.Instance.jockeyName == "supercub") {
                 intoAnim = "intro_1";
                 this.currentJcokey.setPosition(870, -370);
+            } else {
+                this.currentJcokey.setPosition(450, -370);
             }
-            if (startGame.Instance.jockeyName == "tlc") {
-                cc.audioEngine.playEffect(this.tlc_birdFlying, false);
-            }
-            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
+
+            const skeleton = this.currentJcokey?.getComponent(sp.Skeleton);
+            if (!skeleton) return;
+
+            skeleton.setAnimation(0, intoAnim, false);
+            const animDuration = skeleton.findAnimation(intoAnim)?.duration || 0.5;
+
             this.scheduleOnce(() => {
-                if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    this.node.getChildByName("Option").children.forEach(element => {
-                        element.getComponent(cc.Button).interactable = true;
+                if (!currentQ.shouldPlayQuestionAudio) {
+                    optionNode.children.forEach(element => {
+                        const btn = element.getComponent(cc.Button);
+                        if (btn) btn.interactable = true;
                     });
                     if (globalVariables.Instance.currentLevel == 1) {
-                        let hand = this.node.getChildByName("hand");
-                        console.log("answer array num = ", this.answerArray[0]);
-                        hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
-                        hand.setPosition(50, -50);
-                        hand.angle = 30;
-                        hand.setParentWithSamePos(this.node);
-                        hand.getComponent(cc.Animation).play();
+                        this.setupTutorialHand();
                     }
-                }
-                else {
-                    cc.audioEngine.playEffect(this.questionSound[0], false);
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_loop", true);
+                } else {
+                    if (this.questionSound[0]) {
+                        cc.audioEngine.playEffect(this.questionSound[0], false);
+                    }
+                    skeleton.setAnimation(0, "intro_loop", true);
+                    const qSoundDuration = this.questionSound[0]?.duration || 1;
+
                     this.scheduleOnce(() => {
-                        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
+                        skeleton.setAnimation(0, "intro_end", false);
+                        const endDuration = skeleton.findAnimation("intro_end")?.duration || 0.5;
+
                         this.scheduleOnce(() => {
-                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                            this.node.getChildByName("Option").children.forEach(element => {
-                                element.getComponent(cc.Button).interactable = true;
+                            skeleton.setAnimation(0, "idle", true);
+                            optionNode.children.forEach(element => {
+                                const btn = element.getComponent(cc.Button);
+                                if (btn) btn.interactable = true;
                             });
                             if (globalVariables.Instance.currentLevel == 1) {
-                                let hand = this.node.getChildByName("hand");
-                                console.log("answer array num = ", this.answerArray[0]);
-                                hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
-                                hand.setPosition(50, -50);
-                                hand.angle = 30;
-                                hand.setParentWithSamePos(this.node);
-                                hand.getComponent(cc.Animation).play();
+                                this.setupTutorialHand();
                             }
-                        }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
-                    }, this.questionSound[0].duration);
+                        }, endDuration);
+                    }, qSoundDuration);
                 }
-
-            }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(intoAnim).duration);
+            }, animDuration);
         }
+    }
 
+    private setupTutorialHand() {
+        const hand = this.node.getChildByName("hand");
+        const targetOption = this.node.getChildByName("Option")?.getChildByName(this.answerArray[0]);
+        if (hand && targetOption) {
+            hand.setParent(targetOption);
+            hand.setPosition(50, -50);
+            hand.angle = 30;
+            hand.setParentWithSamePos(this.node);
+            const anim = hand.getComponent(cc.Animation);
+            if (anim) anim.play();
+        }
     }
 
     OnButtonClick(_event: cc.Event) {
-        this.node.getChildByName("Option").children.forEach(elem => {
-            elem.getComponent(cc.Button).interactable = false;
-        });
-        if (!this.canTouch) {
-            return;
+        const optionNode = this.node.getChildByName("Option");
+        if (optionNode) {
+            optionNode.children.forEach(elem => {
+                const btn = elem.getComponent(cc.Button);
+                if (btn) btn.interactable = false;
+            });
         }
+
+        if (!this.canTouch) return;
+
         if (!this.isFirstClick) {
             this.isFirstClick = true;
             console.log("firstClick--" + globalVariables.Instance.currentLevel);
         }
+
         if (globalVariables.Instance.currentLevel == 1) {
-            this.node.getChildByName("hand").active = false;
+            const hand = this.node.getChildByName("hand");
+            if (hand) hand.active = false;
         }
-        let _node = _event.target;
+
+        const _node = _event.target as cc.Node;
+        if (!_node) return;
+
         if (_node.name == this.answerArray[0]) {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-            this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+
+            const qPanel = this.node.getChildByName("questionPanel");
+            if (qPanel) {
+                cc.tween(qPanel).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                const soundBtn = qPanel.getChildByName("sound")?.getComponent(cc.Button);
+                if (soundBtn) soundBtn.interactable = false;
+            }
+
             this.destroyOption();
-            cc.audioEngine.playEffect(this.popSound[0], false);
+            if (this.popSound[0]) cc.audioEngine.playEffect(this.popSound[0], false);
             this.scheduleOnce(() => {
                 this.callPositiveRection(_node);
             }, 0);
-        }
-        else {
+        } else {
             this.wrongAnswerCount++;
             console.log("wrongAnswer--" + globalVariables.Instance.currentLevel);
             this.callNegativeRection(_node, _event);
@@ -466,14 +510,12 @@ export default class NewClass extends cc.Component {
         if (globalVariables.Instance.currentLevel == this.maxLevel) {
             this.scheduleOnce(() => {
                 cc.director.loadScene("endScreen");
-            }, 1)
-        }
-        else {
+            }, 1);
+        } else {
             this.scheduleOnce(() => {
                 globalVariables.Instance.currentLevel++;
-                // cc.director.loadScene(globalVariables.Instance.currentLevel.toString());
                 cc.director.loadScene("1");
-            }, 1)
+            }, 1);
         }
     }
 
@@ -492,42 +534,30 @@ export default class NewClass extends cc.Component {
         }
     }
 
-    setAnswerArray() {
-        if (globalVariables.Instance.currentLevel == 1) {
-            this.answerArray = ["1"];
-        }
-        else if (globalVariables.Instance.currentLevel == 2) {
-            this.answerArray = ["2"];
-        }
-        else if (globalVariables.Instance.currentLevel == 3) {
-            this.answerArray = ["1"];
-        }
-        else if (globalVariables.Instance.currentLevel == 4) {
-            this.answerArray = ["1"];
-        }
-        else if (globalVariables.Instance.currentLevel == 5) {
-            this.answerArray = ["2"];
-        }
-        else if (globalVariables.Instance.currentLevel == 6) {
-            this.answerArray = ["1"];
-        }
-        else if (globalVariables.Instance.currentLevel == 7) {
-            this.answerArray = ["2"];
-        }
-    }
-
     callPositiveRection(_node: cc.Node) {
-        // _node.getComponent(cc.Sprite).spriteFrame = this.extraImg;
-        cc.audioEngine.playEffect(this.correctAudio, false);
-        // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
+        if (!_node || !_node.isValid) return;
+
+        if (this.correctAudio) {
+            cc.audioEngine.playEffect(this.correctAudio, false);
+        }
+
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
-        cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+        if (_node.children[0]) {
+            cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+            cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+        }
         cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
+
         this.scheduleOnce(() => {
-            this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-            this.node.getChildByName("confetti").getComponent(cc.Animation).play();
-            cc.audioEngine.playEffect(this.positiveSound[0], false);
+            const confetti = this.node.getChildByName("confetti");
+            if (confetti) {
+                confetti.setPosition(_node.x, _node.y);
+                const anim = confetti.getComponent(cc.Animation);
+                if (anim) anim.play();
+            }
+            if (this.positiveSound[0]) {
+                cc.audioEngine.playEffect(this.positiveSound[0], false);
+            }
             this.scheduleOnce(() => {
                 ProgressBar.Instance.createStarTrails(6, this.node);
                 this.scheduleOnce(() => {
@@ -540,263 +570,250 @@ export default class NewClass extends cc.Component {
         }, 0.5);
     }
 
-
     callJockey() {
+        if (!this.currentJcokey || !this.currentJcokey.isValid) return;
+
         let anim: string[] = [];
-        if (startGame.Instance.jockeyName == "Podar") {
+        const jName = startGame.Instance.jockeyName;
+
+        if (jName == "Podar") {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
+        } else if (jName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
+        } else if (jName == "supercub" || jName == "bag" || jName == "cryon") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-        }
-        else if (startGame.Instance.jockeyName == "bag") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-        }
-        else if (startGame.Instance.jockeyName == "cryon") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-        }
-        else if (startGame.Instance.jockeyName == "Singham") {
+        } else if (jName == "Singham") {
             anim = ["dance", "thumbs_up"];
-        }
-        else if (startGame.Instance.jockeyName == "Mighty_Raju") {
+        } else if (jName == "Mighty_Raju") {
             anim = ["celebration", "well_done"];
-        }
-        else if (startGame.Instance.jockeyName == "stallion") {
+        } else if (jName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
         }
-        // console.log("anim length = ", anim.length);
+
+        if (anim.length === 0) {
+            this.callNextLevel();
+            return;
+        }
+
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
-        // console.log("currentClipNum = ", currentClipNum);
         let pos: number[] = [-1200, 1200];
         let jockeytween: number[] = [-450, 450];
-        //console.log("characterAppear--Podar_Jumbo");
-        if (globalVariables.Instance.currentLevel % 2 == 0 && startGame.Instance.jockeyName == "stallion") {
+        const skeleton = this.currentJcokey.getComponent(sp.Skeleton);
+
+        if (globalVariables.Instance.currentLevel % 2 == 0 && jName == "stallion") {
             this.currentJcokey.scaleX = -0.65;
-        }
-        else if (startGame.Instance.jockeyName == "stallion") {
+        } else if (jName == "stallion") {
             this.currentJcokey.scaleX = 0.65;
-            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+            skeleton?.setAnimation(0, anim[currentClipNum], false);
+        } else if (jName != "tlc" && jName != "supercub") {
+            skeleton?.setAnimation(0, jName == "Podar" ? "idel" : "idle", true);
         }
-        else if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
-            if (startGame.Instance.jockeyName != "Podar") {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-            }
-            else {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
-            }
-        }
-        if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
+
+        const audioDuration = this.positiveAudio[currentClipNum]?.duration || 1;
+
+        if (jName != "tlc" && jName != "supercub") {
             this.currentJcokey.setPosition(pos[globalVariables.Instance.currentLevel % 2], -350);
             cc.tween(this.currentJcokey).to(0.5, { x: jockeytween[globalVariables.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
+
             this.scheduleOnce(() => {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                skeleton?.setAnimation(0, anim[currentClipNum], false);
+                if (this.positiveAudio[currentClipNum]) {
+                    cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                }
                 this.scheduleOnce(() => {
                     cc.tween(this.currentJcokey).to(0.5, { x: pos[globalVariables.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
-                    if (startGame.Instance.jockeyName != "stallion") {
-                        if (startGame.Instance.jockeyName != "Podar") {
-                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                        }
-                        else {
-                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
-                        }
+                    if (jName != "stallion") {
+                        skeleton?.setAnimation(0, jName == "Podar" ? "idel" : "idle", true);
                     }
-                    //console.log("characterDisappear--Podar_Jumbo");
                     this.callNextLevel();
-                }, this.positiveAudio[currentClipNum].duration);
+                }, audioDuration);
             }, 0.5);
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-            cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+        } else if (jName == "tlc") {
+            skeleton?.setAnimation(0, anim[currentClipNum], false);
+            if (this.positiveAudio[currentClipNum]) {
+                cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+            }
             this.scheduleOnce(() => {
-                //bird flying out sound
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_out", false);
-                cc.audioEngine.playEffect(this.tlc_birdFlying, false);
+                skeleton?.setAnimation(0, "intro_out", false);
+                const outDuration = skeleton?.findAnimation("intro_out")?.duration || 0.5;
                 this.scheduleOnce(() => {
                     this.currentJcokey.active = false;
                     this.callNextLevel();
-                }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_out").duration);
-            }, this.positiveAudio[currentClipNum].duration);
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            if (anim[currentClipNum] == "positive_1" || anim[currentClipNum] == "positive_2") {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_start", false);
+                }, outDuration);
+            }, audioDuration);
+        } else if (jName == "supercub") {
+            const isSpecialAnim = anim[currentClipNum] == "positive_1" || anim[currentClipNum] == "positive_2";
+            if (isSpecialAnim) {
+                skeleton?.setAnimation(0, anim[currentClipNum] + "_start", false);
+                const startDuration = skeleton?.findAnimation(anim[currentClipNum] + "_start")?.duration || 0.5;
+
                 this.scheduleOnce(() => {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
-                    cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                    skeleton?.setAnimation(0, anim[currentClipNum] + "_loop", true);
+                    if (this.positiveAudio[currentClipNum]) {
+                        cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                    }
                     this.scheduleOnce(() => {
-                        if (anim[currentClipNum] == "positive_1") {
-                            cc.audioEngine.playEffect(this.supercub_Pos1, false);
-                        }
-                        else if (anim[currentClipNum] == "positive_2") {
-                            cc.audioEngine.playEffect(this.supercub_Pos2, false);
-                        }
-                        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
+                        skeleton?.setAnimation(0, anim[currentClipNum] + "_end", false);
+                        const endDuration = skeleton?.findAnimation(anim[currentClipNum] + "_end")?.duration || 0.5;
                         this.scheduleOnce(() => {
-                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
+                            skeleton?.setAnimation(0, "run", false);
                             cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
-                            //console.log("characterDisappear--Podar_Jumbo");
                             this.callNextLevel();
-                        }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration)
-                    }, this.positiveAudio[currentClipNum].duration);
-
-                }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_start").duration);
-            }
-            else {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                        }, endDuration);
+                    }, audioDuration);
+                }, startDuration);
+            } else {
+                skeleton?.setAnimation(0, anim[currentClipNum], false);
+                if (this.positiveAudio[currentClipNum]) {
+                    cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                }
                 this.scheduleOnce(() => {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
+                    skeleton?.setAnimation(0, "run", false);
                     cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
-                    //console.log("characterDisappear--Podar_Jumbo");
                     this.callNextLevel();
-                }, this.positiveAudio[currentClipNum].duration);
+                }, audioDuration);
             }
-
         }
-
-
     }
 
+    callNegativeRection(_node: cc.Node, _event: cc.Event) {
+        if (!_node || !_node.isValid) return;
 
-    callNegativeRection(_node: cc.Node, _event) {
-        _node.children[0].getComponent(cc.Sprite).setMaterial(0, this.greyMat);
-        cc.audioEngine.playEffect(this.negativeSound[0], false);
+        const spriteComp = _node.children[0]?.getComponent(cc.Sprite);
+        if (spriteComp && this.greyMat) {
+            spriteComp.setMaterial(0, this.greyMat);
+        }
+
+        if (this.negativeSound[0]) {
+            cc.audioEngine.playEffect(this.negativeSound[0], false);
+        }
+
         if (this.wrongAnswerCount >= 6) {
             this.wrongAnswerCount = 1;
         }
+
         this.scheduleOnce(() => {
             let anim: string[] = [];
-            if (startGame.Instance.jockeyName == "Podar") {
+            const jName = startGame.Instance.jockeyName;
+
+            if (jName == "Podar") {
                 anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
-            }
-            else if (startGame.Instance.jockeyName == "tlc") {
+            } else if (jName == "tlc" || jName == "bag") {
                 anim = ["negative_1", "negative_2", "negative_3"];
-            }
-            else if (startGame.Instance.jockeyName == "supercub") {
+            } else if (jName == "supercub" || jName == "cryon") {
                 anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
-            }
-            else if (startGame.Instance.jockeyName == "bag") {
-                anim = ["negative_1", "negative_2", "negative_3"];
-            }
-            else if (startGame.Instance.jockeyName == "cryon") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
-            }
-            else if (startGame.Instance.jockeyName == "Singham") {
+            } else if (jName == "Singham") {
                 anim = ["no"];
-            }
-            else if (startGame.Instance.jockeyName == "Mighty_Raju") {
+            } else if (jName == "Mighty_Raju") {
                 anim = ["try_again"];
-            }
-            else if (startGame.Instance.jockeyName == "stallion") {
+            } else if (jName == "stallion") {
                 anim = ["negative_1", "negative_2"];
             }
 
+            if (anim.length === 0) return;
+
             let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
-            //console.log("characterAppear--Podar_Jumbo");
-            if (startGame.Instance.jockeyName == "stallion") {
+            const skeleton = this.currentJcokey?.getComponent(sp.Skeleton);
+
+            if (jName == "stallion") {
                 this.currentJcokey.scaleX = 0.65;
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+                skeleton?.setAnimation(0, anim[currentClipNum], false);
+            } else if (jName != "tlc" && jName != "supercub") {
+                skeleton?.setAnimation(0, jName == "Podar" ? "idel" : "idle", true);
             }
-            else if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
-                if (startGame.Instance.jockeyName != "Podar") {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                }
-                else {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
-                }
-            }
-            if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
+
+            const audioDuration = this.negativeAudio[currentClipNum]?.duration || 1;
+
+            if (jName != "tlc" && jName != "supercub") {
                 this.currentJcokey.setPosition(1200, -350);
                 cc.tween(this.currentJcokey).to(0.5, { x: 400 }, { easing: "quartInOut" }).start();
                 this.scheduleOnce(() => {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                    cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
+                    skeleton?.setAnimation(0, anim[currentClipNum], false);
+                    if (this.negativeAudio[currentClipNum]) {
+                        cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
+                    }
                     this.scheduleOnce(() => {
                         cc.tween(this.currentJcokey).to(0.5, { x: 1200 }, { easing: "quartInOut" }).start();
-                        if (startGame.Instance.jockeyName != "stallion") {
-                            if (startGame.Instance.jockeyName != "Podar") {
-                                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                            }
-                            else {
-                                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
-                            }
+                        if (jName != "stallion") {
+                            skeleton?.setAnimation(0, jName == "Podar" ? "idel" : "idle", true);
                         }
-                        //console.log("characterDisappear--Podar_Jumbo");
-                        this.node.getChildByName("Option").children.forEach(elem => {
-                            elem.getComponent(cc.Button).interactable = true;
-                        });
-                    }, this.negativeAudio[currentClipNum].duration);
+                        this.enableOptionButtons();
+                    }, audioDuration);
                 }, 0.5);
-            }
-            else if (startGame.Instance.jockeyName == "tlc") {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
-                this.scheduleOnce(() => {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                    this.node.getChildByName("Option").children.forEach(elem => {
-                        elem.getComponent(cc.Button).interactable = true;
-                    });
-                }, this.negativeAudio[currentClipNum].duration);
-            }
-            else if (startGame.Instance.jockeyName == "supercub") {
-                if (anim[currentClipNum] == "negative_1" || anim[currentClipNum] == "negative_2") {
-                    //play bulb break if needed
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_start", false);
-                    this.scheduleOnce(() => {
-                        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
-                        cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
-                        this.scheduleOnce(() => {
-                            if (anim[currentClipNum] == "negative_1") {
-                                cc.audioEngine.playEffect(this.supercub_Neg1, false);
-                            }
-                            else if (anim[currentClipNum] == "negative_2") {
-                                cc.audioEngine.playEffect(this.supercub_Neg2, false);
-                            }
-                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
-                            this.node.getChildByName("Option").children.forEach(elem => {
-                                elem.getComponent(cc.Button).interactable = true;
-                            });
-                            this.scheduleOnce(() => {
-                                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                            }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration);
-                        }, this.negativeAudio[currentClipNum].duration);
-
-                    }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_start").duration);
-                }
-                else {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+            } else if (jName == "tlc") {
+                skeleton?.setAnimation(0, anim[currentClipNum], false);
+                if (this.negativeAudio[currentClipNum]) {
                     cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
-                    this.scheduleOnce(() => {
-                        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                        this.node.getChildByName("Option").children.forEach(elem => {
-                            elem.getComponent(cc.Button).interactable = true;
-                        });
-                    }, this.negativeAudio[currentClipNum].duration);
                 }
+                this.scheduleOnce(() => {
+                    skeleton?.setAnimation(0, "idle", true);
+                    this.enableOptionButtons();
+                }, audioDuration);
+            } else if (jName == "supercub") {
+                const isSpecialAnim = anim[currentClipNum] == "negative_1" || anim[currentClipNum] == "negative_2";
+                if (isSpecialAnim) {
+                    skeleton?.setAnimation(0, anim[currentClipNum] + "_start", false);
+                    const startDuration = skeleton?.findAnimation(anim[currentClipNum] + "_start")?.duration || 0.5;
 
+                    this.scheduleOnce(() => {
+                        skeleton?.setAnimation(0, anim[currentClipNum] + "_loop", true);
+                        if (this.negativeAudio[currentClipNum]) {
+                            cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
+                        }
+                        this.scheduleOnce(() => {
+                            skeleton?.setAnimation(0, anim[currentClipNum] + "_end", false);
+                            this.enableOptionButtons();
+                            const endDuration = skeleton?.findAnimation(anim[currentClipNum] + "_end")?.duration || 0.5;
+                            this.scheduleOnce(() => {
+                                skeleton?.setAnimation(0, "idle", true);
+                            }, endDuration);
+                        }, audioDuration);
+                    }, startDuration);
+                } else {
+                    skeleton?.setAnimation(0, anim[currentClipNum], false);
+                    if (this.negativeAudio[currentClipNum]) {
+                        cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
+                    }
+                    this.scheduleOnce(() => {
+                        skeleton?.setAnimation(0, "idle", true);
+                        this.enableOptionButtons();
+                    }, audioDuration);
+                }
             }
-        }, 0.7)
+        }, 0.7);
 
         cc.tween(_node)
             .to(0.2, { x: _node.x - 10 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x + 10 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x - 10 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x + 10 }, { easing: "sineInOut" })
-            .to(0.2, { x: _node.x }, { easing: "sineInOut" }).call(() => {
-                _node.children[0].getComponent(cc.Sprite).setMaterial(0, this.defaultMat);
+            .to(0.2, { x: _node.x }, { easing: "sineInOut" })
+            .call(() => {
+                if (_node.children[0] && this.defaultMat) {
+                    _node.children[0].getComponent(cc.Sprite)?.setMaterial(0, this.defaultMat);
+                }
             })
             .start();
     }
 
+    private enableOptionButtons() {
+        const optionNode = this.node.getChildByName("Option");
+        if (optionNode) {
+            optionNode.children.forEach(elem => {
+                const btn = elem.getComponent(cc.Button);
+                if (btn) btn.interactable = true;
+            });
+        }
+    }
+
     destroyOption() {
-        for (let i = 0; i < this.node.getChildByName("Option").children.length; i++) {
-            if (this.node.getChildByName("Option").children[i].name != this.answerArray[0]) {
-                this.node.getChildByName("Option").children[i].destroy();
+        const optionNode = this.node.getChildByName("Option");
+        if (!optionNode) return;
+
+        for (let i = optionNode.children.length - 1; i >= 0; i--) {
+            const child = optionNode.children[i];
+            if (child && child.name !== this.answerArray[0]) {
+                child.destroy();
             }
         }
     }
@@ -810,6 +827,7 @@ export default class NewClass extends cc.Component {
             callback(spriteFrame);
         });
     }
+
     loadAudioClip(audioName: string, callback: (spriteFrame: cc.AudioClip) => void) {
         cc.loader.loadRes("audios/" + audioName, cc.AudioClip, (err, spriteFrame) => {
             if (err) {
@@ -821,50 +839,38 @@ export default class NewClass extends cc.Component {
     }
 
     OptionsLayoutVertical() {
-        let optionsLayout = this.optionsNode;
-        let optionNodes = optionsLayout.children;
+        const optionsLayout = this.optionsNode;
+        if (!optionsLayout) return;
 
+        const optionNodes = optionsLayout.children;
         const paddingBetweenOptions = 10;
-
         let totalHeight = 0;
         let maxWidth = 0;
 
-        // Calculate the total height and the maximum width of the options
         for (let i = 0; i < optionNodes.length; i++) {
             let option = optionNodes[i];
-            let optionWidth = option.width;
-            let optionHeight = option.height;
-
-            totalHeight += optionHeight + paddingBetweenOptions;
-            if (optionWidth > maxWidth) {
-                maxWidth = optionWidth;
+            totalHeight += option.height + paddingBetweenOptions;
+            if (option.width > maxWidth) {
+                maxWidth = option.width;
             }
         }
 
         let availableHeight = optionsLayout.height;
         let totalHeightWithPadding = totalHeight + (optionNodes.length - 1) * paddingBetweenOptions;
-        let scaleFactor = Math.min(1, availableHeight / totalHeightWithPadding);
-
+        let scaleFactor = Math.min(1, availableHeight / (totalHeightWithPadding || 1));
         let accumulatedHeight = 0;
 
-        // Position each option node vertically
         for (let i = 0; i < optionNodes.length; i++) {
             let option = optionNodes[i];
-
-            // Calculate the scale factor for the option
             let optionScaleFactor = scaleFactor;
 
-            // Scale the option
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
 
-            // Calculate position based on anchor and scaled size
             let posY = accumulatedHeight + (option.height * option.anchorY);
             option.y = posY - (optionsLayout.height * optionsLayout.anchorY);
-
             accumulatedHeight += option.height + paddingBetweenOptions;
 
-            // Scale and position children nodes proportionally
             for (let subChild of option.children) {
                 subChild.x *= optionScaleFactor;
                 subChild.y *= optionScaleFactor;
@@ -877,22 +883,18 @@ export default class NewClass extends cc.Component {
     }
 
     reverseOptionsLayout() {
-        let optionsLayout = this.optionsNode;
-        let optionNodes = optionsLayout.children;
+        const optionsLayout = this.optionsNode;
+        if (!optionsLayout) return;
 
-        // Create an array to hold the new positions
+        const optionNodes = optionsLayout.children;
         let newPositions = [];
 
-        // Calculate new positions in reverse order
         for (let i = optionNodes.length - 1; i >= 0; i--) {
             newPositions.push(optionNodes[i].y);
         }
 
-        // Update the positions of the options
         for (let i = 0; i < optionNodes.length; i++) {
             optionNodes[i].y = newPositions[i];
         }
     }
-
-
 }

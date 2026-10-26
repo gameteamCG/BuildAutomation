@@ -10,8 +10,8 @@
   },
   "questionData": [
     {
-      "questionText": "Water transport",
-      "questionImageName": "Cargo ship.png",
+      "questionText": "Water Transport",
+      "questionImageName": "Cargo Ship.png",
       "questionAudioName": "identifycargoship.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "panel.png",
@@ -25,7 +25,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Water transport",
+      "questionText": "Water Transport",
       "questionImageName": "Submarine.png",
       "questionAudioName": "identifysubmarine.mp3",
       "shouldPlayQuestionAudio": true,
@@ -40,7 +40,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Water transport",
+      "questionText": "Water Transport",
       "questionImageName": "Yacht.png",
       "questionAudioName": "identifyyot.mp3",
       "shouldPlayQuestionAudio": true,
@@ -55,8 +55,8 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Water transport",
-      "questionImageName": "Steam boat.png",
+      "questionText": "Water Transport",
+      "questionImageName": "Steam Boat.png",
       "questionAudioName": "identifysteamboat.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "panel.png",
@@ -70,7 +70,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Water transport",
+      "questionText": "Water Transport",
       "questionImageName": "Boat.png",
       "questionAudioName": "identifyboat.mp3",
       "shouldPlayQuestionAudio": true,

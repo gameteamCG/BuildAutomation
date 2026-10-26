@@ -1799,12 +1799,10 @@
     "extraImg": {
       "__uuid__": "fe7bee84-c27e-4e2c-bfe9-4452ad2d6dae"
     },
-    "podar_font": null,
     "jaipuria_font": {
       "__uuid__": "cacb2c50-3d51-46f1-b72c-d9833b56f3ea"
     },
     "tlc_font": null,
-    "supercub_font": null,
     "popSound": [
       {
         "__uuid__": "34f9d273-9dff-4094-bcdb-4e79ee69dcbf"
@@ -1868,11 +1866,6 @@
     "tlcNegative": [],
     "supercubPositive": [],
     "supercubNegative": [],
-    "tlc_birdFlying": null,
-    "supercub_Pos1": null,
-    "supercub_Pos2": null,
-    "supercub_Neg1": null,
-    "supercub_Neg2": null,
     "defaultMat": {
       "__uuid__": "08ffa63e-16c2-4ca0-8529-cbdbddf9d7f9"
     },
