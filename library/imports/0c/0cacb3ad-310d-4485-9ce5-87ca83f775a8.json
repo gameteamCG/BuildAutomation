@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_stadium",
+    "texture": "0f487869-5248-4545-961e-eda2ef75ef93",
+    "atlas": "",
+    "rect": [
+      4,
+      4,
+      277,
+      276
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      285,
+      285
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

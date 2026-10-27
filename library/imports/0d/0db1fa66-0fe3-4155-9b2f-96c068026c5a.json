@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_museum",
+    "texture": "ad066e72-c285-4434-9eea-4cb9a4c8916f",
+    "atlas": "",
+    "rect": [
+      4,
+      3,
+      277,
+      276
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      285,
+      285
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -24,8 +24,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "Asset 594.png",
-          "Asset 595.png"
+          "new_stadium.png",
+          "new_museum.png"
         ],
         "correctAudioName": "new22213550_1_stadium.mp3",
         "correctAnswerNum": "1"
@@ -39,8 +39,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "Asset 596.png",
-          "Asset 595.png"
+          "new_bank.png",
+          "new_museum.png"
         ],
         "correctAudioName": "new22213550_3_museum.mp3",
         "correctAnswerNum": "2"
@@ -54,8 +54,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "Asset 594.png",
-          "Asset 596.png"
+          "new_stadium.png",
+          "new_bank.png"
         ],
         "correctAudioName": "new22213550_5_bank.mp3",
         "correctAnswerNum": "2"

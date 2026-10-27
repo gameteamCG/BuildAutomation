@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ad066e72-c285-4434-9eea-4cb9a4c8916f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 285,
+  "height": 285,
+  "platformSettings": {},
+  "subMetas": {
+    "new_museum": {
+      "ver": "1.0.6",
+      "uuid": "0db1fa66-0fe3-4155-9b2f-96c068026c5a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ad066e72-c285-4434-9eea-4cb9a4c8916f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 1.5,
+      "trimX": 4,
+      "trimY": 3,
+      "width": 277,
+      "height": 276,
+      "rawWidth": 285,
+      "rawHeight": 285,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
