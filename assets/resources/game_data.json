@@ -2,7 +2,7 @@
   "additionalData": {
     "GameID": "null",
     "totalLevel": "3",
-    "TitleImageName": "Asset 302 (1).png",
+    "TitleImageName": "Asset 340.png",
     "introBgName": "jaipuriya_title.png",
     "bgmMusicName": "BGM.mp3",
     "mainBgName": "BG.png",
@@ -11,7 +11,7 @@
   },
   "questionData": [
     {
-      "questionText": "I am a big place where people play or watch sports like cricket and football.",
+      "questionText": "Places Around Us",
       "questionAudioName": "new22213550_2_i-am-a-big-place-where.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "",
@@ -26,7 +26,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "I am a place where we can see old and special things like dinosaur bones and paintings.",
+      "questionText": "Places Around Us",
       "questionAudioName": "new22213550_4_i-am-a-place-where-we-.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "",
@@ -41,7 +41,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "I am a place where people keep their money safe.",
+      "questionText": "Places Around Us",
       "questionAudioName": "new22213550_6_i-am-a-place-where-peo.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "",
