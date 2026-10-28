@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "grin",
+    "texture": "a7016f07-581a-49b4-bbf2-ccbc76762c82",
+    "atlas": "",
+    "rect": [
+      145,
+      10,
+      210,
+      481
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

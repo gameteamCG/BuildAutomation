@@ -637,8 +637,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 350,
-      "height": 350
+      "width": 325,
+      "height": 325
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1447,9 +1447,9 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 124,
-      "g": 60,
-      "b": 0,
+      "r": 66,
+      "g": 33,
+      "b": 11,
       "a": 255
     },
     "_contentSize": {
@@ -1512,7 +1512,7 @@
     "_lineHeight": 110,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "d9348f57-e185-484c-b22d-019c41022ac4"
+      "__uuid__": "6e359075-59c4-4c70-b54b-54f4d5bafb1a"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -1642,8 +1642,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 3,
-    "transition": 3,
+    "_N$transition": 1,
+    "transition": 1,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,
@@ -2123,30 +2123,30 @@
     "stallionNegative": [],
     "bagPositive": [
       {
-        "__uuid__": "87cf9f95-04f3-4d8f-b633-6e09a2f30c63"
+        "__uuid__": "9c599360-33a9-4b87-ba0a-51cf0c15608c"
       },
       {
-        "__uuid__": "0fc4ace4-a063-4245-9667-7b7b49abf666"
+        "__uuid__": "4a8560dc-c515-4b8c-816a-f644d035ced9"
       },
       {
-        "__uuid__": "7914dcc8-7a42-4f45-b48c-c36f57156549"
+        "__uuid__": "55dc17b6-7bc6-4515-9839-bf9db37d6473"
       },
       {
-        "__uuid__": "2a0c44af-6921-4b04-a360-f603304932fc"
+        "__uuid__": "e6e85125-0644-4870-9b37-fc0999dc027a"
       },
       {
-        "__uuid__": "93e5bce9-491e-4c17-9da2-01075a41c0b3"
+        "__uuid__": "2136740e-bb40-4a81-9e0c-02272bb39e02"
       }
     ],
     "bagNegative": [
       {
-        "__uuid__": "b1fa9384-70ea-4eef-bc69-738d790b79f8"
+        "__uuid__": "34ae43c1-eb17-477a-9d88-3f5c827a0816"
       },
       {
-        "__uuid__": "de2f2ba2-5814-42b0-bffe-db42bebf0a92"
+        "__uuid__": "2fe2fe97-bad4-44aa-9bbb-4b0d3e589c1d"
       },
       {
-        "__uuid__": "9bf14701-26b4-41d5-ba20-3f1593c2fecd"
+        "__uuid__": "16666ea7-70a6-481a-8963-109b2c0ca4c2"
       }
     ],
     "cryonPositive": [],

@@ -275,7 +275,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1920,
+      "width": 1921,
       "height": 1080
     },
     "_anchorPoint": {
@@ -3067,7 +3067,7 @@
       "__id__": 63
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 65

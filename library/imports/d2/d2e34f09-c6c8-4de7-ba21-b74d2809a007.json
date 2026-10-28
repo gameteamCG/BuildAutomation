@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "longeesound",
+    "texture": "06c349f7-03a1-413d-b808-4affe693a662",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      666,
+      185
+    ],
+    "offset": [
+      0,
+      2.5
+    ],
+    "originalSize": [
+      666,
+      190
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

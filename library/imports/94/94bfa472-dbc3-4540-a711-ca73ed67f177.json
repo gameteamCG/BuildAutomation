@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jeep",
+    "texture": "310fcf1b-69cc-4436-913e-8a438d6fedf4",
+    "atlas": "",
+    "rect": [
+      0,
+      109,
+      500,
+      283
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
