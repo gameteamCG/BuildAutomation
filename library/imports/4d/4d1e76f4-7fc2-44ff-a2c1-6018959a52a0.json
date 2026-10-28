@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wateringplants",
+    "texture": "27fa34a9-e6fe-44af-8716-f91896bbe0d6",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      500,
+      480
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

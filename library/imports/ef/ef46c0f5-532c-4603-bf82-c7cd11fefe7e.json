@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "climbing",
+    "texture": "10e94fd9-2f96-475f-9c34-bf047824345c",
+    "atlas": "",
+    "rect": [
+      47,
+      0,
+      406,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "glad",
+    "texture": "be750e3f-d18d-4e10-abaf-dcc9baa04b68",
+    "atlas": "",
+    "rect": [
+      109,
+      22,
+      282,
+      457
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

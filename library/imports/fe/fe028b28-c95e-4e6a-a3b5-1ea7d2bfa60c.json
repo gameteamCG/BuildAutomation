@@ -1,0 +1,182 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Uses of water",
+      "totalLevel": "9",
+      "TitleImageName": "usesofwatertitle.png",
+      "introBgName": "BGMain.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "bag",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Uses of water",
+        "questionAudioName": "q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "bob.png",
+          "brush.png",
+          "blow.png"
+        ],
+        "correctAudios": [
+          "waterisusedfobrus.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Uses of water",
+        "questionAudioName": "q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "clap.png",
+          "climbing.png",
+          "cleaning.png"
+        ],
+        "correctAudios": [
+          "waterisusedforclea.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Uses of water",
+        "questionAudioName": "q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "cooking.png",
+          "clown.png",
+          "fit.png"
+        ],
+        "correctAudios": [
+          "waterisusedforcook.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Uses of water ",
+        "questionAudioName": "q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "glad.png",
+          "got.png",
+          "drinking.png"
+        ],
+        "correctAudios": [
+          "waterisusedfordrin.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Uses of water",
+        "questionAudioName": "q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "swimming.png",
+          "hit.png",
+          "hum.png"
+        ],
+        "correctAudios": [
+          "waterisusedforswim.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Uses of water",
+        "questionAudioName": "q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Sit.png",
+          "takingbath.png",
+          "og.png"
+        ],
+        "correctAudios": [
+          "waterisusedfortaki.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Uses of water",
+        "questionAudioName": "q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "skip.png",
+          "watchingtv.png",
+          "washingclothes.png"
+        ],
+        "correctAudios": [
+          "teisusedfor.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Uses of water",
+        "questionAudioName": "q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "washinghands.png",
+          "glad.png",
+          "clap.png"
+        ],
+        "correctAudios": [
+          "waterisusedforwash.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Uses of water",
+        "questionAudioName": "q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "og.png",
+          "wateringplants.png",
+          "skip.png"
+        ],
+        "correctAudios": [
+          "waterisusedforwate.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
