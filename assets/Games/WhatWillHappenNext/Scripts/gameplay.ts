@@ -1335,7 +1335,7 @@ export default class NewClass extends cc.Component {
       } else if (startGame.Instance.jockeyName == "supercub") {
         anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
       } else if (startGame.Instance.jockeyName == "bag") {
-        anim = ["negative_1", "negative_2", "negative_3"];
+        anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
       } else if (startGame.Instance.jockeyName == "cryon") {
         anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
       } else if (startGame.Instance.jockeyName == "Singham") {

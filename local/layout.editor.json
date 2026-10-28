@@ -14,12 +14,12 @@
         "children": [
           {
             "width": 204,
-            "height": 701.7999877929688,
+            "height": 545,
             "type": "dock-v",
             "children": [
               {
                 "width": 204,
-                "height": 351.8399963378906,
+                "height": 272.54998779296875,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -28,7 +28,7 @@
               },
               {
                 "width": 204,
-                "height": 346.9599914550781,
+                "height": 269.4499816894531,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 808.7799682617188,
-            "height": 701.7999877929688,
+            "width": 669.3399658203125,
+            "height": 545,
             "type": "dock-v",
             "children": [
               {
-                "width": 808.7799682617188,
-                "height": 351.8399963378906,
+                "width": 669.3399658203125,
+                "height": 272.54998779296875,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 808.7799682617188,
-                "height": 346.9599914550781,
+                "width": 669.3399658203125,
+                "height": 269.4499816894531,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 410.3399963378906,
-            "height": 701.7999877929688,
+            "width": 339.2200012207031,
+            "height": 556,
             "type": "panel",
             "active": 0,
             "children": [
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1793189760727": {}
+    "window-1793192524943": {}
   },
   "panels": {
     "project-settings": {
