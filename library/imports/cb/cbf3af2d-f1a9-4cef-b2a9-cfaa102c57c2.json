@@ -887,8 +887,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 3,
-    "transition": 3,
+    "_N$transition": 1,
+    "transition": 1,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,
@@ -1442,7 +1442,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 295.8,
+      "width": 150,
       "height": 249
     },
     "_anchorPoint": {

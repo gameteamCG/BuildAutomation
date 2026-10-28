@@ -87,10 +87,16 @@ var GameEnd = /** @class */ (function (_super) {
             _this.node.getComponent(cc.AudioSource).clip = _this.yeah[0];
             _this.node.getComponent(cc.AudioSource).play();
             console.log("gameEnded--true");
+            _this.node.getChildByName("end").active = true;
         }, 2.3);
     };
-    GameEnd.prototype.OnEndBtn = function (_event) {
-        window.close();
+    // OnEndBtn(_event: cc.Event) {
+    //     window.close();
+    // }
+    GameEnd.prototype.EndButton = function () {
+        // cc.audioEngine.playEffect(startGame.Instance.play_audio, false);
+        console.log("gameEnded--" + true);
+        closeWindow();
     };
     __decorate([
         property(cc.AudioClip)
@@ -116,5 +122,9 @@ var GameEnd = /** @class */ (function (_super) {
     return GameEnd;
 }(cc.Component));
 exports.default = GameEnd;
+var closeWindow = function () {
+    window.open(location.href, "_self", "");
+    window.close();
+};
 
 cc._RF.pop();

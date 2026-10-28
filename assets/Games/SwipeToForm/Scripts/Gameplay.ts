@@ -1,5 +1,5 @@
 
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -108,7 +108,9 @@ export default class Gameplay extends cc.Component {
     PlayQuestionAudio() {
         this.currentJockey.active = true;
         if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-            cc.audioEngine.playEffect(this.questionVO, false);
+            if (this.questionVO) {
+                cc.audioEngine.playEffect(this.questionVO, false);
+            }
         }
         if (globalVariables.Instance.currentLevel == 1) {
             //PLAY HAND ANIMATION
@@ -132,18 +134,6 @@ export default class Gameplay extends cc.Component {
     }
 
     SubcribeEvents() {
-        // if (startGame.Instance.questions[parseInt(startGame.Instance.currentLevel) - 1].shouldPlayQuestionAudio) {
-        //     if (this.questionVO) {
-        //         this.node.getChildByName("questionPanel").getChildByName("sound").active = true;
-        //         cc.audioEngine.playEffect(this.questionVO, false);
-        //     }
-        // }
-        // else {
-        //     if (this.questionVO) {
-        //         this.node.getChildByName("questionPanel").getChildByName("sound").active = true;
-        //     }
-
-        // }
         this.PlayQuestionAudio();
         this.optionsNode.children.forEach(element => {
             element.on('touchstart', function (event) {
@@ -159,8 +149,6 @@ export default class Gameplay extends cc.Component {
                 this.TouchEnd(element);
             }, this);
         });
-
-
     }
 
     calculateDistance(point1, point2) {
@@ -273,8 +261,6 @@ export default class Gameplay extends cc.Component {
         }
 
         for (let i = 0; i < numberOfOptions; i++) {
-            // let optionNode = this.optionsNode.children[i];
-            //create options
             let optionNode: cc.Node = cc.instantiate(this.node.getChildByName("template"));
             optionNode.name = (i + 1).toString();
             optionNode.setParent(this.optionsNode);
@@ -292,7 +278,6 @@ export default class Gameplay extends cc.Component {
                         const spriteFrame = new cc.SpriteFrame(texture);
                         optionNode.getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     });
-
                 }
                 else {
                     this.loadSpriteFrame(questionData.commonOptionImageName, (spriteFrame) => {
@@ -322,7 +307,6 @@ export default class Gameplay extends cc.Component {
                         const spriteFrame = new cc.SpriteFrame(texture);
                         optionNode.getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     });
-
                 }
                 else {
                     this.loadSpriteFrame(options[i], (spriteFrame) => {
@@ -334,11 +318,9 @@ export default class Gameplay extends cc.Component {
         }
         this.node.getChildByName("template").destroy();
         this.currentJockey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
-
     }
 
     LoadAssetsAudios(_questiondata: any) {
-
         if (startGame.Instance.isDemoGame) {
             cc.loader.load(_questiondata.questionAudioName, (err, audioClip) => {
                 if (err) {
@@ -354,14 +336,6 @@ export default class Gameplay extends cc.Component {
                 }
                 this.correctVO = audioClip;
             });
-            // cc.loader.load(_questiondata.questionImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
         }
         else {
             this.loadAudioClip(_questiondata.questionAudioName, (AudioClip) => {
@@ -370,10 +344,6 @@ export default class Gameplay extends cc.Component {
             this.loadAudioClip(_questiondata.correctAudioName, (AudioClip) => {
                 this.correctVO = AudioClip;
             });
-
-            // this.loadSpriteFrame(_questiondata.questionImageName, (spriteFrame) => {
-            //     this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
         }
     }
 
@@ -428,7 +398,7 @@ export default class Gameplay extends cc.Component {
         cc.tween(otherNode).to(0.15, { x: this.startPosX }, { easing: 'backInOut' }).start();
         this.scheduleOnce(() => {
             this.currentDraggingObject = null;
-            this.checkOrder(); // Check if the current order is correct
+            this.checkOrder();
         }, 0.15);
         this.canTouch = false;
         this.isDropped = true;
@@ -448,20 +418,28 @@ export default class Gameplay extends cc.Component {
             this.currentDraggingObject = null;
         }, 0.2);
     }
+
     checkOrder() {
         let currentWord = this.getCurrentWord();
-        // console.log("current word =", currentWord);
-        let targetWord = this.correctAnswer; // Define your target word here
+        let targetWord = this.correctAnswer;
 
         if (currentWord === targetWord) {
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
             this.isAnswered = true;
-            this.node.getChildByName("questionPanel").getChildByName("sound").active = false;
-            // Additional logic for when the order is correct
-            // console.log("need iteration--" + this.needReiteration);
+
+            // Blue sound button ko disable karna (interactable = false aur events block)
+            let soundNode = this.node.getChildByName("questionPanel").getChildByName("sound");
+            if (soundNode) {
+                let soundBtn = soundNode.getComponent(cc.Button);
+                if (soundBtn) {
+                    soundBtn.interactable = false;
+                    soundBtn.enabled = false;
+                }
+                soundNode.pauseSystemEvents(true);
+            }
+
             cc.audioEngine.playEffect(this.correctSound, false);
             if (this.needReiteration) {
-                // this.optionsNode.active = false;
                 this.node.getChildByName("reiteration").active = true;
                 this.node.getChildByName("reiteration").scale = 0;
                 cc.tween(this.optionsNode).to(0.25, { scaleX: 0 }, { easing: 'backInOut' }).start();
@@ -475,7 +453,9 @@ export default class Gameplay extends cc.Component {
                         VOduration = this.correctVO.duration;
                     }
                     this.scheduleOnce(() => {
-                        cc.audioEngine.playEffect(this.correctVO, false);
+                        if (this.correctVO) {
+                            cc.audioEngine.playEffect(this.correctVO, false);
+                        }
                         this.scheduleOnce(() => {
                             this.callJockey();
                         }, VOduration);
@@ -490,34 +470,30 @@ export default class Gameplay extends cc.Component {
                     VOduration = this.correctVO.duration;
                 }
                 this.scheduleOnce(() => {
-                    cc.audioEngine.playEffect(this.correctVO, false);
-                    // this.callJockey();
+                    if (this.correctVO) {
+                        cc.audioEngine.playEffect(this.correctVO, false);
+                    }
                     this.scheduleOnce(() => {
-                        // this.LoadNextQuestion();
                         this.callJockey();
                     }, VOduration);
                 }, 0.75);
             }
         } else {
-            // console.log("Incorrect order.");
-            // Additional logic for when the order is incorrect
+            // Incorrect order logic
         }
     }
 
     getCurrentWord() {
-        // Sort the nodes based on their x-coordinate
         let sortedNodes = this.optionsNode.children.sort((a, b) => a.x - b.x);
 
         let word = sortedNodes.map(child => {
             if (startGame.Instance.questions[parseInt(startGame.Instance.currentLevel) - 1].isOptionText) {
-                let labelNode = child.getChildByName("text"); // Adjust if necessary
+                let labelNode = child.getChildByName("text");
                 let labelComponent = labelNode ? labelNode.getComponent(cc.Label) : null;
 
                 if (labelComponent) {
-                    // console.log("Label Text: ", labelComponent.string);
                     return labelComponent.string;
                 } else {
-                    // console.log("Label Component not found or nested in node: ", child.name);
                     return "";
                 }
             }
@@ -526,15 +502,11 @@ export default class Gameplay extends cc.Component {
             }
         }).join('');
 
-        // console.log("Constructed Word: ", word);
         return word;
     }
 
     LoadNextQuestion() {
-
         console.log("levelComplete--" + startGame.Instance.currentLevel);
-        //playjockey
-        // after jockey call below animation
         if (parseInt(startGame.Instance.currentLevel) >= startGame.Instance.TotalLevels) {
             cc.director.loadScene("gameEnd");
         }
@@ -543,7 +515,6 @@ export default class Gameplay extends cc.Component {
             startGame.Instance.currentLevel = (parseInt(startGame.Instance.currentLevel) + 1).toString();
             cc.director.loadScene("1");
         }
-
     }
 
     OptionsLayout() {
@@ -574,20 +545,16 @@ export default class Gameplay extends cc.Component {
         for (let i = 0; i < optionNodes.length; i++) {
             let option = optionNodes[i];
 
-            // Calculate the scale factor for the option
             let optionScaleFactor = scaleFactor;
 
-            // Scale the option
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
 
-            // Calculate position based on anchor and scaled size
             let posX = accumulatedWidth + (option.width * option.anchorX);
             option.x = posX - (optionsLayout.width * optionsLayout.anchorX);
 
             accumulatedWidth += option.width + paddingBetweenOptions;
 
-            // Scale and position children nodes proportionally
             for (let subChild of option.children) {
                 subChild.x *= optionScaleFactor;
                 subChild.y *= optionScaleFactor;
@@ -603,23 +570,19 @@ export default class Gameplay extends cc.Component {
         let children = centerNode.children;
         let totalWidth = 0;
 
-        // Calculate total width required
         for (let child of children) {
             totalWidth += child.width;
         }
-        totalWidth += spacing * (children.length - 1); // Add spaces between children
+        totalWidth += spacing * (children.length - 1);
 
-        // Starting X position
         let startX = -totalWidth / 2;
 
-        // Arrange children
         for (let i = 0; i < children.length; i++) {
             let child = children[i];
             child.x = startX + child.width / 2;
             startX += child.width + spacing;
         }
     }
-
 
     callJockey() {
         let anim: string[] = [];
@@ -647,16 +610,15 @@ export default class Gameplay extends cc.Component {
         else if (startGame.Instance.jockeyName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
         }
-        // console.log("anim length = ", anim.length);
+
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
-        // console.log("currentClipNum = ", currentClipNum);
         let pos: number[] = [-1600, 1600];
         let jockeytween: number[] = [-450, 450];
         if (startGame.Instance.jockeyName == "supercub") {
             pos = [1900, 1900];
             jockeytween = [870, 870];
         }
-        //console.log("characterAppear--Podar_Jumbo");
+
         this.currentJockey.setPosition(pos[globalVariables.Instance.currentLevel % 2], this.currentJockey.y);
         if (globalVariables.Instance.currentLevel % 2 == 0 && startGame.Instance.jockeyName == "stallion") {
             this.currentJockey.scaleX = -0.65;
@@ -685,7 +647,6 @@ export default class Gameplay extends cc.Component {
                         this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                     }
                 }
-                //console.log("characterDisappear--Podar_Jumbo");
                 this.LoadNextQuestion();
             }, this.positiveAudio[currentClipNum].duration);
         }, 0.5);
@@ -700,6 +661,7 @@ export default class Gameplay extends cc.Component {
             callback(spriteFrame);
         });
     }
+
     loadAudioClip(audioName: string, callback: (spriteFrame: cc.AudioClip) => void) {
         cc.loader.loadRes("audios/" + audioName, cc.AudioClip, (err, audioClip) => {
             if (err) {
@@ -718,9 +680,12 @@ export default class Gameplay extends cc.Component {
     }
 
     OnSound() {
+        if (this.isAnswered) {
+            return;
+        }
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questionVO, false);
+        if (this.questionVO) {
+            cc.audioEngine.playEffect(this.questionVO, false);
+        }
     }
-
-    // update (dt) {}
 }

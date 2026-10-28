@@ -1,0 +1,218 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Spell number name 1 -10",
+      "totalLevel": "10",
+      "TitleImageName": "spellnumbernames1to10.png",
+      "introBgName": "skg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Asset13.png",
+      "JockeyName": "cryon"
+    },
+    "questionData": [
+      {
+        "questionText": "3",
+        "questionImageName": "",
+        "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBER.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset17.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": -30,
+        "options": [
+          "h",
+          "e",
+          "e",
+          "t",
+          "r"
+        ],
+        "correctAnswer": "three",
+        "correctAudioName": "THREE3.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset17.png"
+      },
+      {
+        "questionText": "8",
+        "questionImageName": "",
+        "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBER.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset18.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": -30,
+        "options": [
+          "h",
+          "g",
+          "i",
+          "e",
+          "t"
+        ],
+        "correctAnswer": "eight",
+        "correctAudioName": "EIGHT8.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset18.png"
+      },
+      {
+        "questionText": "5",
+        "questionImageName": "",
+        "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBERPATTERNTILE.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset16.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": -30,
+        "options": [
+          "e",
+          "f",
+          "v",
+          "i"
+        ],
+        "correctAnswer": "five",
+        "correctAudioName": "FIVE5.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset16.png"
+      },
+      {
+        "questionText": "4",
+        "questionImageName": "",
+        "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBERPATTERNTILE.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset17.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": -30,
+        "options": [
+          "u",
+          "o",
+          "r",
+          "f"
+        ],
+        "correctAnswer": "four",
+        "correctAudioName": "FOUR4.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset17.png"
+      },
+      {
+        "questionText": "9",
+        "questionImageName": "",
+        "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBER.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset14.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": -30,
+        "options": [
+          "e",
+          "n",
+          "n",
+          "i"
+        ],
+        "correctAnswer": "nine",
+        "correctAudioName": "NINE9.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset14.png"
+      },
+      {
+        "questionText": "1",
+        "questionImageName": "",
+        "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBERPATTERNTILE.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset15.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": -30,
+        "options": [
+          "n",
+          "o",
+          "e"
+        ],
+        "correctAnswer": "one",
+        "correctAudioName": "ONE1.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset15.png"
+      },
+      {
+        "questionText": "7",
+        "questionImageName": "",
+        "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBERPATTERNTILE.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset18.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": -30,
+        "options": [
+          "n",
+          "v",
+          "s",
+          "e",
+          "e"
+        ],
+        "correctAnswer": "seven",
+        "correctAudioName": "SEVEN7.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset18.png"
+      },
+      {
+        "questionText": "6",
+        "questionImageName": "",
+        "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBERPATTERNTILE.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset17.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": -30,
+        "options": [
+          "x",
+          "i",
+          "s"
+        ],
+        "correctAnswer": "six",
+        "correctAudioName": "SIX6.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset17.png"
+      },
+      {
+        "questionText": "10",
+        "questionImageName": "",
+        "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBERPATTERNTILE.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset16.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": -30,
+        "options": [
+          "e",
+          "t",
+          "n"
+        ],
+        "correctAnswer": "ten",
+        "correctAudioName": "TEN10.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset16.png"
+      },
+      {
+        "questionText": "2",
+        "questionImageName": "",
+        "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBER.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset14.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": -30,
+        "options": [
+          "o",
+          "t",
+          "w"
+        ],
+        "correctAnswer": "two",
+        "correctAudioName": "TWO2.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset14.png"
+      }
+    ]
+  }
+}

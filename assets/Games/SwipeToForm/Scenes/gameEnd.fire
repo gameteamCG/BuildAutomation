@@ -1049,7 +1049,7 @@
     },
     "component": "",
     "_componentId": "3f969ad5GhIDp+3HCCSw2V8",
-    "handler": "OnEndBtn",
+    "handler": "EndButton",
     "customEventData": ""
   },
   {

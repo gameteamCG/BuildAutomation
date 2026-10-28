@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -62,7 +62,6 @@ var Gameplay = /** @class */ (function (_super) {
         _this.questionBoxPosY = 0;
         _this.currentJockey = null;
         return _this;
-        // update (dt) {}
     }
     // LIFE-CYCLE CALLBACKS:
     Gameplay.prototype.onLoad = function () {
@@ -103,7 +102,9 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.PlayQuestionAudio = function () {
         this.currentJockey.active = true;
         if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-            cc.audioEngine.playEffect(this.questionVO, false);
+            if (this.questionVO) {
+                cc.audioEngine.playEffect(this.questionVO, false);
+            }
         }
         if (globalVariables_1.default.Instance.currentLevel == 1) {
             //PLAY HAND ANIMATION
@@ -126,18 +127,7 @@ var Gameplay = /** @class */ (function (_super) {
         }).start();
     };
     Gameplay.prototype.SubcribeEvents = function () {
-        // if (startGame.Instance.questions[parseInt(startGame.Instance.currentLevel) - 1].shouldPlayQuestionAudio) {
-        //     if (this.questionVO) {
-        //         this.node.getChildByName("questionPanel").getChildByName("sound").active = true;
-        //         cc.audioEngine.playEffect(this.questionVO, false);
-        //     }
-        // }
-        // else {
-        //     if (this.questionVO) {
-        //         this.node.getChildByName("questionPanel").getChildByName("sound").active = true;
-        //     }
         var _this = this;
-        // }
         this.PlayQuestionAudio();
         this.optionsNode.children.forEach(function (element) {
             element.on('touchstart', function (event) {
@@ -264,8 +254,6 @@ var Gameplay = /** @class */ (function (_super) {
             }
         }
         var _loop_2 = function (i) {
-            // let optionNode = this.optionsNode.children[i];
-            //create options
             var optionNode = cc.instantiate(this_1.node.getChildByName("template"));
             optionNode.name = (i + 1).toString();
             optionNode.setParent(this_1.optionsNode);
@@ -344,14 +332,6 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 _this.correctVO = audioClip;
             });
-            // cc.loader.load(_questiondata.questionImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
         }
         else {
             this.loadAudioClip(_questiondata.questionAudioName, function (AudioClip) {
@@ -360,9 +340,6 @@ var Gameplay = /** @class */ (function (_super) {
             this.loadAudioClip(_questiondata.correctAudioName, function (AudioClip) {
                 _this.correctVO = AudioClip;
             });
-            // this.loadSpriteFrame(_questiondata.questionImageName, (spriteFrame) => {
-            //     this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
         }
     };
     Gameplay.prototype.TouchStart = function (_node) {
@@ -414,7 +391,7 @@ var Gameplay = /** @class */ (function (_super) {
         cc.tween(otherNode).to(0.15, { x: this.startPosX }, { easing: 'backInOut' }).start();
         this.scheduleOnce(function () {
             _this.currentDraggingObject = null;
-            _this.checkOrder(); // Check if the current order is correct
+            _this.checkOrder();
         }, 0.15);
         this.canTouch = false;
         this.isDropped = true;
@@ -437,17 +414,22 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.checkOrder = function () {
         var _this = this;
         var currentWord = this.getCurrentWord();
-        // console.log("current word =", currentWord);
-        var targetWord = this.correctAnswer; // Define your target word here
+        var targetWord = this.correctAnswer;
         if (currentWord === targetWord) {
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
             this.isAnswered = true;
-            this.node.getChildByName("questionPanel").getChildByName("sound").active = false;
-            // Additional logic for when the order is correct
-            // console.log("need iteration--" + this.needReiteration);
+            // Blue sound button ko disable karna (interactable = false aur events block)
+            var soundNode = this.node.getChildByName("questionPanel").getChildByName("sound");
+            if (soundNode) {
+                var soundBtn = soundNode.getComponent(cc.Button);
+                if (soundBtn) {
+                    soundBtn.interactable = false;
+                    soundBtn.enabled = false;
+                }
+                soundNode.pauseSystemEvents(true);
+            }
             cc.audioEngine.playEffect(this.correctSound, false);
             if (this.needReiteration) {
-                // this.optionsNode.active = false;
                 this.node.getChildByName("reiteration").active = true;
                 this.node.getChildByName("reiteration").scale = 0;
                 cc.tween(this.optionsNode).to(0.25, { scaleX: 0 }, { easing: 'backInOut' }).start();
@@ -461,7 +443,9 @@ var Gameplay = /** @class */ (function (_super) {
                         VOduration = _this.correctVO.duration;
                     }
                     _this.scheduleOnce(function () {
-                        cc.audioEngine.playEffect(_this.correctVO, false);
+                        if (_this.correctVO) {
+                            cc.audioEngine.playEffect(_this.correctVO, false);
+                        }
                         _this.scheduleOnce(function () {
                             _this.callJockey();
                         }, VOduration);
@@ -476,33 +460,29 @@ var Gameplay = /** @class */ (function (_super) {
                     VOduration_1 = this.correctVO.duration;
                 }
                 this.scheduleOnce(function () {
-                    cc.audioEngine.playEffect(_this.correctVO, false);
-                    // this.callJockey();
+                    if (_this.correctVO) {
+                        cc.audioEngine.playEffect(_this.correctVO, false);
+                    }
                     _this.scheduleOnce(function () {
-                        // this.LoadNextQuestion();
                         _this.callJockey();
                     }, VOduration_1);
                 }, 0.75);
             }
         }
         else {
-            // console.log("Incorrect order.");
-            // Additional logic for when the order is incorrect
+            // Incorrect order logic
         }
     };
     Gameplay.prototype.getCurrentWord = function () {
-        // Sort the nodes based on their x-coordinate
         var sortedNodes = this.optionsNode.children.sort(function (a, b) { return a.x - b.x; });
         var word = sortedNodes.map(function (child) {
             if (StartGame_1.default.Instance.questions[parseInt(StartGame_1.default.Instance.currentLevel) - 1].isOptionText) {
-                var labelNode = child.getChildByName("text"); // Adjust if necessary
+                var labelNode = child.getChildByName("text");
                 var labelComponent = labelNode ? labelNode.getComponent(cc.Label) : null;
                 if (labelComponent) {
-                    // console.log("Label Text: ", labelComponent.string);
                     return labelComponent.string;
                 }
                 else {
-                    // console.log("Label Component not found or nested in node: ", child.name);
                     return "";
                 }
             }
@@ -510,13 +490,10 @@ var Gameplay = /** @class */ (function (_super) {
                 return child.name;
             }
         }).join('');
-        // console.log("Constructed Word: ", word);
         return word;
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         console.log("levelComplete--" + StartGame_1.default.Instance.currentLevel);
-        //playjockey
-        // after jockey call below animation
         if (parseInt(StartGame_1.default.Instance.currentLevel) >= StartGame_1.default.Instance.TotalLevels) {
             cc.director.loadScene("gameEnd");
         }
@@ -547,16 +524,12 @@ var Gameplay = /** @class */ (function (_super) {
         var accumulatedWidth = 0;
         for (var i = 0; i < optionNodes.length; i++) {
             var option = optionNodes[i];
-            // Calculate the scale factor for the option
             var optionScaleFactor = scaleFactor;
-            // Scale the option
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
-            // Calculate position based on anchor and scaled size
             var posX = accumulatedWidth + (option.width * option.anchorX);
             option.x = posX - (optionsLayout.width * optionsLayout.anchorX);
             accumulatedWidth += option.width + paddingBetweenOptions;
-            // Scale and position children nodes proportionally
             for (var _i = 0, _a = option.children; _i < _a.length; _i++) {
                 var subChild = _a[_i];
                 subChild.x *= optionScaleFactor;
@@ -570,15 +543,12 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.arrangeChildren = function (centerNode, spacing) {
         var children = centerNode.children;
         var totalWidth = 0;
-        // Calculate total width required
         for (var _i = 0, children_1 = children; _i < children_1.length; _i++) {
             var child = children_1[_i];
             totalWidth += child.width;
         }
-        totalWidth += spacing * (children.length - 1); // Add spaces between children
-        // Starting X position
+        totalWidth += spacing * (children.length - 1);
         var startX = -totalWidth / 2;
-        // Arrange children
         for (var i = 0; i < children.length; i++) {
             var child = children[i];
             child.x = startX + child.width / 2;
@@ -612,16 +582,13 @@ var Gameplay = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
         }
-        // console.log("anim length = ", anim.length);
         var currentClipNum = this.getRandomNumber(0, anim.length - 1);
-        // console.log("currentClipNum = ", currentClipNum);
         var pos = [-1600, 1600];
         var jockeytween = [-450, 450];
         if (StartGame_1.default.Instance.jockeyName == "supercub") {
             pos = [1900, 1900];
             jockeytween = [870, 870];
         }
-        //console.log("characterAppear--Podar_Jumbo");
         this.currentJockey.setPosition(pos[globalVariables_1.default.Instance.currentLevel % 2], this.currentJockey.y);
         if (globalVariables_1.default.Instance.currentLevel % 2 == 0 && StartGame_1.default.Instance.jockeyName == "stallion") {
             this.currentJockey.scaleX = -0.65;
@@ -650,7 +617,6 @@ var Gameplay = /** @class */ (function (_super) {
                         _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                     }
                 }
-                //console.log("characterDisappear--Podar_Jumbo");
                 _this.LoadNextQuestion();
             }, _this.positiveAudio[currentClipNum].duration);
         }, 0.5);
@@ -680,8 +646,13 @@ var Gameplay = /** @class */ (function (_super) {
         return _number;
     };
     Gameplay.prototype.OnSound = function () {
+        if (this.isAnswered) {
+            return;
+        }
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questionVO, false);
+        if (this.questionVO) {
+            cc.audioEngine.playEffect(this.questionVO, false);
+        }
     };
     __decorate([
         property(cc.Font)
