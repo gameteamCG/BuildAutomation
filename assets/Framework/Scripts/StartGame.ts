@@ -46,6 +46,12 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class startGame extends cc.Component {
+    @property(cc.ProgressBar)
+    loadingBar: cc.ProgressBar = null;
+
+    @property(cc.AudioClip)
+    play_audio: cc.AudioClip = null;
+
     @property(cc.AudioClip)
     BGM_audio: cc.AudioClip = null;
     @property(Number)
@@ -391,7 +397,7 @@ export default class startGame extends cc.Component {
 
             if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
                 this.scheduleOnce(() => {
-                    cc.director.loadScene(this.NextSceneName);
+                    // cc.director.loadScene(this.NextSceneName);
                 }, 2);
             }
         }, 1);
@@ -427,6 +433,25 @@ export default class startGame extends cc.Component {
         console.log("gameExit--true");
     }
 
+    OnStartGame(_event: cc.Event) {
+        cc.audioEngine.playEffect(this.play_audio, false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        _event.target.active = false;
+        this.loadSceneWithProgress();
+    }
+
+
+    loadSceneWithProgress() {
+        if (this.loadingBar) {
+            this.loadingBar.node.active = true;
+        }
+        cc.director.preloadScene(this.NextSceneName, (completedCount: number, totalCount: number) => {
+            let progress = completedCount / totalCount;
+            this.loadingBar.progress = progress;
+        }, () => {
+            cc.director.loadScene(this.NextSceneName);
+        })
+    }
     // OnTimer() {
     //     let delay = 1;
     //     for (let i = 0; i < 9999; i++) {
