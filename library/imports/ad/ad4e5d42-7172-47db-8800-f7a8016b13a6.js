@@ -81,7 +81,18 @@ var NewClass = /** @class */ (function (_super) {
         _this.currentJcokey = null;
         _this.correctAudio = [];
         _this.optionsNode = null;
-        _this.ans = ["Mango", "Nest", "Orange", "Parrot", "Queen", "Rose"];
+        _this.words = [
+            "तरबुज",
+            "तबला",
+            "तैरना",
+            "ताला",
+            "तलवार",
+            "तारा",
+            "तसवीर",
+            "तवा",
+            "तौलिया",
+            "तराजू"
+        ];
         _this.questionBoxPosY = 0;
         _this.totalAnswers = 0;
         _this.correctAnswerCount = 0;
@@ -90,6 +101,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.positionArray = [];
         _this.isDone = [];
         _this.isLastTween = false;
+        _this.isVisied = false;
         return _this;
     }
     NewClass.prototype.onLoad = function () {
@@ -589,6 +601,7 @@ var NewClass = /** @class */ (function (_super) {
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
             //this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
+            this.setupTVFocus2();
             this.callPositiveFeedback(_node);
         }
         else {
@@ -608,12 +621,23 @@ var NewClass = /** @class */ (function (_super) {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
-        if (cc.director.getScene().name == "1") {
+        if (globalVariables_1.default.Instance.currentLevel == 1 && !this.isVisied) {
+            this.isVisied = true;
             TVInputManager_1.default.Instance.init(nodes, 0);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);
         }
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
+    };
+    NewClass.prototype.setupTVFocus2 = function () {
+        TVInputManager_1.default.Instance.callEnd();
+        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
+        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        var nodes = [backBtn, musicBtn].filter(function (n) { return !!n; });
+        TVInputManager_1.default.Instance.init(nodes, -1);
         TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
     };
     NewClass.prototype.callNextLevel = function () {
@@ -678,7 +702,7 @@ var NewClass = /** @class */ (function (_super) {
         switch (StartGame_1.default.Instance.templateType) {
             case "SimpleTap":
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
-                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.ans[globalVariables_1.default.Instance.currentLevel - 1];
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.words[globalVariables_1.default.Instance.currentLevel - 1];
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(function () {
@@ -1049,11 +1073,13 @@ var NewClass = /** @class */ (function (_super) {
             .to(0.2, { x: _node.x - 10, opacity: 255 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x + 10, opacity: 50 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x, opacity: 255 }, { easing: "sineInOut" }).call(function () {
+        })
+            .start();
+        this.scheduleOnce(function () {
             _node.children[0].getComponent(cc.Sprite).setMaterial(0, _this.defaultMat);
             _node.getChildByName("img").color = cc.Color.WHITE;
             _node.getChildByName("bg").color = cc.Color.WHITE;
-        })
-            .start();
+        }, 0.5);
     };
     NewClass.prototype.destroyOption = function () {
         for (var i = 0; i < this.node.getChildByName("Option").children.length; i++) {

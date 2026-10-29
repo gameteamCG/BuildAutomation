@@ -108,7 +108,18 @@ export default class NewClass extends cc.Component {
     correctAudio: cc.AudioClip[] = [];
 
     private optionsNode: cc.Node = null;
-    private ans = ["Mango", "Nest", "Orange", "Parrot", "Queen", "Rose"]
+    private words: string[] = [
+        "तरबुज",
+        "तबला",
+        "तैरना",
+        "ताला",
+        "तलवार",
+        "तारा",
+        "तसवीर",
+        "तवा",
+        "तौलिया",
+        "तराजू"
+    ];
     private questionBoxPosY: number = 0;
 
     totalAnswers: number = 0;
@@ -631,6 +642,7 @@ export default class NewClass extends cc.Component {
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             //this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
+            this.setupTVFocus2();
             this.callPositiveFeedback(_node);
         }
         else {
@@ -639,6 +651,7 @@ export default class NewClass extends cc.Component {
             this.callNegativeRection(_node, _event);
         }
     }
+    isVisied: boolean = false;
     private setupTVFocus(activeContainerName: string) {
         let backBtn = startGame.Instance.node.getChildByName("back");
         let musicBtn = startGame.Instance.node.getChildByName("music");
@@ -650,12 +663,23 @@ export default class NewClass extends cc.Component {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
-        if (cc.director.getScene().name == "1") {
+        if (globalVariables.Instance.currentLevel == 1 && !this.isVisied) {
+            this.isVisied = true;
             TVInputManager.Instance.init(nodes, 0);
         }
         else {
             TVInputManager.Instance.init(nodes, -1);
         }
+        TVInputManager.Instance.setCanSelect(this.canTouch);
+    }
+    private setupTVFocus2() {
+        TVInputManager.Instance.callEnd();
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        let nodes = [backBtn, musicBtn].filter(n => !!n);
+        TVInputManager.Instance.init(nodes, -1);
         TVInputManager.Instance.setCanSelect(this.canTouch);
     }
     callNextLevel() {
@@ -722,7 +746,7 @@ export default class NewClass extends cc.Component {
         switch (startGame.Instance.templateType) {
             case "SimpleTap":
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
-                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.ans[globalVariables.Instance.currentLevel - 1]
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.words[globalVariables.Instance.currentLevel - 1]
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {
@@ -1102,11 +1126,14 @@ export default class NewClass extends cc.Component {
             .to(0.2, { x: _node.x - 10, opacity: 255 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x + 10, opacity: 50 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x, opacity: 255 }, { easing: "sineInOut" }).call(() => {
-                _node.children[0].getComponent(cc.Sprite).setMaterial(0, this.defaultMat);
-                _node.getChildByName("img").color = cc.Color.WHITE;
-                _node.getChildByName("bg").color = cc.Color.WHITE;
+
             })
             .start();
+        this.scheduleOnce(() => {
+            _node.children[0].getComponent(cc.Sprite).setMaterial(0, this.defaultMat);
+            _node.getChildByName("img").color = cc.Color.WHITE;
+            _node.getChildByName("bg").color = cc.Color.WHITE;
+        }, 0.5)
     }
 
     destroyOption() {
