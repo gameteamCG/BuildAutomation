@@ -47,15 +47,16 @@ export default class NewClass extends cc.Component {
     @property(cc.AudioClip)
     wrongAnswer: cc.AudioClip = null;
     private questions: string[] = [
-        "plane", // 21
-        "plug", // 23
-        "plum", // 24
-        "plant", // 22
-        "planet", // 26
-        "plate", // 25
-        "plus", // 28
-        "2 tens and 9 ones", // 29
-        "2 tens and 7 ones", // 27
+        "spinach", // 21
+        "mint", // 23
+        "coriander", // 24
+        "lettuce", // 22
+        "chives", // 26
+        "curry\nleaves", // 25
+        "fenugreek\nleaves", // 28
+        "spring\nonion", // 29
+        "cabbage", // 27
+        "basil", // 27
     ];
     // @property(cc.SpriteFrame)
     temporarySprites: cc.SpriteFrame[] = [];
@@ -917,6 +918,41 @@ export default class NewClass extends cc.Component {
 
 
     OptionsAppear() {
+
+        for (
+            let i = 0;
+            i < startGame.Instance.questions[
+                startGame.Instance.currentLevel - 1
+            ].numberOfOptions;
+            i++
+        ) {
+
+            const optionNode = this.myOptions
+                .getChildByName((i + 1).toString());
+
+            if (optionNode) {
+                const textNode = optionNode.getChildByName("text");
+
+                if (textNode) {
+                    const label = textNode.getComponent(cc.Label);
+
+                    label.string =
+                        startGame.Instance.questions[
+                            startGame.Instance.currentLevel - 1
+                        ].options[i];
+
+                    // Apply styling for Level 3 and Level 6
+                    if (
+                        startGame.Instance.currentLevel == 3 ||
+                        startGame.Instance.currentLevel == 6 ||
+                        startGame.Instance.currentLevel == 7
+                    ) {
+                        label.fontSize = 40;  // Set your desired font size
+                        label.lineHeight = 45; // Set your desired line height
+                    }
+                }
+            }
+        }
         cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
 
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();

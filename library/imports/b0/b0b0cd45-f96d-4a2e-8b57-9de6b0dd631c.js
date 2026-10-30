@@ -58,15 +58,16 @@ var NewClass = /** @class */ (function (_super) {
         _this.jockeyCorrect2 = null;
         _this.wrongAnswer = null;
         _this.questions = [
-            "plane",
-            "plug",
-            "plum",
-            "plant",
-            "planet",
-            "plate",
-            "plus",
-            "2 tens and 9 ones",
-            "2 tens and 7 ones",
+            "spinach",
+            "mint",
+            "coriander",
+            "lettuce",
+            "chives",
+            "curry\nleaves",
+            "fenugreek\nleaves",
+            "spring\nonion",
+            "cabbage",
+            "basil",
         ];
         // @property(cc.SpriteFrame)
         _this.temporarySprites = [];
@@ -843,6 +844,25 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.OptionsAppear = function () {
         var _this = this;
+        for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
+            var optionNode = this.myOptions
+                .getChildByName((i + 1).toString());
+            if (optionNode) {
+                var textNode = optionNode.getChildByName("text");
+                if (textNode) {
+                    var label = textNode.getComponent(cc.Label);
+                    label.string =
+                        StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
+                    // Apply styling for Level 3 and Level 6
+                    if (StartGame_1.default.Instance.currentLevel == 3 ||
+                        StartGame_1.default.Instance.currentLevel == 6 ||
+                        StartGame_1.default.Instance.currentLevel == 7) {
+                        label.fontSize = 40; // Set your desired font size
+                        label.lineHeight = 45; // Set your desired line height
+                    }
+                }
+            }
+        }
         cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(function () {
