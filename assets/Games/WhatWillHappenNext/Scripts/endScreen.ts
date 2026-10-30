@@ -24,13 +24,10 @@ export default class NewClass extends cc.Component {
         if (startGame.Instance.jockeyName == "Podar") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
         }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
-            this.scheduleOnce(() => {
-                this.node.getChildByName("end").active = true;
-            }, 2);
-        }
-
+        this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
+        this.scheduleOnce(() => {
+            this.node.getChildByName("end").active = true;
+        }, 2);
         this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
     }
 

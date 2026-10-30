@@ -1,7 +1,7 @@
 {
     "additionalData": {
         "GameID": "Fruits_fs1_new_r183",
-        "totalLevel": "6",
+        "totalLevel": "7",
         "TitleImageName": "Asset477.png",
         "introBgName": "Junior.png",
         "bgmMusicName": "bgm1.mp3",
@@ -10,7 +10,7 @@
     },
     "questionData": [
         {
-            "questionText": "Uu",
+            "questionText": "Sound 'or'",
             "questionImageName": "basket.png",
             "questionAudioName": "Ques.mp3",
             "shouldPlayQuestionAudio": true,
@@ -29,7 +29,7 @@
             "correctAnswerNum": "1"
         },
         {
-            "questionText": "Vv",
+            "questionText": "Sound 'or'",
             "questionImageName": "basket.png",
             "questionAudioName": "Ques.mp3",
             "shouldPlayQuestionAudio": true,
@@ -48,7 +48,7 @@
             "correctAnswerNum": "3"
         },
         {
-            "questionText": "Ww",
+            "questionText": "Sound 'or'",
             "questionImageName": "basket.png",
             "questionAudioName": "Ques.mp3",
             "shouldPlayQuestionAudio": true,
@@ -67,7 +67,7 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "Xx",
+            "questionText": "Sound 'or'",
             "questionImageName": "basket.png",
             "questionAudioName": "Ques.mp3",
             "shouldPlayQuestionAudio": true,
@@ -86,7 +86,7 @@
             "correctAnswerNum": "4"
         },
         {
-            "questionText": "Yy",
+            "questionText": "Sound 'or'",
             "questionImageName": "basket.png",
             "questionAudioName": "Ques.mp3",
             "shouldPlayQuestionAudio": true,
@@ -105,7 +105,7 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "Zz",
+            "questionText": "Sound 'or'",
             "questionImageName": "basket.png",
             "questionAudioName": "Ques.mp3",
             "shouldPlayQuestionAudio": true,
@@ -122,6 +122,25 @@
                 "6.mp3"
             ],
             "correctAnswerNum": "3"
+        },
+        {
+            "questionText": "Sound 'or'",
+            "questionImageName": "basket.png",
+            "questionAudioName": "Ques.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Asset13.png",
+            "isOptionText": false,
+            "numberOfOptions": 4,
+            "options": [
+                "25.png",
+                "15.png",
+                "19.png",
+                "6.png"
+            ],
+            "correctAudios": [
+                "7.mp3"
+            ],
+            "correctAnswerNum": "1"
         }
     ]
 }
