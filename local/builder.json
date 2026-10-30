@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "D:\\Builds\\SmartTV\\UKG\\Blends_cl_UKG_SB3_4_SmartTV",
+  "buildPath": "D:\\Builds\\SmartTV\\LKG\\GA\\Animal_shadow_matching_LKG_GA_84_SmartTV",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
@@ -16,5 +16,338 @@
   "apiLevel": "",
   "appABIs": [],
   "vsVersion": "auto",
-  "buildScriptsOnly": false
+  "buildScriptsOnly": false,
+  "buildHistory": [
+    {
+      "id": 3,
+      "startTime": 1793345117382,
+      "targets": [
+        {
+          "taskId": "e00c8522-f1ff-40e0-b3fe-6bedb83d50c8",
+          "platform": "web-mobile",
+          "platformText": "Web Mobile",
+          "color": "#1E88E5",
+          "icon": "fa-globe",
+          "iconUrl": "C:\\ProgramData\\cocos\\editors\\Creator\\2.4.8\\resources\\app.asar\\editor\\builtin\\builder\\static\\images\\platforms\\web-mobile\\icon.png",
+          "label": "Web Mobile",
+          "status": "success",
+          "buildType": "normal",
+          "distPath": "D:\\Builds\\SmartTV\\LKG\\GA\\Animal_shadow_matching_LKG_GA_84_SmartTV\\web-mobile",
+          "error": null,
+          "startTime": 1793345117384,
+          "endTime": 1793345128871,
+          "config": {
+            "project": {
+              "title": "SmartLearn_Animal_shadow_matching_LKG_GA_84_SmartTV",
+              "packageName": "org.cocos2d.demo",
+              "startScene": "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a",
+              "excludeScenes": [],
+              "orientation": {
+                "landscapeRight": true,
+                "landscapeLeft": true,
+                "portrait": false,
+                "upsideDown": false
+              },
+              "webOrientation": "landscape",
+              "inlineSpriteFrames": true,
+              "inlineSpriteFrames_native": true,
+              "mainCompressionType": "default",
+              "mainIsRemote": false,
+              "optimizeHotUpdate": false,
+              "md5Cache": true,
+              "nativeMd5Cache": true,
+              "encryptJs": true,
+              "xxteaKey": "ee9f229f-a1f7-4e",
+              "zipCompressJs": true,
+              "fb-instant-games": {},
+              "android": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": ""
+              },
+              "ios": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "ios_enable_jit": true
+              },
+              "mac": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "win32": {
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "android-instant": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "pathPattern": "",
+                "scheme": "https",
+                "host": "",
+                "skipRecord": false,
+                "recordPath": ""
+              },
+              "appBundle": false,
+              "agreements": {},
+              "harmonyos-next": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "jsEngine": "JSVM"
+              }
+            },
+            "local": {
+              "platform": "web-mobile",
+              "actualPlatform": "web-mobile",
+              "template": "link",
+              "buildPath": "D:\\Builds\\SmartTV\\LKG\\GA\\Animal_shadow_matching_LKG_GA_84_SmartTV",
+              "debug": false,
+              "sourceMaps": false,
+              "embedWebDebugger": false,
+              "previewWidth": "1280",
+              "previewHeight": "720",
+              "useDebugKeystore": true,
+              "keystorePath": "",
+              "keystorePassword": "",
+              "keystoreAlias": "",
+              "keystoreAliasPassword": "",
+              "apiLevel": "",
+              "appABIs": [],
+              "vsVersion": "auto",
+              "buildScriptsOnly": false,
+              "builderEntryCategory": "",
+              "builderEntryTab": "",
+              "identityDefaults": {}
+            },
+            "platformProfile": {}
+          },
+          "buildStageGroup": {},
+          "compile": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "startTime": 1793345028241,
+      "targets": [
+        {
+          "taskId": "989f5b4a-571f-420e-95ff-5df317048015",
+          "platform": "web-desktop",
+          "platformText": "Web Desktop",
+          "color": "#111111",
+          "icon": "fa-globe",
+          "iconUrl": "C:\\ProgramData\\cocos\\editors\\Creator\\2.4.8\\resources\\app.asar\\editor\\builtin\\builder\\static\\images\\platforms\\web-desktop\\icon.png",
+          "label": "Web Desktop",
+          "status": "success",
+          "buildType": "normal",
+          "distPath": "D:\\Builds\\SmartTV\\LKG\\GA\\Animal_shadow_matching_LKG_GA_84_SmartTV\\web-desktop",
+          "error": null,
+          "startTime": 1793345028243,
+          "endTime": 1793345077866,
+          "config": {
+            "project": {
+              "title": "SmartLearn_Animal_shadow_matching_LKG_GA_84_SmartTV",
+              "packageName": "org.cocos2d.demo",
+              "startScene": "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a",
+              "excludeScenes": [],
+              "orientation": {
+                "landscapeRight": true,
+                "landscapeLeft": true,
+                "portrait": false,
+                "upsideDown": false
+              },
+              "webOrientation": "landscape",
+              "inlineSpriteFrames": true,
+              "inlineSpriteFrames_native": true,
+              "mainCompressionType": "default",
+              "mainIsRemote": false,
+              "optimizeHotUpdate": false,
+              "md5Cache": true,
+              "nativeMd5Cache": true,
+              "encryptJs": true,
+              "xxteaKey": "ee9f229f-a1f7-4e",
+              "zipCompressJs": true,
+              "fb-instant-games": {},
+              "android": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": ""
+              },
+              "ios": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "ios_enable_jit": true
+              },
+              "mac": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "win32": {
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "android-instant": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "pathPattern": "",
+                "scheme": "https",
+                "host": "",
+                "skipRecord": false,
+                "recordPath": ""
+              },
+              "appBundle": false,
+              "agreements": {},
+              "harmonyos-next": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "jsEngine": "JSVM"
+              }
+            },
+            "local": {
+              "platform": "web-desktop",
+              "actualPlatform": "web-desktop",
+              "template": "link",
+              "buildPath": "D:\\Builds\\SmartTV\\LKG\\GA\\Animal_shadow_matching_LKG_GA_84_SmartTV",
+              "debug": false,
+              "sourceMaps": false,
+              "embedWebDebugger": false,
+              "previewWidth": "1280",
+              "previewHeight": "720",
+              "useDebugKeystore": true,
+              "keystorePath": "",
+              "keystorePassword": "",
+              "keystoreAlias": "",
+              "keystoreAliasPassword": "",
+              "apiLevel": "",
+              "appABIs": [],
+              "vsVersion": "auto",
+              "buildScriptsOnly": false,
+              "builderEntryCategory": "",
+              "builderEntryTab": "",
+              "identityDefaults": {}
+            },
+            "platformProfile": {}
+          },
+          "buildStageGroup": {},
+          "compile": null
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "startTime": 1793344943167,
+      "targets": [
+        {
+          "taskId": "e68d616f-006a-466a-9cf4-9dd568118197",
+          "platform": "web-mobile",
+          "platformText": "Web Mobile",
+          "color": "#1E88E5",
+          "icon": "fa-globe",
+          "iconUrl": "C:\\ProgramData\\cocos\\editors\\Creator\\2.4.8\\resources\\app.asar\\editor\\builtin\\builder\\static\\images\\platforms\\web-mobile\\icon.png",
+          "label": "Web Mobile",
+          "status": "success",
+          "buildType": "normal",
+          "distPath": "D:\\Builds\\SmartTV\\LKG\\GA\\Animal_shadow_matching_LKG_GA_84_SmartTV\\web-mobile",
+          "error": null,
+          "startTime": 1793344943169,
+          "endTime": 1793344959009,
+          "config": {
+            "project": {
+              "title": "SmartLearn_Animal_shadow_matching_LKG_GA_84_SmartTV",
+              "packageName": "org.cocos2d.demo",
+              "startScene": "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a",
+              "excludeScenes": [],
+              "orientation": {
+                "landscapeRight": true,
+                "landscapeLeft": true,
+                "portrait": false,
+                "upsideDown": false
+              },
+              "webOrientation": "landscape",
+              "inlineSpriteFrames": true,
+              "inlineSpriteFrames_native": true,
+              "mainCompressionType": "default",
+              "mainIsRemote": false,
+              "optimizeHotUpdate": false,
+              "md5Cache": true,
+              "nativeMd5Cache": true,
+              "encryptJs": true,
+              "xxteaKey": "ee9f229f-a1f7-4e",
+              "zipCompressJs": true,
+              "fb-instant-games": {},
+              "android": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": ""
+              },
+              "ios": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "ios_enable_jit": true
+              },
+              "mac": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "win32": {
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "android-instant": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "pathPattern": "",
+                "scheme": "https",
+                "host": "",
+                "skipRecord": false,
+                "recordPath": ""
+              },
+              "appBundle": false,
+              "agreements": {},
+              "harmonyos-next": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "jsEngine": "JSVM"
+              }
+            },
+            "local": {
+              "platform": "web-mobile",
+              "actualPlatform": "web-mobile",
+              "template": "link",
+              "buildPath": "D:\\Builds\\SmartTV\\LKG\\GA\\Animal_shadow_matching_LKG_GA_84_SmartTV",
+              "debug": false,
+              "sourceMaps": false,
+              "embedWebDebugger": false,
+              "previewWidth": "1280",
+              "previewHeight": "720",
+              "useDebugKeystore": true,
+              "keystorePath": "",
+              "keystorePassword": "",
+              "keystoreAlias": "",
+              "keystoreAliasPassword": "",
+              "apiLevel": "",
+              "appABIs": [],
+              "vsVersion": "auto",
+              "buildScriptsOnly": false,
+              "builderEntryCategory": "",
+              "builderEntryTab": "",
+              "identityDefaults": {}
+            },
+            "platformProfile": {}
+          },
+          "buildStageGroup": {},
+          "compile": null
+        }
+      ]
+    }
+  ],
+  "buildRunNextId": 4,
+  "builderEntryCategory": "",
+  "builderEntryTab": "",
+  "identityDefaults": {}
 }

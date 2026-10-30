@@ -1,11 +1,8 @@
 {
-  "title": "SmartLearn_Blends_cl_UKG_SB3_4_SmartTV",
+  "title": "SmartLearn_Animal_shadow_matching_LKG_GA_84_SmartTV",
   "packageName": "org.cocos2d.demo",
   "startScene": "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a",
-  "excludeScenes": [
-    "7cd7cb8d-bf09-4440-8ed4-8c45bdf9377d",
-    "ad0c8321-8aca-489f-8799-3a914615d4de"
-  ],
+  "excludeScenes": [],
   "orientation": {
     "landscapeRight": true,
     "landscapeLeft": true,
@@ -54,5 +51,10 @@
     "recordPath": ""
   },
   "appBundle": false,
-  "agreements": {}
+  "agreements": {},
+  "harmonyos-next": {
+    "packageName": "org.cocos2d.demo",
+    "REMOTE_SERVER_ROOT": "",
+    "jsEngine": "JSVM"
+  }
 }

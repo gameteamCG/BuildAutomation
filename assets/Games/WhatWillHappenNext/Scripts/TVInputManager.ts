@@ -134,7 +134,6 @@ export default class TVInputManager extends cc.Component {
 
     move(step: number) {
         if (!this.canSelect) return;
-        console.log("Move")
         this.clean();
         if (this.focusNodes.length === 0) return;
         if (this.currentIndex === -1) {
@@ -209,7 +208,6 @@ export default class TVInputManager extends cc.Component {
 
     playPressEffect(node: cc.Node, callback?: Function) {
         let baseScale = this.originalScales.get(node) ?? node.scale; // 🔥 important
-        console.log("CLICK:", node.name);
         cc.Tween.stopAllByTarget(node);
         cc.tween(node)
             .to(0.05, { scale: baseScale * 0.85, opacity: 255 })
@@ -228,6 +226,15 @@ export default class TVInputManager extends cc.Component {
             cc.Tween.stopAllByTarget(node);
             node.scale = baseScale;
             node.opacity = 255;
+        });
+    }
+
+    callEnd() {
+        this.focusNodes.forEach((node, index) => {
+            node.off(cc.Node.EventType.MOUSE_ENTER);
+            node.off(cc.Node.EventType.MOUSE_LEAVE);
+            node.off(cc.Node.EventType.MOUSE_DOWN);
+            node.off("click");
         });
     }
 
@@ -282,41 +289,23 @@ export default class TVInputManager extends cc.Component {
         if(TVInputManager.Instance) {
             TVInputManager.Instance.setCanSelect(this.canTouch)
         }
-    
-        Start :
-        let optionNodes = this.node.getChildByName("options").children;
-        optionNodes.forEach((element, idx) => {
-            let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
-            if (idx === optionNodes.length - 1) {
-                t = t.call(() => {
-                    this.setupTVFocus("options");
-                });
-            }
-            t.start();
-        });
-    
-        For options
-        let optionNodes2 = this.node.getChildByName("options").children;
-        optionNodes2.forEach((element, idx) => {
-            let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" })
-                .call(() => {
-                    this.canTouch = true;
-                    TVInputManager.Instance.setCanSelect(this.canTouch)
-                });
-            if (idx === optionNodes2.length - 1) {
-                t = t.call(() => {
-                    this.setupTVFocus("options");
-                });
-            }
-            t.start();
-        });
-    
-        buttonSound: this.setupTVFocus("options");
-    
+
+        playQues(_event: cc.Button) {
+            cc.audioEngine.stopAllEffects();
+            cc.audioEngine.playEffect(this.questionSound, false);
+            _event.target.getComponent(cc.Button).interactable = false;
+            this.scheduleOnce(() => {
+                _event.target.getComponent(cc.Button).interactable = true;
+                _event.target.scale = 1;
+                this.setupTVFocus("Option");
+            }, this.questionSound.duration)
+        }
+            
+        isVisied: boolean = false;
         private setupTVFocus(activeContainerName: string) {
             let backBtn = startGame.Instance.node.getChildByName("back");
             let musicBtn = startGame.Instance.node.getChildByName("music");
-            let soundBtn = this.node.getChildByName("panel").getChildByName("soundbutton");
+            let soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
             backBtn.scale = 1;
             musicBtn.scale = 1;
             let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
@@ -324,8 +313,9 @@ export default class TVInputManager extends cc.Component {
                 return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
             });
             let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
-            if (cc.director.getScene().name == "1") {
-                TVInputManager.Instance.init(nodes, (parseInt(this.answerarray[0])) - 1);
+            if (globalVariables.Instance.currentLevel == 1 && !this.isVisied) {
+                this.isVisied = true;
+                TVInputManager.Instance.init(nodes, 0);
             }
             else {
                 TVInputManager.Instance.init(nodes, -1);
@@ -334,16 +324,15 @@ export default class TVInputManager extends cc.Component {
         }
             
         private setupTVFocus2() {
+            TVInputManager.Instance.callEnd();
             let backBtn = startGame.Instance.node.getChildByName("back");
             let musicBtn = startGame.Instance.node.getChildByName("music");
             backBtn.scale = 1;
             musicBtn.scale = 1;
-            let nodes = [backBtn, musicBtn,];
-            TVInputManager.Instance.setCanSelect(true);
-            TVInputManager.Instance.init(nodes);
+            let nodes = [backBtn, musicBtn].filter(n => !!n);
+            TVInputManager.Instance.init(nodes, -1);
+            TVInputManager.Instance.setCanSelect(this.canTouch);
         }
-
-
 
         -------------------------------- EndScreen-----------------------------------------
          onload : 
@@ -364,5 +353,4 @@ export default class TVInputManager extends cc.Component {
             this.scheduleOnce(() => {
                 TVInputManager.Instance.init(nodes);
             }, 0.5);
-    
 */
