@@ -386,3 +386,4 @@ export default class startGame extends cc.Component {
 
     // update (dt) {}
 }
+
