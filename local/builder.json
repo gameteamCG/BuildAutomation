@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "D:\\Builds\\Jaipuria\\UKG\\Sources_of_Water_UKG_Nov_week25_day4",
+  "buildPath": "D:\\Builds\\Jaipuria\\UKG\\Save_Water_UKG_Nov_week25_day3",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
@@ -18,6 +18,115 @@
   "vsVersion": "auto",
   "buildScriptsOnly": false,
   "buildHistory": [
+    {
+      "id": 3,
+      "startTime": 1793364468313,
+      "targets": [
+        {
+          "taskId": "3843fb3b-29ec-4e24-85a9-79c5f6f040b8",
+          "platform": "web-mobile",
+          "platformText": "Web Mobile",
+          "color": "#1E88E5",
+          "icon": "fa-globe",
+          "iconUrl": "C:\\ProgramData\\cocos\\editors\\Creator\\2.4.8\\resources\\app.asar\\editor\\builtin\\builder\\static\\images\\platforms\\web-mobile\\icon.png",
+          "label": "Web Mobile",
+          "status": "success",
+          "buildType": "normal",
+          "distPath": "D:\\Builds\\Jaipuria\\UKG\\Save_Water_UKG_Nov_week25_day3\\web-mobile",
+          "error": null,
+          "startTime": 1793364468314,
+          "endTime": 1793364483068,
+          "config": {
+            "project": {
+              "title": "Jaipuria_Save_Water_UKG_Nov_week25_day3",
+              "packageName": "org.cocos2d.demo",
+              "startScene": "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a",
+              "excludeScenes": [],
+              "orientation": {
+                "landscapeRight": true,
+                "landscapeLeft": true,
+                "portrait": false,
+                "upsideDown": false
+              },
+              "webOrientation": "landscape",
+              "inlineSpriteFrames": true,
+              "inlineSpriteFrames_native": true,
+              "mainCompressionType": "default",
+              "mainIsRemote": false,
+              "optimizeHotUpdate": false,
+              "md5Cache": true,
+              "nativeMd5Cache": true,
+              "encryptJs": true,
+              "xxteaKey": "ee9f229f-a1f7-4e",
+              "zipCompressJs": true,
+              "fb-instant-games": {},
+              "android": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": ""
+              },
+              "ios": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "ios_enable_jit": true
+              },
+              "mac": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "win32": {
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "android-instant": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "pathPattern": "",
+                "scheme": "https",
+                "host": "",
+                "skipRecord": false,
+                "recordPath": ""
+              },
+              "appBundle": false,
+              "agreements": {},
+              "harmonyos-next": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "jsEngine": "JSVM"
+              }
+            },
+            "local": {
+              "platform": "web-mobile",
+              "actualPlatform": "web-mobile",
+              "template": "link",
+              "buildPath": "D:\\Builds\\Jaipuria\\UKG\\Save_Water_UKG_Nov_week25_day3",
+              "debug": false,
+              "sourceMaps": false,
+              "embedWebDebugger": false,
+              "previewWidth": "1280",
+              "previewHeight": "720",
+              "useDebugKeystore": true,
+              "keystorePath": "",
+              "keystorePassword": "",
+              "keystoreAlias": "",
+              "keystoreAliasPassword": "",
+              "apiLevel": "",
+              "appABIs": [],
+              "vsVersion": "auto",
+              "buildScriptsOnly": false,
+              "builderEntryCategory": "",
+              "builderEntryTab": "",
+              "identityDefaults": {}
+            },
+            "platformProfile": {}
+          },
+          "buildStageGroup": {},
+          "compile": null
+        }
+      ]
+    },
     {
       "id": 2,
       "startTime": 1793362993648,
@@ -237,7 +346,7 @@
       ]
     }
   ],
-  "buildRunNextId": 3,
+  "buildRunNextId": 4,
   "builderEntryCategory": "",
   "builderEntryTab": "",
   "identityDefaults": {}
