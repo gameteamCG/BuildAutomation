@@ -1482,8 +1482,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 300,
-      "height": 300
+      "width": 250,
+      "height": 250
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1574,8 +1574,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 300,
-      "height": 300
+      "width": 250,
+      "height": 250
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3078,7 +3078,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 339.81,
+      "width": 153.13,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -3130,8 +3130,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "फलों के नाम",
-    "_N$string": "फलों के नाम",
+    "_string": "Fruits",
+    "_N$string": "Fruits",
     "_fontSize": 70,
     "_lineHeight": 80,
     "_enableWrapText": true,
