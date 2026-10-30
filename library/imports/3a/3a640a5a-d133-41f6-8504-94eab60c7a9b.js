@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '3a640pa0TNB9oUElOq2DHqb', 'Jockey');
-// Framework/Jockeys/Scripts/Jockey.ts
+// Framework/Scripts/Jockey.ts
 
 "use strict";
 // Learn TypeScript:
