@@ -667,7 +667,7 @@ var NewClass = /** @class */ (function (_super) {
             this.scheduleOnce(function () {
             }, this.correctAction.duration - 1);
             this.node.getChildByName("hint").active = false;
-            this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+            // this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
             this.unschedule(this.sheduleQuestionClip);
             this.scheduleOnce(function () {
@@ -882,10 +882,10 @@ var NewClass = /** @class */ (function (_super) {
             cc.audioEngine.stopAllEffects();
             console.log("-----------hihihihi");
             cc.audioEngine.playEffect(this.wordVoIteration, false);
-            this.node.getChildByName("shortQBar").getChildByName("New Label").active = false;
-            this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).string = this.questions[StartGame_1.default.Instance.currentLevel - 1];
+            //this.node.getChildByName("shortQBar").getChildByName("New Label").active = false;
+            //this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).string = this.questions[startGame.Instance.currentLevel - 1];
             this.scheduleOnce(function () {
-                _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                //this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                 _this.CallJockey();
             }, this.wordVoIteration.duration);
         }
@@ -1027,8 +1027,8 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.levelFinished = function () {
         var _this = this;
         cc.audioEngine.playEffect(this.correctAction, false);
-        this.node.getChildByName("confetti").active = true;
-        this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+        // this.node.getChildByName("confetti").active = true;
+        // this.node.getChildByName("confetti").getComponent(cc.Animation).play();
         console.log('levelComplete--' + this.currScene);
         StartGame_1.default.Instance.currentLevel++;
         this.scheduleOnce(function () {
