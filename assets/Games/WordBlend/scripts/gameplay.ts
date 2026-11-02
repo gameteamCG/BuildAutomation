@@ -32,8 +32,6 @@ export default class NewClass extends cc.Component {
     @property(cc.AudioClip)
     hint: cc.AudioClip = null;
     @property(cc.AudioClip)
-    incorrectButton: cc.AudioClip[] = [];
-    @property(cc.AudioClip)
     rotateAction: cc.AudioClip = null;
     @property(cc.AudioClip)
     swipeAction: cc.AudioClip = null;

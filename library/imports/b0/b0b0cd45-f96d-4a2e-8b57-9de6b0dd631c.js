@@ -48,7 +48,6 @@ var NewClass = /** @class */ (function (_super) {
         _this.correctAnswer = "1";
         _this.correctAction = null;
         _this.hint = null;
-        _this.incorrectButton = [];
         _this.rotateAction = null;
         _this.swipeAction = null;
         _this.puzzleQuestionVo = null;
@@ -1247,9 +1246,6 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "hint", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "incorrectButton", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "rotateAction", void 0);

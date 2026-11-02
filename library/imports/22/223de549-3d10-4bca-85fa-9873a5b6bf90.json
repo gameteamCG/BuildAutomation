@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "temp2",
+    "texture": "d0f9f627-aa4d-4c52-bc9b-2e58a7009a22",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      172,
+      172
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      177,
+      177
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

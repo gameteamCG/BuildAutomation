@@ -10,13 +10,13 @@
       "TitleImageName": "anfamilywords1.png",
       "introBgName": "titlebg.png",
       "bgmMusicName": "bgm2 (1).mp3",
-      "mainBgName": "bg.png",
+      "mainBgName": "Bg.png",
       "JockeyName": "Puzzle"
     },
     "questionData": [
       {
         "questionText": "solve the picture",
-        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Artboard4.png",
         "isHintRequired": true,
@@ -44,7 +44,7 @@
       },
       {
         "questionText": "solve the picture",
-        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Artboard4.png",
         "isHintRequired": true,
@@ -72,7 +72,7 @@
       },
       {
         "questionText": "solve the picture",
-        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Artboard4.png",
         "isHintRequired": true,
@@ -100,7 +100,7 @@
       },
       {
         "questionText": "solve the picture",
-        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Artboard4.png",
         "isHintRequired": true,
@@ -128,7 +128,7 @@
       },
       {
         "questionText": "solve the picture",
-        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Artboard4.png",
         "isHintRequired": true,
@@ -156,7 +156,7 @@
       },
       {
         "questionText": "solve the picture",
-        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Artboard4.png",
         "isHintRequired": true,
