@@ -672,7 +672,7 @@ export default class NewClass extends cc.Component {
     }
 
     optionClicked(_event: cc.Event) {
-        console.log("touchStarttttttt")
+
         if (!this.canTouch) {
             return;
         }
@@ -707,7 +707,7 @@ export default class NewClass extends cc.Component {
     rotatePuzzleImage(_node: cc.Node) {
         let child = _node;
         const angle = child.angle;
-        console.log("rotateeeeeeeeeeeeeeee")
+        //console.log("rotateeeeeeeeeeeeeeee")
         cc.audioEngine.playEffect(this.rotateAction, false);
         this.scheduleOnce(() => {
             cc.tween(child)
@@ -739,7 +739,7 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
             }, this.correctAction.duration - 1);
             this.node.getChildByName("hint").active = false;
-            this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+            //this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
             this.unschedule(this.sheduleQuestionClip);
 
@@ -1009,7 +1009,7 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("shortQBar").getChildByName("New Label").active = false;
             this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).string = this.questions[startGame.Instance.currentLevel - 1];
             this.scheduleOnce(() => {
-                this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                //this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                 this.CallJockey();
             }, this.wordVoIteration.duration);
         }
@@ -1159,8 +1159,8 @@ export default class NewClass extends cc.Component {
     }
     private levelFinished() {
         cc.audioEngine.playEffect(this.correctAction, false);
-        this.node.getChildByName("confetti").active = true;
-        this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+        // this.node.getChildByName("confetti").active = true;
+        // this.node.getChildByName("confetti").getComponent(cc.Animation).play();
 
 
         console.log('levelComplete--' + this.currScene);
