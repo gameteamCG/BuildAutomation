@@ -30,7 +30,7 @@
       "isOptionText": false,
       "numberOfOptions": 2,
       "options": ["Asset 3.png", "Asset 5.png"],
-      "correctAudioName": "थर्मs.mp3",
+      "correctAudioName": "1.mp3",
       "correctAnswerNum": "1"
     },
     {
@@ -66,7 +66,7 @@
       "isOptionText": false,
       "numberOfOptions": 2,
       "options": ["Asset 6.png", "Asset 9.png"],
-      "correctAudioName": "थानेदार.mp3",
+      "correctAudioName": "2.mp3",
       "correctAnswerNum": "2"
     },
     {

@@ -30,7 +30,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var TVInputManager_1 = require("./TVInputManager");
@@ -199,22 +199,6 @@ var NewClass = /** @class */ (function (_super) {
                     .numberOfOptions; i++) {
                 _loop_1(i);
             }
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option1ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("1").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option2ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("2").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
         }
         else {
             this.loadAudioClip(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1]
@@ -582,22 +566,22 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callPositiveRection = function (_node) {
         var _this = this;
-        // _node.getComponent(cc.Sprite).spriteFrame = this.extraImg;
         cc.audioEngine.playEffect(this.correctAudio, false);
-        // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
+        var qBox = this.node.getChildByName("QuestionBox");
+        var worldPos = qBox.parent.convertToWorldSpaceAR(qBox.getPosition());
+        var localPos = _node.parent.convertToNodeSpaceAR(worldPos);
         cc.tween(_node)
-            .to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" })
+            .to(0.5, { width: qBox.width, height: qBox.height, y: localPos.y }, { easing: "sineInOut" })
             .start();
-        cc.tween(_node.children[0])
-            .to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" })
+        var inner = _node.children[0];
+        cc.tween(inner)
+            .to(0.5, { width: qBox.width * 0.8, height: qBox.height * 0.8, scale: 1 }, { easing: "sineInOut" })
             .start();
-        cc.tween(_node.children[0])
-            .to(0.5, { scale: 1 }, { easing: "sineInOut" })
-            .start();
-        cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
-            _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-            _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+            var confetti = _this.node.getChildByName("confetti");
+            var confettiPos = _this.node.convertToNodeSpaceAR(_node.parent.convertToWorldSpaceAR(_node.getPosition()));
+            confetti.setPosition(confettiPos);
+            confetti.getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(_this.positiveSound[0], false);
             _this.scheduleOnce(function () {
                 ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
@@ -826,8 +810,8 @@ var NewClass = /** @class */ (function (_super) {
                     "negative_3",
                     "negative_4",
                     "negative_5",
-                    "negative_1",
-                    "negative_2",
+                    "negative_4",
+                    "negative_5",
                 ];
             }
             else if (StartGame_1.default.Instance.jockeyName == "tlc") {

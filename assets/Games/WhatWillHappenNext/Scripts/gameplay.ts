@@ -1,4 +1,4 @@
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 import TVInputManager from "./TVInputManager";
@@ -222,22 +222,6 @@ export default class NewClass extends cc.Component {
             ].options[i];
         }
       }
-      // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option1ImageName, (err, texture) => {
-      //     if (err) {
-      //         console.error("Failed to load image:", err);
-      //         return;
-      //     }
-      //     const spriteFrame = new cc.SpriteFrame(texture);
-      //     this.node.getChildByName("Option").getChildByName("1").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-      // });
-      // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option2ImageName, (err, texture) => {
-      //     if (err) {
-      //         console.error("Failed to load image:", err);
-      //         return;
-      //     }
-      //     const spriteFrame = new cc.SpriteFrame(texture);
-      //     this.node.getChildByName("Option").getChildByName("2").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-      // });
     } else {
       this.loadAudioClip(
         startGame.Instance.questions[globalVariables.Instance.currentLevel - 1]
@@ -674,23 +658,39 @@ export default class NewClass extends cc.Component {
   }
 
   callPositiveRection(_node: cc.Node) {
-    // _node.getComponent(cc.Sprite).spriteFrame = this.extraImg;
     cc.audioEngine.playEffect(this.correctAudio, false);
-    // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
+
+    const qBox = this.node.getChildByName("QuestionBox");
+
+    const worldPos = qBox.parent.convertToWorldSpaceAR(qBox.getPosition());
+    const localPos = _node.parent.convertToNodeSpaceAR(worldPos);
+
     cc.tween(_node)
-      .to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" })
+      .to(
+        0.5,
+        { width: qBox.width, height: qBox.height, y: localPos.y },
+        { easing: "sineInOut" }
+      )
       .start();
-    cc.tween(_node.children[0])
-      .to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" })
+
+    const inner = _node.children[0];
+    cc.tween(inner)
+      .to(
+        0.5,
+        { width: qBox.width * 0.8, height: qBox.height * 0.8, scale: 1 },
+        { easing: "sineInOut" }
+      )
       .start();
-    cc.tween(_node.children[0])
-      .to(0.5, { scale: 1 }, { easing: "sineInOut" })
-      .start();
-    cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
+
     this.scheduleOnce(() => {
-      this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-      this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+      const confetti = this.node.getChildByName("confetti");
+      const confettiPos = this.node.convertToNodeSpaceAR(
+        _node.parent.convertToWorldSpaceAR(_node.getPosition())
+      );
+      confetti.setPosition(confettiPos);
+      confetti.getComponent(cc.Animation).play();
       cc.audioEngine.playEffect(this.positiveSound[0], false);
+
       this.scheduleOnce(() => {
         ProgressBar.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(() => {
