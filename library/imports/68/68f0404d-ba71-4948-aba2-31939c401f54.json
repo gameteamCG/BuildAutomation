@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "paint_brush_n_8",
+    "texture": "f9dc8815-95d7-4c30-abbe-b62b36252d4d",
+    "atlas": "",
+    "rect": [
+      233,
+      32,
+      36,
+      438
+    ],
+    "offset": [
+      1,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
