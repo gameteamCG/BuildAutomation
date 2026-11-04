@@ -1,0 +1,97 @@
+{
+    "additionalData": {
+        "GameID": "Long 'o' word families_UKG_SB2_19",
+        "totalLevel": "3",
+        "TitleImageName": "title.png",
+        "introBgName": "bgmain.png",
+        "bgmMusicName": "bgm_2.mp3",
+        "mainBgName": "BG.png",
+        "JockeyName": "bag"
+    },
+    "questionData": [
+        {
+            "questionText": "Solve the picture puzzle",
+            "questionAudioName": "instruction1.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonPuzzleImageName": "panel.png",
+            "isHintRequired": true,
+            "numberOfPuzzles": 4,
+            "puzzles": [
+                "icecream1.png",
+                "icecream2.png",
+                "icecream3.png",
+                "icecream4.png"
+            ],
+            "correctAudioName": "empty.mp3",
+            "needReiteration": true,
+            "interactionType": "1",
+            "questionText2": "Choose the correct word for the picture",
+            "questionAudioName2": "instruction2.mp3",
+            "commonOptionImageName": "panel.png",
+            "isOptionText": true,
+            "numberOfOptions": 2,
+            "options": [
+                "hay",
+                "top"
+            ],
+            "correctAnswer": "1",
+            "reiterationAudioName": "hay.mp3"
+        },
+        {
+            "questionText": "Solve the picture puzzle",
+            "questionAudioName": "instruction1.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonPuzzleImageName": "panel.png",
+            "isHintRequired": true,
+            "numberOfPuzzles": 4,
+            "puzzles": [
+                "road1.png",
+                "road2.png",
+                "road3.png",
+                "road4.png"
+            ],
+            "correctAudioName": "empty.mp3",
+            "needReiteration": true,
+            "interactionType": "1",
+            "questionText2": "Choose the correct word for the picture",
+            "questionAudioName2": "instruction2.mp3",
+            "commonOptionImageName": "panel.png",
+            "isOptionText": true,
+            "numberOfOptions": 2,
+            "options": [
+                "mom",
+                "tray"
+            ],
+            "correctAnswer": "2",
+            "reiterationAudioName": "tray.mp3"
+        },
+        {
+            "questionText": "Solve the picture puzzle",
+            "questionAudioName": "instruction1.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonPuzzleImageName": "panel.png",
+            "isHintRequired": true,
+            "numberOfPuzzles": 4,
+            "puzzles": [
+                "1.png",
+                "2.png",
+                "3.png",
+                "4.png"
+            ],
+            "correctAudioName": "empty.mp3",
+            "needReiteration": true,
+            "interactionType": "1",
+            "questionText2": "Choose the correct word for the picture",
+            "questionAudioName2": "instruction2.mp3",
+            "commonOptionImageName": "panel.png",
+            "isOptionText": true,
+            "numberOfOptions": 2,
+            "options": [
+                "cap",
+                "float"
+            ],
+            "correctAnswer": "2",
+            "reiterationAudioName": "float.mp3"
+        }
+    ]
+}

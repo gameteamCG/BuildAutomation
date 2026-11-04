@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
@@ -65,6 +65,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.isSecondInteraction = true;
         _this.interactionType = "1";
         _this.currentJockey = null;
+        _this.isSecond = false;
         _this.selectable = false;
         _this.questionPlaying = false;
         _this.correctWordSeq = ["132"];
@@ -536,23 +537,24 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            //cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();
-                cc.audioEngine.playEffect(_this.puzzleVoIteration, false);
+                //cc.audioEngine.playEffect(this.puzzleVoIteration, false);
                 _this.scheduleOnce(function () {
                     _this.options.color = cc.Color.WHITE;
                     // this.wordAppear();
                     if (_this.isSecondInteraction) {
                         //check what interaction it is and call the respective function
                         //show question panel
+                        _this.isSecond = true;
                         cc.audioEngine.playEffect(_this.wordVoQuestion, false);
                         _this.interactionType == "1" ? _this.OptionsAppear() : _this.wordAppear();
                     }
                     else {
                         _this.CallJockey();
                     }
-                }, _this.puzzleVoIteration.duration);
+                }, 0.5);
             }, 0.5);
         }
         else {
@@ -628,6 +630,14 @@ var NewClass = /** @class */ (function (_super) {
                 _this.levelFinished();
             }, _this.positiveAudio[currentClipNum].duration);
         }, 0.5);
+    };
+    NewClass.prototype.playButtonSound = function () {
+        if (this.isSecond == true) {
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
+        }
+        else {
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        }
     };
     NewClass.prototype.callNegativeRection = function () {
         var _this = this;

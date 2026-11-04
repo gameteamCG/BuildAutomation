@@ -1,4 +1,5 @@
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -87,7 +88,7 @@ export default class NewClass extends cc.Component {
     currentJockey: cc.Node = null;
 
 
-
+    private isSecond: boolean = false;
     private interactable;
     private selectable = false;
     private wordCurrentSeleced: cc.Node;
@@ -603,11 +604,11 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            //cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
 
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
-                cc.audioEngine.playEffect(this.puzzleVoIteration, false);
+                //cc.audioEngine.playEffect(this.puzzleVoIteration, false);
                 this.scheduleOnce(() => {
                     this.options.color = cc.Color.WHITE;
                     // this.wordAppear();
@@ -615,13 +616,14 @@ export default class NewClass extends cc.Component {
                     if (this.isSecondInteraction) {
                         //check what interaction it is and call the respective function
                         //show question panel
+                        this.isSecond = true
                         cc.audioEngine.playEffect(this.wordVoQuestion, false);
                         this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
                     }
                     else {
                         this.CallJockey();
                     }
-                }, this.puzzleVoIteration.duration);
+                }, 0.5);
             }, 0.5);
         } else {
             this.interactable = true;
@@ -696,6 +698,16 @@ export default class NewClass extends cc.Component {
                 this.levelFinished();
             }, this.positiveAudio[currentClipNum].duration);
         }, 0.5);
+    }
+    playButtonSound() {
+        if (this.isSecond == true) {
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
+        }
+        else {
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false)
+
+        }
+
     }
 
     callNegativeRection() {
