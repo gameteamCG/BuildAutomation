@@ -11,7 +11,7 @@
   },
   "questionData": [
     {
-      "questionText": "Uses of water",
+      "questionText": "Uses of Water",
       "answerText": "Water is used for bathing.",
       "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
       "shouldPlayQuestionAudio": true,
@@ -24,11 +24,13 @@
         "500x500_0003_takingbath.png",
         "500x500_0003_play.png"
       ],
-      "correctAudios": ["waterisusedforbathing.mp3"],
+      "correctAudios": [
+        "waterisusedforbathing.mp3"
+      ],
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Uses of water",
+      "questionText": "Uses of Water",
       "answerText": "Water is used for watering plants.",
       "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
       "shouldPlayQuestionAudio": true,
@@ -41,11 +43,13 @@
         "bikeride.png",
         "500x500_0002_dance.png"
       ],
-      "correctAudios": ["waterisusedforwateringplants.mp3"],
+      "correctAudios": [
+        "waterisusedforwateringplants.mp3"
+      ],
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Uses of water",
+      "questionText": "Uses of Water",
       "answerText": "Water is used for drinking.",
       "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
       "shouldPlayQuestionAudio": true,
@@ -58,11 +62,13 @@
         "playpiano.png",
         "500x500_0004_drinking.png"
       ],
-      "correctAudios": ["waterisusedfordrinking.mp3"],
+      "correctAudios": [
+        "waterisusedfordrinking.mp3"
+      ],
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "Uses of water",
+      "questionText": "Uses of Water",
       "answerText": "Water is used for washing clothes.",
       "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
       "shouldPlayQuestionAudio": true,
@@ -75,11 +81,13 @@
         "500x500_0002_dance.png",
         "playpiano.png"
       ],
-      "correctAudios": ["waterisusedforwashingclothes.mp3"],
+      "correctAudios": [
+        "waterisusedforwashingclothes.mp3"
+      ],
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Uses of water",
+      "questionText": "Uses of Water",
       "answerText": "Water is used for washing hands.",
       "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
       "shouldPlayQuestionAudio": true,
@@ -92,11 +100,13 @@
         "500x500_0000_smile.png",
         "500x500_0001_washinghands.png"
       ],
-      "correctAudios": ["waterisusedforwashinghands.mp3"],
+      "correctAudios": [
+        "waterisusedforwashinghands.mp3"
+      ],
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "Uses of water",
+      "questionText": "Uses of Water",
       "answerText": "Water is used in cooking.",
       "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
       "shouldPlayQuestionAudio": true,
@@ -109,11 +119,13 @@
         "500x500_0003_play.png",
         "500x500_0001_clap.png"
       ],
-      "correctAudios": ["waterisusedincooking.mp3"],
+      "correctAudios": [
+        "waterisusedincooking.mp3"
+      ],
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Uses of water",
+      "questionText": "Uses of Water",
       "answerText": "Water is used for brushing teeth.",
       "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
       "shouldPlayQuestionAudio": true,
@@ -126,11 +138,13 @@
         "500x500_0006_brushing.png",
         "500x500_0002_yoga.png"
       ],
-      "correctAudios": ["watersusedforbrushingteeth.mp3"],
+      "correctAudios": [
+        "watersusedforbrushingteeth.mp3"
+      ],
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Uses of water",
+      "questionText": "Uses of Water",
       "answerText": "Water is used to wash and clean utensils.",
       "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
       "shouldPlayQuestionAudio": true,
@@ -143,7 +157,9 @@
         "500x500_0003_play.png",
         "500x500_0000_washingutensils.png"
       ],
-      "correctAudios": ["waterisusedtowashandcleanutensils.mp3"],
+      "correctAudios": [
+        "waterisusedtowashandcleanutensils.mp3"
+      ],
       "correctAnswerNum": "3"
     }
   ]
