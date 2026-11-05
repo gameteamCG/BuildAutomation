@@ -19,6 +19,333 @@
   "buildScriptsOnly": false,
   "buildHistory": [
     {
+      "id": 6,
+      "startTime": 1793901151587,
+      "targets": [
+        {
+          "taskId": "ec74fe5b-94b5-479b-9625-eecc149a74dd",
+          "platform": "web-mobile",
+          "platformText": "Web Mobile",
+          "color": "#1E88E5",
+          "icon": "fa-globe",
+          "iconUrl": "C:\\ProgramData\\cocos\\editors\\Creator\\2.4.8\\resources\\app.asar\\editor\\builtin\\builder\\static\\images\\platforms\\web-mobile\\icon.png",
+          "label": "Web Mobile",
+          "status": "success",
+          "buildType": "normal",
+          "distPath": "D:\\Builds\\Jaipuria\\UKG\\Save_Water_UKG_Nov_week25_day3\\web-mobile",
+          "error": null,
+          "startTime": 1793901151590,
+          "endTime": 1793901173343,
+          "config": {
+            "project": {
+              "title": "Jaipuria_Save_Water_UKG_Nov_week25_day3",
+              "packageName": "org.cocos2d.demo",
+              "startScene": "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a",
+              "excludeScenes": [],
+              "orientation": {
+                "landscapeRight": true,
+                "landscapeLeft": true,
+                "portrait": false,
+                "upsideDown": false
+              },
+              "webOrientation": "landscape",
+              "inlineSpriteFrames": true,
+              "inlineSpriteFrames_native": true,
+              "mainCompressionType": "default",
+              "mainIsRemote": false,
+              "optimizeHotUpdate": false,
+              "md5Cache": true,
+              "nativeMd5Cache": true,
+              "encryptJs": true,
+              "xxteaKey": "ee9f229f-a1f7-4e",
+              "zipCompressJs": true,
+              "fb-instant-games": {},
+              "android": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": ""
+              },
+              "ios": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "ios_enable_jit": true
+              },
+              "mac": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "win32": {
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "android-instant": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "pathPattern": "",
+                "scheme": "https",
+                "host": "",
+                "skipRecord": false,
+                "recordPath": ""
+              },
+              "appBundle": false,
+              "agreements": {},
+              "harmonyos-next": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "jsEngine": "JSVM"
+              }
+            },
+            "local": {
+              "platform": "web-mobile",
+              "actualPlatform": "web-mobile",
+              "template": "link",
+              "buildPath": "D:\\Builds\\Jaipuria\\UKG\\Save_Water_UKG_Nov_week25_day3",
+              "debug": false,
+              "sourceMaps": false,
+              "embedWebDebugger": false,
+              "previewWidth": "1280",
+              "previewHeight": "720",
+              "useDebugKeystore": true,
+              "keystorePath": "",
+              "keystorePassword": "",
+              "keystoreAlias": "",
+              "keystoreAliasPassword": "",
+              "apiLevel": "",
+              "appABIs": [],
+              "vsVersion": "auto",
+              "buildScriptsOnly": false,
+              "builderEntryCategory": "",
+              "builderEntryTab": "",
+              "identityDefaults": {}
+            },
+            "platformProfile": {}
+          },
+          "buildStageGroup": {},
+          "compile": null
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "startTime": 1793899992441,
+      "targets": [
+        {
+          "taskId": "c25c31bf-f761-4cfd-8765-420a7be1c540",
+          "platform": "web-mobile",
+          "platformText": "Web Mobile",
+          "color": "#1E88E5",
+          "icon": "fa-globe",
+          "iconUrl": "C:\\ProgramData\\cocos\\editors\\Creator\\2.4.8\\resources\\app.asar\\editor\\builtin\\builder\\static\\images\\platforms\\web-mobile\\icon.png",
+          "label": "Web Mobile",
+          "status": "success",
+          "buildType": "normal",
+          "distPath": "D:\\Builds\\Jaipuria\\UKG\\Save_Water_UKG_Nov_week25_day3\\web-mobile",
+          "error": null,
+          "startTime": 1793899992444,
+          "endTime": 1793900003948,
+          "config": {
+            "project": {
+              "title": "Jaipuria_Save_Water_UKG_Nov_week25_day3",
+              "packageName": "org.cocos2d.demo",
+              "startScene": "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a",
+              "excludeScenes": [],
+              "orientation": {
+                "landscapeRight": true,
+                "landscapeLeft": true,
+                "portrait": false,
+                "upsideDown": false
+              },
+              "webOrientation": "landscape",
+              "inlineSpriteFrames": true,
+              "inlineSpriteFrames_native": true,
+              "mainCompressionType": "default",
+              "mainIsRemote": false,
+              "optimizeHotUpdate": false,
+              "md5Cache": true,
+              "nativeMd5Cache": true,
+              "encryptJs": true,
+              "xxteaKey": "ee9f229f-a1f7-4e",
+              "zipCompressJs": true,
+              "fb-instant-games": {},
+              "android": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": ""
+              },
+              "ios": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "ios_enable_jit": true
+              },
+              "mac": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "win32": {
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "android-instant": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "pathPattern": "",
+                "scheme": "https",
+                "host": "",
+                "skipRecord": false,
+                "recordPath": ""
+              },
+              "appBundle": false,
+              "agreements": {},
+              "harmonyos-next": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "jsEngine": "JSVM"
+              }
+            },
+            "local": {
+              "platform": "web-mobile",
+              "actualPlatform": "web-mobile",
+              "template": "link",
+              "buildPath": "D:\\Builds\\Jaipuria\\UKG\\Save_Water_UKG_Nov_week25_day3",
+              "debug": false,
+              "sourceMaps": false,
+              "embedWebDebugger": false,
+              "previewWidth": "1280",
+              "previewHeight": "720",
+              "useDebugKeystore": true,
+              "keystorePath": "",
+              "keystorePassword": "",
+              "keystoreAlias": "",
+              "keystoreAliasPassword": "",
+              "apiLevel": "",
+              "appABIs": [],
+              "vsVersion": "auto",
+              "buildScriptsOnly": false,
+              "builderEntryCategory": "",
+              "builderEntryTab": "",
+              "identityDefaults": {}
+            },
+            "platformProfile": {}
+          },
+          "buildStageGroup": {},
+          "compile": null
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "startTime": 1793899920645,
+      "targets": [
+        {
+          "taskId": "87385634-fc68-46f7-aea6-71ef329084a6",
+          "platform": "web-desktop",
+          "platformText": "Web Desktop",
+          "color": "#111111",
+          "icon": "fa-globe",
+          "iconUrl": "C:\\ProgramData\\cocos\\editors\\Creator\\2.4.8\\resources\\app.asar\\editor\\builtin\\builder\\static\\images\\platforms\\web-desktop\\icon.png",
+          "label": "Web Desktop",
+          "status": "success",
+          "buildType": "normal",
+          "distPath": "D:\\Builds\\Jaipuria\\UKG\\Save_Water_UKG_Nov_week25_day3\\web-desktop",
+          "error": null,
+          "startTime": 1793899920647,
+          "endTime": 1793899933790,
+          "config": {
+            "project": {
+              "title": "Jaipuria_Save_Water_UKG_Nov_week25_day3",
+              "packageName": "org.cocos2d.demo",
+              "startScene": "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a",
+              "excludeScenes": [],
+              "orientation": {
+                "landscapeRight": true,
+                "landscapeLeft": true,
+                "portrait": false,
+                "upsideDown": false
+              },
+              "webOrientation": "landscape",
+              "inlineSpriteFrames": true,
+              "inlineSpriteFrames_native": true,
+              "mainCompressionType": "default",
+              "mainIsRemote": false,
+              "optimizeHotUpdate": false,
+              "md5Cache": true,
+              "nativeMd5Cache": true,
+              "encryptJs": true,
+              "xxteaKey": "ee9f229f-a1f7-4e",
+              "zipCompressJs": true,
+              "fb-instant-games": {},
+              "android": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": ""
+              },
+              "ios": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "ios_enable_jit": true
+              },
+              "mac": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "win32": {
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "android-instant": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "pathPattern": "",
+                "scheme": "https",
+                "host": "",
+                "skipRecord": false,
+                "recordPath": ""
+              },
+              "appBundle": false,
+              "agreements": {},
+              "harmonyos-next": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "jsEngine": "JSVM"
+              }
+            },
+            "local": {
+              "platform": "web-desktop",
+              "actualPlatform": "web-desktop",
+              "template": "link",
+              "buildPath": "D:\\Builds\\Jaipuria\\UKG\\Save_Water_UKG_Nov_week25_day3",
+              "debug": false,
+              "sourceMaps": false,
+              "embedWebDebugger": false,
+              "previewWidth": "1280",
+              "previewHeight": "720",
+              "useDebugKeystore": true,
+              "keystorePath": "",
+              "keystorePassword": "",
+              "keystoreAlias": "",
+              "keystoreAliasPassword": "",
+              "apiLevel": "",
+              "appABIs": [],
+              "vsVersion": "auto",
+              "buildScriptsOnly": false,
+              "builderEntryCategory": "",
+              "builderEntryTab": "",
+              "identityDefaults": {}
+            },
+            "platformProfile": {}
+          },
+          "buildStageGroup": {},
+          "compile": null
+        }
+      ]
+    },
+    {
       "id": 3,
       "startTime": 1793364468313,
       "targets": [
@@ -346,7 +673,7 @@
       ]
     }
   ],
-  "buildRunNextId": 4,
+  "buildRunNextId": 7,
   "builderEntryCategory": "",
   "builderEntryTab": "",
   "identityDefaults": {}
