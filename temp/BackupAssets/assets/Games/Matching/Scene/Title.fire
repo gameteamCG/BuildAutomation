@@ -3067,9 +3067,9 @@
     },
     "_enabled": true,
     "BGM_audio": {
-      "__uuid__": "0de1ef27-6197-41a4-8ab5-319bb65fecab"
+      "__uuid__": "14cbdf0d-aef9-4983-a670-5443fd9c3819"
     },
-    "volume": 0.5,
+    "volume": 0.1,
     "NextSceneName": "1",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [],

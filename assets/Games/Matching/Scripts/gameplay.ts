@@ -1,5 +1,5 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -1288,7 +1288,7 @@ export default class gameplay extends cc.Component {
       .to(0.2, { x: _node.x - 10 }, { easing: "sineInOut" })
       .to(0.2, { x: _node.x + 10 }, { easing: "sineInOut" })
       .to(0.2, { x: _node.x }, { easing: "sineInOut" })
-      .call(() => {})
+      .call(() => { })
       .start();
   }
 

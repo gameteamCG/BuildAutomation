@@ -4,7 +4,7 @@
     "totalLevel": "7",
     "TitleImageName": "Asset 53.png",
     "introBgName": "Bg(8).png",
-    "bgmMusicName": "bgmm.mp3",
+    "bgmMusicName": "Children-This (mp3cut.net).mp3",
     "mainBgName": "bg.png",
     "JockeyName": "bag"
   },
@@ -16,12 +16,19 @@
       "commonLeftOptionImageName": "puzz2.png",
       "isLeftOptionText": false,
       "numberOfLeftOptions": 1,
-      "leftoptions": ["rectangle.png"],
-      "reiterations": ["Rectangleclipboard.mp3"],
+      "leftoptions": [
+        "rectangle.png"
+      ],
+      "reiterations": [
+        "Rectangleclipboard.mp3"
+      ],
       "commonRightOptionImageName": "puzz1.png",
       "isRightOptionText": false,
       "numberOfRightOptions": 2,
-      "rightoptions": ["clipboard.png", "google.png"]
+      "rightoptions": [
+        "clipboard.png",
+        "google.png"
+      ]
     },
     {
       "questionText": "Rectangle",
@@ -30,12 +37,19 @@
       "commonLeftOptionImageName": "puzz2.png",
       "isLeftOptionText": false,
       "numberOfLeftOptions": 1,
-      "leftoptions": ["rectangle.png"],
-      "reiterations": ["Rectangleframe.mp3"],
+      "leftoptions": [
+        "rectangle.png"
+      ],
+      "reiterations": [
+        "Rectangleframe.mp3"
+      ],
       "commonRightOptionImageName": "puzz1.png",
       "isRightOptionText": false,
       "numberOfRightOptions": 2,
-      "rightoptions": ["frame.png", "hat.png"]
+      "rightoptions": [
+        "frame.png",
+        "hat.png"
+      ]
     },
     {
       "questionText": "Rectangle",
@@ -44,12 +58,19 @@
       "commonLeftOptionImageName": "puzz2.png",
       "isLeftOptionText": false,
       "numberOfLeftOptions": 1,
-      "leftoptions": ["rectangle.png"],
-      "reiterations": ["Rectangledoor.mp3"],
+      "leftoptions": [
+        "rectangle.png"
+      ],
+      "reiterations": [
+        "Rectangledoor.mp3"
+      ],
       "commonRightOptionImageName": "puzz1.png",
       "isRightOptionText": false,
       "numberOfRightOptions": 2,
-      "rightoptions": ["door.png", "pyramid.png"]
+      "rightoptions": [
+        "door.png",
+        "pyramid.png"
+      ]
     },
     {
       "questionText": "Rectangle",
@@ -58,12 +79,19 @@
       "commonLeftOptionImageName": "puzz2.png",
       "isLeftOptionText": false,
       "numberOfLeftOptions": 1,
-      "leftoptions": ["rectangle.png"],
-      "reiterations": ["Rectanglesmartphone.mp3"],
+      "leftoptions": [
+        "rectangle.png"
+      ],
+      "reiterations": [
+        "Rectanglesmartphone.mp3"
+      ],
       "commonRightOptionImageName": "puzz1.png",
       "isRightOptionText": false,
       "numberOfRightOptions": 2,
-      "rightoptions": ["smartphone.png", "sqclock.png"]
+      "rightoptions": [
+        "smartphone.png",
+        "sqclock.png"
+      ]
     },
     {
       "questionText": "Rectangle",
@@ -72,12 +100,19 @@
       "commonLeftOptionImageName": "puzz2.png",
       "isLeftOptionText": false,
       "numberOfLeftOptions": 1,
-      "leftoptions": ["rectangle.png"],
-      "reiterations": ["Rectangleplayingcard.mp3"],
+      "leftoptions": [
+        "rectangle.png"
+      ],
+      "reiterations": [
+        "Rectangleplayingcard.mp3"
+      ],
       "commonRightOptionImageName": "puzz1.png",
       "isRightOptionText": false,
       "numberOfRightOptions": 2,
-      "rightoptions": ["card.png", "star.png"]
+      "rightoptions": [
+        "card.png",
+        "star.png"
+      ]
     },
     {
       "questionText": "Rectangle",
@@ -86,12 +121,19 @@
       "commonLeftOptionImageName": "puzz2.png",
       "isLeftOptionText": false,
       "numberOfLeftOptions": 1,
-      "leftoptions": ["rectangle.png"],
-      "reiterations": ["Rectanglecarpet.mp3"],
+      "leftoptions": [
+        "rectangle.png"
+      ],
+      "reiterations": [
+        "Rectanglecarpet.mp3"
+      ],
       "commonRightOptionImageName": "puzz1.png",
       "isRightOptionText": false,
       "numberOfRightOptions": 2,
-      "rightoptions": ["towel.png", "stars.png"]
+      "rightoptions": [
+        "towel.png",
+        "stars.png"
+      ]
     },
     {
       "questionText": "Rectangle",
@@ -100,12 +142,19 @@
       "commonLeftOptionImageName": "puzz2.png",
       "isLeftOptionText": false,
       "numberOfLeftOptions": 1,
-      "leftoptions": ["rectangle.png"],
-      "reiterations": ["Rectangletowel.mp3"],
+      "leftoptions": [
+        "rectangle.png"
+      ],
+      "reiterations": [
+        "Rectangletowel.mp3"
+      ],
       "commonRightOptionImageName": "puzz1.png",
       "isRightOptionText": false,
       "numberOfRightOptions": 2,
-      "rightoptions": ["carpet.png", "watermelon.png"]
+      "rightoptions": [
+        "carpet.png",
+        "watermelon.png"
+      ]
     }
   ]
 }
