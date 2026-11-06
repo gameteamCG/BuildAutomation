@@ -1,4 +1,4 @@
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 import TVInputManager from "./TVInputManager";
@@ -261,6 +261,7 @@ export default class NewClass extends cc.Component {
         this.currentJcokey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
         // this.currentJcokey.active = true;
     }
+    private isVisited: boolean = false;
     private setupTVFocus(activeContainerName: string) {
         let backBtn = startGame.Instance.node.getChildByName("back");
         let musicBtn = startGame.Instance.node.getChildByName("music");
@@ -272,8 +273,9 @@ export default class NewClass extends cc.Component {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
-        if (cc.director.getScene().name == "1") {
-            TVInputManager.Instance.init(nodes, 0);
+        if (cc.director.getScene().name == "1" && !this.isVisited) {
+            this.isVisited = true;
+            TVInputManager.Instance.init(nodes, -1);
         }
         else {
             TVInputManager.Instance.init(nodes, -1);

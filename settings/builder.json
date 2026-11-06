@@ -1,5 +1,5 @@
 {
-  "title": "SmartLearn_Blends_gl_UKG_SB3_6_SmartTV",
+  "title": "Shape_Oval_LKG_Page55_SmartTV",
   "packageName": "org.cocos2d.demo",
   "startScene": "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a",
   "excludeScenes": [
@@ -54,5 +54,10 @@
     "recordPath": ""
   },
   "appBundle": false,
-  "agreements": {}
+  "agreements": {},
+  "harmonyos-next": {
+    "packageName": "org.cocos2d.demo",
+    "REMOTE_SERVER_ROOT": "",
+    "jsEngine": "JSVM"
+  }
 }

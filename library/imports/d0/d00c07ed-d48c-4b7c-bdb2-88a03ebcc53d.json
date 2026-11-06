@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "beans",
+    "texture": "411f2841-a039-408e-bdd0-979ef235dafc",
+    "atlas": "",
+    "rect": [
+      9,
+      8,
+      275,
+      275
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      292,
+      291
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
