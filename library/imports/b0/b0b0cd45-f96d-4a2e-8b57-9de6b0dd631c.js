@@ -23,17 +23,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
     function NewClass() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.podar_font = null;
-        _this.jaipuria_font = null;
-        _this.tlc_font = null;
-        _this.supercub_font = null;
         _this.options = null;
         _this.wordsNode = null;
         _this.myOptions = null;
@@ -142,7 +138,7 @@ var NewClass = /** @class */ (function (_super) {
             cc.director.preloadScene("GameEnd");
         }
         else {
-            cc.director.preloadScene((this.currScene + 1).toString());
+            cc.director.preloadScene("1");
         }
         StartGame_1.default.Instance.clickEvent = false;
         var canvas = cc.find("Canvas");
@@ -1079,18 +1075,6 @@ var NewClass = /** @class */ (function (_super) {
             optionNodes[i].y = newPositions[i];
         }
     };
-    __decorate([
-        property(cc.Font)
-    ], NewClass.prototype, "podar_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], NewClass.prototype, "jaipuria_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], NewClass.prototype, "tlc_font", void 0);
-    __decorate([
-        property(cc.Font)
-    ], NewClass.prototype, "supercub_font", void 0);
     __decorate([
         property(cc.Node)
     ], NewClass.prototype, "options", void 0);

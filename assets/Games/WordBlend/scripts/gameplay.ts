@@ -1,22 +1,10 @@
-
-
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class NewClass extends cc.Component {
-
-    @property(cc.Font)
-    private podar_font: cc.Font = null;
-    @property(cc.Font)
-    private jaipuria_font: cc.Font = null;
-    @property(cc.Font)
-    private tlc_font: cc.Font = null;
-    @property(cc.Font)
-    private supercub_font: cc.Font = null;
-
     @property(cc.Node)
     options: cc.Node = null;
     @property(cc.Node)
@@ -178,7 +166,7 @@ export default class NewClass extends cc.Component {
             cc.director.preloadScene("GameEnd");
         }
         else {
-            cc.director.preloadScene((this.currScene + 1).toString());
+            cc.director.preloadScene("1");
         }
         startGame.Instance.clickEvent = false;
         let canvas = cc.find("Canvas");

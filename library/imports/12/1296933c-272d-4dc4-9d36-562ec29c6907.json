@@ -4087,7 +4087,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 259.95,
+      "width": 262.95,
       "height": 81.9
     },
     "_anchorPoint": {
@@ -4139,8 +4139,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "About earth",
-    "_N$string": "About earth",
+    "_string": "About Earth",
+    "_N$string": "About Earth",
     "_fontSize": 50,
     "_lineHeight": 65,
     "_enableWrapText": true,
@@ -4199,10 +4199,6 @@
       "__id__": 5
     },
     "_enabled": true,
-    "podar_font": null,
-    "jaipuria_font": null,
-    "tlc_font": null,
-    "supercub_font": null,
     "options": {
       "__id__": 13
     },

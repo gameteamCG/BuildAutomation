@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "B:\\Jaipuria2026\\pranjalJaipuria2026_AboutEarth_week26_day2_Nov_LKG",
+  "buildPath": "D:\\Builds\\Jaipuria\\UKG\\AboutEarth_week26_day2_Nov_LKG",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
@@ -16,5 +16,123 @@
   "apiLevel": "",
   "appABIs": [],
   "vsVersion": "auto",
-  "buildScriptsOnly": false
+  "buildScriptsOnly": false,
+  "buildHistory": [
+    {
+      "id": 1,
+      "startTime": 1793945709799,
+      "targets": [
+        {
+          "taskId": "b41610bc-a0af-4314-a069-4820635a2e76",
+          "platform": "web-mobile",
+          "platformText": "Web Mobile",
+          "color": "#1E88E5",
+          "icon": "fa-globe",
+          "iconUrl": "C:\\ProgramData\\cocos\\editors\\Creator\\2.4.8\\resources\\app.asar\\editor\\builtin\\builder\\static\\images\\platforms\\web-mobile\\icon.png",
+          "label": "Web Mobile",
+          "status": "success",
+          "buildType": "normal",
+          "distPath": "D:\\Builds\\Jaipuria\\UKG\\AboutEarth_week26_day2_Nov_LKG\\web-mobile",
+          "error": null,
+          "startTime": 1793945709803,
+          "endTime": 1793945729050,
+          "config": {
+            "project": {
+              "title": "Jaipuria2026_AboutEarth_week26_day2_Nov_LKG",
+              "packageName": "org.cocos2d.demo",
+              "startScene": "68bfb103-2902-430d-8402-5df6b963f7b7",
+              "excludeScenes": [
+                "ad0c8321-8aca-489f-8799-3a914615d4de",
+                "7cd7cb8d-bf09-4440-8ed4-8c45bdf9377d"
+              ],
+              "orientation": {
+                "landscapeRight": true,
+                "landscapeLeft": true,
+                "portrait": false,
+                "upsideDown": false
+              },
+              "webOrientation": "landscape",
+              "inlineSpriteFrames": true,
+              "inlineSpriteFrames_native": true,
+              "mainCompressionType": "default",
+              "mainIsRemote": false,
+              "optimizeHotUpdate": false,
+              "md5Cache": true,
+              "nativeMd5Cache": true,
+              "encryptJs": true,
+              "xxteaKey": "ee9f229f-a1f7-4e",
+              "zipCompressJs": true,
+              "fb-instant-games": {},
+              "android": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": ""
+              },
+              "ios": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "ios_enable_jit": true
+              },
+              "mac": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "win32": {
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "android-instant": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "pathPattern": "",
+                "scheme": "https",
+                "host": "",
+                "skipRecord": false,
+                "recordPath": ""
+              },
+              "appBundle": false,
+              "agreements": {},
+              "harmonyos-next": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "jsEngine": "JSVM"
+              }
+            },
+            "local": {
+              "platform": "web-mobile",
+              "actualPlatform": "web-mobile",
+              "template": "link",
+              "buildPath": "D:\\Builds\\Jaipuria\\UKG\\AboutEarth_week26_day2_Nov_LKG",
+              "debug": false,
+              "sourceMaps": false,
+              "embedWebDebugger": false,
+              "previewWidth": "1280",
+              "previewHeight": "720",
+              "useDebugKeystore": true,
+              "keystorePath": "",
+              "keystorePassword": "",
+              "keystoreAlias": "",
+              "keystoreAliasPassword": "",
+              "apiLevel": "",
+              "appABIs": [],
+              "vsVersion": "auto",
+              "buildScriptsOnly": false,
+              "builderEntryCategory": "",
+              "builderEntryTab": "",
+              "identityDefaults": {}
+            },
+            "platformProfile": {}
+          },
+          "buildStageGroup": {},
+          "compile": null
+        }
+      ]
+    }
+  ],
+  "buildRunNextId": 2,
+  "builderEntryCategory": "",
+  "builderEntryTab": "",
+  "identityDefaults": {}
 }
