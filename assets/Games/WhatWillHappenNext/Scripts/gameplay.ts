@@ -1,4 +1,4 @@
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 import TVInputManager from "./TVInputManager";
@@ -273,7 +273,7 @@ export default class NewClass extends cc.Component {
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
         if (cc.director.getScene().name == "1") {
-            TVInputManager.Instance.init(nodes, 0);
+            TVInputManager.Instance.init(nodes, -1);
         }
         else {
             TVInputManager.Instance.init(nodes, -1);

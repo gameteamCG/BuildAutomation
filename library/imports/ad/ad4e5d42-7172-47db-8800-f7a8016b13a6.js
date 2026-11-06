@@ -30,7 +30,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var TVInputManager_1 = require("./TVInputManager");
@@ -247,7 +247,7 @@ var NewClass = /** @class */ (function (_super) {
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
         if (cc.director.getScene().name == "1") {
-            TVInputManager_1.default.Instance.init(nodes, 0);
+            TVInputManager_1.default.Instance.init(nodes, -1);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);

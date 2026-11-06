@@ -1,0 +1,115 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Grouping_in_3s_LKG_SB4_57",
+      "totalLevel": "5",
+      "TitleImageName": "3s.png",
+      "introBgName": "LKG.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "axc.png",
+      "JockeyName": "Puzzle",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "Grouping in 3s",
+        "questionImageName": "3.png",
+        "questionAudioName": "42053506_1_countQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ertyu.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "afwa.png",
+          "afaf.png",
+          "fafa.png"
+        ],
+        "correctAudios": [
+          "42053506_5_3lemons.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Grouping in 3s",
+        "questionImageName": "3.png",
+        "questionAudioName": "42053506_1_countQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ertyu.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "cea.png",
+          "ty.png",
+          "ags.png"
+        ],
+        "correctAudios": [
+          "42053506_2_3balls.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Grouping in 3",
+        "questionImageName": "3.png",
+        "questionAudioName": "42053506_1_countQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ertyu.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "acwca.png",
+          "awa.png",
+          "wsxdfrtg.png"
+        ],
+        "correctAudios": [
+          "42053506_4_3prams.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Grouping in 3s",
+        "questionImageName": "3.png",
+        "questionAudioName": "42053506_1_countQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ertyu.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "ol.png",
+          "23.png",
+          "ax.png"
+        ],
+        "correctAudios": [
+          "42053506_3_3cars.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Grouping in 3s\n",
+        "questionImageName": "3.png",
+        "questionAudioName": "42053506_1_countQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ertyu.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "aqq.png",
+          "tg.png",
+          "ffff.png"
+        ],
+        "correctAudios": [
+          "3_flowers.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}

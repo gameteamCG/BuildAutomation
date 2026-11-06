@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ertyu",
+    "texture": "bc0b718d-d028-4506-aa15-d5e446d85639",
+    "atlas": "",
+    "rect": [
+      6,
+      5,
+      273,
+      274
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      284,
+      284
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
