@@ -101,8 +101,8 @@
           "yes",
           "no"
         ],
-        "correctAudioName": "no.mp3",
-        "correctAnswerNum": "2"
+        "correctAudioName": "yes.mp3",
+        "correctAnswerNum": "1"
       },
       {
         "questionText": "Sources of Water",
