@@ -1,5 +1,4 @@
-
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -177,7 +176,7 @@ export default class NewClass extends cc.Component {
             cc.director.preloadScene("GameEnd");
         }
         else {
-            cc.director.preloadScene((this.currScene + 1).toString());
+            cc.director.preloadScene("1");
         }
         startGame.Instance.clickEvent = false;
         let canvas = cc.find("Canvas");
@@ -509,6 +508,9 @@ export default class NewClass extends cc.Component {
         });
         this.options.scale = 0.8;
         this.options.opacity = 100;
+        this.node.getChildByName("hint").getChildByName("hint").children.forEach(elem => {
+            elem.removeComponent(cc.Button);
+        })
         this.node.getChildByName("hint").opacity = 100;
         this.node.getChildByName("hint").scale = 0;
         cc.tween(this.options)
@@ -828,7 +830,6 @@ export default class NewClass extends cc.Component {
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.wordVoIteration, false);
             this.scheduleOnce(() => {
-                this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                 this.CallJockey();
             }, this.wordVoIteration.duration);
         }
@@ -982,8 +983,6 @@ export default class NewClass extends cc.Component {
         cc.audioEngine.playEffect(this.correctAction, false);
         this.node.getChildByName("confetti").active = true;
         this.node.getChildByName("confetti").getComponent(cc.Animation).play();
-
-
         console.log('levelComplete--' + this.currScene);
         startGame.Instance.currentLevel++;
         this.scheduleOnce(() => {

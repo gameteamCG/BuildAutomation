@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
@@ -143,7 +143,7 @@ var NewClass = /** @class */ (function (_super) {
             cc.director.preloadScene("GameEnd");
         }
         else {
-            cc.director.preloadScene((this.currScene + 1).toString());
+            cc.director.preloadScene("1");
         }
         StartGame_1.default.Instance.clickEvent = false;
         var canvas = cc.find("Canvas");
@@ -448,6 +448,9 @@ var NewClass = /** @class */ (function (_super) {
         });
         this.options.scale = 0.8;
         this.options.opacity = 100;
+        this.node.getChildByName("hint").getChildByName("hint").children.forEach(function (elem) {
+            elem.removeComponent(cc.Button);
+        });
         this.node.getChildByName("hint").opacity = 100;
         this.node.getChildByName("hint").scale = 0;
         cc.tween(this.options)
@@ -744,7 +747,6 @@ var NewClass = /** @class */ (function (_super) {
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.wordVoIteration, false);
             this.scheduleOnce(function () {
-                _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                 _this.CallJockey();
             }, this.wordVoIteration.duration);
         }

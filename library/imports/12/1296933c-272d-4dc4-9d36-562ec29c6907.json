@@ -4087,7 +4087,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 201.77,
+      "width": 305.66,
       "height": 90.4
     },
     "_anchorPoint": {
@@ -4139,9 +4139,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Long vowel\nword families",
-    "_N$string": "Long vowel\nword families",
-    "_fontSize": 35,
+    "_string": "Long Vowel 'a' and 'o'\n Word Families",
+    "_N$string": "Long Vowel 'a' and 'o'\n Word Families",
+    "_fontSize": 32,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": {

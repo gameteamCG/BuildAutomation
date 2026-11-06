@@ -10,7 +10,7 @@
     },
     "questionData": [
         {
-            "questionText": "Solve the picture puzzle",
+            "questionText": "Long Vowel 'a' and  'o' Word Families",
             "questionAudioName": "instruction1.mp3",
             "shouldPlayQuestionAudio": true,
             "commonPuzzleImageName": "panel.png",
@@ -38,7 +38,7 @@
             "reiterationAudioName": "hay.mp3"
         },
         {
-            "questionText": "Solve the picture puzzle",
+            "questionText": "Long Vowel 'a' and  'o' Word Families",
             "questionAudioName": "instruction1.mp3",
             "shouldPlayQuestionAudio": true,
             "commonPuzzleImageName": "panel.png",
@@ -66,7 +66,7 @@
             "reiterationAudioName": "tray.mp3"
         },
         {
-            "questionText": "Solve the picture puzzle",
+            "questionText": "Long Vowel 'a' and  'o' Word Families",
             "questionAudioName": "instruction1.mp3",
             "shouldPlayQuestionAudio": true,
             "commonPuzzleImageName": "panel.png",
