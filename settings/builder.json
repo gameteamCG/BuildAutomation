@@ -54,5 +54,10 @@
     "recordPath": ""
   },
   "appBundle": false,
-  "agreements": {}
+  "agreements": {},
+  "harmonyos-next": {
+    "packageName": "org.cocos2d.demo",
+    "REMOTE_SERVER_ROOT": "",
+    "jsEngine": "JSVM"
+  }
 }

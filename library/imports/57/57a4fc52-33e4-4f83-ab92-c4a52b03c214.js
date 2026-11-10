@@ -154,9 +154,9 @@ var Gameplay = /** @class */ (function (_super) {
         this.UpdateQuestionData();
         this.scheduleOnce(function () {
             _this.OptionsLayout();
-            if (_this.optionsNode.children.length <= 2) {
-                _this.arrangeChildren(_this.optionsNode, 80);
-            }
+            // if (this.optionsNode.children.length <= 2) {
+            //     this.arrangeChildren(this.optionsNode, 80);
+            // }
             var delay = 0.2;
             var _loop_1 = function (i) {
                 _this.optionsNode.children[i].scale = 0;
@@ -503,40 +503,81 @@ var Gameplay = /** @class */ (function (_super) {
             cc.director.loadScene("1");
         }
     };
+    // OptionsLayout() {
+    //     let optionsLayout = this.optionsNode;
+    //     let optionNodes = optionsLayout.children;
+    //     const paddingBetweenOptions = 10;
+    //     let totalWidth = 0;
+    //     let maxHeight = 0;
+    //     for (let i = 0; i < optionNodes.length; i++) {
+    //         let option = optionNodes[i];
+    //         let optionWidth = option.width;
+    //         let optionHeight = option.height;
+    //         totalWidth += optionWidth + paddingBetweenOptions;
+    //         if (optionHeight > maxHeight) {
+    //             maxHeight = optionHeight;
+    //         }
+    //     }
+    //     let availableWidth = optionsLayout.width;
+    //     let totalWidthWithPadding = totalWidth + (optionNodes.length - 1) * paddingBetweenOptions;
+    //     let scaleFactor = Math.min(1, availableWidth / totalWidthWithPadding);
+    //     let accumulatedWidth = 0;
+    //     for (let i = 0; i < optionNodes.length; i++) {
+    //         let option = optionNodes[i];
+    //         let optionScaleFactor = scaleFactor;
+    //         option.width *= optionScaleFactor;
+    //         option.height *= optionScaleFactor;
+    //         let posX = accumulatedWidth + (option.width * option.anchorX);
+    //         option.x = posX - (optionsLayout.width * optionsLayout.anchorX);
+    //         accumulatedWidth += option.width + paddingBetweenOptions;
+    //         for (let subChild of option.children) {
+    //             subChild.x *= optionScaleFactor;
+    //             subChild.y *= optionScaleFactor;
+    //             subChild.width *= optionScaleFactor;
+    //             subChild.height *= optionScaleFactor;
+    //         }
+    //     }
+    //     optionsLayout.height = maxHeight * scaleFactor;
+    // }
     Gameplay.prototype.OptionsLayout = function () {
         var optionsLayout = this.optionsNode;
         var optionNodes = optionsLayout.children;
+        if (optionNodes.length === 0)
+            return;
         var paddingBetweenOptions = 10;
         var totalWidth = 0;
         var maxHeight = 0;
         for (var i = 0; i < optionNodes.length; i++) {
             var option = optionNodes[i];
-            var optionWidth = option.width;
-            var optionHeight = option.height;
-            totalWidth += optionWidth + paddingBetweenOptions;
-            if (optionHeight > maxHeight) {
-                maxHeight = optionHeight;
+            totalWidth += option.width;
+            if (option.height > maxHeight) {
+                maxHeight = option.height;
             }
         }
+        var totalSpacing = (optionNodes.length - 1) * paddingBetweenOptions;
+        var totalRequiredWidth = totalWidth + totalSpacing;
         var availableWidth = optionsLayout.width;
-        var totalWidthWithPadding = totalWidth + (optionNodes.length - 1) * paddingBetweenOptions;
-        var scaleFactor = Math.min(1, availableWidth / totalWidthWithPadding);
-        var accumulatedWidth = 0;
+        // Agar content available width se bada hai toh scale down karega
+        var scaleFactor = Math.min(1, availableWidth / totalRequiredWidth);
+        // Scaling ke baad actual total width
+        var finalTotalWidth = (totalWidth * scaleFactor) + (totalSpacing * scaleFactor);
+        // Center align karne ke liye starting X coordinate (Layout anchor 0.5 ke hisaab se)
+        var currentX = -finalTotalWidth / 2;
         for (var i = 0; i < optionNodes.length; i++) {
             var option = optionNodes[i];
-            var optionScaleFactor = scaleFactor;
-            option.width *= optionScaleFactor;
-            option.height *= optionScaleFactor;
-            var posX = accumulatedWidth + (option.width * option.anchorX);
-            option.x = posX - (optionsLayout.width * optionsLayout.anchorX);
-            accumulatedWidth += option.width + paddingBetweenOptions;
+            option.width *= scaleFactor;
+            option.height *= scaleFactor;
+            // Sub-children ka size & position adjust
             for (var _i = 0, _a = option.children; _i < _a.length; _i++) {
                 var subChild = _a[_i];
-                subChild.x *= optionScaleFactor;
-                subChild.y *= optionScaleFactor;
-                subChild.width *= optionScaleFactor;
-                subChild.height *= optionScaleFactor;
+                subChild.x *= scaleFactor;
+                subChild.y *= scaleFactor;
+                subChild.width *= scaleFactor;
+                subChild.height *= scaleFactor;
             }
+            // Anchor point ke hisaab se center me position set karein
+            option.x = currentX + (option.width * option.anchorX);
+            currentX += option.width + (paddingBetweenOptions * scaleFactor);
         }
         optionsLayout.height = maxHeight * scaleFactor;
     };
