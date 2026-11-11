@@ -58,16 +58,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.jockeyCorrect2 = null;
         _this.wrongAnswer = null;
         _this.questions = [
-            "spinach",
-            "mint",
-            "coriander",
-            "lettuce",
-            "chives",
-            "curry\nleaves",
-            "fenugreek\nleaves",
-            "spring\nonion",
-            "cabbage",
-            "basil",
+            "bat", "bed", "bin", "dog", "sun"
         ];
         // @property(cc.SpriteFrame)
         _this.temporarySprites = [];
@@ -853,7 +844,7 @@ var NewClass = /** @class */ (function (_super) {
                     label.string =
                         StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
                     // Apply styling for Level 3 and Level 6
-                    if (StartGame_1.default.Instance.currentLevel == 3 ||
+                    if (StartGame_1.default.Instance.currentLevel == 9 ||
                         StartGame_1.default.Instance.currentLevel == 6 ||
                         StartGame_1.default.Instance.currentLevel == 7) {
                         label.fontSize = 40; // Set your desired font size

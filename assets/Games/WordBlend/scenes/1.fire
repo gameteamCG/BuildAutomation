@@ -3061,9 +3061,9 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 0,
-      "b": 255,
+      "r": 66,
+      "g": 33,
+      "b": 11,
       "a": 255
     },
     "_contentSize": {
@@ -3122,8 +3122,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 50,
-    "_lineHeight": 55,
+    "_fontSize": 100,
+    "_lineHeight": 120,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "76a75812-cc05-483f-a8f7-4ccf842f4aa4"
@@ -3972,7 +3972,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 284.59,
+      "width": 337.94,
       "height": 63
     },
     "_anchorPoint": {
@@ -4024,8 +4024,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Leafy vegetables",
-    "_N$string": "Leafy vegetables",
+    "_string": "Vowels in the middle",
+    "_N$string": "Vowels in the middle",
     "_fontSize": 45,
     "_lineHeight": 50,
     "_enableWrapText": true,
@@ -4123,8 +4123,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 45,
-    "_lineHeight": 50,
+    "_fontSize": 55,
+    "_lineHeight": 60,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "e9b6b310-5e42-4213-a3f1-9ffa7547edbb"
@@ -4197,7 +4197,9 @@
     "correctAction": {
       "__uuid__": "78ea7baa-3895-4313-b442-0081329059ff"
     },
-    "hint": null,
+    "hint": {
+      "__uuid__": "484c3df4-2017-49f7-a9b4-2d0f639596fc"
+    },
     "incorrectButton": [
       {
         "__uuid__": "22b5f6b5-8d05-43a2-98b7-f925231e8ad8"

@@ -47,16 +47,7 @@ export default class NewClass extends cc.Component {
     @property(cc.AudioClip)
     wrongAnswer: cc.AudioClip = null;
     private questions: string[] = [
-        "spinach", // 21
-        "mint", // 23
-        "coriander", // 24
-        "lettuce", // 22
-        "chives", // 26
-        "curry\nleaves", // 25
-        "fenugreek\nleaves", // 28
-        "spring\nonion", // 29
-        "cabbage", // 27
-        "basil", // 27
+        "bat", "bed", "bin", "dog", "sun"
     ];
     // @property(cc.SpriteFrame)
     temporarySprites: cc.SpriteFrame[] = [];
@@ -943,7 +934,7 @@ export default class NewClass extends cc.Component {
 
                     // Apply styling for Level 3 and Level 6
                     if (
-                        startGame.Instance.currentLevel == 3 ||
+                        startGame.Instance.currentLevel == 9 ||
                         startGame.Instance.currentLevel == 6 ||
                         startGame.Instance.currentLevel == 7
                     ) {

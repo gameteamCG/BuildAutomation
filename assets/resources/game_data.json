@@ -1,7 +1,7 @@
 {
   "additionalData": {
     "GameID": "LKG_SB3_Numeracy_46: Tens and Ones 21 to 30",
-    "totalLevel": "10",
+    "totalLevel": "5",
     "TitleImageName": "titletensandones.png",
     "introBgName": "LKG.png",
     "bgmMusicName": "bgm.mp3",
@@ -31,8 +31,8 @@
       "isOptionText": true,
       "numberOfOptions": 2,
       "options": [
-        "mint",
-        "spinach"
+        "bit",
+        "bat"
       ],
       "correctAnswer": "2",
       "reiterationAudioName": "1.mp3"
@@ -59,8 +59,8 @@
       "isOptionText": true,
       "numberOfOptions": 2,
       "options": [
-        "mint",
-        "chives"
+        "bed",
+        "bud"
       ],
       "correctAnswer": "1",
       "reiterationAudioName": "2.mp3"
@@ -87,8 +87,8 @@
       "isOptionText": true,
       "numberOfOptions": 2,
       "options": [
-        "spinach",
-        "coriander"
+        "brick",
+        "bin"
       ],
       "correctAnswer": "2",
       "reiterationAudioName": "3.mp3"
@@ -115,8 +115,8 @@
       "isOptionText": true,
       "numberOfOptions": 2,
       "options": [
-        "mint",
-        "lettuce"
+        "day",
+        "dog"
       ],
       "correctAnswer": "2",
       "reiterationAudioName": "4.mp3"
@@ -143,151 +143,11 @@
       "isOptionText": true,
       "numberOfOptions": 2,
       "options": [
-        "spinach",
-        "chives"
+        "spin",
+        "sun"
       ],
       "correctAnswer": "2",
       "reiterationAudioName": "5.mp3"
-    },
-    {
-      "questionText": "",
-      "questionAudioName": "solve-the-picture.mp3",
-      "shouldPlayQuestionAudio": true,
-      "commonPuzzleImageName": "try.png",
-      "isHintRequired": false,
-      "numberOfPuzzles": 4,
-      "puzzles": [
-        "L6_1.png",
-        "L6_2.png",
-        "L6_3.png",
-        "L6_4.png"
-      ],
-      "correctAudioName": "empty.mp3",
-      "needReiteration": true,
-      "interactionType": "1",
-      "questionText2": "",
-      "questionAudioName2": "counttensandones.mp3",
-      "commonOptionImageName": "try.png",
-      "isOptionText": true,
-      "numberOfOptions": 2,
-      "options": [
-        "curry\nleaves",
-        "chives"
-      ],
-      "correctAnswer": "1",
-      "reiterationAudioName": "6.mp3"
-    },
-    {
-      "questionText": "",
-      "questionAudioName": "solve-the-picture.mp3",
-      "shouldPlayQuestionAudio": true,
-      "commonPuzzleImageName": "try.png",
-      "isHintRequired": false,
-      "numberOfPuzzles": 4,
-      "puzzles": [
-        "L7_1.png",
-        "L7_2.png",
-        "L7_3.png",
-        "L7_4.png"
-      ],
-      "correctAudioName": "empty.mp3",
-      "needReiteration": true,
-      "interactionType": "1",
-      "questionText2": "",
-      "questionAudioName2": "counttensandones.mp3",
-      "commonOptionImageName": "try.png",
-      "isOptionText": true,
-      "numberOfOptions": 2,
-      "options": [
-        "fenugreek\nleaves",
-        "spinach"
-      ],
-      "correctAnswer": "1",
-      "reiterationAudioName": "7.mp3"
-    },
-    {
-      "questionText": "",
-      "questionAudioName": "solve-the-picture.mp3",
-      "shouldPlayQuestionAudio": true,
-      "commonPuzzleImageName": "try.png",
-      "isHintRequired": false,
-      "numberOfPuzzles": 4,
-      "puzzles": [
-        "L8_1.png",
-        "L8_2.png",
-        "L8_3.png",
-        "L8_4.png"
-      ],
-      "correctAudioName": "empty.mp3",
-      "needReiteration": true,
-      "interactionType": "1",
-      "questionText2": "",
-      "questionAudioName2": "counttensandones.mp3",
-      "commonOptionImageName": "try.png",
-      "isOptionText": true,
-      "numberOfOptions": 2,
-      "options": [
-        "mint",
-        "spring\nonion"
-      ],
-      "correctAnswer": "2",
-      "reiterationAudioName": "8.mp3"
-    },
-    {
-      "questionText": "",
-      "questionAudioName": "solve-the-picture.mp3",
-      "shouldPlayQuestionAudio": true,
-      "commonPuzzleImageName": "try.png",
-      "isHintRequired": false,
-      "numberOfPuzzles": 4,
-      "puzzles": [
-        "L9_1.png",
-        "L9_2.png",
-        "L9_3.png",
-        "L9_4.png"
-      ],
-      "correctAudioName": "empty.mp3",
-      "needReiteration": true,
-      "interactionType": "1",
-      "questionText2": "",
-      "questionAudioName2": "counttensandones.mp3",
-      "commonOptionImageName": "try.png",
-      "isOptionText": true,
-      "numberOfOptions": 2,
-      "options": [
-        "mint",
-        "cabbage"
-      ],
-      "correctAnswer": "2",
-      "reiterationAudioName": "9.mp3"
-    },
-    {
-      "questionText": "",
-      "questionAudioName": "solve-the-picture.mp3",
-      "shouldPlayQuestionAudio": true,
-      "commonPuzzleImageName": "try.png",
-      "isHintRequired": false,
-      "numberOfPuzzles": 4,
-      "puzzles": [
-        "L10_1.png",
-        "L10_2.png",
-        "L10_3.png",
-        "L10_4.png"
-      ],
-      "correctAudioName": "empty.mp3",
-      "needReiteration": true,
-      "interactionType": "1",
-      "questionText2": "",
-      "questionAudioName2": "counttensandones.mp3",
-      "commonOptionImageName": "try.png",
-      "isOptionText": true,
-      "numberOfOptions": 2,
-      "options": [
-        "chives",
-        "basil"
-      ],
-      "correctAnswer": "2",
-      "reiterationAudioName": "10.mp3"
     }
   ]
 }
