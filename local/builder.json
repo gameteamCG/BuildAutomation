@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "D:\\Builds\\SmartTV\\LKG\\GA\\Animal_shadow_matching_LKG_GA_84_SmartTV",
+  "buildPath": "D:\\Builds\\SB4\\ap_word_family_LKG_SB4_20_SmartTV",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
@@ -18,6 +18,115 @@
   "vsVersion": "auto",
   "buildScriptsOnly": false,
   "buildHistory": [
+    {
+      "id": 4,
+      "startTime": 1794399888303,
+      "targets": [
+        {
+          "taskId": "13aa0a47-c98b-4c6f-92e7-22aa6f95394a",
+          "platform": "web-mobile",
+          "platformText": "Web Mobile",
+          "color": "#1E88E5",
+          "icon": "fa-globe",
+          "iconUrl": "C:\\ProgramData\\cocos\\editors\\Creator\\2.4.8\\resources\\app.asar\\editor\\builtin\\builder\\static\\images\\platforms\\web-mobile\\icon.png",
+          "label": "Web Mobile",
+          "status": "success",
+          "buildType": "normal",
+          "distPath": "D:\\Builds\\SB4\\ap_word_family_LKG_SB4_20_SmartTV\\web-mobile",
+          "error": null,
+          "startTime": 1794399888320,
+          "endTime": 1794399915507,
+          "config": {
+            "project": {
+              "title": "ap_word_family_LKG_SB4_20_SmartTV",
+              "packageName": "org.cocos2d.demo",
+              "startScene": "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a",
+              "excludeScenes": [],
+              "orientation": {
+                "landscapeRight": true,
+                "landscapeLeft": true,
+                "portrait": false,
+                "upsideDown": false
+              },
+              "webOrientation": "landscape",
+              "inlineSpriteFrames": true,
+              "inlineSpriteFrames_native": true,
+              "mainCompressionType": "default",
+              "mainIsRemote": false,
+              "optimizeHotUpdate": false,
+              "md5Cache": true,
+              "nativeMd5Cache": true,
+              "encryptJs": true,
+              "xxteaKey": "ee9f229f-a1f7-4e",
+              "zipCompressJs": true,
+              "fb-instant-games": {},
+              "android": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": ""
+              },
+              "ios": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "ios_enable_jit": true
+              },
+              "mac": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "win32": {
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "android-instant": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "pathPattern": "",
+                "scheme": "https",
+                "host": "",
+                "skipRecord": false,
+                "recordPath": ""
+              },
+              "appBundle": false,
+              "agreements": {},
+              "harmonyos-next": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "jsEngine": "JSVM"
+              }
+            },
+            "local": {
+              "platform": "web-mobile",
+              "actualPlatform": "web-mobile",
+              "template": "link",
+              "buildPath": "D:\\Builds\\SB4\\ap_word_family_LKG_SB4_20_SmartTV",
+              "debug": false,
+              "sourceMaps": false,
+              "embedWebDebugger": false,
+              "previewWidth": "1280",
+              "previewHeight": "720",
+              "useDebugKeystore": true,
+              "keystorePath": "",
+              "keystorePassword": "",
+              "keystoreAlias": "",
+              "keystoreAliasPassword": "",
+              "apiLevel": "",
+              "appABIs": [],
+              "vsVersion": "auto",
+              "buildScriptsOnly": false,
+              "builderEntryCategory": "",
+              "builderEntryTab": "",
+              "identityDefaults": {}
+            },
+            "platformProfile": {}
+          },
+          "buildStageGroup": {},
+          "compile": null
+        }
+      ]
+    },
     {
       "id": 3,
       "startTime": 1793345117382,
@@ -346,7 +455,7 @@
       ]
     }
   ],
-  "buildRunNextId": 4,
+  "buildRunNextId": 5,
   "builderEntryCategory": "",
   "builderEntryTab": "",
   "identityDefaults": {}

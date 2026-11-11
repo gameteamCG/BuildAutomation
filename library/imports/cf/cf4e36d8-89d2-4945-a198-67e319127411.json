@@ -556,8 +556,8 @@
         0,
         0,
         1,
-        0.55,
-        0.55,
+        0.5,
+        0.5,
         1
       ]
     },
@@ -1178,7 +1178,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -90,
+        -81,
         0,
         0,
         0,
@@ -1217,9 +1217,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Animal shadow matching",
-    "_N$string": "Animal shadow matching",
-    "_fontSize": 80,
+    "_string": "ap word family",
+    "_N$string": "ap word family",
+    "_fontSize": 90,
     "_lineHeight": 130,
     "_enableWrapText": true,
     "_N$file": {
