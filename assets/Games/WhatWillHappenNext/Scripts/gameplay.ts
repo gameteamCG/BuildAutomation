@@ -136,7 +136,7 @@ export default class NewClass extends cc.Component {
 
 
         this.TotalOptions = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions;
-        this.answerString = ["Gloves", "Glass", "Globe", "Glider", "Glue", "Glasses", "Glow"]
+        this.answerString = ["Lemons", "Balls", "Prams", "Cars", "Flowers"]
         this.optionsNode = this.node.getChildByName("Option");
         this.node.getChildByName("QuestionBox").zIndex = 1;
         if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionBG) {

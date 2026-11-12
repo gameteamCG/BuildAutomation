@@ -110,7 +110,7 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         }
         this.TotalOptions = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions;
-        this.answerString = ["Gloves", "Glass", "Globe", "Glider", "Glue", "Glasses", "Glow"];
+        this.answerString = ["Lemons", "Balls", "Prams", "Cars", "Flowers"];
         this.optionsNode = this.node.getChildByName("Option");
         this.node.getChildByName("QuestionBox").zIndex = 1;
         if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionBG) {
