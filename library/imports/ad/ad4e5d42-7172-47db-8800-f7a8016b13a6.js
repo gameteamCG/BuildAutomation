@@ -537,7 +537,7 @@ var NewClass = /** @class */ (function (_super) {
             .to(0.5, { width: 500, height: 500 }, { easing: "sineInOut" })
             .start();
         this.scheduleOnce(function () {
-            _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+            _this.node.getChildByName("confetti").setPosition(0, 0);
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(_this.positiveSound[0], false);
             _this.scheduleOnce(function () {

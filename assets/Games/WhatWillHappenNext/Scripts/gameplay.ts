@@ -608,7 +608,7 @@ export default class NewClass extends cc.Component {
       .to(0.5, { width: 500, height: 500 }, { easing: "sineInOut" })
       .start();
     this.scheduleOnce(() => {
-      this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+      this.node.getChildByName("confetti").setPosition(0, 0);
       this.node.getChildByName("confetti").getComponent(cc.Animation).play();
       cc.audioEngine.playEffect(this.positiveSound[0], false);
       this.scheduleOnce(() => {
