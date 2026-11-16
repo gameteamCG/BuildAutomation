@@ -1843,7 +1843,7 @@
     "_lineHeight": 130,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "aeec3b5e-4b5a-4178-9128-c885bc14f054"
+      "__uuid__": "b109bf26-acba-469a-81e1-019e442a53b4"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -1973,8 +1973,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 3,
-    "transition": 3,
+    "_N$transition": 1,
+    "transition": 1,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,

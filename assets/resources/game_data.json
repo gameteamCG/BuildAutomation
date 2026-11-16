@@ -2,7 +2,7 @@
   "additionalData": {
     "GameID": "Letters and sounds Jj_NUR_SB2_16",
     "totalLevel": "7",
-    "TitleImageName": "Letter Jj.png",
+    "TitleImageName": "LetterJJnew.png",
     "introBgName": "bg.png",
     "bgmMusicName": "BGM.mp3",
     "mainBgName": "bg2.png",
@@ -11,49 +11,61 @@
   "questionData": [
     {
       "questionText": "Letter sound",
-      "questionImageName": "Jj.png",
+      "questionImageName": "Jjnew.png",
       "questionAudioName": "Q-J1.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "Questioncard.png",
       "isOptionText": false,
       "numberOfOptions": 2,
-      "options": ["500x500_0000_jump.png", "500x500_0008_Carrot.png"],
+      "options": [
+        "500x500_0000_jump.png",
+        "500x500_0008_Carrot.png"
+      ],
       "correctAudioName": "jump.mp3",
       "correctAnswerNum": "1"
     },
     {
       "questionText": "Letter sound",
-      "questionImageName": "Jj.png",
+      "questionImageName": "Jjnew.png",
       "questionAudioName": "Q-J1.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "Questioncard.png",
       "isOptionText": false,
       "numberOfOptions": 2,
-      "options": ["500x500_0004_hen.png", "500x500_0001_jar.png"],
+      "options": [
+        "500x500_0004_hen.png",
+        "500x500_0001_jar.png"
+      ],
       "correctAudioName": "jar.mp3",
       "correctAnswerNum": "2"
     },
     {
       "questionText": "Letter sound",
-      "questionImageName": "Jj.png",
+      "questionImageName": "Jjnew.png",
       "questionAudioName": "Q-J1.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "Questioncard.png",
       "isOptionText": false,
       "numberOfOptions": 2,
-      "options": ["500x500_0005_Car.png", "500x500_0002_jelly.png"],
+      "options": [
+        "500x500_0005_Car.png",
+        "500x500_0002_jelly.png"
+      ],
       "correctAudioName": "jelly.mp3",
       "correctAnswerNum": "2"
     },
     {
       "questionText": "Letter sound",
-      "questionImageName": "Jj.png",
+      "questionImageName": "Jjnew.png",
       "questionAudioName": "Q-J1.mp3",
       "shouldPlayQuestionAudio": false,
       "commonOptionImageName": "Questioncard.png",
       "isOptionText": false,
       "numberOfOptions": 2,
-      "options": ["500x500_0005_jam.png", "500x500_0009_Corn.png"],
+      "options": [
+        "500x500_0005_jam.png",
+        "500x500_0009_Corn.png"
+      ],
       "correctAudioName": "jam.mp3",
       "correctAnswerNum": "1"
     },
@@ -65,7 +77,10 @@
       "commonOptionImageName": "Questioncard.png",
       "isOptionText": false,
       "numberOfOptions": 2,
-      "options": ["Jj.png", "Tt.png"],
+      "options": [
+        "Jjnew.png",
+        "Ttnew.png"
+      ],
       "correctAudioName": "JJJACKET.mp3",
       "correctAnswerNum": "1"
     },
@@ -77,7 +92,10 @@
       "commonOptionImageName": "Questioncard.png",
       "isOptionText": false,
       "numberOfOptions": 2,
-      "options": ["Aa.png", "Jj.png"],
+      "options": [
+        "Aanew.png",
+        "Jjnew.png"
+      ],
       "correctAudioName": "JJJUG.mp3",
       "correctAnswerNum": "2"
     },
@@ -89,7 +107,10 @@
       "commonOptionImageName": "Questioncard.png",
       "isOptionText": false,
       "numberOfOptions": 2,
-      "options": ["Jj.png", "Hh.png"],
+      "options": [
+        "Jjnew.png",
+        "Hhnew.png"
+      ],
       "correctAudioName": "JJJELLYFISH.mp3",
       "correctAnswerNum": "1"
     }

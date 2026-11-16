@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "LetterJJnew",
+    "texture": "88bae491-11d9-41fd-bd83-b4ef9a441faa",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      556,
+      219
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      556,
+      219
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Aanew",
+    "texture": "eea37b20-58bc-49ac-a837-0cdf5211187e",
+    "atlas": "",
+    "rect": [
+      18,
+      124,
+      465,
+      275
+    ],
+    "offset": [
+      0,
+      26.5
+    ],
+    "originalSize": [
+      501,
+      576
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

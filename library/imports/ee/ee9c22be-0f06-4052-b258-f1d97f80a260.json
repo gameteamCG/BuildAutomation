@@ -7,7 +7,7 @@
     "additionalData": {
       "GameID": "Letters and sounds Jj_NUR_SB2_16",
       "totalLevel": "7",
-      "TitleImageName": "Letter Jj.png",
+      "TitleImageName": "LetterJJnew.png",
       "introBgName": "bg.png",
       "bgmMusicName": "BGM.mp3",
       "mainBgName": "bg2.png",
@@ -16,7 +16,7 @@
     "questionData": [
       {
         "questionText": "Letter sound",
-        "questionImageName": "Jj.png",
+        "questionImageName": "Jjnew.png",
         "questionAudioName": "Q-J1.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Questioncard.png",
@@ -31,7 +31,7 @@
       },
       {
         "questionText": "Letter sound",
-        "questionImageName": "Jj.png",
+        "questionImageName": "Jjnew.png",
         "questionAudioName": "Q-J1.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Questioncard.png",
@@ -46,7 +46,7 @@
       },
       {
         "questionText": "Letter sound",
-        "questionImageName": "Jj.png",
+        "questionImageName": "Jjnew.png",
         "questionAudioName": "Q-J1.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Questioncard.png",
@@ -61,7 +61,7 @@
       },
       {
         "questionText": "Letter sound",
-        "questionImageName": "Jj.png",
+        "questionImageName": "Jjnew.png",
         "questionAudioName": "Q-J1.mp3",
         "shouldPlayQuestionAudio": false,
         "commonOptionImageName": "Questioncard.png",
@@ -83,8 +83,8 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "Jj.png",
-          "Tt.png"
+          "Jjnew.png",
+          "Ttnew.png"
         ],
         "correctAudioName": "JJJACKET.mp3",
         "correctAnswerNum": "1"
@@ -98,8 +98,8 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "Aa.png",
-          "Jj.png"
+          "Aanew.png",
+          "Jjnew.png"
         ],
         "correctAudioName": "JJJUG.mp3",
         "correctAnswerNum": "2"
@@ -113,8 +113,8 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "Jj.png",
-          "Hh.png"
+          "Jjnew.png",
+          "Hhnew.png"
         ],
         "correctAudioName": "JJJELLYFISH.mp3",
         "correctAnswerNum": "1"

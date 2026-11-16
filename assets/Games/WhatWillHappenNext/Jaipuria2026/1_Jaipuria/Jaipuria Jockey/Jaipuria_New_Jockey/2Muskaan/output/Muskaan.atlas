@@ -1,0 +1,237 @@
+
+Muskaan.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 786, 123
+  size: 28, 50
+  orig: 28, 50
+  offset: 0, 0
+  index: -1
+10
+  rotate: true
+  xy: 385, 87
+  size: 129, 104
+  orig: 129, 104
+  offset: 0, 0
+  index: -1
+11
+  rotate: true
+  xy: 786, 467
+  size: 43, 53
+  orig: 43, 53
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 751, 259
+  size: 43, 53
+  orig: 43, 53
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 744, 52
+  size: 33, 54
+  orig: 33, 54
+  offset: 0, 0
+  index: -1
+14
+  rotate: true
+  xy: 779, 53
+  size: 53, 44
+  orig: 53, 44
+  offset: 0, 0
+  index: -1
+15
+  rotate: true
+  xy: 751, 229
+  size: 28, 52
+  orig: 28, 52
+  offset: 0, 0
+  index: -1
+16
+  rotate: false
+  xy: 786, 175
+  size: 28, 52
+  orig: 28, 52
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 699, 52
+  size: 43, 54
+  orig: 43, 54
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 753, 2
+  size: 43, 48
+  orig: 43, 48
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 798, 2
+  size: 44, 49
+  orig: 44, 49
+  offset: 0, 0
+  index: -1
+Layer 100
+  rotate: false
+  xy: 592, 87
+  size: 34, 13
+  orig: 34, 13
+  offset: 0, 0
+  index: -1
+Layer 101
+  rotate: false
+  xy: 788, 389
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+Layer 103
+  rotate: false
+  xy: 143, 8
+  size: 44, 69
+  orig: 44, 69
+  offset: 0, 0
+  index: -1
+Layer 104
+  rotate: false
+  xy: 641, 224
+  size: 108, 68
+  orig: 108, 68
+  offset: 0, 0
+  index: -1
+Layer 78 copy
+  rotate: true
+  xy: 385, 218
+  size: 292, 254
+  orig: 292, 254
+  offset: 0, 0
+  index: -1
+Layer 79 copy
+  rotate: true
+  xy: 2, 79
+  size: 431, 381
+  orig: 431, 381
+  offset: 0, 0
+  index: -1
+Layer 84 copy 2
+  rotate: false
+  xy: 234, 9
+  size: 135, 68
+  orig: 135, 68
+  offset: 0, 0
+  index: -1
+Layer 84 copy 3
+  rotate: false
+  xy: 2, 7
+  size: 139, 70
+  orig: 139, 70
+  offset: 0, 0
+  index: -1
+Layer 86 copy
+  rotate: false
+  xy: 844, 479
+  size: 155, 31
+  orig: 155, 31
+  offset: 0, 0
+  index: -1
+Layer 87 copy 2
+  rotate: false
+  xy: 371, 9
+  size: 108, 68
+  orig: 108, 68
+  offset: 0, 0
+  index: -1
+Layer 88 copy
+  rotate: false
+  xy: 743, 314
+  size: 43, 148
+  orig: 43, 148
+  offset: 0, 0
+  index: -1
+Layer 89 copy 3
+  rotate: false
+  xy: 189, 8
+  size: 43, 69
+  orig: 43, 69
+  offset: 0, 0
+  index: -1
+Layer 90 copy
+  rotate: false
+  xy: 743, 464
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+Layer 90 copy 2
+  rotate: false
+  xy: 788, 419
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+Layer 91 copy
+  rotate: false
+  xy: 628, 87
+  size: 32, 13
+  orig: 32, 13
+  offset: 0, 0
+  index: -1
+Layer 92
+  rotate: false
+  xy: 592, 102
+  size: 95, 114
+  orig: 95, 114
+  offset: 0, 0
+  index: -1
+Layer 92 copy
+  rotate: false
+  xy: 689, 108
+  size: 95, 114
+  orig: 95, 114
+  offset: 0, 0
+  index: -1
+Layer 99
+  rotate: false
+  xy: 491, 90
+  size: 99, 126
+  orig: 99, 126
+  offset: 0, 0
+  index: -1
+lips1
+  rotate: false
+  xy: 699, 2
+  size: 52, 48
+  orig: 52, 48
+  offset: 0, 0
+  index: -1
+lips2
+  rotate: true
+  xy: 641, 294
+  size: 216, 55
+  orig: 216, 55
+  offset: 0, 0
+  index: -1
+lips3
+  rotate: true
+  xy: 698, 294
+  size: 216, 43
+  orig: 216, 43
+  offset: 0, 0
+  index: -1
+lips4
+  rotate: false
+  xy: 481, 6
+  size: 216, 79
+  orig: 216, 79
+  offset: 0, 0
+  index: -1

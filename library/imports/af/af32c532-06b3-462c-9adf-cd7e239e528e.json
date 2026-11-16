@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bgRough",
+    "texture": "4e38b4f7-7f63-4108-8dc9-150d328dbbb1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1215,
+      605
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1215,
+      605
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
