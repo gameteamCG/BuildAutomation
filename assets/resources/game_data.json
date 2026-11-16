@@ -1,8 +1,8 @@
 {
   "additionalData": {
     "GameID": "Letter Zz Letters and Sounds_Nur_SB5_6",
-    "totalLevel": "5",
-    "TitleImageName": "Zz.png",
+    "totalLevel": "4",
+    "TitleImageName": "Asset 325.png",
     "introBgName": "NUR.png",
     "bgmMusicName": "bgm3.mp3",
     "JockeyName": "Puzzle"
@@ -22,10 +22,10 @@
         ""
       ],
       "optionsBg": [
-        "ballonzz.png",
-        "ballonxx.png",
-        "ballonzz.png",
-        "ballonyy.png"
+        "Zznew.png",
+        "Xxnew.png",
+        "Zznew.png",
+        "Yynew.png"
       ],
       "correctAudioName": "EXCELLENTJOB.mp3",
       "wrongAudioName": "nevermindtryagain.mp3",
@@ -48,9 +48,9 @@
         ""
       ],
       "optionsBg": [
-        "kitez.png",
-        "kitex.png",
-        "kitez.png"
+        "Zznew2.png",
+        "Xxnew2.png",
+        "Zznew2.png"
       ],
       "correctAudioName": "EXCEPTIONAL.mp3",
       "wrongAudioName": "ohoh.mp3",
@@ -73,9 +73,9 @@
         ""
       ],
       "optionsBg": [
-        "zzz.png",
-        "kkkkkk.png",
-        "zzz.png"
+        "Znew.png",
+        "Knew.png",
+        "Znew.png"
       ],
       "correctAudioName": "GOODEFFORT.mp3",
       "wrongAudioName": "Oopsietryoncemore.mp3",
@@ -87,44 +87,20 @@
     },
     {
       "questionLayout": "layout3",
-      "questionBgName": "l3bg.png",
-      "questionAudioName": "beginsz.mp3",
-      "shouldPlayQuestionAudio": true,
-      "isOptionText": false,
-      "numberOfOptions": 3,
-      "options": [
-        "lio.png",
-        "zeeb.png",
-        "hir.png"
-      ],
-      "optionsBg": [
-        "",
-        "zee.png",
-        ""
-      ],
-      "correctAudioName": "EXCELLENTJOB.mp3",
-      "wrongAudioName": "nevermindtryagain.mp3",
-      "reiterationAudioName": [
-        "zebra.mp3"
-      ],
-      "correctAnswerNum": "2"
-    },
-    {
-      "questionLayout": "layout3",
       "questionBgName": "l3bgsada.png",
       "questionAudioName": "beginsz.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "numberOfOptions": 3,
       "options": [
-        "zipb.png",
+        "zip.png",
         "pur.png",
         "shada.png"
       ],
       "optionsBg": [
-        "zip.png",
-        "",
-        ""
+        "zipb.png",
+        "pur.png",
+        "shada.png"
       ],
       "correctAudioName": "GOODEFFORT.mp3",
       "wrongAudioName": "Oopsietryoncemore.mp3",

@@ -29,13 +29,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
     __extends(Gameplay, _super);
     function Gameplay() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.QVo = [];
         _this.podar_font = null;
         _this.jaipuria_font = null;
         _this.supercub_font = null;
@@ -557,7 +558,7 @@ var Gameplay = /** @class */ (function (_super) {
             anim = ["celebration", "well_done"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
@@ -636,7 +637,7 @@ var Gameplay = /** @class */ (function (_super) {
                 anim = ["try_again"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+                anim = ["negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3", "negative_1"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "stallion") {
                 anim = ["negative_1", "negative_2"];
@@ -754,6 +755,18 @@ var Gameplay = /** @class */ (function (_super) {
             callback(audioClip);
         });
     };
+    Gameplay.prototype.playvobutton = function () {
+        var _this = this;
+        this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.QVo[StartGame_1.default.Instance.currentLevel - 1], false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.QVo[StartGame_1.default.Instance.currentLevel - 1].duration + 0.1);
+    };
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "QVo", void 0);
     __decorate([
         property(cc.Font)
     ], Gameplay.prototype, "podar_font", void 0);

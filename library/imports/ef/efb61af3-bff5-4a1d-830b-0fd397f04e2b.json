@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Znew",
+    "texture": "a784966c-8419-458e-9be1-a9c156bba26a",
+    "atlas": "",
+    "rect": [
+      47,
+      0,
+      155,
+      249
+    ],
+    "offset": [
+      -1.5,
+      1.5
+    ],
+    "originalSize": [
+      252,
+      252
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
