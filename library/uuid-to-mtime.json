@@ -4370,8 +4370,8 @@
     "relativePath": "Games\\Book_Prefab\\titleAssets\\BG.png"
   },
   "7748b515-563a-4aac-ae9b-a095867ef32d": {
-    "asset": 1794805892109,
-    "meta": 1794805937786,
+    "asset": 1794807365336,
+    "meta": 1794807705547,
     "relativePath": "resources\\audios"
   },
   "78839429-d76f-474a-9b27-c02f3db2e34f": {
@@ -4650,8 +4650,8 @@
     "relativePath": "Games\\fantastic.png"
   },
   "8591a91f-990d-4852-bf33-4208831dde2f": {
-    "asset": 1794807579274,
-    "meta": 1794807579286,
+    "asset": 1794807793064,
+    "meta": 1794807793079,
     "relativePath": "Games\\Scenes\\video.fire"
   },
   "611dc9cd-6ca2-4949-8975-ad6fbcd7806d": {
@@ -4739,11 +4739,6 @@
     "meta": 1794806015176,
     "relativePath": "Games\\Scripts\\PlayVideo.ts"
   },
-  "959f7039-8e9b-4c1a-9c53-bc15dec99ae5": {
-    "asset": 1794806235231,
-    "meta": 1794806236973,
-    "relativePath": "Games\\Scripts\\video.ts"
-  },
   "c5618c08-01f7-4cb1-b291-c801a993c8dd": {
     "asset": 1794807365336,
     "meta": 1794807365766,
@@ -4758,5 +4753,10 @@
     "asset": 1794807543867,
     "meta": 1794807544744,
     "relativePath": "Framework\\Scripts\\StartGame.ts"
+  },
+  "959f7039-8e9b-4c1a-9c53-bc15dec99ae5": {
+    "asset": 1794807751916,
+    "meta": 1794807753259,
+    "relativePath": "Games\\Scripts\\video.ts"
   }
 }
