@@ -341,7 +341,7 @@
     "node": {
       "__id__": 5
     },
-    "_enabled": true,
+    "_enabled": false,
     "_resourceType": 0,
     "_remoteURL": "https://s3.ap-south-1.amazonaws.com/cgvideos.creativegalileo.com/KTB_Videos/Jaipuria/PT_LV_44_FruitsSong_V2.mp4",
     "_clip": {
@@ -570,7 +570,7 @@
       "__id__": 10
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 12
@@ -674,7 +674,7 @@
         "__id__": 18
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 21
@@ -1139,7 +1139,7 @@
         "__id__": 24
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 27
@@ -6401,7 +6401,7 @@
     "node": {
       "__id__": 130
     },
-    "_enabled": true,
+    "_enabled": false,
     "_materials": [
       {
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
@@ -6525,7 +6525,7 @@
         "__id__": 139
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 141
@@ -7905,8 +7905,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1172,
-      "height": 222
+      "width": 628,
+      "height": 185
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
