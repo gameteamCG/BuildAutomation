@@ -38,7 +38,7 @@ export default class startGame extends cc.Component {
     @property(cc.AudioClip)
     BGM_audio: cc.AudioClip = null;
     @property(Number)
-    volume: number = 1;
+    volume: number = 0.08;
     @property(cc.String)
     NextSceneName: string = "1";
     @property(Number)
@@ -285,8 +285,8 @@ export default class startGame extends cc.Component {
             this.hasAccess = true;
         }
 
-        // let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-        // cc.audioEngine.setVolume(id, this.volume);
+        let id = cc.audioEngine.playMusic(this.BGM_audio, true);
+        cc.audioEngine.setVolume(id, this.volume);
         if (isAudio == "false") {
             this.node.getChildByName("music").children[0].active = true;
             this.isMusicOn = false;
@@ -338,7 +338,7 @@ export default class startGame extends cc.Component {
     }
 
     OnMusic(event: cc.Event) {
-        if (event.target.children[0].activeInHierarchy && this.BGM_audio != null) {
+        if (event.target.children[0].activeInHierarchy) {
             this.isMusicOn = true;
             event.target.children[0].active = false;
             let id = cc.audioEngine.playMusic(this.BGM_audio, true);

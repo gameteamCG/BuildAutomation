@@ -4650,8 +4650,8 @@
     "relativePath": "Games\\fantastic.png"
   },
   "8591a91f-990d-4852-bf33-4208831dde2f": {
-    "asset": 1794806332359,
-    "meta": 1794806332371,
+    "asset": 1794807579274,
+    "meta": 1794807579286,
     "relativePath": "Games\\Scenes\\video.fire"
   },
   "611dc9cd-6ca2-4949-8975-ad6fbcd7806d": {
@@ -4709,11 +4709,6 @@
     "meta": 1794805938753,
     "relativePath": "Games\\output 23\\jaipuria4.ttf"
   },
-  "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
-    "asset": 1794805891475,
-    "meta": 1794805938554,
-    "relativePath": "Framework\\Scripts\\StartGame.ts"
-  },
   "a8f8c14f-edff-4c06-a974-4d6adbf14b28": {
     "asset": 1769066872633,
     "meta": 1794805940521,
@@ -4739,11 +4734,6 @@
     "meta": 1794805939944,
     "relativePath": "resources\\images\\Asset 316.png"
   },
-  "c2ea2671-af3a-4c58-ad9a-724b3c15d7f6": {
-    "asset": 1794805892109,
-    "meta": 1794805937812,
-    "relativePath": "resources\\game_data.json"
-  },
   "0e226450-2056-4f27-89da-42f3d717e15d": {
     "asset": 1794806012768,
     "meta": 1794806015176,
@@ -4753,5 +4743,20 @@
     "asset": 1794806235231,
     "meta": 1794806236973,
     "relativePath": "Games\\Scripts\\video.ts"
+  },
+  "c5618c08-01f7-4cb1-b291-c801a993c8dd": {
+    "asset": 1794807365336,
+    "meta": 1794807365766,
+    "relativePath": "resources\\audios\\bgm18.mp3"
+  },
+  "c2ea2671-af3a-4c58-ad9a-724b3c15d7f6": {
+    "asset": 1794807392279,
+    "meta": 1794807392934,
+    "relativePath": "resources\\game_data.json"
+  },
+  "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
+    "asset": 1794807543867,
+    "meta": 1794807544744,
+    "relativePath": "Framework\\Scripts\\StartGame.ts"
   }
 }

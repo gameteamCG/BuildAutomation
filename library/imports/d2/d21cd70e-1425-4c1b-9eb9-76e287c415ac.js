@@ -29,7 +29,7 @@ var startGame = /** @class */ (function (_super) {
     function startGame() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.BGM_audio = null;
-        _this.volume = 1;
+        _this.volume = 0.08;
         _this.NextSceneName = "1";
         _this.TotalLevels = 7;
         _this.isAgeParameterNeeded = true;
@@ -236,8 +236,8 @@ var startGame = /** @class */ (function (_super) {
         if (!this.isPremiumGame) {
             this.hasAccess = true;
         }
-        // let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-        // cc.audioEngine.setVolume(id, this.volume);
+        var id = cc.audioEngine.playMusic(this.BGM_audio, true);
+        cc.audioEngine.setVolume(id, this.volume);
         if (isAudio == "false") {
             this.node.getChildByName("music").children[0].active = true;
             this.isMusicOn = false;
@@ -282,7 +282,7 @@ var startGame = /** @class */ (function (_super) {
         // this.OnTimer();
     };
     startGame.prototype.OnMusic = function (event) {
-        if (event.target.children[0].activeInHierarchy && this.BGM_audio != null) {
+        if (event.target.children[0].activeInHierarchy) {
             this.isMusicOn = true;
             event.target.children[0].active = false;
             var id = cc.audioEngine.playMusic(this.BGM_audio, true);

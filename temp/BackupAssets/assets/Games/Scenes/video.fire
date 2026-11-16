@@ -9196,8 +9196,10 @@
       "__id__": 181
     },
     "_enabled": true,
-    "BGM_audio": null,
-    "volume": 0,
+    "BGM_audio": {
+      "__uuid__": "c5618c08-01f7-4cb1-b291-c801a993c8dd"
+    },
+    "volume": 0.08,
     "NextSceneName": "1",
     "TotalLevels": 7,
     "isAgeParameterNeeded": false,
