@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "अंडा",
+    "texture": "82086fb5-f674-454f-95a7-408ff123dd5a",
+    "atlas": "",
+    "rect": [
+      143,
+      101,
+      215,
+      300
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

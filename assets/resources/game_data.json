@@ -1,0 +1,182 @@
+{
+  "additionalData": {
+    "GameID": "पहला अक्षर_LKG_18",
+    "totalLevel": "8",
+    "TitleImageName": "title.png",
+    "introBgName": "intro.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "bag"
+  },
+  "questionData": [
+    {
+      "questionText": "अभ्यास",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "1.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [""
+       
+      ],
+      "reiterations": [
+        "1.mp3"
+      ],
+      "commonRightOptionImageName": "9.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "asset2.png",
+        "asset1.png"
+      ]
+    },
+    {
+      "questionText": "अभ्यास",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+       ""
+      ],
+      "reiterations": [
+        "2.mp3"
+      ],
+      "commonRightOptionImageName": "9.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "asset7.png",
+        "asset1.png"
+      ]
+    },
+    {
+      "questionText": "अभ्यास",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "3.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        ""
+      ],
+      "reiterations": [
+        "3.mp3"
+      ],
+      "commonRightOptionImageName": "9.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "asset8.png",
+        "asset11.png"
+      ]
+    },
+    {
+      "questionText": "अभ्यास",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "4.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+       ""
+      ],
+      "reiterations": [
+        "4.mp3"
+      ],
+      "commonRightOptionImageName": "9.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "asset9.png",
+        "asset7.png"
+      ]
+    },
+    {
+      "questionText": "अभ्यास",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "5.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+       ""
+      ],
+      "reiterations": [
+        "5.mp3"
+      ],
+      "commonRightOptionImageName": "9.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "asset10.png",
+        "asset7.png"
+      ]
+    },
+    {
+      "questionText": "अभ्यास",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "6.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        ""
+      ],
+      "reiterations": [
+        "6.mp3"
+      ],
+      "commonRightOptionImageName": "9.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "asset11.png",
+        "asset6.png"
+      ]
+    },
+    {
+      "questionText": "अभ्यास",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "7.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        ""
+      ],
+      "reiterations": [
+        "7.mp3"
+      ],
+      "commonRightOptionImageName": "9.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset 308 (1).png",
+        "asset2.png"
+      ]
+    },
+     {
+      "questionText": "अभ्यास",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "8.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        ""
+
+      ],
+      "reiterations": [
+        "8.mp3"
+      ],
+      "commonRightOptionImageName": "9.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "asset25",
+        "asset2.png"
+      ]
+    }
+  ]
+}

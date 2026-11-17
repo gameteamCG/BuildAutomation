@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "इमली",
+    "texture": "7f53dfda-bf7e-4ccc-8494-ffe211040b84",
+    "atlas": "",
+    "rect": [
+      128,
+      101,
+      274,
+      273
+    ],
+    "offset": [
+      14.5,
+      13
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

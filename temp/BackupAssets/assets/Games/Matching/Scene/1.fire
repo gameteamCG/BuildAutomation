@@ -817,8 +817,8 @@
         0,
         0,
         1,
-        0.55,
-        0.55,
+        0.6,
+        0.6,
         1
       ]
     },
@@ -1096,8 +1096,8 @@
         0,
         0,
         1,
-        0.55,
-        0.55,
+        0.6,
+        0.6,
         1
       ]
     },
@@ -1549,8 +1549,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 250,
-      "height": 250
+      "width": 300,
+      "height": 300
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2248,8 +2248,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 3,
-    "transition": 3,
+    "_N$transition": 1,
+    "transition": 1,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,
@@ -2747,6 +2747,9 @@
       },
       {
         "__uuid__": "93e5bce9-491e-4c17-9da2-01075a41c0b3"
+      },
+      {
+        "__uuid__": "beb0f0de-9286-4097-8657-003c357be926"
       }
     ],
     "bagNegative": [

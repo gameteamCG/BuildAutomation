@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "औज़ार",
+    "texture": "e74a11f9-245e-44e3-91f8-14e499b0f995",
+    "atlas": "",
+    "rect": [
+      177,
+      104,
+      159,
+      297
+    ],
+    "offset": [
+      6,
+      -2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

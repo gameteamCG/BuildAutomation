@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "एकतारा",
+    "texture": "ffbab746-67de-4a4e-98b8-ed745c1d72c0",
+    "atlas": "",
+    "rect": [
+      127,
+      121,
+      263,
+      249
+    ],
+    "offset": [
+      8,
+      5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
