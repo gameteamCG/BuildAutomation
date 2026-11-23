@@ -45,7 +45,7 @@ var NewClass = /** @class */ (function (_super) {
         var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
         backBtn.scale = 1;
         musicBtn.scale = 1;
-        var nodes = [backBtn, musicBtn,];
+        var nodes = [backBtn, musicBtn];
         TVInputManager_1.default.Instance.setCanSelect(true);
         TVInputManager_1.default.Instance.init(nodes);
         // if (startGame.Instance.jockeyName == "Podar") {
@@ -76,19 +76,22 @@ var NewClass = /** @class */ (function (_super) {
             _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
             _this.node.getComponent(cc.AudioSource).play();
             cc.tween(_this.node.getChildByName("star1"))
-                .to(0.5, { scale: 0.7 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.7 }, { easing: "sineInOut" })
+                .start();
         }, 0.8);
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
             _this.node.getComponent(cc.AudioSource).play();
             cc.tween(_this.node.getChildByName("star2"))
-                .to(0.5, { scale: 0.7 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.7 }, { easing: "sineInOut" })
+                .start();
         }, 1.3);
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
             _this.node.getComponent(cc.AudioSource).play();
             cc.tween(_this.node.getChildByName("star3"))
-                .to(0.5, { scale: 0.7 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.7 }, { easing: "sineInOut" })
+                .start();
         }, 1.8);
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.yeah[0];

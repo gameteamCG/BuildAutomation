@@ -556,8 +556,8 @@
         0,
         0,
         1,
-        0.5,
-        0.5,
+        0.89,
+        0.89,
         1
       ]
     },
@@ -966,8 +966,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 320,
-      "height": 320
+      "width": 501,
+      "height": 501
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -985,8 +985,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        0.9,
+        0.9,
         1
       ]
     },
@@ -1048,9 +1048,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": {
-      "__uuid__": "29d1d0cd-5779-484b-9f23-033290ffc735"
-    },
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,
@@ -1217,8 +1215,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "ap word family",
-    "_N$string": "ap word family",
+    "_string": "Animal diet",
+    "_N$string": "Animal diet",
     "_fontSize": 90,
     "_lineHeight": 130,
     "_enableWrapText": true,
@@ -1374,8 +1372,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        247.76,
-        -146.64,
+        256.76,
+        -144.64,
         0,
         0,
         0,

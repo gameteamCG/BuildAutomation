@@ -30,7 +30,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var TVInputManager_1 = require("./TVInputManager");
@@ -143,22 +143,6 @@ var NewClass = /** @class */ (function (_super) {
                     .numberOfOptions; i++) {
                 _loop_1(i);
             }
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option1ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("1").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option2ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("2").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
         }
         else {
             this.loadAudioClip(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1]
@@ -348,7 +332,9 @@ var NewClass = /** @class */ (function (_super) {
             if (globalVariables_1.default.Instance.currentLevel == 1) {
                 var hand = this.node.getChildByName("hand");
                 console.log("answer array num = ", this.answerArray[0]);
-                hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
+                hand.setParent(this.node
+                    .getChildByName("Option")
+                    .getChildByName(this.answerArray[0]));
                 hand.setPosition(50, -50);
                 hand.angle = 30;
                 hand.setParentWithSamePos(this.node);
@@ -528,10 +514,10 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         cc.audioEngine.playEffect(this.correctAudio, false);
         cc.tween(this.node.getChildByName("QuestionBox"))
-            .to(0.5, { x: -129 }, { easing: "sineInOut" })
+            .to(0.5, { x: -150 }, { easing: "sineInOut" })
             .start();
         cc.tween(_node)
-            .to(0.5, { x: -101, y: 0, scale: 1, width: 400, height: 400 }, { easing: "sineInOut" })
+            .to(0.5, { x: -55, y: 0, scale: 1, width: 400, height: 400 }, { easing: "sineInOut" })
             .start();
         cc.tween(_node.children[0])
             .to(0.5, { width: 500, height: 500 }, { easing: "sineInOut" })

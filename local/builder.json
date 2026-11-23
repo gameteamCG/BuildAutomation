@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "D:\\Builds\\SB4\\ap_word_family_LKG_SB4_20_SmartTV",
+  "buildPath": "D:\\Builds\\GA\\UKG\\Animal_diet_UKG_GA_62",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
@@ -18,6 +18,115 @@
   "vsVersion": "auto",
   "buildScriptsOnly": false,
   "buildHistory": [
+    {
+      "id": 6,
+      "startTime": 1795417335192,
+      "targets": [
+        {
+          "taskId": "3c499be0-b8d0-4bbf-8f8f-b92b3297903a",
+          "platform": "web-mobile",
+          "platformText": "Web Mobile",
+          "color": "#1E88E5",
+          "icon": "fa-globe",
+          "iconUrl": "C:\\ProgramData\\cocos\\editors\\Creator\\2.4.8\\resources\\app.asar\\editor\\builtin\\builder\\static\\images\\platforms\\web-mobile\\icon.png",
+          "label": "Web Mobile",
+          "status": "success",
+          "buildType": "normal",
+          "distPath": "D:\\Builds\\GA\\UKG\\Animal_diet_UKG_GA_62\\web-mobile",
+          "error": null,
+          "startTime": 1795417335194,
+          "endTime": 1795417351185,
+          "config": {
+            "project": {
+              "title": "Animal_diet_UKG_GA_62",
+              "packageName": "org.cocos2d.demo",
+              "startScene": "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a",
+              "excludeScenes": [],
+              "orientation": {
+                "landscapeRight": true,
+                "landscapeLeft": true,
+                "portrait": false,
+                "upsideDown": false
+              },
+              "webOrientation": "landscape",
+              "inlineSpriteFrames": true,
+              "inlineSpriteFrames_native": true,
+              "mainCompressionType": "default",
+              "mainIsRemote": false,
+              "optimizeHotUpdate": false,
+              "md5Cache": true,
+              "nativeMd5Cache": true,
+              "encryptJs": true,
+              "xxteaKey": "ee9f229f-a1f7-4e",
+              "zipCompressJs": true,
+              "fb-instant-games": {},
+              "android": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": ""
+              },
+              "ios": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "ios_enable_jit": true
+              },
+              "mac": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "win32": {
+                "REMOTE_SERVER_ROOT": "",
+                "width": 1280,
+                "height": 720
+              },
+              "android-instant": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "pathPattern": "",
+                "scheme": "https",
+                "host": "",
+                "skipRecord": false,
+                "recordPath": ""
+              },
+              "appBundle": false,
+              "agreements": {},
+              "harmonyos-next": {
+                "packageName": "org.cocos2d.demo",
+                "REMOTE_SERVER_ROOT": "",
+                "jsEngine": "JSVM"
+              }
+            },
+            "local": {
+              "platform": "web-mobile",
+              "actualPlatform": "web-mobile",
+              "template": "link",
+              "buildPath": "D:\\Builds\\GA\\UKG\\Animal_diet_UKG_GA_62",
+              "debug": false,
+              "sourceMaps": false,
+              "embedWebDebugger": false,
+              "previewWidth": "1280",
+              "previewHeight": "720",
+              "useDebugKeystore": true,
+              "keystorePath": "",
+              "keystorePassword": "",
+              "keystoreAlias": "",
+              "keystoreAliasPassword": "",
+              "apiLevel": "",
+              "appABIs": [],
+              "vsVersion": "auto",
+              "buildScriptsOnly": false,
+              "builderEntryCategory": "",
+              "builderEntryTab": "",
+              "identityDefaults": {}
+            },
+            "platformProfile": {}
+          },
+          "buildStageGroup": {},
+          "compile": null
+        }
+      ]
+    },
     {
       "id": 5,
       "startTime": 1794471574260,
@@ -564,7 +673,7 @@
       ]
     }
   ],
-  "buildRunNextId": 6,
+  "buildRunNextId": 7,
   "builderEntryCategory": "",
   "builderEntryTab": "",
   "identityDefaults": {}

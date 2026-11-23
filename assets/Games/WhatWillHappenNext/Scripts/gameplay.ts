@@ -1,4 +1,4 @@
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 import TVInputManager from "./TVInputManager";
@@ -61,7 +61,7 @@ export default class NewClass extends cc.Component {
             return;
           }
           this.correctAudio = audioClip;
-        }
+        },
       );
       if (
         startGame.Instance.questions[globalVariables.Instance.currentLevel - 1]
@@ -91,7 +91,7 @@ export default class NewClass extends cc.Component {
                 .getChildByName((i + 1).toString())
                 .getComponent(cc.Sprite).spriteFrame = spriteFrame;
             }
-          }
+          },
         );
       }
 
@@ -108,7 +108,7 @@ export default class NewClass extends cc.Component {
             .getChildByName("QuestionBox")
             .getChildByName("ThirdObject")
             .getComponent(cc.Sprite).spriteFrame = spriteFrame;
-        }
+        },
       );
       for (
         let i = 0;
@@ -138,7 +138,7 @@ export default class NewClass extends cc.Component {
                 .getChildByName((i + 1).toString())
                 .getChildByName("img")
                 .getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            }
+            },
           );
         } else {
           // console.log("option text = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
@@ -152,29 +152,13 @@ export default class NewClass extends cc.Component {
             ].options[i];
         }
       }
-      // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option1ImageName, (err, texture) => {
-      //     if (err) {
-      //         console.error("Failed to load image:", err);
-      //         return;
-      //     }
-      //     const spriteFrame = new cc.SpriteFrame(texture);
-      //     this.node.getChildByName("Option").getChildByName("1").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-      // });
-      // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option2ImageName, (err, texture) => {
-      //     if (err) {
-      //         console.error("Failed to load image:", err);
-      //         return;
-      //     }
-      //     const spriteFrame = new cc.SpriteFrame(texture);
-      //     this.node.getChildByName("Option").getChildByName("2").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-      // });
     } else {
       this.loadAudioClip(
         startGame.Instance.questions[globalVariables.Instance.currentLevel - 1]
           .correctAudioName,
         (AudioClip) => {
           this.correctAudio = AudioClip;
-        }
+        },
       );
       if (
         startGame.Instance.questions[globalVariables.Instance.currentLevel - 1]
@@ -199,7 +183,7 @@ export default class NewClass extends cc.Component {
                 .getChildByName((i + 1).toString())
                 .getComponent(cc.Sprite).spriteFrame = spriteFrame;
             }
-          }
+          },
         );
       }
       this.loadSpriteFrame(
@@ -210,7 +194,7 @@ export default class NewClass extends cc.Component {
             .getChildByName("QuestionBox")
             .getChildByName("ThirdObject")
             .getComponent(cc.Sprite).spriteFrame = spriteFrame;
-        }
+        },
       );
 
       for (
@@ -235,7 +219,7 @@ export default class NewClass extends cc.Component {
                 .getChildByName((i + 1).toString())
                 .getChildByName("img")
                 .getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            }
+            },
           );
         } else {
           this.node
@@ -251,13 +235,13 @@ export default class NewClass extends cc.Component {
     }
     //startGame.Instance.jockeyName = "Podar";
     this.currentJcokey = startGame.Instance.jockey.getChildByName(
-      startGame.Instance.jockeyName
+      startGame.Instance.jockeyName,
     );
   }
 
   start() {
     ProgressBar.Instance.ProgressFill(
-      globalVariables.Instance.currentLevel - 1
+      globalVariables.Instance.currentLevel - 1,
     );
     startGame.Instance.node.getChildByName("progress").opacity = 255;
     this.answerArray = [
@@ -286,7 +270,7 @@ export default class NewClass extends cc.Component {
         );
       });
     let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(
-      (n) => !!n
+      (n) => !!n,
     );
     if (globalVariables.Instance.currentLevel == 1) {
       TVInputManager.Instance.init(nodes, 0);
@@ -380,7 +364,7 @@ export default class NewClass extends cc.Component {
       this.scheduleOnce(() => {
         cc.audioEngine.playEffect(this.popSound[0], false);
         cc.tween(
-          this.node.getChildByName("Option").getChildByName(i.toString())
+          this.node.getChildByName("Option").getChildByName(i.toString()),
         )
           .to(0.5, { scale: 1 }, { easing: "sineInOut" })
           .start();
@@ -410,7 +394,9 @@ export default class NewClass extends cc.Component {
         let hand = this.node.getChildByName("hand");
         console.log("answer array num = ", this.answerArray[0]);
         hand.setParent(
-          this.node.getChildByName("Option").getChildByName(this.answerArray[0])
+          this.node
+            .getChildByName("Option")
+            .getChildByName(this.answerArray[0]),
         );
         hand.setPosition(50, -50);
         hand.angle = 30;
@@ -442,7 +428,7 @@ export default class NewClass extends cc.Component {
             hand.setParent(
               this.node
                 .getChildByName("Option")
-                .getChildByName(this.answerArray[0])
+                .getChildByName(this.answerArray[0]),
             );
             hand.setPosition(50, -50);
             hand.angle = 30;
@@ -468,7 +454,7 @@ export default class NewClass extends cc.Component {
                 hand.setParent(
                   this.node
                     .getChildByName("Option")
-                    .getChildByName(this.answerArray[0])
+                    .getChildByName(this.answerArray[0]),
                 );
                 hand.setPosition(50, -50);
                 hand.angle = 30;
@@ -595,13 +581,13 @@ export default class NewClass extends cc.Component {
   callPositiveRection(_node: cc.Node) {
     cc.audioEngine.playEffect(this.correctAudio, false);
     cc.tween(this.node.getChildByName("QuestionBox"))
-      .to(0.5, { x: -129 }, { easing: "sineInOut" })
+      .to(0.5, { x: -150 }, { easing: "sineInOut" })
       .start();
     cc.tween(_node)
       .to(
         0.5,
-        { x: -101, y: 0, scale: 1, width: 400, height: 400 },
-        { easing: "sineInOut" }
+        { x: -55, y: 0, scale: 1, width: 400, height: 400 },
+        { easing: "sineInOut" },
       )
       .start();
     cc.tween(_node.children[0])
@@ -615,7 +601,7 @@ export default class NewClass extends cc.Component {
         ProgressBar.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(() => {
           ProgressBar.Instance.ProgressFill(
-            globalVariables.Instance.currentLevel
+            globalVariables.Instance.currentLevel,
           );
           this.scheduleOnce(() => {
             this.callJockey();
@@ -631,13 +617,13 @@ export default class NewClass extends cc.Component {
     let jockeytween: number[] = [-350, 350];
     this.currentJcokey.setPosition(
       pos[globalVariables.Instance.currentLevel % 2],
-      -350
+      -350,
     );
     cc.tween(this.currentJcokey)
       .to(
         0.5,
         { x: jockeytween[globalVariables.Instance.currentLevel % 2] },
-        { easing: "quartInOut" }
+        { easing: "quartInOut" },
       )
       .start();
     this.scheduleOnce(() => {
@@ -650,7 +636,7 @@ export default class NewClass extends cc.Component {
           .to(
             0.5,
             { x: pos[globalVariables.Instance.currentLevel % 2] },
-            { easing: "quartInOut" }
+            { easing: "quartInOut" },
           )
           .start();
         this.currentJcokey
@@ -712,7 +698,7 @@ export default class NewClass extends cc.Component {
 
   loadSpriteFrame(
     imageName: string,
-    callback: (spriteFrame: cc.SpriteFrame) => void
+    callback: (spriteFrame: cc.SpriteFrame) => void,
   ) {
     cc.loader.loadRes(
       "images/" + imageName,
@@ -723,12 +709,12 @@ export default class NewClass extends cc.Component {
           return;
         }
         callback(spriteFrame);
-      }
+      },
     );
   }
   loadAudioClip(
     audioName: string,
-    callback: (spriteFrame: cc.AudioClip) => void
+    callback: (spriteFrame: cc.AudioClip) => void,
   ) {
     cc.loader.loadRes(
       "audios/" + audioName,
@@ -739,7 +725,7 @@ export default class NewClass extends cc.Component {
           return;
         }
         callback(spriteFrame);
-      }
+      },
     );
   }
 
