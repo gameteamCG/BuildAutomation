@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "screamB",
+    "texture": "fa74b0bb-cfc9-4ba4-9f4c-29628e3c7a2e",
+    "atlas": "",
+    "rect": [
+      93,
+      75,
+      315,
+      350
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

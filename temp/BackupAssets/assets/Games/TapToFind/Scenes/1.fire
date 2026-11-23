@@ -2910,7 +2910,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 270.22,
+      "width": 457.91,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -2962,9 +2962,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": " Letter Pp",
-    "_N$string": " Letter Pp",
-    "_fontSize": 70,
+    "_string": " 'str','spr' and 'scr' ",
+    "_N$string": " 'str','spr' and 'scr' ",
+    "_fontSize": 60,
     "_lineHeight": 80,
     "_enableWrapText": true,
     "_N$file": {
