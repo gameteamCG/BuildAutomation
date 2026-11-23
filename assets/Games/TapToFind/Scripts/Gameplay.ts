@@ -17,6 +17,10 @@ export default class Gameplay extends cc.Component {
     @property(cc.AudioClip)
     negative_audio: cc.AudioClip = null;
 
+    // Brown stall / bg ki horizontal width badhane ke liye (1 = normal, 1.15 = 15% zyada chauda)
+    @property
+    bgHorizontalScale: number = 1.1;
+
     private questionAudio: cc.AudioClip = null;
     private correctAudio: cc.AudioClip = null;
     private wrongAudio: cc.AudioClip = null;
@@ -32,6 +36,21 @@ export default class Gameplay extends cc.Component {
     maxLevel: number = 0;
 
     onLoad() {
+        this.adjustBgHorizontalSize();
+    }
+
+    // Helper function jo bg node ki horizontal size badhayega
+    private adjustBgHorizontalSize() {
+        let bgNode = this.node.getChildByName("bg");
+        if (bgNode) {
+            let widget = bgNode.getComponent(cc.Widget);
+            if (widget) {
+                widget.enabled = false;
+            }
+            bgNode.scaleX = this.bgHorizontalScale;
+            // Agar scaleX ki jagah exact pixel width deni ho, toh niche wali line uncomment karein:
+            // bgNode.width = 1450;
+        }
     }
 
     LoadQuestion() {
@@ -53,6 +72,7 @@ export default class Gameplay extends cc.Component {
                 }
                 const spriteFrame = new cc.SpriteFrame(texture);
                 this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                this.adjustBgHorizontalSize();
             });
             cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionAudioName, (err, audioClip) => {
                 if (err) {
@@ -105,6 +125,7 @@ export default class Gameplay extends cc.Component {
         else {
             this.loadSpriteFrame(startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionBgName, (spriteFrame) => {
                 this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                this.adjustBgHorizontalSize();
             });
             this.loadAudioClip(startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionAudioName, (AudioClip) => {
                 this.questionAudio = AudioClip;
@@ -269,7 +290,7 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 70, _optionCount);
+            this.arrangeGridChildren(this.options, 10, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
             let _laypout1posX: number[] = [-700, -200, 300, 800];
@@ -553,7 +574,6 @@ export default class Gameplay extends cc.Component {
         cc.tween(this.currentJockey).to(0.5, { x: jockeytween[startGame.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
         this.scheduleOnce(() => {
             this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-            // cc.audioEngine.playEffect(this.correctAudio, false);
             cc.audioEngine.playEffect(this.postive_VO[currentClipNum], false);
             this.scheduleOnce(() => {
                 cc.tween(this.currentJockey).to(0.5, { x: pos[startGame.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
@@ -601,16 +621,13 @@ export default class Gameplay extends cc.Component {
         let children = centerNode.children;
         let totalWidth = 0;
 
-        // Calculate total width required
         for (let child of children) {
             totalWidth += child.width;
         }
-        totalWidth += spacing * (children.length - 1); // Add spaces between children
+        totalWidth += spacing * (children.length - 1);
 
-        // Starting X position
         let startX = -totalWidth / 2;
 
-        // Arrange children
         for (let i = 0; i < children.length; i++) {
             let child = children[i];
             child.x = startX + child.width / 2;
@@ -628,7 +645,7 @@ export default class Gameplay extends cc.Component {
 
         let rowHeight = 0;
         if (children.length > 0) {
-            rowHeight = children[0].height + spacing; // Assuming all children have the same height
+            rowHeight = children[0].height + spacing;
         }
 
         let startY = (totalRows - 1) * rowHeight / 2;
@@ -638,7 +655,6 @@ export default class Gameplay extends cc.Component {
             let row = Math.floor(i / maxColumns);
 
             let totalWidth = 0;
-            // Calculate the total width of the current row
             for (let j = 0; j < maxColumns && (row * maxColumns + j) < children.length; j++) {
                 totalWidth += children[row * maxColumns + j].width;
             }
@@ -669,16 +685,7 @@ export default class Gameplay extends cc.Component {
             callback(spriteFrame);
         });
     }
-    // loadSpriteFrame(imageName: string, callback: (spriteFrame: cc.SpriteFrame) => void) {
-    //     cc.loader.loadRes(imageName, cc.SpriteFrame, (err, spriteFrame) => {
-    //         if (err) {
-    //             cc.error("Failed to load sprite:", imageName, err);
-    //             return;
-    //         }
 
-    //         callback(spriteFrame);
-    //     });
-    // }
     loadAudioClip(audioName: string, callback: (spriteFrame: cc.AudioClip) => void) {
         cc.loader.loadRes("audios/" + audioName, cc.AudioClip, (err, audioClip) => {
             if (err) {

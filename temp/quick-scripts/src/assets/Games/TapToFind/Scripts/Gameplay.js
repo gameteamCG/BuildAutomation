@@ -43,6 +43,8 @@ var Gameplay = /** @class */ (function (_super) {
         _this.pop_audio = null;
         _this.positive_audio = null;
         _this.negative_audio = null;
+        // Brown stall / bg ki horizontal width badhane ke liye (1 = normal, 1.15 = 15% zyada chauda)
+        _this.bgHorizontalScale = 1.1;
         _this.questionAudio = null;
         _this.correctAudio = null;
         _this.wrongAudio = null;
@@ -58,6 +60,20 @@ var Gameplay = /** @class */ (function (_super) {
         return _this;
     }
     Gameplay.prototype.onLoad = function () {
+        this.adjustBgHorizontalSize();
+    };
+    // Helper function jo bg node ki horizontal size badhayega
+    Gameplay.prototype.adjustBgHorizontalSize = function () {
+        var bgNode = this.node.getChildByName("bg");
+        if (bgNode) {
+            var widget = bgNode.getComponent(cc.Widget);
+            if (widget) {
+                widget.enabled = false;
+            }
+            bgNode.scaleX = this.bgHorizontalScale;
+            // Agar scaleX ki jagah exact pixel width deni ho, toh niche wali line uncomment karein:
+            // bgNode.width = 1450;
+        }
     };
     Gameplay.prototype.LoadQuestion = function () {
         var _this = this;
@@ -79,6 +95,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 var spriteFrame = new cc.SpriteFrame(texture);
                 _this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                _this.adjustBgHorizontalSize();
             });
             cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionAudioName, function (err, audioClip) {
                 if (err) {
@@ -138,6 +155,7 @@ var Gameplay = /** @class */ (function (_super) {
         else {
             this.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionBgName, function (spriteFrame) {
                 _this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                _this.adjustBgHorizontalSize();
             });
             this.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionAudioName, function (AudioClip) {
                 _this.questionAudio = AudioClip;
@@ -315,7 +333,7 @@ var Gameplay = /** @class */ (function (_super) {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 70, _optionCount);
+            this.arrangeGridChildren(this.options, 10, _optionCount);
         }
         if (this.optionsLayout == "layout1") {
             var _laypout1posX = [-700, -200, 300, 800];
@@ -597,7 +615,6 @@ var Gameplay = /** @class */ (function (_super) {
         cc.tween(this.currentJockey).to(0.5, { x: jockeytween[StartGame_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
         this.scheduleOnce(function () {
             _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-            // cc.audioEngine.playEffect(this.correctAudio, false);
             cc.audioEngine.playEffect(_this.postive_VO[currentClipNum], false);
             _this.scheduleOnce(function () {
                 cc.tween(_this.currentJockey).to(0.5, { x: pos[StartGame_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
@@ -641,15 +658,12 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.arrangeChildren = function (centerNode, spacing) {
         var children = centerNode.children;
         var totalWidth = 0;
-        // Calculate total width required
         for (var _i = 0, children_1 = children; _i < children_1.length; _i++) {
             var child = children_1[_i];
             totalWidth += child.width;
         }
-        totalWidth += spacing * (children.length - 1); // Add spaces between children
-        // Starting X position
+        totalWidth += spacing * (children.length - 1);
         var startX = -totalWidth / 2;
-        // Arrange children
         for (var i = 0; i < children.length; i++) {
             var child = children[i];
             child.x = startX + child.width / 2;
@@ -665,14 +679,13 @@ var Gameplay = /** @class */ (function (_super) {
         var totalRows = Math.ceil(children.length / maxColumns);
         var rowHeight = 0;
         if (children.length > 0) {
-            rowHeight = children[0].height + spacing; // Assuming all children have the same height
+            rowHeight = children[0].height + spacing;
         }
         var startY = (totalRows - 1) * rowHeight / 2;
         for (var i = 0; i < children.length; i++) {
             var column = i % maxColumns;
             var row = Math.floor(i / maxColumns);
             var totalWidth = 0;
-            // Calculate the total width of the current row
             for (var j = 0; j < maxColumns && (row * maxColumns + j) < children.length; j++) {
                 totalWidth += children[row * maxColumns + j].width;
             }
@@ -698,15 +711,6 @@ var Gameplay = /** @class */ (function (_super) {
             callback(spriteFrame);
         });
     };
-    // loadSpriteFrame(imageName: string, callback: (spriteFrame: cc.SpriteFrame) => void) {
-    //     cc.loader.loadRes(imageName, cc.SpriteFrame, (err, spriteFrame) => {
-    //         if (err) {
-    //             cc.error("Failed to load sprite:", imageName, err);
-    //             return;
-    //         }
-    //         callback(spriteFrame);
-    //     });
-    // }
     Gameplay.prototype.loadAudioClip = function (audioName, callback) {
         cc.loader.loadRes("audios/" + audioName, cc.AudioClip, function (err, audioClip) {
             if (err) {
@@ -731,6 +735,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "negative_audio", void 0);
+    __decorate([
+        property
+    ], Gameplay.prototype, "bgHorizontalScale", void 0);
     Gameplay = __decorate([
         ccclass
     ], Gameplay);
