@@ -67,18 +67,26 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.playAnimation = function () {
         var _this = this;
-        cc.tween(this.node.children[0]).to(0.5, { x: 0 }, { easing: "backInOut" }).start();
+        cc.tween(this.node.children[0])
+            .to(0.5, { x: 0 }, { easing: "backInOut" })
+            .start();
         var jockeyNode = this.node.children[0].getChildByName(this.jockeyName);
         jockeyNode.active = true;
         this.scheduleOnce(function () {
-            jockeyNode.getComponent(sp.Skeleton).setAnimation(0, _this.anim1Name, false);
+            jockeyNode
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, _this.anim1Name, false);
             cc.audioEngine.playEffect(StartGame_1.default.Instance.introAudio1, false);
             _this.scheduleOnce(function () {
-                jockeyNode.getComponent(sp.Skeleton).setAnimation(0, _this.anim2Name, true);
+                jockeyNode
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, _this.anim2Name, true);
                 cc.audioEngine.playEffect(StartGame_1.default.Instance.introAudio2, false);
                 _this.scheduleOnce(function () {
                     jockeyNode.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                    cc.tween(_this.node.children[0]).to(0.5, { opacity: 0 }, { easing: "sineInOut" }).start();
+                    cc.tween(_this.node.children[0])
+                        .to(0.5, { opacity: 0 }, { easing: "sineInOut" })
+                        .start();
                     _this.scheduleOnce(function () {
                         _this.curtain.getComponent(cc.Animation).play();
                         _this.videoPlayerNode.active = true;
@@ -110,22 +118,28 @@ var NewClass = /** @class */ (function (_super) {
         //let soundBtn = this.node.getChildByName("panel").getChildByName("soundbutton");
         var playBtn = this.node.getChildByName("play");
         var nodes = [playBtn, backBtn, musicBtn].filter(function (n) { return !!n; });
-        TVInputManager_1.default.Instance.init(nodes, -1);
+        TVInputManager_1.default.Instance.init(nodes, 2);
         TVInputManager_1.default.Instance.setCanSelect(true);
     };
     NewClass.prototype.Play = function () {
         var _this = this;
-        this.videoPlayerNode.getComponent(cc.VideoPlayer).remoteURL = StartGame_1.default.Instance.videoLink;
+        this.videoPlayerNode.getComponent(cc.VideoPlayer).remoteURL =
+            StartGame_1.default.Instance.videoLink;
         this.jockeyName = StartGame_1.default.Instance.jockeyName;
         if (StartGame_1.default.Instance.jockeyName == "tlc") {
             this.node.getChildByName("tlc").active = false;
         }
         cc.audioEngine.playEffect(this.btnClick, false);
-        this.node.getChildByName("play").getComponent(cc.Button).interactable = false;
+        this.node.getChildByName("play").getComponent(cc.Button).interactable =
+            false;
         this.canTouch = false;
         TVInputManager_1.default.Instance.setCanSelect(false);
-        cc.tween(this.node.getChildByName("title")).to(1, { y: 800 }, { easing: "backInOut" }).start();
-        cc.tween(this.node.getChildByName("play")).to(1, { y: -800 }, { easing: "backInOut" }).start();
+        cc.tween(this.node.getChildByName("title"))
+            .to(1, { y: 800 }, { easing: "backInOut" })
+            .start();
+        cc.tween(this.node.getChildByName("play"))
+            .to(1, { y: -800 }, { easing: "backInOut" })
+            .start();
         if (StartGame_1.default.Instance.introAudio1 && StartGame_1.default.Instance.introAudio2) {
             this.scheduleOnce(function () {
                 _this.playAnimation();
