@@ -666,7 +666,7 @@ var video = /** @class */ (function (_super) {
         //console.log("setupTVFocus3:", nodes.map(n => n.name));
         if (this.currentQuestion == 1 && !this.isVisited) {
             this.isVisited = true;
-            TVInputManager_1.default.Instance.init(nodes, 0);
+            TVInputManager_1.default.Instance.init(nodes, 3);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);

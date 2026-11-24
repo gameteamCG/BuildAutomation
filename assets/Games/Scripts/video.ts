@@ -703,7 +703,7 @@ export default class video extends cc.Component {
 
         if (this.currentQuestion == 1 && !this.isVisited) {
             this.isVisited = true;
-            TVInputManager.Instance.init(nodes, 0);
+            TVInputManager.Instance.init(nodes, 3);
         } else {
             TVInputManager.Instance.init(nodes, -1);
         }
