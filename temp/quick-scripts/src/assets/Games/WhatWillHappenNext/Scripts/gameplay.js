@@ -744,7 +744,7 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.OptionsLayoutVertical = function () {
         var optionsLayout = this.optionsNode;
         var optionNodes = optionsLayout.children;
-        var paddingBetweenOptions = 10;
+        var paddingBetweenOptions = 20;
         var totalHeight = 0;
         var maxWidth = 0;
         // Calculate the total height and the maximum width of the options

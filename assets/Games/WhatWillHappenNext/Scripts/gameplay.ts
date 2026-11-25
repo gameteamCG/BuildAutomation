@@ -757,7 +757,7 @@ export default class NewClass extends cc.Component {
         let optionsLayout = this.optionsNode;
         let optionNodes = optionsLayout.children;
 
-        const paddingBetweenOptions = 10;
+        const paddingBetweenOptions = 20;
 
         let totalHeight = 0;
         let maxWidth = 0;
