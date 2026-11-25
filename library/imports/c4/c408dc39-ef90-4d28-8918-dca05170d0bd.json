@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "My body parts _NUR_GA_5",
-      "totalLevel": "7",
+      "totalLevel": "8",
       "TitleImageName": "bodypartstitle.png",
       "introBgName": "bgmain.png",
       "bgmMusicName": "bgm2.mp3",
@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "Kathak",
+        "questionText": "Diwali",
         "questionAudioName": "Q1.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard5.png",
@@ -24,16 +24,16 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "Manipuri.png",
-          "kathak.png"
+          "Diwali.png",
+          "Eid.png"
         ],
         "correctAudios": [
           "1.mp3"
         ],
-        "correctAnswerNum": "2"
+        "correctAnswerNum": "1"
       },
       {
-        "questionText": "Rouf",
+        "questionText": "Eid",
         "questionAudioName": "Q2.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard5.png",
@@ -41,16 +41,16 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "Rouf.png",
-          "bihu.png"
+          "Onam.png",
+          "Eid.png"
         ],
         "correctAudios": [
           "2.mp3"
         ],
-        "correctAnswerNum": "1"
+        "correctAnswerNum": "2"
       },
       {
-        "questionText": "Bharatnatyam",
+        "questionText": "Onam",
         "questionAudioName": "Q3.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard5.png",
@@ -58,8 +58,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "kathak.png",
-          "Bharatanatyam.png"
+          "Lohri.png",
+          "Onam.png"
         ],
         "correctAudios": [
           "3.mp3"
@@ -67,7 +67,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Manipuri",
+        "questionText": "Lohri",
         "questionAudioName": "Q4.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard5.png",
@@ -75,8 +75,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "Manipuri.png",
-          "bhangra.png"
+          "Lohri.png",
+          "Independence_Day.png"
         ],
         "correctAudios": [
           "4.mp3"
@@ -84,7 +84,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Bihu",
+        "questionText": "Independence day",
         "questionAudioName": "Q5.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard5.png",
@@ -92,8 +92,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "Rouf.png",
-          "bihu.png"
+          "Gandhi_Jayanti.png",
+          "Independence_Day.png"
         ],
         "correctAudios": [
           "5.mp3"
@@ -101,7 +101,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Bhangra",
+        "questionText": "Gandhi jayanti",
         "questionAudioName": "Q6.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard5.png",
@@ -109,8 +109,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "bhangra.png",
-          "Bharatanatyam.png"
+          "Gandhi_Jayanti.png",
+          "Hornbill_Festival.png"
         ],
         "correctAudios": [
           "6.mp3"
@@ -118,7 +118,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Kalbelia",
+        "questionText": "Hornbill festival",
         "questionAudioName": "Q7.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard5.png",
@@ -126,13 +126,30 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "Manipuri.png",
-          "kalbelia.png"
+          "Hemis_Festival.png",
+          "Hornbill_Festival.png"
         ],
         "correctAudios": [
           "7.mp3"
         ],
         "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Hemis festival",
+        "questionAudioName": "Q8.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Hemis_Festival.png",
+          "Diwali.png"
+        ],
+        "correctAudios": [
+          "8.mp3"
+        ],
+        "correctAnswerNum": "1"
       }
     ]
   }

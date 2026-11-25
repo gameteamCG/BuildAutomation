@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Hemis_Festival",
+    "texture": "4c164e19-91e6-4d5a-b7a1-f2bbf7c0e5d3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      423,
+      450
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      423,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

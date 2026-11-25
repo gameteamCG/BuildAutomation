@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Hornbill_Festival",
+    "texture": "11274695-e44e-4361-8b71-cc4b769d1cc4",
+    "atlas": "",
+    "rect": [
+      0,
+      8,
+      423,
+      442
+    ],
+    "offset": [
+      0,
+      -4
+    ],
+    "originalSize": [
+      423,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

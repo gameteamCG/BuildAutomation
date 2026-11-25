@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "11274695-e44e-4361-8b71-cc4b769d1cc4",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 423,
+  "height": 450,
+  "platformSettings": {},
+  "subMetas": {
+    "Hornbill_Festival": {
+      "ver": "1.0.6",
+      "uuid": "1c6aa793-9ad9-4797-b5dc-94bb095e51ee",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "11274695-e44e-4361-8b71-cc4b769d1cc4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -4,
+      "trimX": 0,
+      "trimY": 8,
+      "width": 423,
+      "height": 442,
+      "rawWidth": 423,
+      "rawHeight": 450,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

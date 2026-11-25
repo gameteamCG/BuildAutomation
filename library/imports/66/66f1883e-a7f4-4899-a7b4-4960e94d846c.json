@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Lohri",
+    "texture": "6f1ec4b1-e2e4-47ee-9825-007c47486842",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      423,
+      447
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      423,
+      449
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

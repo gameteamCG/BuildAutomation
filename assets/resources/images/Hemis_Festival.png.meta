@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4c164e19-91e6-4d5a-b7a1-f2bbf7c0e5d3",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 423,
+  "height": 450,
+  "platformSettings": {},
+  "subMetas": {
+    "Hemis_Festival": {
+      "ver": "1.0.6",
+      "uuid": "a85462f6-3929-4bf9-828d-872af2a1ed20",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4c164e19-91e6-4d5a-b7a1-f2bbf7c0e5d3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 423,
+      "height": 450,
+      "rawWidth": 423,
+      "rawHeight": 450,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

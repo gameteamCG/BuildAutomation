@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Independence_Day",
+    "texture": "292aeff3-6e4b-4dc9-9514-6dd10ef1332f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      423,
+      450
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      423,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

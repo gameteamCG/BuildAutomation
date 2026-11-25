@@ -1507,8 +1507,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 65,
-    "_lineHeight": 110,
+    "_fontSize": 55,
+    "_lineHeight": 100,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "d9348f57-e185-484c-b22d-019c41022ac4"

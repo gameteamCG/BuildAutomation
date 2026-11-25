@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Diwali",
+    "texture": "de137d00-a575-4f80-bd7b-b39c41dbd9b2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      423,
+      450
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      423,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

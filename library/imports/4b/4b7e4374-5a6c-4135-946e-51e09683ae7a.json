@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Onam",
+    "texture": "65d7608a-f8f7-4218-a62b-bcbc41bee4a6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      423,
+      450
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      423,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
