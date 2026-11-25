@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "commonstone",
+    "texture": "91909c91-2df4-4e53-bb6f-f2e30e947e72",
+    "atlas": "",
+    "rect": [
+      6,
+      81,
+      288,
+      139
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
