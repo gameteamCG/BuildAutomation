@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Manipuri",
+    "texture": "4b03ccdf-18da-4683-b46a-5ad8de35dc25",
+    "atlas": "",
+    "rect": [
+      32,
+      66,
+      431,
+      372
+    ],
+    "offset": [
+      -3,
+      -1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

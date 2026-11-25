@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kalbelia",
+    "texture": "feb88fe5-da1a-44bf-b24a-4da207e4ce93",
+    "atlas": "",
+    "rect": [
+      61,
+      33,
+      363,
+      436
+    ],
+    "offset": [
+      -8,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

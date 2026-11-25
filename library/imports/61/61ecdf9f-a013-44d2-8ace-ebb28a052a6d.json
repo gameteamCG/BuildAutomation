@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bhangra",
+    "texture": "b0417565-692e-41a8-9cb5-eaf02034e739",
+    "atlas": "",
+    "rect": [
+      109,
+      28,
+      283,
+      442
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

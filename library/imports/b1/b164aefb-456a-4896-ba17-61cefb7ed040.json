@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bihu",
+    "texture": "854ac0c7-82e2-48e3-acac-23af5c7dc5e2",
+    "atlas": "",
+    "rect": [
+      63,
+      55,
+      394,
+      396
+    ],
+    "offset": [
+      9.5,
+      -2.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

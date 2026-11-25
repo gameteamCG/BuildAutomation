@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Bharatanatyam",
+    "texture": "c11807af-d0d1-4fb2-95e8-19e488bc2802",
+    "atlas": "",
+    "rect": [
+      90,
+      33,
+      329,
+      422
+    ],
+    "offset": [
+      4,
+      6.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

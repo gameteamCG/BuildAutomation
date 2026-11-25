@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kathak",
+    "texture": "8f291f5e-b404-4758-a556-2f59aa4d3579",
+    "atlas": "",
+    "rect": [
+      61,
+      26,
+      365,
+      449
+    ],
+    "offset": [
+      -7,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
