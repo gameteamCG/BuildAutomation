@@ -1326,8 +1326,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 330,
-      "height": 330
+      "width": 500,
+      "height": 500
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1432,7 +1432,7 @@
     "node": {
       "__id__": 28
     },
-    "_enabled": true,
+    "_enabled": false,
     "_materials": [
       {
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
@@ -3078,7 +3078,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 339.81,
+      "width": 364.36,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -3130,8 +3130,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "फलों के नाम",
-    "_N$string": "फलों के नाम",
+    "_string": "Recap digraph",
+    "_N$string": "Recap digraph",
     "_fontSize": 70,
     "_lineHeight": 80,
     "_enableWrapText": true,

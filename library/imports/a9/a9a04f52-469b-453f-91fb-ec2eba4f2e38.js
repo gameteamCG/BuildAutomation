@@ -317,7 +317,7 @@ var Gameplay = /** @class */ (function (_super) {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            var _laypout1posX = [-485, -155, 175, 505];
+            var _laypout1posX = [-450, 0, 450];
             var _laypout1posY = [0, 0, 0, 0];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
@@ -508,7 +508,6 @@ var Gameplay = /** @class */ (function (_super) {
                         }
                         else {
                             _this.scheduleOnce(function () {
-                                cc.tween(_node).to(0.3, { x: 0 }, { easing: "sineInOut" }).start();
                                 if (_this.reiterationAudio[audioNum]) {
                                     cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
                                 }

@@ -272,7 +272,7 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            let _laypout1posX: number[] = [-485, -155, 175, 505];
+            let _laypout1posX: number[] = [-450, 0, 450];
             let _laypout1posY: number[] = [0, 0, 0, 0];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
@@ -462,7 +462,6 @@ export default class Gameplay extends cc.Component {
                             }
                             else {
                                 this.scheduleOnce(() => {
-                                    cc.tween(_node).to(0.3, { x: 0 }, { easing: "sineInOut" }).start();
                                     if (this.reiterationAudio[audioNum]) {
                                         cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
                                     }
