@@ -534,8 +534,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        1.1,
+        1.1,
         1
       ]
     },
@@ -568,10 +568,10 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "a323bb63-7e86-4156-94c8-1ee2b0c3fb97"
+      "__uuid__": "e9254417-6e67-4c6a-b9f8-d6bfef894a22"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -2375,7 +2375,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "3027e8a8-a76d-49f5-8d61-6cc9042c3afd"
+      "__uuid__": "e9254417-6e67-4c6a-b9f8-d6bfef894a22"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -2387,7 +2387,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": false,
+    "_isTrimmedMode": true,
     "_atlas": null,
     "_id": "c4GdUmnjlGe4OmG2K/fPzL"
   },
@@ -3795,8 +3795,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 50,
-      "height": 50
+      "width": 60,
+      "height": 60
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3807,8 +3807,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        176.314,
-        -104.835,
+        181.314,
+        -102.835,
         0,
         0,
         0,
@@ -3973,8 +3973,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 284.59,
-      "height": 63
+      "width": 260.16,
+      "height": 88.2
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3986,7 +3986,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -56.23,
+        -52.23,
         0,
         0,
         0,
@@ -4025,13 +4025,13 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Leafy vegetables",
-    "_N$string": "Leafy vegetables",
-    "_fontSize": 45,
-    "_lineHeight": 50,
+    "_string": "Tens and ones",
+    "_N$string": "Tens and ones",
+    "_fontSize": 50,
+    "_lineHeight": 70,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "e9b6b310-5e42-4213-a3f1-9ffa7547edbb"
+      "__uuid__": "76a75812-cc05-483f-a8f7-4ccf842f4aa4"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -4128,7 +4128,7 @@
     "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "e9b6b310-5e42-4213-a3f1-9ffa7547edbb"
+      "__uuid__": "76a75812-cc05-483f-a8f7-4ccf842f4aa4"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
