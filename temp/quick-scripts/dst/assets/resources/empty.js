@@ -10,7 +10,7 @@
                     };
                     function __define (exports, require, module) {
                         if (!nodeEnv) {__quick_compile_project__.registerModule(__filename, module);}"use strict";
-cc._RF.push(module, '3814cSVloBJZbKnKvdTSuad', 'empty');
+cc._RF.push(module, '4f064MEYYtJO6wbiCS276Ul', 'empty');
 // resources/empty.ts
 
 "use strict";
