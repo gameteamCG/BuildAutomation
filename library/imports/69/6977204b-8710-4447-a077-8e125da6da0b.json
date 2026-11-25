@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dessert",
+    "texture": "b7359fd1-6bbb-4f7c-acba-a022fa1d2756",
+    "atlas": "",
+    "rect": [
+      11,
+      93,
+      233,
+      54
+    ],
+    "offset": [
+      2,
+      5.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Landforms on the Earth_UKG_GA_119",
+      "totalLevel": "6",
+      "TitleImageName": "Asset28.png",
+      "introBgName": "jrkg.png",
+      "bgmMusicName": "ColourBGM.mp3",
+      "mainBgName": "Asset1(10).png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "India’s nature wonders",
+        "questionImageName": "1.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset2.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "river.png",
+          "plain.png",
+          "mountain.png"
+        ],
+        "correctAudioName": "mountain.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "India’s nature wonders",
+        "questionImageName": "5.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset2.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "river.png",
+          "1pond.png",
+          "valley.png"
+        ],
+        "correctAudioName": "river.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "India’s nature wonders",
+        "questionImageName": "7.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset2.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "plain.png",
+          "1pond.png",
+          "dessert.png"
+        ],
+        "correctAudioName": "dessert.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "India’s nature wonders",
+        "questionImageName": "8.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset2.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "plain.png",
+          "mountain.png",
+          "1hill.png"
+        ],
+        "correctAudioName": "plain.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "India’s nature wonders",
+        "questionImageName": "9.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset2.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "river.png",
+          "valley.png",
+          "1pond.png"
+        ],
+        "correctAudioName": "valley.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "India’s nature wonders",
+        "questionImageName": "hill.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset2.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1hill.png",
+          "mountain.png",
+          "plain.png"
+        ],
+        "correctAudioName": "hills.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
