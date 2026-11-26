@@ -85,10 +85,10 @@ var GameEnd = /** @class */ (function (_super) {
             _this.node.getComponent(cc.AudioSource).play();
             console.log("gameEnded--" + true);
         }, 2.5);
-        // this.scheduleOnce(() => {
-        //   let node = this.node.getChildByName("end");
-        //   node.active = true;
-        // }, 3);
+        this.scheduleOnce(function () {
+            var node = _this.node.getChildByName("end");
+            node.active = true;
+        }, 3);
     };
     GameEnd.prototype.EndButton = function () {
         // cc.audioEngine.playEffect(startGame.Instance.play_audio, false);

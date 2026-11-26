@@ -75,10 +75,10 @@ export default class GameEnd extends cc.Component {
       console.log("gameEnded--" + true);
     }, 2.5);
 
-    // this.scheduleOnce(() => {
-    //   let node = this.node.getChildByName("end");
-    //   node.active = true;
-    // }, 3);
+    this.scheduleOnce(() => {
+      let node = this.node.getChildByName("end");
+      node.active = true;
+    }, 3);
   }
 
   public EndButton() {
