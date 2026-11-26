@@ -446,11 +446,37 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.callPositiveRection = function (_node) {
         var _this = this;
         cc.audioEngine.playEffect(this.correctAudio, false);
-        cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -150 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { x: -80, y: 0, scale: 1, width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_node.children[0]).to(0.5, { width: 500, height: 500 }, { easing: "sineInOut" }).start();
+        var qBox = this.node.getChildByName("QuestionBox");
+        var worldPos = _node.parent.convertToWorldSpaceAR(_node.position);
+        var localPos = this.node.convertToNodeSpaceAR(worldPos);
+        _node.parent = this.node;
+        _node.setPosition(localPos);
+        var targetY = 0;
+        var boxWidth = qBox.width;
+        var boxHeight = qBox.height;
+        var tabOverlap = boxWidth * 0.12;
+        var qBoxTargetX = -(boxWidth / 2) + (tabOverlap / 2);
+        var optionTargetX = (boxWidth / 2) - (tabOverlap / 2);
+        cc.tween(qBox)
+            .to(0.5, { x: qBoxTargetX, y: targetY, scale: 1 }, { easing: "sineInOut" })
+            .start();
+        cc.tween(_node)
+            .to(0.5, {
+            x: optionTargetX,
+            y: targetY,
+            scale: 1,
+            width: boxWidth,
+            height: boxHeight
+        }, { easing: "sineInOut" })
+            .start();
+        for (var _i = 0, _a = _node.children; _i < _a.length; _i++) {
+            var child = _a[_i];
+            cc.tween(child)
+                .to(0.5, { x: 15, y: 0, width: boxWidth * 0.7, height: boxHeight * 0.7 }, { easing: "sineInOut" })
+                .start();
+        }
         this.scheduleOnce(function () {
-            _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+            _this.node.getChildByName("confetti").setPosition(0, targetY);
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(_this.positiveSound[0], false);
             _this.scheduleOnce(function () {

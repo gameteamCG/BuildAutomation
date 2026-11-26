@@ -425,15 +425,46 @@ export default class NewClass extends cc.Component {
         }
     }
 
+
     callPositiveRection(_node: cc.Node) {
         cc.audioEngine.playEffect(this.correctAudio, false);
-        cc.tween(this.node.getChildByName("QuestionBox")).to(0.5, { x: -150 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { x: -80, y: 0, scale: 1, width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_node.children[0]).to(0.5, { width: 500, height: 500 }, { easing: "sineInOut" }).start();
+
+        let qBox = this.node.getChildByName("QuestionBox");
+        let worldPos = _node.parent.convertToWorldSpaceAR(_node.position);
+        let localPos = this.node.convertToNodeSpaceAR(worldPos);
+        _node.parent = this.node;
+        _node.setPosition(localPos);
+        let targetY = 0;
+        let boxWidth = qBox.width;
+        let boxHeight = qBox.height;
+        let tabOverlap = boxWidth * 0.12;
+        let qBoxTargetX = -(boxWidth / 2) + (tabOverlap / 2);
+        let optionTargetX = (boxWidth / 2) - (tabOverlap / 2);
+
+        cc.tween(qBox)
+            .to(0.5, { x: qBoxTargetX, y: targetY, scale: 1 }, { easing: "sineInOut" })
+            .start();
+
+        cc.tween(_node)
+            .to(0.5, {
+                x: optionTargetX,
+                y: targetY,
+                scale: 1,
+                width: boxWidth,
+                height: boxHeight
+            }, { easing: "sineInOut" })
+            .start();
+        for (let child of _node.children) {
+            cc.tween(child)
+                .to(0.5, { x: 15, y: 0, width: boxWidth * 0.7, height: boxHeight * 0.7 }, { easing: "sineInOut" })
+                .start();
+        }
+
         this.scheduleOnce(() => {
-            this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
+            this.node.getChildByName("confetti").setPosition(0, targetY);
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(this.positiveSound[0], false);
+
             this.scheduleOnce(() => {
                 ProgressBar.Instance.createStarTrails(6, this.node);
                 this.scheduleOnce(() => {
