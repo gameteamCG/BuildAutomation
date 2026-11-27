@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Childrens_day",
+    "texture": "9751e2ad-c2a5-4949-995b-01fe675974e2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      940,
+      222
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      940,
+      222
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
